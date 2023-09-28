@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--generator='jetpack-11.1.2'-->
+<!--Jetpack_Sitemap_Buffer_Master-->
+<?xml-stylesheet type="text/xsl" href="//craphound.com/sitemap-index.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://craphound.com/sitemap-1.xml</loc>
+    <lastmod>2022-09-27T13:40:10Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://craphound.com/sitemap-2.xml</loc>
+    <lastmod>2022-09-27T19:27:34Z</lastmod>
+  </sitemap>
+</sitemapindex>

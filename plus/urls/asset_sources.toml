@@ -1,0 +1,220 @@
+[[asset]]
+files = []
+source = ['https://fonts.google.com/specimen/Forum?preview.text_type=custom&query=forum']
+author = ['Jaime Scribbles']
+
+[[asset]]
+files  = ['kenvector_future.ttf', 'kenvector_future_thin.ttf' 'Kenney Blocks.ttf', 'Kenney Bold.ttf', 'Kenney Future.ttf', 'Kenney Future Narrow.ttf', 'Kenney Future Square.ttf', 'Kenney High.ttf', 'Kenney High Square.ttf', 'Kenney Mini.ttf', 'Kenney Mini Square.ttf', 'Kenney Pixel.ttf', 'Kenney Pixel Square.ttf', 'Kenney Rocket.ttf', 'Kenney Rocket Square.ttf', 'Kenney Space.ttf', 'Kenney Thick.ttf']
+author = ['kenney']
+source = ['https://kenney.nl/assets']
+
+[[asset]]
+files = ['glitch_game']
+source = ['https://www.glitchthegame.com/public-domain-game-art/']
+
+[[asset]]
+author  = "George Blackwell"
+source  = ["https://georgeblackwell.itch.io/"]
+files   = ["sprites/playing_cards"]
+license = []
+
+[[asset]]
+author  = "Franco Giachetti"
+source  = ["https://ludicarts.itch.io/"]
+files   = ["sprites/city"]
+license = []
+
+[[asset]]
+author  = "Godot Visual Shader Extras"
+source  = [""]
+files   = ["shaders/BlendModes", "shaders/ColorAdjustment", "shaders/Procedural", "shaders/Shapes", "shaders/UV", "shaders/Usability", "shaders/Wave"]
+license = []
+
+[[asset]]
+author = ["EdslashEm"]
+files   = ["gui/cottondandy"]
+source  = ['https://edslashem.itch.io/rpg-asset-pack-2']
+license = ["""
+You can:
+- You can use this asset for personal and commercial purpose. Credit is not required but would be appreciated.
+- Modify to suit your needs.
+You cannot:
+- Resell/redistribute this asset.
+"""]
+
+[[asset]]
+files   = ['example.png', 'howto.png', 'menu_blueberry.png', 'menu_grape.png', 'menu_peach.png']
+source  = []
+license = []
+
+[[asset]]
+author  = "Jaime Scribbles"
+source  = ["https://scribbles.itch.io/"]
+files   = ["gui/dark_academia", "Fondamento-Regular.ttf", "gui/spooky_raven"]
+license = []
+
+[[asset]]
+author  = "deep forest pack"
+source  = []
+files   = ['Na16v4.gif', 'Na16v4.png', 'DeepForestTileset.png']
+license = []
+
+[[asset]]
+author  = "hope golf fonts"
+source  = [""]
+files   = ['CompassGold.ttf', 'Forum_Regular.ttf', 'HopeGold.ttf', 'RedeemGold.ttf', 'RulerGold.ttf', 'SinsGold.ttf']
+license = []
+
+[[asset]]
+author  = "kenny"
+source  = [""]
+files   = ["spritesheets/kenney_background", "spritesheets/kenney_characters", "spritesheets/kenney_hexagons", "spritesheets/kenney_isometric", "spritesheets/kenney_platformer",
+"backgrounds/kenney_backgrounds", "spritesheets/kenney_roguelike" , "spritesheets/kenney_rpg", "particles/kenney_smoke", "gui/kenney_ui", "spritesheets/kenney_voxel"]
+license = []
+
+[[asset]]
+author = "roboxel"
+files = ["gui/roboxel_icons"]
+source = ["http://www.roboxel.itch.io"]
+
+[[asset]]
+author  = "Cesar Leon"
+source  = ["https://in3mo.itch.io/"]
+files   = ["scripts/transitions", "shaders/transitions", "sprites/transitions"]
+license = []
+
+[[asset]]
+author  = "s4m"
+source  = ["https://s4m-ur4i.itch.io/"]
+files   = ["spritesheets/s4m_pixels"]
+license = []
+
+[[asset]]
+author  = "Aleksandr Makarov"
+source  = ["https://iknowkingrabbit.itch.io/"]
+files   = ["tilesets/has_overworld"]
+license = []
+
+[[asset]]
+author  = "Rayane Felix"
+source  = ["https://megatiles.itch.io/"]
+files   = ["tilesets/tiny_tales_overworld", "sprites/tiny_tales_npcs"]
+license = []
+
+[[asset]]
+author  = ""
+source  = ["https://aamatniekss.itch.io/"]
+files   = ["backgrounds/lava", "tilesets/lava"]
+license = []
+
+[[asset]]
+author  = ""
+source  = ["https://raou.itch.io/"]
+files   = ["tilesets/lil_dragon_pixel"]
+license = []
+
+[[asset]]
+author  = "Eder Munizz"
+source  = ["https://edermunizz.itch.io/"]
+files   = ["backgrounds/pixel_art_forest", "tilesets/pixel_art_forest"]
+license = []
+
+[[asset]]
+author  = "BSL"
+source  = ["https://bsl.itch.io/"]
+files   = ['MOOD.ttf', 'MOOD MKII.ttf', 'MOOD MKII Outline.ttf', 'MOOD Outline.ttf', 'MiniMOOD.ttf', 'MiniMOOD Outline.ttf', 'Inkbit.ttf', 'InkbitThree.ttf', 'InkbitTwo.ttf' 'NewHiScore.ttf']
+license = []
+
+[[asset]]
+author  = "sproutlands"
+source  = ["https://cupnooble.itch.io/sprout-lands-asset-pack"]
+files   = ["spritesheets/sprouttiles", "gui/sproutlands"]
+license = []
+
+[[asset]]
+author  = ""
+source  = ["https://shubibubi.itch.io/cozy-people"]
+files   = []
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://crusenho.itch.io/complete-gui-essential-pack"]
+files   = ["gui/essential"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://maaot.itch.io/mossy-cavern"]
+files   = ["tilesets/moss"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://datagoblin.itch.io/monogram"]
+files   = ['monogram.ttf', 'monogram-extended.ttf']
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://brullov.itch.io/oak-woods"]
+files   = ["backgrounds/oak_woods"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://shubibubi.itch.io/nature-things"]
+files   = []
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://penzilla.itch.io/hooded-protagonist"]
+files   = ['AnimationSheet_Character.png']
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://little-martian.itch.io/retro-texture-pack"]
+files   = ["textures/retro_textures"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://screamingbrainstudios.itch.io/tiny-texture-pack-2"]
+files   = []
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://brokenvector.itch.io/low-poly-tree-pack"]
+files   = ["3d/brokenvector_trees"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://elthen.itch.io/2d-pixel-art-cat-sprites"]
+files   = ['Cat Sprite Sheet.png']
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://statoasty.itch.io/ui-assets-pack-2"]
+files   = ["gui/statoasty"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://chierit.itch.io/lively-npcs"]
+files   = ["spritesheets/lively_npcs"]
+license = []
+
+[[asset]]
+author  = " "
+source  = ["https://piiixl.itch.io/textures"]
+files   = ['piixl_textures_16.png']
+license = []
+
+[[asset]]
+source = ["https://polyhaven.com/"]
+files = ["textures/polyhaven", "3d/polyhaven"]

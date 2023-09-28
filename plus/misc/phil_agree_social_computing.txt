@@ -1,0 +1,2713 @@
+Books on the Social Aspects of Computing, 1994-1997
+
+Phil Agre
+
+This is the version of 24 August 2002.
+
+This is a bibliography of books on the social, cultural, political, educational, economic, business, literary, legal, and religious aspects of networking and computing that were published in English between 1994 and 1997. I have not included books that are mainly technical, works of fiction, or directories of online resources. Nor have I included the paperback editions of books that were published before 1994. The list is fanatically complete for 1996-1997 and only reasonably complete for 1994-1995. I hope it is useful.
+
+Many thanks to everyone who offered comments on the initial version of this list.
+
+Espen J. Aarseth, Cybertext: Perspectives on Ergodic Literature, Johns Hopkins University Press, 1997.
+
+Mark S. Ackerman, ed, CSCW 96: Conference on Computer Supported Work, Association for Computing Machinery, 1996.
+
+Nabil R. Adam, Bharat K. Bhargava, and Yelena Yesha, eds, Digital Libraries: Current Issues: Digital Libraries Workshop DL '94, Springer, 1995.
+
+Nabil Adam and Yelena Yesha, eds, Electronic Commerce: Current Research Issues and Applications, Springer, 1996.
+
+Elizabeth K. Adams and Keith J. Willetts, The Lean Communications Provider: Surviving the Shakeout through Service Management Excellence, McGraw-Hill, 1996.
+
+Michael Adamse and Sheree Motta, Online Friendship, Chat-Room Romance and Cybersex: Your Guide to Affairs of the Net, Health Communications, 1996.
+
+Prudence S. Adler, Copyright and the NII: Resources for the Library and Education Community, edited by Patricia Brennan, Association of Research Libraries, 1996.
+
+Binod C. Agrawal, Pedagogy of Computer Literacy: An Indian Experience, Concept, 1996.
+
+Philip E. Agre, Computation and Human Experience, Cambridge University Press, 1997.
+
+Philip E. Agre and Marc Rotenberg, eds, Technology and Privacy: The New Landscape, MIT Press, 1997.
+
+Philip E. Agre and Douglas Schuler, eds, Reinventing Technology, Rediscovering Community: Critical Explorations of Computing as a Social Practice, Ablex, 1997.
+
+Steven Albert and Keith Bradley, Managing Knowledge: Experts, Agencies and Organizations, Cambridge University Press, 1997.
+
+Donald L. Alexander, ed, Telecommunications Policy: Have Regulators Dialed the Wrong Number?, Praeger, 1997.
+
+Bryce L. Allen, Information Tasks: Toward a User-Centered Approach to Information Systems, Academic Press, 1996.
+
+Catherine A. Allen and William J. Barr, eds, Smart Cards: Seizing Strategic Business Opportunities, Irwin, 1997.
+
+John C. Allen and Don A. Dillman, Against All Odds: Rural Community in the Information Age, Westview Press, 1994.
+
+Peter Allen, Cities and Regions as Self-Organizing Systems: Models of Complexity, Gordon and Breach, 1997.
+
+Thomas J. Allen and Michael S. Scott Morton, Information Technology and the Corporation of the 1990s: Research Studies, Oxford University Press, 1994.
+
+Steven Alter, Information Systems: A Management Perspective, second edition, Benjamin/Cummings, 1996.
+
+Donald Altschiller, ed, The Information Revolution, Wilson, 1995.
+
+Joe Amato, Bookend: Anatomies of a Virtual Self, State University of New York Press, 1997.
+
+Gil Amelio and William L. Simon, Profit from Experience: The National Semiconductor Story of Transformation Management, Van Nostrand Reinhold, 1996.
+
+Peter Bogh Andersen, A Theory of Computer Semiotics: Semiotic Approaches to Construction and Assessment of Computer Systems, updated edition, Cambridge University Press, 1997.
+
+Ross Anderson, ed, Personal Medical Information: Security, Engineering, and Ethics, Springer Verlag, 1997.
+
+Stephen Andriole and Leonard Adelman, Cognitive Systems Engineering for User-Computer Interface Design, Prototyping, and Evaluation, Erlbaum, 1995.
+
+Stephen J. Andriole, Managing Systems Requirements: Methods, Tools, and Cases, McGraw, 1996.
+
+David Angell and Brent Heslop, The Internet Business Companion: Growing Your Business in the Electronic Age, Addison-Wesley, 1995.
+
+Joey Anuff and Ana Marie Cox, eds, Suck: Worst-Case Scenarios in Media, Culture, Advertising, and the Internet, Hardwired, 1997.
+
+Lynda M. Applegate, F. Warren McFarlan, and James L. McKenney, Corporate Information Systems Management: Text and Cases, fourth edition, Irwin, 1996.
+
+C. J. Armstrong, ed, World Databases in Management, Bowker Saur, 1995.
+
+Stanley Aronowitz, Barbara Martinsons, and Michael Menser, eds, Technoscience and Cyberculture, Routledge, 1996.
+
+John Arquilla and David Ronfeldt, The Advent of Netwar, RAND, 1996.
+
+John Arquilla and David Ronfeldt, eds, In Athena's Camp: Preparing for Conflict in the Information Age, RAND, 1997.
+
+Ken Auletta, The Highwaymen: Warriors of the Information Superhighway, Random House, 1997.
+
+Ethel Auster and Chun Wei Choo, ed, Managing Information for the Competitive Edge, Neal-Schuman, 1996.
+
+Valliere Richard Auzenne, The Visualization Quest: A History of Computer Animation, Fairleigh Dickinson University Press, 1994.
+
+Shimon Awerbuch and Alistair Preston, eds, The Virtual Utility: Accounting, Technology and Competitive Aspects of the Emerging Industry, Kluwer, 1997.
+
+Nader Azarmi and Hyacinth Sama Nwana, eds, Software Agents and Soft Computing: Toward Enhancing Machine Intelligence: Concepts and Applications, Springer Verlag, 1997.
+
+Sara Baase, A Gift of Fire: Social, Legal, and Ethical Issues in Computing, Prentice Hall, 1997.
+
+Robert E. Babe, ed, Information and Communication in Economics, Kluwer, 1994.
+
+Robert E. Babe, Communication and the Transformation of Economics: Essays in Information, Public Policy, and Political Economy, Westview Press, 1995.
+
+Andre Bacard, The Computer Privacy Handbook, Peachpit Press, 1995.
+
+Ronald M. Baecker, Jonathan Grudin, William A. S. Buxton, and Saul Greenberg, eds, Readings in Human-Computer Interaction: Toward the Year 2000, second edition, Morgan Kaufmann, 1995.
+
+James Bailey, After Thought: The Computer Challenge to Human Intelligence, Basic Books, 1996.
+
+Mashoed Bailie and Dwayne Winseck, eds, Democratizing Communication? Comparative Perspectives on Information and Power, Hampton Press, 1997.
+
+Donald I. Baker and Roland E. Brandel, The Law of Electronic Fund Transfer Systems: Legal and Strategic Planning, revised edition, Warren, Gorham and Lamont, 1996.
+
+Eva L. Baker and Harold F. O'Neil, Jr., eds, Technology Assessment in Education and Training, Erlbaum, 1994.
+
+Gisele Bakkenist, Environmental Information: Law, Policy and Experience, edited by Peter Atherton, Cameron May, 1994.
+
+Thomas F. Baldwin, D. Stevens McVoy, and Charles Steinfeld, Convergence: Integrating Media, Information and Communication, Sage, 1996.
+
+Marion J. Ball, ed, Building the Library/Information Center of the Future, Elsevier, 1994.
+
+Anne Balsamo, Technologies of the Gendered Body: Reading Cyborg Women, Duke University Press, 1996.
+
+Parthasarathi Banerjee and Sujit Bhattacharya, Advanced Telecommunications in India: Regulation and Strategies, Har-Anand, 1996.
+
+Michael A. Banks, Web Psychos, Stalkers, and Pranksters, Coriolis Group, 1997.
+
+Donald A. Barclay, ed, Teaching Electronic Information Literacy: A How-to-Do-It Manual, Neal-Schuman, 1995.
+
+Raymond Barglow, The Crisis of the Self in the Age of Information: Computers, Dolphins, and Dreams, Routledge, 1994.
+
+Stephen R. Barley and Julian Orr, eds, Between Craft and Science: Technical Work in the United States, Cornell University Press, 1997.
+
+Christopher Barnatt, Cyber Business: Mindsets for a Wired Age, Wiley, 1995.
+
+Christopher Barnatt, Management Strategy and Information Technology: Text and Readings, International Thomson Business Press, 1996.
+
+Daniel J. Barrett, Bandits on the Information Superhighway, O'Reilly, 1996.
+
+Edward Barrett and Marie Redmond, eds, Contextual Media: Multimedia and Interpretation, MIT Press, 1995.
+
+Neil Barrett, The State of the Cybernation: Cultural, Political and Economic Implications of the Internet, Kogan Page, 1996.
+
+Neil Barrett, Digital Crime: Policing the Cybernation, Kogan Page, 1997.
+
+Dave Barry, Dave Barry in Cyberspace, Crown, 1996.
+
+Martin F. Bartholomew, Successful Business Strategies Using Telecommunications Services, Artech, 1997.
+
+Eugene R. Bartlett, Cable Communications: Building the Information Infrastructure, McGraw-Hill, 1995.
+
+Shifra Baruchson-Arbib, Social Information Science: Love, Health, and the Information Society, Sussex Academic, 1996.
+
+Jon Barwise and Jerry Seligman, Information Flow: The Logic of Distributed Systems, Cambridge University Press, 1997.
+
+Reva Basch, Secrets of the Super Net Searchers: The Reflections, Revelations, and Hard-Won Wisdom of 35 of the World's Top Internet Researchers, Pemberton Press, 1996.
+
+A. W. Bates, Technology, Open Learning, and Distance Education, Routledge, 1995.
+
+Martin Bauer, ed, Resistance to New Technology: Nuclear Power, Information Technology, and Biotechnology, Cambridge University Press, 1995.
+
+Penny Bauersfeld, Software by Design: Creating People Friendly Software for the Macintosh, M&T, 1994.
+
+Jon A. Baumgarten, Business and Legal Guide to Online-Internet Law, Glasser LegalWorks, 1997.
+
+Stephen Baxter and David Lisburn, Reengineering Information Technology: Success Through Empowerment, Prentice Hall, 1994.
+
+Kim M. Bayne, The Internet Marketing Plan, Wiley, 1997.
+
+Marilyn J. Bazeli and James L. Heintz, Technology Across the Curriculum: Activities and Ideas, Libraries Unlimited, 1997.
+
+Donald Beane, Anand Shukla, and Michael Pecht, The Singapore and Malaysia Electronics Industry, CRC Press, 1997.
+
+Jon W. Beard, ed, Impression Management and Information Technology, Quorum, 1996.
+
+Joseph E. Behar, ed, Mapping Cyberspace: Social Research on the Electronic Frontier, Dowling College Press, 1997.
+
+Mark Behrsin, Geoff Mason, and Trevor Sharpe, Reshaping IT for Business Flexibility: The It Architecture As a Common Language for Dealing With Change, McGraw Hill, 1994.
+
+Victor Bekkers, Bert-Jaap Koops, and Sjaak Nouwt, eds, Emerging Electronic Highways: New Challenges for Politics and Law, Kluwer, 1996.
+
+Simon Bell, Learning with Information Systems: Learning Cycles in Information Systems Development, Routledge, 1997.
+
+Gary G. Benesko, Inter-Corporate Business Engineering: Streamlining the Business Cycle From End to End, Research Triangle Consultants, 1997.
+
+Yochai Benkler, Rules of the Road for the Information Superhighway: Electronic Communications and the Law, West, 1996.
+
+E. M. Bennatan, On Time, Within Budget: Software Project Management Practices and Techniques, second edition, Wiley, 1995.
+
+Britton Berek and Marilyn Canna, Telemedicine on the Move: Health Care Heads Down the Information Superhighway, American Hospital Association, 1994.
+
+Marc Berg, Rationalizing Medical Work: Decision Support Techniques and Medical Practices, MIT Press, 1997.
+
+Zane L. Berge and Mauri P. Collins, eds, Computer Mediated Communication and the Online Classroom, Hampton Press, 1995.
+
+Jacques Berleur and Klaus Brunnstein, eds, Ethics of Computing: Codes, Spaces for Discussion and Law, Chapman and Hall, 1996.
+
+Jacques Berleur and Diane Whitehouse, eds, An Ethical Global Information Society: Culture and Democracy Revisited, Chapman and Hall, 1997.
+
+Giampiero E. G. Beroggi and William A. Wallace, eds, Computer Supported Risk Management, Kluwer, 1995.
+
+Michael J. A. Berry and Gordon Linoff, Data Mining Techniques for Marketing, Sales, and Customer Support, New York: Wiley, 1997.
+
+Cristoforo S. Bertuglia, Silvana Lombardo, and Peter Nijkamp, eds, Innovative Behaviour in Space and Time, Springer-Verlag, 1997.
+
+David P. Best, ed, The Fourth Resource: Information and Its Management, Aslib Gower, 1996.
+
+James D. Best, The Digital Organization: AlliedSignal's Success With Business Technology, Wiley, 1997.
+
+Randolph G. Bias and Deborah J. Mayhew, eds, Cost-Justifying Usability, Academic Press, 1994.
+
+Hossein Bidgoli, Modern Information Systems for Managers, Academic Press, 1997.
+
+Arlene Bielefield and Lawrence Cheeseman, Maintaining the Privacy of Library Records: A Handbook and Guide, Neal-Schuman Publishers, 1994.
+
+Arlene Bielefield and Lawrence Cheeseman, Technology and Copyright Law: A Guidebook for the Library, Research, and Teaching Professions, Neal-Schuman, 1997.
+
+Sven Birkerts, The Gutenberg Elegies: The Fate of Reading in an Electronic Age, Faber and Faber, 1994.
+
+Sven Birkerts, ed, Tolstoy's Dictaphone: Technology and the Muse, Graywolf Press, 1996.
+
+John R. Bittner, Law and Regulation of Electronic Media, second edition, Prentice Hall, 1994.
+
+Colin Blackman and Michael Denmead, 1998: A New Era for EU Telecoms Regulation, edited by Kate Gentles, Analysys, 1996.
+
+Dietrich Blandow and Michael J. Dyrenfurth, eds, Technology Education in School and Industry: Emerging Didactics for Human Resource Development, Springer-Verlag, 1994.
+
+Robert W. Blanning and David R. King, eds, Organizational Intelligence: AI in Organizational Design, Modeling, and Control, IEEE Computer Society Press, 1996.
+
+R. Howard Bloch and Carla Hesse, eds, Future Libraries, California, 1995.
+
+Brian P. Bloomfield, Rod Coombs, and David Knights, eds, Information Technology and Organizations: Strategies, Networks, and Integration, Oxford University Press, 1997.
+
+Carl S. Blyth, Untangling the Web: St. Martin's Guide to Language and Culture on the Internet, St. Martin's Press, 1997.
+
+Bernard H. Boar, Practical Steps for Aligning Information Technology With Business Strategies: How to Achieve a Competitive Advantage, Wiley, 1994.
+
+Bernard H. Boar, Strategic Thinking for Information Technology, Wiley, 1997.
+
+Charles J. Bodenstab, Information Breakthrough: How to Turn Mountains of Confusing Data into Gems of Useful Information: A Guide for Every Type of Organization, Oasis Press, 1997.
+
+Susan Bodilly and Karen J. Mitchell, Evaluating Challenge Grants for Technology in Education: A Sourcebook, RAND, 1997.
+
+William Bogard, The Simulation of Surveillance: Hypercontrol in Telematic Societies, Cambridge University Press, 1996.
+
+Max H. Boisot, ed, Information Space: A Framework for Learning in Organizations, Institutions, and Culture, Routledge, 1995.
+
+George M. Bollenbacher, The New Business of Banking: Transforming Challenges Into Opportunities in Today's Financial Services Marketplace, revised edition, Irwin, 1995.
+
+David Bollier, The Future of Community and Personal Identity in the Coming Electronic Culture: A Report of the Third Annual Aspen Institute Roundtable on Information Technology, Aspen, Colorado, August 18-21, 1994, Aspen Institute, 1995.
+
+David Bollier, ed, The Future of Electronic Commerce, Aspen Institute, 1996.
+
+David Bollier, ed, The Networked Society: How New Technologies are Transforming Markets, Organizations, and Social Relationships, Aspen Institute, 1997.
+
+Grady Booch, Object Solutions: Managing the Object-Oriented Project, Addison-Wesley, 1996.
+
+Jordi Borja and Manuel Castells, Local and Global: The Management of Cities in the Information Age, Earthscan, 1997.
+
+George Bornstein and Theresa Lynn Tinkle, eds, The Iconic Page in Manuscript, Print, and Digital Culture, University of Michigan Press, 1997.
+
+Erwin Boschmann, ed, The Electronic Classroom: A Handbook for Education in the Electronic Environment, Learned Information, 1995.
+
+Michael K. Bourke, Strategy and Architecture of Health Care Information Systems, Springer, 1994.
+
+J. Bourne, A. Brodersen, and M. Dawant, eds, The Influence of Technology on Engineering Education, CRC Press, 1995.
+
+Geoffrey C. Bowker, Susan Leigh Star, William Turner, and Les Gasser, eds, Social Science, Technical Systems and Cooperative Work: Beyond the Great Divide, Erlbaum, 1997.
+
+Kevin W. Bowyer, Ethics and Computing: Living Responsibly in a Computerized World, IEEE Computer Society Press, 1996.
+
+M. Christine Boyer, CyberCities: Visual Perception in the Age of Electronic Communication, Princeton Architectural Press, 1996.
+
+James Boyle, Shamans, Software, and Spleens: Law and the Construction of the Information Society, Harvard University Press, 1996.
+
+Nick Bozic and Heather Murdoch, eds, Learning through Interaction: Technology and Children with Multiple Disabilities, Fulton, 1996.
+
+James K. Bracken and Christopher H. Sterling, Telecommunications Research Resources: An Annotated Guide, Erlbaum, 1995.
+
+Peter Bradford, ed, Information Architects, Graphis Press, 1996.
+
+Jeffrey M. Bradshaw, ed, Software Agents, MIT Press, 1997.
+
+Gabriel Brahm, Jr. and Mark Driscoll, eds, Prosthetic Territories: Politics and Hypertechnologies, Westview, 1995.
+
+Timothy Braithwaite, The Power of IT: Maximizing Your Technology Investments, ASQC Quality Press, 1996.
+
+Sandra Braman and Annabelle Sreberny-Hohammadi, eds, Globalization, Communication and Transnational Civil Society, Hampton Press, 1996.
+
+Anne Wells Branscomb, Who Owns Information? From Privacy to Public Access, Basic Books, 1994.
+
+Lewis Branscomb and James Keller, eds, Converging Infrastructures: Intelligent Transportation and the National Information Infrastructure, MIT Press, 1996.
+
+John Bray, The Communications Miracle: The Telecommunication Pioneers From Morse to the Information Superhighway, Plenum Press, 1995.
+
+Daniel L. Brenner, Law and Regulation of Common Carriers in the Communications Industry, second edition, Westview, 1996.
+
+Robert C. Brenner, Pricing Guide for Web Services: How to Make Money on the Information Superhighway, Brenner, 1997.
+
+Walter Brenner and Lutz Kolbe, eds, The Information Superhighway and Private Households: Case Studies of Business Impacts, Physica-Verlag, 1996.
+
+Joel Brinkley, Defining Vision: The Battle for the Future of Television, Harcourt Brace, 1997.
+
+J. Dianne Brinson and Mark F. Radcliffe, Multimedia Law Handbook: A Practical Guide for Developers and Publishers, Ladera Press, 1994.
+
+J. Dianne Brinson, Mark F. Radcliffe, and Dianne Brinson, Multimedia Law and Business Handbook: A Practical Guide for Developers and Publishers, Ladera Press, 1997.
+
+Gerald W. Brock, Telecommunication Policy for the Information Age: From Monopoly to Competition, Harvard University Press, 1994.
+
+Gerald W. Brock, ed, Toward a Competitive Telecommunication Industry: Selected Papers From the 1994 Telecommunications Policy Research Conference, Erlbaum, 1995.
+
+Gerald W. Brock and Gregory L. Rosston, eds, The Internet and Telecommunications Policy: Selected Papers from the 1995 Telecommunications Policy Research Conference, Erlbaum, 1996.
+
+John Brockman, Digerati: Encounters With the Cyber Elite, Hardwired, 1996.
+
+James Brook and Iain A. Boal, eds, Resisting the Virtual Life: The Culture and Politics of Information, City Lights, 1995.
+
+Tal Brooke, Virtual Gods: The Seduction of Power and Pleasure in Cyberspace, Harvest House, 1997.
+
+David W. Brooks, Web-Teaching: A Guide to Designing Interactive Teaching for the World Wide Web, Plenum Press, 1997.
+
+Alison Leigh Brown, Fear, Truth, Writing: From Paper Village to Electronic Community, State University of New York Press, 1995.
+
+David J. Brown, ed, Electronic Publishing and Libraries: Planning for the Impact and Growth to 2003, Bowker-Saur, 1996.
+
+David Brown, Cybertrends: Chaos, Power, and Accountability in the Information Age, Viking, 1997.
+
+Graeme Browning, Electronic Democracy: Using the Internet to Influence American Politics, edited by Daniel J. Weitzner, Pemberton Press, 1996.
+
+Stephen A. Brown, Revolution at the Checkout Counter: The Explosion of the Bar Code, Harvard University Press, 1997.
+
+Hans-Peter Brunner, Closing the Technology Gap: Technological Change in India's Computer Industry, Sage, 1995.
+
+Jo Bryson, Managing Information Services: An Integrated Approach, Gower, 1997.
+
+Thomas J. Buckholtz, Information Proficiency: Your Key to the Information Age, Van Nostrand Reinhold, 1995.
+
+Susan Buck-Morss, Julian Stallabrass, and Leonidas Donskis, Ground Control: Technology and Utopia, Art Books International, 1997.
+
+Robert Buderi, The Invention That Changed the World: How a Small Group of Radar Pioneers Won the Second World War and Launched a Technological Revolution, Simon and Schuster, 1996.
+
+Lisa Bud-Frierman, ed, Information Acumen: The Understanding and Use of Knowledge in Modern Business, Routledge, 1994.
+
+David Budgen, Software Design, Addison-Wesley, 1994.
+
+Joanna Buick and Zoran Jevtic, Introducing Cyberspace, edited by Richard Appignanesi, Totem Books, 1995.
+
+G. M. Bull, Information Technology: Issues for Higher Education Management, Kingsley, 1994.
+
+Jeff Burger, Multimedia for Decision Makers: A Business Primer, Addison-Wesley, 1995.
+
+William E. Burgess, The Oryx Guide to Distance Learning: A Comprehensive Listing of Electronic and Other Media-Assisted Courses, second edition, Oryx, 1997
+
+Sheryl Burgstahler, New Kids on the Net: A Tutorial for Teachers, Parents, and Students, Allyn and Bacon, 1997.
+
+Janice M. Burn and Maris G. Martinsons, eds, Information Technology and the Challenge for Hong Kong, Hong Kong University Press, 1997.
+
+Bill Burnham, The Electronic Commerce Report, Piper Jaffray, 1997.
+
+Daniel Burstein and David Kline, Road Warriors: Dreams and Nightmares Along the Information Highway, Dutton, 1995.
+
+John C. Butler, ed, Distance Education and the Internet, Pergamon, 1997.
+
+Meridith A. Butler and Bruce R. Kingman, eds, The Economics of Information in the Networked Environment, Association of Research Libraries, 1996.
+
+Bill Bysinger and Ken Knight, Investing in Information Technology: A Decision-Making Guide for Business and Technology Managers, Van Nostrand Reinhold, 1996.
+
+Vincent Cable and Catherine Distler, Global Superhighways: The Future of International Telecommunications Policy, Royal Institute of International Affairs, International Economics Programme, 1995.
+
+Frances Cairncross, The Death of Distance: How the Communications Revolution Will Change Our Lives, Harvard Business School Press, 1997.
+
+A. P. Cameli, ed, The Information Superhighway: Issues and Challenges, Nova Sciences, 1996.
+
+David Caminer, John Aris, Peter Hermon, and Frank Land, User-Driven Innovation: The World's First Business Computer, McGraw-Hill, 1996.
+
+Dennis Campbell and Joy Fisher, eds, Data Transmission and Privacy, Nijhoff, 1994.
+
+Heather Campbell and Ian Masser, GIS and Organizations, Taylor and Francis, 1995.
+
+Robert W. Campbell, Soviet and Post-Soviet Telecommunications: An Industry Under Reform, Westview Press, 1995.
+
+Martin Campbell-Kelly and William Aspray, Computer: A History of the Information Machine, Basic Books, 1996.
+
+Alan D. Campen, Douglas H. Dearth, and R. Thomas Goodden, eds, Cyberwar: Security, Strategy, and Conflict in the Information Age, AFCEA International, 1996.
+
+Laurence A. Canter and Martha S. Siegel, How to Make a Fortune on the Information Superhighway: Everyone's Guerrilla Guide to Marketing on the Internet and Other On-Line Services, HarperCollins Publishers, 1994.
+
+Roberta Capello, Spatial Economic Analysis of Telecommunications Network Externalities, Avebury, 1994.
+
+Jane Carey, ed, Human Factors in Information Systems: The Relationship between User Interface Design and Human Performance, Ablex, 1997.
+
+Carl F. Cargill, Open Systems Standardization: A Business Approach, second edition, Prentice Hall, 1996.
+
+Randall L. Carlson, The Information Superhighway: Strategic Alliances in Telecommunications and Multimedia, St. Martin's Press, 1996.
+
+Jim Carlton, Apple: The Inside Story of Intrigue, Egomania, and Business Blunders, Times Books, 1997.
+
+Jim Carroll and Rick Broadhead, The Canadian Internet Advantage: Opportunities for Business and Other Organizations, Prentice-Hall, 1995.
+
+Michael L. Carroll, Cyberstrategies: How to Build an Internet-Based Information System, Van Nostrand Reinhold, 1996.
+
+Mary E. Carter, Electronic Highway Robbery: An Artist's Guide to Copyrights in the Digital Era, Peachpit, 1996.
+
+Chris Casey, The Hill on the Net: Congress Enters the Information Age, AP Professional, 1996.
+
+Jean M. Casey, Early Literacy: The Empowerment of Technology, Libraries Unlimited, 1997.
+
+James I. Cash, Building the Information-Age Organization: Structure, Control, and Information Technologies, third edition, Irwin, 1994.
+
+Mark Casson, Information and Organization: A New Perspective on the Theory of the Firm, Clarendon Press, 1997.
+
+Manuel Castells, The Rise of the Network Society, Blackwell, 1996.
+
+Manuel Castells, The Power of Identity, Blackwell, 1997.
+
+John L. Casti, Would-Be Worlds: How Simulation is Changing the Frontiers of Science, Wiley, 1997.
+
+Fred H. Cate, Privacy in the Information Age, Brookings, 1997.
+
+William L. Cats-Baril and Ronald L. Thompson, Information Technology and Management, Irwin, 1997.
+
+Edward A. Cavazos and Gavino Morin, Cyberspace and the Law: Your Rights and Duties in the On-Line World, MIT Press, 1994.
+
+Ann Cavoukian and Don Tapscott, Who Knows: Safeguarding Your Privacy in a Networked World, Random House, 1996.
+
+Paul Ceruzzi, A History of Modern Computing, 1945-1995, MIT Press, 1998.
+
+Alan Chai, ed, Cyberstocks: An Investor's Guide to Internet Companies, Hoover's Business Press, 1996.
+
+Kuldip Chand, ed, Information Marketing: Status and Prospects, Batra Book Service, 1996.
+
+Audrey R. Chapman, ed, Health Care and Information Ethics: Protecting Fundamental Human Rights, Sheed and Ward, 1997.
+
+Ching-Chih Chen, ed, Planning Global Information Infrastructure, Ablex, 1995.
+
+Warren Chernaik, Marilyn Deegan, and Andrew Gibson, eds, Beyond the Book: Theory, Culture, and the Politics of Cyberspace, Oxford University Computing Services, 1996.
+
+Lynn Cherny and Elizabeth Reba Weise, eds, Wired Women: Gender and New Realities in Cyberspace, Seal Press, 1996.
+
+James W. Chesebro and Dale A. Bertelsen, Analyzing Media: Communication Technologies As Symbolic and Cognitive Systems, Guilford, 1996.
+
+Youngrak Choi, Dynamic Techno-Management Capability: The Case of Samsung Semiconductor Sector in Korea, Avebury, 1996.
+
+Chun Wei Choo, Information Management for the Intelligent Organization: The Art of Scanning the Environment, Information Today, 1995.
+
+Clayton M. Christensen, The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail, Harvard Business School Press, 1997.
+
+James A. Christenson, Richard C. Maurer, and Nancy L. Strang, eds, Rural Data, People, and Policy: Information Systems for the 21st Century, Westview Press, 1994.
+
+Ellen Christiaanse, Strategic Advantage and the Exploitability of Information Technology: An Empirical Study of the Effects of IT on Supplier-Distributer Relationships in the US Airline Industry, Thesis Publishers, 1994.
+
+Andrew Christie, Integrated Circuits and Their Contents: International Protection, Sweet and Maxwell, 1995.
+
+Claudio Ciborra and Tawfik Jelassi, eds, Strategic Information Systems: A European Perspective, Wiley, 1994.
+
+Claudio Ciborra, ed, Groupware and Teamwork: Invisible Aid or Technical Hindrance?, Wiley, 1997.
+
+Franklin Clark and Ken Diliberto, Investigating Computer Crime, CRC Press, 1996.
+
+Martin P. Clark, Managing to Communicate: Using Telecommunications for Increased Business Efficiency, Wiley, 1994.
+
+Peter Clayton, Implementation of Organizational Innovation: Studies of Academic and Research Libraries, Academic Press, 1997.
+
+Laurel A. Clyde, School Libraries and the Electronic Community: The Internet Connection, Scarecrow Press, 1997.
+
+Joseph F. Coates, John B. Mahaffie, and Andy Hines, 2025: Scenarios of US and Global Society Reshaped by Science and Technology, Oakhill Press, 1996.
+
+Peter Cochrane, Tips for Time Travellers: Visionary Insights Into New Technology, Life and the Future By One of the World's Leading Technology Prophets, Orion Business Books, 1997.
+
+Cynthia Cockburn and Ruza Furst-Dilic, eds, Bringing Technology Home: Gender and Technology in a Changing Europe, Open University Press, 1994.
+
+Derrick L. Cogburn and Christopher P. Foss, eds, Information and Communications for Development: Nationalism, Regionalism, and Globalism in Building the Global Information Society, Center for Strategic and International Studies, 1996.
+
+Peter S. Cohan, The Technology Leaders: How America's Most Profitable High-Tech Companies Innovate Their Way to Success, Jossey-Bass, 1997.
+
+Frederick B. Cohen, Protection and Security on the Information Superhighway, Wiley, 1995.
+
+Andrew Michael Cohill and Andrea L. Kavanaugh, eds, Community Networks: Lessons from Blacksburg, Virginia, Artech, 1997.
+
+Jim Cole and James W. Williams, eds, Serials Management in the Electronic Era: Papers in Honor of Peter Gellatly, Founding Editor of the Serials Librarian, Haworth Press, 1996.
+
+Kevin G. Coleman, ed, Reengineering MIS: Aligning Information Technology and Business Operations, Idea Group, 1996.
+
+Ian A. Colford, Writing in the Electronic Environment: Electronic Text and the Future of Creativity and Knowledge, Dalhousie University, School of Library and Information Studies, 1996.
+
+Morris Frank Collen, A History of Medical Informatics in the United States, 1950 to 1990, American Medical Informatics Association, 1995.
+
+Janet Collins, Michael Hammond and Jerry Wellington, Teaching and Learning With Multimedia, Routledge, 1997.
+
+Jim Collins, Architectures of Excess: Cultural Life in the Information Age, Routledge, 1995.
+
+Richard Collins and Cristina Murroni, New Media, New Policies: Media and Communications Strategies for the Future, Polity Press, 1996.
+
+Betty Collis and Gordon Davies, eds, Innovative Adult Learning With Innovative Technologies, Elsevier, 1995.
+
+Betty A. Collis, ed, Children and Computers in School, Erlbaum, 1996.
+
+Betty Collis, Tele-Learning in a Digital World: The Future of Distance Learning, International Thomson Computer Press, 1996.
+
+Edward A. Comor, ed, The Global Political Economy of Communication: Hegemony, Telecommunication, and the Information Economy, St. Martin's Press, 1994.
+
+Sue A. Conger, The New Software Engineering, Wadsworth, 1994.
+
+John H. Connolly and Ernest A. Edmonds, eds, CSCW and Artificial Intelligence, Springer-Verlag, 1994.
+
+John H. Connolly and Lyn Pemberton, eds, Linguistic Concepts and Methods in CSCW, Springer, 1996.
+
+David Cook and Deborah Sellers, Launching a Business on the Web, second edition, Que, 1996.
+
+Melissa Cook, Building Enterprise Information Architectures: Reengineering Information Systems, Prentice Hall, 1996.
+
+Arthur J. Cordell, T. Ran Ide, Luc Soete, and Karin Kamp, The New Wealth of Nations: Taxing Cyberspace, Between The Lines, 1997.
+
+E. Raymond Corey, Technology Fountainheads: The Management Challenge of R&D Consortia, Harvard Business School Press, 1996.
+
+Robert Corn-Revere, ed, Rationales and Rationalizations: Regulating the Electronic Media, Media Institute, 1997.
+
+Anthony Corrado and Charles M. Firestone, eds, Elections in Cyberspace: Toward a New Era in American Politics, Aspen Institute, 1996.
+
+James W. Cortada, TQM for Information Systems Management: Quality Practices for Continuous Improvement, McGraw-Hill, 1995.
+
+James W. Cortada, Information Technology As Business History: Issues in the History and Management of Computers, Greenwood, 1996.
+
+James W. Cortada, A Bibliographic Guide to the History of Computer Applications, 1950-1990, Greenwood, 1996.
+
+James W. Cortada, Second Bibliographic Guide to the History of Computing, Computers, and the Information Processing Industry, Greenwood, 1996.
+
+James W. Cortada, Best Practices in Information Technology: How Corporations Get the Most Value from Exploiting Their Digital Investments, Prentice Hall, 1997.
+
+Susan Cotter, ed, Commercial Alliances in the Information Age, Wiley, 1996.
+
+Mike Cotterell and Bob Hughes, Software Project Management, International Thomson Computer Press, 1995.
+
+Bob Cotton and Richard Oliver, The Cyberspace Lexicon: An Illustrated Dictionary of Terms From Multimedia to Virtual Reality, Phaidon, 1994.
+
+Carl J. Couch, Information Technologies and Social Orders, Aldine de Gruyter, 1996.
+
+J. Daniel Couger, Creativity and Innovation in Information Systems Organizations, Boyd and Fraser, 1996.
+
+Thomas J. Courchene, ed, Policy Frameworks for a Knowledge Economy, John Deutsch Institute for Economic Policy, Queen's University, 1996.
+
+Sam Cover, Beyond the Internet: Restructuring the Communications Market, Analysys, 1996.
+
+Diana Coyle, Weightless World: Strategies for Managing the Digital Economy, Capstone, 1997.
+
+Karen Coyle, Coyle's Information Highway Handbook: A Practical File on the New Information Order, American Library Association, 1997.
+
+Richard Coyne, Designing Information Technology in the Postmodern Age: From Method to Metaphor, MIT Press, 1995.
+
+Charles P. Cozic, ed, The Information Highway, Greenhaven Press, 1996.
+
+Robert W. Crandall and Leonard Waverman, Talk Is Cheap: The Promise of Regulatory Reform in North American Telecommunications, Washington, Brookings Institution, 1995.
+
+Kathleen W. Craver, Teaching Electronic Literacy: A Concepts-Based Approach for School Library Media Specialists, Greenwood Press, 1997.
+
+Ashley Crawford and Ray Edgar, eds, Transit Lounge: An Interface Book from 21.C, Craftsman House, 1997.
+
+Roger Crawford, Managing Information Technology in Secondary Schools, Routledge, 1997.
+
+Susan Y. Crawford, Julie M. Hurd, and Ann C. Weller, From Print to Electronic: The Transformation of Scientific Communication, Information Today, 1996.
+
+Walt Crawford and Michael Gorman, Future Libraries: Dreams, Madness and Reality, American Library Association, 1995.
+
+James L. Creighton and James W. R. Adams, Cybermeeting: How to Link People and Technology in Your Organization, AMACOM, 1997.
+
+Critical Art Ensemble, Electronic Civil Disobedience and Other Unpopular Ideas, Autonomedia, 1996.
+
+Mary J. Cronin, Doing Business on the Internet: How the Electronic Highway Is Transforming American Companies, Van Nostrand Reinhold, 1994.
+
+Mary J. Cronin, Doing More Business on the Internet: How the Electronic Highway Is Transforming American Companies, second edition, Van Nostrand Reinhold, 1995.
+
+Mary J. Cronin, ed, The Internet Strategy Handbook: Lessons from the New Frontier of Business, Harvard Business School Press, 1996.
+
+Mary J. Cronin, ed, Banking and Finance on the Internet, Van Nostrand Reinhold, 1997.
+
+Mary J. Cronin, Global Advantage on the Internet: From Corporate Connectivity to International Competitiveness, Van Nostrand Reinhold, 1996.
+
+Charles Crook, Computers and the Collaborative Experience of Learning, Routledge, 1994.
+
+M. K. Crowe, ed, Cooperative Work With Multimedia, Springer-Verlag, 1994.
+
+Jim Cummins and Dennis Sayers, Brave New Schools: Challenging Cultural Illiteracy Through Global Learning Networks, St. Martin's Press, 1995.
+
+Wendy Currie, Management Strategy for IT: An International Perspective, Pitman, 1995.
+
+Graham Curtis, Business Information Systems: Analysis, Design, and Practice, second edition, Addison-Wesley, 1995.
+
+Philip J. Curtis, The Fall of the US Consumer Electronics Industry: An American Trade Tragedy, Quorum Books, 1994.
+
+cyberkath@traveltales.com, Cybercafes: A Worldwide Guide For Travelers, second edition, Wandering Traveler, 1997.
+
+Thomas E. Cyrs, ed, Teaching and Learning at a Distance: What It Takes to Effectively Design, Deliver, and Evaluate Programs, Jossey-Bass, 1997.
+
+Xiudian Dai, Corporate Strategy, Public Policy, and New Technologies: Philips and the European Consumer Electronics industry, Pergamon, 1996.
+
+Kenneth W. Dam and Herbert S. Lin, eds, Cryptography's Role in Securing the Information Society, National Academy Press, 1996.
+
+Stephen G. Dance, Infopreneurs: The Hidden People Who Drive Strategic Information Systems, Macmillan, 1994.
+
+John S. Daniel, Mega-Universities and Knowledge Media: Technology Strategies for Higher Education, Kogan Page, 1996
+
+N. Caroline Daniels, Information Technology: The Management Challenge, Addison-Wesley, 1994.
+
+Thomas H. Davenport, Information Ecology: Mastering the Information and Knowledge Environment, Oxford University Press, 1997.
+
+Thomas H. Davenport and Laurence Prusak, Working Knowledge: How Organizations Manage What They Know, Harvard Business School Press, 1997.
+
+Andrew Davies, Telecommunications and Politics: The Decentralised Alternative, Pinter, 1994.
+
+Alan M. Davis, 201 Principles of Software Development, McGraw-Hill, 1995.
+
+Boyd H. Davis and Jeutonne P. Brewer, Electronic Discourse: Linguistic Individuals in Virtual Space, State University of New York Press, 1997.
+
+Gordon B. Davis and J. David Naumann, Personal Productivity With Information Technology, McGraw-Hill, 1997.
+
+Jim Davis, Thomas Hirschl, and Michael Stack, eds, Cutting Edge: Technology, Information Capitalism and Social Revolution, Verso, 1997.
+
+Robert W. K. Davis and Scott C. Hutchison, Computer Crime in Canada: An Introduction to Technological Crime and Related Legal Issues, Carswell, 1997.
+
+Donald L. Day and Diane K. Kovacs, eds, Computers, Communication and Mental Models, Taylor and Francis, 1996.
+
+Doug Dayton, Information Technology Audit Handbook, Prentice Hall, 1997.
+
+P. Candace Deans and Kirk R. Karwan, eds, Global Information Systems and Technology: Focus on the Organization and Its Functional Areas, Idea Group, 1994.
+
+Candace Deans and Jaak Jurison, Information Technology in a Global Business Environment: Readings and Cases, Boyd and Fraser, 1996.
+
+Regis Debray, Media Manifestos: On the Technological Transmission of Cultural Forms, translated by Eric Rauth, Verso, 1996.
+
+Judith Wagner DeCew, In Pursuit of Privacy: Law, Ethics, and the Rise of Technology, Cornell University Press, 1997.
+
+Ronald J. Deibert, Parchment, Printing, and Hypermedia: Communication in World Order Transformation, Columbia University Press, 1997.
+
+Derrick De Kerckhove, The Skin of Culture: Investigating the New Electronic Reality, edited by Christopher Dewdney, Somerville House, 1995.
+
+Derrick De Kerckhove, Planetary Mind: Collective Intelligence in the Digital Age, Hardwired, 1997.
+
+John De La Mothe and Gilles Paquet, eds, Evolutionary Economics and the New International Political Economy, Pinter, 1996.
+
+Elisa M. del Galdo and Jakob Nielsen, eds, International User Interfaces, Wiley, 1996.
+
+L. A. de Looff, Information Systems Outsourcing Decision Making: A Managerial Approach, Idea Group, 1997.
+
+Tom DeMarco, Why Does Software Cost So Much? And Other Puzzles of the Information Age, Dorset House, 1995.
+
+Dorothy E. Denning and Peter J. Denning, eds, Internet Besieged: Countering Cyberspace Scofflaws, Addison-Wesley, 1997.
+
+Peter J. Denning and Robert M. Metcalfe, Beyond Calculation: The Next Fifty Years of Computing, Copernicus, 1997.
+
+Michael L. Dertouzos, What Will Be: How the New World of Information Will Change Our Lives, Harper San Francisco, 1997.
+
+Mark Dery, Escape Velocity: Cyberculture at the End of the Century, Grove/Atlantic, 1996.
+
+Keith Devlin and Duska Rosenberg, Language at Work: Analyzing Communication Breakdown in the Workplace to Inform Systems Design, CSLI, 1996.
+
+Dirk de Wit, The Shaping of Automation: A Historical Analysis of the Interaction Between Technology and Organization, 1950-1985, Verloren, 1994.
+
+Vasant Dhar and Roger Stein, Seven Methods for Transforming Corporate Data into Business Intelligence, Prentice Hall, 1997.
+
+Ruby Roy Dholakia, Norbert Mundorf, and Nikhilesh Dholakia, eds, New Infotainment Technologies in the Home: Demand-Side Perspectives, Erlbaum, 1996.
+
+Eric Dietrich, ed, Thinking Computers and Virtual Persons: Essays on the Intentionality of Machines, Academic Press, 1994.
+
+Connie L. Dillon and Rosa Cintron, eds, Building a Working Policy for Distance Education, Jossey-Bass, 1997.
+
+Andrea A. diSessa, ed, Computers and Exploratory Learning, Springer, 1995.
+
+Alan J. Dix and Russell Beale, eds, Remote Cooperation: CSCW Issues for Mobile and Teleworkers, Springer, 1996.
+
+Janet M. Dixon, Predicting Seniors' Use of Cyberspace, Garland, 1997.
+
+Pam Dixon and Sylvia Tiersten, Be Your Own Headhunter Online: Get the Job You Want Using the Information Superhighway, Random House, 1995.
+
+Pam Dixon, Virtual College: A Quick Guide to How You Can Get the Degree You Want With Computer, TV, Video, Audio, and Other Distance-Learning Tools, Peterson's, 1996.
+
+Wilson Dizard, Jr., Old Media/New Media: Mass Communications in the Information Age, Longman, 1994.
+
+Wilson Dizard, Jr., Old Media/New Media: Mass Communications in the Information Age, second edition, Longman, 1997.
+
+Wilson Dizard, Jr., Meganet: How the Global Communications Network Will Connect Everyone on Earth, Westview Press, 1997.
+
+Philip V. W. Dodds, ed, Digital Multimedia Cross-Industry Guide, Focal Press, 1995.
+
+Stephen Doheny-Farina, The Wired Neighborhood, Yale University Press, 1996.
+
+Michael G. Dolence and Donald M. Norris, Transforming Higher Education: A Vision for Learning in the 21st Century, Society for College and University Planning, 1995.
+
+Scott E. Donaldson and Stanley G. Siegel, Cultivating Successful Software Development: A Practitioner's View, Prentice Hall, 1997.
+
+John J. Donovan, Business Re-Engineering With Information Technology: Sustaining Your Business Advantage: An Implementation Guide, PTR Prentice Hall, 1994.
+
+James A. Dorn, ed, The Future of Money in the Information Age, Cato Institute, 1997.
+
+Georgios I. Doukidis and Steve Smithson, Information Systems in the National Context: The Case of Greece, Avebury, 1995.
+
+Jon Dovey, ed, Fractal Dreams: New Media in Social Context, Lawrence and Wishart, 1996.
+
+Lawrence Dowler, ed, Gateways to Knowledge: The Role of Academic Libraries in Teaching, Learning, and Research, MIT Press, 1997.
+
+Alex Down, Michael Coleman, and Peter Absolon, Risk Management for Software Projects, McGraw-Hill, 1994.
+
+Toni Downes and Cherryl Fatouros, Learning in an Electronic World: Computers and the Language Arts Classroom, Heinemann, 1995.
+
+William J. Drake, ed, The New Information Infrastructure: Strategies for U.S. Policy, Twentieth Century Fund Press, 1995.
+
+Peter Droege, ed, Intelligent Environments: Spatial Aspects of the Information Revolution, Elsevier, 1997.
+
+Timothy Druckrey and Alluquere R. Stone, eds, Electronic Culture: Technology and Visual Representation, Aperture, 1997.
+
+Jacques-Emile Dubois and Nahum Gershon, eds, Industrial Information and Design Issues, Springer, 1996.
+
+Anne-Marie Duguet, Heinrich Klotz, and Peter Weibel, Jeffrey Shaw: A User's Manual, From Expanded Cinema to Virtual Reality, Cantz, 1997.
+
+Ann Hill Duin and Craig J. Hansen, eds, Nonacademic Writing: Social Theory and Technology, Erlbaum, 1996.
+
+Michael Dunkerley, The Jobless Economy? Computer Technology in the World of Work, Polity, 1996.
+
+James F. Dunnigan, Digital Soldiers: The Evolution of High-Tech Weaponry and Tomorrow's Brave New Battlefield, St. Martin's Press, 1996.
+
+Kenneth Durham and Bruce Kennedy, The New High-Tech Manager: Six Rules for Success in Changing Times, Artech House, 1997.
+
+William H. Dutton, ed, Information and Communication Technologies: Visions and Realities, Oxford University Press, 1996.
+
+Geert Duysters, The Dynamics of Technical Innovation: The Evolution and Development of Information Technology, Elgar, 1996.
+
+Esther Dyson, Release 2.0: A Design for Living in the Digital Age, Broadway, 1997.
+
+Kenneth Dyson and Walter Homolka, eds, Culture First! Promoting Standards in the New Media Age, Cassell, 1996.
+
+Michael J. Earl, ed, Information Management: The Organizational Dimension, Oxford University Press, 1996.
+
+Daniel V. Eastmond, Alone But Together: Adult Distance Study Through Computer Conferencing, Hampton Press, 1995.
+
+Mark Ebers, ed, The Formation of Inter-Organizational Networks, Oxford University Press, 1997.
+
+Stacey L. Edgar, Morality and Machines: Perspectives on Computer Ethics, Jones and Bartlett, 1997.
+
+Charles Edquist, ed, Systems of Innovation: Technologies, Institutions and Organizations, Pinter, 1997.
+
+Alistair D. N. Edwards, ed, Extra-Ordinary Human-Computer Interaction: Interfaces for Users with Disabilities, Cambridge University Press, 1995.
+
+Paul N. Edwards, The Closed World: Computers and the Politics of Discourse in Cold War America, MIT Press, 1996.
+
+Bruce L. Egan, Information Superhighways Revisited: The Economics of Multimedia, Artech House, 1997.
+
+Edeltraud Egger, Computer Supported Cooperative Work: The Bargaining Aspect, Lang, 1996.
+
+Stephen C. Ehrmann, ed, Adult Learning in a New Technological Era, OECD, 1996.
+
+Peter V. Eijsvoogel, Telecommunications Regulation in the Netherlands, Kluwer, 1997.
+
+Kathleen M. Eisenbeis, Privatizing Government Information: The Effects of Policy on Access to Landsat Satellite Data, Scarecrow Press, 1995.
+
+Douglas M. Eisenhart, Publishing in the Information Age: A New Management Framework for the Digital Era, Quorum, 1994.
+
+Jill H. Ellsworth and Matthew V. Ellsworth, Marketing on the Internet, second edition, Wiley, 1997.
+
+Donald P. Ely and Tjeerd Plomp, eds, Classic Writings On Instructional Technology, Libraries Unlimited, 1996.
+
+Peter C. Emberley, Values Education and Technology: The Ideology of Dispossession, University of Toronto Press, 1995.
+
+Robert E. Emeritz, ed, The Telecommunications Act of 1996: Law and Legislative History, Pike and Fischer, 1996.
+
+Vince Emery, How to Grow Your Business on the Internet, Coriolis, 1995.
+
+Stephen J. Emmott, ed, Information Superhighways: Multimedia Users and Futures, Academic Press, 1995.
+
+Catherine McHugh Engstrom and Kevin W. Kruger, eds, Using Technology to Promote Student Learning: Opportunities for Today and Tomorrow, Jossey-Bass, 1997.
+
+Richard Ennals, Executive Guide to Preventing Information Technology Disasters, Springer, 1995.
+
+Pat Ensor, ed, The Cybrarian's Manual, American Library Association, 1997.
+
+Joshua M. Epstein and Robert Axtell, Growing Artificial Societies: Social Science from the Bottom Up, Brookings, 1996.
+
+Richard G. Epstein, The Case of the Killer Robot: Stories About the Professional, Ethical, and Societal Dimensions of Computing, Wiley, 1996.
+
+M. David Ermann, Mary B. Williams, and Michele S. Shauf, eds, Computers, Ethics, and Society, second edition, Oxford University Press, 1997.
+
+Charles Ess, ed, Philosophical Perspectives on Computer-Mediated Communication, State University of New York Press, 1996.
+
+Maurice Estabrooks, Electronic Technology, Corporate Strategy, and World Transformation, Quorum, 1995.
+
+Barbara Etzel and Peter Thomas, Personal Information Management: Tools and Techniques for Achieving Professional Effectiveness, New York University Press, 1996.
+
+Melissa Evans-Andris, An Apple for the Teacher: Computers and Work in Elementary Schools, Corwin Press, 1996.
+
+Terry Evans and Daryl Nation, eds, Opening Education: Policies and Practices from Open and Distance Education, Routledge, 1996.
+
+John H. Everett and Elizabeth P. Crowe, Information for Sale, second edition, McGraw-Hill, 1994.
+
+Tom Fahey, Net.Speak: The Internet Dictionary, edited by Ruffin Prevost, Hayden Books, 1994.
+
+Kristine K. Fallon, The AEC Technology Survival Guide: Managing Today's Information Practice, Wiley, 1997.
+
+John Feather, The Information Society: A Study of Continuity and Change, Library Association, 1994.
+
+Mike Featherstone and Roger Burrows, eds, Cyberspace/Cyberbodies/Cyberpunk: Cultures of Technological Embodiment, Sage, 1995.
+
+Andrew Feenberg, Alternative Modernity: The Technical Turn in Philosophy and Social Theory, University of California Press, 1995.
+
+Andrew Feenberg and Alastair Hannay, eds, Technology and the Politics of Knowledge, Indiana University Press, 1995.
+
+Tony Feldman, An Introduction to Digital Media, Routledge, 1997.
+
+John Felleman, Deep Information: The Role of Information Policy in Environmental Sustainability, Ablex, 1997.
+
+Charles D. Ferris, Guidebook to the Telecommunications Act of 1996, Matthew Bender, 1996.
+
+Roger Fetterman, The Interactive Corporation: Using Interactive Media and Intranets to Enhance Business Performance, Random House, 1997.
+
+Miles R. Fidelman, All-Out Internet Access: The Cambridge Public Library Model, American Library Association, 1997.
+
+Michael Finley, Techno-Crazed: The Businessperson's Guide to Controlling Technology -- Before It Controls You, Peterson's, 1995.
+
+Kathleen E. Finn, Abigail J. Sellen, and Sylvia B. Wilbur, eds, Video-Mediated Communication, Erlbaum, 1997.
+
+Charles M. Firestone, ed, Democracy in the Information Age: Background Readings, Aspen Institute, 1994.
+
+Charles Firestone, ed, The Internet as Paradigm, Aspen Institute, 1997.
+
+Layna Fischer, Electronic Commerce: Profiting from Business On-Line, Future Strategies, 1996.
+
+Michael D. Fischer, Applications in Computing for Social Anthropologists, Routledge, 1994.
+
+Charles Fisher, David C. Dwyer, and Keith Yocam, eds, Education and Technology: Reflections on Computing in Classrooms, Jossey-Bass, 1996.
+
+Joy Fisher, ed, Data Transmission and Privacy, Nijhoff, 1994.
+
+Kimball Fisher and Mareen Duncan Fisher, The Distributed Mind: Achieving High Performance Through the Collective Intelligence of Knowledge Work Teams, AMACOM, 1997.
+
+Stephen Fishman, Software Development: A Legal Guide, edited by Stephen Elias, Ralph Warner and Lisa Goldoftas, Nolo Press, 1994.
+
+Kenneth Flamm, Mismanaged Trade? Strategic Policy and the Semiconductor Industry, Brookings, 1996.
+
+Penny Florence and Dee Reynolds, eds, Feminist Subjects, Multi-Media: Cultural Methodologies, Manchester University Press, 1995.
+
+Stephen Flowers, Software Failure: Management Failure: Amazing Stories and Cautionary Tales, Wiley, 1996.
+
+Joseph S. P. Fong and Shi-Ming Huang, Information Systems Reengineering, Springer, 1997.
+
+Tom Forester and Perry Morrison, Computer Ethics: Cautionary Tales and Ethical Dilemmas in Computing, second edition, MIT Press, 1994.
+
+Edward Forrest and Richard Mizerski, eds, Interactive Marketing: The Future Present, American Marketing Association, 1996.
+
+Maurizio Forte and Alberto Siliotti, eds, Virtual Archaeology: Re-Creating Ancient Worlds, Abrams, 1997.
+
+Charles E. H. Franklin, ed, Business Guide to Privacy and Data Protection Legislation, Kluwer, 1996.
+
+Martin Fransman, Japan's Computer and Communications Industry: The Evolution of Industrial Giants and Global Competitiveness, Oxford University Press, 1996.
+
+David H. Freedman and Charles C. Mann, At Large: The Strange Case of the World's Biggest Internet Invasion, Simon and Schuster, 1997.
+
+Carroll W. Frenzel, Management of Information Technology, second edition, Boyd and Fraser, 1996.
+
+Louis Fried, Managing Information Technology in Turbulent Times, Wiley, 1995.
+
+Batya Friedman, ed, Human Values and the Design of Computer Technology, Cambridge University Press, 1997.
+
+George Friedman, Meredith Friedman, Colin Chapman, and John S. Baker, Jr., The Intelligence Edge: How to Profit in the Information Age, Crown, 1997.
+
+Howard M. Friedman, Securities Regulation in Cyberspace, Bowne, 1997.
+
+Andrew Frost and Mark Norris, Exploiting the Internet: Understanding and Exploiting an Investment in the Internet, Wiley, 1997.
+
+W. Mark Fruin, Knowledge Works: Managing Intellectual Capital at Toshiba, Oxford University Press, 1997.
+
+Leonard M. Fuld, The New Competitor Intelligence: The Complete Resource for Finding, Analyzing, and Using Information About Your Competitors, Wiley, 1994.
+
+Mary Furlong and Stefan B. Lipson, Young at Heart: Computing for Seniors, McGraw-Hill, 1996.
+
+Richard Furuta, ed, CSCW '94: Transcending Boundaries, Association for Computing Machinery, 1994.
+
+C. Bryan Gabbard and George S. Park, The Information Revolution in the Arab World: Commercial, Cultural And Political Dimensions, RAND, 1996.
+
+Richard P. Gabriel, Patterns of Software: Tales from the Software Community, Oxford University Press, 1996.
+
+Silvio Gaggi, From Text to Hypertext: Decentering the Subject in Fiction, Film, the Visual Arts, and Electronic Media, University of Pennsylvania Press, 1997.
+
+Richard S. Gallagher, Effective Software Customer Support, New York: International Thomson Computer Press, 1995.
+
+R. D. Galliers and B. S. H. Baker, Strategic Information Management: Challenges and Strategies in Managing Information Systems, Butterworth Heinemann, 1994.
+
+Gladys D. Ganley, Unglued Empire: The Soviet Experience with Communications Technologies, Ablex, 1996.
+
+Robert Gardner and Dennis Shortelle, From Talking Drums to the Internet: An Encyclopedia of Communications Technology, ABC-Clio, 1997.
+
+Amy Korzick Garmer and Charles M. Firestone, eds, Creating a Learning Society: Initiatives for Education and Technology, Aspen Institute, 1996.
+
+David Garmus and David Herron, Measuring the Software Process: A Practical Guide to Functional Measurements, Prentice Hall, 1996.
+
+Ruth Garner and Mark G. Gillingham, Internet Communication in Six Classrooms: Conversations Across Time, Space, and Culture, Erlbaum, 1996.
+
+Patrick M. Garry, Scrambling for Protection: The New Media and the First Amendment, University of Pittsburg Press, 1994.
+
+Richard J. Gascoyne and Koray Ozcubukcu, Corporate Internet Planning Guide: Aligning Internet Strategy with Business Goals, Van Nostrand Reinhold, 1997.
+
+James E. Gaskin, Corporate Politics and the Internet, Prentice Hall, 1997.
+
+Robin Gaster, Erik Olbeter, Amy Bolster, and Clyde V. Prestowitz, Jr., Bit by Bit: Building a Transatlantic Partnership for the Information Age, Sharpe, 1996.
+
+Bill Gates, The Road Ahead, Viking, 1995.
+
+Bill Gates, The Road Ahead, second edition, Penguin, 1996.
+
+Martin K. Gay, The New Information Revolution: A Reference Handbook, ABC-Clio, 1996.
+
+Karl Gerbel and Peter Weibel, Mythos Information: Welcome to the Wired World: Ars Electronica 95, Springer, 1995.
+
+David V. Gibson and Everett M. Rogers, R&D Collaboration on Trial, Harvard Business School Press, 1994.
+
+Karamjit S. Gill, ed, Information Society: New Media, Ethics and Postmodernism, Springer Verlag, 1996.
+
+David Gillies and Roger J. W. Marshall, Telecommunications Law, Butterworths, 1997.
+
+Paul Gilster, Digital Literacy, Wiley, 1997.
+
+Beth Givens and Dale Fetherling, The Privacy Rights Handbook: How to Take Control of Your Personal Information, Avon, 1997.
+
+Amy K. Glasmeier and Marie Howland, From Combines to Computers: Rural Services and Development in the Age of Information Technology, State University of New York Press, 1995.
+
+Robert L. Glass, Software Runaways, Prentice Hall, 1997.
+
+Bernard Glasson, Doug Vogel, Pieter Bots, and Jay Nunamaker, eds, Information Systems and Technology in the International Office of the Future, Chapman and Hall, 1996.
+
+Thomas K. Glennan and Arthur Melmed, Fostering the Use of Educational Technology: Elements of a National Strategy, RAND, 1996.
+
+James R. Golden, Economics and National Strategy in the Information Age: Global Networks, Technology Policy, and Cooperative Competition, Praeger, 1994.
+
+Andrew Goldstein and William Aspray, eds, Facets: New Perspectives on the History of Semiconductors, IEEE, 1997.
+
+Jeff Goodell, The Cyberthief and the Samurai, Dell, 1996.
+
+Andrea R. Gooden, Computers in the Classroom: How Teachers and Students are Using Technology to Transform Learning, Jossey-Bass, 1996.
+
+Cynthia Goodman, ed, Infoart: The Digital Frontier from Video to Virtual Reality, Distributed Art Publishers, 1996.
+
+Danny Goodman, Living At Light Speed: Your Survival Guide to Life on the Information Superhighway, Random House, 1994.
+
+Barbara Gorayska and Jacob L. Mey, eds, Cognitive Technology: In Search of a Humane Interface, Elsevier, 1996.
+
+Robert B. Grady, Successful Software Process Improvement, Prentice Hall, 1997.
+
+Stephen Graham and Simon Marvin, Telecommunications and the City: Electronic Spaces, Urban Places, Routledge, 1996.
+
+Christian Gram and Gilbert Cockton, eds, Design Principles for Interactive Software, Chapman and Hall, 1996.
+
+Adele Gray and Gina Alphonso, New Game, New Rules: Jobs, Corporate America, and the Information Age, Garland, 1996.
+
+Chris Habels Gray, ed, The Cyborg Handbook, Routledge, 1995.
+
+Paul Gray, ed, Decision Support and Executive Information Systems, Prentice Hall, 1994.
+
+Paul Gray, ed, Management of Information Systems, second edition, Dryden Press, 1994.
+
+Eric Marshall Green, Economic Security and High Technology Competition in an Age of Transition: The Case of the Semiconductor industry, Praeger, 1996.
+
+James Harry Green, The Irwin Handbook of Telecommunications Management, second edition, Irwin, 1996.
+
+John O. Green, The New Age of Communications, Holt, 1997.
+
+Joan Greenbaum, Windows on the Workplace: Computers, Jobs, and the Organization of Office Work in the Late Twentieth Century, Monthly Review Press, 1995.
+
+Martin Greenberger, Technologies for the 21st Century, volume 7: Scaling Up, Council for Technology and the Individual, 1996.
+
+Jon Griffin and Leslie Bash, eds, Computers in the Primary School, Cassell, 1995.
+
+David J. Grimshaw, Bringing Geographical Information Systems Into Business, Wiley, 1994.
+
+Peter Grindley, Standards Strategy and Policy: Cases and Stories, Oxford University Press, 1995.
+
+Keith Grint and Steve Woolgar, The Machine at Work: Technology, Work and Organization, Polity Press, 1997.
+
+Jerrold M. Grochow, Information Overload: Creating Value With the New Information Systems Technology, Yourdon Press, 1997.
+
+Douglas Groothuis, The Soul in Cyberspace, Baker, 1997.
+
+George S. Grossman, ed, Legal Research: Historical Foundations of the Electronic Age, Oxford University Press, 1994.
+
+Lawrence K. Grossman, The Electronic Republic: Reshaping Democracy in the Information Age, Viking, 1995.
+
+Wendy M. Grossman, Net.Wars, New York University Press, 1997.
+
+Wendy M. Grossman, ed, Remembering the Future: Interviews from Personal Computer World, Springer Verlag, 1997.
+
+Sara Grostick, Mary Alice Hanken, and Ellen Jacobs, eds, Health Information: Management of a Strategic Resource, Saunders, 1996.
+
+Andrew S. Grove, Only the Paranoid Survive: How to Exploit the Crisis Points That Challenge Every Company and Career, Currency Doubleday, 1996.
+
+Varun Grover and William J. Kettinger, Business Process Change: Concepts, Methods, and Technologies, Idea Group, 1995.
+
+Frances Grundy, Women and Computers, Intellect, 1996.
+
+Jean Guisnel, Cyberwars: Espionage on the Internet, Plenum Press, 1997.
+
+Laura J. Gurak, Persuasion and Privacy in Cyberspace: The Online Protests over Lotus Marketplace and the Clipper Chip, Yale University Press, 1997.
+
+Christina Haas, Writing Technology: Studies on the Materiality of Literacy, Erlbaum, 1996.
+
+Katie Hafner and Matthew Lyon, Where Wizards Stay Up Late: The Origins of the Internet, Simon and Schuster, 1996.
+
+John Hagel III and Arthur G. Armstrong, Net Gain: Expanding Markets Through Virtual Communities, Harvard Business School Press, 1997.
+
+Richard Hale and Peter Whitlam, Towards the Virtual Organization, McGraw-Hill, 1997.
+
+George M. Hall, The Age of Automation: Technical Genius, Social Dilemma, Praeger, 1995.
+
+Peter Hall, Cities of Tomorrow, revised edition, Blackwell, 1996.
+
+P. A. V. Hall and R. Hudson, eds, Software Without Frontiers: A Multi-Platform, Multi-Cultural, Multi-Nation Approach, Wiley, 1997.
+
+Jolyon E. Hallows, Information Systems Project Management: How to Deliver Function and Value in Information Technology Projects, AMACOM, 1997.
+
+John H. Halvey and Barbara Murphy Melby, Information Technology Outsourcing Transactions: Process, Strategies, and Contracts, Wiley, 1996.
+
+Nagy Hanna, Sandor Boyson, and Shakuntala Gunaratne, The East Asian Miracle and Information Technology: Strategic Management of Technological Learning, World Bank, 1996.
+
+Linda Harasim, Starr Roxanne Hiltz, Lucio Teles, and Murray Turoff, Learning Networks: A Field Guide to Teaching and Learning Online, MIT Press, 1995.
+
+Donna J. Haraway, Modest Witness @ Second Millennium: Female Man Meets Oncomouse -- Feminism and Technoscience, Routledge, 1996.
+
+Craig W. Harding, ed, Doing Business on the Internet: The Law of Electronic Commerce, Practising Law Institute, 1996.
+
+Roy L. Harmon, Reinventing the Business: Preparing Today's Enterprise for Tomorrow's Technology, Free Press, 1996.
+
+Linda M. Harris, ed, Health and the New Media: Technologies Transforming Personal and Public Health, Erlbaum, 1995.
+
+Roma M. Harris and Patricia Dewdney, Barriers to Information: How Formal Help Systems Fail Battered Women, Greenwood Press, 1994.
+
+Teresa M. Harrison and Timothy D. Stephen, eds, Computer Networking and Scholarly Communication in Twenty-First-Century University, State University of New York Press, 1996.
+
+Charles O. Hartman, Virtual Muse: Experiments in Computer Poetry, University Press of New England, 1996.
+
+Harvard Conference on the Internet and Society, O'Reilly, 1997.
+
+Bruce W. Hasenyager, Managing the Information Ecology: A Collaborative Approach to Information Technology Management, Quorum, 1996.
+
+Michael Hauben and Ronda Hauben, Netizens: On the History and Impact of Usenet and the Internet, IEEE Computer Society, 1997.
+
+Gail E. Hawisher and Cynthia L. Selfe, eds, Literacy, Technology, and Society: Confronting the Issues, Prentice Hall, 1996.
+
+Gail E. Hawisher, Paul Leblanc, Cynthia L. Selfe, and Sibylle Gruber, Computers and the Teaching of Writing in American Higher Education, 1979-1994: A History, Ablex, 1996.
+
+Richard Hawkins, Robin Mansell, and Jim Skea, eds, Standards, Innovation and Competitiveness: The Politics and Economics of Standards in Natural and Technical Environments, Edward Elgar, 1995.
+
+Ted Haynes, The Electronic Commerce Dictionary: The Definitive Terms for Doing Business on the Information Superhighway, Robleda, 1995.
+
+Trevor Haywood, Info-Rich-Info-Poor: Access and Exchange in the Global Information Society, Bowker-Saur, 1995.
+
+Nick Heap, ed, Information Technology and Society: A Reader, Sage, 1995.
+
+Bo Hedberg, Goran Dahlgren, Jorgen Hansson, and Nils-Goran Olve, eds, Virtual Organizations and Beyond: Discover Imaginary Systems, Wiley, 1997.
+
+Michael Heim, Virtual Realism, Oxford University Press, 1997.
+
+Ursula K. Heise, Chronoschisms: Time, Narrative, and Postmodernism, Cambridge University Press, 1997.
+
+Ahmed H. Helal and Joachim W. Weiss, eds, Information Superhighway: The Role of Librarians, Information Scientists, and Intermediaries, Universitatsbibliothek Essen, 1995.
+
+Peter K. Heldman, Competitive Telecommunications: How to Thrive Under the Telecommunications Act, McGraw-Hill, 1997.
+
+Robert K. Heldman, Information Telecommunications: Networks, Products, and Services, McGraw-Hill, 1994.
+
+Robert K. Heldman, The Telecommunications Information Millennium: A Vision and Plan for the Global Information Society, McGraw-Hill, 1995.
+
+Bill Henderson, ed, Minutes of the Lead Pencil Club: Pulling the Plug on the Electronic Revolution, Pushcart Press, 1996.
+
+Horst Hendriks-Jansen, Catching Ourselves in the Act: Situated Activity, Interactive Emergence, Evolution, and Human Thought, MIT Press, 1996.
+
+Dan F. Henke and Betty W. Taylor, Law in the Digital Age: The Challenge of Research in Legal Information Centers, Glanville, 1996.
+
+Peter Hernon, Charles R. McClure, and Harold C. Relyea, eds, Federal Information Policies in the 1990s: Views and Perspectives, Ablex, 1996.
+
+Susan C. Herring, ed, Computer-Mediated Communication: Linguistic, Social, and Cross-Cultural Perspectives, Benjamins, 1996.
+
+Lynn Hershman-Leeson, ed, Clicking In: Hot Links to a Digital Culture, Bay Press, 1996.
+
+Carol A. Hert, Understanding Information Retrieval Interactions: Theoretical and Practical Implications, Ablex, 1997.
+
+J. C. Herz, Surfing on the Internet: A Nethead's Adventure On-Line, Little Brown, 1995.
+
+J. C. Herz, Joystick Nation: How Videogames Ate Our Quarters, Won Our Hearts, and Rewired Our Minds, Little, Brown, 1997.
+
+John Higgins, Computers and English Language Learning, Intellect, 1995.
+
+Richard S. Higgins and Paul H. Rubin, eds, Deregulating Telecommunications: The Baby Bells Case for Competition, Wiley, 1995.
+
+Mellanie Hills, Intranet as Groupware, Wiley, 1996.
+
+Starr Roxanne Hiltz, The Virtual Classroom: Learning Without Limits Via Computer Networks, Ablex, 1994.
+
+Rafael Hirschfield, Financial Cryptography: First International Conference, Springer, 1997.
+
+Rudy Hirschheim, Heinz K. Klein, and Kalle Lyytinen, Information Systems Development and Data Modeling, Cambridge University Press, 1995.
+
+Carla Hoekendijk, ed, DEAF96: Digital Territories, V2_Organisatie, 1996.
+
+Gerald M. Hoffman, The Technology Payoff: How to Profit With Empowered Workers in the Information Age, Irwin, 1994.
+
+Nancy L. Hoft, International Technical Communication: How to Export Information About High Technology, Wiley, 1995.
+
+Geoff Hogbin and David V. Thomas, Investing in Information Technology: Managing the Decision-Making Process, McGraw-Hill, 1994.
+
+Luke Hohmann, Journey of the Software Professional: The Sociology of Software Development, Prentice Hall, 1996.
+
+Borje Holmberg, Theory and Practice of Distance Education, second edition, Routledge, 1995.
+
+David Holmes, ed, Virtual Politics: Identity and Community in Cyberspace, Sage, 1997.
+
+Anatol W. Holt, Organized Activity and Its Support by Computer, Kluwer, 1997.
+
+Steven R. Holtzman, Digital Mantras: The Languages of Abstract and Virtual Worlds, MIT Press, 1994.
+
+Steven Holtzman, Digital Mosaics: The Aesthetics of Cyberspace, Simon and Schuster, 1997.
+
+Sung Gul Hong, The Political Economy of Industrial Policy in East Asia: The Semiconductor industry in Taiwan and South Korea, Elgar, 1997.
+
+Jeremy Hope and Tony Hope, Competing in the Third Wave: The Ten Key Management Issues of the Information Age, Harvard Business School, 1997.
+
+Peter Hoschka, ed, Computers as Assistants: A New Generation of Support Systems, Erlbaum, 1996.
+
+Jim Hoskins and Vincent Lupiano, Exploring IBM's Bold Internet Strategy, Maximum, 1997.
+
+Tharon W. Howard, A Rhetoric of Electronic Communities, Ablex, 1997.
+
+Thomas J. Howard, Global Expansion in the Information Age: Big Planet, Small World, Van Nostrand Reinhold, 1995.
+
+Peter Howitt, ed, The Implications of Knowledge-Based Growth for Micro-Economic Policies, University of Calgary Press, 1996.
+
+John Howkins and Robert Valantin, eds, Development and the Information Age: Four Global Scenarios for the Future of Information and Communication Technology, International Development Research Centre, 1997.
+
+Peter W. Huber, Michael K. Kellogg, and John Thorne, The Telecommunications Act of 1996: Special Report, Little, Brown, 1996.
+
+Peter W. Huber, Law and Disorder in Cyberspace: Abolish the FCC and Let Common Law Rule the Telecosm, Oxford University Press, 1997.
+
+Heather E. Hudson, Global Connections: International Telecommunications Infrastructure and Policy, Van Nostrand Reinhold, 1997.
+
+Gary Clyde Hufbauer and Erika Wada, eds, Unfinished Business: Telecommunications after the Uruguay Round, Institute for International Economics, 1997.
+
+Chuck Huff and Thomas Finholt, eds, Social Issues in Computing: Putting Computing in Its Place, McGraw-Hill, 1994.
+
+P. Bernt Hugenholtz, The Future of Copyright in a Digital Environment, Kluwer, 1996.
+
+Carol Hughes, ed, Scholarship in the New Information Environment: Proceedings From an RLG Symposium Held May 1-3, 1995 at Harvard University, Research Libraries Group, 1996.
+
+John Hughes, Wolfgang Prinz, and Tom Rodden, eds, Proceedings of the Fifth European Conference on Computer Supported Cooperative Work, Kluwer, 1997.
+
+Watts S. Humphrey, A Discipline for Software Engineering, Addison-Wesley, 1995.
+
+Watts S. Humphrey, Managing Technical People: Innovation, Teamwork, and the Software Process, Addison-Wesley, 1996.
+
+Richard O. Hundley and Robert H. Anderson, Security in Cyberspace: An Emerging Challenge for Society, RAND, 1994.
+
+Brian Hunt and David Targett, The Japanese Advantage? Competitive IT Strategies Past, Present, and Future, Butterworth-Heinemann, 1995.
+
+Khateeb M. Hussain and Donna Hussain, Information Technology Management, Digital Press, 1997.
+
+Edwin Hutchins, Cognition in the Wild, MIT Press, 1995.
+
+Urwula Huws and Ewa Gunnarsson, eds, Virtually Free: Gender, Work and Spatial Choice, NUTEK, 1997.
+
+William E. Huxhold and Allan G. Levinsohn, Managing Geographic Information System Projects, Oxford University Press, 1995.
+
+Marco Iansiti, Technology Integration: Making Critical Choices in a Dynamic World, Harvard Business School Press, 1997.
+
+Thomas Ice and Timothy Demy, The Coming Cashless Society, Harvest House, 1996.
+
+Andy Ihnatko, Cyberspeak: An Online Dictionary, Random House, 1997.
+
+Institute of Electrical and Electronic Engineers, 1996 International Symposium on Technology and Society: Technical Expertise and Public Decisions, IEEE, 1996.
+
+Institute of Electrical and Electronics Engineers, Proceedings of the Third International Workshop on Community Networking: Stories Behind the Picture, IEEE, 1996.
+
+Institute of Electrical and Electronic Engineers, 1997 International Symposium on Technology and Society: Technology and Society at a Time of Sweeping Change, IEEE, 1997.
+
+Institute of Electrical and Electronics Engineers, Proceedings of the Fourth International Workshop on Community Networking, IEEE, 1997.
+
+Institute of Medicine, The Computer-Based Patient Record: An Essential Technology for Health Care, National Academy Press, 1997.
+
+John Iovine, Step Into Virtual Reality, McGraw-Hill, 1995.
+
+Mohammed Nazari Ismail, Transnational Corporations and Economic Development: A Study of the Malaysian Electronics Industry, University of Malaya Press, 1995.
+
+Toshio Itoh, Technology in the 21st Century: Future Readings for an Information-Oriented Society, Ohmsha, 1996.
+
+Tim Jackson, Inside Intel: Andy Grove and the Rise of the World's Most Powerful Chip Company, Dutton, 1997.
+
+John Kurt Jacobsen, Dead Reckonings: Ideas, Interests, and Politics in the "Information Age", Humanities Press, 1997.
+
+Rama Dev Jager and Rafael Ortiz, In the Company of Giants: Candid Conversations With the Visionaries of the Digital World, McGraw-Hill, 1997.
+
+Geoffrey James, Business Wisdom of the Electronic Elite: 34 Winning Management Strategies From Ceos At Microsoft, Compaq, Sun, Hewlett-Packard and Other Top Companies, Times Business/Random House, 1996.
+
+Daniel S. Janal, Online Marketing Handbook: How to Sell, Advertise, Publicize, and Promote Your Products and Services on the Internet and Commercial Online Systems, Van Nostrand Reinhold, 1995.
+
+Daniel S. Janal, 101 Successful Businesses You Can Start On the Internet, Van Nostrand Reinhold, 1997.
+
+Daniel S. Janal, Online Marketing Handbook: How to Promote, Advertise, and Sell Your Products and Services On the Internet, Van Nostrand Reinhold, 1997.
+
+M. Ellen Jay and Hilda L. Jay, The Library/Computer Lab/Classroom Connection: Linking Content, Thinking, Writing, Neal-Schuman, 1994.
+
+George Jenkins, Information Systems Policies and Procedures Manual, second edition, Prentice Hall, 1997.
+
+Glenn P. Jenkins, ed, Information Technology and Innovation in Tax Administration, Kluwer, 1996.
+
+Timothy L. Jenkins and Khafra K. Om-Ra-Zeti, Black Futurists in the Information Age: Vision of a 21st Century Technological Renaissance, Unlimited Visions, 1997.
+
+Michael G. Jenner, Software Quality Management and ISO 9001: How to Make Them Work for You, Wiley, 1995.
+
+Nick Jennings, Cooperation in Industrial Multi-Agent Systems, World Scientific, 1994.
+
+Cliff E. Jernigan, High Tech Survival: The Impact Of Government On High Tech And BioTech Companies, Olive Hill Lane Press, 1996.
+
+Marina Jirotka and Joseph A. Goguen, eds, Requirements Engineering: Social and Technical Issues, Academic Press, 1994.
+
+Merida L. Johns, Information Management for Health Professions, Delmar, 1997.
+
+Deborah G. Johnson, Computer Ethics, second edition, Prentice Hall, 1994.
+
+D. Lamont Johnson, Cleborne D. Maddux, and Leping Liu, eds, Using Technology in the Classroom, Haworth, 1997.
+
+J. David Johnson, Information Seeking: An Organizational Dilemma, Quorum, 1996.
+
+Steven Johnson, Interface Culture: How New Technology Transforms the Way We Create and Communicate, Harper San Francisco, 1997.
+
+Johndan Johnson-Eilola, Nostalgic Angels: Rearticulating Hypertext Writing, Ablex, 1997.
+
+Vijay K. Jolly, Commercializing New Technologies: Getting from Mind to Market, Harvard Business School Press, 1997.
+
+David H. Jonassen, Computers in the Classroom: Mindtools for Critical Thinking, Merrill, 1996.
+
+David H. Jonassen, ed, Handbook of Research for Educational Communications and Technology: A Project of the Association for Educational Communications and Technology, Macmillan, 1996.
+
+Bryn Jones, Forcing the Factory of the Future: Cybernation and Societal Institutions, Cambridge University Press, 1997.
+
+Byrd L. Jones and Robert W. Maloy, Schools for an Information Age: Reconstructing Foundations for Learning and Teaching, Praeger, 1996.
+
+Steven G. Jones, ed, CyberSociety: Computer-Mediated Communication and Community, Sage, 1995.
+
+Steven G. Jones, ed, Virtual Culture: Identity and Communication in Cybersociety, Sage, 1997.
+
+Katherine Jones-Garmil, ed, The Wired Museum: Emerging Technology and Changing Paradigms, American Association of Museums, 1997.
+
+Bruce Judson, Net Marketing: How Your Business Can Profit from the Online Revolution, Wolff New Media, 1996.
+
+Egil Juliussen and Karen Petska Juliussen, The 7th Annual Computer Industry Almanac, 1994-95, Computer Industry Almanac, 1994.
+
+Meheroo Jussawalla, ed, Telecommunications: A Bridge to the 21st Century, Elsevier, 1995.
+
+Yasmin Kafai and Mitchel Resnick, eds, Constructionism in Practice: Designing, Thinking, and Learning in a Digital World, Erlbaum, 1996.
+
+Jeffrey Kagan, Winning Communications Strategies: How Small Businesses Master Cutting-Edge Technology to Stay Competitive, Provide Better Service and Make More Money, Aegis, 1997.
+
+Brian Kahin, ed, Building Information Infrastructure: Issues in the Development of the National Research and Education Network, McGraw-Hill, 1994.
+
+Brian Kahin and Janet Abbate, eds, Standards Policy for Information Infrastructure, MIT Press, 1995.
+
+Brian Kahin and James Keller, eds, Public Access to the Internet, MIT Press, 1995.
+
+Brian Kahin and Charles Nesson, eds, Borders in Cyberspace: Information Policy and the Global Information Infrastructure, MIT Press, 1997.
+
+Brian Kahin and James H. Keller, eds, Coordinating the Internet, MIT Press, 1997.
+
+Brian Kahin and Ernest J. Wilson III, eds, National Information Infrastructure Initiatives: Vision and Policy Design, MIT Press, 1997.
+
+David Kahn, The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet, second edition, Scribner, 1996.
+
+Ravi Kalakota and Andrew B. Whinston, Frontiers of Electronic Commerce, Addison-Wesley, 1996.
+
+Ravi Kalakota and Andrew B. Whinston, eds, Readings in Electronic Commerce, Addison-Wesley, 1997.
+
+Ravi Kalakota and Andrew B. Whinston, Electronic Commerce: A Manager's Guide, Addison-Wesley, 1996.
+
+Ernest A. Kallman and John P. Grillo, Ethical Decision Making and Information Technology: An introduction With Cases, second edition, McGraw-Hill, 1996.
+
+James R. Kalmbach, The Computer and the Page: Publishing, Technology, and the Classroom, Ablex, 1997.
+
+M. Kanakachary, Towards Networking of the Humanities Libraries in India, Ess Ess, 1996.
+
+Peter Kandzia and Matthias Klusch, eds, Cooperative Information Agents: First International Workshop, Springer, 1997.
+
+Jack M. Kaplan, Smart Cards: The Global Information Passport: Managing a Successful Smart Card Program, International Thomson Computer Press, 1996.
+
+Fahri Karakaya and Erdener Kaynak, eds, How to Utilize New Information Technology in the Global Marketplace: A Basic Guide, International Business Press, 1995.
+
+Magnus Karlsson and Lennart Sturesson, eds, The World's Largest Machine: Global Telecommunications and the Human Condition, Almqvist and Wiksell, 1995.
+
+Curtis E. A. Karnow, Future Codes: Essays in Advanced Computer Technology and the Law, Artech House, 1997.
+
+Dale Walter Karolak, Software Risk Management, IEEE Computer Society Press, 1996.
+
+Harry C. Katz, ed, Telecommunications: Restructuring Work and Employment Relations Worldwide, ILR Press, 1997.
+
+Jon Katz, Media Rants: Postpolitics in the Digital Nation, Hardwired, 1997.
+
+Ralph Katz, ed, The Human Side of Managing Technological Innovation: A Collection of Readings, Oxford University Press, 1997.
+
+Roberta R. Katz, Bruce P. Keller, and Lance Rose, eds, The Fourth Annual Seminar On Legal and Business Aspects of the Internet, Law Journal Seminars-Press, 1997.
+
+Yaacov J. Katz, Daniel Millin, and Baruch Offir, eds, The Impact of Information Technology: From Practice to Curriculum, Chapman and Hall, 1996.
+
+Desmond Keegan, ed, Otto Peters on Distance Education: The Industrialization of Teaching and Learning, Routledge, 1994.
+
+Desmond Keegan, Foundations of Distance Education, third edition, Routledge, 1996.
+
+Mark Keegan, Scenario Educational Software: Design and Development of Discovery Learning, Educational Technology Publications, 1995.
+
+Peter G. W. Keen and J. Michael Cummins, Networks in Action: Business Choices and Telecommunications Decisions, Wadsworth, 1994.
+
+Peter G. W. Keen and Craigg Ballance, On-Line Profits: A Manager's Guide to Electronic Commerce, Harvard Business School Press, 1997.
+
+Patrick E. Kehoe, Lovisa Lyman, and Gary Lee McCann, eds, Law Librarianship: A Handbook for the Electronic Age, Rothman, 1995.
+
+Owen Kelly, Digital Creativity, Calouste Gulbenkian Foundation, 1996.
+
+David Kember, Open Learning Courses for Adults: A Model of Student Progress, Educational Technology Publications, 1995.
+
+Chris F. Kemerer, Software Project Management: Readings and Cases, Irwin, 1996.
+
+Chris F. Kemerer, ed, Information Technology and Industrial Competitiveness: How It Shapes Competition, Kluwer, 1997.
+
+Charles H. Kennedy, An Introduction to US Telecommunications Law, Artech House, 1994.
+
+Charles H. Kennedy and M. Veronica Pastor, An Introduction to International Telecommunications Law, Artech House, 1996.
+
+Stephen T. Kerr, ed, Technology and the Future of Schooling, University of Chicago Press, 1996.
+
+Harold Kerzner, Project Management: A Systems Approach to Planning, Scheduling, and Controlling, sixth edition, Wiley, 1997.
+
+Jack Kessler, Internet Digital Libraries: The International Dimension, Artech House, 1996.
+
+Bettyann Holtzmann Kevles, Naked to the Bone: Medical Imaging in the Twentieth Century, Rutgers University Press, 1997.
+
+Badrul H. Khan, ed, Web-Based Instruction, Educational Technology Publications, 1997.
+
+Dan M. Khanna, The Rise, Decline, and Renewal of Silicon Valley's High Technology Industry, Garland, 1997.
+
+Mehdi Khosrowpour, ed, Information Technology and Organizations: Challenges of New Technologies, Idea Group, 1994.
+
+Mehdi Khosrowpour, ed, Managing Information Technology Investments With Outsourcing, Idea Group, 1995.
+
+Paul T. Kidd and Waldemar Karwowski, eds, Advances in Agile Manufacturing: Integrating Technology, Organization and People, IOS Press, 1994.
+
+Peggy A. Kidwell and Paul E. Ceruzzi, Landmarks in Digital Computing: A Smithsonian Pictorial History, Smithsonian Institution Press, 1994.
+
+Sara Kiesler, ed, Culture of the Internet, Erlbaum, 1996.
+
+Robin Kinder, ed, Librarians on the Internet: Impact on Reference Services, Haworth Press, 1994.
+
+Bruce R. Kingman, The Economics of Information: A Guide to Economic and Cost-Benefit Analysis for Information Professionals, Libraries Unlimited, 1996.
+
+Warren Kinsella, Web of Hate: Inside Canada's Far Right Network, HarperCollins, 1994.
+
+B. A. Kiplagat and M. C. M. Werner, eds, Telecommunications and Development in Africa, IOS Press, 1994.
+
+Stefan Kirn and Greg O'Hare, eds, Cooperative Knowledge Processing: The Key Technology for Intelligent Organizations, Springer, 1997.
+
+Ellen M. Kirsh, Lance Rose, and Shari Steele, Business and Legal Aspects of the Internet and Online Services, Law Journal Seminars Press, 1994.
+
+Kerry Kissinger and Sandra Borchardt, eds, Information Technology for Integrated Health Systems: Positioning for the Future, Wiley, 1996.
+
+Friedrich A. Kittler, Literature, Media, Information Systems: Essays, translated by John Johnston, Distributed Art Publishers, 1997.
+
+Joseph M. Kizza, ed, Ethics in the Computer Age: Conference Proceedings, Association for Computing Machinery, 1994.
+
+Joseph M. Kizza, Ethical and Social Issues in the Information Age, Springer, 1998.
+
+Rob Kling, ed, Computerization and Controversy: Value Conflicts and Social Choices, second edition, Academic Press, 1996.
+
+Richard Klingler, The New Information Industry: Regulatory Challenges and the First Amendment, Brookings Institution Press, 1996.
+
+Linda Roehrig Knapp and Allen D. Glenn, Restructuring Schools with Technology, Allyn and Bacon, 1996.
+
+Leon T. Knauer, Ronald K. Machtley, and Thomas M. Lynch, eds, Telecommunications Act Handbook: A Complete Reference for Business, Government Institutes, 1996.
+
+David Knights and Fergus Murray, Managers Divided: Organisation Politics and Information Technology Management, Wiley, 1994.
+
+David Knights and Tony Tinker, eds, Financial Institutions and Social Transformations: International Studies of a Sector, St. Martin's Press, 1997.
+
+Tom Koch, The Message Is the Medium: Online All the Time for Everyone, Praeger, 1996.
+
+Robert Koechley, ed, Libraries and the Internet, Highsmith Press, 1997.
+
+Frank Koelsch, The Infomedia Revolution: How IT Is Changing Our World and Your Life, McGraw-Hill Ryerson, 1995.
+
+Margo Komenar, Electronic Marketing, Wiley, 1997.
+
+Georg Koopmann and Hans-Eckart Scharrer, eds, The Economics of High Technology Competition and Cooperation in Global Markets, Nomos, 1996
+
+Klaus Kornwachs and Konstantin Jacoby, Information: New Questions to a Multidisciplinary Concept, Akademie Verlag, 1996.
+
+Werner B. Korte and Richard Wynne, Telework: Penetration, Potential and Practice in Europe, IOS, 1996.
+
+Timothy Koschmann, ed, CSCL: Theory and Practice of an Emerging Paradigm, Erlbaum, 1996.
+
+David R. Kosiur, Understanding Electronic Commerce, Microsoft Press, 1997.
+
+Diane Kovacs and Michael Kovacs, The Cybrarian's Guide to Developing Successful Internet Programs and Services, Neal-Schuman, 1997.
+
+George Kozmetsky and Piyu Yue, Global Economic Competition: Today's Warfare in Global Electronics Industries and Companies, Kluwer, 1997.
+
+Thomas G. Krattenmaker, Telecommunications Law and Policy, Carolina Academic Press, 1994.
+
+Samuel Krislov, How Nations Choose Product Standards and Standards Change Nations, University of Pittsburgh Press, 1997.
+
+Georg von Krogh and Johan Roos, eds, Managing Knowledge: Perspectives on Cooperation and Competition, Sage, 1996.
+
+Arthur Kroker and Michael A. Weinstein, Data Trash: The Theory of the Virtual Class, St. Martin's Press, 1994.
+
+Arthur Kroker and Marilouise Kroker, Hacking the Future: Stories for the Flesh-Eating 90s, St. Martin's Press, 1996.
+
+Arthur Kroker and Marilouise Kroker, eds, Digital Delirium, St. Martin's Press, 1997.
+
+Herbert Kubicek, William H. Dutton, and Robin Williams, eds, The Social Shaping of Information Superhighways: European and American Roads to the Information Society, St. Martin's Press, 1997.
+
+R. P. Kumar, Divya Srivastava, and S. P. Gupta, eds, Education for Librarianship in Information Age, Medical Library Association of India, 1995.
+
+Raymond A. Kurz, Internet and the Law: Legal Fundamentals for the Internet User, Government Institutes, 1996.
+
+Morten Kyng and Lars Mathiassen, eds, Computers and Design in Context, MIT Press, 1997.
+
+Mary Cecelia Lacity and Rudy Hirschheim, Beyond the Information Systems Outsourcing Bandwagon: The Insourcing Response, Wiley, 1995.
+
+Cheryl Laguardia, Teaching the New Library: A How-To-Do-It Manual for Planning and Designing Instructional Programs, Neal-Schuman, 1996.
+
+Sanjay Lall, Learning from the Asian Tigers: Studies in Technology and Industrial Policy, St. Martin's Press, 1997.
+
+Donald M. Lamberton, ed, Beyond Competition: The Future of Telecommunications, Elsevier, 1995.
+
+Donald M. Lamberton, ed, The Economics of Communication and Information, Elgar, 1996.
+
+Donald M. Lamberton, ed, The New Research Frontiers of Communications Policy, Elsevier, 1997.
+
+Naomi R. Lamoreaux and Daniel M. G. Raff, eds, Coordination and Information: Historical Perspectives on the Organization of Enterprise, University of Chicago Press, 1995.
+
+F. W. Lancaster and Beth Sandore, Technology and Management in Library and Information Services, University of Illinois Press, 1997.
+
+Thomas K. Landauer, The Trouble with Computers: Usefulness, Usability, and Productivity, MIT Press, 1995.
+
+George P. Landow, Hypertext 2.0: The Convergence of Contemporary Critical Theory and Technology, second edition, Johns Hopkins University Press, 1997.
+
+James F. Larson, The Telecommunications Revolution in Korea, Oxford University Press, 1995.
+
+Lori Laub and Kay Khandphur, Delivering World-Class Technical Support, Wiley, 1996.
+
+Kenneth C. Laudon and Jane Price Laudon, Management Information Systems: Organization and Technology, third edition, Macmillan, 1994.
+
+Kenneth C. Laudon, Carol Guercio Traver, and Jane Price Laudon, Information Technology and Society, second edition, Course Technology, 1996.
+
+Robert W. Lawler, Learning with Computers, Intellect, 1997.
+
+Thomas C. Lawton, Technology and the New Diplomacy: The Creation and Control of EC Industrial Policy for Semiconductors, Avebury, 1997.
+
+Timothy Leary, Chaos and Cyber Culture, edited by Michael Horowitz, Ronin, 1994.
+
+John F. LeBaron, Catherine Collier, and Linda de Lyon Friel, A Travel Agent in Cyber School: The Internet and the Library Media Program, Libraries Unlimited, 1997.
+
+Chung-Shing Lee and Michael Pecht, The Taiwan Electronics Industry, CRC Press, 1997.
+
+Eric Lee, The Labour Movement and the Internet: The New Internationalism, Pluto Press, 1997.
+
+Kelley Lee, Global Telecommunications Regulation: A Political Economy Perspective, Pinter, 1996.
+
+Raymond M. Lee, ed, Information Technology for the Social Scientist, UCL Press, 1995.
+
+Anne C. Leer, It's a Wired World: The New Networked Economy, Scandinavian University Press, 1996.
+
+William Lehr, ed, Quality and Reliability of Telecommunications Infrastructure, Erlbaum, 1995.
+
+Andrew Leonard, Bots: The Origin of New Species, Hardwired, 1997.
+
+Michael Lesk, Practical Digital Libraries: Books, Bytes, and Bucks, Morgan Kaufmann, 1997.
+
+Matthew Lesko and Martha Murphy, Info-Fobia: How to Survive in an Information Society, Information USA, 1996.
+
+David K. Levine and Steven A. Lippman, eds, The Economics of Information, Elgar, 1995.
+
+Jay Conrad Levinson and Charles Rubin, Guerrilla Marketing Online: The Entrepreneur's Guide to Earning Profits on the Internet, Houghton Mifflin, 1995.
+
+Jay Conrad Levinson, Guerrilla Marketing with Technology: Unleashing the Full Potential of your Small Business, Addison-Wesley, 1997.
+
+Paul Levinson, The Soft Edge: A Natural History and Future of the Information Revolution, Routledge, 1997.
+
+Brian Levy and Pablo T. Spiller, eds, Regulations, Institutions, and Commitment: Comparative Studies of Telecommunications, Cambridge University Press, 1996.
+
+Pierre Levy, Collective Intelligence: Mankind's Emerging World in Cyberspace, translated by Robert Bononno, Plenum Press, 1997.
+
+Paul J. Lewis, Information-Systems Development: Systems Thinking in the Field of Information-Systems, Pitman, 1994.
+
+T. G. Lewis, The Friction-Free Economy: Marketing Strategies for a Wired World, HarperBusiness, 1997.
+
+Thomas T. Liao, ed, Advanced Educational Technology: Research Issues and Future Potential, Springer, 1996.
+
+Martin C. Libicki, Defending Cyberspace, and Other Metaphors, National Defense University, 1997.
+
+Merete Lie and Knut H. Sorensen, eds, Making Technology Our Own? Domesticating Technology into Everyday Life, Scandinavian University Press, 1996.
+
+Jay Liebowitz and Medhi Khosrowpour, eds, Cases on Information Technology Management in Modern Organizations, Idea Group, 1997.
+
+Jessica Lipnack and Jeffrey Stamps, Virtual Teams: Reaching Across Space, Time, and Organizations With Technology, Wiley, 1997.
+
+Yuval Lirov, Mission-Critical Systems Management, Prentice Hall, 1997.
+
+Martin Lister, ed, The Photographic Image in Digital Culture, Routledge, 1995.
+
+Jonathan Littman, The Fugitive Game: Online with Kevin Mitnick, Little, Brown, 1996.
+
+Jonathan Littman, The Watchman: The Twisted Life and Crimes of Serial Hacker Kevin Poulsen, Little, Brown, 1997.
+
+Lewis-Guodo Liu, The Internet and Library and Information Services: Issues, Trends, and Annotated Bibliography, 1994-1995, Greenwood Press, 1996.
+
+Les Lloyd, ed, Technology and Teaching, Information Today, 1997.
+
+Peter Lloyd, ed, Groupware in the 21st Century: Computer Supported Cooperative Working Toward the Millennium, Praeger, 1994.
+
+Brian D. Loader, ed, The Governance of Cyberspace: Politics, Technology and Global Restructuring, Routledge, 1997.
+
+Fred Lockwood, ed, Open and Distance Learning Today, Routledge, 1995.
+
+C. W. Loftus, Distributed Software Engineering, Prentice Hall, 1995.
+
+Elisabeth Logan and Myke Gluck, eds, Electronic Publishing: Applications and Implications, Information Today, 1997.
+
+Robert K. Logan, The Fifth Language: Learning a Living in the Computer Age, Stoddart, 1997.
+
+Colin D. Long, Telecommunications Law and Practice, second edition, Sweet and Maxwell, 1995.
+
+Robert Emmet Long, ed, Rights to Privacy, Wilson, 1997.
+
+Nancy M. Lorenzi and Robert T. Riley, Organizational Aspects of Health Informatics: Managing Technological Change, Springer-Verlag, 1995.
+
+Nancy M. Lorenzi, ed, Transforming Health Care Through Information: Case Studies, Springer-Verlag, 1995.
+
+Harold Lorin, Doing IT Right: Technology, Business, and Risk of Computing, Manning, 1996.
+
+Hannes P. Lubich, Towards a CSCW Framework for Scientific Cooperation in Europe, Springer-Verlag, 1995.
+
+Annteresa Lubrano, The Telegraph: How Technology Innovation Caused Social Change, Garland, 1997.
+
+Henry C. Lucas, Jr., The T-Form Organization: Using Technology to Design Organizations for the 21st Century, Jossey-Bass, 1996.
+
+Henry C. Lucas, Jr., Information Technology for Management, sixth edition, McGraw-Hill, 1997.
+
+Peter Ludlow and Loyd Blankenship, High Noon on the Electronic Frontier: Conceptual Issues in Cyberspace, MIT Press, 1996.
+
+Jerry N. Luftman, ed, Competing in The Information Age: Strategic Alignment in Practice, Oxford University Press, 1996.
+
+Stephen F. Lundstrom, ed, Defining the Global Information Infrastructure: Infrastructure, Systems, and Services, SPIE Optical Engineering Press, 1994.
+
+Eduardo Luzio, The Microcomputer Industry in Brazil: The Case of a Protected High-Technology Industry, Praeger, 1996.
+
+Nina Lykke and Rosi Braidotti, eds, Between Monsters, Goddesses, and Cyborgs: Feminist Confrontations With Science, Medicine and Cyberspace, Zed, 1996.
+
+David Lyon, The Electronic Eye: The Rise of Surveillance Society, University of Minnesota Press, 1994.
+
+David Lyon and Elia Zureik, eds, Computers, Surveillance, and Privacy, University of Minnesota Press, 1996.
+
+Mary Niles Maack and Joanne Passet, Aspirations and Mentoring in an Academic Environment: Women Faculty in Library and Information Science, Greenwood Press, 1994.
+
+Paul W. MacAvoy, The Failure of Antitrust and Regulation to Establish Competition in Long-Distance Telephone Services, MIT Press, 1996.
+
+Norman B. Macintosh, Management Accounting and Control Systems: An Organizational and Behavioral Approach, Wiley, 1994.
+
+Randall M. MacDonald, The Internet and the School Library Media Specialist: Transforming Traditional Services, Greenwood Press, 1997.
+
+Ejan Mackaay, Daniel Poulin, and Pierre Trudel, eds, The Electronic Superhighway: The Shape of Technology and Law to Come, Kluwer, 1995.
+
+Donald MacKenzie, Knowing Machines: Essays on Technical Change, MIT Press, 1996.
+
+Richard Maddison and Geoffrey Darnton, Information Systems in Organizations: Improving Business Processes, Chapman and Hall, 1996.
+
+Shirin Madon, Designing Information Systems for Development Planning, A. Waller, 1994.
+
+Lotfi Maherzi, World Communication Report: The Media and the Challenge of the New Technologies, UNESCO, 1997.
+
+Tsugio Makimoto and David Manners, Digital Nomad, Wiley, 1997.
+
+Carl Malamud, A World's Fair for the Global Village, MIT Press, 1997.
+
+Donald Mankin, Susan G. Cohen, and Tora K. Bikson, Teams and Technology: Fulfilling the Promise of the New Organization, Harvard Business School Press, 1996.
+
+Robin Mansell, ed, The Management of Information and Communication Technologies: Emerging Patterns of Control, Aslib, 1994.
+
+Robin Mansell and Roger Silverstone, eds, Communication by Design: The Politics of Information and Communication Technologies, Oxford University Press, 1996.
+
+Giuseppe Mantovani, New Communication Environments: From Everyday to Virtual, Taylor and Francis, 1996.
+
+Richard L. Manweller, Funding High Tech Ventures, Oasis, 1997.
+
+John J. Marciniak, ed, Encyclopedia of Software Engineering, Wiley, 1994.
+
+George E. Marcus, ed, Technoscientific Imaginaries: Conversations, Profiles, and Memoirs, University of Chicago Press, 1995.
+
+George E. Marcus, ed, Connected: Engagements with Media, University of Chicago Press, 1996.
+
+Robert Markley, ed, Virtual Realities and Their Discontents, Johns Hopkins University Press, 1996.
+
+Eugene Marlow and Janice Sileo, Winners! Producing Effective Electronic Media, Wadsworth, 1995.
+
+Eugene Marlow, Web Visions: An Inside Look at Successful Business Strategies on the Net, Van Nostrand Reinhold, 1997.
+
+Eugene Marlow and Patricia O'Connor Wilson, The Breakdown of Hierarchy: Communicating in the Evolving Workplace, Butterworth-Heinemann, 1997.
+
+Hans Marmolin, Yngve Sundblad, and Kjeld Schmidt, eds, ECSCW '95: Proceedings of the Fourth European Conference on Computer-Supported Cooperative Work, Kluwer, 1995.
+
+Chuck Martin, The Digital Estate: Strategies for Competing, Surviving, and Thriving in an Internetworked World, McGraw-Hill, 1996.
+
+James Martin, Cybercorp: The New Business Revolution, Amacom, 1996.
+
+Lyn Elizabeth M. Martin, ed, The Challenge of Internet Literacy: The Instruction-Web Convergence, Haworth Press, 1997.
+
+Shannon E. Martin, Bits, Bytes, and Big Brother: Federal Information Control in the Technological Age, Praeger, 1995.
+
+William J. Martin, The Global Information Society, second edition, Aslib Gower, 1995.
+
+Peter H. Martorella, ed, Interactive Technologies and the Social Studies: Emerging Issues and Applications, State University of New York Press, 1997.
+
+Robin Mason, Using Communications Media in Open and Flexible Learning, Kogan Page, 1994.
+
+Jeffrey Masten, Peter Stallybrass, and Nancy Vickers, eds, Language Machines: Technologies of Literary and Cultural Production, Routledge, 1997.
+
+Michael Mathiesen, Marketing on the Internet, second edition, Maximum Press, 1997.
+
+Daniel E. Maurino, Beyond Aviation Human Factors: Safety in High Technology Systems, Avebury Aviation, 1995.
+
+William D. May, Edges of Reality: Mind Vs. Computer, Insight, 1996.
+
+Martin Mayer, The Bankers: The Next Generation, Dutton, 1997.
+
+Charles H. McCain, Plugged In and Turned On: Planning, Coordinating, and Managing Computer-Supported Instruction, Corwin Press, 1996.
+
+Jim McCarthy, Dynamics of Software Development, Microsoft Press, 1995.
+
+Robert W. McChesney, Telecommunications, Mass Media, and Democracy: The Battle for the Control of U.S. Broadcasting, 1928-1935, Oxford University Press, 1993.
+
+Charles R. McClure, William E. Moen, and Joe Ryan, eds, Libraries and the Internet/NREN: Perspectives, Issues, and Challenges, Mecklermedia, 1994.
+
+Charles R. McClure and Cynthia L. Lopata, Assessing the Academic Networked Environment: Strategies and Options, Coalition for Networked Information, 1996.
+
+David McConnell, Implementing Computer Supported Cooperative Learning, Kogan Page, 1994.
+
+Steve McConnell, Rapid Development: Taming Wild Software Schedules, Microsoft Press, 1996.
+
+Richard McCracken and Madeleine Gilbart, Buying and Clearing Rights: Print, Broadcast and Multimedia, Blueprint, 1995.
+
+Malcolm McCullough, Abstracting Craft: The Practiced Digital Hand, MIT Press, 1996.
+
+Angela McFarlane, ed, Information Technology and Authentic Learning: Realising the Potential of Computers in the Primary Classroom, Routledge, 1997.
+
+John J. McGonagle, Jr. and Carolyn M. Vella, A New Archetype for Competitive Intelligence, Quorum, 1996.
+
+Chris McGowan and Jim McCullaugh, Entertainment in the Cyber Zone, Random House, 1995.
+
+Melanie McGrath, Hard, Soft and Wet: The Digital Generation Comes of Age, HarperCollins, 1997.
+
+Michael E. McGrath, Product Strategy for High-Technology Companies: How to Achieve Growth, Competitive Advantage, and Increased Profits, Irwin, 1995.
+
+John R. McIntyre, ed, Japan's Technical Standards: Implications for Global Trade and Competitiveness, Greenwood, 1997.
+
+James D. McKeen and Heather A. Smith, Management Challenges in IS: Successful Strategies and Appropriate Action, Wiley, 1996.
+
+Regis McKenna, Real Time: Preparing for the Age of the Never Satisfied Customer, Harvard Business School Press, 1997.
+
+James L. McKenney, Waves of Change: Business Evolution Through Information Technology, Harvard Business School Press, 1995.
+
+Lee W. McKnight and Joseph P. Bailey, eds, Internet Economics, MIT Press, 1997.
+
+Graham McLeod and Derek Smith, Managing Information Technology Projects, Boyd and Fraser, 1996.
+
+Raymond McLeod, Jr., Systems Analysis and Design: An Organizational Approach, Dryden Press, 1994.
+
+Raymond McLeod, Jr., Management Information Systems: A Study of Computer-Based Information Systems, sixth edition, Prentice Hall, 1995.
+
+Melanie McMullen, ed, Networks 2000: Internet, Information Superhighway, Multimedia Networks and Beyond, Freeman, 1994.
+
+Dana C. McWay, Legal Aspects of Health Information Management, Delmar, 1997.
+
+Barbara Means, ed, Technology and Education Reform: The Reality Behind the Promise, Jossey-Bass, 1994.
+
+Mary Meeker and Chris DePuy, The Internet Report, HarperBusiness, 1996.
+
+Mary Meeker, The Internet Advertising Report, HarperBusiness, 1997.
+
+Kenneth A. Megill, The Corporate Memory: Information Management in the Electronic Age, Bowker Saur, 1997.
+
+William H. Melody, ed, Telecom Reform: Principles, Policies and Regulatory Practices, Lyngby University Press, 1997.
+
+Alberto Melucci, Challenging Codes: Collective Action in the Information Age, Cambridge University Press, 1996.
+
+Roxanne Mendrinos, Building Information Literacy Using High Technology: A Guide for Schools and Libraries, Libraries Unlimited, 1994.
+
+Robert P. Merges, Peter S. Menell, Mark A. Lemley, and Thomas M. Jorde, eds, Intellectual Property in the New Technological Age, Aspen Law and Business, 1997.
+
+Vaughan Merlyn and John Parkinson, Development Effectiveness: Strategies for Is Organizational Transition, Wiley, 1994.
+
+Paul F. Merrill, ed, Computers in Education, third edition, Allyn and Bacon, 1996.
+
+Dirk Messner, The Network Society: Economic Development and International Competitiveness as Problems of Social Governance, Cass, 1997.
+
+Philip W. Metzger and John Boddie, Managing a Programming Project: People and Processes, third edition, Prentice Hall, 1996.
+
+Marc H. Meyer and Alvin P. Lehnerd, The Power of Product Platforms: Building Value and Cost Leadership, Free Press, 1997.
+
+H. R. Mgombelo and M. C. M. Werner, eds, Telecommunication for Business in Africa, IOS, 1997.
+
+James Michael, Privacy and Human Rights: An International and Comparative Study, With Special Reference to Developments in Information Technology, UNESCO, 1994.
+
+William K. Michener, James W. Brunt, and Susan G. Stafford, eds, Environmental Information Management and Analysis: Ecosystem to Global Scales, Taylor and Francis, 1994.
+
+Robert H. Miles, Corporate Comeback: The Story of Renewal and Transformation at National Semiconductor, Jossey-Bass, 1997.
+
+Nancy Milio, Engines of Empowerment: Using Information Technology to Create Healthy Communities and Challenge Public Policy, Health Administration Press, 1996.
+
+Michael L. Millenson, Demanding Medical Excellence: Doctors and Accountability in the Information Age, University of Chicago Press, 1997.
+
+Riel Miller, Towards the Learning Society of the 21st Century, OECD, 1996.
+
+Riel Miller, The Internet in Twenty Years: Cyberspace, the Next Frontier?, OECD, 1997.
+
+Steven E. Miller, Civilizing Cyberspace: Policy, Power, and the Information Superhighway, ACM Press, 1996.
+
+D. Quinn Mills and G. Bruce Friesen, Broken Promises: An Unconventional View of What Went Wrong at IBM, Harvard Business School Press, 1996.
+
+Mary Etta C. Mills, Carol A. Romano, and Barbara R. Heller, Information Management in Nursing and Health Care, Springhouse, 1996.
+
+Michael Milone, Beyond Bells and Whistles: How to Use Technology to Improve Student Learning, edited by Donald L. Hymes, American Association of School Administrators, 1996.
+
+John Mingers and Frank Stowell, eds, Information Systems: An Emerging Discipline?, McGraw-Hill, 1997.
+
+Daniel Minoli, Analyzing Outsourcing: Reengineering Information and Communication Systems, Mcgraw-Hill, 1995.
+
+Dan Minoli, Distance Learning Technology and Applications, Artech House, 1996.
+
+William J. Mitchell, City of Bits: Space, Place, and the Infobahn, MIT Press, 1995.
+
+Swasti Mitter and Sheila Rowbotham, eds, Women Encounter Technology: Changing Patterns of Employment in the Third World, Routledge, 1995.
+
+Bella Mody, Johannes M. Bauer, and Joseph D. Straubhaar, eds, Telecommunications Politics: Ownership and Control of the Information Highway in Developing Countries, Erlbaum, 1995.
+
+Vernon L. Mogensen, Office Politics: Computers, Labor, and the Fight for Safety and Health, Rutgers University Press, 1996.
+
+Roger C. Molander, Andrew S. Riddile, and Peter A. Wilson, Strategic Information Warfare: A New Face of War, RAND, 1996.
+
+Marita Moll, Tech High: Globalization and the Future of Canadian Education, Fernwood, 1997.
+
+Terry Ann Mood, Distance Education: An Annotated Bibliography, Libraries Unlimited, 1995.
+
+Fred Moody, I Sing the Body Electronic: A Year With Microsoft on the Multimedia Frontier, Viking, 1995.
+
+Dinty W. Moore, The Emperor's Virtual Clothes: The Naked Truth About Internet Culture, Algonquin, 1995.
+
+Gwendolyn Moore, John Rollins, and David Rey, Prescription for the Future: How the Technology Revolution is Changing the Pulse of Global Medicine, Knowledge Exchange, 1996.
+
+Michael G. Moore and Greg Kearsley, Distance Education: A Systems View, Wadsworth, 1996.
+
+Thomas P. Moran and John M. Carroll, eds, Design Rationale: Concepts, Techniques, and Use, Erlbaum, 1996.
+
+Christopher Morgan, Wizards and their Wonders: Portraits in Computing, ACM Museum, 1997.
+
+Conway Lloyd Morgan and Giuliano Zampi, Virtual Architecture, McGraw-Hill, 1995.
+
+David Morley and Kevin Robins, Spaces of Identity: Global Media, Electronic Landscapes, and Cultural Boundaries, Routledge, 1995.
+
+Robert C. Morris, Between the Lines: A Personal History of the British Public Telephone and Telecommunications Service 1870-1990, Just Write, 1994.
+
+Steve Morris, John Meed, and Neil Svensen, The Intelligent Manager: Adding Value in the Information Age, Pitman, 1996.
+
+James L. Morrison, The Healing of America: Welfare Reform in the Cyber Economy, Ashgate, 1997.
+
+Hope Morritt, Women and Computer Based Technologies: A Feminist Perspective, University Press of America, 1997.
+
+David Morse, ed, Cyber Dictionary: Your Guide to the Wired World, Knowledge Exchange, 1996.
+
+David C. Moschella, Waves of Power: Dynamics of Global Technology Leadership 1964-2010, Amacom, 1997.
+
+Vincent Mosco, The Political Economy of Communication: Rethinking and Renewal, Sage, 1996.
+
+Eva Steiner Moseley, ed, Women, Information, and the Future: Collecting and Sharing Resources Worldwide, Highsmith Press, 1995.
+
+Mary Anne Moser and Douglas MacLeod, eds, Immersed in Technology: Art and Virtual Environments, MIT Press, 1996.
+
+Walid Mougayar, Opening Digital Markets: Battle Plans and Business Strategies for Internet Commerce, second edition, McGraw-Hill, 1997.
+
+David C. Mowery, ed, The International Computer Software Industry: A Comparative Study of Industry Evolution and Structure, Oxford University Press, 1996.
+
+Hamid Mowlana, Global Information and World Communication: New Frontiers in International Relations, second edition, Sage, 1997.
+
+Milton Mueller, Universal Service, MIT Press, 1997.
+
+Milton Mueller, Telecom Policy and Digital Convergence, Hong Kong University Press, 1997.
+
+Milton Mueller and Zixiang Tan, China in the Information Age: Telecommunications and the Dilemmas of Reform, Praeger, 1997.
+
+Graeme Muirhead, ed, The Systems Librarian: The Role of the Library Systems Manager, Library Association, 1994.
+
+Enid Mumford, Effective Systems Design and Requirements Analysis: The Ethics Approach, Macmillan, 1995.
+
+Rolland Munro and Jan Mouritsen, eds, Accountability: Power, Ethos and the Technologies of Managing, International Thomson Computer Press, 1997.
+
+Charles J. Murray, The Supermen: The Story of Seymour Cray and the Technical Wizards Behind the Supercomputer, Wiley, 1997.
+
+Denise E. Murray, Knowledge Machines: Language and Information in a Technological Society, Longman, 1995.
+
+Janet H. Murray, Hamlet on the Holodeck: The Future of Narrative in Cyberspace, Free Press, 1997.
+
+Colin Myers, Tracy Hall, and Dave Pitt, eds, The Responsible Software Engineer: Selected Readings in IT Professionalism, Springer, 1997.
+
+Rukmini Bhaya Nair, Technobrat: Culture in a Cybernetic Classroom, HarperCollins, 1997.
+
+Bonnie A. Nardi, ed, Context and Consciousness: Activity Theory and Human-Computer Interaction, MIT Press, 1996.
+
+National Academy of Engineering, Revolution in the U.S. Information Infrastructure, National Academy Press, 1995.
+
+National Research Council, Bridge Builders: African Experiences with Information and Communication Technology, National Academy Press, 1996.
+
+National Research Council, For the Record: Protecting Electronic Health Information, National Academy Press, 1997.
+
+National Research Council, More Than Screen Deep: Toward Every-Citizen Interfaces to the Nation's Information Infrastructure, National Academy Press, 1997.
+
+National Research Council, The Unpredictable Certainty: Information Infrastructure Through 2000, National Academy Press, 1996.
+
+Nicholas Negroponte, Being Digital, Knopf, 1995.
+
+Robert E. Neilson, Collaborative Technologies and Organizational Learning, Idea Group, 1997.
+
+Robert E. Neilson, ed, Sun Tzu and Information Warfare: A Collection of Winning Papers from the Sun Tzu Art of War in Information Warfare Competition, National Defense University Press, 1997.
+
+Dorothy Nelkin and Laurence Tancredi, Dangerous Diagnostics: The Social Power of Biological Information, University of Chicago Press, 1994.
+
+Jack A. Nelson, ed, The Disabled, the Media, and the Information Age, Greenwood Press, 1994.
+
+Seev Neumann, Strategic Information Systems: Competition Through Information Technologies, Macmillan, 1994.
+
+Johanna Neuman, Lights, Camera, War: Is Media Technology Driving International Politics?, St. Martin's Press, 1996.
+
+W. Russell Neuman, Lee McKnight, and Richard Jay Soloman, The Gordian Knot: Political Gridlock on the Information Highway, MIT Press, 1997.
+
+Timothy J. Newby, Donald A. Stepich, James D. Lehman, and James D. Russell, Instructional Technology for Teaching and Learning: Designing Instruction, Integrating Computers, and Using Media, Merrill, 1996.
+
+Brian Nichiporuk and Carl H. Builder, Information Technologies and the Future of Land Warfare, RAND, 1995.
+
+Raymond T. Nimmer, Information Law, Warren, Gorham and Lamont, 1996.
+
+Eli Noam, Seisuke Komatsuzaki, and Douglas A. Conn, eds, Telecommunications in the Pacific Basin: An Evolutionary Approach, Oxford University Press, 1994.
+
+Eli M. Noam and Gerard Pogorel, eds, Asymmetric Deregulation: The Dynamics of Telecommunications Policy in Europe and the United States, Ablex, 1994.
+
+Eli M. Noam and Aine NiShuilleabhain, eds, Private Networks, Public Objectives, Elsevier, 1996.
+
+Eli M. Noam, ed, Telecommunications in Western Asia and the Middle East, Oxford University Press, 1997.
+
+David Noble, Progress Without People: New Technology, Unemployment, and the Message of Resistance, Between the Lines, 1995.
+
+David F. Noble, The Religion of Technology: The Divinity of Man and the Spirit of Invention, Knopf, 1997.
+
+Nitin Nohria and Sumantra Ghoshal, The Differentiated Network: Organizing Multinational Corporations for Value Creation, Jossey-Bass, 1997.
+
+A. Michael Noll, Highway of Dreams: A Critical View Along the Information Superhighway, Erlbaum, 1997.
+
+Arthur L. Norberg and Judy E. O'Neill, Transforming Computer Technology: Information Processing for the Pentagon, 1962-1986, Johns Hopkins University Press, 1996.
+
+Donald M. Norris and James L. Morrison, eds, Mobilizing for Transformation: How Campuses Are Preparing for the Knowledge Age, Jossey-Bass, 1997.
+
+Celestine A. Ntuen and Eui H. Park, Human Interaction with Complex Systems: Conceptual Principles and Design Practice, Kluwer, 1996.
+
+Geoffrey Nunberg, ed, The Future of the Book, University of California Press, 1996.
+
+Ray Oakey, High-Technology New Firms: Variable Barriers to Growth, Paul Chapman, 1995.
+
+Nancy J. Obermeyer and Jeffrey K. Pinto, Managing Geographic Information Systems, Guilford Press, 1994.
+
+Diana G. Oblinger and Sean C. Rush, eds, The Learning Revolution: The Challenge of Information Technology in the Academy, Anker, 1997.
+
+James A. O'Brien, Management Information Systems: Managing Information Technology in the Networked Enterprise, third edition, Irwin, 1996.
+
+Hiroyuki Odagiri and Akira Goto, Technology and Industrial Development in Japan: Building Capabilities by Learning, Innovation, and Public Policy, Oxford University Press, 1996.
+
+Pat Oddy, Future Libraries, Future Catalogues, Library Association, 1997.
+
+Edith O'Donnell, Integrating Computers into the Classroom: The Missing Key, Scarecrow Press, 1996.
+
+Cleo Odzer, Virtual Spaces: Sex and the Cyber Citizen, Berkley, 1997.
+
+Avodah Offit, Virtual Love, Simon and Schuster, 1994.
+
+Frank Ogden, Navigating in Cyberspace: A Guide to the Next Millennium, MacFarlane Walter and Ross, 1995.
+
+Thomas A. Ohanian and Michael E. Phillips, Digital Filmmaking: The Changing Art and Craft of Making Motion Pictures, Focal Press, 1996.
+
+Greg M. P. O'Hare and Nick R. Jennings, eds, Foundations of Distributed Artificial Intelligence, Wiley, 1996.
+
+Steve O'Keefe, Publicity on the Internet: Creating Successful Publicity Campaigns on the Internet and the Commercial Online Services, Wiley, 1997.
+
+Ann Okerson and Dru Mogge, eds, Gateways, Gatekeepers, and Roles in the Information Omniverse, Association of Research Libraries, 1994.
+
+Homer R. Oldfield, King of the Seven Dwarfs: General Electric's Ambiguous Challenge to the Computer industry, IEEE Computer Society Press, 1996.
+
+Walter Oleksy, Entertainment, Facts on File, 1996.
+
+John O'Looney, Beyond Maps: GIS and Decision-Making in Local Government, International City/County Management Association, 1997.
+
+Claire O'Malley, ed, Computer Supported Collaborative Learning, Springer-Verlag, 1995.
+
+Jo Ann Oravec, Virtual Individuals, Virtual Groups: Human Dimensions of Groupware and Computer Networking, Cambridge University Press, 1996.
+
+Organisation for Economic Cooperation and Development, Information Technology and the Future of Post-Secondary Education, OECD, 1996.
+
+Organization for Economic Cooperation and Development, Electronic Commerce: Opportunities and Challenges for Government, OECD, 1997.
+
+Organisation for Economic Cooperation and Development, Industrial Competitiveness in the Knowledge-Based Economy: The New Role of Governments, OECD, 1997.
+
+Organization for Economic Cooperation and Development, Towards a Global Information Society: Global Information Infrastructure Global Information Society: Policy Requirements, OECD, 1997.
+
+Peter B. Orlik, Electronic Media Criticism: Applied Perspectives, Focal Press, 1994.
+
+Wanda J. Orlikowski, Geoff Walsham, Matthew R. Jones, and Janice I. DeGross, eds, Information Technology Changes in Organizational Work, Chapman and Hall, 1996.
+
+Sarah Ormes and Lorcan Dempsey, eds, The Internet, Networking, and the Public Library, Library Association, 1997.
+
+Elizabeth Orna, Managing Information for Research, Open University Press, 1995.
+
+Julian E. Orr, Talking About Machines: An Ethnography of a Modern Job, ILR Press, 1996.
+
+Jerome A. Osheroff, ed, Computers in Clinical Practice: Managing Patients, Information, and Communication, American College of Physicians, 1995.
+
+Hubert Osterle, Business in the Information Age: Heading for New Processes, Springer, 1995.
+
+L. Paul Ouellette, IS at Your Service: Knowing and Keeping Your Clients, second edition, Kendall/Hunt, 1996.
+
+Richard Ouma-Onyango, Information Resources and Technology Transfer Management in Developing Countries, Routledge, 1997.
+
+Ian Owens and Tom Wilson, Information and Business Performance: A Study of Information Systems and Services in High Performing Companies, Bowker Saur, 1996.
+
+Effy Oz, Ethics for the Information Age, Business and Educational Technologies, 1994.
+
+Diane Palframan and Andrew Tank, eds, Electronic Commerce: The Risks and Rewards, Conference Board, 1997.
+
+Prashant C. Palvia, Shailendra C. Palvia, and Edward M. Roche, eds, Global Information Technology and Systems Management: Key Issues and Trends, Ivy League, 1996.
+
+S. K. Panda, P. Satyanarayana, and R. C. Sharma, Open and Distance Education Research: Analysis and Annotation, Indian Distance Education Association, 1996.
+
+Sanjaya Panth, Technological Innovation, Industrial Evolution, and Economic Growth, Garland, 1997.
+
+Seymour Papert, The Connected Family: Bridging the Digital Generation Gap, Longstreet Press, 1996.
+
+Marilyn M. Parker, Strategic Transformation and Information Technology: Paradigms for Performing While Transforming, Prentice Hall, 1996.
+
+Michael J. Patrick, Managing Corporate Electronic Information: A Risk Manager's Guide, LRP, 1995.
+
+Erich Pauer, ed, Papers on the History of Industry and Technology of Japan, Forderverein Marburger Japan-Reihe, 1995.
+
+Gregory S. Paul and Earl Cox, Beyond Humanity: Cyberevolution and Future Minds, Charles River Media, 1996.
+
+Mark C. Paulk, The Capability Maturity Model: Guidelines for Improving the Software Process, Addison-Wesley, 1995.
+
+John V. Pavlik, New Media Technology: Cultural and Commercial Perspectives, Allyn and Bacon, 1996.
+
+John V. Pavlik, New Media Technology and the Information Superhighway, Allyn and Bacon, 1996.
+
+Celia Pearce, The Interactive Book: A Guide to the Interactive Revolution, Macmillan, 1997.
+
+Robert Pearce, Global Competition and Technology: Essays in the Creation and Application of Knowledge by Multinationals, St. Martin's Press, 1997.
+
+Michael Pecht, The Korean Electronics Industry, CRC Press, 1997.
+
+Robin P. Peek and Gregory B. Newby, eds, Scholarly Publishing: The Electronic Frontier, MIT Press, 1996.
+
+Anders Pehrsson, International Strategies in Telecommunications: Model and Applications, Routledge, 1996.
+
+Joseph N. Pelton, Wireless and Satellite Telecommunications: The Technology, the Market and the Regulations, Prentice Hall, 1995.
+
+Simon Penny, ed, Critical Issues in Electronic Media, State University of New York Press, 1995.
+
+Don Peppers and Martha Rogers, Enterprise One to One: Tools for Competing in the Interactive Age, Doubleday, 1997.
+
+Henry J. Perkinson, No Safety in Numbers: How the Computer Quantified Everything and Made People Risk-Aversive, Hampton Press, 1996.
+
+Henry H. Perritt, Law and the Information Superhighway: Privacy, Access, Intellectual Property, Commerce, Liability, Wiley, 1996.
+
+William E. Perry and Randall W. Rice, Surviving the Top Ten Challenges of Software Testing: A People-Oriented Approach, Dorset House, 1997.
+
+Georgia A. Persons, The Making of Energy and Telecommunications Policy, Praeger, 1995.
+
+Otto Peters, Otto Peters on Distance Education: The Industrialization of Teaching and Learning, edited by Desmond Keegan, Routledge, 1994.
+
+Robert A. Peterson, ed, Electronic Marketing and the Consumer, Sage Publications, 1997.
+
+Ben A. Petrazzini, The Political Economy of Telecommunications Reform in Developing Countries: Privatization and Liberalization in Comparative Perspective, Praeger, 1995.
+
+Daniel Petre and David Harrington, The Clever Country? Australia's Digital Future, Macmillan, 1996.
+
+Robert L. Pfaltzgraff, Jr. and Richard H. Shultz, Jr., eds, War in the Information Age: New Challenges For U.S. Security Policy, Brassey's, 1997.
+
+Anthony G. Picciano, Computers in the Schools: A Guide to Planning and Administration, Maxwell Macmillan, 1994.
+
+John Pickles, ed, Ground Truth: The Social Implications of Geographic Information Systems, Guilford Press, 1995.
+
+Ken Pimentel, Kevin Teixeira, Virtual Reality: Through the New Looking Glass, second edition, Intel/McGraw-Hill, 1995.
+
+Peter K. Pitsch, The Innovation Age: A New Perspective on the Telecom Revolution, Hudson Institute, 1996.
+
+Sadie Plant, Zeros and Ones: Digital Women and the New Technoculture, Doubleday, 1997.
+
+Charles Platt, Anarchy Online: Net Sex, Net Crime, Harper, 1997.
+
+John Plunkett and Louis Rossetto, eds, Mind Grenades: Manifestos from the Future, Hardwired, 1996.
+
+Gerard Pogorel, ed, Global Telecommunications Strategies and Technological Changes, North-Holland, 1994.
+
+Bernard J. Poole, Education for an Information Age: Teaching in the Computerized Classroom, WCB Brown and Benchmark, 1995.
+
+David Porter, Internet Culture, Routledge, 1997.
+
+Lynnette R. Porter, Creating the Virtual Classroom: Distance Learning with the Internet, Wiley, 1997.
+
+Mark Poster, The Second Media Age, Polity Press, 1995.
+
+H. U. Prokosch and J. Dudeck, eds, Hospital Information Systems: Design and Development Characteristics, Impact and Future Architecture, Elsevier, 1995.
+
+Emerson W. Pugh, Building IBM: Shaping an Industry and Its Technology, MIT Press, 1995.
+
+Sanjiv Purba, David Sawh, and Bharat Shah, How to Manage a Successful Software Project: Methodologies, Techniques, Tools, Wiley, 1995.
+
+Lawrence H. Putnam and Ware Myers, Executive Briefing: Controlling Software Development, IEEE Computer Society Press, 1996.
+
+Lawrence H. Putnam and Ware Myers, Industrial Strength Software: Effective Management using Measurement, IEEE Computer Society, 1997.
+
+James Brian Quinn, Innovation Explosion: Using Intellect and Software to Revolutionize Growth Strategies, Free Press, 1997.
+
+Yakov M. Rabkin, ed, Diffusion of New Technologies in the Post-Communist World, Kluwer, 1997.
+
+Phil Race, The Open Learning Handbook: Promoting Quality in Designing and Delivering Flexible Learning, second edition, Kogan Page, 1994.
+
+Michel Racicot, The Cyberspace Is Not a "No Law Land": A Study of the Issues of Liability for Content Circulating on the Internet, Industry Canada, 1997.
+
+James Radlow, Computers and the Information Society, second edition, Boyd and Fraser, 1995.
+
+Roshan Raina, Library Resource Sharing and Networking: An Approach Among Management Schools in India, Vikas, 1997.
+
+David Raitt, ed, Libraries for the New Millennium: Implications for Managers, Library Association, 1997.
+
+Senta A. Raizen, Technology Education in the Classroom: Understanding the Designed World, Jossey-Bass, 1995.
+
+L. S. Ramaiah, ed, Public Library Systems: Services and Networking: A Festschrift Presented to Prof. K. Sarada, Ess Ess, 1997.
+
+Bin Ran and David E. Boyce, Dynamic Urban Transportation Network Models: Theory and Implications for Intelligent Vehicle-Highway Systems, Springer-Verlag, 1994.
+
+Neil Randall, The Soul of the Internet: Net Gods, Netizens and the Wiring of the World, International Thomson Computer Press, 1997.
+
+Stan Rapp and Thomas L. Collins, The New Maximarketing, McGraw-Hill, 1996.
+
+Wayne Rash, Jr., Politics on the Nets: Wiring the Political Process, Freeman, 1997.
+
+Terje Rasmussen, Communication Technologies and the Mediation of Social Life: Elements of a Social Theory of the New Media, University of Oslo, 1996.
+
+Gregory J. E. Rawlins, Moths to the Flame: The Seductions of Computer Technology, MIT Press, 1996.
+
+Gregory J. E. Rawlins, Slaves of the Machine: The Quickening of Computer Technology, MIT Press, 1997.
+
+William H. Read and Jan L. Youtie, Telecommunications Strategy for Economic Development, Praeger, 1996.
+
+Editors of the Red Herring, The Red Herring Guide to the Digital Universe: The Inside Look at Technology Business from Silicon Valley to Hollywood, Warner, 1996.
+
+Chris Reed, Digital Information Law: Electronic Documents and Requirements of Form, Centre for Commercial Law Studies, University of London, 1996.
+
+Byron Reeves and Clifford Nass, The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places, Cambridge University Press, 1996.
+
+Elizabeth A. Regan and Bridget N. O'Connor, End-User Information Systems: Perspectives for Managers and Information Systems Professionals, Macmillan, 1994.
+
+Priscilla M. Regan, Legislating Privacy: Technology, Social Values, and Public Policy, University of North Carolina Press, 1995.
+
+Thomas Reichmann, Controlling: Concepts of Management Control, Controllership, and Ratios, Springer, 1997.
+
+Robert H. Reid, Architects of the Web: 1,000 Days That Built the Future of Business, Wiley, 1997.
+
+Donald J. Reifer, ed, Software Management, fifth edition, IEEE Computer Society Press, 1997.
+
+Dan Remenyi, Arthur Money, and Alan Twite, The Effective Measurement and Management of IT Costs and Benefits, Butterworth-Heinemann, 1995.
+
+Dan Remenyi and Michael Sherwood-Smith, Achieving Maximum Value From Information Systems: A Process Approach, Wiley, 1997.
+
+Oliver Remien, Distance Education and Economic and Consumer Law in the Single Market, European Communities, 1996.
+
+Rosalind Resnick and Dave Taylor, The Internet Business Guide: Riding the Information Superhighway to Profit, Sams, 1994.
+
+Robert Reynolds and Thomas Zummer, eds, Crash: Nostalgia for the Absence of Cyberspace, Thread Waxing Space, 1994.
+
+Howard Rheingold, The Virtual Community: Homesteading on the Electronic Frontier, HarperPerennial, 1994.
+
+Keith Richards and Peter Roe, eds, Distance Learning in ELT, MacMillan, 1994.
+
+John V. Richardson, Jr., Knowledge-Based Systems for General Reference Work: Applications, Problems, and Progress, Academic Press, 1995.
+
+Otto Riewoldt, Intelligent Spaces: Architecture for the Information Age, King, 1997.
+
+Robert Rindler and Deborah Willis, Techno.Seduction: An Exhibition of Multimedia Installation Work by Forty Artists, Cooper Union, 1997.
+
+Peter Smith Ring, Networked Organization: A Resource Based Perspective, Almqvist and Wiksell, 1996.
+
+Michael Riordan and Lillian Hoddeson, Crystal Fire: The Birth of the Information Age, Norton, 1997.
+
+Judith M. Roberts and Erin M. Keough, eds, Why the Information Highway? Lessons From Open and Distance Learning, Trifolium, 1995.
+
+George Robertson, ed, FutureNatural: Nature, Science, Culture, Routledge, 1996.
+
+James W. Robinson, Excel Phenomenon: The Astonishing Success Story of the Fastest-Growing Communications Company -- and What It Means to You, Prima, 1997.
+
+Kenneth G. Robinson, ed, Building a Global Information Society: Report of the Aspen Institute Roundtable on International Telecommunications, Aspen Institute, 1996.
+
+Kenneth G. Robinson, ed, Bits across Borders: Policy Choices for International Multimedia and Digital Services, Aspen Institute, 1997.
+
+M. D. Roblyer, Jack Edwards, and Mary Anne Havriluk, Integrating Educational Technology Into Teaching, Prentice Hall, 1997.
+
+Wendy Robson, Strategic Management and Information Systems: An Integrated Approach, second edition, Pitman, 1997.
+
+Edward Mozley Roche and Henry Bakis, eds, Developments in Telecommunications: Between Global and Local, Ashgate, 1997.
+
+Edward Mozley Roche and Michael James Blaine, eds, Information Technology, Development, and Policy: Theoretical Perspectives and Practical Challenges, Avebury, 1996.
+
+Gene I. Rochlin, Trapped in The Net: The Unanticipated Consequences of Computerization, Princeton University Press, 1997.
+
+Jeffrey L. Rodengen, The MicroAge Way, Write Stuff, 1996.
+
+M. V. R. Rodriguez and A. J. Ferrante, Information Technology in the the 21st Century: Managing the Change, Computational Mechanics, 1996.
+
+William H. Roetzheim and Reyna A. Beasley, Software Project Cost and Schedule Estimating: Best Practices, Prentice Hall, 1997.
+
+David Ronfeldt, ed, The Zapatista "Social Netwar" in Mexico, Rand, 1998.
+
+Donald Rose, Minding Your Cybermanners on the Internet, Alpha Books, 1994.
+
+Lance Rose, Netlaw: Your Rights in the Online World, McGraw-Hill, 1995.
+
+Anita Rosen, Looking into Intranets and the Internet: Advice for Managers, AMACOM, 1997.
+
+Duska Rosenberg and Chris Hutchison, eds, Design Issues in CSCW, Springer-Verlag, 1994.
+
+Nathan Rosenberg, Exploring the Black Box: Technology, Economics, and History, Cambridge University Press, 1994.
+
+Richard S. Rosenberg, The Social Impact of Computers, second edition, Academic Press, 1997.
+
+Jonathan Rosenoer, Cyberlaw: The Law of the Internet, Springer, 1997.
+
+Shelagh Ross and Eileen Scanlon, Open Science: Distance Teaching and Open Learning of Science Subjects, Chapman, 1995.
+
+Mark H. Rossman and Maxine E. Rossman, eds, Facilitating Distance Education, Jossey-Bass, 1995.
+
+Gregory L. Rosston and David Waterman, eds, Interconnection and the Internet: Selected Papers from the 1996 Telecommunications Policy Research Conference, Erlbaum, 1997.
+
+Wolff-Michael Roth, Designing Communities, Kluwer, 1997.
+
+David H. Rothman, Networld! What People Are Really Doing on the Internet, And What It Means to You, Prima, 1996.
+
+Mark A. Rothstein, ed, Genetic Secrets: Protecting Privacy and Confidentiality in the Genetic Era, Yale University Press, 1997.
+
+Wingham Rowan, Guaranteed Electronic Markets: The Backbone of a Twenty-First Century Economy?, Demos, 1997.
+
+Alan J. Rowe and Sue Anne Davis, Intelligent Information Systems: Meeting the Challenge of the Knowledge Era, Quorum, 1996.
+
+Christopher Rowe and Jane Thompson, People and Chips: The Human Implications of Information Technology, third edition, McGraw Hill, 1996.
+
+Ian Rowlands, ed, Understanding Information Policy: Proceedings of a Workshop Held at Cumberland Lodge, Windsor Great Park, 22-24 July 1996, Bowker-Saur, 1997.
+
+Sue Rugge and Alfred Glossbrenner, The Information Broker's Handbook, second edition, McGraw-Hill, 1995.
+
+Janet Ruhl, The Computer Consultant's Guide: Real-Life Strategies for Building a Successful Consulting Career, second edition, Wiley, 1997.
+
+Blanca R. Ruiz, Privacy in Telecommunications: A European and an American Approach, Kluwer Law International, 1997.
+
+Greville Rumble, The Costs and Economics of Open and Distance Learning, Kogan Page, 1997.
+
+Janice Hocker Rushing and Thomas S. Frentz, Projecting the Shadow: The Cyborg Hero in American Film, University of Chicago Press, 1995.
+
+Douglas Rushkoff, Playing the Future: How Kids' Culture Can Teach Us to Thrive in an Age of Chaos, HarperCollins, 1996.
+
+Susan M. Ryan, Downloading Democracy: Government Information in an Electronic Age, Hampton Press, 1996.
+
+Mark Sableman, More Speech, Not Less: Communications Law in the Information Age, Southern Illinois University Press, 1997.
+
+William S. Sachs and Frank Elston, The Information Technology Revolution in Financial Services: Using IT to Create, Manage and Market Financial Products, Probus, 1994.
+
+Harold Sackman, Biomedical Information Technology: Global Social Responsibilities for the Democratic Information Age, Academic Press, 1997.
+
+Bert Sadowski, Back to Monopoly: Opportunities and Constraints for Public and Corporate Networks in Post-Unification Germany, Avebury, 1996.
+
+Andrew P. Sage, Systems Management for Information Technology and Software Engineering, Wiley, 1995.
+
+Guy St. Clair, Power and Influence: Enhancing Information Services Within the Organization, Bowker-Saur, 1994.
+
+Guy St. Clair, Entrepreneurial Librarianship: The Key to Effective Information Services Management, Bowker-Saur, 1996.
+
+David F. Salisbury, Five Technologies for Educational Change: Systems Thinking, Systems Design, Quality Science, Change Managament, Instructional Technology, Educational Technology Publications, 1996.
+
+Peter H. Salus, Casting the Net: From Arpanet to Internet and Beyond, Addison-Wesley, 1995.
+
+Harold Salzman and Stephen R. Rosenthal, Software by Design: Shaping Technology and the Workplace, Oxford University Press, 1994.
+
+Ranabir Samaddar, Workers and Automation: The Impact of New Technology in the Newspaper Industry, Sage, 1994.
+
+V. Sambamurthy and Robert W. Zmud, Information Technology and Innovation: Strategies for Success, Financial Executives Research Foundation, 1996.
+
+Michael Sand, ed, Metamorphoses: Photography in the Electronic Age, Aperture Foundation, 1994.
+
+Judith Haymore Sandholtz, Cathy Ringstaff, and David C. Dwyer, Teaching With Technology: Creating Student-Centered Classrooms, Teachers College Press, 1997.
+
+David E. M. Sappington and Dennis L. Weisman, Designing Incentive Regulation for the Telecommunications Industry, MIT Press, 1996.
+
+Ziauddin Sardar and Jerome R. Ravetz, eds, Cyberfutures: Culture and Politics on the Information Superhighway, New York University Press, 1996.
+
+Martina Sasse, Jim Cunningham, and Russel Winder, eds, People and Computers XI: Proceedings of HCI '96, Springer, 1996.
+
+Christopher Sauer and Philip W. Yetton, Steps to the Future: Fresh Thinking on the Management of IT-Based Organizational Transformation, Jossey-Bass, 1997.
+
+Laverna M. Saunders, ed, The Evolving Virtual Library: Visions and Case Studies, Information Today, 1996.
+
+Robert J. Saunders, Jeremy J. Warford, and Bjorn Wellenius, Telecommunications and Economic Development, second edition, Johns Hopkins University Press, 1994.
+
+Pier Paolo Saviotti, Technological Evolution, Variety and the Economy, Elgar, 1996.
+
+August-Wilhelm Scheer, Business Process Engineering: Reference Models for Industrial Enterprises, second edition, Springer-Verlag, 1994.
+
+Jorge Reina Schement and Terry Curtis, Tendencies and Tensions of the Information Age: The Production and Distribution of Information in the United States, Transaction, 1995.
+
+Karl-Ernst Schenk, Jurgen Muller, and Thomas Schnoring, eds, Mobile Telecommunications: Emerging European Markets, Artech House, 1995.
+
+Karl-Ernst Schenk, Jorn Kruse, and Jurgen Muller, eds, Telecommunications Take-Off in Transition Countries, Avebury, 1997.
+
+Joachim Scherer, ed, Telecommunications Laws in Europe, third edition, Kluwer, 1995.
+
+Herbert I. Schiller, Information Inequality: The Deepening Social Crisis in America, Routledge, 1996.
+
+Bob Schmidt, The Geek's Guide to Internet Business Success: The Definitive Business Blueprint for Internet Developers, Programmers, Consultants, Marketers and Service Providers, Van Nostrand Reinhold, 1997.
+
+Susanne K. Schmidt and Raymund Werle, Coordinating Technology: Studies in the International Standardization of Telecommunications, MIT Press, 1997.
+
+Bruce Schneier and David Banisar, eds, The Electronic Privacy Papers: Documents on the Battle for Privacy in the Age of Surveillance, Wiley, 1997.
+
+Karen A. Schriver, Dynamics in Document Design: Creating Texts for Readers, Wiley, 1996.
+
+Ralph Schroeder, Possible Worlds: The Social Dynamic of Virtual Reality Technology, Westview, 1996.
+
+Lynne Schrum and Boris Berenfeld, Teaching and Learning in the Information Age: A Guide to Educational Telecommunications, Allyn and Bacon, 1997.
+
+Douglas Schuler, New Community Networks: Wired for Change, Addison-Wesley, 1996.
+
+Nina Schuyler, The Business of Multimedia, Allworth Press, 1995.
+
+Winn Schwartau, Information Warfare: Chaos on the Electronic Superhighway, Thunder's Mouth Press, 1994.
+
+Edward Schwartz, Netactivism: How Citizens Use the Internet, Songline Studios, 1996.
+
+Evan I. Schwartz, Webonomics: Nine Essential Principles for Growing Your Business on the World Wide Web, Broadway Books, 1997.
+
+Paul M. Schwartz and Joel R. Reidenberg, Data Privacy Law: A Study of United States Data Protection, Michie, 1996.
+
+Rachael E. Schwartz, Wireless Communications in Developing Countries: Cellular and Satellite Systems, Artech House, 1996.
+
+Stuart J. D. Schwartzstein, ed, The Information Revolution and National Security: Dimensions and Directions, Center for Strategic and International Studies, 1996.
+
+Hans-Peter Schwarz, Media-Art-History: Media Museum, ZKM, Center for Art and Media Karlsruhe, translated by Freiherr von Teuffenbach, Prestel, 1997.
+
+Colin Scott and Olivier Audeoud, The Future of EC Telecommunications Law, Bundesanzeiger, 1996.
+
+Gini Graham Scott, Mind Your Own Business: The Battle for Personal Privacy, Insight, 1995.
+
+Linda Scovill, Librarians and Publishers in the Scholarly Information Process: Transition in the Electronic Age, Association of American Publishers, 1995.
+
+Stephen A. R. Scrivener, ed, Computer-Supported Cooperative Work: The Multimedia and Networking Paradigm, Avebury, 1994.
+
+John Seabrook, Deeper: My Two-Year Odyssey in Cyberspace, Simon and Schuster, 1997.
+
+Judith B. Sedaitis, ed, Commercializing High Technology: East and West, Rowman and Littlefield, 1997.
+
+Robert J. Seidel and Paul R. Chatelier, eds, Learning Without Boundaries: Technology to Support Distance/Distributed Learning, Plenum Press, 1994.
+
+Robert J. Seidel and Paul R. Chatelier, eds, Virtual Reality, Training's Future? Perspectives on Virtual Reality and Related Emerging Technologies, Plenum, 1997.
+
+Cynthia L. Selfe and Susan Hilligoss, eds, Literacy and Computers: The Complications of Teaching and Learning With Technology, Modern Language Association of America, 1994.
+
+Gary W. Selnow, High-Tech Campaigns: Computer Technology in Political Communication, Praeger, 1994.
+
+Richard J. Severson, The Principles of Information Ethics, Sharpe, 1997.
+
+Rawn Shah and Jim Romine, Playing Muds on the Internet, Wiley, 1995.
+
+Scott Shane, Dismantling Utopia: How Information Ended the Soviet Union, Dee, 1995.
+
+Dan Shapiro, Michael Tauber, and Roland Traunmuller, eds, The Design of Computer Supported Cooperative Work and Groupware Systems, North-Holland, 1996.
+
+Virginia Shea, Netiquette, Albion Books, 1994.
+
+Karla Shelton and Todd McNeeley, Virtual Communities Companion, Coriolis Group, 1997.
+
+David Shenk, Data Smog: Surviving the Information Glut, Harper San Francisco, 1997.
+
+Barry L. Sherman, Telecommunications Management: Broadcasting/Cable and the New Technologies, second edition, McGraw-Hill, 1995.
+
+Mark A. Shields, ed, Work and Technology in Higher Education: The Social Construction of Academic Computing, Erlbaum, 1995.
+
+Rob Shields, ed, Cultures of Internet: Virtual Spaces, Real Histories, Living Bodies, Sage, 1996.
+
+Tsutomu Shimomura, Take-Down: The Pursuit and Capture of Kevin Mitnick, America's Most Wanted Computer Outlaw, Hyperion, 1996.
+
+V. A. Shiva, Arts and the Internet: A Guide to the Revolution, Allworth Press, 1996.
+
+David Shukman, Tomorrow's War: The Threat of High-Technology Weapons, Harcourt Brace, 1996.
+
+Joel N. Shurkin, Engines of the Mind: The Evolution of the Computer from Mainframes to Microprocessors, second edition, Norton, 1996.
+
+Daniel E. Sichel and Marilyn Whitmore, eds, The Computer Revolution: An Economic Perspective, Brookings, 1997.
+
+Werner Sichel and Donald L. Alexander, eds, Networks, Infrastructure, and the New Task for Regulation, University of Michigan Press, 1996.
+
+J. Gregory Sidak, Foreign Investment in American Telecommunications, University of Chicago Press, 1997.
+
+Thomas M. Siebel and Michael S. Malone, Virtual Selling: Going Beyond the Automated Sales Force to Achieve Total Sales Quality, Free Press, 1996.
+
+Horst Siebert, ed, Towards a New Global Framework for High-Technology Competition, Mohr, 1997.
+
+Doig Simmonds and Linda Reynolds, Data Presentation and Visual Literacy in Medicine and Science, Butterworth-Heinemann, 1994.
+
+Carla Sinclair, Net Chick: A Smart-Girl Guide to the Wired World, Holt, 1996.
+
+Neil Sipper and Martin Pearce, eds, Architects in Cyberspace, Academy Group, 1995.
+
+Charles Sirois and Claude E. Forget, The Medium and the Muse: Culture, Telecommunications and the Information Highway, IRPP, 1995.
+
+Gloria Skurzynski, Know the Score: Video Games in Your High-Tech World, Bradbury Press, 1994.
+
+Warner V. Slack, Cybermedicine: How Computing Empowers Doctors and Patients for Better Health Care, Jossey-Bass, 1997.
+
+Alexander L. Slade and Marie A. Kascus, Library Services for Off-Campus and Distance Education: The Second Annotated Bibliography, Libraries Unlimited, 1996.
+
+Michelle Slatalla and Joshua Quittner, Masters of Deception: The Gang That Ruled Cyberspace, HarperCollins Publishers, 1995.
+
+Mark Slouka, War of the Worlds: Cyberspace and the High-Tech Assault on Reality, Basic Books, 1995.
+
+George Slusser, Gary Westfahl, and Eric S. Rabkin, eds, Immortal Engines: Life Extension and Immortality in Science Fiction and Fantasy, University of Georgia Press, 1996.
+
+Adrian J. Slywotzky, Value Migration: How to Think Several Moves Ahead of the Competition, Harvard Business School Press, 1996.
+
+Thomas J. Smedinghoff, The Software Publishers Association Legal Guide to Multimedia, Addison-Wesley, 1994.
+
+Thomas J. Smedinghoff, Multimedia Legal Handbook: A Guide From the Software Publishers Association, Wiley, 1995.
+
+Thomas J. Smedinghoff, ed, Online Law: The SPA's Legal Guide to Doing Business On the Internet, Addison-Wesley, 1996.
+
+Anthony Smith, Software for the Self: Technology and Culture, Oxford University Press, 1996.
+
+Graham J. H. Smith, Internet Law and Regulation, second edition, FT Law and Tax, 1997.
+
+H. Jeff Smith, Managing Privacy: Information Technology and Corporate America, University of North Carolina Press, 1994.
+
+Neil Smith, ed, Libraries, Networks and Europe: A European Networking Study, British Library, 1994.
+
+Robert Ellis Smith, Compilation of State and Federal Privacy Laws, Privacy Journal, 1997.
+
+Rick Smolan and Jennifer Erwitt, eds, 24 Hours in Cyberspace: Photographed on One Day by 150 of the World's Leading Photojournalists, Macmillan, 1996.
+
+Carolyn A. Snyder and James W. Fox, eds, Libraries and Other Academic Support Services for Distance Learning, JAI, 1997.
+
+Carolyn A. Snyder, Susan Logue, and Barbara G. Preece, eds, Role of Libraries in Distance Education: A Spec Kit, Association of Research Libraries, 1996.
+
+Herbert Snyder and Elisabeth Davenport, Costing and Pricing in the Digital Age: A Practical Guide for Information Services, Neal-Schuman, 1997.
+
+Ilana Snyder, Hypertext: The Electronic Labyrinth, Melbourne University Press, 1996.
+
+Phyllis K. Sokol, From EDI to Electronic Commerce: A Business Initiative, McGraw-Hill, 1995.
+
+Elinor Harris Solomon, Virtual Money: Understanding the Power and Risks of Money's High-Speed Journey into Electronic Space, Oxford University Press, 1997.
+
+Bridget Somekh and Niki Davis, eds, Using Information Technology Effectively in Teaching and Learning: Studies in Pre-Service and In-Service Teacher Education, Routledge, 1997.
+
+Alan Sondheim and Chung-Shig Shin, eds, Being On Line: Net Subjectivity, Lusitania, 1996.
+
+Phillip L. Spector and Paul J. Kollmer, Communications and Technology Alliances: Business and Legal Issues, Warren, Gorham and Lamont, 1996.
+
+Dale Spender, Nattering on the Net: Women, Power and Cyberspace, Spinifex Press, 1996.
+
+Richard A. Spinello, Case Studies in Information and Computer Ethics, Prentice Hall, 1997.
+
+Slavko Splichal, Andrew Calabrese, and Colin Sparks, eds, Information Society and Civil Society: Contemporary Perspectives on the Changing World Order, Purdue University Press, 1994.
+
+Claudia Springer, Electronic Eros: Bodies and Desire in the Postindustrial Age, University of Texas Press, 1996.
+
+Francis Spufford and Jenny Uglow, eds, Cultural Babbage: Technology, Time and Invention, Faber and Faber, 1997.
+
+Annabelle Sreberny-Mohammadi and Ali Mohammadi, Small Media, Big Revolution: Communication, Culture, and the Iranian Revolution, University of Minnesota Press, 1994.
+
+Lila B. Stair, Careers in Computers, VGM Career Horizons, 1996.
+
+Ralph M. Stair, Principles of Information Systems: A Managerial Approach, second edition, Boyd and Fraser, 1996.
+
+W. T. Stanbury, ed, Perspectives on the New Economics and Regulation of Telecommunications, Institute for Research on Public Policy, 1996.
+
+Gregory C. Staple, ed, TeleGeography 1996-1997: Global Telecommunications Traffic Statistics and Commentary, TeleGeography 1996.
+
+William G. Staples, The Culture of Surveillance: Discipline and Social Control in the United States, St. Martin's Press, 1997.
+
+Susan Leigh Star, ed, Ecologies of Knowledge: Work and Politics in Science and Technology, State University of New York Press, 1995.
+
+Virginia Steel and C. Brigid Welch, eds, The Future of Information Services, Haworth Press, 1995.
+
+Mark Stefik, Internet Dreams, MIT Press, 1996.
+
+Oliver Stehmann, Network Competition for European Telecommunications, Oxford University Press, 1995.
+
+Charles Steinfield, Johannes Bauer, and Laurence Caby, eds, Telecommunications in Transition: Policies, Services, and Technologies in the European Community, Sage, 1994.
+
+Heinrich Steinmann and Dimitris N. Chorofas, The New Wave in Information Technology: What It Means for Business, Cassell, 1996.
+
+Charlotte S. Stephens, The Nature of Information Technology Managerial Work: The Work Life of Five Chief Information Officers, Quorum, 1995.
+
+Jim Sterne, World Wide Web Marketing: Integrating the Internet Into Your Marketing Strategy, Wiley, 1995.
+
+Jim Sterne, Customer Service on the Internet: Building Relationships, Increasing Loyalty, and Staying Competitive, Wiley, 1996.
+
+Jan Steyaert, David Colombi, and Jackie Rafferty, eds, Human Services and Information Technology: An International Perspective, Ashgate, 1996.
+
+Richard N. Stichler and Robert Hauptman, eds, Ethics, Information and Technology: Readings, McFarland, 1997.
+
+Julie Still, ed, The Internet Library: Case Studies of Library Internet Management and Use, Mecklermedia, 1994.
+
+Clifford Stoll, Silicon Snake Oil: Second Thoughts on the Information Highway, Doubleday, 1995.
+
+Alan Stone, How America Got On-Line: Politics, Markets, and the Revolution in Telecommunications, Sharpe, 1997.
+
+Allucquere Rosanne Stone, The War of Desire and Technology at the Close of the Mechanical Age, MIT Press, 1995.
+
+Frank Stowell, Information Systems Provision: The Contribution of Soft Systems Methodology, McGraw-Hill, 1995,
+
+Paul A. Strassmann, The Politics of Information Management: Policy Guidelines, Information Economics Press, 1995.
+
+Paul A. Strassmann, The Squandered Computer: Evaluating the Business Alignment of Information Technologies, Information Economics Press, 1997.
+
+Lance Strate, Ronald Jacobson, and Stephanie B. Gibson, eds, Communication and Cyberspace: Social Interaction in an Electronic Environment, Hampton Press, 1996.
+
+Joseph Straubhaar and Robert LaRose, Communications Media in the Information Society, Wadsworth, 1996.
+
+Richard L. Street, Jr., William R. Gold, and Timothy Manning, eds, Health Promotion and Interactive Technology: Theoretical Applications and Future Directions, Erlbaum, 1997.
+
+Randall E. Stross, The Microsoft Way: The Real Story of How the Company Outsmarts Its Competition, Addison-Wesley, 1996.
+
+Kent D. Stuckey, Internet and Online Law, Law Journal Seminars Press, 1996.
+
+Eugene Sullivan, David W. Stewart, and Henry A. Spille, External Degrees in the Information Age: Legitimate Choices, Oryx, 1997.
+
+Patricia Sullivan and Jennie Dautermann, eds, Electronic Literacies in the Workplace: Technologies of Writing, National Council of Teachers of English, 1996.
+
+Thomas F. P. Sullivan, ed, Official Telecommunications Dictionary: Legal and Regulatory Definitions, Government Institutes, 1997.
+
+Richard E. Susskind, The Future of Law: Facing the Challenges of Information Technology, Clarendon Press, 1996.
+
+Gerald Sussman, Communication, Technology, and Politics in the Information Age, Sage, 1997.
+
+Brett Sutton, ed, Literary Texts in an Electronic Age: Scholarly Implications and Library Services, Graduate School of Library and Information Science, University of Illinois at Urbana-Champaign, 1994.
+
+Edward Szewczak and Mehdi Khosrowpour, eds, The Human Side of Information Technology Management, Idea Group, 1996.
+
+Joseph Tabbi and Michael Wutz, eds, Reading Matters: Narrative in the New Media Ecology, Cornell University Press, 1997.
+
+Michael Talalay, Chris Farrands, and Roger Tooze, eds, Technology, Culture and Competitiveness: Change and the World Political Economy, Routledge, 1997.
+
+James N. Talbott, New Media: Intellectual Property, Entertainment, and Technology Law, Clark Boardman Callaghan, 1997.
+
+Adrienne Tannenbaum, Implementing a Corporate Repository: The Models Meet Reality, J. Wiley, 1994.
+
+Don Tapscott, The Digital Economy: Promise and Peril in the Age of Networked Intelligence, McGraw-Hill, 1996.
+
+Don Tapscott, Growing Up Digital: The Rise of the Net Generation, McGraw-Hill, 1997.
+
+Andrew S. Targowski, Global Information Infrastructure: The Birth, Vision, and Architecture, Idea Group, 1996.
+
+Allan Taylor and Stephen Farrell, Information Management for Business, Scarecrow Press, 1995.
+
+Lester D. Taylor, Telecommunications Demand in Theory and Practice, Kluwer, 1994.
+
+Jennifer Terry and Melodie Calvert, eds, Processed Lives: Gender and Technology in Everyday Life, Routledge, 1997.
+
+Paul Teske, ed, American Regulatory Federalism and Telecommunications Infrastructure, Erlbaum, 1995.
+
+Joshua O. Testerman, Thomas J. Kuegler, Jr., and Paul J. Dowling, Jr., Web Advertising and Marketing, Prima, 1996.
+
+Morris Teubal, Dominique Foray, Moshe Justman, and Ehud Zuscovitch, eds, Technological Infrastructure Policy: An International Perspective, Kluwer, 1996.
+
+Robert J. Thierauf, Effective Management and Evaluation of Information Technology, Quorum, 1994.
+
+Harold Thimbleby, Brid O'Conaill, and Peter Thomas, eds, People and Computers XII: Proceedings of HCI '97, Springer, 1997.
+
+Diana Thomas, ed, Flexible Learning Strategies in Higher and Further Education, Cassell, 1995.
+
+Peter J. Thomas, CSCW Requirements and Evaluation, Springer, 1996.
+
+Robert J. Thomas, What Machines Can't Do: Politics and Technology in the Industrial Enterprise, University of California Press, 1994.
+
+Christian W. Thomsen, Visionary Architecture From Babylon to Virtual Reality, translated by John William Gabriel, Prestel, 1994.
+
+Robin Thornes, Protecting Cultural Objects in the Global Information Society: The Making of Object ID, Getty Information Institute, 1997.
+
+Joseph Tidd, Keith Pavitt, and J. R. Bessant, Managing Innovation: Integrating Technological, Market and Organizational Change, Wiley, 1997.
+
+John Tiffin and Lalita Rajasingham, In Search of the Virtual Class: Education in an Information Society, Routledge, 1995.
+
+Bruce Tognazzini, Tog on Software Design, Addison-Wesley, 1996.
+
+Francoise Tourniaire and Richard Farrell, The Art of Software Support: Design and Operation of Support Centers and Help Desks, Prentice Hall, 1997.
+
+Edwin E. Tozer, Strategic IS/IT Planning, Butterworth-Heinemann, 1996.
+
+Tom Trabin, ed, The Computerization of Behavioral Healthcare: How to Enhance Clinical Practice, Management, and Communications, Jossey-Bass, 1996.
+
+David Trend, Cultural Democracy: Politics, Media, New Technology, State University of New York Press, 1997.
+
+Efraim Turban, Ephraim McLean, and James Wetherbe, Information Technology for Management: Improving Quality and Productivity, Wiley, 1996.
+
+Sherry Turkle, Life on the Screen: Identity in the Age of the Internet, Simon and Schuster, 1995.
+
+Colin Turner, Trans-European Telecommunication Networks: The Challenges for Industrial Policy, Routledge, 1997.
+
+Betty J. Turock, ed, Envisioning a Nation Connected: Librarians Define the Public Interest in the Information Superhighway, American Library Association, 1996.
+
+Luke Uka Uche, ed, North-South Information Culture: Trends in Global Communications and Research Paradigms, Longman Nigeria, 1996.
+
+Ellen Ullman, Close to the Machine: Technophilia and its Discontents, City Lights, 1997.
+
+Geoffrey Underwood, Information Technology on the Move: Technical and Behavioural Evaluations of Mobile Telecommunications, Wiley, 1994.
+
+Lorna Unwin, Neil Bolton, and Kate Stephens, The Role of the Library in Distance Learning: Implications for Policy and Practice, Library Information Technology Centre, 1995.
+
+John Ure, ed, Telecommunications in Asia: Policy, Planning and Development, Hong Kong University Press, 1995.
+
+Herman E. Van Bolhuis and Vicente Colom, Cyberspace Reflections, Paul, 1997.
+
+Jana Varlejs, ed, The Economics of Information in the 1990s, McFarland, 1995.
+
+Tom Vassos, Strategic Internet Marketing, Que, 1996.
+
+Piero Ventura, Communication: Means and Technologies for Exchanging Information, Houghton Mifflin, 1994.
+
+M. Felisa Verdejo and Stefano A. Cerri, eds, Collaborative Dialogue Technologies in Distance Learning, Springer-Verlag, 1994.
+
+C. M. Rob Verkoeyen, Albina I. Nikkonen, and Andrei Fursenko, eds, Management Training in High-Tech and R&D: Concept for Enterprises Under Transition, Kluwer, 1997.
+
+S. L. Verma, National Information System in Education: A Comparative Study, Concept, 1996.
+
+Richard Veryard, Information Coordination: The Management of Information Models, Systems, and Organizations, Prentice Hall, 1994.
+
+Arlindo Villaschi, The Newly Industrialized Countries and the Information Technology Revolution: The Brazilian Experience, Avebury, 1994.
+
+Paul Virilio, Open Sky, translated by Julie Rose, Verso, 1997.
+
+Joe Vitale, Cyberwriting: How to Promote Your Product or Service Online (Without Being Flamed), AMACOM, 1996.
+
+Victor J. Vitanza, Cyberreader, Allyn and Bacon, 1996.
+
+Stella Vosniadou and Erik De Corte, eds, International Perspectives on the Design of Technology-Supported Learning Environments, Erlbaum, 1996.
+
+Betty Jane Wagner and Mark Larson, Situations: A Casebook of Virtual Realities for the English Teacher, Boynton/Cook Publishers, 1995.
+
+Ralph T. Wakerly, ed, Community Health Information Networks: Creating the Health Care Data Highway, American Hospital Publishing, 1994.
+
+James Wallace, Overdrive: Bill Gates and the Race to Control Cyberspace, Wiley, 1997.
+
+Jonathan Wallace, Sex, Laws, and Cyberspace: Freedom and Censorship on the Frontiers of the Online Revolution, Holt, 1996.
+
+Charles B. Wang, Techno Vision: The Executive's Survival Guide to Understanding and Managing Information Technology, McGraw-Hill, 1994.
+
+Charles B. Wang, Techno Vision II: Every Executive's Guide to Understanding and Mastering Technology and the Internet, McGraw-Hill, 1997.
+
+John Ward, Principles of Information Systems Management, Routledge, 1995.
+
+John Ward and Pat Griffiths, Strategic Planning for Information Systems, second edition, Wiley, 1996.
+
+Suzanne Ward, Management Information Systems: Managing Libraries, Library Information Technology Centre, 1995.
+
+Willis H. Ware, Privacy Dimensions of Medical Record Keeping, RAND, 1994.
+
+Willis H. Ware, Privacy and Security Policy in a National Information Infrastructure Environment, RAND, 1996.
+
+Tony Warner, Communication Skills for Information Systems, Pitman, 1996.
+
+Janet Wasko, Hollywood in the Information Age: Beyond the Silver Screen, Polity Press, 1994.
+
+Christopher Watkins and Stephen Marenka, The Internet Edge in Business, AP Professional, 1995.
+
+John Watkinson, The Art of Digital Audio, second edition, Focal Press, 1994.
+
+John Watkinson, The Art of Digital Video, second edition, Focal Press, 1994.
+
+Deryn Watson and David Tinsley, eds, Integrating Information Technology Into Education, Chapman and Hall, 1995.
+
+Robert Edwin Wayland and Paul Michael Cole, Customer Connections: New Strategies for Growth, Harvard Business School Press, 1997.
+
+Frank Webster, Theories of the Information Society, Routledge, 1995.
+
+Juliet Webster, Shaping Women's Work: Gender, Employment, and Information Technology, Longman, 1996.
+
+John Weckert and Douglas Adeney, Computer and Information Ethics, Greenwood, 1997.
+
+Rupert Wegerif and Peter Scrimshaw, eds, Computers and Talk in the Primary Classroom, Multilingual Matters, 1997.
+
+Peter Weibel, ed, The Media Pavilion: Art and Architecture in the Age of Cyberspace, Springer-Verlag, 1995.
+
+Michelle M. Weil and Larry D. Rosen, TechnoStress: Coping with Technology at Work, at Home, at Play, Wiley, 1997.
+
+H. Skip Weitzen and Rick Parkhill, Infopreneurs Online and Global: Taking the Hottest Business of the '90's into the 21st Century, Wiley, 1996.
+
+Benjamin B. Wells, The Computer Revolution, Nova Science, 1997.
+
+S. West, M. Norris and S. Stockman, eds, Computing Systems for Global Telecommunications, Chapman and Hall, 1997.
+
+Sallie Westwood and John Williams, eds, Imagining Cities: Scripts, Signs, Memory, Routledge, 1997.
+
+Andrew B. Whinston, Dale O. Stahl, and Soon-Yong Choi, The Economics of Electronic Commerce, MacMillan, 1997.
+
+Ken Whitaker, Managing Software Maniacs: Finding, Managing, and Rewarding a Winning Development Team, Wiley, 1994.
+
+Herbert S. White, At the Crossroads: Librarians on the Information Superhighway, Libraries Unlimited, 1995.
+
+Gretchen Whitney, ed, The Digital Revolution: Proceedings of the American Society for Information Science Mid-Year Meeting, Information Today, 1996.
+
+Neal Whitten, Managing Software Development Projects: Formula for Success, second edition, Wiley, 1995.
+
+David B. Whittle, Cyberspace: The Human Dimension, Freeman, 1997.
+
+Karl E. Wiegers, Creating a Software Engineering Culture, Dorset House, 1996.
+
+Brad Wieners and David Pescovitz, eds, Reality Check, Hardwired, 1996.
+
+Rolf Wigand, Arnold Picot, and Ralf Reichwald, Information, Organization and Management: Expanding Markets and Corporate Boundaries, Wiley, 1997.
+
+Karl M. Wiig, Knowledge Management Methods: Practical Approaches to Managing Knowledge, Schema Press, 1995.
+
+Edward Wilding, Computer Evidence: A Forensic Investigations Handbook, Sweet and Maxwell, 1997.
+
+Yorick A. Wilks, Brian M. Slator, and Louise M. Guthrie, Electric Words: Dictionaries, Computers, and Meanings, MIT Press, 1996.
+
+Leslie Willcocks, ed, Information Management: The Evaluation of Information Systems Investments, Chapman and Hall, 1994.
+
+Leslie Willcocks, Investing in Information Systems: Evaluation and Management, Chapman and Hall, 1996.
+
+Frederick Williams and John V. Pavlik, eds, The People's Right to Know: Media, Democracy, and the Information Highway, Erlbaum, 1994.
+
+Martha E. Williams, ed, Annual Review of Information Science and Technology 31, Information Today, 1996.
+
+Michael R. Williams, A History of Computing Technology, second edition, IEEE Computer Society, 1997.
+
+Barry Willis, ed, Distance Education: Strategies and Tools, Educational Technology Publications, 1994.
+
+Jerry W. Willis, Elizabeth C. Stephens, and Kathryn I. Matthew, Technology, Reading, and Language Arts, Allyn and Bacon, 1996.
+
+Jim Willis, The Age of Multimedia and Turbonews, Praeger, 1994.
+
+Martin Wilson, The Information Edge: Successful Management using Information Technology, Pitman, 1997.
+
+Mike Wilson, The Difference Between God and Larry Ellison: Inside Oracle Corporation, Morrow, 1997.
+
+Russel L. Winder, Stephen K. Probert, and Ian A. Beeson, eds, Philosophical Aspects of Information Systems, Taylor and Francis, 1997.
+
+Morley Winograd and Dudley Buffa, Taking Control: Politics in the Information Age, Holt, 1996.
+
+Terry Winograd, ed, Bringing Design to Software, Addison-Wesley, 1996.
+
+Paul A. Winters, ed, Computers and Society, Greenhaven, 1997.
+
+J. MacGregor Wise, Exploring Technology and Social Space, Sage, 1997.
+
+John P. Witherspoon, Distance Education: A Planner's Casebook, Western Interstate Commission for Higher Education, 1996.
+
+E. Witte, ed, Global Players in Telecommunications: Proceedings of a Congress Held in Munich, April 20/21, 1994, Springer-Verlag, 1994.
+
+Rob Wittig, Invisible Rendezvous: Connection and Collaboration in the New Landscape of Electronic Writing, University Press of New England, 1994.
+
+Dennis Wixon and Judith Ramey, eds, Field Methods Casebook for Software Design, Wiley, 1996.
+
+Jack Woodall, Deborah K. Rebuck, and Frank Voehl, Total Quality in Information Systems and Technology, St. Lucie Press, 1997.
+
+Robin Wooffitt and Norman Fraser, Humans Computers and Wizards: Analyzing Human (Simulated) Computer Interaction, Routledge, 1997.
+
+Kristen R. Woolever and Helen M. Loeb, Writing for the Computer Industry, Prentice Hall, 1994.
+
+Phillip Woolfson and Angus Murray, Information Society in the European Union, Wiley, 1996.
+
+William Wresch, Disconnected: Haves and Have-Nots in the Information Age, Rutgers University Press, 1996.
+
+Benjamin Wright, The Law of Electronic Commerce: EDI, E-Mail, and Internet: Technology, Proof, and Liability, second edition, Little, Brown, 1995.
+
+Russell W. Wright, The Competitive Advantage of Knowledge-Based Resources in the Semiconductor Industry, Garland, 1997.
+
+Alexandra Wyke, Going Digital: How New Technology Is Changing Our Lives, The Economist, 1996.
+
+Alexandra Wyke, 21st-Century Miracle Medicine: RoboSurgery, Wonder Cures, and the Quest for Immortality, Plenum Press, 1997.
+
+Robert K. Wysocki and Robert L. Demichiell, Managing Information Across the Enterprise, Wiley, 1996.
+
+Kaoru Yamaguchi, ed, Sustainable Global Communities in the Information Age: Visions from Futures Studies, Praeger, 1997.
+
+David B. Yoffie, ed, Competing in the Age of Digital Convergence, Harvard Business School Press, 1997.
+
+George Young, Designing Business: How to Develop and Lead a High Technology Company, Institution of Electrical Engineers, 1997.
+
+Edward Yourdon, Rise and Resurrection of the American Programmer, Yourdon Press, 1996.
+
+Edward Yourdon, Death March: The Complete Software Developer's Guide to Surviving "Mission Impossible" Projects, Prentice Hall, 1997.
+
+G. Pascal Zachary, Endless Frontier: Vannevar Bush, Engineer of the American Century, Free Press, 1997.
+
+Mark W. Zacher and Brent A. Sutton, Governing Global Networks: International Regimes for Transportation and Communications, Cambridge University Press, 1996.
+
+Jeffrey P. Zaleski, The Soul of Cyberspace: How New Technology Is Changing Our Spiritual Lives, HarperCollins, 1997.
+
+Robert A. Zawacki, Transforming the Mature Information Technology Organization: Reenergizing and Motivating People, EagleStar, 1995.
+
+Robbin Zeff and Brad Aronson, Advertising on the Internet, Wiley, 1997.
+
+John Zeleznikow and Dan Hunter, Building Intelligent Legal Information Systems: Representation and Reasoning in Law, Kluwer, 1994.
+
+Deone Zell, Changing by Design: Organizational Innovation at Hewlett-Packard, Cornell University Press, 1997.
+
+Michael G. Zey, Seizing the Future: How the Coming Revolution in Science, Technology, and Industry Will Expand the Frontiers of Human Potential and Reshape the Planet, Simon and Schuster, 1994.
+
+Jeff X. Zhang and Yan Wang, The Emerging Market of China's Computer Industry, Quorum Books, 1995.
+
+Justin Zobel, Writing for Computer Science: The Art of Effective Communication, Springer Verlag, 1997.

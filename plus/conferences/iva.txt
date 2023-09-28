@@ -1,0 +1,564 @@
+---
+documentclass: article
+classoption:
+- landscape
+---
+
+
+H. C. van Vugt, E. A. Konijn, J. F. Hoorn, and J. Veldhuis. 2006. Why fat interface characters are better e-health advisors. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 1–13. https://doi.org/10.1007/11821830_1
+
+Jonathan Gratch, Anna Okhmatovskaia, Francois Lamothe, Stacy Marsella, Mathieu Morales, R. J. van der Werf, and Louis-Philippe Morency. 2006. Virtual rapport. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 14–27. https://doi.org/10.1007/11821830_2
+
+Stefan Kopp and Olaf Graeser. 2006. Imitation learning and response facilitation in embodied agents. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 28–41. https://doi.org/10.1007/11821830_3
+
+Mohammed E. Hoque, Mohammed Yeasin, and Max M. Louwerse. 2006. Robust recognition of emotion from speech. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 42–53. https://doi.org/10.1007/11821830_4
+
+Sidney D’Mello and Art Graesser. 2006. Affect detection from human-computer dialogue with an intelligent tutoring system. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 54–67. https://doi.org/10.1007/11821830_5
+
+Li Zhang, John A. Barnden, Robert J. Hendley, and Alan M. Wallington. 2006. Exploitation in affect detection in improvisational e-drama. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 68–79. https://doi.org/10.1007/11821830_6
+
+Stacy C. Marsella, Sharon Marie Carnicke, Jonathan Gratch, Anna Okhmatovskaia, and Albert Rizzo. 2006. An exploration of delsarte’s structural acting system. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 80–92. https://doi.org/10.1007/11821830_7
+
+Stéphanie Buisine, Sarkis Abrilian, Radoslaw Niewiadomski, Jean-Claude Martin, Laurence Devillers, and Catherine Pelachaud. 2006. Perception of blended emotions: from video corpus to expressive agent. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 93–106. https://doi.org/10.1007/11821830_8
+
+Zhigang Deng, Jeremy Bailenson, J. P. Lewis, and Ulrich Neumann. 2006. Perceiving visual emotions with speech. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 107–120. https://doi.org/10.1007/11821830_9
+
+Ronakkumar Patel, Anton Leuski, and David Traum. 2006. Dealing with out of domain questions in virtual characters. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 121–131. https://doi.org/10.1007/11821830_10
+
+Lee McCauley and Sidney D’Mello. 2006. MIKI: a speech enabled intelligent kiosk. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 132–144. https://doi.org/10.1007/11821830_11
+
+Jean-Paul Sansonnet, David Leray, and Jean-Claude Martin. 2006. Architecture of a framework for generic assisting conversational agents. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 145–156. https://doi.org/10.1007/11821830_12
+
+Norbert Pfleger and Markus Löckelt. 2006. A comprehensive context model for multi-party interactions with virtual characters. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 157–168. https://doi.org/10.1007/11821830_13
+
+Sabarish Babu, Stephen Schmugge, Tiffany Barnes, and Larry F. Hodges. 2006. “What would you like to talk about?” an evaluation of social conversations with a virtual receptionist. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 169–180. https://doi.org/10.1007/11821830_14
+
+Nicolas Ech Chafai, Catherine Pelachaud, Danielle Pelé, and Gaspard Breton. 2006. Gesture expressivity modulations in an ECA application. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 181–192. https://doi.org/10.1007/11821830_15
+
+Erdan Gu and Norman I. Badler. 2006. Visual attention and eye gaze during multiparty conversations with distractions. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 193–204. https://doi.org/10.1007/11821830_16
+
+Stefan Kopp, Brigitte Krenn, Stacy Marsella, Andrew N. Marshall, Catherine Pelachaud, Hannes Pirker, Kristinn R. Thórisson, and Hannes Vilhjálmsson. 2006. Towards a common framework for multimodal generation: the behavior markup language. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 205–217. https://doi.org/10.1007/11821830_17
+
+Michael Nischt, Helmut Prendinger, Elisabeth André, and Mitsuru Ishizuka. 2006. MPML3D: a reactive framework for the multimodal presentation markup language. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 218–229. https://doi.org/10.1007/11821830_18
+
+Michael Kipp. 2006. Creativity meets automation: combining nonverbal action authoring with rules and machine learning. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 230–242. https://doi.org/10.1007/11821830_19
+
+Jina Lee and Stacy Marsella. 2006. Nonverbal behavior generator for embodied conversational agents. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 243–255. https://doi.org/10.1007/11821830_20
+
+Karlo Smid, Goranka Zoric, and Igor S. Pandzic. 2006. [HUGE]: universal architecture for statistically based HUman GEsturing. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 256–269. https://doi.org/10.1007/11821830_21
+
+Celso de Melo and Ana Paiva. 2006. A story about gesticulation expression. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 270–281. https://doi.org/10.1007/11821830_22
+
+Ning Wang and Stacy Marsella. 2006. Introducing EVG: an emotion evoking game. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 282–291. https://doi.org/10.1007/11821830_23
+
+Zsófia Ruttkay, Job Zwiers, Herwin van Welbergen, and Dennis Reidsma. 2006. Towards a reactive virtual trainer. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 292–303. https://doi.org/10.1007/11821830_24
+
+Ruth Aylett, Rui Figueiredo, Sandy Louchart, João Dias, and Ana Paiva. 2006. Making it up as you go along – improvising stories for pedagogical purposes. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 304–315. https://doi.org/10.1007/11821830_25
+
+Stephen Read, Lynn Miller, Brian Monroe, Aaron Brownstein, Wayne Zachary, Jean-Christophe LeMentec, and Vassil Iordanov. 2006. A neurobiologically inspired model of personality in an intelligent agent. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 316–328. https://doi.org/10.1007/11821830_26
+
+Benny Ping-Han Lee, Edward Chao-Chun Kao, and Von-Wun Soo. 2006. Feeling ambivalent: a model of mixed emotions for virtual agents. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 329–342. https://doi.org/10.1007/11821830_27
+
+Patrick Gebhard and Kerstin H. Kipp. 2006. Are computer-generated emotions and moods plausible to humans? In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 343–356. https://doi.org/10.1007/11821830_28
+
+Jennifer Sandercock, Lin Padgham, and Fabio Zambetta. 2006. Creating adaptive and individual personalities in many characters without hand-crafting behaviors. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 357–368. https://doi.org/10.1007/11821830_29
+
+Mei Si, Stacy C. Marsella, and David V. Pynadath. 2006. Thespian: modeling socially normative behavior in a decision-theoretic framework. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 369–382. https://doi.org/10.1007/11821830_30
+
+Wan Ching Ho and Scott Watson. 2006. Autobiographic knowledge for believable virtual characters. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 383–394. https://doi.org/10.1007/11821830_31
+
+Andrea L. Thomaz and Cynthia Breazeal. 2006. Teachable characters: user studies, design principles, and learning performance. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 395–406. https://doi.org/10.1007/11821830_32
+
+Lynne Hall, Marco Vala, Marc Hall, Marc Webster, Sarah Woods, Adrian Gordon, and Ruth Aylett. 2006. FearNot’s appearance: reflecting children’s expectations and perspectives. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 407–419. https://doi.org/10.1007/11821830_33
+
+Wei Shao and Demetri Terzopoulos. 2006. Populating reconstructed archaeological sites with autonomous virtual humans. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 420–433. https://doi.org/10.1007/11821830_34
+
+Michael Kipp, Kerstin H. Kipp, Alassane Ndiaye, and Patrick Gebhard. 2006. Evaluating the tangible interface and virtual characters in the interactive COHIBIT exhibit. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 434–444. https://doi.org/10.1007/11821830_35
+
+Rod Humble. 2006. Invited talk: rule systems and video games. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 445. https://doi.org/10.1007/11821830_36
+
+Michael Mateas and Andrew Stern. 2006. Façade: architecture and authorial idioms for believable agents in interactive drama. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 446–448. https://doi.org/10.1007/11821830_37
+
+Brian Parkinson. 2006. Invited talk: social effects of emotion: two modes of relation alignment. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 449. https://doi.org/10.1007/11821830_38
+
+Dilyana Budakova and Lyudmil Dakovski. 2006. Computer model of emotional agents. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 450. https://doi.org/10.1007/11821830_39
+
+Gianni Cozzolongo and Berardina De Carolis. 2006. Affective robots as mediators in smart environments. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 451. https://doi.org/10.1007/11821830_40
+
+Elizabeth A. Crane, M. Melissa Gross, and Barbara L. Fredrickson. 2006. Expression of emotion in body and face. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 452. https://doi.org/10.1007/11821830_41
+
+Pablo Lucas dos Anjos and Ruth Aylett. 2006. Towards primate-like synthetic sociability. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 453. https://doi.org/10.1007/11821830_42
+
+Todd Furmanski. 2006. Here be dragons: integrating agent behaviors with procedural emergent landscapes and structures. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 454. https://doi.org/10.1007/11821830_43
+
+Agneta Gulz and Magnus Haake. 2006. Virtual pedagogical agents: naturalism vs. stylization. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 455. https://doi.org/10.1007/11821830_44
+
+Johan F. Hoorn and Henriette C. van Vugt. 2006. The role of social norm in user-engagement and appreciation of the web interface agent bonzi buddy. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 456. https://doi.org/10.1007/11821830_45
+
+Yu-Cheng Hsu, Paul Hsueh-Min Chang, and Von-Wun Soo. 2006. Countering adversarial strategies in multi-agent virtual scenarios. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 457. https://doi.org/10.1007/11821830_46
+
+Ryo Ishii, Toshimitsu Miyajima, Kinya Fujita, and Yukiko Nakano. 2006. Avatar’s gaze control to facilitate conversational turn-taking in virtual-space multi-user voice chat system. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 458.
+
+Patrick Jeuniaux, Max M. Louwerse, and Xiangen Hu. 2006. The role of discourse structure and response time in multimodal communication. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 459–460. https://doi.org/10.1007/11821830_48
+
+Lynn C. Miller, Stephen J. Read, Wayne Zachary, Jean-Christophe LeMentec, Vassil Iordanov, Andrew Rosoff, and James Eilbert. 2006. The PAC cognitive architecture. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 461. https://doi.org/10.1007/11821830_49
+
+Toshimitsu Miyajima and Kinya Fujita. 2006. Control of avatar’s facial expression using fundamental frequency in multi-user voice chat system. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 462. https://doi.org/10.1007/11821830_50
+
+D. Panzoli, H. Luga, and Y. Duthen. 2006. Modeling cognition with a human memory inspired advanced neural controller. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 463. https://doi.org/10.1007/11821830_51
+
+Guilherme Raimundo, João Cabral, Celso Melo, Luís C. Oliveira, and Ana Paiva. 2006. Storytelling – the difference between fantasy and reality. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 464.
+
+Matthias Rehm, Birgit Endraß, and Elisabeth André. 2006. A plug-and-play framework for theories of social group dynamics. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 465–466. https://doi.org/10.1007/11821830_53
+
+S. Sanchez, H. Luga, and Y. Duthen. 2006. Learning classifier systems and behavioural animation of virtual characters. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 467. https://doi.org/10.1007/11821830_54
+
+Thomas Santarelli, Charles Barba, Floyd A. Glenn, and Daphne Bogert. 2006. Using intelligent agents to facilitate game based cultural familiarization training. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 468. https://doi.org/10.1007/11821830_55
+
+Marco Vala, João Dias, and Ana Paiva. 2006. Mind the body: filling the gap between minds and bodies in synthetic characters. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 469. https://doi.org/10.1007/11821830_56
+
+Jean-Christophe LeMentec and Wayne Zachary. 2006. CAB: a tool for interoperation among cognitive architectures. In Proceedings of the 6th international conference on Intelligent Virtual Agents (IVA'06). Springer-Verlag, Berlin, Heidelberg, 470. https://doi.org/10.1007/11821830_57
+
+Mathieu Chollet, Pranav Ghate, Catherine Neubauer, and Stefan Scherer. 2018. Influence of Individual Differences when Training Public Speaking with Virtual Audiences. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 1–7. https://doi.org/10.1145/3267851.3267874
+
+Ha Trinh, Ameneh Shamekhi, Everlyne Kimani, and Timothy W. Bickmore. 2018. Predicting User Engagement in Longitudinal Interventions with Virtual Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 9–16. https://doi.org/10.1145/3267851.3267909
+
+Nahal Norouzi, Kangsoo Kim, Jason Hochreiter, Myungho Lee, Salam Daher, Gerd Bruder, and Greg Welch. 2018. A Systematic Survey of 15 Years of User Studies Published in the Intelligent Virtual Agents Conference. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 17–22. https://doi.org/10.1145/3267851.3267901
+
+Johnathan Mell, Jonathan Gratch, Tim Baarslag, Reyhan Aydoğan, and Catholijn M. Jonker. 2018. Results of the First Annual Human-Agent League of the Automated Negotiating Agents Competition. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 23–28. https://doi.org/10.1145/3267851.3267907
+
+Annika Silvervarg and Kristian Månsson. 2018. How do you introduce an agent? The effect of introduction type on how a teachable agent is experienced by students. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 29–34. https://doi.org/10.1145/3267851.3267861
+
+Deborah Richards, Ayse Aysin Bilgin, and Hedieh Ranjbartabar. 2018. Users' perceptions of empathic dialogue cues: A data-driven approach to provide tailored empathy. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 35–42. https://doi.org/10.1145/3267851.3267857
+
+Jelte van Waterschoot, Merijn Bruijnes, Jan Flokstra, Dennis Reidsma, Daniel Davison, Mariët Theune, and Dirk Heylen. 2018. Flipper 2.0: A Pragmatic Dialogue Engine for Embodied Conversational Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 43–50. https://doi.org/10.1145/3267851.3267882
+
+Gale M. Lucas, Jill Boberg, David Traum, Ron Artstein, Jonathan Gratch, Alesia Gainer, Emmanuel Johnson, Anton Leuski, and Mikio Nakano. 2018. Culture, Errors, and Rapport-building Dialogue in Social Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 51–58. https://doi.org/10.1145/3267851.3267887
+
+Birgit Lugrin, Benjamin Eckstein, Kirsten Bergmann, and Corinna Heindl. 2018. Adapted Foreigner-directed Communication towards Virtual Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 59–64. https://doi.org/10.1145/3267851.3267859
+
+Stephanie Carnell and Benjamin Lok. 2018. The Effects of Author Identity on Dialogue for Virtual Human Communication Skills Training. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 65–70. https://doi.org/10.1145/3267851.3267856
+
+Bhargavi Paranjape, Yubin Ge, Zhen Bai, Jessica Hammer, and Justine Cassell. 2018. Towards Automatic Generation of Peer-Targeted Science Talk in Curiosity-Evoking Virtual Agent. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 71–78. https://doi.org/10.1145/3267851.3267894
+
+Dai Hasegawa, Naoshi Kaneko, Shinichi Shirakawa, Hiroshi Sakuta, and Kazuhiko Sumi. 2018. Evaluation of Speech-to-Gesture Generation Using Bi-Directional LSTM Network. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 79–86. https://doi.org/10.1145/3267851.3267878
+
+Ryo Ishii, Taichi Katayama, Ryuichiro Higashinaka, and Junji Tomita. 2018. Generating Body Motions using Spoken Language in Dialogue. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 87–92. https://doi.org/10.1145/3267851.3267866
+
+Ylva Ferstl and Rachel McDonnell. 2018. Investigating the use of recurrent motion modelling for speech gesture generation. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 93–98. https://doi.org/10.1145/3267851.3267898
+
+Salam Daher, Jason Hochreiter, Nahal Norouzi, Laura Gonzalez, Gerd Bruder, and Greg Welch. 2018. Physical-Virtual Agents for Healthcare Simulation. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 99–106. https://doi.org/10.1145/3267851.3267876
+
+Martin H. Luerssen and Tim Hawke. 2018. Virtual Agents as a Service: Applications in Healthcare. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 107–112. https://doi.org/10.1145/3267851.3267858
+
+Zhe Zhang and Timothy Bickmore. 2018. Medical Shared Decision Making with a Virtual Agent. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 113–118. https://doi.org/10.1145/3267851.3267883
+
+Timothy W. Bickmore, Everlyne Kimani, Ha Trinh, Alexandra Pusateri, Michael K. Paasche-Orlow, and Jared W. Magnani. 2018. Managing Chronic Conditions with a Smartphone-based Conversational Virtual Agent. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 119–124. https://doi.org/10.1145/3267851.3267908
+
+Johnathan Mell, Gale Lucas, Sharon Mozgai, Jill Boberg, Ron Artstein, and Jonathan Gratch. 2018. Towards a Repeated Negotiating Agent that Treats People Individually: Cooperation, Social Value Orientation, &amp; Machiavellianism. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 125–132. https://doi.org/10.1145/3267851.3267910
+
+Alankar Jain, Florian Pecune, Yoichi Matsuyama, and Justine Cassell. 2018. A User Simulator Architecture for Socially-Aware Conversational Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 133–140. https://doi.org/10.1145/3267851.3267916
+
+Jessica Falk, Steven Poulakos, Mubbasir Kapadia, and Robert W. Sumner. 2018. PICA: Proactive Intelligent Conversational Agent for Interactive Narratives. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 141–146. https://doi.org/10.1145/3267851.3267892
+
+Mojgan Hashemian, Rui Prada, Pedro A. Santos, and Samuel Mascarenhas. 2018. Enhancing Social Believability of Virtual Agents using Social Power Dynamics. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 147–152. https://doi.org/10.1145/3267851.3267902
+
+Prasanth Murali, Lazlo Ring, Ha Trinh, Reza Asadi, and Timothy Bickmore. 2018. Speaker Hand-Offs in Collaborative Human-Agent Oral Presentations. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 153–158. https://doi.org/10.1145/3267851.3267904
+
+Stef van der Struijk, Hung-Hsuan Huang, Maryam Sadat Mirzaei, and Toyoaki Nishida. 2018. FACSvatar: An Open Source Modular Framework for Real-Time FACS based Facial Animation. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 159–164. https://doi.org/10.1145/3267851.3267918
+
+Delphine Potdevin, Céline Clavel, and Nicolas Sabouret. 2018. Virtual Intimacy, this little something between us: A study about Human perception of intimate behaviors in Embodied Conversational Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 165–172. https://doi.org/10.1145/3267851.3267884
+
+Jason Wu, Sayan Ghosh, Mathieu Chollet, Steven Ly, Sharon Mozgai, and Stefan Scherer. 2018. NADiA: Neural Network Driven Virtual Human Conversation Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 173–178. https://doi.org/10.1145/3267851.3267860
+
+Jamie Fraser, Ioannis Papaioannou, and Oliver Lemon. 2018. Spoken Conversational AI in Video Games: Emotional Dialogue Management Increases User Engagement. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 179–184. https://doi.org/10.1145/3267851.3267896
+
+Claudio Pedica and Hannes Högni Vilhjálmsson. 2018. Study of Nine People in a Hallway: Some Simulation Challenges. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 185–190. https://doi.org/10.1145/3267851.3267900
+
+Chengjie Li, Theofronia Androulakaki, Alex Yuan Gao, Fangkai Yang, Himangshu Saikia, Christopher Peters, and Gabriel Skantze. 2018. Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 191–196. https://doi.org/10.1145/3267851.3267870
+
+Ronan Querrec, Joanna Taoum, Bilal Nakhal, and Elisabetta Bevacqua. 2018. Model for Verbal Interaction between an Embodied Tutor and a Learner in Virtual Environments. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 197–202. https://doi.org/10.1145/3267851.3267895
+
+Yoshimasa Ohmoto, Junya Karasaki, and Toyoaki Nishida. 2018. Inducing and maintaining the intentional stance by showing interactions between multiple agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 203–210. https://doi.org/10.1145/3267851.3267886
+
+Peter E. McKenna, Ayan Ghosh, Ruth Aylett, Frank Broz, and Gnanathusharan Rajendran. 2018. Cultural Social Signal Interplay with an Expressive Robot. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 211–218. https://doi.org/10.1145/3267851.3267905
+
+Ning Wang, David Schwartz, Gabrielle Lewine, Ari Shapiro, Andrew Feng, and Cindy Zhuang. 2018. Addressing Sexist Attitudes on a College Campus through Virtual Role-Play with Digital Doppelgangers. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 219–226. https://doi.org/10.1145/3267851.3267913
+
+Susana Castillo, Philipp Hahn, Katharina Legde, and Douglas W. Cunningham. 2018. Personality Analysis of Embodied Conversational Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 227–232. https://doi.org/10.1145/3267851.3267853
+
+Paulo Knob, Marcio Balotin, and Soraia Raupp Musse. 2018. Simulating Crowds with OCEAN Personality Traits. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 233–238. https://doi.org/10.1145/3267851.3267871
+
+Ran Zhao, Oscar J. Romero, and Alex Rudnicky. 2018. SOGO: A Social Intelligent Negotiation Dialogue System. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 239–246. https://doi.org/10.1145/3267851.3267880
+
+Gale M. Lucas, Nicole Krämer, Clara Peters, Lisa-Sophie Taesch, Johnathan Mell, and Jonathan Gratch. 2018. Effects of Perceived Agency and Message Tone in Responding to a Virtual Personal Trainer. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 247–254. https://doi.org/10.1145/3267851.3267855
+
+Reshmashree B. Kantharaju, Dominic De Franco, Alison Pease, and Catherine Pelachaud. 2018. Is Two Better than One? Effects of Multiple Agents on User Persuasion. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 255–262. https://doi.org/10.1145/3267851.3267890
+
+Sebastian Loth, Gernot Horstmann, Corinnna Osterbrink, and Stefan Kopp. 2018. Accuracy of Perceiving Precisely Gazing Virtual Agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 263–268. https://doi.org/10.1145/3267851.3267852
+
+Fangkai Yang, Himangshu Saikia, and Christopher Peters. 2018. Who are my neighbors? A perception model for selecting neighbors of pedestrians in crowds. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 269–274. https://doi.org/10.1145/3267851.3267875
+
+Rens Hoegen, Job van der Schalk, Gale Lucas, and Jonathan Gratch. 2018. The impact of agent facial mimicry on social behavior in a prisoner's dilemma. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 275–280. https://doi.org/10.1145/3267851.3267911
+
+Ylva Ferstl and Rachel McDonnell. 2018. A perceptual study on the manipulation of facial features for trait portrayal in virtual agents. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 281–288. https://doi.org/10.1145/3267851.3267891
+
+Daniel Veutgen, Marco Massetti, Joy Rossi, Leonardo Veroli, Athena Ásgeirsdóttir, Gudrun Baldursdóttir, Sigrún Gissurardóttir, Gísli Gudmundsson, Tinna Sigurdardóttir, Valdimar Laenen, and Hannes Högni Vilhjálmsson. 2018. Interpreting Social Commitment in a Simulated Theater. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 289–294. https://doi.org/10.1145/3267851.3267919
+
+Gabriel Rockenbach, Conrado Boeira, Diogo Schaffer, Andre Antonitsch, and Soraia Raupp Musse. 2018. Simulating Crowd Evacuation: From Comfort to Panic Situations. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 295–300. https://doi.org/10.1145/3267851.3267872
+
+Dhaval Parmar, Stefan Olafsson, Dina Utami, and Timothy Bickmore. 2018. Looking the Part: The Effect of Attire and Setting on Perceptions of a Virtual Health Counselor. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 301–306. https://doi.org/10.1145/3267851.3267915
+
+Naresh Balaji Ravichandran, Fangkai Yang, Christopher Peters, Anders Lansner, and Pawel Herman. 2018. Pedestrian simulation as multi-objective reinforcement learning. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 307–312. https://doi.org/10.1145/3267851.3267914
+
+Fangkai Yang, Jack Shabo, Adam Qureshi, and Christopher Peters. 2018. Do you see groups? The impact of crowd density and viewpoint on the perception of groups. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 313–318. https://doi.org/10.1145/3267851.3267877
+
+André Antakli, Erik Hermann, Ingo Zinnikus, Han Du, and Klaus Fischer. 2018. Intelligent Distributed Human Motion Simulation in Human-Robot Collaboration Environments. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 319–324. https://doi.org/10.1145/3267851.3267867
+
+Hedieh Ranjbartabar, Deborah Richards, and Anupam Makhija. 2018. Virtual Humans to Manage Epistemic Emotions in Educational Virtual Worlds. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 325–326. https://doi.org/10.1145/3267851.3267854
+
+Sam Thellman, William Hagman, Emma Jonsson, Lisa Nilsson, Emma Samuelsson, Charlie Simonsson, Julia Skönvall, Anna Westin, and Annika Silvervarg. 2018. He is not more persuasive than her: No gender biases toward robots giving speeches. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 327–328. https://doi.org/10.1145/3267851.3267862
+
+Mohan Zalake, Julia Woodward, Amanpreet Kapoor, and Benjamin Lok. 2018. Assessing the Impact of Virtual Human's Appearance on Users' Trust Levels. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 329–330. https://doi.org/10.1145/3267851.3267863
+
+Heike Brock, Shigeaki Nishina, and Kazuhiro Nakadai. 2018. To animate or anime-te? Investigating sign avatar comprehensibility. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 331–332. https://doi.org/10.1145/3267851.3267864
+
+Michaël Gilbert, Samuel Demarchi, and Isabel Urdapilleta. 2018. FACSHuman a Software to Create Experimental Material by Modeling 3D Facial Expression. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 333–334. https://doi.org/10.1145/3267851.3267865
+
+Amal Abdulrahman, Deborah Richards, and Samuel Mascarenhas. 2018. Shared Planning for building Human-agent Therapeutic Alliance. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 335–336. https://doi.org/10.1145/3267851.3267873
+
+Patrick Nalepka, Rachel W. Kallen, Maurice Lamb, and Michael J. Richardson. 2018. Emergence of efficient, coordinated solutions despite differences in agent ability during human-machine interaction: Demonstration using a multiagent "shepherding" task. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 337–338. https://doi.org/10.1145/3267851.3267879
+
+Philipp Hahn, Susana Castillo, and Douglas W. Cunningham. 2018. Look Me in the Lines: The Impact of Stylization on the Recognition of Expressions and Perceived Personality. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 339–340. https://doi.org/10.1145/3267851.3267881
+
+Roshni R. Ramnani, Shubhashis Sengupta, and Poulami Debnath. 2018. Intelligent Travel Advisor: A Goal Oriented Virtual agent with Task Modeling, Planning and User Personalization. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 341–342. https://doi.org/10.1145/3267851.3267885
+
+Diogo Schaffer, Conrado Boeira, Gabriel Rockenbach, Guilherme Maurer, André Antonitsch, and Soraia Raupp Musse. 2018. Simulating Virtual Humans Crowds in Facilities. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 343–344. https://doi.org/10.1145/3267851.3267888
+
+David Novick, Mahdokht Afravi, Adriana Camacho, Laura J. Hinojos, and Aaron E. Rodriguez. 2018. Inducing rapport-building behaviors in interaction with an embodied conversational agent. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 345–346. https://doi.org/10.1145/3267851.3267889
+
+Mohan Zalake and Benjamin Lok. 2018. Non-Responsive Virtual Humans for Self-Report Assessments. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 347–348. https://doi.org/10.1145/3267851.3267893
+
+Kathrin Janowski and Elisabeth André. 2018. Decision-Theoretic Personality-Based Reasoning about Turn-Taking Conflicts. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 349–350. https://doi.org/10.1145/3267851.3267899
+
+Matthias Hirschmanner, Stephanie Gross, Brigitte Krenn, Friedrich Neubarth, Martin Trapp, and Markus Vincze. 2018. Grounded Word Learning on a Pepper Robot. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 351–352. https://doi.org/10.1145/3267851.3267903
+
+Shuo Zhou, Timothy Bickmore, Amy Rubin, Catherine Yeksigian, Molly Sawdy, and Steven R. Simon. 2018. User Gaze Behavior while Discussing Substance Use with a Virtual Agent. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 353–354. https://doi.org/10.1145/3267851.3267906
+
+Masato Fukuda, Hung-Hsuan Huang, Kazuhiro Kuwabara, and Toyoaki Nishida. 2018. Proposal of a Multi-purpose and Modular Virtual Classroom Framework for Teacher Training. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 355–356. https://doi.org/10.1145/3267851.3267917
+
+Ryo Ishii, Taichi Katayama, Ryuichiro Higashinaka, and Junji Tomita. 2018. Automatic Generation System of Virtual Agent's Motion using Natural Language. In Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA '18). Association for Computing Machinery, New York, NY, USA, 357–358. https://doi.org/10.1145/3267851.3267869
+
+Beatrice de Gelder. 2019. Virtual Bodies, Virtual Selves with Real Emotions. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 1. https://doi.org/10.1145/3308532.3329408
+
+Pierre-Yves Oudeyer. 2019. Developmental Autonomous Learning: AI, Cognitive Sciences and Educational Technology. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 2. https://doi.org/10.1145/3308532.3337710
+
+Rachael E. Jack. 2019. Designing Social Signals for Artificial Agents Using Psychological Science. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 3–4. https://doi.org/10.1145/3308532.3337711
+
+Verena Rieser. 2019. Let's Chat! Can Virtual Agents learn how to have a Conversation? In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 5–6. https://doi.org/10.1145/3308532.3337712
+
+Katharina Weitz, Dominik Schiller, Ruben Schlagowski, Tobias Huber, and Elisabeth André. 2019. "Do you trust me?": Increasing User-Trust by Integrating Virtual Agents in Explainable AI Interaction Design. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 7–9. https://doi.org/10.1145/3308532.3329441
+
+Everlyne Kimani, Ameneh Shamhekhi, Prasanth Murali, Dhaval Parmar, and Timothy Bickmore. 2019. Stagecraft for Scientists: Exploring Novel Interaction Formats for Virtual Co-Presenter Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 10–12. https://doi.org/10.1145/3308532.3329437
+
+Patrick Gebhard, Tanja Schneeberger, Michael Dietz, Elisabeth André, and Nida ul Habib Bajwa. 2019. Designing a Mobile Social and Vocational Reintegration Assistant for Burn-out Outpatient Treatment. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 13–15. https://doi.org/10.1145/3308532.3329460
+
+Mahdi Azmandian, Jorge Arroyo-Palacios, and Steven Osman. 2019. Guiding the Behavior Design of Virtual Assistants. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 16–18. https://doi.org/10.1145/3308532.3329436
+
+Patrick Gebhard, Tanja Schneeberger, Gregor Mehlmann, Tobias Baur, and Elisabeth André. 2019. Designing the Impression of Social Agents' Real-time Interruption Handling. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 19–21. https://doi.org/10.1145/3308532.3329435
+
+Gale M. Lucas, Janina Lehr, Nicole Krämer, and Jonathan Gratch. 2019. The Effectiveness of Social Influence Tactics when Used by a Virtual Agent. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 22–29. https://doi.org/10.1145/3308532.3329464
+
+Emmanuel Johnson, Sarah Roediger, Gale Lucas, and Jonathan Gratch. 2019. Assessing Common Errors Students Make When Negotiating. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 30–37. https://doi.org/10.1145/3308532.3329470
+
+Minha Lee, Gale Lucas, Johnathan Mell, Emmanuel Johnson, and Jonathan Gratch. 2019. What's on Your Virtual Mind? Mind Perception in Human-Agent Negotiations. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 38–45. https://doi.org/10.1145/3308532.3329465
+
+Ari Thordarson and Hannes Högni Vilhjálmsson. 2019. SoCueVR: Virtual Reality Game for Social Cue Detection Training. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 46–48. https://doi.org/10.1145/3308532.3329440
+
+Justyna Swidrak and Grzegorz Pochwatko. 2019. Being Touched by a Virtual Human.: Relationships Between Heart Rate, Gender, Social Status, and Compliance. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 49–55. https://doi.org/10.1145/3308532.3329467
+
+Guillaume Demary, Jean-Claude Martin, Stéphane Dubourdieu, Stéphane Travers, and Virginie Demulier. 2019. How do Leaders Perceive Stress and Followership from Nonverbal Behaviors Displayed by Virtual Followers? In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 56–61. https://doi.org/10.1145/3308532.3329468
+
+Yael Rosi Chen, Gurit E. Birnbaum, Jonathan Giron, and Doron Friedman. 2019. Individuals in a Romantic Relationship Express Guilt and Devaluate Attractive Alternatives after Flirting with a Virtual Bartender. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 62–64. https://doi.org/10.1145/3308532.3329420
+
+Maayan Shvo, Jakob Buhmann, and Mubbasir Kapadia. 2019. An Interdependent Model of Personality, Motivation, Emotion, and Mood for Intelligent Virtual Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 65–72. https://doi.org/10.1145/3308532.3329474
+
+Mohan Zalake, Fatemeh Tavassoli, Lauren Griffin, Janice Krieger, and Benjamin Lok. 2019. Internet-based Tailored Virtual Human Health Intervention to Promote Colorectal Cancer Screening: Design Guidelines from Two User Studies. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 73–80. https://doi.org/10.1145/3308532.3329471
+
+Shashank Jaiswal, Michel Valstar, Keerthy Kusumam, and Chris Greenhalgh. 2019. Virtual Human Questionnaire for Analysis of Depression, Anxiety and Personality. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 81–87. https://doi.org/10.1145/3308532.3329469
+
+Bruno Elias Penteado, Magalie Ochs, Roxane Bertrand, and Philippe Blache. 2019. Evaluating Temporal Predictive Features for Virtual Patients Feedbacks. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 88–90. https://doi.org/10.1145/3308532.3329426
+
+Nicolas Szilas, Lucie Chauveau, Kasper Andkjaer, Anna Laura Luiu, Mireille Bétrancourt, and Frédéric Ehrler. 2019. Virtual Patient Interaction via Communicative Acts. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 91–93. https://doi.org/10.1145/3308532.3329457
+
+Julija Vaitonyte, Pieter A. Blomsma, Maryam Alimardani, and Max M. Louwerse. 2019. Generating Facial Expression Data: Computational and Experimental Evidence. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 94–96. https://doi.org/10.1145/3308532.3329443
+
+Taras Kucherenko, Dai Hasegawa, Gustav Eje Henter, Naoshi Kaneko, and Hedvig Kjellström. 2019. Analyzing Input and Output Representations for Speech-Driven Gesture Generation. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 97–104. https://doi.org/10.1145/3308532.3329472
+
+David Obremski, Jean-Luc Lugrin, Philipp Schaper, and Birgit Lugrin. 2019. Non-Native Speaker Generation and Perception for Mixed-Cultural Settings. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 105–107. https://doi.org/10.1145/3308532.3329427
+
+Jiali Chen, Yong Liu, Zhimeng Zhang, Changjie Fan, and Yu Ding. 2019. Text-driven Visual Prosody Generation for Embodied Conversational Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 108–110. https://doi.org/10.1145/3308532.3329445
+
+Rens Hoegen, Deepali Aneja, Daniel McDuff, and Mary Czerwinski. 2019. An End-to-End Conversational Style Matching Agent. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 111–118. https://doi.org/10.1145/3308532.3329473
+
+Usman Malik, Mukesh Barange, Naser Ghannad, Julien Saunier, and Alexandre Pauchet. 2019. A Generic Machine Learning Based Approach for Addressee Detection In Multiparty Interaction. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 119–126. https://doi.org/10.1145/3308532.3329462
+
+Xinyi Wang, Samuel S. Sohn, and Mubbasir Kapadia. 2019. Towards a Conversational Interface for Authoring Intelligent Virtual Characters. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 127–129. https://doi.org/10.1145/3308532.3329431
+
+Jonathan Wendt, Benjamin Weyers, Jonas Stienen, Andrea Bönsch, Michael Vorländer, and Torsten W. Kuhlen. 2019. Influence of Directivity on the Perception of Embodied Conversational Agents' Speech. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 130–132. https://doi.org/10.1145/3308532.3329434
+
+Dimosthenis Kontogiorgos, Andre Pereira, Olle Andersson, Marco Koivisto, Elena Gonzalez Rabal, Ville Vartiainen, and Joakim Gustafson. 2019. The Effects of Anthropomorphism and Non-verbal Social Behaviour in Virtual Assistants. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 133–140. https://doi.org/10.1145/3308532.3329466
+
+Matias Volonte, Andrew T. Duchowski, and Sabarish V. Babu. 2019. Effects of a Virtual Human Appearance Fidelity Continuum on Visual Attention in Virtual Reality. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 141–147. https://doi.org/10.1145/3308532.3329461
+
+Tanja Schneeberger, Anke Hirsch, Cornelius König, and Patrick Gebhard. 2019. Impact of Virtual Environment Design on the Assessment of Virtual Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 148–150. https://doi.org/10.1145/3308532.3329455
+
+Sanne van Waveren, Elizabeth J. Carter, and Iolanda Leite. 2019. Take One For the Team: The Effects of Error Severity in Collaborative Tasks with Social Robots. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 151–158. https://doi.org/10.1145/3308532.3329475
+
+Siska Fitrianie, Merijn Bruijnes, Deborah Richards, Amal Abdulrahman, and Willem-Paul Brinkman. 2019. What are We Measuring Anyway? - A Literature Survey of Questionnaires Used in Studies Reported in the Intelligent Virtual Agent Conferences. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 159–161. https://doi.org/10.1145/3308532.3329421
+
+Setareh Nasihati Gilani, David Traum, Rachel Sortino, Grady Gallagher, Kailyn Aaron-Lozano, Cryss Padilla, Ari Shapiro, Jason Lamberton, and Laura-Ann Petitto. 2019. Can a Signing Virtual Human Engage a Baby's Attention? In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 162–169. https://doi.org/10.1145/3308532.3329463
+
+Helga Margrét Ólafsdóttir, Edit Ómarsdóttir, Hafdís Sæland, and Hannes Högni Vilhjálmsson. 2019. Work in Progress Report: Virtual Courtroom to Prepare Victims of Sex Crimes for Court Proceedings. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 170–172. https://doi.org/10.1145/3308532.3329422
+
+Jorge Arroyo-Palacios, Mahdi Azmandian, and Steven Osman. 2019. Bringing Video Game Characters into the Real World on a Holographic Light Field Display. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 173–175. https://doi.org/10.1145/3308532.3329423
+
+Amal Abdulrahman, Deborah Richards, Hedieh Ranjbartabar, and Samuel Mascarenhas. 2019. Belief-based Agent Explanations to Encourage Behaviour Change. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 176–178. https://doi.org/10.1145/3308532.3329444
+
+Victor Araujo, Rodolfo Migon Favaretto, Paulo Knob, Soraia Raupp Musse, Felipe Vilanova, and Angelo Brandelli Costa. 2019. How Much Do You Perceive This? An Analysis on Perceptions of Geometric Features, Personalities and Emotions in Virtual Humans. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 179–181. https://doi.org/10.1145/3308532.3329454
+
+Alban Delamarre, Cédric Buche, and Christine Lisetti. 2019. AIMER: Appraisal Interpersonal Model of Emotion Regulation, Affective Virtual Students to Support Teachers Training. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 182–184. https://doi.org/10.1145/3308532.3329419
+
+Alban Delamarre, Stephanie Lunn, Cédric Buche, Elisa Shernoff, Stacy Frazier, and Christine Lisetti. 2019. Interdisciplinary Collaboration and Establishment of Requirements for a 3D Interactive Virtual Training for Teachers. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 185–187. https://doi.org/10.1145/3308532.3329439
+
+Lucile Dupuy, Etienne De Sevin, Orlane Ballot, Hélène Cassoudesalle, Patrick Dehail, Bruno Aouizerate, Emmanuel Cuny, Jean-Arthur Micoulaud-Franchi, and Pierre Philip. 2019. A Virtual Patient to Train Semiology Extraction and Empathic Communication Skills for Psychiatric Interview. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 188–190. https://doi.org/10.1145/3308532.3329429
+
+Masato Fukuda, Hung-Hsuan Huang, Kazuhiro Kuwabara, and Toyoaki Nishida. 2019. Multimodal Assessment on Teaching Skills in a Virtual Rehearsal Environment. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 191–193. https://doi.org/10.1145/3308532.3329449
+
+Nicholas Hoyte, Curtis Gittens, and Michael Katchabaw. 2019. Simulating Visual Acuity for Autonomous Agent: A Data-Driven Approach. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 194–196. https://doi.org/10.1145/3308532.3329428
+
+Rex Hsieh, Akihiko Shirai, and Hisashi Sato. 2019. Evaluation of Avatar and Voice Transform in Programming E-Learning Lectures. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 197–199. https://doi.org/10.1145/3308532.3329430
+
+Hung-Hsuan Huang, Masato Fukuda, and Toyoaki Nishida. 2019. Development of a Platform for RNN Driven Multimodal Interaction with Embodied Conversational Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 200–202. https://doi.org/10.1145/3308532.3329448
+
+Reshmashree B. Kantharaju, Alison Pease, Dennis Reidsma, Catherine Pelachaud, Mark Snaith, Merijn Bruijnes, Randy Klaassen, Tessa Beinema, Gerwin Huizing, Donatella Simonetti, Dirk Heylen, and Harm op den Akker. 2019. Integrating Argumentation with Social Conversation between Multiple Virtual Coaches. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 203–205. https://doi.org/10.1145/3308532.3329450
+
+Katharina Legde and Douglas W. Cunningham. 2019. Evaluating the Effect of Clothing and Environment on the perceived Personality of Virtual Avatars. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 206–208. https://doi.org/10.1145/3308532.3329425
+
+Maurizio Mancini, Beatrice Biancardi, Soumia Dermouche, Paul Lerner, and Catherine Pelachaud. 2019. Managing Agent's Impression Based on User's Engagement Detection. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 209–211. https://doi.org/10.1145/3308532.3329442
+
+Johnathan Mell, Markus Beissinger, and Jonathan Gratch. 2019. An Expert-Model &amp; Machine Learning Hybrid Approach to Predicting Human-Agent Negotiation Outcomes. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 212–214. https://doi.org/10.1145/3308532.3329433
+
+Anne-Sophie Milcent, Erik Geslin, Abdelmajid Kadri, and Simon Richir. 2019. Expressive Virtual Human: Impact of expressive wrinkles and pupillary size on emotion recognition. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 215–217. https://doi.org/10.1145/3308532.3329446
+
+Magalie Ochs, Jeremie Bousquet, and Philippe Blache. 2019. Multimodal Cues of the Sense of Presence and Co-presence in Human-Virtual Agent Interaction. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 218–220. https://doi.org/10.1145/3308532.3329438
+
+Yiannis Papelis, Ginger Watson, and Menion Croll. 2019. Framework for Authoring Repeatable Scenarios in Virtual Environments Populated with Stochastic Virtual Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 221–223. https://doi.org/10.1145/3308532.3329432
+
+Rifca Peters, Joost Broekens, Kangqi Li, and Mark A. Neerincx. 2019. Robot Dominance Expression Through Parameter-based Behaviour Modulation. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 224–226. https://doi.org/10.1145/3308532.3329456
+
+Mihai Polceanu and Christine Lisetti. 2019. Time to Go ONLINE! A Modular Framework for Building Internet-based Socially Interactive Agents. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 227–229. https://doi.org/10.1145/3308532.3329452
+
+Mei Si. 2019. How Can I Agree with You Better? In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 230–232. https://doi.org/10.1145/3308532.3329447
+
+Fajrian Yunus, Chloé Clavel, and Catherine Pelachaud. 2019. Gesture Class Prediction by Recurrent Neural Network and Attention Mechanism. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 233–235. https://doi.org/10.1145/3308532.3329458
+
+Clara Falala-Séchet, Lee Antoine, Igor Thiriez, and Catherine Bungener. 2019. Owlie: A Chatbot that Provides Emotional support for Coping with Psychological Difficulties. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 236–237. https://doi.org/10.1145/3308532.3329416
+
+Arno Hartholt, Sharon Mozgai, and Albert "Skip" Rizzo. 2019. Virtual Job Interviewing Practice for High-Anxiety Populations. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 238–240. https://doi.org/10.1145/3308532.3329417
+
+Domitile Lourdeaux, Zoubida Afoutni, Marie-Hélène Ferrer, Nicolas Sabouret, Virginie Demulier, Jean-Claude Martin, Laurence Bolot, Vincent Boccara, and Romain Lelong. 2019. VICTEAMS: A Virtual Environment to Train Medical Team Leaders to Interact with Virtual Subordinates. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 241–243. https://doi.org/10.1145/3308532.3329418
+
+David Suendermann-Oeft, Amanda Robinson, Andrew Cornish, Doug Habberstad, David Pautler, Dirk Schnelle-Walka, Franziska Haller, Jackson Liscombe, Michael Neumann, Mike Merrill, Oliver Roesler, and Renko Geffarth. 2019. NEMSI: A Multimodal Dialog System for Screening of Neurological or Mental Conditions. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 245–247. https://doi.org/10.1145/3308532.3329415
+
+Amal Abdulrahman and Deborah Richards. 2019. Modelling Therapeutic Alliance using a User-aware Explainable Embodied Conversational Agent to Promote Treatment Adherence. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 248–251. https://doi.org/10.1145/3308532.3329413
+
+Félix Bigand, Elise Prigent, and Annelies Braffort. 2019. Animating Virtual Signers: The Issue of Gestural Anonymization. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 252–255. https://doi.org/10.1145/3308532.3329410
+
+Aryana Collins Jackson, Elisabetta Bevacqua, Pierre De Loor, and Ronan Querrec. 2019. Modelling an Embodied Conversational Agent for Remote and Isolated Caregivers on Leadership Styles. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 256–259. https://doi.org/10.1145/3308532.3329411
+
+Everlyne Kimani and Timothy Bickmore. 2019. Addressing Public Speaking Anxiety in Real-time Using a Virtual Public Speaking Coach and Physiological Sensors. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 260–263. https://doi.org/10.1145/3308532.3329409
+
+Sooraj Krishna, Catherine Pelachaud, and Arvid Kappas. 2019. Towards an Adaptive Regulation Scaffolding through Role-based Strategies. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (IVA '19). Association for Computing Machinery, New York, NY, USA, 264–267. https://doi.org/10.1145/3308532.3329412
+
+Simon Alexanderson, Éva Székely, Gustav Eje Henter, Taras Kucherenko, and Jonas Beskow. 2020. Generating coherent spontaneous speech and gesture from text. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 1, 1–3. https://doi.org/10.1145/3383652.3423874
+
+Mohammad Rafayet Ali, Seyedeh Zahra Razavi, Raina Langevin, Abdullah Al Mamun, Benjamin Kane, Reza Rawassizadeh, Lenhart K. Schubert, and Ehsan Hoque. 2020. A Virtual Conversational Agent for Teens with Autism Spectrum Disorder: Experimental Results and Design Lessons. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 2, 1–8. https://doi.org/10.1145/3383652.3423900
+
+Deepali Aneja, Daniel McDuff, and Mary Czerwinski. 2020. Conversational Error Analysis in Human-Agent Interaction. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 3, 1–8. https://doi.org/10.1145/3383652.3423901
+
+Nils Axelsson and Gabriel Skantze. 2020. Using knowledge graphs and behaviour trees for feedback-aware presentation agents. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 4, 1–8. https://doi.org/10.1145/3383652.3423884
+
+Timothy Bickmore, Amy Rubin, and Steven Simon. 2020. Substance Use Screening using Virtual Agents: Towards Automated Screening, Brief Intervention, and Referral to Treatment (SBIRT). In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 5, 1–7. https://doi.org/10.1145/3383652.3423869
+
+Philippe Blache, Massina Abderrahmane, Stéphane Rauzy, and Roxane Bertrand. 2020. An integrated model for predicting backchannel feedbacks. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 6, 1–3. https://doi.org/10.1145/3383652.3423948
+
+Pieter A. Blomsma, Guido M. Linders, Julija Vaitonyte, and Max M. Louwerse. 2020. Intrapersonal dependencies in multimodal behavior. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 7, 1–8. https://doi.org/10.1145/3383652.3423872
+
+Pieter A. Blomsma, Julija Vaitonyte, Maryam Alimardani, and Max. M. Louwerse. 2020. Spontaneous Facial Behavior Revolves Around Neutral Facial Displays. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 8, 1–8. https://doi.org/10.1145/3383652.3423893
+
+Crystal Butler, Harriet Oster, and Julian Togelius. 2020. Human-in-the-Loop AI for Analysis of Free Response Facial Expression Label Sets. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 9, 1–8. https://doi.org/10.1145/3383652.3423892
+
+Andrea Bönsch, Alexander R. Bluhm, Jonathan Ehret, and Torsten W. Kuhlen. 2020. Inferring a User's Intent on Joining or Passing by Social Groups. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 10, 1–8. https://doi.org/10.1145/3383652.3423862
+
+Andrea Bönsch, Sebastian J. Barton, Jonathan Ehret, and Torsten W. Kuhlen. 2020. Immersive Sketching to Author Crowd Movements in Real-time. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 11, 1–3. https://doi.org/10.1145/3383652.3423883
+
+Andrea Bönsch, Sina Radke, Jonathan Ehret, Ute Habel, and Torsten W. Kuhlen. 2020. The Impact of a Virtual Agent's Non-Verbal Emotional Expression on a User's Personal Space Preferences. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 12, 1–8. https://doi.org/10.1145/3383652.3423888
+
+Chaona Chen, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack. 2020. Dynamic Face Movement Texture Enhances the Perceived Realism of Facial Expressions of Emotion. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 13, 1–3. https://doi.org/10.1145/3383652.3423912
+
+Chaona Chen, Oliver G. B. Garrod, Robin A. A. Ince, Mary Ellen Foster, Philippe G. Schyns, and Rachael E. Jack. 2020. Building Culturally-Valid Dynamic Facial Expressions for a Conversational Virtual Agent Using Human Perception. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 14, 1–3. https://doi.org/10.1145/3383652.3423913
+
+Karl Daher, Jacky Casas, Omar Abou Khaled, and Elena Mugellini. 2020. Empathic Chatbot Response for Medical Assistance. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 15, 1–3. https://doi.org/10.1145/3383652.3423864
+
+Delphine Potdevin, Nicolas Sabouret, and Céline Clavel. 2020. An intimate virtual counselor for a better user experience. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 16, 1–3. https://doi.org/10.1145/3383652.3423859
+
+Jonathan Ehret, Jonas Stienen, Chris Brozdowski, Andrea Bönsch, Irene Mittelberg, Michael Vorländer, and Torsten W. Kuhlen. 2020. Evaluating the Influence of Phoneme-Dependent Dynamic Speaker Directivity of Embodied Conversational Agents' Speech. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 17, 1–8. https://doi.org/10.1145/3383652.3423863
+
+Dan Feng and Stacy Marsella. 2020. An Improvisational Approach to Acquire Social Interactions. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 18, 1–8. https://doi.org/10.1145/3383652.3423903
+
+Ylva Ferstl, Michael Neff, and Rachel McDonnell. 2020. Understanding the Predictability of Gesture Parameters from Speech and their Perceptual Importance. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 19, 1–8. https://doi.org/10.1145/3383652.3423882
+
+Marcel Finkel, Jessica Szczuka, and Nicole Krämer. 2020. Does the Robot Get the Credit? An Empirical Investigation on the Acquisition of Idiosyncrasy Credit by a Humanoid Robot in the Context of Negative Expectancy Violations. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 20, 1–8. https://doi.org/10.1145/3383652.3423894
+
+Siska Fitrianie, Merijn Bruijnes, Deborah Richards, Andrea Bönsch, and Willem-Paul Brinkman. 2020. The 19 Unifying Questionnaire Constructs of Artificial Social Agents: An IVA Community Analysis. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 21, 1–8. https://doi.org/10.1145/3383652.3423873
+
+Emmanuel Johnson and Jonathan Gratch. 2020. The Impact of Implicit Information Exchange in Human-agent Negotiations. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 22, 1–8. https://doi.org/10.1145/3383652.3423895
+
+Manuel Guimarães, Rui Prada, Pedro A. Santos, João Dias, Arnav Jhala, and Samuel Mascarenhas. 2020. The Impact of Virtual Reality in the Social Presence of a Virtual Agent. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 23, 1–8. https://doi.org/10.1145/3383652.3423879
+
+Nancie Gunson, Weronika Sieińska, Christopher Walsh, Christian Dondrup, and Oliver Lemon. 2020. It's Good to Chat? Evaluation and Design Guidelines for Combining Open-Domain Social Conversation with Task-Based Dialogue in Intelligent Buildings. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 24, 1–8. https://doi.org/10.1145/3383652.3423889
+
+Arno Hartholt, Adam Reilly, Ed Fast, and Sharon Mozgai. 2020. Introducing Canvas: Combining Nonverbal Behavior Generation with User-Generated Content to Rapidly Create Educational Videos. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 25, 1–3. https://doi.org/10.1145/3383652.3423880
+
+Laura B. Hensel, Jiayu Zhan, R. Thora Bjornsdottir, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack. 2020. Psychologically Valid Social Face Features for Virtual Agents. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 26, 1–3. https://doi.org/10.1145/3383652.3423899
+
+Bahar Irfan, Anika Narayanan, and James Kennedy. 2020. Dynamic Emotional Language Adaptation in Multiparty Interactions with Agents. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 27, 1–8. https://doi.org/10.1145/3383652.3423881
+
+Ryo Ishii, Xutong Ren, Michal Muszynski, and Louis-Philippe Morency. 2020. Can Prediction of Turn-management Willingness Improve Turn-changing Modeling? In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 28, 1–8. https://doi.org/10.1145/3383652.3423907
+
+Ryo Ishii, Chaitanya Ahuja, Yukiko I. Nakano, and Louis-Philippe Morency. 2020. Impact of Personality on Nonverbal Behavior Generation. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 29, 1–8. https://doi.org/10.1145/3383652.3423908
+
+Patrik Jonell, Taras Kucherenko, Ilaria Torre, and Jonas Beskow. 2020. Can we trust online crowdworkers? Comparing online and offline participants in a preference test of virtual agents. In Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20). Association for Computing Machinery, New York, NY, USA, Article 30, 1–8. https://doi.org/10.1145/3383652.3423860
+
+Ana Antunes, Joana Campos, João Dias, Pedro A. Santos, and Rui Prada. 2021. EEG Model: Emotional Episode Generation for Social Sharing of Emotions. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 1–8. https://doi.org/10.1145/3472306.3478342
+
+Reshmashree B. Kantharaju and Catherine Pelachaud. 2021. Social Signals of Cohesion in Multi-party Interactions. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 9–16. https://doi.org/10.1145/3472306.3478362
+
+Tessa Beinema, Daniel Davison, Dennis Reidsma, Oresti Banos, Merijn Bruijnes, Brice Donval, Álvaro Fides Valero, Dirk Heylen, Dennis Hofs, Gerwin Huizing, Reshamashree B. Kantharaju, Randy Klaassen, Jan Kolkmeier, Kostas Konsolakis, Alison Pease, Catherine Pelachaud, Donatella Simonetti, Mark Snaith, Vicente Traver, Jorien van Loon, Jacky Visser, Marcel Weusthof, Fajrian Yunus, Hermie Hermens, and Harm op den Akker. 2021. Agents United: An Open Platform for Multi-Agent Conversational Systems. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 17–24. https://doi.org/10.1145/3472306.3478352
+
+Timothy Bickmore, Dhaval Parmar, Everlyne Kimani, and Stefan Olafsson. 2021. Diversity Informatics: Reducing Racial and Gender Bias with Virtual Agents. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 25–32. https://doi.org/10.1145/3472306.3478365
+
+Andrea Bönsch, David Hashem, Jonathan Ehret, and Torsten W. Kuhlen. 2021. Being Guided or Having Exploratory Freedom: User Preferences of a Virtual Agent's Behavior in a Museum. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 33–40. https://doi.org/10.1145/3472306.3478339
+
+Jacky Casas, Timo Spring, Karl Daher, Elena Mugellini, Omar Abou Khaled, and Philippe Cudré-Mauroux. 2021. Enhancing Conversational Agents with Empathic Abilities. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 41–47. https://doi.org/10.1145/3472306.3478344
+
+Lucile Dupuy, Etienne de Sevin, Jean-Arthur Micoulaud-Franchi, and Pierre Philip. 2021. Factors associated with acceptance of a virtual companion providing screening and advices for sleep problems during COVID-19 crisis. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 48–51. https://doi.org/10.1145/3472306.3478334
+
+Joy O. Egede, Dominic Price, Deepa B. Krishnan, Shashank Jaiswal, Natasha Elliott, Richard Morriss, Maria J. Galvez Trigo, Neil Nixon, Peter Liddle, Christopher Greenhalgh, and Michel Valstar. 2021. Design and Evaluation of Virtual Human Mediated Tasks for Assessment of Depression and Anxiety. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 52–59. https://doi.org/10.1145/3472306.3478361
+
+Maha Elgarf, Gabriel Skantze, and Christopher Peters. 2021. Once Upon a Story: Can a Creative Storyteller Robot Stimulate Creativity in Children? In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 60–67. https://doi.org/10.1145/3472306.3478359
+
+Pedro Guillermo Feijóo-García, Mohan Zalake, Alexandre Gomes de Siqueira, Benjamin Lok, and Felix Hamza-Lup. 2021. Effects of Virtual Humans' Gender and Spoken Accent on Users' Perceptions of Expertise in Mental Wellness Conversations. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 68–75. https://doi.org/10.1145/3472306.3478367
+
+Ylva Ferstl, Sean Thomas, Cédric Guiard, Cathy Ennis, and Rachel McDonnell. 2021. Human or Robot? Investigating voice, appearance and gesture motion realism of conversational social agents. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 76–83. https://doi.org/10.1145/3472306.3478338
+
+Siska Fitrianie, Merijn Bruijnes, Fengxiang Li, and Willem-Paul Brinkman. 2021. Questionnaire Items for Evaluating Artificial Social Agents - Expert Generated, Content Validated and Reliability Analysed. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 84–86. https://doi.org/10.1145/3472306.3478341
+
+Shiri Sadeh-Sharvit, Jonathan Giron, Shir Fridman, Maxine Hanrieder, Shany Goldstein, Doron Friedman, and Shir Brokman. 2021. Virtual Reality in Sexual Harassment Prevention: Proof-of-Concept Study. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 87–89. https://doi.org/10.1145/3472306.3478356
+
+Emmanuel Johnson, Jonathan Gratch, Jill Boberg, David DeVault, Peter Kim, and Gale Lucas. 2021. Using Intelligent Agents to Examine Gender in Negotiations. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 90–97. https://doi.org/10.1145/3472306.3478348
+
+Michele Grimaldi and Catherine Pelachaud. 2021. Generation of Multimodal Behaviors in the Greta platform. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 98–100. https://doi.org/10.1145/3472306.3478368
+
+Ikhsanul Habibie, Weipeng Xu, Dushyant Mehta, Lingjie Liu, Hans-Peter Seidel, Gerard Pons-Moll, Mohamed Elgharib, and Christian Theobalt. 2021. Learning Speech-driven 3D Conversational Gestures from Video. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 101–108. https://doi.org/10.1145/3472306.3478335
+
+Arno Hartholt, Ed Fast, Andrew Leeds, and Sharon Mozgai. 2021. Introducing VHMason: A Visual, Integrated, Multimodal Virtual Human Authoring Tool. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 109–111. https://doi.org/10.1145/3472306.3478363
+
+Joy Egede, Maria J. Galvez Trigo, Adrian Hazzard, Martin Porcheron, Edgar Bodiaj, Joel E. Fischer, Chris Greenhalgh, and Michel Valstar. 2021. Designing an Adaptive Embodied Conversational Agent for Health Literacy: a User Study. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 112–119. https://doi.org/10.1145/3472306.3478350
+
+Evelien Heyselaar and Tibor Bosse. 2021. Linking Theory of Mind in Human-Agent Interactions to Validated Evaluations: Can Explicit Questionnaires Measure Implicit Behaviour? In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3472306.3478343
+
+Tatsuki Hori and Kazuki Kobayashi. 2021. Designing Personality Shifting Agent for Speech Recognition Failure. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 128–130. https://doi.org/10.1145/3472306.3478347
+
+Ryo Ishii, Xutong Ren, Michal Muszynski, and Louis-Philippe Morency. 2021. Multimodal and Multitask Approach to Listener's Backchannel Prediction: Can Prediction of Turn-changing and Turn-management Willingness Improve Backchannel Modeling? In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 131–138. https://doi.org/10.1145/3472306.3478360
+
+Emmanuel Johnson and Jonathan Gratch. 2021. Comparing The Accuracy of Frequentist and Bayesian Models in Human-Agent Negotiation. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 139–144. https://doi.org/10.1145/3472306.3478354
+
+Taras Kucherenko, Rajmund Nagy, Patrik Jonell, Michael Neff, Hedvig Kjellström, and Gustav Eje Henter. 2021. Speech2Properties2Gestures: Gesture-Property Prediction as a Tool for Generating Representational Gestures from Speech. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 145–147. https://doi.org/10.1145/3472306.3478333
+
+Johnathan Mell, Gale M. Lucas, and Jonathan Gratch. 2021. Pandemic Panic: The Effect of Disaster-Related Stress on Negotiation Outcomes. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 148–155. https://doi.org/10.1145/3472306.3478353
+
+Prasanth Murali, Ha Trinh, Lazlo Ring, and Timothy Bickmore. 2021. A Friendly Face in the Crowd: Reducing Public Speaking Anxiety with an Emotional Support Agent in the Audience. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 156–163. https://doi.org/10.1145/3472306.3478364
+
+Pierre Raimbaud, Alberto Jovane, Katja Zibrek, Claudio Pacchierotti, Marc Christie, Ludovic Hoyet, Julien Pettré, and Anne-Hélène Olivier. 2021. Reactive Virtual Agents: A Viewpoint-Driven Approach for Bodily Nonverbal Communication. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 164–166. https://doi.org/10.1145/3472306.3478351
+
+Hedieh Ranjbartabar, Deborah Richards, Ayse Aysin Bilgin, and Cat Kutay. 2021. Do you mind if I ask? Addressing the cold start problem in personalised relational agent conversation. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 167–174. https://doi.org/10.1145/3472306.3478357
+
+Dilini Samarasinghe, Michael Barlow, Erandi Lakshika, and Kathryn Kasmarik. 2021. Task Allocation in Multi-Agent Systems with Grammar-Based Evolution. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 175–182. https://doi.org/10.1145/3472306.3478337
+
+Sopicha Stirapongsasuti, Kundjanasith Thonglek, Shinya Misaki, Yugo Nakamura, and Keiichi Yasumoto. 2021. INSHA: Intelligent Nudging System for Hand Hygiene Awareness. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 183–190. https://doi.org/10.1145/3472306.3478355
+
+Jessica M. Szczuka, Hatice S. Güzelbey, and Nicole C. Krämer. 2021. Someone or Something to Play With? An Empirical Study on how Parents Evaluate the Social Appropriateness of Interactions Between Children and Differently Embodied Artificial Interaction Partners. In Proceedings of the 21st ACM International Conference on Intelligent Virtual Agents (IVA '21). Association for Computing Machinery, New York, NY, USA, 191–194. https://doi.org/10.1145/3472306.3478349
+
+Ricardo Rodrigues, Ricardo Silva, Ricardo Pereira, and Carlos Martinho. 2022. A cautionary tale of side-by-side evaluations while developing emotional expression for intelligent virtual agents. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 1, 1–8. https://doi.org/10.1145/3514197.3549672
+
+Heng Yao, Alexandre Gomes de Siqueira, Anokhi Bafna, Devon Peterkin, Jenelle Richards, Megan L. Rogers, Adriana Foster, Igor Galynker, and Benjamin Lok. 2022. A virtual human interaction using scaffolded ping-pong feedback for healthcare learners to practice empathy skills. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 2, 1–8. https://doi.org/10.1145/3514197.3549621
+
+Joseph B. Wiggins, Toni V. Earle-Randell, Dolly Bounajim, Yingbo Ma, Julianna Martinez Ruiz, Ruohan Liu, Mehmet Celepkolu, Maya Israel, Eric Wiebe, Collin F. Lynch, and Kristy Elizabeth Boyer. 2022. Building the dream team: children's reactions to virtual agents that model collaborative talk. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 3, 1–8. https://doi.org/10.1145/3514197.3549683
+
+Pedro Guillermo Feijóo-García, Mohan Zalake, Heng Yao, Alexandre Gomes de Siqueira, and Benjamin Lok. 2022. Can we talk about bruno? exploring virtual human counselors' spoken accents and their impact on users' conversations. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 4, 1–7. https://doi.org/10.1145/3514197.3549694
+
+Md. Adnanul Islam, Md. Saddam Hossain Mukta, Patrick Olivier, and Md. Mahbubur Rahman. 2022. Comprehensive guidelines for emotion annotation. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 5, 1–8. https://doi.org/10.1145/3514197.3549640
+
+Alessandro Iop, Sahba Zojaji, and Christopher Peters. 2022. Don't walk between us: adherence to social conventions when joining a small conversational group of agents. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 6, 1–8. https://doi.org/10.1145/3514197.3549676
+
+Amama Mahmood and Chien-Ming Huang. 2022. Effects of rhetorical strategies and skin tones on agent persuasiveness in assisted decision-making. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 7, 1–8. https://doi.org/10.1145/3514197.3549628
+
+Yuan he, André Pereira, and Taras Kucherenko. 2022. Evaluating data-driven co-speech gestures of embodied conversational agents through real-time interaction. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 8, 1–8. https://doi.org/10.1145/3514197.3549697
+
+Christopher You, Rashi Ghosh, Andrew Maxim, Jacob Stuart, Eric Cooks, and Benjamin Lok. 2022. How does a virtual human earn your trust? guidelines to improve willingness to self-disclose to intelligent virtual agents. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 9, 1–8. https://doi.org/10.1145/3514197.3549686
+
+Natalia Calvo-Barajas and Ginevra Castellano. 2022. "I have an idea!": enhancing children's verbal creativity through repeated interactions with a virtual robot. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 10, 1–8. https://doi.org/10.1145/3514197.3549690
+
+Mukesh Barange, Sandratra Rasendrasoa, Maël Bouabdelli, Julien Saunier, and Alexandre Pauchet. 2022. Impact of adaptive multimodal empathic behavior on the user interaction. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. https://doi.org/10.1145/3514197.3549675
+
+Tal Nakash, Tom Haller, Maya Shekel, Dan Pollak, Moti Lewenchuse, Anat Brunstein Klomek, and Doron Friedman. 2022. Increasing resilience and preventing suicide: training and interventions with a distressed virtual human in virtual reality. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 12, 1–8. https://doi.org/10.1145/3514197.3549613
+
+Georgiana Cristina Dobre, Marco Gillies, David C. Ranyard, Russell Harding, and Xueni Pan. 2022. More than buttons on controllers: engaging social interactions in narrative VR games through social attitudes detection. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 13, 1–8. https://doi.org/10.1145/3514197.3551496
+
+Leslie Wöhler, Susana Castillo, and Marcus Magnor. 2022. Personality analysis of face swaps: can they be used as avatars? In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 14, 1–8. https://doi.org/10.1145/3514197.3549687
+
+James Hale, Peter Kim, and Jonathan Gratch. 2022. Preference interdependencies in a multi-issue salary negotiation. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 15, 1–8. https://doi.org/10.1145/3514197.3549681
+
+Arno Hartholt, Ed Fast, Zongjian Li, Kevin Kim, Andrew Leeds, and Sharon Mozgai. 2022. Re-architecting the virtual human toolkit: towards an interoperable platform for embodied conversational agent research and development. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 16, 1–8. https://doi.org/10.1145/3514197.3549671
+
+Ronald Cumbal, Daniel Alexander Kazzi, Vincent Winberg, and Olov Engwall. 2022. Shaping unbalanced multi-party interactions through adaptive robot backchannels. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 17, 1–7. https://doi.org/10.1145/3514197.3549680
+
+Siska Fitrianie, Merijn Bruijnes, Fengxiang Li, Amal Abdulrahman, and Willem-Paul Brinkman. 2022. The artificial-social-agent questionnaire: establishing the long and short questionnaire versions. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 18, 1–8. https://doi.org/10.1145/3514197.3549612
+
+Katja Bouman, Iulia Lefter, Laurens Rook, Catharine Oertel, Catholijn Jonker, and Frances Brazier. 2022. The need for a female perspective in designing agent-based negotiation support. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 19, 1–8. https://doi.org/10.1145/3514197.3549691
+
+Prasanth Murali, Farnaz Nouraei, Mina Fallah, Aisling Kearns, Keith Rebello, Teresa O'Leary, Rebecca Perkins, Natalie Pierre Joseph, Julien Dedier, Michael Paasche-Orlow, and Timothy Bickmore. 2022. Training lay counselors with virtual agents to promote vaccination. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 20, 1–8. https://doi.org/10.1145/3514197.3549679
+
+Michael Neff. 2022. Tunable tension for gesture animation. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 21, 1–8. https://doi.org/10.1145/3514197.3549631
+
+Janet Wessler, Tanja Schneeberger, Leon Christidis, and Patrick Gebhard. 2022. Virtual backlash: nonverbal expression of dominance leads to less liking of dominant female versus male agents. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 22, 1–8. https://doi.org/10.1145/3514197.3549682
+
+Lucie Galland, Catherine Pelachaud, and Florian Pecune. 2022. Adapting conversational strategies to co-optimize agent's task performance and user's engagement. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 23, 1–3. https://doi.org/10.1145/3514197.3549674
+
+Carolina Centeio Jorge, Myrthe L. Tielman, and Catholijn M. Jonker. 2022. Assessing artificial trust in human-agent teams: a conceptual model. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 24, 1–3. https://doi.org/10.1145/3514197.3549696
+
+Noah Ari, Nusrath Jahan, and Johnathan Mell. 2022. Boiling the frog: ethical and behavioral impacts of technological exposure and availability. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 25, 1–3. https://doi.org/10.1145/3514197.3549695
+
+Akira Morikawa, Ryo Ishii, Hajime Noto, Atsushi Fukayama, and Takao Nakamura. 2022. Determining most suitable listener backchannel type for speaker's utterance. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 26, 1–3. https://doi.org/10.1145/3514197.3549619
+
+Enrico Lauletta, Beatrice Biancardi, Antonio Norelli, Maurizio Mancini, and Alessandro Panconesi. 2022. Errare humanum est? a pilot study to evaluate the human-likeness of a AI othello playing agent. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 27, 1–3. https://doi.org/10.1145/3514197.3549699
+
+Eugene Lee, Zachary McNulty, Alex Gentle, Prerak Tusharkumar Pradhan, and Jonathan Gratch. 2022. Examining the impact of emotion and agency on negotiator behavior. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–3. https://doi.org/10.1145/3514197.3549673
+
+Isabella Ågren and Annika Silvervarg. 2022. Exploring humanlikeness and the uncanny valley with furhat. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 29, 1–3. https://doi.org/10.1145/3514197.3549685
+
+Michelangelo Diamanti and Hannes Högni Vilhjálmsson. 2022. Extending the menge crowd simulation framework: visual authoring in unity. In Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents (IVA '22). Association for Computing Machinery, New York, NY, USA, Article 30, 1–3. https://doi.org/10.1145/3514197.3549698
+
+

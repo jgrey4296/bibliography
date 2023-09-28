@@ -1,0 +1,424 @@
+# -*- mode:org; -*-
+#+title: Data Sources
+
+* AI
+** ABL:
+Facade / Mateas and Stern
+UCSC EIS Holodeck project
+UCSC EIS Eisbot / Ben Webber
+UCSC EIS SSIM project
+
+** ASP:
+http://www.hakank.org/answer_set_programming/
+
+** Building Problem Solvers
+https://www.qrg.northwestern.edu/BPS/directory.html
+
+** Cartago:
+https://github.com/CArtAgO-lang/cartago.git
+
+** Ceptre:
+https://github.com/chrisamaphone/interactive-lp.git
+
+** Clips:
+https://github.com/smarr/CLIPS.git
+
+** cplus:
+https://github.com/azreasoners/Cplus2ASP.git
+
+** Dendral
+
+** instal:
+https://github.com/instsuite/instal-stable.git
+
+** jacamo:
+https://github.com/jacamo-lang/jacamo.git
+
+** jason:
+https://github.com/jason-lang/jason.git
+
+** MAD:
+http://www.cs.utexas.edu/~tag/mad/
+
+** Microtalespin:
+https://github.com/rntz/microtalespin.git / Warren Sack
+
+** moise:
+https://github.com/moise-lang/moise.git
+
+** Monroe Plan Corpus
+
+** PDDL:
+https://github.com/SoarGroup/Domains-Planning-Domain-Definition-Language.git
+https://github.com/AI-Planning/classical-domains.git
+
+** Soar:
+https://github.com/SoarGroup/Agents.git
+
+** Versu:
+Private Repo
+
+* Games
+** Disco Elysium
+https://github.com/Leerion/discoElysiumExplorer.git
+
+** beholder:
+decompiled game files
+
+** caves_of_qud:
+decompiled game files
+
+** CK2:
+Game Data
+
+** cultist_sim:
+decompiled game files
+
+** Democracy 3 Africa:
+Game Files
+
+** Democracy 3:
+Game Files
+
+** Democratic Socialism simulator:
+https://www.molleindustria.org/blog/democratic-socialism-simulator-release-notes/
+
+** distant_worlds:
+Game Data
+
+** Don't Starve:
+Game Data
+
+** Dungeon of the Endless:
+Game Data
+
+** EUIV:
+Game Data
+
+** Fallout:
+Extracted Game Data
+https://github.com/robguilarr/parse_fallout_data.git
+https://github.com/sowcow/fallout-dialogs.git
+
+** Fallout4:
+https://github.com/niminuko/fo4-dialogue-analysis.git
+https://github.com/niminuko/fo4-dialogue-tables.git
+
+** fallout_shelter:
+decompiled game files
+
+** Invisible Inc:
+Game Data
+
+** kentucky_route_zero:
+decompiled game files
+
+** King of Dragon Pass:
+Game Data
+
+** oxygen_not_included:
+decompiled game files
+
+** prison_architect:
+Game Data
+
+** Red Shirt:
+Game Data
+** rimworld:
+decompiled game files
+
+** skyrim:
+Game Data
+
+** Spacebase DF9:
+Game Data
+** stellaris:
+Game Data
+
+** streets_of_rogue:
+decompiled game files
+
+** subsurface_circular:
+decompiled game files
+
+** the_guild_2:
+Game Data
+
+** Tyranny:
+Decompiled Game Data
+
+** Unrest:
+Game Data
+
+** witcher3:
+Game Data
+https://github.com/Traderain/WitcherScript
+
+** Wow Wiki:
+https://wowpedia.fandom.com/wiki/Category:Quests_by_level
+
+** Micropolis
+https://github.com/SimHacker/micropolis
+https://github.com/dheid/micropolis
+https://www.donhopkins.com/home/micropolis/
+
+* Dialogue
+** Burn Notice
+https://burnnotice.fandom.com/
+** prom_week_dialogue_annotated_for_speech_acts.tsv:
+James Ryan, UCSC
+
+** Scotus Dialogue:
+https://confluence.cornell.edu/display/llresearch/Supreme+Court+Dialogs+Corpus
+
+** State of the Union Texts:
+http://www.c-span.org/executive/stateoftheunion.asp
+
+* Game Development
+** Dota patch notes:
+https://dota2.fandom.com/wiki/Patches
+
+** Dwarf fortress bugs
+https://www.bay12games.com/dwarves/mantisbt/view_all_bug_page.php
+
+** Dwarf Fortress Dev Logs:
+https://www.bay12games.com/dwarves/index.html
+
+** Dwarf Fortress patch notes:
+http://dwarffortresswiki.org/index.php/DF2014:Release_information/0.47.05
+
+** Game Spreadsheets:
+https://cannibalinteractive.itch.io/cannibal-interactive-press-kit
+
+* Real World
+** NYPD Data:
+https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+https://www1.nyc.gov/site/nypd/stats/crime-statistics/crime-statistics-landing.page
+
+** Police Scorecard:
+https://www.policescorecard.org/
+
+** Police Shootings:
+https://github.com/washingtonpost/data-police-shootings.git
+
+** Social Physics Data:
+https://web.archive.org/web/*/socialphysics.media.mit.edu
+
+** AI Specification Gaming Examples
+https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml
+** Ministerial resignations
+https://gavin-freeguard.medium.com/chart-hit-or-how-years-of-preparation-made-the-ministerial-resignation-chart-an-overnight-success-3f55f76e70de
+
+* Grammars
+** BBC Sound Effects:
+https://www.reddit.com/r/DataHoarder/comments/8dn03t/16000_bbc_sound_effects_wavs_now_available_online/
+http://bbcsfx.acropolis.org.uk/
+
+** Kantrowitz names:
+http://www-2.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/
+
+** Opinion lexicon:
+http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#datasets
+
+** SWDA:
+http://compprag.christopherpotts.net/swda.html
+
+** CMU pronunciation dictionary
+http://www.speech.cs.cmu.edu/cgi-bin/cmudict
+
+** Tracery Grammars:
+https://cheapbotsdonequick.com/
+https://cheapbotsdonequick.com/source/journalgen
+https://cheapbotsdonequick.com/source/2fistedstories
+https://cheapbotsdonequick.com/source/5adaybot
+https://cheapbotsdonequick.com/source/AColourEveryDay
+https://cheapbotsdonequick.com/source/AdvSettings_
+https://cheapbotsdonequick.com/source/AnimalLfb
+https://cheapbotsdonequick.com/source/BRJE_bot
+https://cheapbotsdonequick.com/source/BRTLSTvsTRNGLFY
+https://cheapbotsdonequick.com/source/BodegaBot
+https://cheapbotsdonequick.com/source/BotBottigieg
+https://cheapbotsdonequick.com/source/BotFacepalm
+https://cheapbotsdonequick.com/source/BotGraveyard
+https://cheapbotsdonequick.com/source/BotMunchausen
+https://cheapbotsdonequick.com/source/BotSpill
+https://cheapbotsdonequick.com/source/CWF_Forecast
+https://cheapbotsdonequick.com/source/CheapBits
+https://cheapbotsdonequick.com/source/CutePicsBot
+https://cheapbotsdonequick.com/source/DADA_POKEY
+https://cheapbotsdonequick.com/source/DailyPianoScale
+https://cheapbotsdonequick.com/source/DoSomethingBot
+https://cheapbotsdonequick.com/source/DoodleGleeZoo
+https://cheapbotsdonequick.com/source/EnbiesEverywher
+https://cheapbotsdonequick.com/source/EveryPumpkin
+https://cheapbotsdonequick.com/source/EverySheriff
+https://cheapbotsdonequick.com/source/FoleyArtists
+https://cheapbotsdonequick.com/source/GameDesignXpert
+https://cheapbotsdonequick.com/source/HConstellations
+https://cheapbotsdonequick.com/source/HegelianHusband
+https://cheapbotsdonequick.com/source/InstallingJava
+https://cheapbotsdonequick.com/source/LetThereBeColor
+https://cheapbotsdonequick.com/source/LingLingQuickly
+https://cheapbotsdonequick.com/source/ManyShirts
+https://cheapbotsdonequick.com/source/Not_a_Cellphone
+https://cheapbotsdonequick.com/source/Open_Brother
+https://cheapbotsdonequick.com/source/PlanMyDayBot
+https://cheapbotsdonequick.com/source/RebottaSugar
+https://cheapbotsdonequick.com/source/SkoolDetention
+https://cheapbotsdonequick.com/source/So_YouBotDetntn
+https://cheapbotsdonequick.com/source/Truchet_Nested
+https://cheapbotsdonequick.com/source/Whinge_Bot
+https://cheapbotsdonequick.com/source/alignment_bot
+https://cheapbotsdonequick.com/source/arpeggio_bot
+https://cheapbotsdonequick.com/source/artideabot
+https://cheapbotsdonequick.com/source/atownbottobot
+https://cheapbotsdonequick.com/source/autoflaneur
+https://cheapbotsdonequick.com/source/bot_snowflake
+https://cheapbotsdonequick.com/source/botdoesnot
+https://cheapbotsdonequick.com/source/botflora
+https://cheapbotsdonequick.com/source/botlifemagazine
+https://cheapbotsdonequick.com/source/cat_poem
+https://cheapbotsdonequick.com/source/choosetoaccept
+https://cheapbotsdonequick.com/source/chords_bot
+https://cheapbotsdonequick.com/source/cientistas_bot
+https://cheapbotsdonequick.com/source/coldteabot
+https://cheapbotsdonequick.com/source/computerzooom
+https://cheapbotsdonequick.com/source/cozinhabot
+https://cheapbotsdonequick.com/source/crossstichbot
+https://cheapbotsdonequick.com/source/derxdesy
+https://cheapbotsdonequick.com/source/dndhelper
+https://cheapbotsdonequick.com/source/doomscroll_bot
+https://cheapbotsdonequick.com/source/everyonesai
+https://cheapbotsdonequick.com/source/facesbot
+https://cheapbotsdonequick.com/source/fadedfotos
+https://cheapbotsdonequick.com/source/fakepokemonbot
+https://cheapbotsdonequick.com/source/fickleastrology
+https://cheapbotsdonequick.com/source/flags_of_flags
+https://cheapbotsdonequick.com/source/folderisempty
+https://cheapbotsdonequick.com/source/ghost_generator
+https://cheapbotsdonequick.com/source/gnuerror
+https://cheapbotsdonequick.com/source/gutenboy2bot
+https://cheapbotsdonequick.com/source/happymoonbot
+https://cheapbotsdonequick.com/source/hashfacade
+https://cheapbotsdonequick.com/source/hitomezashibot
+https://cheapbotsdonequick.com/source/hometapingkills
+https://cheapbotsdonequick.com/source/homevspublic
+https://cheapbotsdonequick.com/source/jakerunningbot
+https://cheapbotsdonequick.com/source/kaffee_reminder
+https://cheapbotsdonequick.com/source/kpopconceptbot
+https://cheapbotsdonequick.com/source/lettergamebot
+https://cheapbotsdonequick.com/source/lightbothouse
+https://cheapbotsdonequick.com/source/maybe_the_real
+https://cheapbotsdonequick.com/source/moaiemojibot
+https://cheapbotsdonequick.com/source/mythlibs
+https://cheapbotsdonequick.com/source/newzeldagamebot
+https://cheapbotsdonequick.com/source/nightsky_bot
+https://cheapbotsdonequick.com/source/normal_controls
+https://cheapbotsdonequick.com/source/ntflxgenerator
+https://cheapbotsdonequick.com/source/okbabynames
+https://cheapbotsdonequick.com/source/omgtrashchicken
+https://cheapbotsdonequick.com/source/osalgoritmos
+https://cheapbotsdonequick.com/source/palette_gen
+https://cheapbotsdonequick.com/source/pancakerybot
+https://cheapbotsdonequick.com/source/personaIitea
+https://cheapbotsdonequick.com/source/planetgenbot
+https://cheapbotsdonequick.com/source/pumpkinspiceit
+https://cheapbotsdonequick.com/source/relax__bot
+https://cheapbotsdonequick.com/source/resenhabot
+https://cheapbotsdonequick.com/source/ritualbot
+https://cheapbotsdonequick.com/source/sadkeanubot
+https://cheapbotsdonequick.com/source/sff_prompt_bot
+https://cheapbotsdonequick.com/source/shakyinsultbot
+https://cheapbotsdonequick.com/source/sleeps_xmas
+https://cheapbotsdonequick.com/source/softlandscapes
+https://cheapbotsdonequick.com/source/soundesignquery
+https://cheapbotsdonequick.com/source/tendollarfive
+https://cheapbotsdonequick.com/source/tinylittlehomes
+https://cheapbotsdonequick.com/source/tinyneighbor
+https://cheapbotsdonequick.com/source/trianglify
+https://cheapbotsdonequick.com/source/trump_chemistry
+https://cheapbotsdonequick.com/source/trumpbans
+https://cheapbotsdonequick.com/source/unlikelypowers
+https://cheapbotsdonequick.com/source/what_brexit_is
+https://cheapbotsdonequick.com/source/whatkilledme
+https://cheapbotsdonequick.com/source/wheelsonthebot
+https://cheapbotsdonequick.com/source/wizards_bot
+https://cheapbotsdonequick.com/source/wolf_clock
+https://cheapbotsdonequick.com/source/womenfishme
+https://cheapbotsdonequick.com/source/ya_title_bot
+https://cheapbotsdonequick.com/source/yayknuckletats
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@aastriiche
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@angry_scribbles
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@assortedfiles
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@autodoyle
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@bodega
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@everypatch
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@frolicbot
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@levels_check
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@robotrecipes
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@thetinygallery
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@undeadmerchant
+https://cheapbotstootsweet.com/source/?url=https://botsin.space/@vampireclans
+https://github.com/bhrose/affirmations
+https://github.com/emmawinston/bon_appetiny
+https://github.com/emmawinston/graphicscorebot
+https://github.com/emmawinston/tiny_cityscapes
+https://github.com/emmawinston/tiny_forests
+https://github.com/emmawinston/tiny_gardens
+https://github.com/serin-delaunay/twitter_bots
+https://github.com/serin-delaunay/twitter_bots
+https://github.com/tinyworlds/bot_teleport
+https://github.com/zactopus/goosebumps
+https://glitch.com/edit/#!/showdown-bot
+https://pastebin.com/YYtZnzZ0
+
+** nltk
+https://www.nltk.org/
+
+** Thompson Motif Index
+https://sites.ualberta.ca/~urban/Projects/English/Motif_Index.htm
+* Time
+** CiF data:
+UCSC Prom Week Project
+
+** NorthernLion Database:
+https://www.northernlion-db.com/Downloads
+https://www.northernlion-db.com/SqlDump/Description
+
+** Trump Timeline:
+https://whatthefuckjusthappenedtoday.com/today/
+
+** NYT Data
+https://developer.nytimes.com/apis
+
+** Dolphins
+https://networkrepository.com/soc-dolphins.php
+https://figshare.com/articles/dataset/Dolphin_social_network/1149955
+* Text
+** Nomic Games:
+https://www.nomic.net/
+
+** UDHR
+https://www.un.org/en/about-us/universal-declaration-of-human-rights
+
+** KJB
+https://holy-bible.online/kjv_download.php
+
+** Roberts Rules
+http://www.constitution.org/rror/rror--00.htm
+https://www.xml.com/pub/a/2000/04/10/oasis/rules.html
+http://metalab.unc.edu/bosak/rror/rror.zip
+
+** USCode:
+https://uscode.house.gov/download/download.shtml
+
+** Python Bylaws
+https://www.python.org/psf/bylaws/
+
+* EULAS
+From their respective companies
+
+* Misc
+** Gemrot Phd
+https://diana.ms.mff.cuni.cz/thesis/Gemrot-PhD-Thesis-Attachment.zip
