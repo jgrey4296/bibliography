@@ -5595,6 +5595,7 @@ https://actifypress.com/native/ : ADOS : actify_press : michael_graham : nativis
 https://adamatomic.itch.io/ : assets : itch_io : pixel_art
 https://adamosloizou.github.io/software/2018/06/18/software-engineering-principles.html : best_practices : blog : github : software_development
 https://adcontrarian.blogspot.com/2017/02/adtechs-massive-failure.html : ad_tech : adcontrarian : advertising : marketing : online_advertising : technology
+https://adguard.com/kb/general/ad-filtering/adguard-filters/ : __come_back_to : adguard : privacy : surveillance
 https://adiaryofamom.com/2013/11/12/no-more-a-letter-to-suzanne-wright/ : autism
 https://ados101.com/ : ADOS : USA : racism : reparations : slavery
 https://adventuregamers.com/articles/view/34175 : discworld : game : retrospective
@@ -6565,8 +6566,7 @@ https://cgmasters.net/free-tutorials/blenders-armatured-a-crash-course/ : blende
 https://chadhagen.com/nonsensical-infographics : art : beauty : chad_hagen : design : infographic : nonsense
 https://charactercreator.org/#sex=m&skinColor=%23eeceb3&irisColor=%23A0892C&hairColor=%23803300&pupils=round&ears=elven&facialhair=muttonchops_friendly : character_creation
 https://chastitymagyar.com/# : fascism : gop : mississipp : politics
-https://chat.openai.com/ :
-https://chat.openai.com/ : :
+https://chat.openai.com/ : chatgpt : llm : openai
 https://chatbotsmagazine.com/7-types-of-bots-8e1846535698 : bot : typology
 https://chemikhazi.itch.io/sprytile : 3D : blender : itch_io : low_poly : sprites : sprytile
 https://chemikhazi.itch.io/unity-quick-toggle : itch_io : plugins : unity
@@ -7107,8 +7107,7 @@ https://en.m.wikipedia.org/wiki/DARPA_Agent_Markup_Language : DAML : DARPA : XML
 https://en.m.wikipedia.org/wiki/Dataflow_programming : HCI : data_flow : programming : wiki
 https://en.m.wikipedia.org/wiki/Design_Patterns : design_pattern : wiki
 https://en.m.wikipedia.org/wiki/Dialectical_behavior_therapy : dialectical_behavior_therapy : psychology : therapy : wiki
-https://en.m.wikipedia.org/wiki/Diphthong#Diphthongs_in_various_languages :
-https://en.m.wikipedia.org/wiki/Diphthong#Diphthongs_in_various_languages : :
+https://en.m.wikipedia.org/wiki/Diphthong#Diphthongs_in_various_languages : diphthong : language : linguistics : wiki
 https://en.m.wikipedia.org/wiki/Dot_product : dot_product : math : vector_math : wiki
 https://en.m.wikipedia.org/wiki/Dred_Scott : SCOTUS : dred_scott : history : slavery : wiki
 https://en.m.wikipedia.org/wiki/Dril : dril : internet : online_culture : twitter : wiki
@@ -7228,7 +7227,7 @@ https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_
 https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Bones : blender : bones : rigging : tutorial : wiki
 https://en.wikibooks.org/wiki/Haskell/Monad_transformers : haskell : monad : monad_transformers : tutorial
 https://en.wikibooks.org/wiki/LaTeX/Special_Characters#Escaped_codes : latex
-https://en.wikibooks.org/wiki/LaTeX/Text_Formatting#Line_Spacing : latex : wiki : formatting
+https://en.wikibooks.org/wiki/LaTeX/Text_Formatting#Line_Spacing : formatting : latex : wiki
 https://en.wikibooks.org/wiki/Windows_Programming : wiki : wiki_book
 https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours/First_Steps : haskell : wiki : wiki_book
 https://en.wikipedia.org/wiki/A_Way_Out_(video_game) : a_way_out : coop : delegation : game_mechanics : games : split_screen : wiki
@@ -7507,8 +7506,7 @@ https://erikbern.com/amp/2017/08/29/the-software-engineering-rule-of-3.html : be
 https://erlc.com/resource-library/articles/vaccination-and-the-christian-worldview/ : __come_back_to : blog : ross_douthat : scott_james : vaccination
 https://esolangs.org/wiki/Main_Page : DSL : esoteric : programming_language : wiki
 https://essentiallypop.com/epop/2018/03/bear-a-witness-hip-hop-and-nu-jazz-ed-accura-lends-his-support-to-the-homeless-crisis/ : ed_accura : essentially_pop : hip_hop : homelessness : nu_jazz : poverty
-https://etcher.balena.io/ :
-https://etcher.balena.io/ : :
+https://etcher.balena.io/ : boot : grub : linux : tool
 https://eternity.obsidian.net/game-data-formats/concepts : format : obsidian : pillars_of_eternity : reference : schema
 https://ethical.net/resources/ : __come_back_to : ethical_alternatives : recommendation : resource : software : tech : technology
 https://ethics.org.au/ethics-explainer-eudaimonia-2/ : ethics : eudaimonia
@@ -7618,6 +7616,7 @@ https://fivethirtyeight.com/features/the-comey-letter-probably-cost-clinton-the-
 https://fivethirtyeight.com/features/the-real-story-of-2016/amp/ : 2016 : election : fivethirtyeight : nate_silver : polling
 https://fivethirtyeight.com/features/what-republicans-and-democrats-are-doing-in-the-states-where-they-have-total-power/?cid=social_twitter_abcn : democrats : fivethirtyeight : perry_bacon_jr : politics : republicans : state_legislature
 https://flake8.pycqa.org/en/latest/ : flake8 : syntax-checker
+https://flamingtempura.github.io/bibtex-tidy/index.html?opt=%7B%22modify%22%3Atrue%2C%22curly%22%3Atrue%2C%22numeric%22%3Atrue%2C%22months%22%3Afalse%2C%22space%22%3A2%2C%22tab%22%3Atrue%2C%22align%22%3A13%2C%22duplicates%22%3A%5B%22key%22%5D%2C%22stripEnclosingBraces%22%3Afalse%2C%22dropAllCaps%22%3Afalse%2C%22escape%22%3Afalse%2C%22sortFields%22%3A%5B%22title%22%2C%22shorttitle%22%2C%22author%22%2C%22year%22%2C%22month%22%2C%22day%22%2C%22journal%22%2C%22booktitle%22%2C%22location%22%2C%22on%22%2C%22publisher%22%2C%22address%22%2C%22series%22%2C%22volume%22%2C%22number%22%2C%22pages%22%2C%22doi%22%2C%22isbn%22%2C%22issn%22%2C%22url%22%2C%22urldate%22%2C%22copyright%22%2C%22category%22%2C%22note%22%2C%22metadata%22%5D%2C%22stripComments%22%3Afalse%2C%22trailingCommas%22%3Afalse%2C%22encodeUrls%22%3Afalse%2C%22tidyComments%22%3Atrue%2C%22removeEmptyFields%22%3Afalse%2C%22removeDuplicateFields%22%3Afalse%2C%22lowercase%22%3Atrue%2C%22backup%22%3Atrue%7D : bibtex : bibtex-tidy
 https://flask.palletsprojects.com/en/2.2.x/ : flask : jinja : python : web_development
 https://flippednormals.com/ : 3D : art : assets : flipped_normals : market
 https://flit.pypa.io/en/latest/rationale.html : flit : package_management : python
@@ -7846,8 +7845,6 @@ https://github.com/OpenXcom/OpenXcom : github : open_source : programming : x_co
 https://github.com/PRFina/ICSE-NRES : CLIPS : github : production_system : rule_engine
 https://github.com/Pathoschild/StardewXnbHack : github : stardew_valley
 https://github.com/Perfare/AssetStudio : asset_unpacker : github : unity
-https://github.com/Perfare/AssetStudio/releases :
-https://github.com/Perfare/AssetStudio/releases : :
 https://github.com/PhrozenByte/rmtrash : github : terminal : utility
 https://github.com/PixarAnimationStudios/USD : github : graphics : pixar
 https://github.com/Property404/fetlang : DSL : fet_lang : github : language : programming
@@ -8042,6 +8039,7 @@ https://github.com/google/deepdream/blob/master/dream.ipynb : deep_learning : gi
 https://github.com/google/gson/blob/master/UserGuide.md : data_structure : gjson : json : programming
 https://github.com/google/xi-editor/tree/master/doc/rope_science : data_structure : github : google : reference : xi_editor
 https://github.com/google/yapf : emacs : formatting : github : libraries : lint : pep_8 : python
+https://github.com/gorhill/uBlock/wiki : __come_back_to : advertisement : github : privacy : surveillance : ublock
 https://github.com/gothinkster/realworld : backend : frontend : full_stack : github
 https://github.com/graknlabs/grakn : ai : github : grakn : hypergraph
 https://github.com/grappa-py/grappa : assert : github : grappa : python : unit_testing
@@ -8231,6 +8229,7 @@ https://github.com/pypa/pipx : github : pip : pipx : python
 https://github.com/pysmt/pysmt : SMT : github : library : python : smt
 https://github.com/python-rope/rope : github : python : refactoring : rope
 https://github.com/python-rope/ropemacs : emacs : github : python : refactoring : rope
+https://github.com/python/cpython/ : cypthon : github : python
 https://github.com/pythonic-emacs/anaconda-mode : anaconda : emacs : github : python
 https://github.com/pythonic-emacs/company-anaconda : anaconda : company : emacs : github : python
 https://github.com/pythonic-emacs/pyenv-mode : emacs : github : pyenv : python
@@ -9903,8 +9902,7 @@ https://pubs.acs.org/doi/10.1021/acscatal.5b00538 : data_sharing : john_kitchin 
 https://pubsonline.informs.org/search/advanced : __come_back_to
 https://pudding.cool/2018/07/women-in-congress/ : data_analysis : data_science : data_visualisation : history : house_of_representatives : politics : the_pudding
 https://pudding.cool/2019/04/vogue/ : analysis : data_analysis : data_science : malaika_handa : pudding : racism : vogue
-https://puri.sm/products/librem-11/ :
-https://puri.sm/products/librem-11/ : :
+https://puri.sm/products/librem-11/ : linux : pureOS : tablet
 https://pybit.es/articles/ast-intro/ : AST : __important : blog : parser : python : technical
 https://pybit.es/ast-intro.html : ast : code_analysis : parser : python
 https://pycairo.readthedocs.io/en/latest/reference/context.html : cairo : libraries : python : reference
@@ -10410,6 +10408,16 @@ https://store.steampowered.com/app/715520 : game : simulation : steam : wall_str
 https://store.steampowered.com/app/715560/Eastshade/ : __important : art : eastshade : game : game_development : non_violence : steam
 https://store.steampowered.com/app/726110?snr=2_groupannouncements_detail__apphubheader : commute_em_up : game : overcrowding : squareplay_games : steam
 https://store.steampowered.com/app/954650/Druidstone_The_Secret_of_the_Menhir_Forest/ : RPG : game : game_development : legend_of_grimrock : steam : turn_based_combat
+https://store.steampowered.com/curator/28340174-Casey-Explosion/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/33526-Rock-Paper-Shotgun/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/34571447-Games-and-Folklore/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/39456686-SquidPunk/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/40464008-Horror-Game-Aesthetics/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/40575015-Derek-Likes-It/?appid=534290 : curation : games : recommendations : steam
+https://store.steampowered.com/curator/41600533-Top-Shelf-Jank/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/4218320-GamingOnLinux/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/43135575-Dominic-Tarason%2527s-Opinionation-Station/ : curation : games : recommendations : steam
+https://store.steampowered.com/curator/6923402-Yahtzee-Recommends/ : curation : games : recommendations : steam : yahtzee
 https://storify.com/Hetalbot/will-mcavoy-on-race : equal_opportunity : racism : storify : thread : twitter : video : will_mcavoy
 https://storify.com/TheDeVryGuyTFM/the-story-of-the-durham-weed-man : greg_doucette
 https://storify.com/mark_riedl/ai-grand-challenges : ai : blog : mark_riedl : opinion : programming
@@ -10741,8 +10749,7 @@ https://tyranny.fandom.com/wiki/List_of_global_variables_in_Tyranny : __come_bac
 https://tyranny.paradoxwikis.com/Tyranny_Wiki : game_development : tyranny : wiki
 https://tyt.com/stories/4vZLCHuQrYE4uKagy0oyMA/1r0wZS96Tu0sIY2e2o6SiK : GOP : ICE : america : restraints : trump : tyt
 https://tyt.com/stories/4vZLCHuQrYE4uKagy0oyMA/688s1LbTKvQKNCv2E9bu7h : ICE : death : immigration : police_violence : trump : tyt
-https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#7-boot-your-mac :
-https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#7-boot-your-mac : :
+https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#7-boot-your-mac : etcher : linux : tutorial : usb
 https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/expanded_homicide_data_table_6_murder_race_and_sex_of_vicitm_by_race_and_sex_of_offender_2015.xls : 2015 : FBI : crime : statistics
 https://uktradeforum.net/2018/11/30/international-trade-10-facts-about-the-uks-deal-with-the-eu/ : EU : UK : brexit : policy : trade
 https://umairhaque.com/the-age-of-disorder-9dda87afe5fb?gi=970d9e6de05d#.4zb4w0t4p : criticism : opinion : politics
@@ -11814,8 +11821,7 @@ https://www.glaad.org/tap/donald-trump : GLAAD : LGBTQ : bigotry : resource : tr
 https://www.glasgowlive.co.uk/news/glasgow-news/audio-archive-freely-available-15077248 : archive : assets : audio : gaelic : glasgow
 https://www.gmakkas.com/portfolio/C00005CBWq5gxTjk/G00005nk8B9pj9n4 : abandoned : architecture : assets : greece : store_fronts : urban_design
 https://www.gnu.org/software/emacs/manual/html_mono/eintr.html#Practicing-Evaluation : emacs : gnu
-https://www.gnu.org/software/emacs/manual/html_node/elisp/Building-Emacs.html :
-https://www.gnu.org/software/emacs/manual/html_node/elisp/Building-Emacs.html : :
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Building-Emacs.html : emacs : reference
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Key-Binding-Conventions.html : convention : emacs : keybinding
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Regexp-Special.html#Regexp-Special : emacs : reference : regexp
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips.html : best_practices : emacs : lisp
@@ -11926,6 +11932,7 @@ https://www.hrw.org/news/2023/10/12/israel-white-phosphorus-used-gaza-lebanon : 
 https://www.hrw.org/report/2017/07/25/i-want-be-nature-made-me/medically-unnecessary-surgeries-intersex-children-us : HRW : health_care : intersex : surgery
 https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/ : book : causal_inference : harvard : learning
 https://www.hsph.harvard.edu/nutritionsource/healthy-eating-plate/ : eating : food : harvard : health
+https://www.htmhell.dev/adventcalendar/2023/2/ : best_practices : css : html : javascript : web_development
 https://www.hubertybreyne.com/en/artist/avril-francois : archive : art : francois_avril
 https://www.huffingtonpost.ca/2017/04/24/stealthing-removing-condom_n_16209510.html : condom : consent : huffington_post : rape : sexual_assault : stealthing
 https://www.huffingtonpost.co.uk/entry/alexandria-ocasio-cortez-death-threats_n_5cee2a99e4b0ae671058ffcf?guccounter=1&guce_referrer=aHR0cHM6Ly9jb25zZW50LnlhaG9vLmNvbS8&guce_referrer_sig=AQAAALbYtiFrMDJ-h4Ch0OZmC_1zmAjL0yfOFNDZ8M6JfWZnkJTu9ACYpsS8IFlmC1u278WnNDHxtsYUL6k2mY8T0Zm8Iwuw0QlDrL5tl4Ads5bCpfUdtxEuHTgmtgormMVplAOUdCkfbYFM4LWWLV7i9jDyTzBW3YJeK85x09F6Ug4g : death_threats : huffington_post : lee_moran : ocasio_cortez : politics
@@ -12683,8 +12690,7 @@ https://www.patreon.com/posts/6484586 : patreon
 https://www.patreon.com/posts/mandelbrot-set-7944744 : art : fractal : math
 https://www.patreon.com/posts/public-writing-22618026 : __important : bogi_takacs : world_building
 https://www.patreon.com/pucklovesgames : patreon : shader : unity
-https://www.patreon.com/soggyalien :
-https://www.patreon.com/soggyalien : :
+https://www.patreon.com/soggyalien : patrion : person : soggyalien : tiktok
 https://www.patreon.com/spritestack : 3D : pixel_art : rezoner : software : sprite_stack : voxels
 https://www.paul-kirsch.com/publications : narrative : paul_kirsch : pillars_of_eternity : tyranny : video_games
 https://www.pbs.org/newshour/nation/gunmaker-colt-suspends-production-of-ar-15-for-civilian-market : AR_15 : PBS : colt : gun : gun_control
@@ -12711,8 +12717,7 @@ https://www.philipzucker.com/z3-rise4fun/guide.html : __come_back_to : guide : z
 https://www.phillymag.com/news/2018/04/14/philadelphia-starbucks-arrest-video/?amp=1 : police_violence : racism : starbucks
 https://www.phoenixnewtimes.com/news/phoenix-shoplifting-video-brutality-family-files-claim-11312081 : arizona : meg_oconnor : phoenix : phoenix_new_times : police_violence
 https://www.phylosoft.org/archaeopteryx/ : archaeopteryx : phylogenetic_trees : visualisation
-https://www.pine64.org/pinetab/ :
-https://www.pine64.org/pinetab/ : :
+https://www.pine64.org/pinetab/ : linux : tablet
 https://www.pinknews.co.uk/2021/02/15/britain-transphobia-uk-transphobic-history-gender-recognition-act-what-the-trans/ : UK : journalism : trans_phobia
 https://www.plagiarism.org/article/citation-styles : academia : citation_style : plagiarism
 https://www.plannedparenthood.org/learn/sexual-orientation-gender/gender-gender-identity/whats-intersex : intersex : planned_parenthood
@@ -14716,7 +14721,8 @@ https://zalo.github.io/blog/constraints/ : blog : constraints : github : math : 
 https://zarkonnen.itch.io/occult-defence-agency-budgeting-simulator : __important : budget : game : itch_io : ludum_dare : occult
 https://zefsguides.com/ : machine_learning : visualisation
 https://zelo-street.blogspot.com/2020/02/question-time-ranter-identified.html : BBC : journalism : national_front : question_time : sherri_bothwell : sherri_peach : zelo_street
-https://zenodo.org/records/8173267 :
+https://zenodo.org/ : bibliography : dataset : doi : zenodo
+https://zenodo.org/records/8173267 : DSL : academia : ai : behaviour_tree : bibliography : dataset : zenodo
 https://ziglang.org/ : programming_langauge : zig
 https://zillowgonewild.beehiiv.com/ : architecture : photography : zillow : zillow_gone_wild
 https://zinke.house.gov/media/press-releases/zinke-introduces-bill-expel-palestinians-united-states : fascism : israel : palestine : racism : ryan_zinke
