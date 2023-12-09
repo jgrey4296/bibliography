@@ -1,0 +1,48 @@
+"Playlist URL","https://www.youtube.com/playlist?list=PLImQaTpSAdsB0DF6JfqTTm0sFdLVa80HJ"
+"Playlist title","Visual Explanations"
+"Playlist author","Freya Holmér"
+"Videos","4"
+
+"Video ID","Title","Channel","Added At","Published At","Thumbnail URL","Description"
+"7j5yW5QDC2U","How to rotate a vector","Freya Holmér","2022-02-28","2022-02-28","https://i.ytimg.com/vi/7j5yW5QDC2U/hqdefault.jpg","just a quick clip after someone asked a question on twitter~
+I'm still working on the sequel to the bézier video! turns out the scope has grown quite large - it's going to be a very long video, but I'm hoping it will be done soon!
+
+💖 Patreon ❱ https://www.patreon.com/acegikmo
+🐦 Twitter ❱ https://twitter.com/FreyaHolmer
+📺 Twitch ❱ https://www.twitch.tv/acegikmo
+💬 Discord ❱ https://discord.gg/v5VWuga
+🌸 Instagram ❱ https://instagram.com/freya_holmer"
+"slGflbRnx1Q","Sine and Cosine - A Visual Explanation","Freya Holmér","2020-05-07","2019-08-18","https://i.ytimg.com/vi/slGflbRnx1Q/hqdefault.jpg","🔽 Click
+
+
+These functions are super fundamental to trigonometry, as well as incredibly useful! Here's an example of how you can construct a 2D vector pointing at a given angle using trigonometry. Note that in this case it will always have a length of 1, also known as unit length, which means that by definition it's a normalized vector!
+
+💖 Patreon ❱ https://www.patreon.com/acegikmo
+🐦 Twitter ❱ https://twitter.com/FreyaHolmer
+📺 Twitch ❱ https://www.twitch.tv/acegikmo
+💬 Discord ❱ https://discord.gg/v5VWuga
+🌸 Instagram ❱ https://instagram.com/freya_holmer"
+"2PrSUK1VrKA","The Dot Product - A Visual Explanation","Freya Holmér","2020-05-07","2019-08-05","https://i.ytimg.com/vi/2PrSUK1VrKA/hqdefault.jpg","🔽 Click
+
+
+Clipped from the super long shaders for beginners stream of two days ago!
+
+Note that this is for two normalized vectors, it's a bit different if only one or none of them are normalized. Regardless - the case of two normalized vectors is very common in shaders!
+
+For example, Lambert shading is the dot product of the light direction and the surface normal
+
+Full video will be up soon!
+
+📺 Twitch ❱ https://www.twitch.tv/acegikmo
+🐦 Twitter ❱ https://twitter.com/FreyaHolmer
+💬 Discord ❱ https://discord.gg/v5VWuga
+🌸 Instagram ❱ https://instagram.com/freya_holmer"
+"JmfQLHMw7N8","Specular Lighting - A Visual Explanation","Freya Holmér","2020-05-07","2019-08-06","https://i.ytimg.com/vi/JmfQLHMw7N8/hqdefault.jpg","🔽 Click
+
+
+The theory behind the Phong specular lighting model, clipped from the intro to shader stream. Full video going up soon! Turns out - video editing takes time~
+
+📺 Twitch ❱ https://www.twitch.tv/acegikmo
+🐦 Twitter ❱ https://twitter.com/FreyaHolmer
+💬 Discord ❱ https://discord.gg/v5VWuga
+🌸 Instagram ❱ https://instagram.com/freya_holmer"
