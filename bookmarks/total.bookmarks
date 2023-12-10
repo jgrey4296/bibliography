@@ -7114,6 +7114,7 @@ https://en.m.wikipedia.org/wiki/Dril : dril : internet : online_culture : twitte
 https://en.m.wikipedia.org/wiki/Dystopia : dystopia : wiki
 https://en.m.wikipedia.org/wiki/EastEnders : soap : social_system : tv_show
 https://en.m.wikipedia.org/wiki/Economy_of_the_United_States : america : economy : wiki
+https://en.m.wikipedia.org/wiki/Erfurt_latrine_disaster : disaster : erfurt : latrine : wiki
 https://en.m.wikipedia.org/wiki/Excession#Outside_Context_Problem : excession : ian_m_banks : outside_context_problem : sci_fi
 https://en.m.wikipedia.org/wiki/Exif#Technical_2 : exif : image_processing : metadata : wiki
 https://en.m.wikipedia.org/wiki/Feminist_epistemology : epistemology : feminism : wiki
@@ -8247,6 +8248,7 @@ https://github.com/reactjs/redux : javascript : react : redux : web_development
 https://github.com/readthedocs/sphinx_rtd_theme : documentation : github : python : sphinx
 https://github.com/reiinakano/scikit-plot : github : graph : libraries : plot : python : scikit
 https://github.com/renpy/renpy : github : python : renpy : visual_novel
+https://github.com/rezoo/movis : github : python : video
 https://github.com/rgleichman/glance/blob/master/README.md : github : haskell : visualisation
 https://github.com/riannevdberg/gc-mc : github : graph : recommender_system : tensorflow
 https://github.com/ricklupton/floweaver : github : python : sankey_diagram
@@ -8881,6 +8883,7 @@ https://joaotavora.github.io/yasnippet/snippet-development.html#sec-3-2 : elisp 
 https://jobtalle.com/SDFMaker/ : image : sdf : texture
 https://joelmccracken.github.io/entries/writing-to-log-files-in-emacs/ : emacs : lisp : logging
 https://johnbattle.itch.io/dungeonremastered : dungeon_remastered : itchio : rpg
+https://jolantahuba.github.io/YT-Backup/ : backup : playlist : youtube
 https://jonathanstark.com/blog/debugging-html-5-offline-application-cache?filename=2009%2F09%2F27%2Fdebugging-html-5-offline-application-cache%2F : blog : cache : debugging : html : offline
 https://jonworth.eu/brexit-what-next/ : brexit : diagram : infographic : jon_worth
 https://joshdata.me/iceberger.html : explorable : icebergs : visualisation
@@ -9821,6 +9824,7 @@ https://plotagon.com/ : animation : procedural_content : software
 https://plotly.com/python/ : plotly : python : visualisation
 https://pluggy.readthedocs.io/en/stable/index.html : __important : hooks : pluggy : python : software_engineering
 https://pluralistic.net/ : blog : cory_doctorow : pluralistic
+https://pluralistic.net/tag/linkdump/ : blog : corey_doctorow : link_dump
 https://pmneila.github.io/jsexp/grayscott/ : diffusion : gray_scott : procedural_content : programming : project : tutorial : web_GL
 https://pocgamer.com/category/racism-2/racism-in-games/ : africa : analysis : criticism : fantasy : g_a_barber : poc_gamer : race : science_fiction
 https://podcasts.apple.com/gb/podcast/failed-architecture/id1384867713?i=1000431616321 : failed_architecture : podcast : qatar
@@ -9919,6 +9923,7 @@ https://pymotw.com/3/abc/ : python : software_design
 https://pymupdf.readthedocs.io/en/latest/tutorial.html#pdf-maintenance : pymupdf
 https://pypa-build.readthedocs.io/en/latest/ : build : build_lib : distribution : module : programming : python : software_engineering
 https://pyparsing-docs.readthedocs.io/en/latest/whats_new_in_3_0_0.html#new-features : github : parser : programming : pyparsing : python : reference
+https://pypi.org/classifiers/ : classifier : pypi : python
 https://pypi.org/project/grid-royale/ : __come_back_to : grid_royale : modeling : programming : python
 https://pypi.org/project/humanize/ : human_readable : library : python
 https://pypi.org/project/pure-python-adb/ : adb : android : python
@@ -10458,6 +10463,7 @@ https://tailcall.net/blog/cracking-randomness-lcgs/ : math : random
 https://tails.boum.org/about/index.en.html : linux : security : tails
 https://takecareblog.com/blog/cooperation-for-the-99 : anti_trust_law : law : legal
 https://takecareblog.com/blog/how-to-fix-america-s-monopoly-problem : anti_trust_law : law : legal
+https://takeout.google.com/ : backup : google : takeout
 https://talk.omnipedia.app/t/now-available-pipeline-a-collaborative-investigation-tool/126 : HCI : collaboration : omnepedia : pipeline : role_playing_games
 https://talkingpointsmemo.com/edblog/please-bookmark-this-post-seriously : TPM : josh_marshall : lies : politics : sarah_sanders : trump
 https://talkingpointsmemo.com/edblog/will-trump-rebrand-gop-as-white-nationalist-party : history : josh_marshall : politics : talking_points_memo : trump : white_supremacy
