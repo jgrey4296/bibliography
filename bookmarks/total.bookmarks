@@ -2481,13 +2481,11 @@ http://scanlinemedia.com/2019/09/16/trains-planes-and-running-shoes/ : allen_ibr
 http://scdb.wustl.edu/data.php : NLP : SCOTUS : data_analysis : data_sets : edu
 http://scdb.wustl.edu/documentation.php : SCOTUS : api : data_analysis : data_sets : edu
 http://schedule.gdconf.com/session/systems-make-statements-simulations-and-intentional-design : game_mechanics : social_system : systems : video
-http://scholar.google.co.uk/scholar : NPC : ai : emotion : expressive_intelligence : game_characters : google_scholar : scholar : search : specific
 http://scholar.google.com/ : google_scholar : scholar : search
 http://scholar.google.com/citations?sortby=pubdate&view_op=list_works : google_scholar
 http://scholar.google.com/citations?view_op=view_citation&citation_for_view=uZg9l58AAAAJ%3Au-x6o8ySG0sC : google_scholar : scholar
-http://scholar.google.com/scholar : google_scholar : joanna_bryson : kink : quest : scholar : search : service : socio_institution : specific
 http://scholar.google.com/scholar?cites=12436941218321766017 : google_scholar : scholar : search : specific
-http://scholar.google.com/scholar?cites=12515140009741489413&start=10 : google_scholar : scholar : search : specific
+http://scholar.google.com/scholar?cites=12515140009741489413 : google_scholar : scholar : search : specific
 http://scholar.google.com/scholar?cites=129785262584711006&start=10 : google_scholar : scholar : search : specific
 http://scholar.google.com/scholar?cites=13553660262055898998&as_ylo=2013&start=20 : google_scholar : scholar
 http://scholar.google.com/scholar?cites=16624619831410566199 : google_scholar
@@ -2497,9 +2495,6 @@ http://scholar.google.com/scholar?cites=6306065895930579317&start=0 : google_sch
 http://scholar.google.com/scholar?cluster=1076209040260352841 : google_scholar : scholar : search : specific
 http://scholar.google.com/scholar?cluster=12080945250168285445 : google_scholar : scholar : search : specific
 http://scholar.google.com/scholar?cluster=15272800535331439204 : google_scholar : scholar : search : specific
-http://scholar.google.com/scholar?start=10 : google_scholar : scholar : search : specific
-http://scholar.google.com/scholar?start=20 : google_scholar : scholar : socio_institution
-http://scholar.google.com/scholar?start=71 : google_scholar : quest : scholar
 http://scholar.harvard.edu/files/mickens/files/thenightwatch.pdf : blog : edu : nightwatch : pdf : software_development
 http://scholar.lib.vt.edu/ejournals/SPT/v4_n3html/ROPOHL.html : philosophy : socio_technical : systems
 http://science.sciencemag.org/content/355/6331/1269.full : climate_change : paper : science
@@ -2987,7 +2982,6 @@ http://web.stanford.edu/~sambuehl/archive/AmbuehlJMP : __to_fix
 http://web.yonsei.ac.kr/yusong/lecture/data/BI/Materials/1.1.Rete%20-%20A%20Fast%20Algorithm%20for%20the%20Many%20Pattern,%20Many%20Object%20Pattern%20Match%20Problem.pdf : __to_fix
 http://webaim.org/blog/user-agent-string-history/ : user_agent : web_development : web_history
 http://webbyawards.com/winners/2016/websites/website-features-and-design/best-use-of-animation-or-motion-graphics/ : webby
-http://webcache.googleusercontent.com/search : __to_fix : antlr
 http://webdesign.tutsplus.com/articles/best-practices-for-increasing-website-performance--webdesign-9109 : software_development : web_design
 http://webdevchecklist.com/ : best_practices : checklist : web_development
 http://webdocs.cs.ualberta.ca/~sutton/book/the-book.html : machine_learning : math
@@ -4058,7 +4052,6 @@ http://www.google.co.uk/search : cooking : food : google : the_sunday_papers
 http://www.google.com/press/zeitgeist.html : google
 http://www.google.com/search : google : humour : search
 http://www.google.com/search#sclient=tablet-gws&hl=en&client=safari&tbo=d&q=Pleasure+and+Reality%2C+Play+and+Work%2C+Thought+and+Action-Variations+Of+and+On+a+Theme+pdf&oq=Pleasure+and+Reality%2C+Play+and+Work%2C+Thought+and+Action-Variations+Of+and+On+a+Theme+pdf&aq=f&aqi=&aql=&gs_l=tablet-gws.3...30904.32135.0.32425.4.4.0.0.0.0.929.1328.1j2j6-1.4.0...0.0.usoHr-ONpt8&pbx=1&fp=1&biw=1024&bih=644&bav=on.2,or.r_gc.r_pw.,cf.osb&cad=b : google : pdf : search
-http://www.google.com/search?tbm=isch&source=lnms : google : people : search
 http://www.gq.com/story/inside-federal-bureau-of-way-too-many-guns : 2nd_amendment : crime : gun : law : politics : social_system
 http://www.gq.com/story/the-last-true-hermit : introversion : story
 http://www.graphicine.com/hideaki-anno-neon-genesis-evangelion/ : UI : art : design : evangelion : interface : science_fiction
@@ -6994,8 +6987,6 @@ https://dsl.richmond.edu/panorama/congress/#view=cartogram&year=2016&xyz=0.5/0.5
 https://dsl.richmond.edu/panorama/congress/#view=cartogram&year=2016&xyz=0.5/0.5/1&party=democrat : data_visualisation : election : history : house_of_representatives : political_science
 https://dsmobserver.com/2019/06/imagining-worst-case-scenarios-the-legacy-of-nuclear-weapons-lost-at-sea/ : blog : deep_sea_mining : nuclear_weapons : salvage : sea
 https://duckduckgo.com/ : FBI : __come_back_to : agents : ai : david_petraeus : email : game : institution : lore : politics : search : surveillance : youtube
-https://duckduckgo.com/?t=disconnect : ars_technica : data_analysis : data_sets : game_design : google : insult_swordfighting : monkey_island : quantum_theory : search : social_system : sound
-https://duckduckgo.com/?t=disconnect&iax=1 : art : dalek : doctor_who : google : salvador_dali : search
 https://duckduckgo.com/?t=ffab : __come_back_to_
 https://dungeoncommandr.itch.io/mutants-in-the-night : __important : game : indie : itch_io : mutants_in_the_night
 https://dungpa.github.io/fsharp-cheatsheet/ : cheat_sheet : f_sharp : github
@@ -10077,13 +10068,10 @@ https://sarahgraley.mybigcommerce.com/ : art : badges : cat : cut : pins : sarah
 https://sass-lang.com/documentation/syntax : css : sass : syntax : web_development
 https://scala-lang.org/ : functional_programming : programming : scala
 https://schneems.com/2017/10/02/lifelong-rubyist-makes-some-python-code-5x-faster/ : benchmarks : programming : python : ruby
-https://scholar.google.ch/scholar : google_scholar : search
 https://scholar.google.co.uk/citations : anthropology : cultural_anthropology : people : qi_wang : research : social_system
 https://scholar.google.com/citations : daniel_vella : dark_souls : game_criticism : scholar : search
 https://scholar.google.com/citations?citation_for_view=7mn6g3oAAAAJ%3ARYcK_YlVTxYC&view_op=view_citation&pagesize=80 : institution : raul_pacheco_vega : review
 https://scholar.google.com/citations?sortby=pubdate&view_op=list_works : MAS : mehdi_dastani : norms
-https://scholar.google.com/scholar : google_scholar : search
-https://scholar.google.com/scholar?as_sdtp=on : fiction : institution : scholar : search
 https://scholar.google.com/scholar?cites=15368864239939516850&start=0 : __important : delegation : scholar : search
 https://scholar.google.com/scholar?cites=2913340340605917936 : institution : scholar : search
 https://scholar.google.com/scholar?cites=2913340340605917936&as_sdt=5,39&sciodt=0,39&hl=en : from_interactions_to_institutions : scholar : search
@@ -11847,8 +11835,6 @@ https://www.good.is/features/trauma-in-an-iraqi-war-zone : iraq : therapy
 https://www.goodeconomicsforhardtimes.com/ : book_recommendation : economics
 https://www.goodreads.com/author/quotes/1654.Terry_Pratchett : goodreads : quote : terry_pratchett
 https://www.goodreads.com/book/show/20605493-wtf-evolution : book : evolution : goodreads
-https://www.google.co.uk/search : google : google_searches : semiotics
-https://www.google.com/ : google
 https://www.google.com/search : RPG : SQL : anna_anthropy : antlr : battlestar_galactica : c_plus_plus : database : discworld : gaius_baltar : google : google_searches : learning : meditation : people : quest : search : shopping : social : social_system : specific : tumblr : video
 https://www.google.com/search#bav=on.2,or.r_qf.&fp=290d625811532ca7&q=categorical+imperative+in+videogame : categorical_imperative : game : google : google_searches : philosophy : search : specific
 https://www.google.com/search#bav=on.2,or.r_qf.&fp=3ad5f87243bf09a6&q=meaningful+choice : google : google_searches : search : specific
@@ -11862,7 +11848,6 @@ https://www.google.com/search?cad=b&start=10 : antlr : google : google_searches 
 https://www.google.com/search?source=lnms : google : google_searches : search : wiki
 https://www.google.com/search?tbm=isch&source=og#facrc=_&imgdii=_&imgrc=J6xWy760rn5grM%3A%3BqVDvNOzcpaYOHM%3Bhttp%253A%252F%252Fwww.samplereality.com%252Fwp-content%252Fuploads%252F2011%252F03%252Fmobs-ages-full.jpg%3Bhttp%253A%252F%252Fwww.samplereality.com%252F2011%252F03%252F22%252Fthe-poetics-of-metadata-and-the-potential-of-paradata%252F%3B944%3B697 : google : google_searches : learning : search
 https://www.google.com/search?tbm=isch&source=og#facrc=_&imgdii=_&imgrc=bGk9yHfPZBBDfM%3A%3BMsVV3zqRozn_sM%3Bhttp%253A%252F%252F4.bp.blogspot.com%252F-kmPS9XhA_kg%252FTahNa7ptR_I%252FAAAAAAAACEY%252FmfTMNqbujko%252Fs320%252F02a.jpg%3Bhttp%253A%252F%252Finspiration-of-the-nation.com%252F2012%252F04%252Fmilo-manaras-illustrations.html%3B1417%3B1426 : blog : google : google_searches : people : search
-https://www.google.com/webhp : google : google_searches
 https://www.google.com/webhp#q=dwarf+fortress+emacs+binding : dwarf_fortress : emacs : google : google_searches : search
 https://www.google.com/webhp#q=mavericks+tag+command+line : google : google_searches : search
 https://www.google.com/webhp#q=one%20handed%20keyboard%20design : google : google_searches : search
