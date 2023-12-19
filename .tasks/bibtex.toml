@@ -1,0 +1,44 @@
+## bibtex.toml -*- mode: conf-toml -*-
+
+[[tasks.bib]]
+name                 = "format"
+version              = "0.1"                                                                # <str>
+ctor                 = "doot.task.dir_walker:DootMiniWalker"                                # <type>
+doc                  = ["Load each bib file and reformat it"]                               # <list[str]>
+print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
+inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
+roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the walker will start
+exts                 = [".bib"]                                                             # <list[str]>
+sub_actions          = [
+                     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+                     { do="task_code.bibtex:build_parse_stack",  update_="parse_stack"},
+                     { do="task_code.bibtex:build_write_stack",  update_="write_stack" },
+                     { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db", parse_stack_="parse_stack"},
+                     { do="dootle.bibtex.v2:BibtexToStrAction", from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+                     { do="write!", from_="bib_text", to="{fpath}" },
+]                                                                                                                         # <str>
+
+
+[[tasks.bib]]
+name                 = "names.and.tags"
+version              = "0.1"                                                                # <str>
+ctor                 = "doot.task.dir_walker:DootMiniWalker"                                # <type>
+doc                  = []                                                                   # <list[str]>
+print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
+inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
+roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the walker will start
+exts                 = [".bib"]                                                             # <list[str]>
+sub_actions          = [
+                     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+                     { do="task_code.bibtex:build_parse_stack",  update_="parse_stack"},
+                     { do="task_code.bibtex:build_write_stack",  update_="write_stack" },
+                     { do="type!", bib_db="bibtexparser.library:Library"},
+                     { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath", update_="bib_db", parse_stack_="parse_stack"},
+                     { do="dootle.bibtex.v2:BibtexToStrAction", from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+]                                                                                                                         # <str>
+head_actions = [
+             { do="task_code.bibtex:write_tag_set", update_="tags" },
+             { do="write!", from_="tags", to="{temp}/tags/bib.tags"},
+             { do="task_code.bibtex:write_name_set", update_="names" },
+             { do="write!", from_="names", to="{temp}/tags/bib.names" }
+]
