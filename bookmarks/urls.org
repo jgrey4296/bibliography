@@ -1,0 +1,149 @@
+#+TITLE: Urls
+
+* Overview
+:to-deal-with:
+https://docs.readthedocs.io/en/stable/
+https://wizardzines.com/comics/ - julia evans
+https://yaml.org/spec/1.2.2/ - YAML
+https://docs.openwdl.org/en/latest/ - workflow description language
+https://support.terra.bio/hc/en-us/articles/360037117492-Overview-Getting-started-with-WDL - tutorial
+https://www.commonwl.org/user_guide/ - common workflow language
+https://aosabook.org/en/ - architecture of open source applications
+https://bibtexparser.readthedocs.io/en/main/index.html
+https://zenodo.org/
+https://gothicpunk.tumblr.com/archive?source=blog_view_login_wall
+https://embrace-autism.com/
+https://javieracordero.notion.site/Job-Application-Manager-fce5406854f0475aa21d5fcd9fa5e668
+https://neverworkintheory.org/ - theory
+https://algorist.com/algorist.html - algorithms
+https://www.probabilitycourse.com/preface.php -math
+https://rmzoo.math.uconn.edu/ - math
+https://stacks.math.columbia.edu/browse - math
+https://us.metamath.org/ - math
+https://www.cut-the-knot.org/ - math
+https://github.com/planetmath
+https://sites.math.washington.edu/~billey/talks/theorem.finder.html - math
+https://trustandsafety.fun/ - paulo pedericini, game design
+https://zenodo.org/ - dataset doi's
+https://www.kalzumeus.com/archive/ - patrick mckenzie blog
+:END:
+
+* Main
+Latex/tikz-compatible diagram editor: https://q.uiver.app/
+** Audio Visual
+[[http://waveform3d.com/][Waveform3d]]
+[[https://sketchfab.com/][Sketchfab]]
+https://graphics.stanford.edu/courses/cs348c-96-fall/resources.html
+https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/
+https://graphviz.org/theory/
+https://www.alanzucconi.com/tutorials/
+https://catlikecoding.com/unity/tutorials/
+
+** Causal Inference
+https://egap.org/resource/10-things-to-know-about-causal-inference/
+
+** Current web links
+  [[https://tidalcycles.org/functions.html][tidal]]
+  [[https://github.com/ChrisPenner/eve/blob/master/examples/tunnel-crawler/README.md][haskell eve event system]]
+  [[https://wiki.haskell.org/Typeclassopedia#Comonad][typeclassopedia]]
+  [[https://wiki.haskell.org/OpenGLTutorial2][haskell opengl]]
+  [[https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers][bayesian tutorial]]
+  [[http://thebookofshaders.com/05/][book of shaders]]
+  [[https://nbviewer.jupyter.org/github/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb#topic=0&lambda=1&term=][python nlp]]
+
+
+  [[https://www.researchgate.net/profile/Alicia_Tang/publication/283028012_Norms_Decay_Framework_in_Open_Normative_Multi-agent_Systems/links/5626e37408aeabddac936268.pdf][norm decay]]
+  [[https://socialmediacollective.org/reading-lists/critical-algorithm-studies/][critical algorithm studies]]
+  [[http://explorabl.es/][explorable explanations]]
+  [[https://www.jstor.org/stable/2392415?seq=1#page_scan_tab_contents][bureaucracy as praxis]]
+  [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
+
+  [[http://bloom-lang.net/features/][bud]]
+  [[https://github.com/bloom-lang/bud/blob/v0.0.3/docs/getstarted.md][bud tutorial]]
+
+  [[http://connelhooley.uk/blog/2017/04/10/f-sharp-guide][c# guide to f#]]
+  [[https://blog.grakn.ai/modelling-data-with-hypergraphs-edff1e12edf0][hypergraphs]]
+
+  [[https://drive.google.com/file/d/0B8mcTRet6qandC1xN0g0M1d5T0E/view][systems are everywhere]]
+  [[https://medium.com/hacking-and-gonzo/how-reddit-ranking-algorithms-work-ef111e33d0d9][reddit ranking algorithm]]
+
+  [[https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77][vue]]
+  [[https://members.loria.fr/SMerz/papers/mc-tutorial.pdf][model checking tutorial]]
+  [[https://game.itu.dk/articles/][game papers that look interesting]]
+** Economics
+https://www.nomisweb.co.uk/
+https://economicsfromthetopdown.com/2020/12/10/why-and-how-i-write-scientific-documents-in-plain-text/
+https://www.census.gov/quickfacts/fact/table/US/PST045219
+
+** Games
+https://wiki.gladiabots.com/index.php?title=Changelog
+https://developer.valvesoftware.com/wiki/Response_System
+https://eu4.paradoxwikis.com/Technology
+https://logicmag.io/play/model-metropolis/
+** Github
+https://ganelson.github.io/inform/index.html
+https://github.com/company-mode/company-mode/wiki/Writing-backends
+https://github.com/fgregg/tax_extension/tree/master#code-for-calculation-tax-extensions-in-cook-county
+https://github.com/mvcisback/hasse
+https://github.com/mxgmn/MarkovJunior.git
+https://www.micromacro-game.com/en/extracontent.html
+** Machine Learning
+https://applyingml.com/
+https://applyingml.com/resources/ml-design-docs/
+https://applyingml.com/resources/personalization/
+[[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
+** Misc
+https://floppy.foone.org/w/Main_Page
+https://pluralistic.net/
+
+[[https://en.wikipedia.org/wiki/Summa_Theologica][Summa Theologica]]
+
+** Other
+   the atlantic keeps crashing tor:
+   [[https://blog.grakn.ai/modelling-data-with-hypergraphs-edff1e12edf0][isaac asimov - crashes tor]]
+   [[https://www.theatlantic.com/technology/archive/2017/05/dove-body-image/525867/][dove body image issues]]
+   [[https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77][handmaids tale]]
+   http://m.uk.ign.com/lists/top-100-rpgs/1 -- not loading
+   https://m.imgur.com/a/6jUOL -- over capacity, check back later
+   [[https://www.barnesandnoble.com/blog/sci-fi-fantasy/vanguard-jack-campbell-review/][jack campbell review]] - blocked on tor
+   [[https://www.theatlantic.com/magazine/archive/2017/06/make-time-for-boredom/524514/?utm_source=atltw][boredom]]
+   [[https://www.theverge.com/2017/5/16/15643638/chelsea-manning-trans-woman-community][tutorial on generative systems]]
+   [[https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf][purely functional data structures]]
+
+   [[https://scholar.google.com/scholar?cites=3306143469979875467&as_sdt=5,39&sciodt=0,39&hl=en][scholar search to come back to]]
+   [[https://scholar.google.co.uk/scholar?start=30&hl=en&as_sdt=2005&sciodt=0,5&cites=7701723112115115442&scipsc=][scholar search 2]]
+
+** Programming
+https://www.andrewheiss.com/blog/2021/08/21/r2-euler/
+https://dev.to/matechs/building-custom-dsls-in-typescript-29el
+https://doc.rust-lang.org/book/title-page.html
+https://pybit.es/articles/ast-intro/
+https://bpw1621.com/archive/ordained-the-python-project-template/
+https://refactoring.guru/
+https://stackabuse.com/creating-pdf-invoices-in-python-with-borb/
+https://strongtyping.readthedocs.io/en/latest/
+https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/
+https://wa.aws.amazon.com/wat.concept.coe.en.html
+https://web.mit.edu/jemorris/humor/500-miles
+
+** Reading lists
+https://anarchopac.wordpress.com/2013/05/31/recommended-reading/amp/
+https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
+https://generativist.falsifiable.com/
+https://transmediawatch.org/articles
+https://twitter.com/WitchesFor/lists
+https://www.sciencedirect.com/journal/artificial-intelligence/issues
+https://www.taylorfrancis.com/books/edit/10.4324/9781315302430/organizational-space-beyond-sytze-kingma-karen-dale-varda-wasserman
+https://www.uu.nl/en/research/game-research/research/publications
+http://www.betsydisalvo.com/
+https://andrebrock.academia.edu/
+https://patthomson.net/2017/01/23/managing-the-phd-keeping-a-journal/
+https://torch.ox.ac.uk/ethicsai#/
+https://www.cc.gatech.edu/~isbell/pubs/
+https://www.wzchen.com/data-science-books
+
+
+** Youtube Specific
+https://www.youtube.com/watch?v=SfFh3rIjDME
+https://www.youtube.com/watch?v=wfzSE4Hoxbc
+* Links
