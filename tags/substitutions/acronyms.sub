@@ -1,0 +1,1889 @@
+2cbp                            : 4   : CBP
+4cbc                            : 1   : CBC
+cato                            : 9
+cbs                             : 1   : CBS
+_ccdc                           : 1
+AA4MM                           : 1
+AAA                             : 2
+AAAI                            : 21
+AAF                             : 1
+AAIDE                           : 1
+aaihs                           : 1   : AAIHS
+AAIHS                           : 2
+AAP                             : 1
+AARON                           : 1
+AASPIRE                         : 1
+AATS                            : 1
+ABA                             : 1   : 1ABC
+ABL                             : 14
+ABM                             : 95
+ABMS                            : 2
+ABODE                           : 2
+ABT                             : 1
+aBUILDER                        : 1
+ACA                             : 19
+ACAB                            : 1
+acab                            : 1   : ACAB
+acda                            : 1
+ACL                             : 18
+ACLED                           : 1
+aclu                            : 1   : ACLU
+ACLU                            : 12
+ACM                             : 3
+ACME                            : 1
+acorn                           : 1   : ACORN
+ACORN                           : 2
+ACRE                            : 1
+ACRES                           : 1
+ACT_IF                          : 2
+ACT_R                           : 5
+ACT_RPM                         : 1
+ACTA                            : 2
+ADA                             : 3
+ADHD                            : 1
+adhd                            : 9   : ADHD
+ADICO                           : 4
+ADL                             : 1
+adl                             : 1
+ADM                             : 1
+ADOS                            : 6
+ADT                             : 1
+AEI                             : 1
+AER                             : 1
+AESOP                           : 1
+AF_APL                          : 1
+AFAPL2                          : 1
+AfD                             : 1
+AFM                             : 1
+AGAVE                           : 1
+agdq                            : 1
+AGENT                           : 1
+AGI                             : 5
+AGRE                            : 1
+AHA19                           : 1
+AHF                             : 1
+AHP                             : 1
+AI                              : 2
+ai                              : 781
+AIDS                            : 11
+AIED                            : 1
+aies                            : 1   : AIES
+AIES2020                        : 1
+AIIDE                           : 3
+aiide                           : 3   : AIIDE
+AIKR                            : 1
+AINRM                           : 1
+AIPAC                           : 1
+AIPS                            : 1
+AISB                            : 3
+AITA                            : 2
+AKIRA                           : 1
+ALEC                            : 1
+ALIGN                           : 1
+ALIVE                           : 1
+ALLIANCE                        : 1
+AMA                             : 1
+AMAS                            : 1
+AMELI                           : 3
+AMIRIS                          : 1
+AMTs                            : 1
+amw                             : 1
+ANFIS                           : 1
+ANMA                            : 1
+ANT                             : 1
+ANTE                            : 1
+ANTLR                           : 6   : antlr
+ANTS                            : 1
+AO*                             : 1
+AOP                             : 21
+AORML                           : 1
+AORTA                           : 1
+AOSE                            : 3
+AOSF                            : 1
+APALACHE                        : 1
+API                             : 11
+AR_15                           : 1
+ARG                             : 2
+ARM                             : 1
+ARPANET                         : 1
+ART_SHTA                        : 1
+ARV                             : 1
+arxiv                           : 30
+ASC_inclusion                   : 1
+ASCS                            : 1
+ASD                             : 1
+asir                            : 1
+asp                             : 12  : ASP
+ASP                             : 24
+ASSA                            : 1
+AST                             : 1
+ast                             : 3
+ATF                             : 1
+AThOS                           : 1
+ATL                             : 5
+ATLANTIS                        : 1
+ATLEA                           : 1
+ATM                             : 1
+atm                             : 1   : ATM
+ATOMIC                          : 3
+att                             : 2
+ATTL                            : 1
+AUML                            : 1
+AVIE                            : 1
+awk                             : 3
+aws                             : 1
+BACON                           : 1
+BASIC                           : 1
+bbai                            : 1
+BBC                             : 123
+BBI                             : 1
+BC                              : 1
+bdi                             : 2   : BDI
+BDI                             : 43
+BDL                             : 1
+BDS                             : 1
+bdsm                            : 19  : BDSM
+BDSM                            : 4
+BEHAVEngine                     : 2
+BEN                             : 1
+BERT                            : 1
+BFA                             : 1
+BIC                             : 2
+BiLAT                           : 1
+BIM                             : 1
+bioNEAT                         : 1
+BIPOC                           : 1
+BIT_CARE                        : 1
+BJS                             : 4
+BLM                             : 3
+BME                             : 1
+BMI                             : 1
+bmi                             : 1   : BMI
+BOD                             : 8
+BOID                            : 4
+BORG                            : 1
+BotW                            : 1
+bpd                             : 1
+bpi                             : 1
+BPL                             : 1
+BPS                             : 1
+BRIDGE                          : 2
+BRMS                            : 1
+BTL                             : 1
+BUILD_IT                        : 1
+BWCs                            : 1
+BYU                             : 1
+byu                             : 1   : BYU
+C                               : 2   : c_lang
+c#                              : 1   : c_sharp
+c++                             : 1   : c_plus_plus
+C_SPAN                          : 1
+CA_PCG                          : 1
+CAD                             : 4
+CADET                           : 1
+CADIA                           : 1
+CAH                             : 1
+CALM                            : 1
+CAR                             : 1
+CART                            : 1
+CArtAgO                         : 4
+CAT                             : 1
+CatSAT                          : 1
+CBMS                            : 1
+CBO                             : 1
+CBP                             : 14
+CBR                             : 6
+CBS                             : 1
+CBT                             : 1
+CCA                             : 1
+CCAL                            : 1
+CCalc                           : 1   : ccalc
+ccaqdas                         : 1
+ccbt                            : 2   : CBT
+CCE                             : 1
+CCG                             : 1
+CCO                             : 1
+CCP                             : 1
+CCPA                            : 1
+CCRU                            : 1
+CCTV                            : 2
+CDC                             : 5
+CDE                             : 1
+CEM                             : 1
+Censys                          : 1
+CEO                             : 2
+CETI                            : 1
+CFA                             : 1
+cfaa                            : 3
+CFG                             : 1
+CFL                             : 1
+CFPB                            : 1
+cfpb                            : 1   : CFPB
+cfr                             : 1
+cgi                             : 1
+cgNEAT                          : 1
+CGUL                            : 1
+CHAP                            : 1
+CHARMS                          : 1
+CHARON                          : 1
+CHAZ                            : 1
+CHE                             : 1
+chi                             : 2   : CHI
+CHI                             : 8
+CHI2019                         : 2
+CHI2020                         : 1
+CHOP                            : 1
+CIA                             : 6
+cia                             : 7   : CIA
+CiF                             : 1
+cif                             : 2   : CiF
+Cif_RPG                         : 1
+Cim                             : 1
+CISPA                           : 1
+CK2                             : 1
+CL                              : 1
+CLARION                         : 3
+CLASP                           : 1
+CLE                             : 1
+CLI                             : 1   : cli
+cli                             : 24
+CLIMB                           : 1
+clips                           : 1   : CLIPS
+CLIPS                           : 13
+CMA_ES                          : 1
+CMattie                         : 1
+CMC                             : 4
+CMPS                            : 1
+cmu                             : 1   : carnegie_mellon_university
+CNBC                            : 1
+cnbc                            : 1   : CNBC
+CNC                             : 1
+cnc                             : 1   : CNC
+cnet                            : 1
+CNN                             : 1
+cnn                             : 25  : CNN
+CO2                             : 3
+co2                             : 3   : CO2
+CO2_emmissions                  : 1
+CO3L                            : 1
+co_op                           : 3
+CoAX                            : 1
+CoCites                         : 2
+COCO                            : 1
+COD                             : 2
+cod                             : 2   : COD
+CODE                            : 1
+COIN                            : 7
+COINVENT                        : 1
+COM                             : 1
+COMETA                          : 1
+comp_sci                        : 8   : computer_science
+compsci                         : 2   : computer_science
+COMSOC                          : 1
+CONFIG                          : 1
+Conv-LSTM                       : 1   : conv_lstm
+Coo-BDI                         : 1   : Coo_BDI
+Coo_BDI                         : 1
+COOL                            : 1
+coop                            : 1
+CoSMoS                          : 1
+COVID-19                        : 1   : covid_19
+CPH                             : 1
+CPM-GOMS                        : 1   : CPM_GOMS
+CPM_GOMS                        : 1
+CPOCL                           : 1
+CPR                             : 2
+CPS                             : 1
+CPSR                            : 1
+cPTSD                           : 1
+CPU                             : 1
+CRDT                            : 1
+CREW                            : 1
+CRISPR                          : 2
+CRL                             : 1
+CRYSTAL_ISLAND                  : 1   : crystal_island
+CS                              : 1
+CSCL                            : 2
+CSCW                            : 43
+CSIS                            : 2
+csis                            : 2
+CSMET                           : 1
+CSP                             : 4
+CSPAN                           : 1
+cspan                           : 1   : CSPAN
+CSR                             : 2
+css                             : 15  : CSS
+CSS                             : 2
+CST                             : 1
+CSWEP                           : 1
+CTF                             : 1
+CTL                             : 1
+CTS                             : 1
+cv                              : 1
+cX                              : 1
+CYOA                            : 2
+d_and_d                         : 11  : dungeons_and_dragons
+d_n_d                           : 1   : dungeons_and_dragons
+dACA                            : 1   : DACA
+daca                            : 1   : DACA
+DACA                            : 4
+DAG                             : 1
+DAGS                            : 1   : DAGs
+DAGs                            : 2
+DAI                             : 1
+DAML                            : 1
+damsl                           : 10  : DAMSL
+DAMSL                           : 3
+DAPL                            : 1
+DAR                             : 1
+darpa                           : 2   : DARPA
+DARPA                           : 4
+DARVO                           : 2
+DASSIE                          : 1
+DAW                             : 1
+DBMS                            : 1
+DBR                             : 1
+dc                              : 1   : DC
+DC                              : 3
+DCGAN                           : 1
+DDA                             : 3
+DDE                             : 1
+DDLA                            : 1
+DDOS                            : 1
+DDoS                            : 2   : DDOS
+dea                             : 4   : DEA
+DEA                             : 9
+DECERNS                         : 1
+DEF                             : 1
+DEFCON                          : 2
+DEIOS                           : 1
+DEL                             : 1
+DEMAIS                          : 1
+DER                             : 1
+DERRIC                          : 1
+DESIRE                          : 1
+DESMON                          : 1
+DETT                            : 1
+devarea                         : 1
+devdocs                         : 1
+devops                          : 2
+df-9                            : 1   : DF_9
+DF_9                            : 1
+dhs                             : 3   : DHS
+DHS                             : 4
+DICE                            : 1
+DIGITEL                         : 1
+DIGMA                           : 1
+DIGRA                           : 1
+DiGRA                           : 1
+digra                           : 1   : DIGRA
+DINA                            : 1
+DINO                            : 1
+DiPRA                           : 1
+DIS                             : 1
+DIY                             : 4
+diy                             : 4   : DIY
+DJIA                            : 1
+DLA                             : 1
+DLC                             : 2
+DMCA                            : 16
+DMV                             : 4
+dna                             : 1   : DNA
+DNA                             : 14
+DND                             : 3
+DOC                             : 1
+DoD                             : 1
+DODM                            : 1
+DOI                             : 1
+DOJ                             : 13
+doj                             : 2   : DOJ
+DOMA                            : 2
+DOME                            : 1
+dos                             : 2
+DOSS                            : 1
+DOTA                            : 1
+dota                            : 5   : DOTA
+DOW                             : 1
+dow                             : 1   : DOW
+DPL2019                         : 1
+DPRK                            : 1
+DQN                             : 2
+DRC                             : 2
+DReAM                           : 1
+DREAM_act                       : 1
+DRM                             : 43
+DROOLS                          : 1
+DRT                             : 1
+ds9                             : 2   : DS9
+DS9                             : 3
+dsl                             : 2   : DSL
+DSL                             : 48
+DSLR                            : 1
+dslr                            : 1   : DSLR
+DSLs                            : 3   : DSL
+DSM                             : 2
+dsm5                            : 1   : DSMV
+DSML                            : 1
+DSMLs                           : 1
+DSMV                            : 2
+DSP                             : 1
+dsp                             : 5   : DSP
+DTA                             : 1
+DTMC                            : 1
+DUP                             : 2
+DVD                             : 1
+dw                              : 1
+dwp                             : 1   : DWP
+DWP                             : 12
+e_books                         : 1   : ebook
+EA                              : 1
+eacl                            : 1
+EAGLE                           : 1
+eAOP                            : 1
+easyABMS                        : 2
+EAT                             : 1
+eBDI                            : 1
+ebook                           : 24
+ecXML                           : 1
+ED                              : 4   : eating_disorders
+ed_tech                         : 1
+EDM                             : 1
+edm                             : 2   : EDM
+edtech                          : 3   : education_tech
+edu_games                       : 1
+eff                             : 5
+EHA2018                         : 1
+EIS                             : 1
+ELECTRE                         : 2
+ELEKTRA                         : 1
+ELI5                            : 4
+ELIZA                           : 2
+ELMS                            : 2
+elo                             : 1
+EMA                             : 2
+EMASL                           : 1
+EMDR                            : 1
+EMERALD                         : 1
+EMF                             : 1
+EMI                             : 2
+EMIL                            : 1
+EmiL                            : 1   : EMIL
+EMPath                          : 2
+emt                             : 1
+ENABL                           : 1
+ENGO                            : 1
+EOP                             : 2
+EP_MAS                          : 1
+EPA                             : 4
+EPI                             : 1
+ERCOT                           : 1
+ERGo                            : 1
+ErgoAI                          : 2
+ERISA                           : 1
+es2015                          : 1
+es6                             : 16
+ES_and_S                        : 2
+ESA                             : 1
+ESCHER                          : 1
+ESG                             : 1
+EShadow                         : 1
+ESI                             : 1
+ETH                             : 1
+EU                              : 30
+EUCRT                           : 1
+evo_bio                         : 1
+evo_psych                       : 2
+ewg                             : 1
+expats                          : 1
+FAA                             : 1
+FANs                            : 1
+FatiMA                          : 1   : FAtiMA
+FAtiMA                          : 3
+FBI                             : 12
+fbi                             : 12  : FBI
+fcc                             : 1   : FCC
+FCC                             : 2
+FCM                             : 1
+FCP                             : 1
+FDA                             : 1
+fda                             : 1   : FDA
+FDG                             : 6
+fdg                             : 6   : FDG
+FearNot                         : 3
+FEC                             : 2
+FEM                             : 1
+FEMA                            : 2
+FERC                            : 1
+FF                              : 1
+FFI                             : 1
+FFIPS                           : 1
+FFREADA                         : 1
+FFT                             : 1
+fft                             : 3
+FGM                             : 1
+FHIR                            : 2
+FICO                            : 1
+FinCEN                          : 1
+FIPA                            : 4
+FISA                            : 3
+FloWr                           : 1
+FML                             : 1
+fMRI                            : 1
+fmri                            : 1   : fMRI
+FOAI                            : 1
+FODMAP                          : 1
+FOIA                            : 13
+foia                            : 4   : FOIA
+FPS                             : 13
+FRP                             : 2
+FSM                             : 25  : FSMs
+FSMs                            : 11
+FTA                             : 2
+FTC                             : 1
+ftc                             : 1   : FTC
+ftl                             : 2
+ftp                             : 1
+G3PARM                          : 1
+g7                              : 2
+GaaS                            : 1
+gaatw                           : 1
+GADIN                           : 1
+GADTs                           : 2
+GAIA                            : 1
+gaia                            : 2   : GAIA
+Gaia                            : 3   : GAIA
+GAMA                            : 1
+GAMBIT                          : 1
+GAME_FORGE                      : 1   : game_forge
+GAMUT                           : 1
+GAN                             : 8
+GANs                            : 1   : GAN
+GANSynth                        : 1
+GAO                             : 1
+gao                             : 1   : GAO
+GAR                             : 3
+GASP                            : 2
+gba                             : 1
+gcc                             : 1
+gcdt_org                        : 1
+gchq                            : 1
+GCM                             : 1
+GDA                             : 2
+GDC                             : 1
+gdc                             : 12  : GDC
+GDC18                           : 3
+gdc19                           : 1   : GDC19
+GDC19                           : 6
+gdp                             : 3   : GDP
+GDP                             : 5
+gdpr                            : 2   : GDPR
+GDPR                            : 5
+GEMA                            : 1
+GESTER                          : 1
+GFSS                            : 1
+ghc                             : 1
+ghci                            : 1   : ghc
+gif                             : 13
+gifs                            : 3   : gif
+GIMP                            : 1
+gimp                            : 1
+GIS                             : 5
+git                             : 21
+gitmo                           : 1
+gjson                           : 1
+GLAAD                           : 1
+glaad                           : 1   : GLAAD
+glChAoSP                        : 1
+GLR                             : 1
+GLSL                            : 2
+glsl                            : 2   : GLSL
+GLTF                            : 1
+glut                            : 2
+GM                              : 1
+GM_crops                        : 1
+GME                             : 1
+GMM                             : 1
+GMO                             : 2
+gmo                             : 4   : GMO
+gns                             : 1
+gnu                             : 21
+gnupg                           : 8
+GOAL                            : 2
+GOAP                            : 4
+GOFAI                           : 1
+GOGAR                           : 2
+GOLEM                           : 1
+GOLOG                           : 1
+goms                            : 3   : GOMS
+GOMS                            : 7
+GOP                             : 92
+gop                             : 95  : GOP
+GORMAS                          : 3
+GOSP-MAS                        : 1   : GOSP_MAS
+GOSP_MAS                        : 1
+gpg                             : 3
+GPL                             : 1
+gps                             : 1   : GPS
+GPS                             : 2
+gpt_2                           : 2
+gpt_3                           : 1
+gpu                             : 2   : GPU
+GPU                             : 3
+gq                              : 2
+GrACE                           : 1
+grailGM                         : 1   : GrailGM
+GrailGM                         : 2
+GRAKN                           : 1
+GraphQL                         : 1
+GRASP                           : 1
+GRE                             : 2
+GReAT                           : 1
+GRIOT                           : 1
+GRL                             : 2
+GSS                             : 1
+GSTD                            : 1
+GTA                             : 1
+gta5                            : 1
+gtags                           : 1
+GTD                             : 1
+GTI                             : 1
+gtk                             : 3
+gtk2                            : 1
+GTP_2                           : 1
+GUI                             : 8
+GURPS                           : 1
+GVGAI                           : 1
+GWAP                            : 1
+h1n1                            : 1
+h_r_4174                        : 2
+HACKER                          : 1
+HALEF                           : 1
+HARMONIA                        : 1
+HARP                            : 1
+hb_1215                         : 1
+HBCU                            : 1
+hbo                             : 2
+hci                             : 26  : HCI
+HCI                             : 362
+HERA                            : 2
+HFSM                            : 1
+HHCR741                         : 1
+HHS                             : 4
+HIPAA                           : 5   : HIPPA
+HIPPA                           : 1
+HIV                             : 17
+hiv                             : 4   : HIV
+HKB                             : 1
+HKBS                            : 1
+HLAI                            : 1
+HLBL                            : 1
+HLSL                            : 1
+HMV                             : 1
+HOL                             : 2
+HOOD                            : 1
+hp                              : 1
+hpe                             : 1
+hpoem                           : 1
+HPV                             : 1
+HR                              : 4
+HRA_office                      : 1
+HRW                             : 1
+hrw                             : 1   : HRW
+hsb                             : 1
+HSFM                            : 1
+hsfm                            : 1   : HSFM
+HSL                             : 2
+hsl                             : 2   : HSL
+HSP                             : 1
+HSPS                            : 1
+HSV                             : 1
+hsv                             : 1   : HSV
+HTN                             : 4
+HTN_planning                    : 1
+HTNs                            : 1   : HTN
+HUAC                            : 1
+hud                             : 1
+HUMINT                          : 1
+HyDICE                          : 2
+HyPED                           : 1
+I_ABM                           : 2
+IAB                             : 2
+IABM                            : 1   : I_ABM
+IAC                             : 1
+IAD                             : 10
+iaddb                           : 1
+ibm                             : 1   : IBM
+IBM                             : 9
+IBS                             : 1
+ICANN                           : 2
+ICARUS                          : 1
+ICC                             : 1
+ICCJ                            : 1
+ice                             : 1
+ICE                             : 95
+ICIDS                           : 1
+ICJ                             : 1
+ICO                             : 1
+ico                             : 2   : ICO
+ICRAF                           : 1
+ICT                             : 1
+ict                             : 1   : ICT
+ICU                             : 5
+ICU_readings                    : 1
+ICUreadingsinterns              : 1   : ICU_readings
+ICWSM                           : 1
+ID_cards                        : 1
+IDA                             : 1
+ide                             : 1   : IDE
+IDE                             : 20
+IDEs                            : 2   : IDE
+IDGEI                           : 1
+IDL                             : 1
+IDs                             : 1   : ID_cards
+IDtension                       : 1
+IDtensions                      : 1   : IDtension
+IED                             : 1
+ieee                            : 1   : IEEE
+IEEE                            : 3
+IF                              : 4
+IGF2017                         : 1
+IGGI18                          : 1
+IGN                             : 1
+IGU                             : 2
+IHE                             : 1
+III_percent_movement            : 1
+IJCAI                           : 1
+IK                              : 1
+ILP                             : 2
+IMDB                            : 2
+IMF                             : 3
+ImGui                           : 1   : imgui
+imgui                           : 2
+IMMERSE                         : 3
+IN_TALE                         : 1
+inc                             : 1
+inews                           : 2
+infoq                           : 1
+infosec                         : 2   : information_security
+INGENIAS                        : 3
+INScore                         : 1
+InSight                         : 1
+InStaL                          : 1   : InstaL
+InstAL                          : 7   : InstaL
+InstaL                          : 8
+InstQL                          : 1
+INTERRAPP                       : 1
+io9                             : 107 : io_9
+io_9                            : 107
+io_logic                        : 10  : input_output_logics
+IO_logic                        : 5   : input_output_logics
+IOC                             : 1
+iOS                             : 7
+IOSE                            : 1
+IOT                             : 1   : IoT
+IoT                             : 2
+IPA                             : 1
+IPD                             : 4
+IPOCL                           : 2
+IQ                              : 1
+iq                              : 3   : IQ
+IQ_tests                        : 1   : IQ
+iq_tests                        : 1   : IQ
+IR_theory                       : 1
+IRA                             : 1
+IRB                             : 2
+IRBs                            : 1   : IRB
+IRCAM                           : 1
+IRMA                            : 1
+IRON                            : 1
+IRS                             : 4
+ISA                             : 1
+ISAAR                           : 1
+ISADG                           : 1
+ISIL                            : 1   : ISIS
+ISIS                            : 21
+isis                            : 6   : ISIS
+ISLANDER                        : 8
+iso                             : 1
+ISP                             : 1
+isp                             : 3
+ISPAR                           : 1
+ISS                             : 1
+IT                              : 1
+iTree                           : 1
+ITS                             : 3
+ITU                             : 3
+IVA                             : 4
+IVF                             : 1
+ivf                             : 1   : IVF
+JaCaMo                          : 1
+jacamo                          : 1   : JaCaMo
+JACK                            : 1
+JADE                            : 2
+JADEX                           : 1
+JAM                             : 1
+JAMES                           : 1
+Jamocha                         : 1
+jan_6t                          : 1   : january_6th_insurrection
+jan_6th                         : 3   : january_6th_insurrection
+january_6th                     : 3   : january_6th_insurrection
+Janus                           : 1
+Jason                           : 1
+jason                           : 4   : JASON
+JASON                           : 5
+jasss                           : 16  : JASSS
+JASSS                           : 8
+JESS                            : 1
+JIAC                            : 1
+JOLENE                          : 1
+JPL                             : 1
+JRPG                            : 3
+jrpg                            : 3   : JRPG
+jsdoc                           : 1
+JSettlers                       : 1
+json                            : 17
+jstor                           : 3
+jsx                             : 1
+jvm                             : 1
+Kaboom                          : 2
+KAoS                            : 1
+karo                            : 1   : KARO
+KARO                            : 2
+KBS                             : 1
+kbs                             : 1   : KBS
+KCXL                            : 1
+KGB                             : 2
+kgb                             : 2   : KGB
+KGP                             : 1
+KIDS                            : 1
+KIF                             : 1
+KILT                            : 1
+KISS                            : 1
+kkk                             : 11  : KKK
+KKK                             : 20
+KNN                             : 1   : kNN
+kNN                             : 1   : kNN
+KnoRBA                          : 1
+Kodu                            : 1
+Kongo                           : 1
+KONRS                           : 1
+KONT                            : 1
+kptv                            : 1
+KQML                            : 1
+Kyudo                           : 1
+la                              : 2   : LA
+LA                              : 7
+LA_county                       : 1
+LA_noire                        : 1
+LA_review_of_books              : 6
+LA_times                        : 14
+LabVIEW                         : 1
+LAN                             : 2
+LAO                             : 2
+LAPD                            : 3
+LARA                            : 1
+larp                            : 1   : LARP
+LARP                            : 2
+latinx                          : 1
+lccrma                          : 10
+LDA                             : 3
+LDFI                            : 1
+LEAP                            : 1
+LEGIS                           : 1
+LEGO                            : 2
+lego                            : 7   : LEGO
+LGBAlliance                     : 1
+lgbtq                           : 35  : LGBTQ
+LGBTQ                           : 94
+lgtbq                           : 1   : LGBTQ
+LGTBQ                           : 2
+LIAR                            : 1
+LIDA                            : 1
+LIKELIKE                        : 1   : likelike
+LINQ                            : 1
+linq                            : 1   : LINQ
+LINUS                           : 1
+LISSA                           : 1
+LIWC                            : 1
+LL_star                         : 1
+LLT                             : 1
+llvm                            : 8
+lmtonline                       : 1
+lo_fi                           : 1
+loaw                            : 1
+LOD                             : 1
+LOD_Trader                      : 1
+lofi                            : 1
+los_angeles                     : 10  : LA
+LOTR                            : 4
+LPDModel                        : 1
+LRA                             : 1
+lrb                             : 1
+LSA                             : 1
+LSD                             : 2
+lse                             : 1   : LSE
+LSE                             : 4
+LSTM                            : 5
+LTBTQ                           : 2
+LTL                             : 1
+LULU                            : 1
+LVE                             : 1
+lwjgl                           : 2
+MAAD                            : 1
+MACBETH                         : 1
+MACNET                          : 1
+MACSDE                          : 1
+MACSYMA                         : 1
+macsyma                         : 1   : MACSYMA
+MAD                             : 1
+MADM                            : 3
+MAGA                            : 2
+MAGAbomber                      : 1
+maia                            : 1   : MAIA
+MAIA                            : 3
+MAID                            : 1
+MAJ                             : 1
+MALM                            : 1
+MAMID                           : 1
+MaNEA                           : 2
+MAP_Elites                      : 8
+MAPC                            : 1
+MAPL                            : 1
+MAPSIM                          : 1
+MARC21                          : 1
+MARS                            : 1
+mas                             : 1   : MAS
+MAS                             : 264
+MaSE                            : 1
+MASELTOV                        : 1
+MASFMMS                         : 1
+MASL                            : 1
+MASON                           : 4
+MATLAB                          : 1
+matlab                          : 1   : MATLAB
+MAUS                            : 1
+MAUT                            : 1
+maxmsp                          : 1   : max_msp
+MAXQDA                          : 1
+MBSE                            : 1
+MCAT                            : 1
+MCDA                            : 4
+MCDM                            : 9
+MCRDR                           : 1
+MCTS                            : 3
+MCU                             : 1
+mcu                             : 1   : MCU
+MD5                             : 2
+md5                             : 2   : MD5
+mda                             : 1   : MDA
+MDA                             : 3
+MDA. framework                  : 1   : MDA
+MDE                             : 15
+MDMP                            : 1
+MDN                             : 1
+mdn                             : 1   : MDN
+MDP                             : 1
+MDPI                            : 1
+mdpi                            : 1   : MDPI
+MDPs                            : 1   : MDP
+MDSO                            : 1
+mdsp                            : 1
+memex                           : 3
+MENA                            : 1
+MEP                             : 1
+mep                             : 1   : MEP
+MetaPRL                         : 1
+mfa                             : 1
+MFLC                            : 1
+MH17                            : 1
+MHP                             : 3
+MI5                             : 1
+mi5                             : 1   : MI5
+MI6                             : 2
+MI_CC                           : 1
+MIDI                            : 1
+MiMaze                          : 1
+mime                            : 2
+Mimesis                         : 4   : mimesis
+MINSTREL                        : 1
+minstrel                        : 1   : MINSTREL
+MIPS                            : 1
+MIRO                            : 1
+misc                            : 2
+mit                             : 33  : MIT
+MIT                             : 6
+MIXTAPE                         : 1
+MKULTRA                         : 1
+ml                              : 1   : machine_learning
+mmo                             : 49  : MMO
+MMO                             : 5
+MMOGs                           : 1   : MMO
+MMORPG                          : 12
+mmorpg                          : 3   : MMORPG
+MMORPGS                         : 1   : MMORPG
+MMORPGs                         : 12  : MMORPG
+MMOs                            : 10  : MMO
+MMR                             : 1
+mnist                           : 2
+moba                            : 1
+MOBA                            : 2
+MOChA                           : 1
+MODM                            : 1
+MODP                            : 1
+Moise                           : 1   : MOISE
+MOISE                           : 10
+moise                           : 3   : MOISE
+MONAD                           : 1
+MOO                             : 2
+MOOCs                           : 1
+moocs                           : 1   : MOOCs
+MoralDM                         : 1
+MorpheuS                        : 1
+MOVE9                           : 1
+MovMote                         : 1
+mp                              : 2   : member_of_parliament
+MPAA                            : 14
+MPP                             : 1
+MPs                             : 1   : member_of_parliament
+mps                             : 1   : member_of_parliament
+MPS                             : 2   : member_of_parliament
+MRAs                            : 1
+MRI                             : 1
+mri                             : 1   : MRI
+ms13                            : 1
+MSC                             : 1
+MSC2019                         : 2
+MSDO                            : 1
+MSG                             : 1
+msg                             : 1   : MSG
+msnbc                           : 11  : MSNBC
+MSNBC                           : 13
+MSOS                            : 1
+MSS                             : 1
+MTA                             : 1
+mta                             : 1   : MTA
+MTBD                            : 1
+MTCS                            : 1
+mtg                             : 1   : MTG
+MTG                             : 2
+MTurk                           : 1
+MTV                             : 1
+mtv                             : 1   : MTV
+mu4e                            : 1
+MUC_4                           : 1
+mud                             : 1   : MUD
+MUD                             : 7
+MUDs                            : 1   : MUD
+muds                            : 1   : MUD
+MULTIS                          : 1
+MUSA                            : 1
+MusInk                          : 1
+mutex                           : 1
+mWater                          : 1
+MXC                             : 1
+MYCIN                           : 2
+mypy                            : 1
+N3                              : 1
+n_BDI                           : 1
+n_gram                          : 3
+n_grams                         : 2   : n_gram
+NAACP                           : 3
+nADICO                          : 3
+nafta                           : 1
+NAGPRA                          : 1
+NAISA_effect                    : 1
+NAMS                            : 1
+nanogenmo                       : 1
+nanwrimo                        : 1
+NARS                            : 1
+NASA                            : 13
+nasa                            : 19  : NASA
+NAT                             : 1
+natgeo                          : 1   : national_geographic
+NATO                            : 1
+natsec                          : 1   : national_security
+NATYASASTRA                     : 1
+NautiLOD                        : 1
+nav_mesh                        : 1
+navmesh                         : 1
+NAWSA                           : 1
+NBC                             : 15
+nbc                             : 15  : NBC
+NBER                            : 1
+nc9                             : 1
+ncaa                            : 1
+ncai                            : 1
+ncbi                            : 9
+ncdc                            : 8   : CDC
+NCII                            : 1
+NCLB                            : 1
+NCOBRA                          : 1
+ncsl                            : 1
+NEAT                            : 1
+neh                             : 1
+Neo4j                           : 1
+NER                             : 2
+NERO                            : 1
+nes                             : 1   : NES
+NES                             : 4
+NFL                             : 2
+nfl                             : 3   : NFL
+NGO                             : 1
+NGOMSL                          : 1
+NGOs                            : 1
+NHL                             : 2
+nhs                             : 4   : NHS
+NHS                             : 7
+NIH                             : 2
+nimby                           : 2
+NIMBY                           : 6
+nin                             : 2   : NIN
+NIN                             : 3
+nine_inch_nails                 : 1   : NIN
+NIPS                            : 3
+NIST                            : 1
+nlp                             : 119 : NLP
+NLP                             : 141
+nlp. utterances                 : 1   : NLP
+NLSY                            : 1
+nltk                            : 1   : NLTK
+NLTK                            : 6
+NMFD                            : 1
+NoA                             : 1
+NOAA                            : 2
+NoHR                            : 1
+NoMoDEI                         : 1
+NOPL                            : 1
+NorMAS                          : 1
+normas                          : 1   : norMAS
+norMAS                          : 7
+NoSQL                           : 1
+NP_hard                         : 1   : np_hard
+NPA                             : 1
+npc                             : 10  : NPC
+NPC                             : 7
+NPC_design                      : 1
+NPCs                            : 49  : NPC
+npcs                            : 5   : NPC
+NPL                             : 1
+NPM                             : 2
+npr                             : 13  : NPR
+NPR                             : 24
+NRA                             : 5
+NRM                             : 1
+NROL_39                         : 2
+NSA                             : 6
+NSC                             : 1
+NSF                             : 1
+nsf                             : 1   : NSF
+NSM                             : 1
+ntyimes                         : 1   : new_york_times
+NuPRL                           : 1
+NYC                             : 3   : new_york_city
+nymag                           : 1   : ny_mag
+NYPD                            : 17
+nypd                            : 4   : NYPD
+NYT                             : 2   : new_york_times
+nytime                          : 1   : new_york_times
+nytimes                         : 48  : new_york_times
+NYU                             : 2
+O-MaSE                          : 2   : o_MaSE
+O3F                             : 1
+o_MaSE                          : 1
+OAN                             : 1
+OBDA                            : 1
+OBELIX                          : 1
+obgyn                           : 1
+objc                            : 9   : objective_c
+OCeAN                           : 2
+ODD                             : 3
+ODD_protocol                    : 2
+ODE                             : 1
+ode                             : 2   : ODE
+ODIS                            : 1
+ODMAS                           : 1
+ofcom                           : 1
+ofom                            : 1   : ofcom
+ogre                            : 11
+ohchr                           : 1   : UN_human_rights
+oia                             : 1
+OIG                             : 5
+OLAP                            : 1
+OMACS                           : 1
+OMeta                           : 1
+OML                             : 1
+OMNI                            : 1
+onExpose                        : 1
+ONS                             : 1
+OntoMorph                       : 1
+OO_logic                        : 2
+OODA                            : 1
+OOjDREW                         : 1
+OOP                             : 4
+op_ed                           : 1
+openPGP                         : 1   : open_pgp
+OperA                           : 2
+OperettA                        : 2
+OPS                             : 1
+OPS5                            : 1
+OptiML                          : 1
+ORA4MAS                         : 4
+ORIENT                          : 2
+OSC                             : 1   : osc
+osc                             : 10
+OSCAR                           : 1
+osf                             : 1
+OSHA                            : 1
+Osiris                          : 1
+OSS                             : 1
+OSX                             : 23
+osx                             : 23  : OSX
+Otello                          : 1
+OTP                             : 1
+owl                             : 2   : OWL
+OWL                             : 6
+Oz                              : 3
+p-log                           : 1   : p_log
+p3                              : 1
+p_hacking                       : 7
+p_k_metric                      : 1
+p_log                           : 1
+p_np                            : 1   : p_vs_np
+p_values                        : 4
+p_vs_np                         : 1
+PaaS                            : 1
+PAC                             : 1
+PACs                            : 1
+PAR                             : 2
+PARAGon                         : 1
+PARC                            : 1
+parsl                           : 1
+PASHAMAMA                       : 1
+PaSSAGE                         : 1
+pbs                             : 1   : PBS
+PBS                             : 3
+PBT                             : 1
+PCA                             : 3
+PCB                             : 2
+PCM                             : 1
+PCMAT                           : 1
+PDDL                            : 3
+pdf                             : 197
+pdfrw                           : 1
+PDI                             : 1
+PDL                             : 3
+PDP                             : 1
+PDPs                            : 1
+PDT                             : 1
+PE                              : 1
+PECS                            : 1
+peerj                           : 1
+PEG                             : 1
+PEGI                            : 1
+pep8                            : 2   : pep_8
+pep_8                           : 1
+PERSONAGE                       : 1
+personage                       : 1   : PERSONAGE
+PES                             : 3
+PESTLE                          : 1
+PET                             : 4
+petro_violence                  : 1   : TO_CHECK
+pew                             : 15
+PFAS                            : 1
+pfas                            : 1   : PFAS
+PFLP                            : 1
+pfoa                            : 1
+pfos                            : 1
+pg&e                            : 1   : pg_and_e
+pg_and_e                        : 6
+PGH                             : 1
+PGP                             : 1
+pico8                           : 2
+PIL                             : 1
+pil                             : 2   : PIL
+PILOps                          : 1
+PIM                             : 13
+PIMM                            : 1
+pip                             : 1
+plaidml                         : 1
+PLASMA                          : 1
+PLATO                           : 2
+PLM                             : 1
+PLOrk                           : 1
+plos_one                        : 2
+ply                             : 1
+pnas                            : 1
+POC                             : 16
+poc                             : 5   : POC
+POMDP                           : 3
+POPL                            : 1
+popl                            : 1   : POPL
+pos                             : 1
+posh                            : 1   : POSH
+POSH                            : 8
+POSH_SHARP                      : 2
+POSL                            : 1
+pow                             : 1
+PPC                             : 1
+PPD                             : 1
+PPE                             : 2
+PR                              : 1
+PREFORMA                        : 1
+PreSage                         : 1
+Presage2                        : 1
+PRESTO                          : 1
+PREVENT                         : 3
+PRG                             : 1
+pri                             : 1
+PRIMER                          : 1
+PRL                             : 1
+PRM                             : 1
+procjam                         : 1
+PRODIGY                         : 1
+produsage                       : 1
+PROMETHEE                       : 2
+PROMETHEUS                      : 1
+Prometheus                      : 4   : PROMETHEUS
+prometheus                      : 4   : PROMETHEUS
+prop_8                          : 1
+PROSE                           : 1
+Protege                         : 1   : protege
+PROVA                           : 1
+PRS                             : 5
+PSA                             : 1
+PSI                             : 1
+PSOA                            : 1
+PSP                             : 1
+PSTN                            : 1
+psx                             : 1
+psyarxiv                        : 1
+PsyOps                          : 1
+PTSD                            : 10
+ptsd                            : 4   : PTSD
+pub_med                         : 2
+py2                             : 1
+py2exe                          : 1
+py_repr                         : 1
+py_str                          : 1
+pycon                           : 1
+pycx                            : 1
+pycycle                         : 1
+pygraphviz                      : 7
+pylint                          : 1
+pymc                            : 1
+pymc3                           : 1
+pyside                          : 1
+pystan                          : 1
+pytq                            : 1
+q_learning                      : 7
+QA                              : 4
+QAD                             : 1
+QAnon                           : 3
+qanon                           : 3   : QAnon
+QCA                             : 1
+QED                             : 1
+QList                           : 1
+QOC                             : 2
+QRCodes                         : 1
+QT                              : 3
+qt                              : 3   : QT
+quadtrees                       : 1
+queerSTS                        : 1
+QUEST                           : 1
+qz                              : 1
+R                               : 1
+Raft                            : 1   : raft
+RAINN                           : 2
+rainn                           : 2   : RAINN
+RAND                            : 1
+rand                            : 4   : RAND
+RASC                            : 1
+RASCAL                          : 2
+Rascal                          : 2   : RASCAL
+rascal                          : 2   : RASCAL
+RASE                            : 1
+RAT                             : 1
+RBox                            : 1
+RBS                             : 1
+RCMP                            : 1
+RCT                             : 1
+RCTs                            : 1   : RCT
+RDF                             : 1
+rdf                             : 3   : RDF
+RDoC                            : 1
+REACT                           : 1
+RECALL                          : 1
+REDD                            : 1
+regex                           : 1   : regexp
+regexp                          : 18
+rehab                           : 1   : rehabilitation
+REINFORCE                       : 1
+Reo                             : 2   : reo
+REPAGE                          : 1
+repo                            : 2
+ReSkii                          : 1
+REST                            : 2
+RESTORE                         : 1
+RETE                            : 1
+rete                            : 28  : RETE
+RETORCH                         : 1
+REVOLT                          : 1
+REWE                            : 1
+rfc                             : 1
+RFC_1                           : 1
+RFID                            : 3
+rgb                             : 2
+RHO_calculus                    : 1
+RIAA                            : 10
+RIF_RPD                         : 1
+RIFTS                           : 1
+RISC                            : 1
+RISLA                           : 1
+ROA                             : 1
+ROADMAP                         : 1
+ROCIC                           : 1
+rom                             : 1   : roms
+roms                            : 2
+ROS                             : 1
+ROSI                            : 1
+RPB                             : 1
+rpg                             : 116 : RPG
+RPG                             : 166
+RPGs                            : 2   : RPG
+rpgs                            : 46  : RPG
+rps                             : 4   : rock_paper_shotgun
+RSA                             : 1
+RSS                             : 1
+rss                             : 1   : RSS
+RST                             : 1
+RTS                             : 9
+ruleml                          : 1   : RuleML
+RuleML                          : 3
+ruleML                          : 8   : RuleML
+RUM                             : 1
+SAAS                            : 1   : SaaS
+SaaS                            : 2
+SAFs                            : 1
+SAGE                            : 2
+sage                            : 2
+SAIBA                           : 1
+SAIL                            : 1
+SAIMR                           : 1
+SALT                            : 1
+SARSA                           : 1
+SAT                             : 3
+sati                            : 1
+SBVR                            : 1
+SCAM                            : 1
+SCHEHERAZADE                    : 1
+scheherazade                    : 2   : SCHEHERAZADE
+sci_fi                          : 115
+SCIFF                           : 1
+scifi                           : 112 : sci_fi
+scikit                          : 3
+scikit_learn                    : 7
+scipy                           : 5
+scotus                          : 31  : SCOTUS
+SCOTUS                          : 56
+SCPR                            : 1
+scpr                            : 1   : SCPR
+SCXML                           : 1
+SDK                             : 1
+sdk                             : 1   : SDK
+SDL                             : 1
+sdl                             : 3   : SDL
+SDO                             : 1
+sed                             : 2
+SEEDS                           : 1
+SeMoA                           : 1
+SEPTA                           : 3
+SES                             : 2
+SETI                            : 1
+sex_ed                          : 1
+SF                              : 1
+SF_chronicle                    : 1
+SF_gate                         : 10
+sfamv                           : 3
+sfchronicle                     : 1   : SF_chronicle
+SFF                             : 1
+sfgate                          : 10  : SF_gate
+SFPD                            : 1
+SHACL                           : 1
+SHARK                           : 1
+SHINE                           : 1
+shrdlu                          : 1   : SHRDLU
+SHRDLU                          : 2
+SHriMP                          : 1
+sim                             : 12  : simulation
+SIMD                            : 1
+SIMDEI                          : 1
+SIMON                           : 1
+SIMPLE                          : 4
+simpy                           : 1
+SIP                             : 1
+SIP agents                      : 1   : SIP : agents
+Siren                           : 2
+SISCONFLUX                      : 1
+SIT                             : 1
+Six4Three                       : 1
+six4three                       : 1   : Six4Three
+sjw                             : 1   : SJW
+SJW                             : 2
+SKAD                            : 1
+sklearn                         : 1
+SLAPP                           : 1
+SLO_county                      : 1
+SMart                           : 1
+SMARTedit                       : 1
+SmartRL                         : 1
+smax                            : 1
+smbc                            : 1
+SMDE                            : 1
+smh                             : 3
+SMT                             : 1
+SNAP                            : 8
+SNePS                           : 1
+SNIF_ACT                        : 1
+SNL                             : 1
+SNSAT                           : 1
+snuff                           : 1
+snuff_film                      : 1   : snuff
+SOA                             : 1
+soaps                           : 1   : soap
+SOAR                            : 10
+soar                            : 7   : SOAR
+SOARS                           : 1   : SOAR
+SOCIONICAL                      : 1
+SocLab                          : 1
+SOCRATE                         : 1
+SoDA                            : 1
+SODA                            : 1   : SoDA
+soe                             : 1
+sof                             : 1
+SOLID                           : 1
+SOPA                            : 1
+SOS                             : 1
+SOTA                            : 1   : state_of_the_art
+SOTU                            : 1
+SPARC                           : 1
+SPARQL                          : 1
+spec_ops                        : 3
+specs                           : 1   : specification
+SPIM                            : 1
+spl                             : 1
+SPLC                            : 2
+splc                            : 2   : SPLC
+SPOSH                           : 1
+SPRING                          : 1
+SPSS                            : 1
+spss                            : 1   : SPSS
+sql                             : 15  : SQL
+SQL                             : 2
+SQUEGE                          : 1
+SRAT                            : 1
+SRE                             : 1
+SRN_SIC                         : 1
+SRO                             : 1
+SSI                             : 2
+SSL                             : 1
+ssl                             : 1   : SSL
+SSRI                            : 1
+ssri                            : 1   : SSRI
+ssrn                            : 1
+STALKER                         : 1
+STATA                           : 1
+state_machine                   : 1   : FSMs
+state_machines                  : 3   : FSMs
+STEM                            : 7
+stit                            : 2   : STIT
+STIT                            : 6
+STIT_logic                      : 5
+stit_logic                      : 5   : STIT_logic
+STL                             : 1
+stl                             : 1   : STL
+STRIPS                          : 5
+STS                             : 32
+sts                             : 5   : STS
+STUDENT                         : 1
+SUGILITE                        : 1
+supreme_court                   : 1   : SCOTUS
+SVD                             : 1
+svd                             : 1   : SVD
+SVG                             : 1
+SVM                             : 8
+SVR                             : 1
+swat                            : 1   : SWAT
+SWAT                            : 4
+swf                             : 1
+SWRL                            : 1
+SWSD                            : 1
+SYNAI                           : 1
+SYNVIEW                         : 1
+T_M_O_framework                 : 1
+t_test                          : 1
+t_tests                         : 1   : t_test
+TABA                            : 1
+TABDUAL                         : 1
+TACT                            : 1
+TAG                             : 1   : tree_adjoining_grammar
+TAGinator                       : 1
+TAGs                            : 1
+TANAGRA                         : 1
+tanagra                         : 1   : TANAGRA
+Tanagra                         : 1   : TANAGRA
+TANF                            : 1
+TARDIS                          : 1
+TB                              : 1
+TBHW                            : 1
+TBox                            : 1
+TBoxes                          : 1   : TBox
+tcf                             : 1
+tchad                           : 1
+TCL                             : 1
+TCP                             : 1
+tcp_ip                          : 1
+TCPA                            : 1
+td_org                          : 1
+tdd                             : 2
+TEAM                            : 1
+ted                             : 1
+TEMPO                           : 1
+terf                            : 1   : TERF
+TERF                            : 20
+terfs                           : 1   : TERF
+tf2                             : 6
+tf_idf                          : 1
+TFL                             : 1
+TGGs                            : 1
+the_OA                          : 1
+therac                          : 1   : THERAC_25
+THERAC_25                       : 1
+THOMAS                          : 1
+TI                              : 1
+TIDSE                           : 1
+TIS_100                         : 1
+title_IX                        : 1
+TLA                             : 1
+tla                             : 1   : TLA
+TLOU2                           : 1
+TLS                             : 1
+TLTS                            : 2
+TMO_framework                   : 1
+TMS                             : 3
+TNO                             : 1
+TOAST                           : 1
+TOGA                            : 1
+TOPLAP                          : 1
+TOPOI                           : 1
+TOPSIS                          : 1
+TORCS                           : 2
+TORG                            : 2
+TPC-E                           : 1   : TPC_E
+TPC_E                           : 1
+TPM                             : 3
+tpm                             : 3   : TPM
+TPP                             : 5
+TPS                             : 1
+TPTL-BIH                        : 1   : TPTL_BIH
+TPTL_BIH                        : 1
+TRAC                            : 2
+TRAME                           : 1
+TransNet                        : 1
+TREAT                           : 1
+TriG                            : 1
+TRIPS                           : 1
+TropICAL                        : 1
+TROPOS                          : 1
+TRURL                           : 1
+TSA                             : 2
+tsa                             : 7   : TSA
+TTRPG                           : 1   : table_top_rpg
+ttrpg                           : 10  : table_top_rpg
+TuCSon                          : 1
+TV                              : 1   : tv
+tv                              : 24
+TVA                             : 2
+TWP                             : 1
+tyt                             : 2
+u.s.c                           : 1   : united_states_code
+UAV                             : 1
+UBF                             : 1
+UBI                             : 1
+UC_berkeley                     : 2
+UCLA                            : 1
+ucla                            : 1   : UCLA
+UCPD                            : 1
+UCSA                            : 1
+UCSC                            : 2
+ucsc                            : 2   : UCSC
+udsa                            : 1   : UCSA
+UFO                             : 1
+ufo                             : 3   : UFO
+UI                              : 57
+ui                              : 73  : UI
+UISF                            : 1
+uk                              : 134 : UK
+UK                              : 169
+ukip                            : 2
+um                              : 1
+umass                           : 1
+UML                             : 7
+UN                              : 11  : united_nations
+un                              : 2   : united_nations
+UN_human_rights                 : 1   : united_nations : human_rights
+UNC                             : 1
+unc_press                       : 1
+united_kingdom                  : 5   : UK
+UNIX                            : 1   : unix
+UNLV                            : 1
+UO                              : 1   : ultima_online
+UPPAAL                          : 1
+UPS                             : 3
+URR                             : 1
+urwid                           : 1
+us                              : 11  : USA
+US                              : 18  : USA
+US Government                   : 1   : US_government
+US_Government                   : 2   : US_government
+usa                             : 14  : USA
+USA                             : 343
+USA_mexico_border               : 1   : US_mexico_border
+usb                             : 1
+uscc                            : 1   : US_commission_on_civil_rights
+usccr                           : 1   : US_commission_on_civil_rights
+USCIS                           : 1
+USDA                            : 2
+USGS                            : 1
+usgs                            : 1   : USGS
+USMCA                           : 1
+usnews                          : 1   : US_news
+USPO                            : 1
+uspo                            : 1   : USPO
+usps                            : 1   : USPS
+USPS                            : 2
+USPTO                           : 4
+uspto                           : 4   : USPTO
+USS_Roosevelt                   : 2
+ussr                            : 1   : USSR
+USSR                            : 7
+USTR                            : 2
+ustr                            : 2   : USTR
+UT_Dallas                       : 1
+UTA                             : 1
+UTAG                            : 1
+UTC                             : 1
+utf8                            : 1
+utsnyc                          : 1
+uvs                             : 2
+UX                              : 3
+ux                              : 38  : UX
+UX_planet                       : 1
+uxplanet                        : 1   : UX_planet
+VA                              : 1
+va                              : 1   : VA
+VAM                             : 1
+VAWA                            : 1
+VC                              : 1
+VCS                             : 2
+VECTOR                          : 1
+VFX                             : 1
+VGDL                            : 1
+vhdl                            : 1
+vhs                             : 1   : VHS
+VHS                             : 2
+VIATRA                          : 1
+video_game_description_language : 1   : VGDL
+violent_action                  : 1   : TO_CHECK
+VIRIs                           : 1
+visa                            : 3
+VisiCalc                        : 1
+viva                            : 10
+VLSI                            : 1
+vocab                           : 1   : vocabulary
+VoIP                            : 1
+VOMAS                           : 1
+voxdev                          : 2
+VQR                             : 1
+vqronline                       : 6
+VR                              : 3
+VRA                             : 4
+VTMB                            : 3
+vvvv                            : 1   : VVVVVVV
+vvvvv                           : 1   : VVVVVVV
+VVVVVVV                         : 3
+w3                              : 3
+WADE                            : 1
+wafb                            : 1
+wapo                            : 52  : washington_post
+WASPs                           : 1
+wasps                           : 1   : WASPs
+WAT                             : 1
+WAVES                           : 1   : waves
+wbez                            : 2
+wcbs880                         : 1
+wcd_fyi                         : 1
+WEB                             : 1
+web_GL                          : 10
+WebDAV                          : 1
+WebDSL                          : 1
+webGL                           : 1   : web_GL
+webgl                           : 9   : web_GL
+WEBQUESTIONSSP                  : 1
+WHCD                            : 1
+whcd                            : 1   : WHCD
+WHO                             : 2
+who                             : 2   : WHO
+wifi                            : 3
+wiki                            : 18
+WIPO                            : 2
+WIZARDABSS                      : 1
+wmmna                           : 1
+WOC                             : 1
+woc                             : 1   : WOC
+wol                             : 1
+WOSPP                           : 1
+WoW                             : 25  : world_of_warcraft
+WOZ                             : 1
+wreg                            : 1
+wsbt                            : 1
+wsbtv                           : 1
+WSJ                             : 5
+wsj                             : 5   : WSJ
+WSM                             : 1
+WSTS                            : 1
+wtf                             : 1
+WW1                             : 2   : world_war_1
+ww2                             : 1   : world_war_2
+WW2                             : 2   : world_war_2
+www                             : 1   : web
+x11                             : 1
+x_com                           : 14
+XAI                             : 1
+xcom                            : 2   : x_com
+XCS                             : 1
+XFT                             : 1
+XKCD                            : 8
+xkcd                            : 8   : XKCD
+xml                             : 4   : XML
+XML                             : 7
+XML_schema                      : 1
+XNA                             : 3
+XOD                             : 1
+XPDL                            : 1
+XSB                             : 1
+xsb                             : 1   : XSB
+XSB_prolog                      : 1
+XSPEM                           : 1
+XTAG                            : 1
+Xtext                           : 1
+xTREE                           : 1
+y2k                             : 2
+yale                            : 4
+yaml                            : 2
+YARN                            : 1
+yarn                            : 5   : YARN
+YMIR                            : 1
+ymir                            : 1   : YMIR
+YOLO                            : 1
+yup_ik                          : 1
+ZChaff                          : 1

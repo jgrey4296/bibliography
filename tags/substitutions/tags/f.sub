@@ -1,0 +1,721 @@
+f#                                       : 1  : f_sharp
+f_logic                                  : 1
+F_logic                                  : 1 : f_logic
+f_sharp                                  : 9
+fable                                    : 4
+fable_3                                  : 1
+fabled_lands                             : 1
+fables                                   : 1
+fabric                                   : 1
+fabric_swatch                            : 1
+fabry_perot_resonator                    : 1
+fabula                                   : 1
+fabulist                                 : 1
+Fabulist                                 : 1  : fabulist
+facade                                   : 10
+face                                     : 1
+face_blind                               : 1
+face_mask                                : 2
+face_masks                               : 7  : face_mask
+face_off                                 : 1
+face_recognition                         : 2
+Facebook                                 : 1 : facebook
+facebook                                 : 105
+facebook_live                            : 1
+faces                                    : 2
+facetime                                 : 1
+facial_animation                         : 1
+facial_expression                        : 1
+facial_hair                              : 1
+facial_recognition                       : 6
+facing_south                             : 1
+facsism                                  : 1  : fascism
+fact_check                               : 15
+fact_checking                            : 1
+factcheck                                : 1  : fact_check
+facticity                                : 1
+factions                                 : 3
+factor_analysis                          : 1
+factorized_learning                      : 1
+factors                                  : 2
+factory_acts                             : 1
+facts                                    : 3
+fail                                     : 1
+fail_better                              : 1
+failed_architecture                      : 4
+failed_state                             : 1
+failure                                  : 24
+failure_diagnosis                        : 1
+failure_logic                            : 1
+failure_semantics                        : 1
+fair_credit_reporting_act                : 1
+fair_housing_act                         : 1
+fair_use                                 : 15
+fairground                               : 1
+fairness                                 : 6
+fairy_lore                               : 1
+fairy_rings                              : 1
+fairy_tale                               : 2
+fairy_tales                              : 1 : fairy_tale
+fairy_tle                                : 2 : fairy_tale
+fairy_wren                               : 1
+fairytales                               : 2  : fairy_tale
+faith                                    : 6
+faith_based_media                        : 1
+faith_based_welfare                      : 1
+fake                                     : 7
+fake_christians                          : 1
+fake_news                                : 8
+fake_people                              : 1
+fake_university                          : 1
+faked                                    : 1
+falcons                                  : 1
+falkirk                                  : 1
+falklands_war                            : 1
+fallacies                                : 1
+fallacy                                  : 1
+fallbout                                 : 1
+fallen_london                            : 1
+fallout                                  : 32
+fallout_76                               : 1
+fallout_shelter                          : 3
+fallow                                   : 1
+fallujah                                 : 1
+false_balance                            : 1
+false_choice                             : 1
+false_conviction                         : 1
+false_equivalence                        : 1
+false_facts                              : 3
+false_flag                               : 1
+false_negatives                          : 1
+false_positives                          : 1
+false_quote                              : 2
+falsehoods                               : 1
+falsification                            : 3
+fame                                     : 2
+familiarity                              : 1
+familism                                 : 1
+family                                   : 10
+family_crests                            : 1
+family_farms                             : 2
+family_guy                               : 1
+family_planning                          : 1
+family_separation                        : 8
+family_sparation                         : 1  : family_separation
+family_structure                         : 1
+family_tree                              : 2
+family_values                            : 2
+famine                                   : 1
+fan_fiction                              : 1
+fan_labour                               : 1
+fanaticism                               : 1
+fandom                                   : 1
+fanfiction                               : 1
+fanon                                    : 1
+fantacism                                : 1 : fanaticism
+fantasy                                  : 39
+fantasy_console                          : 1
+fantasy_society                          : 1
+fappening                                : 1
+far_cry                                  : 9
+far_right                                : 13
+farage                                   : 1
+fararo                                   : 1
+farce_of_consent                         : 1
+fare_evasion                             : 1
+farenheit_451                            : 1
+farm_bill                                : 1
+farm_grants                              : 1
+farmers                                  : 2  : farming
+farmers_markets                          : 1
+farming                                  : 28
+farms                                    : 1  : farming
+farnam_street                            : 1
+fart                                     : 1
+fascism                                  : 50
+fashion                                  : 29
+fast_and_furious                         : 2
+fast_company                             : 5
+fast_food                                : 1
+Fast_Forward                             : 1
+fast_inverse_square_root                 : 1
+fast_learning                            : 1
+fast_travel                              : 1
+fastai                                   : 1
+fastcase                                 : 1
+fastcompany                              : 1
+fasting                                  : 1
+fasts                                    : 1
+fasttravel                               : 1  : fast_travel
+fat                                      : 2
+fat_phobia                               : 2  : fatphobia
+fatherhood                               : 1
+fathon                                   : 1
+fatigue                                  : 1
+fatphobia                                : 5
+fault                                    : 3
+fault_detection                          : 1
+fault_injection                          : 1
+fault_localization                       : 1
+fault_recovery                           : 1
+fault_tolerance                          : 3
+faults                                   : 1
+fauna_preservation_society               : 1
+fauna_preserveration_society             : 1 : fauna_preservation_society
+faust                                    : 1
+favelas                                  : 1
+favouritism                              : 3
+fax                                      : 2  : fax_machine
+fax_machine                              : 2
+fear                                     : 9
+fear_mongering                           : 1
+feast_of_odin                            : 1
+feasts                                   : 1
+feature_creep                            : 1
+feature_engineering                      : 2
+feature_extraction_join_query            : 1
+feature_factor_relationship              : 1
+feature_models                           : 1
+feature_space                            : 1
+federal                                  : 3
+federal_agencies                         : 2  : federal_agency
+federal_agency                           : 1
+federal_business_opportunities           : 1
+federal_government                       : 3
+federal_judge                            : 2
+federal_register                         : 1
+federal_regulations                      : 2
+federal_reserve                          : 1
+federal_sentencing                       : 1
+federal_shutdown                         : 3
+federal_waivers                          : 1
+federalism                               : 3
+federalist                               : 3
+federalist_papers                        : 1
+federalists                              : 1  : federalist
+federation_for_constitutional_government : 1
+fedora                                   : 1
+feedback                                 : 7
+feedback_loop                            : 1
+feedback_loops                           : 1 : feedback_loop
+feel_good_stories                        : 1
+feelings                                 : 1
+fees                                     : 1
+feet                                     : 1
+felon_disenfranchisement                 : 1
+felon_voting                             : 2
+felonies                                 : 1  : felony
+felons                                   : 3
+felony                                   : 1
+Female                                   : 1  : female
+female                                   : 2
+female_gaze                              : 1
+female_protagonists                      : 2
+female_radicalisation                    : 1
+femdom                                   : 1
+femicide                                 : 1
+feminism                                 : 146
+feminist_alexa                           : 1
+feminist_frequency                       : 1
+feminist_hulk                            : 1
+feminist_photography                     : 1
+fencing                                  : 1
+fentanyl                                 : 1
+ferguson                                 : 4
+fermentation                             : 1
+fermi_paradox                            : 1
+ferrari                                  : 1
+ferrero_rocher                           : 1
+fertilisation                            : 1
+fertility                                : 10
+festival                                 : 1
+festivals                                : 2 : festival
+fet_lang                                 : 1
+fetch_quest                              : 1
+fetish                                   : 1
+fetishism                                : 2
+fetus                                    : 2
+feudal_gynarchy                          : 1
+feudalism                                : 1
+feuds                                    : 1
+fez                                      : 1
+fiat                                     : 1
+fibre                                    : 1
+fiction                                  : 137
+fiduciary                                : 1
+field                                    : 6
+field_based_research                     : 1
+field_experiments                        : 1
+field_positions                          : 1
+field_recording                          : 1
+field_study                              : 1
+fields                                   : 16 : field
+fieldwork                                : 1
+fifth_amendment                          : 1
+fifth_circuit                            : 2
+fifty_shade_of_grey                      : 1  : fifty_shades
+fifty_shades                             : 2
+fighter_jets                             : 1
+fighter_pilots                           : 1
+fighting_words                           : 1
+figures                                  : 1
+figurines                                : 2
+file_format                              : 4
+file_handling                            : 1
+file_management                          : 1
+file_sharing                             : 8
+file_storage                             : 1
+file_structures                          : 1
+file_systems                             : 2
+filibuster                               : 2
+filipina                                 : 1
+film                                     : 100
+film_analysis                            : 3
+film_crit                                : 4
+film_noir                                : 1
+film_school_rejects                      : 3
+filming                                  : 1
+films                                    : 2  : film
+films_for_action                         : 1
+filmschoolrejects                        : 2  : film_school_rejects
+filmsforaction                           : 1  : films_for_action
+filter                                   : 3
+filter_bubble                            : 2
+filters                                  : 1  : filter
+final_fantasy                            : 8
+finance                                  : 52
+finances                                 : 1 : finance
+financial_abuse                          : 1
+financial_aid                            : 1
+financial_crime                          : 1
+financial_crimes                         : 2  : financial_crime
+financial_crisis                         : 2
+financial_disparity                      : 1
+financial_entropy                        : 1
+financial_freedom                        : 1
+financial_history                        : 1
+financial_services_committee             : 1
+financial_settlement                     : 1
+financial_terrorism                      : 1
+financialization                         : 1
+financy                                  : 1
+find                                     : 1
+findability                              : 1
+fine                                     : 1
+fines                                    : 8 : fine
+fingerprint                              : 1
+fingerprints                             : 2  : fingerprint
+finite_cognitive_capacity                : 1
+finite_model_theory                      : 1
+finite_state                             : 1
+finite_state_machine                     : 4  : FSMs
+finite_state_machines                    : 7  : FSMs
+finland                                  : 7
+fire                                     : 7
+fire_insurance                           : 1
+fire_sales                               : 1
+firearms                                 : 4
+firefighters                             : 3
+firefighting                             : 2
+firefly                                  : 2
+firefox                                  : 12
+firefox_only                             : 1
+fireteam                                 : 1
+firm                                     : 2  : firms
+firms                                    : 11
+firmware                                 : 1
+first_aid_kits                           : 1
+first_amendment                          : 2
+first_black_compsci_phd                  : 1
+first_nations                            : 7
+first_person_shooter                     : 1
+first_principles_thinking                : 2
+first_responders                         : 1
+first_sale                               : 2
+first_things                             : 1
+first_world_war                          : 1
+fiscal_credibility                       : 1
+fiscal_policy                            : 1
+fish                                     : 4
+fish_market                              : 1
+fish_monk                                : 1
+fish_tanks                               : 1
+fisheries                                : 1 : fishery
+fishery                                  : 1
+fishing                                  : 5
+fit_to_work                              : 1
+fitness                                  : 1
+fitness_class                            : 1
+fitness_function                         : 1
+fitness_function_hacking                 : 1
+fitness_functions                        : 1 : fitness_function
+fitness_landscape                        : 1
+fivebooks                                : 1
+fivethirtyeight                          : 7
+fixed_domain_reasoning                   : 1
+fixed_effects                            : 1
+fixed_point                              : 1
+fizzbuzz                                 : 1
+fjords                                   : 1
+flag                                     : 7
+flake                                    : 1
+flame_gpu                                : 1
+flanders                                 : 1
+flapper                                  : 1
+flash                                    : 1
+flash_cards                              : 1
+flask                                    : 1
+flat_design                              : 2
+flat_earth                               : 2
+flatten                                  : 1
+flatulence                               : 1
+flavour                                  : 1
+flawed_ai                                : 1
+fleabag                                  : 1
+fleischer_studios                        : 1
+flemish_art                              : 1
+flemish_jesuit_missionary                : 1
+fletcher                                 : 1
+flex                                     : 1
+flexibility                              : 1
+flexible_latching                        : 1
+Flexlab                                  : 1
+flickr                                   : 12
+flies                                    : 1
+flight_simulator                         : 1
+flint                                    : 3
+flipped_normals                          : 1
+flirtatious                              : 1
+flirting                                 : 2
+float                                    : 2
+floating_point                           : 3
+flocking                                 : 1
+flocks                                   : 1
+flods                                    : 1  : floods
+flood_magazine                           : 1
+flooding                                 : 8  : floods
+floodplain                               : 1
+floods                                   : 1
+floor_plan                               : 1
+floor_plans                              : 2  : floor_plan
+floors                                   : 1
+floppy_disks                             : 3
+flora_thompson                           : 1
+florida                                  : 47
+floriography                             : 1
+florissant                               : 1
+flour                                    : 1
+flow                                     : 11
+flow_analysis                            : 1
+flow_chart                               : 4
+flow_coloring                            : 1
+flow_control                             : 1
+flow_field                               : 1
+flow_fields                              : 4  : flow_field
+flow_lines                               : 1
+flow_typ                                 : 3  : flow_type
+flow_type                                : 3
+flowchart                                : 3
+flower_men                               : 2
+flower_picking                           : 1
+flowers                                  : 3
+flowlines                                : 1
+flows                                    : 1
+flu                                      : 1
+fluents                                  : 1
+fluid_simulation                         : 1
+fluids                                   : 1
+flux                                     : 1
+fluxus                                   : 3
+flycheck                                 : 1
+flying                                   : 2
+focus                                    : 1
+focus_of_attention                       : 1
+fog                                      : 1
+folding_arguments                        : 1
+folding_ideas                            : 1
+Foldit                                   : 1
+foliage                                  : 1
+folk                                     : 1
+folk_literature                          : 1
+folk_music                               : 2
+folk_tale                                : 1
+folk_tales                               : 1 : folk_tale
+folklore                                 : 6
+folksong                                 : 1
+folksonomies                             : 1  : folksonomy
+folksonomy                               : 2
+folktales                                : 1  : folk_tale
+following                                : 1
+font                                     : 4
+font_lock                                : 1
+fontification                            : 1
+fonts                                    : 2
+food                                     : 158
+food_access                              : 1
+food_apartheid                           : 1
+food_banks                               : 1
+food_binding                             : 1
+food_chain                               : 1
+food_choice                              : 1
+food_desert                              : 2
+food_history                             : 1
+food_insecurity                          : 6
+food_justice                             : 1
+food_port                                : 1
+food_preparation                         : 1
+food_safety                              : 1
+food_security                            : 1
+food_sharing                             : 1
+food_stamps                              : 9
+food_studies                             : 1
+food_supply_chain                        : 1
+food_systems                             : 1
+food_waste                               : 2
+foodbanks                                : 1  : food_banks
+fools                                    : 2
+foone                                    : 1
+foot_binding                             : 1
+football                                 : 2
+footnotes                                : 1
+footnotes_blog                           : 3
+footnotesblog                            : 3  : footnotes_blog
+footwear                                 : 1
+for_profit_prisons                       : 1
+for_the_frog_the_bell_tolls              : 1
+foraging                                 : 1
+forbes                                   : 14
+forbidden_planet                         : 1
+force                                    : 3
+forced_birth                             : 9
+forced_labour                            : 4
+forced_migration                         : 3
+forcibly_displaced                       : 1
+ford_library                             : 1
+fordism                                  : 1
+forecast                                 : 1
+foreign_affairs                          : 2
+foreign_bodies                           : 1
+foreign_language                         : 1
+foreign_policy                           : 22
+foreigners                               : 1
+forensic_ballistics                      : 1
+forensic_pathology                       : 1
+forensic_science                         : 1
+forensics                                : 4
+foreshortened_future                     : 2
+forests                                  : 1
+forever_war                              : 3
+forgery                                  : 1
+forgetting                               : 2
+forgiveness                              : 2
+forgiving                                : 1
+forking_paths                            : 1
+form                                     : 2
+formal                                   : 15
+formal_dining                            : 1
+formal_games                             : 1
+formal_langauge_theory                   : 1  : formal_language_theory
+formal_language                          : 1
+formal_language_theory                   : 1
+formal_logic                             : 1
+formal_methods                           : 6
+formal_model                             : 1
+formal_models                            : 1  : formal_model
+formal_ritual                            : 1
+formal_semantics                         : 1
+formal_spec                              : 1
+formal_specification                     : 2
+formal_structure                         : 1
+formal_system                            : 5
+Formal_Systems                           : 1  : formal_system
+formal_systems                           : 4  : formal_system
+formal_verification                      : 1
+formalisation                            : 1
+formalism                                : 1
+formalisms                               : 1 : formalism
+formalists                               : 1
+formality                                : 1
+formalized_music                         : 1
+format guides                            : 1  : format_guides
+format_guides                            : 1
+formation                                : 1
+formats                                  : 1
+formatter                                : 1  : formatting
+formatting                               : 4
+formula                                  : 1
+fortification                            : 1
+fortnite                                 : 3
+fortune                                  : 1
+fortunes_algorithm                       : 1
+forum                                    : 7
+forums                                   : 1  : forum
+forward                                  : 1
+forward_chaining                         : 3
+forward_reasoning                        : 1
+fossil_fuel                              : 2
+foster_care                              : 2
+found_objects                            : 1
+foundation                               : 2
+foundational                             : 1
+founder_effect                           : 1
+four_comforting_thoughts                 : 1
+four_ps                                  : 1
+fourier                                  : 2
+foursquare                               : 1
+fourth_industrial_revolution             : 1
+fox                                      : 9
+fox5dc                                   : 1
+fox_news                                 : 11
+foxus_context                            : 1
+fps                                      : 3  : FPS
+fracking                                 : 4
+fractal                                  : 10
+fractal_discovery                        : 1
+fractal_history                          : 1
+fractal_narrative                        : 1
+fractals                                 : 5  : fractal
+fraction                                 : 1
+fractions                                : 1  : fraction
+fragility                                : 1
+fragment_based_similarity                : 1
+fragmentation                            : 1
+frame                                    : 1
+frame_analysis                           : 1
+frame_metonymy                           : 1
+framebuffer                              : 1
+frames                                   : 7  : frame
+framework                                : 111
+frameworks                               : 1  : framework
+framing                                  : 6
+framing_problem                          : 1
+france                                   : 43
+franciscans                              : 1
+franckbohbot                             : 1
+frankenstein                             : 1
+frankfurt_school                         : 6
+franklycurious                           : 1
+fraternity                               : 2
+fraud                                    : 35
+fraunces_tavern_museum                   : 1
+free                                     : 6
+free_breakfast_program                   : 1
+free_choice                              : 1
+free_market_failures                     : 1
+free_markets                             : 2
+free_play                                : 1
+free_press                               : 3
+free_running                             : 1
+free_software                            : 1
+free_speech                              : 41
+free_time                                : 1
+free_to_play                             : 2  : free_play
+free_trade                               : 2
+free_will                                : 1
+freedom                                  : 8
+freedom_gas                              : 1
+freedom_of_information                   : 4
+freedom_of_movement                      : 1
+freedom_of_speech                        : 1
+freelance                                : 5
+freelancers                              : 1  : freelance
+freelancing                              : 1  : freelance
+freemasons                               : 1
+freestyle                                : 1
+freeze                                   : 1  : freezing
+freezing                                 : 1
+french                                   : 1
+french_revolution                        : 6
+fresno                                   : 1
+freud                                    : 2
+freyd_category                           : 1
+frication                                : 1  : friction
+friction                                 : 1
+frictional_games                         : 2
+friday_the_13th                          : 1
+friend                                   : 1
+friendly                                 : 2  : friend
+friends                                  : 2  : friend
+friendship                               : 5  : friend
+friendstar                               : 1 : friendster
+friendster                               : 1
+fringe                                   : 1
+fringe_mode                              : 1
+fringe_society                           : 1
+frivolous                                : 1
+frodo_project                            : 1
+frogs                                    : 1
+from_dust                                : 1
+from_interactions_to_institutions        : 1
+front_page                               : 1
+frontend                                 : 1
+frontier                                 : 1
+frontier_knowledge                       : 1
+frontline                                : 1
+frostpunk                                : 1
+frp                                      : 1  : FRP
+fructure                                 : 1
+fruit                                    : 2
+fruit_flies                              : 1  : fruit_fly
+fruit_fly                                : 1
+fruitvale_station                        : 1
+frustration                              : 1
+fsharp                                   : 1  : f_sharp
+ft_bragg                                 : 1
+fuck                                     : 6
+fuel_efficiency                          : 1
+fugue_in_void                            : 1
+fuji                                     : 1
+fukashima                                : 1  : fukushima
+fukushima                                : 1
+fulani                                   : 1
+full_spectrum_warrior                    : 1
+full_stack                               : 1
+fullbright                               : 1
+fun                                      : 1
+func_tools                               : 1
+funcom                                   : 1
+function                                 : 1
+function_binding                         : 1
+function_programming                     : 1
+functional                               : 1
+functional_art                           : 1
+functional_datastructures                : 1
+functional_ecology                       : 1
+functional_programming                   : 48
+functional_reactive                      : 1
+functional_reactive_programming          : 2
+functionalism                            : 1
+functionality                            : 1
+functions                                : 2  : function
+functor                                  : 2  : functors
+functors                                 : 2
+funcX                                    : 1
+fund                                     : 1
+fundamental_attribution_error            : 2
+fundamentalism                           : 3
+funding                                  : 14
+funeral                                  : 1
+fungi                                    : 1
+Fungi                                    : 1  : fungi
+funginarium                              : 1 : fungi
+fungus                                   : 1  : fungi
+funny                                    : 1
+furlough                                 : 1
+furniture                                : 6
+fusion                                   : 2
+futility                                 : 1
+futurama                                 : 2
+future                                   : 32
+future_history                           : 1
+future_of_cities                         : 2
+future_oriented_design                   : 1
+futurism                                 : 21
+futurist                                 : 1  : futurism
+futuroscope                              : 1
+fuzziness                                : 1
+fuzzy_complexity                         : 1
+fuzzy_logic                              : 14
+fuzzy_reasoning                          : 1
+fuzzy_rules                              : 1
+fuzzy_systems                            : 4
