@@ -844,14 +844,14 @@ coloniality                             : 1
 coloniality_of_the_algorithm            : 2
 colonisation                            : 5
 colonists                               : 1
-colonization                            : 1
+colonization                            : 1 : colonisation
 colony                                  : 1
 color_of_law                            : 3
 color_space                             : 1
 colorado                                : 4
 colorado_river                          : 1
 colorblind_racism                       : 1
-coloring                                : 1
+coloring                                : 1 : colour
 colour                                  : 20
 colour_blind                            : 2
 colour_blindness                        : 1
