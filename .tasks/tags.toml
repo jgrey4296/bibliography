@@ -2,3 +2,29 @@
 # TODO: merge
 # TODO: diff
 # TODO: substitutions
+
+[[tasks.tags]]
+name                 = "cleaner"
+version              = "0.1"                # <str>
+ctor                 = "task"               # <type>
+doc                  = []                   # <list[str]>
+depends_on           = ["file://{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
+actions              = [
+                     { do="task_code.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
+]                   # <list[Any]>
+
+
+[[tasks.tags]]
+name                     = "totals"
+version                  = "0.1"                                                                  # <str>
+ctor                     = "doot.task.dir_walker:DootMiniWalker"                                  # <type>
+roots                    = ["{substitutions}"]                                                    # <list[str|pl.Path]>  Places the walker will start
+exts                     = [".sub"]                                                               # <list[str]>
+recursive                = false                                                                  # <bool>
+# filter_fn              = ""                                                                     # <callable>
+sub_actions              = [{ do="task_code.tags:ReadSubs", from="{fpath}", update_="subs" }]     # <list[Any]>
+head_actions             = [
+                     { do="task_code.tags:write_known", to="{temp}/tags/known.tags"},
+                     { do="task_code.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" },
+                     { do="task_code.tags:write_new", from_="tags", to="{temp}/tags/new.tags" },
+]

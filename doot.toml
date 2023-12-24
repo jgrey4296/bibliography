@@ -26,8 +26,9 @@ tasker         = {}
 run = { tracker = "default", runner = "default", reporter= "default", report-line = []}
 
 [[locations]]
-lib-root  = "/media/john/data/library/pdfs/"
-temp      = ".temp"
-bib       = "main"
-firefox   = "~/snap/firefox/common/.mozilla/firefox"
-bookmarks = "bookmarks/total.bookmarks"
+lib-root      = "/media/john/data/library/pdfs/"
+temp          = ".temp"
+bib           = "main"
+firefox       = "~/snap/firefox/common/.mozilla/firefox"
+bookmarks     = "bookmarks/total.bookmarks"
+substitutions = "tags/substitutions/general"
