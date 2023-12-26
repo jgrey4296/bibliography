@@ -402,8 +402,8 @@ child_abuse                             : 44
 child_abuseplay                         : 1   : child_abuse
 child_care                              : 3
 child_development                       : 1
-child_porn_data                         : 1
-child_rape                              : 1
+child_porn_data                         : 1 : CSAM
+child_rape                              : 1 : CSAM
 child_separation                        : 6
 child_soldiers                          : 4
 child_support                           : 1

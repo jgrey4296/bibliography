@@ -197,13 +197,13 @@ begar                              : 2
 begging                            : 3
 beginners_guide                    : 1
 behance                            : 2
-behavior_characterization          : 1
+behavior_characterization          : 1   : behaviour_characterizations
 behavior_trees                     : 1   : behaviour_tree
-behavioral_diversity               : 1
+behavioral_diversity               : 1   : behavioural_diversity
 behavioral_economics               : 1   : behavioural_economics
 behavioral_repertoire              : 1
 behavioral_science                 : 1   : behavioural_science
-BehaviorShop                       : 1
+BehaviorShop                       : 1   : behaviour_shop
 behaviour                          : 146
 behaviour_acquisition              : 1
 behaviour_based_ai                 : 1
@@ -228,7 +228,7 @@ behavioural_psychology             : 1
 behavioural_science                : 1
 behaviourism                       : 1
 behaviours                         : 4
-BehaviourShop                      : 1
+BehaviourShop                      : 1 : behaviour_shop
 behavour                           : 1   : behaviour
 behind_the_urals                   : 2
 beijing                            : 1

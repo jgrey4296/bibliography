@@ -44,15 +44,7 @@ from dootle.tags.structs import TagFile, SubstitutionFile
 
 UPDATE_KEY = DootKey("update_")
 FROM_KEY   = DootKey("from")
-TO_KEY = DootKey("to")
-
-def read_tags(spec, state):
-    update = UPDATE_KEY.redirect(spec)
-    target = FROM_KEY.to_path(spec, state)
-
-    tags = TagFile.read(target)
-
-    return { update : tags }
+TO_KEY     = DootKey("to")
 
 
 class ReadSubs:
@@ -67,7 +59,10 @@ class ReadSubs:
 
 def write_known(spec, state):
     target  = TO_KEY.to_path(spec, state)
-    total   = ReadSubs._total.to_set()
+    total   = set()
+    for tag in ReadSubs._total:
+        total.update(ReadSubs._total.sub(tag))
+
     target.write_text("\n".join(sorted(total)))
 
 def write_new(spec, state):
@@ -85,3 +80,11 @@ def write_new(spec, state):
 
 
 """
+
+def read_tags(spec, state):
+    update = UPDATE_KEY.redirect(spec)
+    target = FROM_KEY.to_path(spec, state)
+
+    tags = TagFile.read(target)
+
+    return { update : tags }
