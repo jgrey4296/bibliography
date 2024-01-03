@@ -3,7 +3,8 @@
 [[tasks.bib]]
 name                 = "format"
 version              = "0.1"                                                                # <str>
-ctor                 = "doot.task.dir_walker:DootMiniWalker"                                # <type>
+ctor                 = "tasker"                                                             # <type>
+mixins               = ["walker", "terse"]
 doc                  = ["Load each bib file and reformat it"]                               # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
@@ -22,7 +23,8 @@ sub_actions          = [
 [[tasks.bib]]
 name                 = "names.and.tags"
 version              = "0.1"                                                                # <str>
-ctor                 = "doot.task.dir_walker:DootMiniWalker"                                # <type>
+ctor                 = "tasker"                                                             # <type>
+mixins               = ["walker", "terse"]
 doc                  = []                                                                   # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
