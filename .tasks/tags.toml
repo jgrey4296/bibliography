@@ -8,7 +8,7 @@ name                 = "cleaner"
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 doc                  = []                   # <list[str]>
-depends_on           = ["file://{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
+depends_on           = ["file:>{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
 actions              = [
                      { do="task_code.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
 ]                   # <list[Any]>
@@ -17,7 +17,8 @@ actions              = [
 [[tasks.tags]]
 name                     = "totals"
 version                  = "0.1"                                                                  # <str>
-ctor                     = "doot.task.dir_walker:DootMiniWalker"                                  # <type>
+ctor                     = "tasker"
+mixins                   = ["walker", "terse"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
 recursive                = false                                                                  # <bool>
