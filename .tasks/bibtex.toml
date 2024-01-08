@@ -25,7 +25,7 @@ name                 = "names.and.tags"
 version              = "0.1"                                                                # <str>
 ctor                 = "tasker"                                                             # <type>
 mixins               = ["walker", "terse"]
-doc                  = []                                                                   # <list[str]>
+doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the walker will start

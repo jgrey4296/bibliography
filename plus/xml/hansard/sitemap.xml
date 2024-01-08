@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+  <url>
+    <loc>https://hansard.digiminster.com</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/about</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/commons</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/lords</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/commons/lastsittingday</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/lords/lastsittingday</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Debates</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Contributions</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Members</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Statements</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Corrections</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Petitions</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Divisions</loc>
+  </url>
+  <url>
+    <loc>https://hansard.digiminster.com/search/Committees</loc>
+  </url>
+</urlset>

@@ -5,14 +5,14 @@
 [[tasks.bookmark]]
 name                 = "update"
 version              = "0.1"                # <str>
-ctor                 = "task" # <type>
+ctor                 = "task"               # <type>
 doc                  = ["Merge firefox bookmarks into bibliography repo"]
 db_name              = "places.sqlite"
 depends-on           = ["bookmark::_firefox", "bookmark::_archived"]
 actions              = [
                      { do="getPost", from_task="bookmark::_firefox", update_="head_firefox_bkmks" },
                      { do="getPost", from_task="bookmark::_archived", update_="head_archived_bkmks" },
-                     { do="dootle.bookmarks.actions:BookmarksMerge", from_=["{head_archived_bkmks}", "{head_firefox_bkmks}"], update_="total_bkmks" },                                                          # merge into {bookmarks}
+                     { do="dootle.bookmarks.actions:BookmarksMerge", from_=["{head_archived_bkmks}", "{head_firefox_bkmks}"], update_="total_bkmks" },
                      { do="dootle.bookmarks.actions:BookmarksRemoveDuplicates", from_="{total_bkmks}" },
                      { do="dootle.bookmarks.actions:BookmarksToStr", from_="{total_bkmks}", update_="bkmks_str" },
                      { do="doot.actions.state:AddNow", format="%Y-%m-%d : %H:%M", update_="_date"},
@@ -30,21 +30,21 @@ db_name              = "places.sqlite"
 actions              = [
                      { do="doot.actions.io:SimpleFind", from_="firefox", pattern_="db_name", rec=true, update_="db_locs"},
                      { do="delete!", args=["{temp}/{db_name}", "{temp}/{db_name}-shm", "{temp}/{db_name}-wal"], lax=true },
-                     { do="copy", from="{db_locs}", to="{temp}/" },                                                               # copy the db from {firefox}/../{db_name} -> {temp}
-                     { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp}/{db_name}", update_="firefox_bkmks" },                        # extract
+                     { do="copy", from="{db_locs}", to="{temp}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
+                     { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp}/{db_name}", update_="firefox_bkmks" }, # extract
                      { do="putPost", args=["firefox_bkmks"] },
                      { do="delete!", args=["{temp}/{db_name}", "{temp}/{db_name}-shm", "{temp}/{db_name}-wal"], lax=true },
-]                                                                                                        # <list[Any]>
+]
 
 [[tasks.bookmark]]
 name                 = "_archived"
 version              = "0.1"                # <str>
-ctor                 = "task" # <type>
-doc                  = [] # <list[str]>
+ctor                 = "task"               # <type>
+doc                  = []                   # <list[str]>
 actions              = [
-                     { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },                # load {bookmarks}
+                     { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
                      { do="putPost", args=["total_bkmks"] },
-]                                                                                                        # <list[Any]>
+]
 
 
 
@@ -58,4 +58,4 @@ actions              = [
                      { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
                      { do="task_code.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
                      { do="write!", from_="tags", to="{temp}/tags/bkmks.tags" },
-]                   # <list[Any]>
+]

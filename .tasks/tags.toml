@@ -4,10 +4,11 @@
 # TODO: substitutions
 
 [[tasks.tags]]
+disable = true
 name                 = "cleaner"
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
-doc                  = []                   # <list[str]>
+doc                  = ["todo"]                   # <list[str]>
 depends_on           = ["file:>{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
 actions              = [
                      { do="task_code.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
@@ -19,6 +20,7 @@ name                     = "totals"
 version                  = "0.1"                                                                  # <str>
 ctor                     = "tasker"
 mixins                   = ["walker", "terse"]
+docs                     = ["extract known and new tags"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
 recursive                = false                                                                  # <bool>
