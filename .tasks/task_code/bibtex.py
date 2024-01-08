@@ -70,12 +70,12 @@ def build_parse_stack(spec, state):
         dmids.ParseTagsMiddleware(),
         ms.SeparateCoAuthors(True),
         dmids.RelaxedSplitNameParts(True),
+        dmids.TitleStripMiddleware(True)
     ]
     return {spec.kwargs.update_ : read_mids}
 
 def build_write_stack(spec, state):
     write_mids = [
-        # ms.MergeNameParts(True),
         dmids.MergeLastNameFirstName(True),
         ms.MergeCoAuthors(True),
         dmids.FieldAwareLatexEncodingMiddleware(keep_math=True, enclose_urls=False),
