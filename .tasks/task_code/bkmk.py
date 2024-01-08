@@ -39,12 +39,12 @@ logging = logmod.getLogger(__name__)
 
 import doot
 import doot.errors
-import doot.utils.expansion as exp
+from doot.structs import DootKey
 from dootle.tags.structs import TagFile
 from dootle.bookmarks.structs import BookmarkCollection
 
-UPDATE   : Final[exp.DootKey] = exp.DootKey("update_")
-FROM_KEY : Final[exp.DootKey] = exp.DootKey("from_")
+UPDATE   : Final[DootKey] = DootKey.make("update_")
+FROM_KEY : Final[DootKey] = DootKey.make("from_")
 
 def collect_tags(spec, state):
     update_key     = UPDATE.redirect(spec)
