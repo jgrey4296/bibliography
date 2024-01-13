@@ -67,3 +67,6 @@ def join_stubs(spec, state):
 
 def select_refiled(target:pl.Path):
     return target.stem.startswith("_refiled_")
+
+def ignore_copied(target:pl.Path):
+    return target.name.startswith("_copied_")
