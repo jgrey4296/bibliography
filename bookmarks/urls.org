@@ -2,30 +2,34 @@
 
 * Overview
 :to-deal-with:
-https://docs.readthedocs.io/en/stable/
-https://wizardzines.com/comics/ - julia evans
-https://yaml.org/spec/1.2.2/ - YAML
-https://docs.openwdl.org/en/latest/ - workflow description language
-https://support.terra.bio/hc/en-us/articles/360037117492-Overview-Getting-started-with-WDL - tutorial
-https://www.commonwl.org/user_guide/ - common workflow language
+https://en.m.wikipedia.org/wiki/Half-life_of_knowledge
+https://algorist.com/algorist.html - algorithms
 https://aosabook.org/en/ - architecture of open source applications
 https://bibtexparser.readthedocs.io/en/main/index.html
-https://zenodo.org/
-https://gothicpunk.tumblr.com/archive?source=blog_view_login_wall
+https://docs.inworld.ai/docs/tutorial-basics/ - ai, npcs
+https://docs.openwdl.org/en/latest/ - workflow description language
+https://docs.readthedocs.io/en/stable/
 https://embrace-autism.com/
-https://javieracordero.notion.site/Job-Application-Manager-fce5406854f0475aa21d5fcd9fa5e668
-https://neverworkintheory.org/ - theory
-https://algorist.com/algorist.html - algorithms
-https://www.probabilitycourse.com/preface.php -math
-https://rmzoo.math.uconn.edu/ - math
-https://stacks.math.columbia.edu/browse - math
-https://us.metamath.org/ - math
-https://www.cut-the-knot.org/ - math
 https://github.com/planetmath
+https://gothicpunk.tumblr.com/archive?source=blog_view_login_wall
+https://javieracordero.notion.site/Job-Application-Manager-fce5406854f0475aa21d5fcd9fa5e668
+https://networkcultures.org/publications/#tod
+https://neverworkintheory.org/ - theory
+https://rmzoo.math.uconn.edu/ - math
 https://sites.math.washington.edu/~billey/talks/theorem.finder.html - math
+https://stacks.math.columbia.edu/browse - math
+https://status.python.org/
+https://support.terra.bio/hc/en-us/articles/360037117492-Overview-Getting-started-with-WDL - tutorial
 https://trustandsafety.fun/ - paulo pedericini, game design
-https://zenodo.org/ - dataset doi's
+https://us.metamath.org/ - math
+https://wizardzines.com/comics/ - julia evans
+https://www.commonwl.org/user_guide/ - common workflow language
+https://www.cut-the-knot.org/ - math
 https://www.kalzumeus.com/archive/ - patrick mckenzie blog
+https://www.probabilitycourse.com/preface.php -math
+https://yaml.org/spec/1.2.2/ - YAML
+https://zenodo.org/
+https://zenodo.org/ - dataset doi's
 :END:
 
 * Main
