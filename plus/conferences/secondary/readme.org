@@ -1,0 +1,393 @@
+#+TITLE: Secondary Conferences
+
+* Overview
+
+* Main
+** TODO proceedings.bib - check and expand
+
+** TODO a2hc
+*** TODO a2hc_2017 - add papers
+** TODO abss
+
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2007 - add papers
+*** TODO 2009 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2017 - add papers
+*** TODO 2020 - add papers
+** TODO acai
+
+*** TODO 1987 - add papers
+*** TODO 2001 - add papers
+** TODO acan
+*** TODO 2014 - add papers
+** TODO aois
+*** TODO 2002 - add papers
+** TODO aose
+
+*** TODO 2003 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+*** TODO 2010 - add papers
+*** TODO 2012 - add papers
+** TODO argmas
+
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2007 - add papers
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+*** TODO 2010 - add papers
+*** TODO 2011 - add papers
+** TODO at
+*** TODO at - add papers, split into years
+** TODO atal
+
+*** TODO 1994 - add papers
+*** TODO 1995 - add papers
+*** TODO 1996 - add papers
+*** TODO 1997 - add papers
+*** TODO 1998 - add papers
+*** TODO 1999 - add papers
+*** TODO 2000 - add papers
+*** TODO 2001 - add papers
+** TODO atop
+*** TODO atop - add papers
+** TODO care
+*** TODO 2015 - add papers
+** TODO ceemas
+*** TODO ceemas - add papers, split into years
+** TODO cgames
+*** TODO cgames - add papers, split into years
+** TODO clima
+*** TODO all_clima.bib - split into years
+*** TODO 2006
+*** TODO 2014
+** TODO clips
+*** TODO 1994 - add papers
+** TODO coax
+*** TODO coax - split into years
+** TODO comp creative
+*** TODO comp_creative - add papers, get proceedings
+** TODO daghsthul
+** TODO dai
+
+*** TODO 2019 -
+*** TODO 2020 -
+*** TODO 2021 -
+*** TODO 2022 -
+** TODO dalt
+
+*** TODO 2003 - add papers
+*** TODO 2004 -
+*** TODO 2005 -
+*** TODO 2006 - add papers
+*** TODO 2007 - add papers
+*** TODO 2008 -
+*** TODO 2009 - add papers
+*** TODO 2009_b - add papers
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+** TODO deon
+
+*** TODO 2004 - add papers
+*** TODO 2006 - add papers
+*** TODO 2008 - add papers
+*** TODO 2010 - add papers
+*** TODO 2012 - add papers
+*** TODO 2014 - add papers
+*** TODO 2016 - add papers
+** TODO digital_libs
+*** TODO 2020 - add papers
+** TODO digitel
+
+*** TODO 2007 - add papers
+*** TODO 2008 -
+*** TODO 2010 - add papers
+*** TODO 2012 - add papers
+** TODO e4mas
+
+*** TODO 2004 -
+*** TODO 2005 -
+*** TODO 2006 - add papers
+*** TODO 2007 - add papers
+*** TODO 2015 - add papers
+** TODO emas
+
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 -
+*** TODO 2017 - add papers
+*** TODO 2018 -
+*** TODO 2019 - add papers
+*** TODO 2020 -
+*** TODO 2021 - add papers
+*** TODO 2023 - add papers
+** TODO esaw
+
+*** TODO 2000 - add papers
+*** TODO 2001 - add papers
+*** TODO 2002 - add papers
+*** TODO 2003 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 -
+*** TODO 2007 - add papers
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+** TODO esoa
+
+*** TODO 2003 -
+*** TODO 2004 -
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+** TODO eumas
+
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2011 - add papers
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 - add papers
+*** TODO 2019 -
+*** TODO 2020 - add papers
+*** TODO 2021 - add papers
+*** TODO 2022 - add papers
+*** TODO 2023 - add papers
+** TODO gurt
+*** TODO 1984 - add papers
+** TODO hais
+
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+*** TODO 2010 -
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 - add papers
+*** TODO 2018 - add papers
+*** TODO 2019 - add papers
+*** TODO 2020 - add papers
+*** TODO 2021 - add papers
+*** TODO 2022 - add papers
+*** TODO 2023 - add papers
+** TODO ias
+*** TODO ias - split years, add papers
+** TODO icaps
+*** TODO icaps - split years, add papers
+** TODO icmas
+*** TODO icmas - split years, add papers
+** TODO ifm
+
+*** TODO 2000 - add papers
+*** TODO 2002 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2007 -
+*** TODO 2009 - add papers
+*** TODO 2010 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 - add papers
+*** TODO 2018 - add papers
+*** TODO 2019 - add papers
+*** TODO 2020 - add papers
+*** TODO 2022 - add papers
+** TODO ipc
+*** TODO 2021 -
+** TODO itmas
+*** TODO 2012 - add papers
+** TODO jurix
+*** TODO jurix - add papers, get proceedings
+** TODO lads
+
+*** TODO 2008 -
+*** TODO 2009 -
+*** TODO 2011 -
+** TODO lpnr
+
+*** TODO 1995 - add papers
+*** TODO 1997 - add papers
+*** TODO 1999 - add papers
+*** TODO 2001 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2007 - add papers
+*** TODO 2009 - add papers
+*** TODO 2011 - add papers
+*** TODO 2013 - add papers
+*** TODO 2015 - add papers
+*** TODO 2017 - add papers
+*** TODO 2019 - add papers
+*** TODO 2022 - add papers
+** TODO maamaw
+*** TODO maamaw - split years, add papers
+** TODO mabs
+
+*** TODO 1998 - add papers
+*** TODO 2000 - add papers
+*** TODO 2002 - add papers
+*** TODO 2003 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2007 -
+*** TODO 2008 -
+*** TODO 2009 - add papers
+*** TODO 2010 - add papers
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 -
+*** TODO 2018 -
+*** TODO 2019 - add papers
+*** TODO 2020 -
+*** TODO 2021 -
+*** TODO 2022 - add papers
+** TODO macsyma
+*** TODO macsyma_1977 - add papers
+** TODO mallow
+
+*** TODO 2009 - add papers
+*** TODO 2020 - add papers
+** TODO mates
+*** TODO mates - split years, add papers
+** TODO mmas
+
+*** TODO 2004 - add papers
+*** TODO 2018 - add papers
+** TODO mochart
+*** TODO model_checking_an_ai - split years
+** TODO mrs
+
+*** TODO 2017 - add papers
+*** TODO 2019 - add papers
+*** TODO 2021 - add papers
+** TODO oamas
+*** TODO 2008 - add papers
+** TODO oas
+
+*** TODO 2001 - add papers
+*** TODO 2002 - add papers
+*** TODO 2003 - add papers
+** TODO oopsla
+
+*** TODO 1986   -
+*** TODO 1987   -
+*** TODO 1987_b -
+*** TODO 1988   -
+*** TODO 1988_b -
+*** TODO 1989   -
+*** TODO 1990   -
+*** TODO 1991   -
+*** TODO 1991_b -
+*** TODO 1991_c -
+*** TODO 1992   -
+*** TODO 1992_b -
+*** TODO 1993   -
+*** TODO 1993_b -
+*** TODO 1994   -
+*** TODO 1994_b -
+*** TODO 1994_c -
+*** TODO 1995   -
+*** TODO 1995_b -
+*** TODO 1996   -
+*** TODO 1997   -
+*** TODO 1997_b -
+*** TODO 1998   -
+*** TODO 1998_b -
+*** TODO 1999   -
+*** TODO 2000   -
+*** TODO 2000_b -
+*** TODO 2001   -
+*** TODO 2002   -
+*** TODO 2002_b -
+*** TODO 2002_c -
+*** TODO 2003   -
+*** TODO 2003_b -
+*** TODO 2004   -
+*** TODO 2004_b -
+*** TODO 2005   -
+*** TODO 2005_b -
+*** TODO 2006   -
+*** TODO 2006_b -
+*** TODO 2007   -
+*** TODO 2007_b -
+*** TODO 2008   -
+*** TODO 2008_b -
+*** TODO 2008_c -
+*** TODO 2009   -
+*** TODO 2009_b -
+*** TODO 2010   -
+*** TODO 2010_b -
+*** TODO 2011   -
+*** TODO 2011_b -
+*** TODO 2012   -
+*** TODO 2013   -
+*** TODO 2014   -
+*** TODO 2015   -
+*** TODO 2016   -
+** TODO prima
+
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 - add papers
+*** TODO 2018 - add papers
+*** TODO 2019 - add papers
+*** TODO 2020 - add papers
+** TODO promas
+
+*** TODO 2003 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2007 - add papers
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+*** TODO 2010 - add papers
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+** TODO rule tech
+*** TODO rule_tech - add papers
+** TODO selmas
+
+*** TODO 2003 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2007 - add papers
+** TODO storytelling
+
+*** TODO 2018 - add papers
+*** TODO 2019 - add papers
+** TODO trust
+
+*** TODO 2005 - add papers
+*** TODO 2008 - add papers
+*** TODO 2021 - add papers
+** TODO tpdl
+*** TODO tpdl.bib - add papers
+** TODO wat
+*** TODO 2010 - add papers
+** TODO WCSS
+*** TODO wcss - add papers
+* Links

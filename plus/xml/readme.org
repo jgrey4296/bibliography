@@ -1,0 +1,27 @@
+#+TITLE: XMLs
+
+* Overview
+
+* Main
+** TODO boykiss
+** TODO critical-distance
+** TODO doctorow
+** TODO federalist
+** TODO hansard
+** TODO journals
+** TODO koster
+** TODO media_matters
+** TODO mit
+** TODO propublica
+** TODO scifi_ruminations
+** TODO scotus_blog
+** TODO the_nation
+** TODO the_trace
+** TODO variancehammer
+** TODO game_philosophy.xml
+** TODO papersindex.xml
+** TODO paul_mcguire.xml
+** TODO pentiment.xml
+** TODO talks-2022.xml
+** TODO verso.xml
+* Links

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 See EOF for license/metadata/notes as applicable
 """
 
@@ -46,7 +45,6 @@ UPDATE_KEY = DootKey.make("update_")
 FROM_KEY   = DootKey.make("from")
 TO_KEY     = DootKey.make("to")
 
-
 class ReadSubs:
     _total = SubstitutionFile()
 
@@ -55,7 +53,6 @@ class ReadSubs:
 
         target_subs = SubstitutionFile.read(target)
         ReadSubs._total.update(target_subs)
-
 
 def write_known(spec, state):
     target  = TO_KEY.to_path(spec, state)
@@ -73,13 +70,6 @@ def write_new(spec, state):
 
     target  = TO_KEY.to_path(spec, state)
     target.write_text("\n".join(sorted(new_tags)))
-
-
-
-"""
-
-
-"""
 
 def read_tags(spec, state):
     update = UPDATE_KEY.redirect(spec)

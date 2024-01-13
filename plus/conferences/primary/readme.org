@@ -1,0 +1,414 @@
+#+TITLE: Primary Conferences
+
+* Overview
+As complete a proceeding list as I can find for each conference, for each year it occurred.
+uses dblp.org as initial source
+
+* Main
+** TODO aaai
+Just proceedings, not papers of, so far. 1980-2023
+*** TODO 1980 - papers of
+*** TODO 1982 - papers of
+*** TODO 1983 - papers of
+*** TODO 1984 - papers of
+*** TODO 1986 - papers of
+*** TODO 1987 - papers of
+*** TODO 1988 - papers of
+*** TODO 1990 - papers of
+*** TODO 1991 - papers of
+*** TODO 1992 - papers of
+*** TODO 1993 - papers of
+*** TODO 1994 - papers of
+*** TODO 1996 - papers of
+*** TODO 1997 - papers of
+*** TODO 1998 - papers of
+*** TODO 1999 - papers of
+*** TODO 2000 - papers of
+*** TODO 2002 - papers of
+*** TODO 2004 - papers of
+*** TODO 2005 - papers of
+*** TODO 2006 - papers of
+*** TODO 2007 - papers of
+*** TODO 2008 - papers of
+*** TODO 2009 - papers of
+*** TODO 2010 - papers of
+*** TODO 2011 - papers of
+*** TODO 2012 - papers of
+*** TODO 2013 - papers of
+*** TODO 2014 - papers of
+*** TODO 2015 - papers of
+*** TODO 2016 - papers of
+*** TODO 2017 - papers of
+*** TODO 2018 - papers of
+*** TODO 2019 - papers of
+*** TODO 2020 - papers of
+*** TODO 2021 - papers of
+*** TODO 2022 - papers of
+*** TODO 2023 - papers of
+** TODO aamas
+Some papers done. 2003-2023
+*** TODO 2002 - add papers
+*** TODO 2003 -
+*** TODO 2004 - add papers
+*** TODO 2005 -
+*** TODO 2006 -
+*** TODO 2007 -
+*** TODO 2008 -
+*** TODO 2009 -
+*** TODO 2010 - add papers
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 -
+*** TODO 2018 - add papers
+*** TODO 2019 -
+*** TODO 2020 - add papers
+*** TODO 2021 - add papers
+*** TODO 2022 - add papers
+*** TODO 2023 - add papers
+** TODO aisb
+Some papers done. 1974-2023
+from: https://aisb.org.uk/convention-proceedings/
+
+*** TODO 1974 -
+*** TODO 1976 -
+*** TODO 1978 -
+*** TODO 1980 -
+*** TODO 2000 -
+*** TODO 2002 - add papers
+*** TODO 2003 - add papers
+*** TODO 2004 - add papers
+*** TODO 2005 - add papers
+*** TODO 2006 - add papers
+*** TODO 2007 - add papers
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+*** TODO 2010 -
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 -
+*** TODO 2017 - add papers
+*** TODO 2023 -
+
+** TODO chi
+Has All papers up to 1981-2023
+
+*** TODO 1981   -
+*** TODO 1981_b -
+*** TODO 1982   -
+*** TODO 1983   -
+*** TODO 1985   -
+*** TODO 1986   -
+*** TODO 1987   -
+*** TODO 1988   -
+*** TODO 1989   -
+*** TODO 1990   -
+*** TODO 1991   -
+*** TODO 1992   -
+*** TODO 1992_b -
+*** TODO 1993   -
+*** TODO 1993_b -
+*** TODO 1994   -
+*** TODO 1994_b -
+*** TODO 1995   -
+*** TODO 1995_b -
+*** TODO 1996   -
+*** TODO 1996_b -
+*** TODO 1997_b -
+*** TODO 1998   -
+*** TODO 1998_b -
+*** TODO 1998_c -
+*** TODO 1999   -
+*** TODO 1999_b -
+*** TODO 2000   -
+*** TODO 2000_b -
+*** TODO 2001   -
+*** TODO 2001_b -
+*** TODO 2002   -
+*** TODO 2002_b -
+*** TODO 2002_c -
+*** TODO 2003   -
+*** TODO 2003_b -
+*** TODO 2004   -
+*** TODO 2004_b -
+*** TODO 2005   -
+*** TODO 2005_b -
+*** TODO 2006   -
+*** TODO 2006_b -
+*** TODO 2007   -
+*** TODO 2007_b -
+*** TODO 2008   -
+*** TODO 2009   -
+*** TODO 2009_b -
+*** TODO 2009_c -
+*** TODO 2010   -
+*** TODO 2010_b -
+*** TODO 2011   -
+*** TODO 2011_b -
+*** TODO 2012   -
+*** TODO 2012_b -
+*** TODO 2013   -
+*** TODO 2013_b -
+*** TODO 2013_c -
+*** TODO 2014   -
+*** TODO 2014_b -
+*** TODO 2014_c -
+*** TODO 2015   -
+*** TODO 2015_b -
+*** TODO 2016   -
+*** TODO 2016_b -
+*** TODO 2016_c -
+*** TODO 2017   -
+*** TODO 2017_b -
+*** TODO 2017_c -
+*** TODO 2018   -
+*** TODO 2018_b -
+*** TODO 2018_c -
+*** TODO 2019   -
+*** TODO 2019_b -
+*** TODO 2019_c -
+*** TODO 2020   -
+*** TODO 2020_b -
+*** TODO 2020_c -
+*** TODO 2020_d -
+*** TODO 2020_e -
+*** TODO 2021   -
+*** TODO 2021_b -
+*** TODO 2021_c -
+*** TODO 2022   -
+*** TODO 2022_b -
+*** TODO 2022_c -
+*** TODO 2023   -
+*** TODO 2023_b -
+** TODO coin
+Has all papers up to 2005-2022
+
+*** TODO 2005-
+*** TODO 2006-
+*** TODO 2007-
+*** TODO 2008-
+*** TODO 2009-
+*** TODO 2010-
+*** TODO 2011-
+*** TODO 2012-
+*** TODO 2013-
+*** TODO 2014-
+*** TODO 2015-
+*** TODO 2016-
+*** TODO 2017-
+*** TODO 2021-
+*** TODO 2022-
+*** TODO 2023-
+** TODO digra
+Has all papers 2002-2019
+
+*** TODO 2002 -
+*** TODO 2003 -
+*** TODO 2005 -
+*** TODO 2007 -
+*** TODO 2009 -
+*** TODO 2011 -
+*** TODO 2013 -
+*** TODO 2014 -
+*** TODO 2015 -
+*** TODO 2017 -
+*** TODO 2018 -
+*** TODO 2019 -
+** TODO fdg
+Has some papers. 2008-2023
+*** TODO 2008 - add papers
+*** TODO 2009
+*** TODO 2010
+*** TODO 2011
+*** TODO 2012
+*** TODO 2013 - add papers
+*** TODO 2014 - format as bibtex
+*** TODO 2015 - format as bibtex
+*** TODO 2016 - format as bibtex
+*** TODO 2017
+*** TODO 2018
+*** TODO 2019
+*** TODO 2020
+*** TODO 2021
+*** TODO 2022
+*** TODO 2023
+** TODO icids
+
+*** TODO 2008 - add papers
+*** TODO 2009 - add papers
+*** TODO 2010 - add papers
+*** TODO 2011 - add papers
+*** TODO 2012 - add papers
+*** TODO 2013 -
+*** TODO 2014 - add papers
+*** TODO 2015 - add papers
+*** TODO 2016 - add papers
+*** TODO 2017 - add papers
+*** TODO 2018 - add papers
+*** TODO 2019 - add papers
+*** TODO 2020 -
+*** TODO 2021 -
+*** TODO 2022 -
+** TODO ijcai
+*** TODO ijcai - get proceedings
+https://dblp.org/search/publ/api?q=toc%3Adb%2Fconf%2Fijcai%2Fijcai75.bht%3A&h=1000&format=bib1&rd=1a
+https://dblp.org/search/publ/api?q=toc%3Adb%2Fconf%2Fijcai%2Fijcai77.bht%3A&h=1000&format=bib1&rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/aihc/aihc2007.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/atal/coin2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/exact/exact2009.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/affcomp2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/affcomp2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/affcomp2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4function2020.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4function2021.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4km2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4km2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4km2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4km2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4km2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4km2020.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4kmes2021.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ai4narratives2020.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/aih2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/aih2018s.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/aiip2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ainf2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/aitami2007.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/amec-tada2005.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/att2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/att2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/att2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/bai2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/bai2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/bridging2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/bridging2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/caid2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cakr2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cea2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cgw2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cgw2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cgw2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cgw2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cgw2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cmna2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/cpcr2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/dare2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ebem2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2021.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fca4ai2023.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/fl2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/flinai2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/hbai2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/hbai2020.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/hbai2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1979.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1991fl.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1991is.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1993em.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1993fl.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1995fl.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai1995lp.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2001.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2001ol.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2003.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2003iiweb.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2005.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2007.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2009.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2011.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2019w.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2020.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2021.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai2023.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai81.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai83.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai85.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai87.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai89.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai91.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai93.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai95.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai95ma.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai97.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai97fl.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai99.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai99ec.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ijcai99iii.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/itwp2003.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/itwp2009.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/itwp2011.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/jowo2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/khd2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/khd2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/knowpros2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/lacatoda2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/lacatoda2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/lacatoda2019.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ldl2011.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/linkdem2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/madima2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/mlis2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/mrc2005.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/mrc2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/mrc2021.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/nesy2007.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/ois2001.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/rtcmas2018.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/saaip2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/sem4nbu2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/sml2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/socinf2015.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/socinf2016.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/socinf2017.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/strl2022.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/strl2023.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/ijcai/udm2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/conf/pakdd/bsi2013.bht%3AAh=1000format=bib1rd=1a
+https://dblp.org/search/publ/bibtex/?q=toc%3Adb/series/eptcs/eptcs362.bht%3AAh=1000format=bib1rd=1a
+
+** TODO iva
+
+*** TODO 1995 - add papers
+*** TODO 1996 - add papers
+*** TODO 1997 - add papers
+*** TODO 1998 - add papers
+*** TODO 1999 - add papers
+*** TODO 2000 - add papers
+*** TODO 2001 - add papers
+*** TODO 2002 - add papers
+*** TODO 2006 -
+*** TODO 2018 -
+*** TODO 2019 -
+*** TODO 2020 -
+*** TODO 2021 -
+*** TODO 2022 -
+** TODO pcg
+
+*** TODO 2010 -
+*** TODO 2011 -
+*** TODO 2012 -
+** TODO sacair
+*** TODO 2020
+*** TODO 2021
+*** TODO 2022
+* Links
+https://www.ijcai.org/
+https://dblp.org/
+https://ceur-ws.org/
