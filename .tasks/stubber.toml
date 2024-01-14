@@ -8,8 +8,8 @@ todo_pdfs  = "/media/john/data/todo/pdfs"
 name                 = "stubber"
 version              = "0.1"                                 # <str>
 doc                  = []                                    # <list[str]>
-ctor                 = "tasker"                                # <str>
-mixins               = ["walker", "terse"]                   # <list>               mix in additional capabilities
+ctor                 = "job"                                # <str>
+mixins               = ["job:walker", "job:terse"]                   # <list>               mix in additional capabilities
 queue_behaviour      = "default"                             # <str>                default | auto | reactive
 exts                 = [".pdf", ".epub"]                     # <list[str]>
 roots                = ["{dropbox}"]                         # <list[str|pl.Path]>  Places the Walker will start
@@ -34,8 +34,8 @@ head_actions         = [
 [[tasks.bib]]
 name        = "cleanup"
 version     = "0.1"
-ctor        = "tasker"
-mixins      = ["walker", "terse"]
+ctor        = "job"
+mixins      = ["job:walker", "job:terse"]
 filter_fn   = "task_code.stubber:select_refiled"
 roots       = ["{todo_pdfs}"]
 sub_actions = [{do="delete!", args=["{fpath}"]}]
@@ -44,8 +44,8 @@ sub_actions = [{do="delete!", args=["{fpath}"]}]
 name         = "headonly"
 version      = "0.1"
 doc          = ["don't build subtasks, just pass matching paths to the head task"]
-ctor         = "tasker"
-mixins       = ["walker", "terse", "headonly"]
+ctor         = "job"
+mixins       = ["job:walker", "job:terse", "job:headonly"]
 roots        = ["{dropbox}"]
 exts         = [".pdf"]
 head_inject  = ["fpath"]

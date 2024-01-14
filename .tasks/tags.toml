@@ -18,8 +18,8 @@ actions              = [
 [[tasks.tags]]
 name                     = "totals"
 version                  = "0.1"                                                                  # <str>
-ctor                     = "tasker"
-mixins                   = ["walker", "terse"]
+ctor                     = "job"
+mixins                   = ["job:walker", "job:terse"]
 docs                     = ["extract known and new tags"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
