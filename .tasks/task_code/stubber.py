@@ -36,6 +36,7 @@ import more_itertools as mitz
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
+printer = logmod.getLogger("doot._printer")
 
 import doot
 import doot.errors
@@ -66,7 +67,8 @@ def join_stubs(spec, state):
     return { update : "\n\n".join(stubs) }
 
 def select_refiled(target:pl.Path):
-    return target.stem.startswith("_refiled_")
+    return target.stem.startswith("_refiled_") and not target.is_dir()
 
-def ignore_copied(target:pl.Path):
-    return target.name.startswith("_copied_")
+def not_copied(target:pl.Path):
+    printer.info("Testing: %s", target)
+    return not target.name.startswith("_copied_")

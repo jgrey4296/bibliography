@@ -24,7 +24,7 @@ docs                     = ["extract known and new tags"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
 recursive                = false                                                                  # <bool>
-# filter_fn              = ""                                                                     # <callable>
+# accept_fn              = ""                                                                     # <callable>
 sub_actions              = [{ do="task_code.tags:ReadSubs", from="{fpath}", update_="subs" }]     # <list[Any]>
 head_actions             = [
                      { do="task_code.tags:write_known", to="{temp}/tags/known.tags"},
