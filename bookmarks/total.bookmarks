@@ -6952,6 +6952,7 @@ https://docs.python.org/3/reference/simple_stmts.html#import : import : python
 https://docs.quantifiedcode.com/python-anti-patterns/index.html : anti_patterns : design : github : python : software_development
 https://docs.racket-lang.org/guide/macros.html : lisp : macros : racket : reference : scheme : technical : tutorial
 https://docs.racket-lang.org/guide/module-languages.html#%28tech._module._language%29 : DSL : programming_language : racket
+https://docs.readthedocs.io/en/stable/ : best_practices : documentation : python : readthedocs : software_engineering : tutorial
 https://docs.rs/emacs/latest/emacs/ : documentation : emacs : rust
 https://docs.rs/rustler/latest/rustler/ : NIF : erlang : interoperability : rustler
 https://docs.rust-embedded.org/book/interoperability/c-with-rust.html : python : reference : rust : technical
@@ -6960,6 +6961,7 @@ https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html : interpola
 https://docs.scrapy.org/en/latest/ : documentation : python : scrapy
 https://docs.sentry.io/platforms/python/?original_referrer=https%3A%2F%2Fsentry.io%2F : error_messages : sentry : software_engineering
 https://docs.soliditylang.org/en/latest/index.html : __come_back_to : programming : smart_contract : solidity
+https://docs.sqlalchemy.org/en/20/intro.html : python : sqlalchemy
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/ : __come_back_to : documentation : protocol : swift
 https://docs.sympy.org/latest/contributing/deprecations.html#deprecation-policy : depcrecation : deprecation_policy : python : sympy
 https://docs.sympy.org/latest/guides/index.html : python : reference : symbolic_programming : sympy
@@ -8163,6 +8165,7 @@ https://github.com/mvcisback/hasse#usage= : github : partial_order : python : se
 https://github.com/mxgmn/ConvChain : converge : convolution : github : libraries : library
 https://github.com/mxgmn/MarkovJunior : __important : github : markov_chains : procedural_content : rewrite_rules
 https://github.com/mxgmn/WaveFunctionCollapse : ai : art : c_sharp : github : graphics : procedural_content
+https://github.com/myshov/history-of-javascript/tree/master/4_evolution_of_js_modularity : github : history : javascript : module_system
 https://github.com/nanjizal/khaMath/blob/master/khaMath/Vector4.hx : github : libraries : library : math : nanjizal
 https://github.com/ncase : __come_back_to : social_system
 https://github.com/ncase/ballot : github : social_system : voting
@@ -8852,6 +8855,7 @@ https://janosh.io/blog/conda-auto-env/ : conda : environment : programming : pyt
 https://jarango.com/2016/03/03/architect-everywhere/ : architecture : article : blog
 https://jason.sourceforge.net/api/ : MAS : api : documentation : jason : java
 https://javarevisited.blogspot.nl/2014/05/10-articles-every-programmer-must-read.html : java : paper : programming : recommendation : software_development
+https://javascript.info/ : best_practices : javascript : tutorial
 https://jayhulme.com/blog/transmen : blog : jay_hulme : trans_men : trans_phobia
 https://jeb.substack.com/p/dunks-without-end : USA : bernie_sanders : politics : presidential_election
 https://jedi.readthedocs.io/en/latest/docs/usage.html : jedi : python
@@ -9072,6 +9076,7 @@ https://launchd.info/ : launchd
 https://lauramcinerney.com/2017/06/25/journalists-dont-need-to-self-flagellate-about-corbyn-but-they-should-about-grenfell/ : grenfell : jeremy_corbyn : journalism : politics
 https://laurenduca.substack.com/p/kayleigh-mcenany-is-an-enemy-of-truth : kayleigh_mcenany : lauren_duca : lies : politics : propaganda : trump
 https://law.resource.org/pub/us/cfr/regulations.gov.astm.appeal/1694011.pdf : carl_malmud
+https://law4palestine.org/law-for-palestine-releases-database-with-500-instances-of-israeli-incitement-to-genocide-continuously-updated/ : __come_back_to : database : gaza : genocide : human_rights : israel : palestine
 https://lawprofessors.typepad.com/marijuana_law/2018/09/marijuana-mandatory-minimums-and-jury-nullification-oh-my-split-ninth-circuit-affirms-panel-federal-.html : DOJ : cannabis : law : mandatory_minimums : reform
 https://lawrenceevalyn.com/2017/07/08/spreadsheet-tools-as-interpretive-middleware/ : digital_humanities : software_tools : spreadsheet : tool
 https://lawreview.uchicago.edu/publication/technological-politics-mechanism-design : __important : mechanism_design : politics
@@ -9836,6 +9841,7 @@ https://podcasts.apple.com/gb/podcast/failed-architecture/id1384867713?i=1000431
 https://points.datasociety.net/real-life-harms-of-student-data-956a30aaff32?gi=6ba3c092cd8e : data : data_analysis : data_society : education : ethics : mikaela_pitcan : points : privacy : student : surveillance
 https://points.datasociety.net/systemic-algorithmic-harms-e00f99e72c42 : algorithm : bias : data_society : kinjal_dave : points : safety : systemic_bias
 https://points.datasociety.net/why-america-is-self-segregating-d881a39273ab#.vg2ulllcg : data_analysis : politics : social_system
+https://pola.rs/ : pandas : polars : python : rust
 https://policescorecard.org/ : USA : police_violence
 https://policingresearch.org/ : police_violence : research
 https://politics.slashdot.org/story/12/10/06/1334240/hiring-smokers-banned-in-south-florida-city : florida : hiring : slashdot : smoking : social_system
@@ -10011,6 +10017,7 @@ https://rebase-book.com/ : book : git : github : rebase
 https://redditblog.com/2009/10/15/reddits-new-comment-sorting-system/ : XKCD : ranking : reddit
 https://rednafi.com/ : blog : go : programming : python : sqlite
 https://rednafi.com/python/escape_template_pattern/ : antipattern : design_pattern : python : software_engineering : template_pattern
+https://rednafi.com/zephyr/an_ode_to_the_neo_grotesque_web/ : blog : web : history : wayback : design
 https://rednafi.github.io/reflections/recipes-from-python-sqlite-docs.html : SQL : python : sqlite
 https://rednafi.github.io/reflections/structural-subtyping-in-python.html : go : programming : python : structural_subtyping
 https://redpaper.yellowheadinstitute.org/ : indigenous_jurisdiction : land : yellowhead_institute
@@ -10713,6 +10720,7 @@ https://toml.io/en/ : config_file : python : toml
 https://tompepinsky.com/2017/01/30/weak-and-incompetent-leaders-act-like-strong-leaders/ : politics : trump
 https://tompride.wordpress.com/2017/08/31/how-the-press-lied-about-the-little-girl-staying-with-muslim-foster-parents-here-are-the-facts/amp/ : journalism : lies : muslim : racism : telegraph : time
 https://tonsky.me/blog/unicode/ : unicode
+https://tooling.js.org/ : javascript : programming : tooling : web_development
 https://towardsdatascience.com/ai-architecture-f9d78c6958e0?gi=ba57e7504245 : ai : architecture : data_science : deep_learning : floor_plan : machine_learning : stanislas_chaillou
 https://towardsdatascience.com/from-classic-ai-techniques-to-deep-learning-753d20cf8578 : ai : deep_learning : reinforcement_learning : tutorial
 https://towardsdatascience.com/from-legoland-to-neural-networks-universal-approximation-theorem-in-laymans-terms-6d1e41f5a8bb : approximation : data_science : michael_li
@@ -11028,6 +11036,7 @@ https://wiki.lineageos.org/devices/i9100/install : android : lineage
 https://wiki.opencog.org/w/Hands_On_With_OpenCog : ai : hypergraph : open_cog : python
 https://wiki.python.org/moin/Generators : generator : python : reference
 https://wiki.python.org/moin/HowTo/Sorting : python : sorting
+https://wiki.python.org/moin/TimeComplexity : complexity : programming : python : wiki
 https://wikicoding.org/wiki/c/Tomohiko_Sakamoto%27s_Algorithm/ : algorithm : reference : wiki
 https://wikis.swarthmore.edu/ling073/Making_a_keyboard_layout_using_IBus : keyboard
 https://wilkelab.org/SDS375/slides/getting-things-in-order.html#1 : claus_wilke : data_visualisation : ggplot : ordering
@@ -11274,6 +11283,8 @@ https://www.awwwards.com/jessica/collections/creative-code/ : creative_coding
 https://www.axidraw.com/ : art : axidraw : drawing : inconvergent : robotics
 https://www.axios.com/ai-pioneer-advocates-starting-over-2485537027.html : ai : axios : geoffrey_hinton
 https://www.axios.com/leaked-donald-trump-vetting-docs-hbo-6ce3cd26-1eb9-4da8-b15e-47b56020aef7.html : axios : leak : trump : vetting
+https://www.b-list.org/weblog/2023/dec/21/dont-use-python-property/ : best_practices : blog : james_bennett : python : software_engineering
+https://www.b-list.org/weblog/2023/dec/23/compare-python-strings/ : best_practices : blog : james_bennett : python : software_engineering
 https://www.baeldung.com/linux/jobs-job-control-bash : bash : job_control : scheduling
 https://www.balena.io/etcher/ : etcher : linux : usb
 https://www.bangordailynews.com/2023/05/04/news/hancock/eliot-cutler-maine-governor-horrible-secret-n6hjn1me0n/ : GOP : USA : child_abuse : eliot_cutler : gop : maine : politics
@@ -11464,6 +11475,7 @@ https://www.cesifo-group.de/ifoHome/publications/docbase/DocBase_Content/WP/WP-C
 https://www.change.org/p/ubisoft-cancel-far-cry-5 : change : far_cry : gamergate : petition : racism
 https://www.channel3000.com/news/politics/local-clerk-calls-possible-proposal-to-move-2020-presidential-primary-date-extremely-unwise-/876209608 : 2020 : chanel3000 : election : madison : primary : wisconsin
 https://www.chapman.edu/ESI/wp/Porter_AffectingPolicyManipulatingPredictionMarkets.pdf : data_analysis : economics
+https://www.charachorder.com/en-gb/pages/about : charachorder : input_device : keyboard : tikok
 https://www.charitynavigator.org/discover-charities/ : charity
 https://www.chicagolandcounseling.com/when-to-avoid-couples-therapy : abuse : chicagoland : counseling : couples_therapy : emotional_abuse : relationship
 https://www.chicanamotherwork.com/single-post/2017/08/23/Mothering-While-Brown-in-White-Spaces-Or-When-I-Took-My-Son-to-Octavia-Butler%E2%80%99s-Exhibit : california : libraries : octavia_butler : racism
@@ -12851,6 +12863,7 @@ https://www.raphkoster.com/2017/06/27/the-internet-as-existential-threat/ : crit
 https://www.raphkoster.com/2017/08/27/consent-systems/ : __come_back_to : consent_systems : raph_koster
 https://www.raphkoster.com/2018/03/16/the-trust-spectrum/ : design : game_design : raph_koster : trust : trust_spectrum
 https://www.rapidtables.com/convert/color/hsl-to-rgb.html : HSL : colour : colour_space : math : rgb
+https://www.ravenmission.org/people/professionals/tal-broda : gaza : genocide : human_rights : israel : openai : palestine : raven_mission : tal_broda
 https://www.rawstory.com/2018/04/black-students-taunted-slaves-michigan-school-surrounded-confederate-flags/ : america : confederacy : michigan : racism
 https://www.rawstory.com/2018/12/philosopher-explains-4-steps-winning-argument-extremist/ : argument : debate : extremism : philosophy : questionable : raw_story
 https://www.rawstory.com/2019/04/male-lawmaker-says-hes-trying-restrict-abortion-women-not-enough-babies/ : USA : abortion : delaware : raw_story : reproduction : richard_collins
@@ -13155,6 +13168,7 @@ https://www.rstreet.org/2019/04/04/supreme-court-confirmation-hearing-transcript
 https://www.rstreet.org/2021/02/15/the-case-against-restricting-voting-access/ : r_street_institute
 https://www.rust-lang.org/en-US/ : programming_language : reference : rust
 https://www.ryojiikeda.com/ : abstract : art : minimalism
+https://www.saaspegasus.com/guides/modern-javascript-for-django-developers/javascript-tooling/ : best_practices : guide : javascript : software_engineering : tooling : web_development
 https://www.sacbee.com/opinion/editorials/article229681409.html?utm_content=buffer8ab06&utm_medium=social&utm_source=twitter&utm_campaign=buffer : california : death_penalty : editorial : fresno : gavin_newsom : police_violence : prison : prison_reform : sacramento_bee
 https://www.sacred-texts.com/index.htm : archive : database : religion : sacred_texts
 https://www.safaribooksonline.com/library/view/c-cookbook/0596007612/ch04s07.html : book : c_plus_plus : cookbook
@@ -13948,6 +13962,7 @@ https://www.theguardian.com/commentisfree/2019/nov/07/firehosing-the-systemic-st
 https://www.theguardian.com/commentisfree/2020/apr/21/doubt-essential-science-politicians-coronavirus : covid_19 : doubt : guardian : jim_al_khalili : journalism : politics : science
 https://www.theguardian.com/commentisfree/2023/jun/29/antiracism-diversity-training-liberal-antiracists-vocabulary-direct-action : anti_racism : arun_kundnani : gaza : israel : palestine : the_guardian
 https://www.theguardian.com/commentisfree/2023/nov/07/palestinians-human-rights-israel-gaza : arwa_mahdawi : guardian : human_rights : israel : palestine
+https://www.theguardian.com/commentisfree/2024/jan/12/broken-rail-britain-privatisation-trains : UK : george_monbiot : guardian : journalism : public_transport : tories
 https://www.theguardian.com/education/2017/jul/17/school-makes-pupils-wear-signs-if-uniform-doesnt-meet-standards : guardian : lanyards : school : uniform
 https://www.theguardian.com/education/2019/nov/12/academics-facing-furious-backlash-advising-students-vote : anna_fazackerley : education : guardian : police : voting
 https://www.theguardian.com/environment/2004/feb/22/usnews.theobserver : 2004 : bus : climate_change : military : pentagon
