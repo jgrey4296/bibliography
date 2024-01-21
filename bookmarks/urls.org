@@ -2,6 +2,8 @@
 
 * Overview
 :to-deal-with:
+https://htdp.org/2023-8-14/Book/index.html - how to design programs book
+https://dcic-world.org/ - data centric computing book
 https://en.m.wikipedia.org/wiki/Half-life_of_knowledge
 https://algorist.com/algorist.html - algorithms
 https://aosabook.org/en/ - architecture of open source applications
