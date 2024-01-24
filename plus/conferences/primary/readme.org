@@ -36,7 +36,9 @@ from: https://aisb.org.uk/convention-proceedings/
 ** TODO chi
 Has All papers up to 1981-2023
 
-** TODO coin
+** coin
+
+*** TODO 2023 proceedings
 ** TODO digra
 ** TODO fdg
 ** TODO icids
