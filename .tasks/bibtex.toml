@@ -44,3 +44,20 @@ head_actions = [
              { do="task_code.bibtex:write_name_set", update_="names" },
              { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]
+
+[[tasks.bib]]
+name                 = "chunker"
+version              = "0.1"                                                                # <str>
+ctor                 = "task"                                                               # <type>
+mixins               = []
+doc                  = ["TODO", "chunk a file into smaller pieces"]                         # <list[str]>
+print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
+fpath                = ""
+actions              = [
+                     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+                     { do="task_code.bibtex:build_parse_stack",  update_="parse_stack"},
+                     { do="task_code.bibtex:build_write_stack",  update_="write_stack" },
+                     { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
+                     # TODO chunk and write
+                     # { do="dootle.bibtex.v2:BibtexToStrAction", from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+]
