@@ -62,7 +62,11 @@ def gen_stub(spec, state):
     return { update : "\n".join(stub) }
 
 def join_stubs(spec, state):
-    stubs = FROM_KEY.to_type(spec, state, type_=list)
+    match FROM_KEY.to_type(spec, state, type_=list|None):
+        case None:
+            stubs = []
+        case _ as x:
+            stubs = x
     update = UPDATE.redirect(spec)
     return { update : "\n\n".join(stubs) }
 

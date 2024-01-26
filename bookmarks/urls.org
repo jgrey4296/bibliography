@@ -2,6 +2,13 @@
 
 * Overview
 :to-deal-with:
+https://www.marginalia.nu/
+https://calver.org/
+https://afutureworththinkingabout.com/?p=5142
+https://annas-archive.org/
+https://hyperpolyglot.org/
+https://www.awsgeek.com/
+https://ainowinstitute.org/research-areas
 https://htdp.org/2023-8-14/Book/index.html - how to design programs book
 https://dcic-world.org/ - data centric computing book
 https://en.m.wikipedia.org/wiki/Half-life_of_knowledge
@@ -33,6 +40,7 @@ https://yaml.org/spec/1.2.2/ - YAML
 https://zenodo.org/
 https://zenodo.org/ - dataset doi's
 :END:
+
 
 * Main
 Latex/tikz-compatible diagram editor: https://q.uiver.app/
