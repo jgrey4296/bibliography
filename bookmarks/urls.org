@@ -2,6 +2,8 @@
 
 * Overview
 :to-deal-with:
+https://natlib.govt.nz/about-us/open-data/papers-past-metadata/papers-past-newspaper-open-data-pilot
+https://www.spritefusion.com/editor
 https://www.marginalia.nu/
 https://calver.org/
 https://afutureworththinkingabout.com/?p=5142
