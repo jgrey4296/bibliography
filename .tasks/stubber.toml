@@ -39,14 +39,3 @@ mixins      = ["job:walker", "job:terse"]
 accept_fn   = "task_code.stubber:select_refiled"
 roots       = ["{todo_pdfs}"]
 sub_actions = [{do="delete!", args=["{fpath}"]}]
-
-[[tasks.bib]]
-name         = "headonly"
-version      = "0.1"
-doc          = ["don't build subtasks, just pass matching paths to the head task"]
-ctor         = "job"
-mixins       = ["job:walker", "job:terse", "job:headonly"]
-roots        = ["{dropbox}"]
-exts         = [".pdf"]
-head_inject  = ["fpath"]
-head_actions = []

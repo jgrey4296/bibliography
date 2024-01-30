@@ -45,17 +45,3 @@ actions              = [
                      { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
                      { do="putPost", args=["total_bkmks"] },
 ]
-
-
-
-[[tasks.bookmark]]
-name                 = "tags"
-version              = "0.1"                # <str>
-ctor                 = "task"               # <type>
-doc                  = ["Create a Tags file of the main bookmark's tags"] # <list[str]>
-depends_on           = ["file:>{bookmarks}"]                   # <list[DootTaskArtifact]>
-actions              = [
-                     { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
-                     { do="task_code.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
-                     { do="write!", from_="tags", to="{temp}/tags/bkmks.tags" },
-]
