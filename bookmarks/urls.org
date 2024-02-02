@@ -2,6 +2,9 @@
 
 * Overview
 :to-deal-with:
+https://www.onthisday.com/
+https://www.gnu.org/manual/manual.html
+https://gnucobol.sourceforge.io/doc/gnucobol.html
 https://natlib.govt.nz/about-us/open-data/papers-past-metadata/papers-past-newspaper-open-data-pilot
 https://www.spritefusion.com/editor
 https://www.marginalia.nu/
