@@ -2,18 +2,21 @@
 
 * Overview
 * todos
-** Current web links
-  [[https://blog.grakn.ai/modelling-data-with-hypergraphs-edff1e12edf0][hypergraphs]]
-  [[https://drive.google.com/file/d/0B8mcTRet6qandC1xN0g0M1d5T0E/view][systems are everywhere]]
-  [[https://game.itu.dk/articles/][game papers that look interesting]]
-  [[https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers][bayesian tutorial]]
-  [[https://github.com/bloom-lang/bud/blob/v0.0.3/docs/getstarted.md][bud tutorial]]
-  [[https://medium.com/hacking-and-gonzo/how-reddit-ranking-algorithms-work-ef111e33d0d9][reddit ranking algorithm]]
-  [[https://members.loria.fr/SMerz/papers/mc-tutorial.pdf][model checking tutorial]]
-  [[https://socialmediacollective.org/reading-lists/critical-algorithm-studies/][critical algorithm studies]]
-  [[https://www.jstor.org/stable/2392415?seq=1#page_scan_tab_contents][bureaucracy as praxis]]
-  [[https://www.researchgate.net/profile/Alicia_Tang/publication/283028012_Norms_Decay_Framework_in_Open_Normative_Multi-agent_Systems/links/5626e37408aeabddac936268.pdf][norm decay]]
-** fresh
+** useful
+https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html#simple-smart-contract
+https://www.ledger-cli.org/index.html
+https://pandoc.org/
+[[https://blog.grakn.ai/modelling-data-with-hypergraphs-edff1e12edf0][hypergraphs]]
+[[https://drive.google.com/file/d/0B8mcTRet6qandC1xN0g0M1d5T0E/view][systems are everywhere]]
+[[https://game.itu.dk/articles/][game papers that look interesting]]
+[[https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers][bayesian tutorial]]
+[[https://github.com/bloom-lang/bud/blob/v0.0.3/docs/getstarted.md][bud tutorial]]
+[[https://medium.com/hacking-and-gonzo/how-reddit-ranking-algorithms-work-ef111e33d0d9][reddit ranking algorithm]]
+[[https://members.loria.fr/SMerz/papers/mc-tutorial.pdf][model checking tutorial]]
+[[https://socialmediacollective.org/reading-lists/critical-algorithm-studies/][critical algorithm studies]]
+[[https://www.jstor.org/stable/2392415?seq=1#page_scan_tab_contents][bureaucracy as praxis]]
+[[https://www.researchgate.net/profile/Alicia_Tang/publication/283028012_Norms_Decay_Framework_in_Open_Normative_Multi-agent_Systems/links/5626e37408aeabddac936268.pdf][norm decay]]
+** TODO fresh
 depressurizer/wiki/Guide
 http://boingboing.net/2014/06/05/how-wikipedia-can-become-a-no.html
 http://code.google.com/p/googlecl/wiki/ExampleScripts#post
@@ -231,7 +234,7 @@ wiki/display
 www.frathwiki.com/index.php?title=Dr._Zahir%27s_Ethnographical_Questionnaire&amp;_ga=1.174814436.797121631.1416645773
 www.thetudorswiki.com/page/POLITICS+of+the+Tudor+Court
 www.wikihow.com/Make-a-Raw-Vegan-Brownie
-** Misc
+** misc
 [[https://www.theatlantic.com/technology/archive/2017/05/dove-body-image/525867/][dove body image issues]]
 https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
 http://m.uk.ign.com/lists/top-100-rpgs/1 -- not loading
@@ -922,6 +925,7 @@ https://zarkonnen.itch.io/occult-defence-agency-budgeting-simulator
 https://zenodo.org/
 * Main
 ** Audio Visual
+https://www.whocanuse.com/
 http://plantuml.com/sequence-diagram
 [[http://waveform3d.com/][Waveform3d]]
 [[https://sketchfab.com/][Sketchfab]]
@@ -933,6 +937,7 @@ https://www.alanzucconi.com/tutorials/
 [[http://thebookofshaders.com/05/][book of shaders]]
 [[http://explorabl.es/][explorable explanations]]
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
+
 ** Blogs
 https://adamosloizou.github.io
 https://adcontrarian.blogspot.com
@@ -3548,4 +3553,5 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
+
 * Links
