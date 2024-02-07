@@ -3,7 +3,7 @@
 [[tasks.bib]]
 name                 = "format"
 version              = "0.1"                                                                # <str>
-ctor                 = "job"                                                             # <type>
+ctor                 = "job"                                                                # <type>
 mixins               = ["job:limit", "job:walker", "job:terse"]
 doc                  = ["Load each bib file and reformat it"]                               # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
@@ -13,8 +13,7 @@ exts                 = [".bib"]                                                 
 early_select_fn      = "identity"                                                           # <callable>            : Callable[[job, spec], bool]
 late_select_fn       = "task_code.selector:oldest"                                          # <callable>            : Callable[[job, list[spec]], list[spec]. all, random, or coderef
 select_limit_type    = "soft"                                                               # <str>                hard | soft
-select_limit         = 5                                                                    # <int|None>
-actions              = []                                                                   # <list[Any]>
+select_limit         = 10                                                                   # <int|None>
 sub_actions          = [
                      { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
                      { do="task_code.bibtex:build_parse_stack",  update_="parse_stack"},
