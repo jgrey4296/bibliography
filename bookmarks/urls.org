@@ -1863,7 +1863,6 @@ https://www.census.gov/quickfacts/fact/table/US/PST045219
 
 ** Emacs
 http://wikemacs.org/wiki/How_to_write_helm_extensions
-www.emacswiki.org
 https://emacsair.me
 https://emacsblog.org
 https://pragmaticemacs.com
@@ -1890,8 +1889,6 @@ http://www.emacswiki.org/emacs/OutlineMinorMode
 http://www.emacswiki.org/emacs/RegularExpression
 http://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
-developer.valvesoftware.com/wiki
-devwiki.introversion.co.uk
 http://allenchou.net/2015/04/game-math-numeric-springing-examples/
 http://arcengames.com/ai-war-first-four-years-postmortem-and-by-extension-arcen-history/
 http://arstechnica.com/gadgets/2012/12/portals-physics-engine-rebuilt-in-25kb-on-a-graphing-calculator/
@@ -2139,10 +2136,6 @@ https://www.zachtronics.com/
 https://yanderesimulator.com/
 ** Games
 https://www.micromacro-game.com/en/extracontent.html
-bulbapedia.bulbagarden.net/wiki/Damage#Damage_formula
-demigod.wikia.com/wiki/Demigod_Wiki
-elderscrolls.wikia.com/wiki/Compelling_Tribute_(Stormcloaks)
-fallout.wikia.com/wiki
 http://arcengames.com/mediawiki/index.php?title=AI_War%3AFleet_Command#Expansions
 http://arcengames.com/mediawiki/index.php?title=AI_War:Fleet_Command#Expansions
 http://arcengames.com/mediawiki/index.php?title=AI_War_-_AI_Story
@@ -2914,7 +2907,6 @@ https://urbansounddataset.weebly.com/                                           
 https://www.soundsurvey.org.uk/                                                                                :  Sound Survey
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
 ** Tv
-en.battlestarwiki.org/wiki
 http://arstechnica.com/the-multiverse/2014/06/don-draper-may-be-an-alien-but-mad-men-is-definitely-science-fiction/
 http://en.battlestarwiki.org/wiki/Dirty_Hands
 http://en.battlestarwiki.org/wiki/Gaius
@@ -2961,7 +2953,6 @@ https://tvtropes.org/pmwiki/pmwiki.php/Main/EnhanceButton
 https://tvtropes.org/pmwiki/pmwiki.php/Main/ImNotAfraidOfYou
 https://www.huffingtonpost.co.uk/entry/bonding-netflix-bdsm_uk_5cc6d485e4b0fd8e35bf1d62?ncid=other_twitter_cooo9wqtham&utm_campaign=share_twitter&guccounter=1
 https://www.teenvogue.com/story/bert-and-ernie-sesame-street-gay
-tvtropes.org/pmwiki/pmwiki.php/Main
 ** Universities and Academia
 https://blogs.cul.columbia.edu/rbml/2018/09/10/collections-news-albert-field-playing-cards-go-online/          :  Columbia University Library Playing Cards
 https://blogs.library.duke.edu/preservation/2019/04/26/quick-pic-choose-your-sumo-hairstyle/                   :  Duke University Libraries: Sumo Hairstyles
@@ -2976,404 +2967,404 @@ https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/ 
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
 ** Youtube channels
-http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w,PlayFrame
-http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA,SlimeFancypants
-http://www.youtube.com/channel/UC-CrwNynzNnOz4F9nVfxvkw,Good Vibes Gaming
-http://www.youtube.com/channel/UC-DiVRJ-Pvpal8mzPwbCNzg,KeeperofAges
-http://www.youtube.com/channel/UC-LlvExHgfc73J52jOiZanQ,Eleum Loyce
-http://www.youtube.com/channel/UC-RP9HS8bnLtV0E9B27M9dA,PoorMansPoison
-http://www.youtube.com/channel/UC-W99wr03PpQlHVjXcy7fVA,kathleenmms
-http://www.youtube.com/channel/UC-XVEjLnK6sDFo5Zu7mD-Vg,tokshen
-http://www.youtube.com/channel/UC-_SoG6x0XvcQRgQEh7Ce9Q,DJ Cummerbund
-http://www.youtube.com/channel/UC-o0CfpOyFJOfyWKtqS1hZQ,Cocktail Chemistry
-http://www.youtube.com/channel/UC0-xeMXO_Vu8_wqqKf_Nipg,David Finch
-http://www.youtube.com/channel/UC0EW4Rt1PWNw3uUARLhDJ-Q,LadyShelab
-http://www.youtube.com/channel/UC0JB7TSe49lg56u6qH8y_MQ,GDC
-http://www.youtube.com/channel/UC0TobZSDyMaXaoVK_9TcPHA,Portugal. The Man
-http://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA,IllegallySighted
-http://www.youtube.com/channel/UC0wRztEPtQWDXUybBpYRpaA,San Francisco Symphony
-http://www.youtube.com/channel/UC10eICZr0T6Fnc6-RnWaisw,The RPG Chick
-http://www.youtube.com/channel/UC13ko8bRnamU_e3rJ__kJww,Worst Practices
-http://www.youtube.com/channel/UC1BZnq-fX0Ea4ka4d8cnc0w,Brothgar
-http://www.youtube.com/channel/UC1fKT0wuhchtclPqpdWEnHw,NeverKnowsBest
-http://www.youtube.com/channel/UC1wZGocgLvopgOqBUFCyIJA,Second Wind
-http://www.youtube.com/channel/UC21STFbJjiTnlv60q4SgLUA,Royal Philharmonic Orchestra
-http://www.youtube.com/channel/UC21vMzyAmR-g4mhu-RA_lxw,Voxcast To Nowhere
-http://www.youtube.com/channel/UC2BxUr3zPTBiNSaRNpq-Acw,Gugubo
-http://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w,CGP Grey
-http://www.youtube.com/channel/UC2O9STrT-GlNFEL-Yy85VgA,Fiaura The Tank Girl
-http://www.youtube.com/channel/UC2P1bJ-udK3UhVX2QvnkS9g,OneShortEye
-http://www.youtube.com/channel/UC2uihPDAsccyZjHkUpcd5PA,Becca Faye
-http://www.youtube.com/channel/UC2wac-sRkNMPSFEnaOHCL3g,Wanderbots
-http://www.youtube.com/channel/UC3OycnktjrKQzATI3Uovlow,Painticus
-http://www.youtube.com/channel/UC3g-w83Cb5pEAu5UmRrge-A,Brandon Sanderson
-http://www.youtube.com/channel/UC3tCfeWcO2tq1_VlKVPwo_g,Joyous String Ensemble
-http://www.youtube.com/channel/UC3tFZR3eL1bDY8CqZDOQh-w,Ben Lambert
-http://www.youtube.com/channel/UC3tNpTOHsTnkmbwztCs30sA,Northernlion
-http://www.youtube.com/channel/UC3xZYc4SZUGfRERIvDRGqDQ,Skip the Tutorial
-http://www.youtube.com/channel/UC4Aw2vsPaXUa70juKmyfrew,Retro-Games Playthrough Movies
-http://www.youtube.com/channel/UC4O9HKe9Jt5yAhKuNv3LXpQ,docm77
-http://www.youtube.com/channel/UC4OAAbxtB6QEKaTDb-SEe-Q,Ricky Tinez
-http://www.youtube.com/channel/UC4Xj6emHTXnKHUq8btUuN6A,Retromation
-http://www.youtube.com/channel/UC4_iGO7jIbQzwov5R94Ak-w,Schaly
-http://www.youtube.com/channel/UC4a-Gbdw7vOaccHmFo40b9g,Khan Academy
-http://www.youtube.com/channel/UC4a5d57ZAWl999-YXw0C1Vg,Nine Inch Nails
-http://www.youtube.com/channel/UC4d-7JzDAzRhZConJtlrsDA,Volx
-http://www.youtube.com/channel/UC4gd6eMm8Bxz2-w0svvUMog,Resulka
-http://www.youtube.com/channel/UC4oo36VSTk5fH6YJSICEDMA,Marz
-http://www.youtube.com/channel/UC4tOrC-cMzgpBWZBe-VHECQ,64 Bits
-http://www.youtube.com/channel/UC4uzNr43jVZOTc0vLmKnniw,SparksArtifex
-http://www.youtube.com/channel/UC580SYuIdAIWf8ngzASdKGQ,Dave Eddy
-http://www.youtube.com/channel/UC5970RJMoEcRNZl0MNp8tlQ,LiliaTV
-http://www.youtube.com/channel/UC5BTcArAnit9p5W7etFsPsA,teamfortress
-http://www.youtube.com/channel/UC5CYeHPLer3lbEhgonvbbAA,Noah Caldwell-Gervais
-http://www.youtube.com/channel/UC5N5pRddyicAX1QJyJjIIdg,Prof Ghrist Math
-http://www.youtube.com/channel/UC5az71kAQnV0cHm3SVYOsaA,mechamelodious
-http://www.youtube.com/channel/UC5fdssPqmmGhkhsJi4VcckA,Innuendo Studios
-http://www.youtube.com/channel/UC64fwl47Wrc6VJcskll7vsA,itch.io
-http://www.youtube.com/channel/UC6802M2GyVD9u2g1dXKbYzg,Nathan's Sandbox
-http://www.youtube.com/channel/UC6DEdt505hTnH7s-FavkWog,NGPlus
-http://www.youtube.com/channel/UC6LBo0GXFaUtf-mWccqfw-w,The Backlogs
-http://www.youtube.com/channel/UC6UuUfiNBiTlNTTvsaWvrsg,Straydog
-http://www.youtube.com/channel/UC6e3i1iHXMoSzYF68x8sg4w,slowbeef
-http://www.youtube.com/channel/UC7-DodxqMkl2e6XTejadS9Q,Hugh Laurie
-http://www.youtube.com/channel/UC73AxlcKrGhDUm86uv2hlrA,thevoiceofdog
-http://www.youtube.com/channel/UC776Nv-iV4VnI47hqv4VF4A,Liara Gaming
-http://www.youtube.com/channel/UC78Rv6UZWsyyTYEIUiD3QBQ,Revachol Forever
-http://www.youtube.com/channel/UC7Edgk9RxP7Fm7vjQ1d-cDA,Feminist Frequency
-http://www.youtube.com/channel/UC7K0eMAAy9dpS7f-OIsBAAA,London Philharmonic Orchestra
-http://www.youtube.com/channel/UC7M-Wz4zK8oikt6ATcoTwBA,Freya Holmér
-http://www.youtube.com/channel/UC7SfnX0k6ucXyYKtNwEnTog,ixi music
-http://www.youtube.com/channel/UC7cmH--tFhYduIshTKzQUJQ,Stylized Station
-http://www.youtube.com/channel/UC81hVmI5eEBIt3s3HQpJd_w,boburnham
-http://www.youtube.com/channel/UC84X0epDRFdTrybxEX8ZWkA,Super Best Friends Play
-http://www.youtube.com/channel/UC8BvYNPXVXylwSoXGSrfaBA,The Longest Johns
-http://www.youtube.com/channel/UC8CPwmPh9ElZeJwsBfy_Pjw,The Discographers
-http://www.youtube.com/channel/UC8FmKkoVFU20P6WnykizlUg,PacketPrep
-http://www.youtube.com/channel/UC8JE00xTMBOqKs7o0grFTfQ,Poppy
-http://www.youtube.com/channel/UC8RfCCzWsMgNspTI-GTFenQ,Luetin09
-http://www.youtube.com/channel/UC8W_AGkuup8MnCfU7PPOkAg,WTFSexyHeadphones
-http://www.youtube.com/channel/UC8a8OcoHUT-wTjVyqKCEsoA,Cryorus
-http://www.youtube.com/channel/UC8affupLOlkEtH6QZGY_9Lg,Michalina Malisz
-http://www.youtube.com/channel/UC8b4hCq0aHQbl0v2il0tR_A,DDRJake
-http://www.youtube.com/channel/UC8nZUXCwCTffxthKLtOp6ng,Splattercatgaming
-http://www.youtube.com/channel/UC9HRu5pckRguIkV5f9ab6rA,Muckluck
-http://www.youtube.com/channel/UC9IEUA0_jhXGNeyu-l_7jFw,TheQuxxn
-http://www.youtube.com/channel/UC9N0DmacOi4iWKQyygX89OQ,FightinCowboy
-http://www.youtube.com/channel/UC9PEibgWOqZ-1I1JdxRmr6g,Walk off the Earth
-http://www.youtube.com/channel/UC9Z-w0L3f_F-oyWNY_hrDlw,Norovo
-http://www.youtube.com/channel/UC9_gOs5VM-iMX4dt-YsAW1Q,Sir Rando
-http://www.youtube.com/channel/UC9mLpr85Lt8oXU7_UoawaLA,Chris Christodoulou
-http://www.youtube.com/channel/UCAF_yy-Y4yl4VMiQ7RV3STw,PotatoMcWhiskey
-http://www.youtube.com/channel/UCAH6Zo0Q9XNfPl4QkfCMfjA,trekclip123
-http://www.youtube.com/channel/UCAJwd8RawmLnopoIZi4JDkw,WILDCARD
-http://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA,Primitive Technology
-http://www.youtube.com/channel/UCAg9meECjc6CnpKko5Fs-xQ,Cyborcat
-http://www.youtube.com/channel/UCAntk4xRJNJRvIsDKZEATFg,Snamwiches
-http://www.youtube.com/channel/UCApVQFP4scM3aJTnlP-3kNQ,RedFoxRPG
-http://www.youtube.com/channel/UCAwTswSJwjE6h7siVjN5WfA,Ruby_Rooz
-http://www.youtube.com/channel/UCB4r3ptUVK0908AsRguyptw,Tealhollow1 Clips
-http://www.youtube.com/channel/UCBODyKF0JMbUd6D9Bklyzbw,Alpharad
-http://www.youtube.com/channel/UCBPy4X-lQlnyN2-Z4U4t65g,Boring Keith
-http://www.youtube.com/channel/UCBaHYWh_265k73PxkgaNkrA,Distortion2
-http://www.youtube.com/channel/UCBq8CLRcJN8rgqHOkyL1ozg,Supergiant Games
-http://www.youtube.com/channel/UCC-jQXxCAUyKA-nV-AyT1Jw,Hal Leonard Orchestra
-http://www.youtube.com/channel/UCC9h6FtIb58ZQCRPJ2ZQtKg,Vitamin String Quartet
-http://www.youtube.com/channel/UCCG6qI8XjyjUNgZ8jlJp_wQ,BaerTaffy
-http://www.youtube.com/channel/UCCODtTcd5M1JavPCOr_Uydg,Extra History
-http://www.youtube.com/channel/UCCmRIWxpargwxRc5A04Yvpg,Keith Ballard
-http://www.youtube.com/channel/UCD6RD6JncaD7lfcX-vpONIQ,Eversor Fatalis
-http://www.youtube.com/channel/UCDCpw4WH3apU0-eC9q3j2hw,Ranged Touch
-http://www.youtube.com/channel/UCDSQHqANzYyJLqLD-fV4XDQ,Rhapsody
-http://www.youtube.com/channel/UCDU4YqtHPc9ciZ5uW9Bg4lQ,Cam
-http://www.youtube.com/channel/UCDXOwJQgD65oJOM1IHmtskw,Indeimaus
-http://www.youtube.com/channel/UCDYZxJE8kLZ-o6nL8E1bXdQ,Many A True Nerd
-http://www.youtube.com/channel/UCDgCscKFAj06xNYG9jTH8Rw,CarcinogenSDA
-http://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ,Ahoy
-http://www.youtube.com/channel/UCEYpz3z20GylPTmpSNciapw,BlkLoliGamer
-http://www.youtube.com/channel/UCEqBBR3CwfnOcF5X1BjyhnQ,Finest Fights
-http://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig,Red Hot Chili Peppers
-http://www.youtube.com/channel/UCF11HxoU9YF3vhehVn3edjQ,Gaming University
-http://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ,Coding Math
-http://www.youtube.com/channel/UCFGuArHPEU6e-mZ-plZfQWA,HelsinkiPhilharmonic
-http://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA,EthosLab
-http://www.youtube.com/channel/UCFMtdiQILuTZr22sKUeAOOA,Astartes
-http://www.youtube.com/channel/UCFg9-S0cfu3UvBYuSNFT9hQ,RagnarRox
-http://www.youtube.com/channel/UCG2YlZcDex1RTDf6ZbXnyag,Olivia AKA Livvie
-http://www.youtube.com/channel/UCG9Hhzgc8rCuWttNNTDtW6A,Magnetic Fields
-http://www.youtube.com/channel/UCGGhM6XCSJFQ6DTRffnKRIw,Muse
-http://www.youtube.com/channel/UCGHiFqlkj6T7z2sW9xz8d_Q,Nick Lutsko
-http://www.youtube.com/channel/UCGMyyn2FdEFcDfP1wQRh5lQ,Erindale
-http://www.youtube.com/channel/UCGYSfZbPp3BiAFs531PBY7g,TrevTutor
-http://www.youtube.com/channel/UCGc8ZVCsrR3dAuhvUbkbToQ,City Beautiful
-http://www.youtube.com/channel/UCGmvywjUliYi6MSwg_FuW_g,Kawaii Games
-http://www.youtube.com/channel/UCGwu0nbY2wSkW8N-cghnLpA,Jaiden Animations
-http://www.youtube.com/channel/UCGxMwOzCsKcP4oLiIzzFrAA,RedScotGaming
-http://www.youtube.com/channel/UCHBDm730jklHOgWS8VEDlkA,Piotr K
-http://www.youtube.com/channel/UCHOFy9rDa1Zsvb39hYBBVpA,Arbitor Ian
-http://www.youtube.com/channel/UCHQESNIbXuQM-QUeMf7CFjQ,AllShamNoWow
-http://www.youtube.com/channel/UCHSI8erNrN6hs3sUK6oONLA,ilmango
-http://www.youtube.com/channel/UCHj5TjvRbfuHm-ufLDiZc0Q,Sam Stone
-http://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA,Veritasium
-http://www.youtube.com/channel/UCI3DTtB-a3fJPjKtQ5kYHfA,Games Done Quick
-http://www.youtube.com/channel/UCI6keWArpxmfeiuAATv7jZw,EpicNameBro
-http://www.youtube.com/channel/UCILwgMbCebOqPR_6H_1m8vA,SwitchUp
-http://www.youtube.com/channel/UCISPcad-6svNxgViVr_syvA,Arumba
-http://www.youtube.com/channel/UCJ7FHA3RiUJH--MJxIoocWw,Blarla
-http://www.youtube.com/channel/UCJDIGW0ywWw9Kh9_vtwqxXA,William Spaniel
-http://www.youtube.com/channel/UCJX2PsB_YGoaBijzuGADYzA,BringItDon
-http://www.youtube.com/channel/UCJ_jwWjf8u5mdtac71Be8QA,Hildegard von Blingin'
-http://www.youtube.com/channel/UCJbBijHhBZWkWDamlGDW2MQ,Helloween4545
-http://www.youtube.com/channel/UCJhsl2VeLfSXzkutwlICyZw,The Sphere Hunter
-http://www.youtube.com/channel/UCJkCwTo2we_FbJM1g4g9zIA,Cruppz
-http://www.youtube.com/channel/UCK-7wmd3yC_DHWgEnJfzlIQ,TheUrsinus1
-http://www.youtube.com/channel/UCK0wWfg2_bqWOQFFNWp58mw,Kitfox Games
-http://www.youtube.com/channel/UCKV59Z6z9z8-s_oKEtAg7aQ,The Backlogs : Shortcut Unlocked!
-http://www.youtube.com/channel/UCK_Qel5_Pi6rmVpWuN5SuHw,rekording
-http://www.youtube.com/channel/UCKog-ke-YKj5XKJOAHk16-A,Brickroad's Ridiculous Nonsense
-http://www.youtube.com/channel/UCKtu_JtQCY0yryIy6zK4ZCg,Marc Brunet
-http://www.youtube.com/channel/UCKwkFtUmAh9ikgmhtGa1Rxg,Bloom Plays
-http://www.youtube.com/channel/UCKxQmKgrkUv4S7P5w0pLayw,Comics Explained
-http://www.youtube.com/channel/UCKzJFdi57J53Vr_BkTfN3uQ,Primer
-http://www.youtube.com/channel/UCLFykVrOdjeYjl-PVwWh19Q,CartoonIntro
-http://www.youtube.com/channel/UCLyVUwlB_Hahir_VsKkGPIA,Mix and Jam
-http://www.youtube.com/channel/UCM8XzXipyTsylZ_WsGKmdKQ,LongplayArchive
-http://www.youtube.com/channel/UCMFKFpbEZYOPsUf6hzwAHbw,Lighthouse Raiders
-http://www.youtube.com/channel/UCMOqf8ab-42UUQIdVoKwjlQ,Practical Engineering
-http://www.youtube.com/channel/UCMVAbo1bIaXtoHeKaZRnU5Q,The Last Bacon
-http://www.youtube.com/channel/UCN8wTUlSAroLslWyf87E2pw,eigenchris
-http://www.youtube.com/channel/UCNG3C-l6VNdwXLNUIxef0Uw,VeryCuteGM
-http://www.youtube.com/channel/UCNJZzDKNZwJ-oWvey7UBltg,GameOverContinue
-http://www.youtube.com/channel/UCNQJqvSXfDBOd9spve8doWw,Worm Girl
-http://www.youtube.com/channel/UCNki4tdtDzrZLUyW18_ppoQ,PaPaSea
-http://www.youtube.com/channel/UCNwbkKy_Yj_quxyf6-F7txg,Lisa Juliette
-http://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ,Slipknot
-http://www.youtube.com/channel/UCOP-E07fFnd1AyqtCifZI3A,Primitive Unique Tool
-http://www.youtube.com/channel/UCOQqQTm_U-bCgjdC116GV9Q,the redlamp organization
-http://www.youtube.com/channel/UCORIeT1hk6tYBuntEXsguLg,PostmodernJukebox
-http://www.youtube.com/channel/UCO_hWjivU900eBRkSQNtlAw,MARINA
-http://www.youtube.com/channel/UCOw4v1j3QnzH7X4krQAS7fg,Tessa Violet
-http://www.youtube.com/channel/UCPDByT6Y7bS9hQI2Po38cHg,Dan Dubuque
-http://www.youtube.com/channel/UCPLqvKsMhDpb1kLJludFvzQ,Jelmerlicious
-http://www.youtube.com/channel/UCPU6nuYM92v9eV_-ZUV8CqQ,SB
-http://www.youtube.com/channel/UCPVLLhHGWi-t1liswo65RHg,LexaBun
-http://www.youtube.com/channel/UCPYP9dN8fwjKgKMihzkvljw,Press 'X' for Chromosomes
-http://www.youtube.com/channel/UCQ-twzO6v-PBgckhkrXVaDQ,Tom Francis
-http://www.youtube.com/channel/UCQ10IxW_K8cG4_P3wgnCurg,Game Movie
-http://www.youtube.com/channel/UCQ1wXKNDfa4rEOeXR1S9_7A,IRClevor
-http://www.youtube.com/channel/UCQSEAbOs6vsJfy7WN7iYaGQ,EazySpeezy
-http://www.youtube.com/channel/UCQYMhOMi_Cdj1CEAU-fv80A,Neso Academy
-http://www.youtube.com/channel/UCQZFAQPTQtrFrTu6Hb4vwsw,My name is Byf
-http://www.youtube.com/channel/UCQrDV_RiKJ-cNyyMdTjzREQ,The Salt Factory
-http://www.youtube.com/channel/UCR4a2QKvUuLvLGA6M5MM2ew,Jungle4eva
-http://www.youtube.com/channel/UCRC6cNamj9tYAO6h_RXd5xA,RTGame
-http://www.youtube.com/channel/UCRHXUZ0BxbkU2MYZgsuFgkQ,The Spiffing Brit
-http://www.youtube.com/channel/UCRLpR4Sn7BmhClmfux5T-CA,THE SCUMM BAR
-http://www.youtube.com/channel/UCRrvZqCL1YsqRA8IpXrhYQQ,Jill Bearup
-http://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA,Ben Eater
-http://www.youtube.com/channel/UCSDiMahT5qDCjoWtzruztkw,ambiguousamphibian
-http://www.youtube.com/channel/UCSF5mJTarQx3ER3MhiR5QoQ,Samara Ginsberg
-http://www.youtube.com/channel/UCSiPjfAJBgbFlIUsxOWpK0w,PomplamooseMusic
-http://www.youtube.com/channel/UCSjXXHwfaDq1w9oQ0xgOFNg,John Wolfe
-http://www.youtube.com/channel/UCSoEJPagoa5RZlchcvTtbEA,Daniel Mullins Games
-http://www.youtube.com/channel/UCSz0WzAuhwjezFyEIv3Xksg,D Latham
-http://www.youtube.com/channel/UCTDWASrT-T6wMBcZU4IXCKQ,The Cursed Judge
-http://www.youtube.com/channel/UCTUQDE3_X5wwglFn22h4JtQ,Calvin Wong
-http://www.youtube.com/channel/UCTUtqcDkzw7bisadh6AOx5w,12tone
-http://www.youtube.com/channel/UCTV3VOwvILkzKmkMBlFTZ5w,Sixkilla Gaming
-http://www.youtube.com/channel/UCTa8NrcU5T2bQGuWmtYWsjg,Olden Demon
-http://www.youtube.com/channel/UCTcc3KiX3RYXhi96vI_jJPA,TheRPGMinx
-http://www.youtube.com/channel/UCTnm53gW0vQK2u-KjOQdwbQ,Tim Mcburnie - The Drawing Codex
-http://www.youtube.com/channel/UCUHW94eEFW7hkUMVaZz4eDg,minutephysics
-http://www.youtube.com/channel/UCUQTqWAaSzhAKRanOpes1nA,Sinix Design
-http://www.youtube.com/channel/UCUm70ntG_hV_B-BLb3WWlRg,Ecdycis
-http://www.youtube.com/channel/UCV5vCi3jPJdURZwAOO_FNfQ,The Thought Emporium
-http://www.youtube.com/channel/UCVFqk8JxVGg2_99AmqFdS4g,Danny Motta
-http://www.youtube.com/channel/UCVH4oOW0CBJ1W_WsJKd_62Q,Stumpt
-http://www.youtube.com/channel/UCVdDUN69YsAXPxh2y71sMtQ,I Finished A Video Game
-http://www.youtube.com/channel/UCVi6ofFy7QyJJrZ9l0-fwbQ,World of Longplays
-http://www.youtube.com/channel/UCVo63lbKHjC04KqYhwSZ_Pg,Defunctland
-http://www.youtube.com/channel/UCVpankR4HtoAVtYnFDUieYA,Ze Frank
-http://www.youtube.com/channel/UCVuyByFo6js2qeEIJQEzJfg,elmaxo
-http://www.youtube.com/channel/UCW7AGm8JSBEEew61dJIgl_A,tom cardy
-http://www.youtube.com/channel/UCWDFAOZHGSy7ItmuQl32AYw,Lorerunner
-http://www.youtube.com/channel/UCWMtz9BHvpdRx38BbCb-JgA,The Games We Play
-http://www.youtube.com/channel/UCWQ_JrbZBq5uoDmrjQcajTA,[SSCAIT] StarCraft Artificial Intelligence Tournament
-http://www.youtube.com/channel/UCWQfbcMGyrPDlIU7wV7aAOQ,Liam Triforce
-http://www.youtube.com/channel/UCWqr2tH3dPshNhPjV5h1xRw,Super Bunnyhop
-http://www.youtube.com/channel/UCWqvhmZyB66eKv01SiH_Kjg,The Dead South
-http://www.youtube.com/channel/UCX5dg_a7p4RFcUO6r0_vBtw,GetDaved
-http://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q,CrashCourse
-http://www.youtube.com/channel/UCXYGUeekJCrBpM32yaJpjRw,Wallace & Gromit
-http://www.youtube.com/channel/UCXurQhbWuJW7FatrU_y88BQ,New York Philharmonic
-http://www.youtube.com/channel/UCXwv-QC7M59ZrYyANSNH7NA,Pixel Partners
-http://www.youtube.com/channel/UCY1yTIi-DaxPbNtLCnwAM1g,London Symphony Orchestra
-http://www.youtube.com/channel/UCY3A_5R_m3PXCn5XDhvBBsg,Adam Millard - The Architect of Games
-http://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw,3Blue1Brown
-http://www.youtube.com/channel/UCYUY9_i44IDNOs_Ja815mlA,WoodenPotatoes 🥔
-http://www.youtube.com/channel/UCYX2-exnYmc6gDObfooTGZg,Skurry
-http://www.youtube.com/channel/UCYeF244yNGuFefuFKqxIAXw,The Royal Institution
-http://www.youtube.com/channel/UCYkSWMBi1pZUqjs2OngjUyA,Carolina Eyck
-http://www.youtube.com/channel/UCYn-cP0-yFjLwlAMFgycOxw,The Black Mastadonte
-http://www.youtube.com/channel/UCYyprRWPdxfeN6SxlSLNt_Q,The Adventure Gamer
-http://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow,SciShow
-http://www.youtube.com/channel/UCZcV8AWZ_nQvx0Yvnmy7aHw,MrLlamaSC
-http://www.youtube.com/channel/UCZz1vlP2XaeKnEP3L5hmcVA,TheEpicNate315
-http://www.youtube.com/channel/UC_ADhkBQFudvyhdpsBJJvYw,Kikoskia
-http://www.youtube.com/channel/UC_FfTzJh1Y4cIyjCj1xlUeQ,Welonz
-http://www.youtube.com/channel/UC_IkRi_16jttcsqXxAm4YUA,Plumbella
-http://www.youtube.com/channel/UC_LZ7v_-QTJIWSKq2cAcuZQ,Quasimofo
-http://www.youtube.com/channel/UC_TYFButglZuuDbD-0Q_IzQ,lilsimsie
-http://www.youtube.com/channel/UC_fZLqtcURWcUPeGJATPE5Q,MarleyThirteen
-http://www.youtube.com/channel/UC_fsb-5q3QH-CXJ79YgrWfg,The D-Pad
-http://www.youtube.com/channel/UC_kHZR6UaN44q95ZLCDvbmw,LethalFeline
-http://www.youtube.com/channel/UC_wb8IVtmXwil8bN3IdVtZw,Majorkill
-http://www.youtube.com/channel/UCa911Ay-7U4u3yt6zzBM8YQ,Adnidi
-http://www.youtube.com/channel/UCaIJFXTZSktxnUolmWKGhTQ,Instruō
-http://www.youtube.com/channel/UCaJTsOGo9PpFUCy_bwPjetA,RenegadeConstabulary
-http://www.youtube.com/channel/UCaTznQhurW5AaiYPbhEA-KA,Molly Rocket
-http://www.youtube.com/channel/UCaUcaR0Tn6UC8K_ub1uuArQ,ZenBear
-http://www.youtube.com/channel/UCaXFVJbHcRmXr4fTNs6B2gA,The Drifter's Broadcast
-http://www.youtube.com/channel/UCaxar6TBM-94_ezoS00fLkA,Day9TV
-http://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg,Two Minute Papers
-http://www.youtube.com/channel/UCbkCdYCOMikdN7gjdxwU8fQ,cuddleofdeath
-http://www.youtube.com/channel/UCbx1TZgxfIauUZyPuBzEwZg,quill18
-http://www.youtube.com/channel/UCbzNcFN7cxA8HO18cTYyTfg,Doctor Mix
-http://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ,Wintergatan
-http://www.youtube.com/channel/UCcrKaQFy2TImAad1hyxu_8w,Seattle Symphony
-http://www.youtube.com/channel/UCdAy0KqpdA2Lp2_Qp0yNk2g,ChristopherOdd
-http://www.youtube.com/channel/UCdJKz04rMi3lKdq_TX74P8Q,The SaD Games
-http://www.youtube.com/channel/UCdj2kxX2RswOUl_wJ6GLgIA,Early Style
-http://www.youtube.com/channel/UCeTfBygNb1TahcNpZyELO8g,Jacob Geller
-http://www.youtube.com/channel/UCecFIR6BFJKfl3o8Bs8nHwg,Grimith
-http://www.youtube.com/channel/UCegydHMjdDuF3a4ie6hiPpw,Adventure Vault
-http://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w,You Suck At Cooking
-http://www.youtube.com/channel/UCempl7qoAv3NqH-CY6RYL-Q,New York Philharmonic - Topic
-http://www.youtube.com/channel/UCfAU9ieiLsemQtd7IHanmkA,WeezyTF2
-http://www.youtube.com/channel/UCfHmyqCntYHQ81ZukNu66rg,Razbuten
-http://www.youtube.com/channel/UCfbYNk9-Nll5Wwj8GBesKxg,AirdnaPlays
-http://www.youtube.com/channel/UCffk6c4O1qGsbKtOTWhzq_A,Haburu
-http://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ,sentdex
-http://www.youtube.com/channel/UCg0kqKYY72OmzYg3JE3bdDA,ChaoticMeatball
-http://www.youtube.com/channel/UCg3iDNLEXtoOPm08AcSeObQ,Black Opal Direct Gems
-http://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ,圧倒的不審者の極み!
-http://www.youtube.com/channel/UCgFSPzCM9rx_Hxl-g13KcYw,PROCJAM
-http://www.youtube.com/channel/UCgPIugXMNDp9ZuZxygPxDIw,radiatoryang
-http://www.youtube.com/channel/UCgPok_OFuh4v8Hg3DwwVHJQ,Bumpy McSquigums
-http://www.youtube.com/channel/UCgRhvJsaM13emRax3rSbRKQ,Great Blue
-http://www.youtube.com/channel/UCgnPgGFT3fRVkXKL59iFDzQ,Chris Davis
-http://www.youtube.com/channel/UChFur_NwVSbUozOcF_F2kMg,Mumbo Jumbo
-http://www.youtube.com/channel/UChWuHT3gWmgfdNKXmF1cTsw,The String Quartet Channel
-http://www.youtube.com/channel/UChmuggXW2LAtSvbRZyulK9A,No Strings Prd
-http://www.youtube.com/channel/UChnxLLvzviaR5NeKOevB8iQ,Red Means Recording
-http://www.youtube.com/channel/UChvbwc31bWu82GHtd91xWTQ,Rufert
-http://www.youtube.com/channel/UCi7l9chXMljpUft67vw78qw,Sideways
-http://www.youtube.com/channel/UCiFAmp2Crv66cQA-9SPje1A,David Parker
-http://www.youtube.com/channel/UCioZY1p0bZ4Xt-yodw8_cBQ,How To Drink
-http://www.youtube.com/channel/UCj1G_-P9EIMs4VpcgcOPxRw,Steven Strogatz
-http://www.youtube.com/channel/UCj31PEVBMTnLvVOCSQGpbog,Amosdoll Music
-http://www.youtube.com/channel/UCjFqcJQXGZ6T6sxyFB-5i6A,Every Frame a Painting
-http://www.youtube.com/channel/UCjTafJmFk9D4eP-PCLUFO5Q,Hempuli
-http://www.youtube.com/channel/UCjbG-zeFtYu_oN6BEX_2ZpQ,Qasim Rashid
-http://www.youtube.com/channel/UCjf6YzmyaKi8880IXMJ5kGA,Outside Xtra
-http://www.youtube.com/channel/UCjgtLRa-rGUMslSvvCJ9xLA,JayRPGaming
-http://www.youtube.com/channel/UCjonWpLT8cK4CqJW7qfCZ8A,Colonel RPG
-http://www.youtube.com/channel/UCkWRXTYgT1MXniQT-74dZlA,RetroVution
-http://www.youtube.com/channel/UCkpKS8M7MaZAFewtUz24K3A,Cybershell
-http://www.youtube.com/channel/UCkvLVrFMWwELC5KLO7LOWuQ,Chel Mattson
-http://www.youtube.com/channel/UCl4RpXZdQUhikTxBghAy1jQ,Sweet Anita
-http://www.youtube.com/channel/UClD8c_piy1nrJySPJUgyivg,statisticsfun
-http://www.youtube.com/channel/UClGTBAWnXC3dj3GElcsBHOw,Sounds4Sleeping
-http://www.youtube.com/channel/UClLK1nScx--ozSsgcBDhwBQ,ZoranTheBear
-http://www.youtube.com/channel/UClM2LuQ1q5WEc23462tQzBg,Proko
-http://www.youtube.com/channel/UClkp7a9_NJsZa-EeHUxqfKQ,AssassinGlasgow
-http://www.youtube.com/channel/UClt01z1wHHT7c5lKcU8pxRQ,hbomberguy
-http://www.youtube.com/channel/UCm4JnxTxtvItQecKUc4zRhQ,Errant Signal
-http://www.youtube.com/channel/UCm6GSA5OROHcIBNkXkH53zQ,tomatoanus
-http://www.youtube.com/channel/UCm9K6rby98W8JigLoZOh6FQ,LockPickingLawyer
-http://www.youtube.com/channel/UCmBXkjKD8w6bbjUzNjcDtQA,illusory wall
-http://www.youtube.com/channel/UCmRm1xtLIpBhuWjTyD411pA,Trent Kaniuga
-http://www.youtube.com/channel/UCmZvHI3-yyAEc_vTIl28LEg,Virtual Gaming Library - VGL
-http://www.youtube.com/channel/UCn11I11N1Mbbz_ZK5PYkQVw,rndThursday
-http://www.youtube.com/channel/UCnE7ub13RBaYxef8jurlGlg,"Back In The Deyes, Classic Kids TV"
-http://www.youtube.com/channel/UCnLDjLqqLMWg8bVynDZNj3w,Zade
-http://www.youtube.com/channel/UCnUNOc1gKJ0tWfD9MaY_Fvw,Broken at Best
-http://www.youtube.com/channel/UCnVOmMxvl5RmOzg616RFAcw,GHostLPs
-http://www.youtube.com/channel/UCnVimh35ecf46P_Bt-2AArg,DoodleChaos
-http://www.youtube.com/channel/UCnaJfD5zehhKm1KIjUw8PJg,Ben Prunty
-http://www.youtube.com/channel/UCnjMYaV_go0xfKihSpiyMEA,ch0colatemilk
-http://www.youtube.com/channel/UCnw3aIEiz60S6O3XcztCVkQ,PatricianTV
-http://www.youtube.com/channel/UCo57r5geuOTZzu1CoHbGbtQ,Pixel Architect
-http://www.youtube.com/channel/UCoBapgfK_m6G7airg1rdn8w,Alphonso Dunn
-http://www.youtube.com/channel/UCoMk2AnlOydyLijPqu9zg2Q,Yacht Club Games
-http://www.youtube.com/channel/UCokRnGdjHyhUe411IgNm9zg,DoctorSwellman
-http://www.youtube.com/channel/UCov_51F0betb6hJ6Gumxg3Q,AI and Games
-http://www.youtube.com/channel/UCoziFm3M4sHDq1kkx0UwtRw,Glam&Gore
-http://www.youtube.com/channel/UCp9Kc_5P_SSz-i9eUY7Y1Nw,Franki
-http://www.youtube.com/channel/UCpqN3zq41UF58nNLgO0zjwA,ZandraVandra
-http://www.youtube.com/channel/UCqEG1Kwq26Zv2JfqdAwj9kg,mogwaiTV
-http://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw,Game Maker's Toolkit
-http://www.youtube.com/channel/UCqQHgjf_pveTWH3e7lNBjqg,AviGaming
-http://www.youtube.com/channel/UCqeVI8YTNP2K3fn6N-ZHP0g,Adam Jones
-http://www.youtube.com/channel/UCqezHv1tg58ENAZsA_yiVSQ,MeltandCast
-http://www.youtube.com/channel/UCqg2eLFNUu3QN3dttNeOWkw,iHasCupquake
-http://www.youtube.com/channel/UCqsUgsQ7F4bkv3kbyP36kmg,FuryForged
-http://www.youtube.com/channel/UCqvU9Uxf_8YJOq67S6qcrFw,Aavak
-http://www.youtube.com/channel/UCrS_H0xAshXXzkP9hsVW5vQ,aulddragon
-http://www.youtube.com/channel/UCrlZs71h3mTR45FgQNINfrg,Mathemaniac
-http://www.youtube.com/channel/UCrrUm7--GP3NQbYVMoQxA2Q,Geek Remix
-http://www.youtube.com/channel/UCrwIwCT7vXtJIm3nZiwD7cQ,Algal the Bard
-http://www.youtube.com/channel/UCs-3AEL1a-wpyeDgsvKfa5w,MetalCanyon
-http://www.youtube.com/channel/UCs39ekEXaOte2AXkZCqf0lw,Cosmicborne
-http://www.youtube.com/channel/UCs4QL21rhQaHoTWz2agaisQ,CoffeeNutGaming
-http://www.youtube.com/channel/UCsC--WvN66vZlDoYShzn4sA,Oxhorn
-http://www.youtube.com/channel/UCsHUpI4UfxcZtAtLXxIwsgQ,Matallurgy Data
-http://www.youtube.com/channel/UCsaGKqPZnGp_7N80hcHySGQ,Tasting History with Max Miller
-http://www.youtube.com/channel/UCscTH4RuEEibzu3PEhhqymw,THUMPASAURUS
-http://www.youtube.com/channel/UCshoKvlZGZ20rVgazZp5vnQ,CaptainSparklez
-http://www.youtube.com/channel/UCt8jFmkY7mKHvq-5y34tXXA,mischa crossing
-http://www.youtube.com/channel/UCt9zpXoM1RqiC9u4YYuVP5Q,Afterthoughts
-http://www.youtube.com/channel/UCtApDZWXv8fQaxZAk6dxYkw,Ghostcharm
-http://www.youtube.com/channel/UCtEnS6HGyK1oe71sxbJuhcw,Helpful Vancouver Vet
-http://www.youtube.com/channel/UCtGoikgbxP4F3rgI9PldI9g,Super Eyepatch Wolf
-http://www.youtube.com/channel/UCtHY9ul5xEW59vCIqerhGIg,TurianShepard
-http://www.youtube.com/channel/UCtRScVjyVUuxVVW9u1zwNyw,GamerChick
-http://www.youtube.com/channel/UCto7D1L-MiRoOziCXK9uT5Q,Let's Game It Out
-http://www.youtube.com/channel/UCu3T-57vLRVEjF8viOEjm9g,Kay Plays
-http://www.youtube.com/channel/UCu9ArHUJZadlhwt3Jt0tqgA,The Educated Barfly
-http://www.youtube.com/channel/UCuA8ZIbXK2Uuc7rXOrmvg1w,Turtle Toad
-http://www.youtube.com/channel/UCuIAEcYyTZFJJF8cIcPOFLA,JezdaGames
-http://www.youtube.com/channel/UCuKsuR-jaRYi_enFOwNFz_A,D'LOURDES
-http://www.youtube.com/channel/UCuppnYXlAo7r7IhVigrVAfQ,Camelworks
-http://www.youtube.com/channel/UCusb0SpT8elBJdbcEJS_l2A,Tale Foundry
-http://www.youtube.com/channel/UCvCkfdQ3zMmgJaGhH1A15YQ,Htwo
-http://www.youtube.com/channel/UCvLfFC-nDulC5lezqd9n8uA,The Jessa Channel
-http://www.youtube.com/channel/UCvZe6ZCbF9xgbbbdkiodPKQ,Baumgartner Restoration
-http://www.youtube.com/channel/UCvakKqo_OYaRycvbz4ZaFwQ,IronLordAli
-http://www.youtube.com/channel/UCvbc2N6biTMUDFE_b79TPbw,The Stupendium
-http://www.youtube.com/channel/UCvd6HxqYVWvfvfaF2Ereb9Q,FlippedNormals Marketplace
-http://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw,The Coding Train
-http://www.youtube.com/channel/UCwBEhH4-1iOnI2GQBIT0Ohg,DunkOrSlam
-http://www.youtube.com/channel/UCwM6Xd5ZjTMzr1T204fyNyg,Clay God
-http://www.youtube.com/channel/UCwX8RD5ivBjTm1QHIv7fm_Q,Nookrium
-http://www.youtube.com/channel/UCx9Z91B76qNBbbEVw5868zg,Max Hobart - Topic
-http://www.youtube.com/channel/UCxExUXVDYIqg_F4BJCLPejA,Pulitzer Opal
-http://www.youtube.com/channel/UCxQrToVDBwHKuyIr47X04yA,Lowest Percent
-http://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A,Scott Manley
-http://www.youtube.com/channel/UCy3avhfHpBbbgwZpNvuVklg,Hutts
-http://www.youtube.com/channel/UCyAMsEi8pmgg1QkXGUuvYcg,rpg crawler
-http://www.youtube.com/channel/UCyI1sOuycp03XMMwiTNSqQg,Black Opal Direct
-http://www.youtube.com/channel/UCyMmUcht1N-adHYxad3teNA,Kronos Quartet
-http://www.youtube.com/channel/UCyrnQxi9EMfvydzzQW3PaOw,ColossalKiwi
-http://www.youtube.com/channel/UCytffz8ud6BJ3aXsNgBth0Q,Shared BPM
-http://www.youtube.com/channel/UCyxc5m-WDtFSU7r-RVKahrQ,TheTurtleMelon
-http://www.youtube.com/channel/UCyzFSsNQYoXBo4zjmTmncoA,Laila Dyer
-http://www.youtube.com/channel/UCz7iJPVTBGX6DNO1RNI2Fcg,GradeAUnderA
-http://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg,Aleph 0
-http://www.youtube.com/channel/UCzEy7pi3B7TIS9cn_sdKK9A,GrayStillPlays
-http://www.youtube.com/channel/UCzV3Xt_qXi8KaaBR58q-qFg,Dansg08
-http://www.youtube.com/channel/UCzjKyPw7dWma6HTxr-y1Umg,dfortae - Game Reviews
-http://www.youtube.com/channel/UCzoMKoGaZXlfLhRkYIOpYlA,AL82 Retrogaming Longplays
+http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
+http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
+http://www.youtube.com/channel/UC-CrwNynzNnOz4F9nVfxvkw  : Good Vibes Gaming
+http://www.youtube.com/channel/UC-DiVRJ-Pvpal8mzPwbCNzg  : KeeperofAges
+http://www.youtube.com/channel/UC-LlvExHgfc73J52jOiZanQ  : Eleum Loyce
+http://www.youtube.com/channel/UC-RP9HS8bnLtV0E9B27M9dA  : PoorMansPoison
+http://www.youtube.com/channel/UC-W99wr03PpQlHVjXcy7fVA  : kathleenmms
+http://www.youtube.com/channel/UC-XVEjLnK6sDFo5Zu7mD-Vg  : tokshen
+http://www.youtube.com/channel/UC-_SoG6x0XvcQRgQEh7Ce9Q  : DJ Cummerbund
+http://www.youtube.com/channel/UC-o0CfpOyFJOfyWKtqS1hZQ  : Cocktail Chemistry
+http://www.youtube.com/channel/UC0-xeMXO_Vu8_wqqKf_Nipg  : David Finch
+http://www.youtube.com/channel/UC0EW4Rt1PWNw3uUARLhDJ-Q  : LadyShelab
+http://www.youtube.com/channel/UC0JB7TSe49lg56u6qH8y_MQ  : GDC
+http://www.youtube.com/channel/UC0TobZSDyMaXaoVK_9TcPHA  : Portugal. The Man
+http://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA  : IllegallySighted
+http://www.youtube.com/channel/UC0wRztEPtQWDXUybBpYRpaA  : San Francisco Symphony
+http://www.youtube.com/channel/UC10eICZr0T6Fnc6-RnWaisw  : The RPG Chick
+http://www.youtube.com/channel/UC13ko8bRnamU_e3rJ__kJww  : Worst Practices
+http://www.youtube.com/channel/UC1BZnq-fX0Ea4ka4d8cnc0w  : Brothgar
+http://www.youtube.com/channel/UC1fKT0wuhchtclPqpdWEnHw  : NeverKnowsBest
+http://www.youtube.com/channel/UC1wZGocgLvopgOqBUFCyIJA  : Second Wind
+http://www.youtube.com/channel/UC21STFbJjiTnlv60q4SgLUA  : Royal Philharmonic Orchestra
+http://www.youtube.com/channel/UC21vMzyAmR-g4mhu-RA_lxw  : Voxcast To Nowhere
+http://www.youtube.com/channel/UC2BxUr3zPTBiNSaRNpq-Acw  : Gugubo
+http://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w  : CGP Grey
+http://www.youtube.com/channel/UC2O9STrT-GlNFEL-Yy85VgA  : Fiaura The Tank Girl
+http://www.youtube.com/channel/UC2P1bJ-udK3UhVX2QvnkS9g  : OneShortEye
+http://www.youtube.com/channel/UC2uihPDAsccyZjHkUpcd5PA  : Becca Faye
+http://www.youtube.com/channel/UC2wac-sRkNMPSFEnaOHCL3g  : Wanderbots
+http://www.youtube.com/channel/UC3OycnktjrKQzATI3Uovlow  : Painticus
+http://www.youtube.com/channel/UC3g-w83Cb5pEAu5UmRrge-A  : Brandon Sanderson
+http://www.youtube.com/channel/UC3tCfeWcO2tq1_VlKVPwo_g  : Joyous String Ensemble
+http://www.youtube.com/channel/UC3tFZR3eL1bDY8CqZDOQh-w  : Ben Lambert
+http://www.youtube.com/channel/UC3tNpTOHsTnkmbwztCs30sA  : Northernlion
+http://www.youtube.com/channel/UC3xZYc4SZUGfRERIvDRGqDQ  : Skip the Tutorial
+http://www.youtube.com/channel/UC4Aw2vsPaXUa70juKmyfrew  : Retro-Games Playthrough Movies
+http://www.youtube.com/channel/UC4O9HKe9Jt5yAhKuNv3LXpQ  : docm77
+http://www.youtube.com/channel/UC4OAAbxtB6QEKaTDb-SEe-Q  : Ricky Tinez
+http://www.youtube.com/channel/UC4Xj6emHTXnKHUq8btUuN6A  : Retromation
+http://www.youtube.com/channel/UC4_iGO7jIbQzwov5R94Ak-w  : Schaly
+http://www.youtube.com/channel/UC4a-Gbdw7vOaccHmFo40b9g  : Khan Academy
+http://www.youtube.com/channel/UC4a5d57ZAWl999-YXw0C1Vg  : Nine Inch Nails
+http://www.youtube.com/channel/UC4d-7JzDAzRhZConJtlrsDA  : Volx
+http://www.youtube.com/channel/UC4gd6eMm8Bxz2-w0svvUMog  : Resulka
+http://www.youtube.com/channel/UC4oo36VSTk5fH6YJSICEDMA  : Marz
+http://www.youtube.com/channel/UC4tOrC-cMzgpBWZBe-VHECQ  : 64 Bits
+http://www.youtube.com/channel/UC4uzNr43jVZOTc0vLmKnniw  : SparksArtifex
+http://www.youtube.com/channel/UC580SYuIdAIWf8ngzASdKGQ  : Dave Eddy
+http://www.youtube.com/channel/UC5970RJMoEcRNZl0MNp8tlQ  : LiliaTV
+http://www.youtube.com/channel/UC5BTcArAnit9p5W7etFsPsA  : teamfortress
+http://www.youtube.com/channel/UC5CYeHPLer3lbEhgonvbbAA  : Noah Caldwell-Gervais
+http://www.youtube.com/channel/UC5N5pRddyicAX1QJyJjIIdg  : Prof Ghrist Math
+http://www.youtube.com/channel/UC5az71kAQnV0cHm3SVYOsaA  : mechamelodious
+http://www.youtube.com/channel/UC5fdssPqmmGhkhsJi4VcckA  : Innuendo Studios
+http://www.youtube.com/channel/UC64fwl47Wrc6VJcskll7vsA  : itch.io
+http://www.youtube.com/channel/UC6802M2GyVD9u2g1dXKbYzg  : Nathan's Sandbox
+http://www.youtube.com/channel/UC6DEdt505hTnH7s-FavkWog  : NGPlus
+http://www.youtube.com/channel/UC6LBo0GXFaUtf-mWccqfw-w  : The Backlogs
+http://www.youtube.com/channel/UC6UuUfiNBiTlNTTvsaWvrsg  : Straydog
+http://www.youtube.com/channel/UC6e3i1iHXMoSzYF68x8sg4w  : slowbeef
+http://www.youtube.com/channel/UC7-DodxqMkl2e6XTejadS9Q  : Hugh Laurie
+http://www.youtube.com/channel/UC73AxlcKrGhDUm86uv2hlrA  : thevoiceofdog
+http://www.youtube.com/channel/UC776Nv-iV4VnI47hqv4VF4A  : Liara Gaming
+http://www.youtube.com/channel/UC78Rv6UZWsyyTYEIUiD3QBQ  : Revachol Forever
+http://www.youtube.com/channel/UC7Edgk9RxP7Fm7vjQ1d-cDA  : Feminist Frequency
+http://www.youtube.com/channel/UC7K0eMAAy9dpS7f-OIsBAAA  : London Philharmonic Orchestra
+http://www.youtube.com/channel/UC7M-Wz4zK8oikt6ATcoTwBA  : Freya Holmér
+http://www.youtube.com/channel/UC7SfnX0k6ucXyYKtNwEnTog  : ixi music
+http://www.youtube.com/channel/UC7cmH--tFhYduIshTKzQUJQ  : Stylized Station
+http://www.youtube.com/channel/UC81hVmI5eEBIt3s3HQpJd_w  : boburnham
+http://www.youtube.com/channel/UC84X0epDRFdTrybxEX8ZWkA  : Super Best Friends Play
+http://www.youtube.com/channel/UC8BvYNPXVXylwSoXGSrfaBA  : The Longest Johns
+http://www.youtube.com/channel/UC8CPwmPh9ElZeJwsBfy_Pjw  : The Discographers
+http://www.youtube.com/channel/UC8FmKkoVFU20P6WnykizlUg  : PacketPrep
+http://www.youtube.com/channel/UC8JE00xTMBOqKs7o0grFTfQ  : Poppy
+http://www.youtube.com/channel/UC8RfCCzWsMgNspTI-GTFenQ  : Luetin09
+http://www.youtube.com/channel/UC8W_AGkuup8MnCfU7PPOkAg  : WTFSexyHeadphones
+http://www.youtube.com/channel/UC8a8OcoHUT-wTjVyqKCEsoA  : Cryorus
+http://www.youtube.com/channel/UC8affupLOlkEtH6QZGY_9Lg  : Michalina Malisz
+http://www.youtube.com/channel/UC8b4hCq0aHQbl0v2il0tR_A  : DDRJake
+http://www.youtube.com/channel/UC8nZUXCwCTffxthKLtOp6ng  : Splattercatgaming
+http://www.youtube.com/channel/UC9HRu5pckRguIkV5f9ab6rA  : Muckluck
+http://www.youtube.com/channel/UC9IEUA0_jhXGNeyu-l_7jFw  : TheQuxxn
+http://www.youtube.com/channel/UC9N0DmacOi4iWKQyygX89OQ  : FightinCowboy
+http://www.youtube.com/channel/UC9PEibgWOqZ-1I1JdxRmr6g  : Walk off the Earth
+http://www.youtube.com/channel/UC9Z-w0L3f_F-oyWNY_hrDlw  : Norovo
+http://www.youtube.com/channel/UC9_gOs5VM-iMX4dt-YsAW1Q  : Sir Rando
+http://www.youtube.com/channel/UC9mLpr85Lt8oXU7_UoawaLA  : Chris Christodoulou
+http://www.youtube.com/channel/UCAF_yy-Y4yl4VMiQ7RV3STw  : PotatoMcWhiskey
+http://www.youtube.com/channel/UCAH6Zo0Q9XNfPl4QkfCMfjA  : trekclip123
+http://www.youtube.com/channel/UCAJwd8RawmLnopoIZi4JDkw  : WILDCARD
+http://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA  : Primitive Technology
+http://www.youtube.com/channel/UCAg9meECjc6CnpKko5Fs-xQ  : Cyborcat
+http://www.youtube.com/channel/UCAntk4xRJNJRvIsDKZEATFg  : Snamwiches
+http://www.youtube.com/channel/UCApVQFP4scM3aJTnlP-3kNQ  : RedFoxRPG
+http://www.youtube.com/channel/UCAwTswSJwjE6h7siVjN5WfA  : Ruby_Rooz
+http://www.youtube.com/channel/UCB4r3ptUVK0908AsRguyptw  : Tealhollow1 Clips
+http://www.youtube.com/channel/UCBODyKF0JMbUd6D9Bklyzbw  : Alpharad
+http://www.youtube.com/channel/UCBPy4X-lQlnyN2-Z4U4t65g  : Boring Keith
+http://www.youtube.com/channel/UCBaHYWh_265k73PxkgaNkrA  : Distortion2
+http://www.youtube.com/channel/UCBq8CLRcJN8rgqHOkyL1ozg  : Supergiant Games
+http://www.youtube.com/channel/UCC-jQXxCAUyKA-nV-AyT1Jw  : Hal Leonard Orchestra
+http://www.youtube.com/channel/UCC9h6FtIb58ZQCRPJ2ZQtKg  : Vitamin String Quartet
+http://www.youtube.com/channel/UCCG6qI8XjyjUNgZ8jlJp_wQ  : BaerTaffy
+http://www.youtube.com/channel/UCCODtTcd5M1JavPCOr_Uydg  : Extra History
+http://www.youtube.com/channel/UCCmRIWxpargwxRc5A04Yvpg  : Keith Ballard
+http://www.youtube.com/channel/UCD6RD6JncaD7lfcX-vpONIQ  : Eversor Fatalis
+http://www.youtube.com/channel/UCDCpw4WH3apU0-eC9q3j2hw  : Ranged Touch
+http://www.youtube.com/channel/UCDSQHqANzYyJLqLD-fV4XDQ  : Rhapsody
+http://www.youtube.com/channel/UCDU4YqtHPc9ciZ5uW9Bg4lQ  : Cam
+http://www.youtube.com/channel/UCDXOwJQgD65oJOM1IHmtskw  : Indeimaus
+http://www.youtube.com/channel/UCDYZxJE8kLZ-o6nL8E1bXdQ  : Many A True Nerd
+http://www.youtube.com/channel/UCDgCscKFAj06xNYG9jTH8Rw  : CarcinogenSDA
+http://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ  : Ahoy
+http://www.youtube.com/channel/UCEYpz3z20GylPTmpSNciapw  : BlkLoliGamer
+http://www.youtube.com/channel/UCEqBBR3CwfnOcF5X1BjyhnQ  : Finest Fights
+http://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig  : Red Hot Chili Peppers
+http://www.youtube.com/channel/UCF11HxoU9YF3vhehVn3edjQ  : Gaming University
+http://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ  : Coding Math
+http://www.youtube.com/channel/UCFGuArHPEU6e-mZ-plZfQWA  : HelsinkiPhilharmonic
+http://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA  : EthosLab
+http://www.youtube.com/channel/UCFMtdiQILuTZr22sKUeAOOA  : Astartes
+http://www.youtube.com/channel/UCFg9-S0cfu3UvBYuSNFT9hQ  : RagnarRox
+http://www.youtube.com/channel/UCG2YlZcDex1RTDf6ZbXnyag  : Olivia AKA Livvie
+http://www.youtube.com/channel/UCG9Hhzgc8rCuWttNNTDtW6A  : Magnetic Fields
+http://www.youtube.com/channel/UCGGhM6XCSJFQ6DTRffnKRIw  : Muse
+http://www.youtube.com/channel/UCGHiFqlkj6T7z2sW9xz8d_Q  : Nick Lutsko
+http://www.youtube.com/channel/UCGMyyn2FdEFcDfP1wQRh5lQ  : Erindale
+http://www.youtube.com/channel/UCGYSfZbPp3BiAFs531PBY7g  : TrevTutor
+http://www.youtube.com/channel/UCGc8ZVCsrR3dAuhvUbkbToQ  : City Beautiful
+http://www.youtube.com/channel/UCGmvywjUliYi6MSwg_FuW_g  : Kawaii Games
+http://www.youtube.com/channel/UCGwu0nbY2wSkW8N-cghnLpA  : Jaiden Animations
+http://www.youtube.com/channel/UCGxMwOzCsKcP4oLiIzzFrAA  : RedScotGaming
+http://www.youtube.com/channel/UCHBDm730jklHOgWS8VEDlkA  : Piotr K
+http://www.youtube.com/channel/UCHOFy9rDa1Zsvb39hYBBVpA  : Arbitor Ian
+http://www.youtube.com/channel/UCHQESNIbXuQM-QUeMf7CFjQ  : AllShamNoWow
+http://www.youtube.com/channel/UCHSI8erNrN6hs3sUK6oONLA  : ilmango
+http://www.youtube.com/channel/UCHj5TjvRbfuHm-ufLDiZc0Q  : Sam Stone
+http://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA  : Veritasium
+http://www.youtube.com/channel/UCI3DTtB-a3fJPjKtQ5kYHfA  : Games Done Quick
+http://www.youtube.com/channel/UCI6keWArpxmfeiuAATv7jZw  : EpicNameBro
+http://www.youtube.com/channel/UCILwgMbCebOqPR_6H_1m8vA  : SwitchUp
+http://www.youtube.com/channel/UCISPcad-6svNxgViVr_syvA  : Arumba
+http://www.youtube.com/channel/UCJ7FHA3RiUJH--MJxIoocWw  : Blarla
+http://www.youtube.com/channel/UCJDIGW0ywWw9Kh9_vtwqxXA  : William Spaniel
+http://www.youtube.com/channel/UCJX2PsB_YGoaBijzuGADYzA  : BringItDon
+http://www.youtube.com/channel/UCJ_jwWjf8u5mdtac71Be8QA  : Hildegard von Blingin'
+http://www.youtube.com/channel/UCJbBijHhBZWkWDamlGDW2MQ  : Helloween4545
+http://www.youtube.com/channel/UCJhsl2VeLfSXzkutwlICyZw  : The Sphere Hunter
+http://www.youtube.com/channel/UCJkCwTo2we_FbJM1g4g9zIA  : Cruppz
+http://www.youtube.com/channel/UCK-7wmd3yC_DHWgEnJfzlIQ  : TheUrsinus1
+http://www.youtube.com/channel/UCK0wWfg2_bqWOQFFNWp58mw  : Kitfox Games
+http://www.youtube.com/channel/UCKV59Z6z9z8-s_oKEtAg7aQ  : The Backlogs : Shortcut Unlocked!
+http://www.youtube.com/channel/UCK_Qel5_Pi6rmVpWuN5SuHw  : rekording
+http://www.youtube.com/channel/UCKog-ke-YKj5XKJOAHk16-A  : Brickroad's Ridiculous Nonsense
+http://www.youtube.com/channel/UCKtu_JtQCY0yryIy6zK4ZCg  : Marc Brunet
+http://www.youtube.com/channel/UCKwkFtUmAh9ikgmhtGa1Rxg  : Bloom Plays
+http://www.youtube.com/channel/UCKxQmKgrkUv4S7P5w0pLayw  : Comics Explained
+http://www.youtube.com/channel/UCKzJFdi57J53Vr_BkTfN3uQ  : Primer
+http://www.youtube.com/channel/UCLFykVrOdjeYjl-PVwWh19Q  : CartoonIntro
+http://www.youtube.com/channel/UCLyVUwlB_Hahir_VsKkGPIA  : Mix and Jam
+http://www.youtube.com/channel/UCM8XzXipyTsylZ_WsGKmdKQ  : LongplayArchive
+http://www.youtube.com/channel/UCMFKFpbEZYOPsUf6hzwAHbw  : Lighthouse Raiders
+http://www.youtube.com/channel/UCMOqf8ab-42UUQIdVoKwjlQ  : Practical Engineering
+http://www.youtube.com/channel/UCMVAbo1bIaXtoHeKaZRnU5Q  : The Last Bacon
+http://www.youtube.com/channel/UCN8wTUlSAroLslWyf87E2pw  : eigenchris
+http://www.youtube.com/channel/UCNG3C-l6VNdwXLNUIxef0Uw  : VeryCuteGM
+http://www.youtube.com/channel/UCNJZzDKNZwJ-oWvey7UBltg  : GameOverContinue
+http://www.youtube.com/channel/UCNQJqvSXfDBOd9spve8doWw  : Worm Girl
+http://www.youtube.com/channel/UCNki4tdtDzrZLUyW18_ppoQ  : PaPaSea
+http://www.youtube.com/channel/UCNwbkKy_Yj_quxyf6-F7txg  : Lisa Juliette
+http://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ  : Slipknot
+http://www.youtube.com/channel/UCOP-E07fFnd1AyqtCifZI3A  : Primitive Unique Tool
+http://www.youtube.com/channel/UCOQqQTm_U-bCgjdC116GV9Q  : the redlamp organization
+http://www.youtube.com/channel/UCORIeT1hk6tYBuntEXsguLg  : PostmodernJukebox
+http://www.youtube.com/channel/UCO_hWjivU900eBRkSQNtlAw  : MARINA
+http://www.youtube.com/channel/UCOw4v1j3QnzH7X4krQAS7fg  : Tessa Violet
+http://www.youtube.com/channel/UCPDByT6Y7bS9hQI2Po38cHg  : Dan Dubuque
+http://www.youtube.com/channel/UCPLqvKsMhDpb1kLJludFvzQ  : Jelmerlicious
+http://www.youtube.com/channel/UCPU6nuYM92v9eV_-ZUV8CqQ  : SB
+http://www.youtube.com/channel/UCPVLLhHGWi-t1liswo65RHg  : LexaBun
+http://www.youtube.com/channel/UCPYP9dN8fwjKgKMihzkvljw  : Press 'X' for Chromosomes
+http://www.youtube.com/channel/UCQ-twzO6v-PBgckhkrXVaDQ  : Tom Francis
+http://www.youtube.com/channel/UCQ10IxW_K8cG4_P3wgnCurg  : Game Movie
+http://www.youtube.com/channel/UCQ1wXKNDfa4rEOeXR1S9_7A  : IRClevor
+http://www.youtube.com/channel/UCQSEAbOs6vsJfy7WN7iYaGQ  : EazySpeezy
+http://www.youtube.com/channel/UCQYMhOMi_Cdj1CEAU-fv80A  : Neso Academy
+http://www.youtube.com/channel/UCQZFAQPTQtrFrTu6Hb4vwsw  : My name is Byf
+http://www.youtube.com/channel/UCQrDV_RiKJ-cNyyMdTjzREQ  : The Salt Factory
+http://www.youtube.com/channel/UCR4a2QKvUuLvLGA6M5MM2ew  : Jungle4eva
+http://www.youtube.com/channel/UCRC6cNamj9tYAO6h_RXd5xA  : RTGame
+http://www.youtube.com/channel/UCRHXUZ0BxbkU2MYZgsuFgkQ  : The Spiffing Brit
+http://www.youtube.com/channel/UCRLpR4Sn7BmhClmfux5T-CA  : THE SCUMM BAR
+http://www.youtube.com/channel/UCRrvZqCL1YsqRA8IpXrhYQQ  : Jill Bearup
+http://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA  : Ben Eater
+http://www.youtube.com/channel/UCSDiMahT5qDCjoWtzruztkw  : ambiguousamphibian
+http://www.youtube.com/channel/UCSF5mJTarQx3ER3MhiR5QoQ  : Samara Ginsberg
+http://www.youtube.com/channel/UCSiPjfAJBgbFlIUsxOWpK0w  : PomplamooseMusic
+http://www.youtube.com/channel/UCSjXXHwfaDq1w9oQ0xgOFNg  : John Wolfe
+http://www.youtube.com/channel/UCSoEJPagoa5RZlchcvTtbEA  : Daniel Mullins Games
+http://www.youtube.com/channel/UCSz0WzAuhwjezFyEIv3Xksg  : D Latham
+http://www.youtube.com/channel/UCTDWASrT-T6wMBcZU4IXCKQ  : The Cursed Judge
+http://www.youtube.com/channel/UCTUQDE3_X5wwglFn22h4JtQ  : Calvin Wong
+http://www.youtube.com/channel/UCTUtqcDkzw7bisadh6AOx5w  : 12tone
+http://www.youtube.com/channel/UCTV3VOwvILkzKmkMBlFTZ5w  : Sixkilla Gaming
+http://www.youtube.com/channel/UCTa8NrcU5T2bQGuWmtYWsjg  : Olden Demon
+http://www.youtube.com/channel/UCTcc3KiX3RYXhi96vI_jJPA  : TheRPGMinx
+http://www.youtube.com/channel/UCTnm53gW0vQK2u-KjOQdwbQ  : Tim Mcburnie - The Drawing Codex
+http://www.youtube.com/channel/UCUHW94eEFW7hkUMVaZz4eDg  : minutephysics
+http://www.youtube.com/channel/UCUQTqWAaSzhAKRanOpes1nA  : Sinix Design
+http://www.youtube.com/channel/UCUm70ntG_hV_B-BLb3WWlRg  : Ecdycis
+http://www.youtube.com/channel/UCV5vCi3jPJdURZwAOO_FNfQ  : The Thought Emporium
+http://www.youtube.com/channel/UCVFqk8JxVGg2_99AmqFdS4g  : Danny Motta
+http://www.youtube.com/channel/UCVH4oOW0CBJ1W_WsJKd_62Q  : Stumpt
+http://www.youtube.com/channel/UCVdDUN69YsAXPxh2y71sMtQ  : I Finished A Video Game
+http://www.youtube.com/channel/UCVi6ofFy7QyJJrZ9l0-fwbQ  : World of Longplays
+http://www.youtube.com/channel/UCVo63lbKHjC04KqYhwSZ_Pg  : Defunctland
+http://www.youtube.com/channel/UCVpankR4HtoAVtYnFDUieYA  : Ze Frank
+http://www.youtube.com/channel/UCVuyByFo6js2qeEIJQEzJfg  : elmaxo
+http://www.youtube.com/channel/UCW7AGm8JSBEEew61dJIgl_A  : tom cardy
+http://www.youtube.com/channel/UCWDFAOZHGSy7ItmuQl32AYw  : Lorerunner
+http://www.youtube.com/channel/UCWMtz9BHvpdRx38BbCb-JgA  : The Games We Play
+http://www.youtube.com/channel/UCWQ_JrbZBq5uoDmrjQcajTA  : [SSCAIT] StarCraft Artificial Intelligence Tournament
+http://www.youtube.com/channel/UCWQfbcMGyrPDlIU7wV7aAOQ  : Liam Triforce
+http://www.youtube.com/channel/UCWqr2tH3dPshNhPjV5h1xRw  : Super Bunnyhop
+http://www.youtube.com/channel/UCWqvhmZyB66eKv01SiH_Kjg  : The Dead South
+http://www.youtube.com/channel/UCX5dg_a7p4RFcUO6r0_vBtw  : GetDaved
+http://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q  : CrashCourse
+http://www.youtube.com/channel/UCXYGUeekJCrBpM32yaJpjRw  : Wallace & Gromit
+http://www.youtube.com/channel/UCXurQhbWuJW7FatrU_y88BQ  : New York Philharmonic
+http://www.youtube.com/channel/UCXwv-QC7M59ZrYyANSNH7NA  : Pixel Partners
+http://www.youtube.com/channel/UCY1yTIi-DaxPbNtLCnwAM1g  : London Symphony Orchestra
+http://www.youtube.com/channel/UCY3A_5R_m3PXCn5XDhvBBsg  : Adam Millard - The Architect of Games
+http://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw  : 3Blue1Brown
+http://www.youtube.com/channel/UCYUY9_i44IDNOs_Ja815mlA  : WoodenPotatoes 🥔
+http://www.youtube.com/channel/UCYX2-exnYmc6gDObfooTGZg  : Skurry
+http://www.youtube.com/channel/UCYeF244yNGuFefuFKqxIAXw  : The Royal Institution
+http://www.youtube.com/channel/UCYkSWMBi1pZUqjs2OngjUyA  : Carolina Eyck
+http://www.youtube.com/channel/UCYn-cP0-yFjLwlAMFgycOxw  : The Black Mastadonte
+http://www.youtube.com/channel/UCYyprRWPdxfeN6SxlSLNt_Q  : The Adventure Gamer
+http://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow  : SciShow
+http://www.youtube.com/channel/UCZcV8AWZ_nQvx0Yvnmy7aHw  : MrLlamaSC
+http://www.youtube.com/channel/UCZz1vlP2XaeKnEP3L5hmcVA  : TheEpicNate315
+http://www.youtube.com/channel/UC_ADhkBQFudvyhdpsBJJvYw  : Kikoskia
+http://www.youtube.com/channel/UC_FfTzJh1Y4cIyjCj1xlUeQ  : Welonz
+http://www.youtube.com/channel/UC_IkRi_16jttcsqXxAm4YUA  : Plumbella
+http://www.youtube.com/channel/UC_LZ7v_-QTJIWSKq2cAcuZQ  : Quasimofo
+http://www.youtube.com/channel/UC_TYFButglZuuDbD-0Q_IzQ  : lilsimsie
+http://www.youtube.com/channel/UC_fZLqtcURWcUPeGJATPE5Q  : MarleyThirteen
+http://www.youtube.com/channel/UC_fsb-5q3QH-CXJ79YgrWfg  : The D-Pad
+http://www.youtube.com/channel/UC_kHZR6UaN44q95ZLCDvbmw  : LethalFeline
+http://www.youtube.com/channel/UC_wb8IVtmXwil8bN3IdVtZw  : Majorkill
+http://www.youtube.com/channel/UCa911Ay-7U4u3yt6zzBM8YQ  : Adnidi
+http://www.youtube.com/channel/UCaIJFXTZSktxnUolmWKGhTQ  : Instruō
+http://www.youtube.com/channel/UCaJTsOGo9PpFUCy_bwPjetA  : RenegadeConstabulary
+http://www.youtube.com/channel/UCaTznQhurW5AaiYPbhEA-KA  : Molly Rocket
+http://www.youtube.com/channel/UCaUcaR0Tn6UC8K_ub1uuArQ  : ZenBear
+http://www.youtube.com/channel/UCaXFVJbHcRmXr4fTNs6B2gA  : The Drifter's Broadcast
+http://www.youtube.com/channel/UCaxar6TBM-94_ezoS00fLkA  : Day9TV
+http://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg  : Two Minute Papers
+http://www.youtube.com/channel/UCbkCdYCOMikdN7gjdxwU8fQ  : cuddleofdeath
+http://www.youtube.com/channel/UCbx1TZgxfIauUZyPuBzEwZg  : quill18
+http://www.youtube.com/channel/UCbzNcFN7cxA8HO18cTYyTfg  : Doctor Mix
+http://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ  : Wintergatan
+http://www.youtube.com/channel/UCcrKaQFy2TImAad1hyxu_8w  : Seattle Symphony
+http://www.youtube.com/channel/UCdAy0KqpdA2Lp2_Qp0yNk2g  : ChristopherOdd
+http://www.youtube.com/channel/UCdJKz04rMi3lKdq_TX74P8Q  : The SaD Games
+http://www.youtube.com/channel/UCdj2kxX2RswOUl_wJ6GLgIA  : Early Style
+http://www.youtube.com/channel/UCeTfBygNb1TahcNpZyELO8g  : Jacob Geller
+http://www.youtube.com/channel/UCecFIR6BFJKfl3o8Bs8nHwg  : Grimith
+http://www.youtube.com/channel/UCegydHMjdDuF3a4ie6hiPpw  : Adventure Vault
+http://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w  : You Suck At Cooking
+http://www.youtube.com/channel/UCempl7qoAv3NqH-CY6RYL-Q  : New York Philharmonic - Topic
+http://www.youtube.com/channel/UCfAU9ieiLsemQtd7IHanmkA  : WeezyTF2
+http://www.youtube.com/channel/UCfHmyqCntYHQ81ZukNu66rg  : Razbuten
+http://www.youtube.com/channel/UCfbYNk9-Nll5Wwj8GBesKxg  : AirdnaPlays
+http://www.youtube.com/channel/UCffk6c4O1qGsbKtOTWhzq_A  : Haburu
+http://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ  : sentdex
+http://www.youtube.com/channel/UCg0kqKYY72OmzYg3JE3bdDA  : ChaoticMeatball
+http://www.youtube.com/channel/UCg3iDNLEXtoOPm08AcSeObQ  : Black Opal Direct Gems
+http://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ  : 圧倒的不審者の極み!
+http://www.youtube.com/channel/UCgFSPzCM9rx_Hxl-g13KcYw  : PROCJAM
+http://www.youtube.com/channel/UCgPIugXMNDp9ZuZxygPxDIw  : radiatoryang
+http://www.youtube.com/channel/UCgPok_OFuh4v8Hg3DwwVHJQ  : Bumpy McSquigums
+http://www.youtube.com/channel/UCgRhvJsaM13emRax3rSbRKQ  : Great Blue
+http://www.youtube.com/channel/UCgnPgGFT3fRVkXKL59iFDzQ  : Chris Davis
+http://www.youtube.com/channel/UChFur_NwVSbUozOcF_F2kMg  : Mumbo Jumbo
+http://www.youtube.com/channel/UChWuHT3gWmgfdNKXmF1cTsw  : The String Quartet Channel
+http://www.youtube.com/channel/UChmuggXW2LAtSvbRZyulK9A  : No Strings Prd
+http://www.youtube.com/channel/UChnxLLvzviaR5NeKOevB8iQ  : Red Means Recording
+http://www.youtube.com/channel/UChvbwc31bWu82GHtd91xWTQ  : Rufert
+http://www.youtube.com/channel/UCi7l9chXMljpUft67vw78qw  : Sideways
+http://www.youtube.com/channel/UCiFAmp2Crv66cQA-9SPje1A  : David Parker
+http://www.youtube.com/channel/UCioZY1p0bZ4Xt-yodw8_cBQ  : How To Drink
+http://www.youtube.com/channel/UCj1G_-P9EIMs4VpcgcOPxRw  : Steven Strogatz
+http://www.youtube.com/channel/UCj31PEVBMTnLvVOCSQGpbog  : Amosdoll Music
+http://www.youtube.com/channel/UCjFqcJQXGZ6T6sxyFB-5i6A  : Every Frame a Painting
+http://www.youtube.com/channel/UCjTafJmFk9D4eP-PCLUFO5Q  : Hempuli
+http://www.youtube.com/channel/UCjbG-zeFtYu_oN6BEX_2ZpQ  : Qasim Rashid
+http://www.youtube.com/channel/UCjf6YzmyaKi8880IXMJ5kGA  : Outside Xtra
+http://www.youtube.com/channel/UCjgtLRa-rGUMslSvvCJ9xLA  : JayRPGaming
+http://www.youtube.com/channel/UCjonWpLT8cK4CqJW7qfCZ8A  : Colonel RPG
+http://www.youtube.com/channel/UCkWRXTYgT1MXniQT-74dZlA  : RetroVution
+http://www.youtube.com/channel/UCkpKS8M7MaZAFewtUz24K3A  : Cybershell
+http://www.youtube.com/channel/UCkvLVrFMWwELC5KLO7LOWuQ  : Chel Mattson
+http://www.youtube.com/channel/UCl4RpXZdQUhikTxBghAy1jQ  : Sweet Anita
+http://www.youtube.com/channel/UClD8c_piy1nrJySPJUgyivg  : statisticsfun
+http://www.youtube.com/channel/UClGTBAWnXC3dj3GElcsBHOw  : Sounds4Sleeping
+http://www.youtube.com/channel/UClLK1nScx--ozSsgcBDhwBQ  : ZoranTheBear
+http://www.youtube.com/channel/UClM2LuQ1q5WEc23462tQzBg  : Proko
+http://www.youtube.com/channel/UClkp7a9_NJsZa-EeHUxqfKQ  : AssassinGlasgow
+http://www.youtube.com/channel/UClt01z1wHHT7c5lKcU8pxRQ  : hbomberguy
+http://www.youtube.com/channel/UCm4JnxTxtvItQecKUc4zRhQ  : Errant Signal
+http://www.youtube.com/channel/UCm6GSA5OROHcIBNkXkH53zQ  : tomatoanus
+http://www.youtube.com/channel/UCm9K6rby98W8JigLoZOh6FQ  : LockPickingLawyer
+http://www.youtube.com/channel/UCmBXkjKD8w6bbjUzNjcDtQA  : illusory wall
+http://www.youtube.com/channel/UCmRm1xtLIpBhuWjTyD411pA  : Trent Kaniuga
+http://www.youtube.com/channel/UCmZvHI3-yyAEc_vTIl28LEg  : Virtual Gaming Library - VGL
+http://www.youtube.com/channel/UCn11I11N1Mbbz_ZK5PYkQVw  : rndThursday
+http://www.youtube.com/channel/UCnE7ub13RBaYxef8jurlGlg  : "Back In The Deyes, Classic Kids TV"
+http://www.youtube.com/channel/UCnLDjLqqLMWg8bVynDZNj3w  : Zade
+http://www.youtube.com/channel/UCnUNOc1gKJ0tWfD9MaY_Fvw  : Broken at Best
+http://www.youtube.com/channel/UCnVOmMxvl5RmOzg616RFAcw  : GHostLPs
+http://www.youtube.com/channel/UCnVimh35ecf46P_Bt-2AArg  : DoodleChaos
+http://www.youtube.com/channel/UCnaJfD5zehhKm1KIjUw8PJg  : Ben Prunty
+http://www.youtube.com/channel/UCnjMYaV_go0xfKihSpiyMEA  : ch0colatemilk
+http://www.youtube.com/channel/UCnw3aIEiz60S6O3XcztCVkQ  : PatricianTV
+http://www.youtube.com/channel/UCo57r5geuOTZzu1CoHbGbtQ  : Pixel Architect
+http://www.youtube.com/channel/UCoBapgfK_m6G7airg1rdn8w  : Alphonso Dunn
+http://www.youtube.com/channel/UCoMk2AnlOydyLijPqu9zg2Q  : Yacht Club Games
+http://www.youtube.com/channel/UCokRnGdjHyhUe411IgNm9zg  : DoctorSwellman
+http://www.youtube.com/channel/UCov_51F0betb6hJ6Gumxg3Q  : AI and Games
+http://www.youtube.com/channel/UCoziFm3M4sHDq1kkx0UwtRw  : Glam&Gore
+http://www.youtube.com/channel/UCp9Kc_5P_SSz-i9eUY7Y1Nw  : Franki
+http://www.youtube.com/channel/UCpqN3zq41UF58nNLgO0zjwA  : ZandraVandra
+http://www.youtube.com/channel/UCqEG1Kwq26Zv2JfqdAwj9kg  : mogwaiTV
+http://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw  : Game Maker's Toolkit
+http://www.youtube.com/channel/UCqQHgjf_pveTWH3e7lNBjqg  : AviGaming
+http://www.youtube.com/channel/UCqeVI8YTNP2K3fn6N-ZHP0g  : Adam Jones
+http://www.youtube.com/channel/UCqezHv1tg58ENAZsA_yiVSQ  : MeltandCast
+http://www.youtube.com/channel/UCqg2eLFNUu3QN3dttNeOWkw  : iHasCupquake
+http://www.youtube.com/channel/UCqsUgsQ7F4bkv3kbyP36kmg  : FuryForged
+http://www.youtube.com/channel/UCqvU9Uxf_8YJOq67S6qcrFw  : Aavak
+http://www.youtube.com/channel/UCrS_H0xAshXXzkP9hsVW5vQ  : aulddragon
+http://www.youtube.com/channel/UCrlZs71h3mTR45FgQNINfrg  : Mathemaniac
+http://www.youtube.com/channel/UCrrUm7--GP3NQbYVMoQxA2Q  : Geek Remix
+http://www.youtube.com/channel/UCrwIwCT7vXtJIm3nZiwD7cQ  : Algal the Bard
+http://www.youtube.com/channel/UCs-3AEL1a-wpyeDgsvKfa5w  : MetalCanyon
+http://www.youtube.com/channel/UCs39ekEXaOte2AXkZCqf0lw  : Cosmicborne
+http://www.youtube.com/channel/UCs4QL21rhQaHoTWz2agaisQ  : CoffeeNutGaming
+http://www.youtube.com/channel/UCsC--WvN66vZlDoYShzn4sA  : Oxhorn
+http://www.youtube.com/channel/UCsHUpI4UfxcZtAtLXxIwsgQ  : Matallurgy Data
+http://www.youtube.com/channel/UCsaGKqPZnGp_7N80hcHySGQ  : Tasting History with Max Miller
+http://www.youtube.com/channel/UCscTH4RuEEibzu3PEhhqymw  : THUMPASAURUS
+http://www.youtube.com/channel/UCshoKvlZGZ20rVgazZp5vnQ  : CaptainSparklez
+http://www.youtube.com/channel/UCt8jFmkY7mKHvq-5y34tXXA  : mischa crossing
+http://www.youtube.com/channel/UCt9zpXoM1RqiC9u4YYuVP5Q  : Afterthoughts
+http://www.youtube.com/channel/UCtApDZWXv8fQaxZAk6dxYkw  : Ghostcharm
+http://www.youtube.com/channel/UCtEnS6HGyK1oe71sxbJuhcw  : Helpful Vancouver Vet
+http://www.youtube.com/channel/UCtGoikgbxP4F3rgI9PldI9g  : Super Eyepatch Wolf
+http://www.youtube.com/channel/UCtHY9ul5xEW59vCIqerhGIg  : TurianShepard
+http://www.youtube.com/channel/UCtRScVjyVUuxVVW9u1zwNyw  : GamerChick
+http://www.youtube.com/channel/UCto7D1L-MiRoOziCXK9uT5Q  : Let's Game It Out
+http://www.youtube.com/channel/UCu3T-57vLRVEjF8viOEjm9g  : Kay Plays
+http://www.youtube.com/channel/UCu9ArHUJZadlhwt3Jt0tqgA  : The Educated Barfly
+http://www.youtube.com/channel/UCuA8ZIbXK2Uuc7rXOrmvg1w  : Turtle Toad
+http://www.youtube.com/channel/UCuIAEcYyTZFJJF8cIcPOFLA  : JezdaGames
+http://www.youtube.com/channel/UCuKsuR-jaRYi_enFOwNFz_A  : D'LOURDES
+http://www.youtube.com/channel/UCuppnYXlAo7r7IhVigrVAfQ  : Camelworks
+http://www.youtube.com/channel/UCusb0SpT8elBJdbcEJS_l2A  : Tale Foundry
+http://www.youtube.com/channel/UCvCkfdQ3zMmgJaGhH1A15YQ  : Htwo
+http://www.youtube.com/channel/UCvLfFC-nDulC5lezqd9n8uA  : The Jessa Channel
+http://www.youtube.com/channel/UCvZe6ZCbF9xgbbbdkiodPKQ  : Baumgartner Restoration
+http://www.youtube.com/channel/UCvakKqo_OYaRycvbz4ZaFwQ  : IronLordAli
+http://www.youtube.com/channel/UCvbc2N6biTMUDFE_b79TPbw  : The Stupendium
+http://www.youtube.com/channel/UCvd6HxqYVWvfvfaF2Ereb9Q  : FlippedNormals Marketplace
+http://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw  : The Coding Train
+http://www.youtube.com/channel/UCwBEhH4-1iOnI2GQBIT0Ohg  : DunkOrSlam
+http://www.youtube.com/channel/UCwM6Xd5ZjTMzr1T204fyNyg  : Clay God
+http://www.youtube.com/channel/UCwX8RD5ivBjTm1QHIv7fm_Q  : Nookrium
+http://www.youtube.com/channel/UCx9Z91B76qNBbbEVw5868zg  : Max Hobart - Topic
+http://www.youtube.com/channel/UCxExUXVDYIqg_F4BJCLPejA  : Pulitzer Opal
+http://www.youtube.com/channel/UCxQrToVDBwHKuyIr47X04yA  : Lowest Percent
+http://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A  : Scott Manley
+http://www.youtube.com/channel/UCy3avhfHpBbbgwZpNvuVklg  : Hutts
+http://www.youtube.com/channel/UCyAMsEi8pmgg1QkXGUuvYcg  : rpg crawler
+http://www.youtube.com/channel/UCyI1sOuycp03XMMwiTNSqQg  : Black Opal Direct
+http://www.youtube.com/channel/UCyMmUcht1N-adHYxad3teNA  : Kronos Quartet
+http://www.youtube.com/channel/UCyrnQxi9EMfvydzzQW3PaOw  : ColossalKiwi
+http://www.youtube.com/channel/UCytffz8ud6BJ3aXsNgBth0Q  : Shared BPM
+http://www.youtube.com/channel/UCyxc5m-WDtFSU7r-RVKahrQ  : TheTurtleMelon
+http://www.youtube.com/channel/UCyzFSsNQYoXBo4zjmTmncoA  : Laila Dyer
+http://www.youtube.com/channel/UCz7iJPVTBGX6DNO1RNI2Fcg  : GradeAUnderA
+http://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg  : Aleph 0
+http://www.youtube.com/channel/UCzEy7pi3B7TIS9cn_sdKK9A  : GrayStillPlays
+http://www.youtube.com/channel/UCzV3Xt_qXi8KaaBR58q-qFg  : Dansg08
+http://www.youtube.com/channel/UCzjKyPw7dWma6HTxr-y1Umg  : dfortae - Game Reviews
+http://www.youtube.com/channel/UCzoMKoGaZXlfLhRkYIOpYlA  : AL82 Retrogaming Longplays
 ** Youtube playlists
 ** Youtube videos
 http://m.youtube.com/#/watch?v=DDyGl2uIQ-Q&desktop_uri=%2Fwatch%3Fv%3DDDyGl2uIQ-Q

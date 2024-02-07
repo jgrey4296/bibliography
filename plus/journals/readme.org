@@ -71,9 +71,12 @@ open access publishing charge - $4030.
 *** TODO vol_26.bib
 ** TODO jair
 https://dblp.org/db/journals/jair/index.html
-** TODO Science Fiction Studies
+** science fiction
+*** TODO Science Fiction Studies
 https://muse.jhu.edu/pub/347/journal/780
 https://www.jstor.org/journal/sciefictstud
+*** TODO extrapolation
+https://www.liverpooluniversitypress.co.uk/journal/extr
 * Links
 https://muse.jhu.edu/pub/347/journal/780
 http://jasss.soc.surrey.ac.uk/JASSS.html
