@@ -40,7 +40,7 @@ ctor                 = "job"                                                    
 mixins               = ["job:walker", "job:terse"]
 doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
-inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
+inject               = ["fpath", "fstem", "fname"]                                 # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
 sub_actions          = [

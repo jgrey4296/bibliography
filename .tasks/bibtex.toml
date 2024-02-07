@@ -7,7 +7,7 @@ ctor                 = "job"                                                    
 mixins               = ["job:walker", "job:terse"]
 doc                  = ["Load each bib file and reformat it"]                               # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
-inject               = ["fpath", "fstem", "fname", "lpath"]                                 # <('list',)>
+inject               = ["fpath", "fstem", "fname"]                                          # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
 sub_actions          = [
