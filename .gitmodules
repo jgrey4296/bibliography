@@ -4,3 +4,6 @@
 [submodule "plus/conferences_primary/aisb_"]
 	path = plus/conferences_primary/aisb_
 	url = git@github.com:jgrey4296/aisb-bibtex.git
+[submodule "wiki_"]
+	path = wiki_
+	url = git@github.com:jgrey4296/bibliography.wiki.git

@@ -1,6 +1,45 @@
 #+TITLE: Urls
 
-* Overview
+* Overview :toc:
+- [[#todos][todos]]
+  - [[#useful][useful]]
+  - [[#fresh][fresh]]
+  - [[#misc][misc]]
+  - [[#__come_back_to][__come_back_to]]
+  - [[#__important][__important]]
+- [[#main][Main]]
+  - [[#audio-visual][Audio Visual]]
+  - [[#blogs][Blogs]]
+  - [[#causal-inference][Causal Inference]]
+  - [[#economics][Economics]]
+  - [[#emacs][Emacs]]
+  - [[#game-dev][Game Dev]]
+  - [[#games][Games]]
+  - [[#github][Github]]
+  - [[#itchio][Itchio]]
+  - [[#machine-learning][Machine Learning]]
+  - [[#programming][Programming]]
+  - [[#reading-lists][Reading lists]]
+- [[#resources--assets][Resources / Assets]]
+  - [[#archive][Archive]]
+  - [[#cities][Cities]]
+  - [[#datasets][Datasets]]
+  - [[#fonts][Fonts]]
+  - [[#government][Government]]
+  - [[#image][Image]]
+  - [[#maps][Maps]]
+  - [[#museums-and-libraries][Museums and Libraries]]
+  - [[#people][People]]
+  - [[#reference][Reference]]
+  - [[#search][Search]]
+  - [[#sound][Sound]]
+  - [[#tv][Tv]]
+  - [[#universities-and-academia][Universities and Academia]]
+  - [[#youtube-channels][Youtube channels]]
+  - [[#youtube-playlists][Youtube playlists]]
+  - [[#youtube-videos][Youtube videos]]
+- [[#links][Links]]
+
 * todos
 ** useful
 https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html#simple-smart-contract
@@ -939,6 +978,9 @@ https://www.alanzucconi.com/tutorials/
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
 
 ** Blogs
+https://pressthink.org/
+https://www.realclimate.org/
+https://aphyr.com/
 https://adamosloizou.github.io
 https://adcontrarian.blogspot.com
 https://adoseoflogic.blogspot.com
@@ -1889,6 +1931,7 @@ http://www.emacswiki.org/emacs/OutlineMinorMode
 http://www.emacswiki.org/emacs/RegularExpression
 http://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://github.com/OpenXRay/xray-16
 http://allenchou.net/2015/04/game-math-numeric-springing-examples/
 http://arcengames.com/ai-war-first-four-years-postmortem-and-by-extension-arcen-history/
 http://arstechnica.com/gadgets/2012/12/portals-physics-engine-rebuilt-in-25kb-on-a-graphing-calculator/
@@ -2301,6 +2344,8 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Programming
+https://github.com/nikitadanilov/3-lisp
+https://aphyr.com/
 [[https://nbviewer.jupyter.org/github/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb#topic=0&lambda=1&term=][python nlp]]
 [[https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77][vue]]
 [[https://tidalcycles.org/functions.html][tidal]]
