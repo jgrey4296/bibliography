@@ -11,7 +11,7 @@
 *** DONE 1978_aisb.bib
 *** DONE 1980_aisb.bib
 *** DONE 1985_aisb.bib
-*** 2000
+*** DONE 2000
 **** DONE 2000_aisb.bib
 **** DONE 2000_aisb_b.bib
 **** DONE 2000_aisb_c.bib
@@ -127,30 +127,29 @@
 **** TODO 2013_aisb_f.bib                      :toc:
 **** TODO 2013_aisb_g.bib                      :toc:
 **** TODO 2013_aisb_h.bib                      :toc:
-*** 2014
-**** TODO 2014 _aisb_a.bib
-**** TODO 2014 _aisb_b.bib
-**** TODO 2014 _aisb_c.bib
-**** TODO 2014 _aisb_d.bib
-**** TODO 2014 _aisb_e.bib
-**** TODO 2014 _aisb_f.bib
-**** TODO 2014 _aisb_g.bib
-**** TODO 2014 _aisb_h.bib
-**** TODO 2014 _aisb_i.bib
-**** TODO 2014 _aisb_j.bib
-**** TODO 2014 _aisb_k.bib
-**** TODO 2014 _aisb_l.bib
-**** TODO 2014 _aisb_m.bib
-**** TODO 2014 _aisb_n.bib
-**** TODO 2014 _aisb_o.bib
-**** TODO 2014 _aisb_p.bib
-**** TODO 2014 _aisb_q.bib
-**** TODO 2014 _aisb_r.bib
-**** TODO 2014 _aisb_s.bib
-**** TODO 2014 _aisb_t.bib
-**** TODO 2014 _aisb_u.bib
-**** TODO 2014 _aisb_v.bib
-**** TODO 2014 _aisb_w.bib
+*** DONE 2014
+**** DONE 2014 _aisb_a.bib
+**** DONE 2014 _aisb_b.bib
+**** DONE 2014 _aisb_c.bib
+**** DONE 2014 _aisb_d.bib
+**** DONE 2014 _aisb_e.bib
+**** DONE 2014 _aisb_f.bib
+**** DONE 2014 _aisb_g.bib
+**** DONE 2014 _aisb_h.bib
+**** DONE 2014 _aisb_i.bib
+**** DONE 2014 _aisb_j.bib
+**** DONE 2014 _aisb_k.bib
+**** DONE 2014 _aisb_l.bib
+**** DONE 2014 _aisb_m.bib
+**** DONE 2014 _aisb_n.bib
+**** DONE 2014 _aisb_o.bib
+**** DONE 2014 _aisb_p.bib
+**** DONE 2014 _aisb_q.bib
+**** DONE 2014 _aisb_r.bib
+**** DONE 2014 _aisb_s.bib
+**** DONE 2014 _aisb_t.bib
+**** DONE 2014 _aisb_u.bib
+**** DONE 2014 _aisb_v.bib
 *** 2015
 **** TODO 2015_aisb.bib                        :toc:
 **** TODO 2015_aisb_b.bib                      :toc:
@@ -170,20 +169,8 @@
 **** TODO 2016_aisb_g.bib                      :toc:
 **** TODO 2016_aisb_h.bib
 **** TODO 2016_aisb_i.bib
-*** 2017
-**** TODO 2017_aisb.bib                        :toc:
-**** TODO 2017_aisb_b.bib
-**** TODO 2017_aisb_c.bib
-**** TODO 2017_aisb_d.bib
-**** TODO 2017_aisb_e.bib
-**** TODO 2017_aisb_f.bib
-**** TODO 2017_aisb_g.bib
-**** TODO 2017_aisb_h.bib
-**** TODO 2017_aisb_i.bib
-**** TODO 2017_aisb_j.bib
-**** TODO 2017_aisb_k.bib
-**** TODO 2017_aisb_l.bib
-*** TODO 2023_aisb.bib                          :toc:
+*** DONE 2017_aisb.bib                         :toc:
+*** DONE 2023_aisb.bib                          :toc:
 * Links
 ** aisbj
 https://web.archive.org/web/20070927043910/http://www.aisb.org.uk/aisbj/index.shtml
