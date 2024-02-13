@@ -41,15 +41,15 @@ from random import choice, choices
 
 import doot
 import doot.errors
-import doot.utils.expansion as exp
+from doot.structs import DootKey
 from dootle.bibtex import middlewares as dmids
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 
 MYBIB                              = "#my_bibtex"
 MAX_TAGS                           = 7
-UPDATE        : Final[exp.DootKey] = exp.DootKey("update_")
-FROM_KEY      : Final[exp.DootKey] = exp.DootKey("from")
+UPDATE        : Final[DootKey] = DootKey.make("update_")
+FROM_KEY      : Final[DootKey] = DootKey.make("from")
 
 def select_one_entry(spec, state):
     bib_db     = FROM_KEY.to_type(spec, state, type_=BTP.Library)
@@ -70,12 +70,12 @@ def build_parse_stack(spec, state):
         dmids.ParseTagsMiddleware(),
         ms.SeparateCoAuthors(True),
         dmids.RelaxedSplitNameParts(True),
+        dmids.TitleStripMiddleware(True)
     ]
     return {spec.kwargs.update_ : read_mids}
 
 def build_write_stack(spec, state):
     write_mids = [
-        # ms.MergeNameParts(True),
         dmids.MergeLastNameFirstName(True),
         ms.MergeCoAuthors(True),
         dmids.FieldAwareLatexEncodingMiddleware(keep_math=True, enclose_urls=False),

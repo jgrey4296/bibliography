@@ -1,0 +1,86 @@
+#+TITLE: Journal
+
+* Overview
+Collections of all articles i can find associated with specific journals
+
+* Main
+** TODO acm_prog_lang
+*** TODO oopsla
+*** TODO pldi
+*** TODO popl
+** TODO ai_mag
+*** TODO vol_1        -
+*** TODO vol_2        -
+*** TODO vol_3        -
+*** TODO vol_4        -
+*** TODO vol_5        -
+*** TODO vol_6        -
+*** TODO vol_7        -
+*** TODO vol_8        -
+*** TODO vol_9        -
+*** TODO vol_10       -
+*** TODO vol_11       -
+*** TODO vol_12       -
+*** TODO vol_13       -
+*** TODO vol_14       -
+*** TODO vol_15       -
+*** TODO vol_16       -
+*** TODO vol_17       -
+*** TODO vol_18       -
+*** TODO vol_19       -
+*** TODO vol_20       -
+*** TODO vol_21       -
+*** TODO vol_22       -
+*** TODO vol_23       -
+*** TODO vol_24       -
+*** TODO vol_44_to_25 - split
+** TODO ai_tools
+*** TODO international_journal_of_ai_tools - split this
+** TODO artificial_intelligence
+open access publishing charge - $4030.
+*** TODO vol_1_to_12 - split this
+*** TODO vol_320_to_193 - split this
+** TODO frontiers_of_ai
+*** TODO frontiers_of_ai - split this
+** TODO jasss
+*** TODO vol_1.bib
+*** TODO vol_2.bib
+*** TODO vol_3.bib
+*** TODO vol_4.bib
+*** TODO vol_5.bib
+*** TODO vol_6.bib
+*** TODO vol_7.bib
+*** TODO vol_8.bib
+*** TODO vol_9.bib
+*** TODO vol_10.bib
+*** TODO vol_11.bib
+*** TODO vol_12.bib
+*** TODO vol_13.bib
+*** TODO vol_14.bib
+*** TODO vol_15.bib
+*** TODO vol_16.bib
+*** TODO vol_17.bib
+*** TODO vol_18.bib
+*** TODO vol_19.bib
+*** TODO vol_20.bib
+*** TODO vol_21.bib
+*** TODO vol_22.bib
+*** TODO vol_23.bib
+*** TODO vol_24.bib
+*** TODO vol_25.bib
+*** TODO vol_26.bib
+** TODO jair
+https://dblp.org/db/journals/jair/index.html
+** science fiction
+*** TODO Science Fiction Studies
+https://muse.jhu.edu/pub/347/journal/780
+https://www.jstor.org/journal/sciefictstud
+*** TODO extrapolation
+https://www.liverpooluniversitypress.co.uk/journal/extr
+* Links
+https://muse.jhu.edu/pub/347/journal/780
+http://jasss.soc.surrey.ac.uk/JASSS.html
+https://www.frontiersin.org/journals/artificial-intelligence
+https://www.sciencedirect.com/journal/artificial-intelligence
+https://www.jair.org/index.php/jair/index
+https://dblp.org/db/journals/jair/index.html

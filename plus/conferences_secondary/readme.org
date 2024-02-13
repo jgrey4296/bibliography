@@ -1,0 +1,75 @@
+#+TITLE: Secondary Conferences
+
+* Overview
+
+* Main
+** TODO proceedings.bib - check and expand
+
+** TODO a2hc - needs dblp.keys
+** TODO abss - needs dplp.keys
+** TODO acai - needs dplp.keys
+** TODO acan - needs dplp.keys
+** todi alife
+** TODO aois
+*** TODO 2002 - add papers
+** TODO aose
+** TODO argmas
+** TODO at
+** TODO atop - needs dplp.keys
+** TODO care - needs dplp.keys
+** TODO ceemas
+** TODO cgames
+** TODO clima
+** TODO clips
+*** TODO 1994 - add papers
+** TODO coax
+*** TODO coax - split into years
+** TODO comp creative
+*** TODO comp_creative - add papers, get proceedings
+** TODO daghsthul - needs dplp.keys
+** TODO dai
+** TODO dalt
+** TODO deon
+** TODO digital_libs - rename to ercimdl
+** TODO digitel
+** TODO e4mas
+** TODO ecaiw
+** TODO emas
+** TODO esaw
+** TODO esoa - needs dplp.keys
+** TODO eumas
+** TODO gurt
+*** TODO 1984 - add papers
+** TODO hais
+** TODO ias
+** TODO icaps
+** TODO icmas
+** TODO ifm
+** TODO ipc - needs dplp.keys
+** TODO itmas - needs dplp.keys
+** TODO jurix
+** TODO lads
+** TODO lpnr
+** TODO maamaw
+** TODO mabs
+** TODO macsyma
+*** TODO macsyma_1977 - add papers
+** TODO mallow
+** TODO mates
+** TODO mmas
+** TODO mochart
+** TODO mrs
+** TODO oamas - needs dplp.keys
+** TODO oas
+** TODO oopsla
+** TODO prima
+** TODO promas
+** TODO rule tech - needs dplp.keys
+** TODO selmas
+** TODO socase
+** TODO storytelling - needs dplp.keys
+** TODO tpdl - needs dplp.keys
+** TODO trust - needs dplp.keys
+** TODO wat - needs dplp.keys
+** TODO WCSS
+* Links

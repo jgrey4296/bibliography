@@ -1,0 +1,44 @@
+
+[[locations]]
+tex_template = "~/github/_templates/tex-config/tex/export_template.tex"
+
+# TODO: compile bibtex to pdfs
+# TODO: compile to html with bibtex2html
+
+
+[[tasks.bib]]
+name                 = "compile"
+version              = "0.1"                                    # <str>
+doc                  = []                                       # <list[str]>
+ctor                 = "task"                                   # <str>
+mixins               = ["job:setup", "job:terse", "job:walker"] # <list>               mix in additional capabilities
+flags                = [ "TASK" ]                               # <TaskFlags>
+inject               = []                                       # <list[str]>
+queue_behaviour      = "default"                                # <str>                default | auto | reactive
+exts                 = [".bib"]                                 # <list[str]>
+roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
+sub_actions          = [
+                     # create tex file in temp
+                     # set title, set bib file
+                     # compile tex
+                     # compile bib
+                     # compile tex
+                     # compile tex
+]
+
+
+[[tasks.bib]]
+name                 = "identify.fails"
+version              = "0.1"                                    # <str>
+doc                  = []                                       # <list[str]>
+ctor                 = "task"                                   # <str>
+mixins               = ["job:setup", "job:terse", "job:walker"] # <list>               mix in additional capabilities
+flags                = [ "TASK" ]                               # <TaskFlags>
+inject               = []                                       # <list[str]>
+queue_behaviour      = "default"                                # <str>                default | auto | reactive
+exts                 = [".bib"]                                 # <list[str]>
+roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
+sub_actions          = [
+                     # if pdf exists in temp for bib, silent
+                     # else complain
+]

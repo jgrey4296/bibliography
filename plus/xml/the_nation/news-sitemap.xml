@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.thenation.com/wp-content/plugins/wpseo-news/assets/xml-news-sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://www.thenation.com/article/politics/dccc-sean-patrick-maloney/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T17:48:08+00:00</news:publication_date>
+		<news:title><![CDATA[In New York, Sean Patrick Maloney’s Out. Good.]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/sean-maloney-123K-getty.jpg</image:loc>
+		<image:title>sean-maloney-123K-getty</image:title>
+		<image:caption>Representative Sean Patrick Maloney (D-N.Y.)</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/culture/growing-towards-the-light/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T16:00:44+00:00</news:publication_date>
+		<news:title><![CDATA[Growing Toward the Light]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/FEATURE_Rush-More.jpg</image:loc>
+		<image:title>Growing Towards The Light</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/politics/midterms-2022-republicans-ripple/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T14:18:07+00:00</news:publication_date>
+		<news:title><![CDATA[Red Tsunami? More Like a Red Ripple.]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/GettyImages-1244628729.jpg</image:loc>
+		<image:title>Repulicans and Kevin McCarthy Election Night Watch Party</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/politics/georgia-abrams-warnock/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T13:33:12+00:00</news:publication_date>
+		<news:title><![CDATA[In Georgia, Abrams Loses, While Warnock Hangs On]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/stacey-abrams-concession-speech-gt-img.jpg</image:loc>
+		<image:title>stacey-abrams-concession-speech-gt-img</image:title>
+		<image:caption>Stacey Abrams at her concession speech</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/society/icwa-supreme-court-libretti-custody-case/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T10:00:58+00:00</news:publication_date>
+		<news:title><![CDATA[The Story of Baby O—and the Case That Could Gut Native Sovereignty]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/Barczyk-Nagle-ftr.jpg</image:loc>
+		<image:title>Barczyk-Nagle-ftr</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/environment/clean-energy-pollution-climate-change/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T10:00:49+00:00</news:publication_date>
+		<news:title><![CDATA[Clean Energy Is Booming. Now Here’s the Bad News.]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2019/07/wind-turbines-cc-img.jpg</image:loc>
+		<image:title>wind-turbines-cc-img</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/culture/teju-cole-criticism-art/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-09T10:00:04+00:00</news:publication_date>
+		<news:title><![CDATA[Teju Cole’s Elegiac Criticism]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/Caravaggio-Beheading_of_John_the_Baptist-getty.jpg</image:loc>
+		<image:title>Caravaggio-Beheading_of_John_the_Baptist-getty</image:title>
+		<image:caption>Caravaggio’s The Beheading of Saint John the Baptist</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/activism/vote-like-your-rights-depend-on-it/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T16:30:47+00:00</news:publication_date>
+		<news:title><![CDATA[Vote Like Your Rights Depend on It]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/FEATURE_Untitled-1.jpg</image:loc>
+		<image:title>Vote</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/politics/midterm-elections-trump-biden-democracy/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T15:50:17+00:00</news:publication_date>
+		<news:title><![CDATA[The Future of Democracy Requires an Electorate Free From Fear]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2016/12/Klare-foreignpolicyforum_img.jpg</image:loc>
+		<image:title>Klare-foreignpolicyforum_img</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/politics/buckle-up-month-long-2022-midterms-results/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T15:48:02+00:00</news:publication_date>
+		<news:title><![CDATA[Buckle Up: This Could Be a Month-Long Election Night]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/GettyImages-1440004244.jpg</image:loc>
+		<image:title>Americans Head To The Polls To Vote In The 2022 Midterm Elections</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/politics/georgia-elections-warnock-abrams/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T13:21:05+00:00</news:publication_date>
+		<news:title><![CDATA[Georgia Democrats Are Holding Their Breath]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/warnock-rally-gt-img.jpg</image:loc>
+		<image:title>warnock-rally-gt-img</image:title>
+		<image:caption>The crow at a rally for Sen. Raphael Warnock</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/society/india-spellman-wrongful-conviction/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T10:30:33+00:00</news:publication_date>
+		<news:title><![CDATA[India Spellman Was Wrongfully Convicted When She Was Just 17]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/Free-India-6_dimension.jpg</image:loc>
+		<image:title>Free India 6_dimension</image:title>
+		<image:caption>India Spellman pictured incarcerated.</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/politics/new-hampshire-governor-abortion/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T10:00:48+00:00</news:publication_date>
+		<news:title><![CDATA[A Libertarian Candidate Shares Her Abortion Story to Push Back on the Party’s Right-Wing Shift]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/new-hampshire-voting-gt-img.jpg</image:loc>
+		<image:title>new-hampshire-voting-gt-img</image:title>
+		<image:caption>New Hampshire voters at voting booths in a gymnasium</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/society/madeline-brame-bail-reform-critic/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T10:00:43+00:00</news:publication_date>
+		<news:title><![CDATA[Meet the Woman Leading the Charge Against Bail Reform in New York]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/Brame.jpg</image:loc>
+		<image:title>Madeline Brame Fox News</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/world/nuclear-war-generation-z/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T10:00:26+00:00</news:publication_date>
+		<news:title><![CDATA[How to Survive Our Apocalyptic Future]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/01/trinity_test_ap_img.jpg</image:loc>
+		<image:title>trinity_test_ap_img</image:title>
+		<image:caption>A black-and-white photo with a mushroom-shaped explosion.</image:caption>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.thenation.com/article/culture/rick-lowe-mary-heilmann/</loc>
+	<news:news>
+		<news:publication>
+			<news:name>The Nation</news:name>
+			<news:language>en</news:language>
+		</news:publication>
+		<news:genres><![CDATA[oped]]></news:genres>
+		<news:publication_date>2022-11-08T10:00:20+00:00</news:publication_date>
+		<news:title><![CDATA[The Outer Limits of Painting]]></news:title>
+	</news:news>
+	<image:image>
+		<image:loc>https://www.thenation.com/wp-content/uploads/2022/11/RICK-LOWE-Victoria-Square-Project-Open-Borders-2022.jpg</image:loc>
+		<image:title>RICK LOWE Victoria Square Project- Open Borders, 2022</image:title>
+		<image:caption>RICK LOWE's Victoria Square Project- Open Borders, 2022</image:caption>
+	</image:image>
+</url>
+</urlset>
+<!-- XML Sitemap generated by Yoast SEO -->
