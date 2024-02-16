@@ -63,6 +63,7 @@ def select_one_entry(spec, state):
 
 def build_parse_stack(spec, state):
     read_mids = [
+        dmids.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
         dmids.FieldAwareLatexDecodingMiddleware(True, keep_braced_groups=True, keep_math_mode=True),
