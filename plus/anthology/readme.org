@@ -1,8 +1,0 @@
-#+TITLE: Anthology
-
-* Overview
-These bib files are so big as to be unwieldy.
-
-* Main
-** TODO split into smaller files
-* Links
