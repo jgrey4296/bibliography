@@ -42,7 +42,7 @@ from random import choice, choices
 import doot
 import doot.errors
 from doot.structs import DootKey
-from dootle.bibtex import middlewares as dmids
+import bib_middleware as BM
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 
@@ -61,39 +61,55 @@ def select_one_entry(spec, state):
     if bool(entry):
         return {update_key : entry}
 
-def build_parse_stack(spec, state):
+def build_working_parse_stack(spec, state):
     read_mids = [
-        dmids.DuplicateHandler(),
+        BM.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
-        dmids.FieldAwareLatexDecodingMiddleware(True, keep_braced_groups=True, keep_math_mode=True),
-        dmids.ParsePathsMiddleware(lib_root=doot.locs["{lib-root}"]),
-        dmids.ParseTagsMiddleware(),
+        BM.LatexReader(True, keep_braced_groups=True, keep_math_mode=True),
+        BM.PathReader(lib_root=doot.locs["{lib-root}"]),
+        BM.IsbnValidator(True),
+        BM.TagsReader(),
         ms.SeparateCoAuthors(True),
-        dmids.RelaxedSplitNameParts(True),
-        dmids.TitleStripMiddleware(True)
+        BM.NameReader(True),
+        BM.TitleReader()
     ]
     return {spec.kwargs.update_ : read_mids}
 
-def build_write_stack(spec, state):
+def build_working_write_stack(spec, state):
+    """ Doesn't encode into latex """
     write_mids = [
-        dmids.MergeLastNameFirstName(True),
+        BM.NameWriter(True),
         ms.MergeCoAuthors(True),
-        dmids.FieldAwareLatexEncodingMiddleware(keep_math=True, enclose_urls=False),
-        dmids.WriteTagsMiddleware(),
-        dmids.WritePathsMiddleware(lib_root=doot.locs["{lib-root}"]),
+        # BM.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.IsbnWriter(True),
+        BM.TagsWriter(),
+        BM.PathWriter(lib_root=doot.locs["{lib-root}"]),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+    ]
+    return {spec.kwargs.update_ : write_mids}
+
+def build_export_write_stack(spec,state):
+    """ encodes into latex for compilation """
+    write_mids = [
+        BM.NameWriter(True),
+        ms.MergeCoAuthors(True),
+        # BM.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.IsbnWriter(True),
+        BM.TagsWriter(),
+        BM.PathWriter(lib_root=doot.locs["{lib-root}"]),
         ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return {spec.kwargs.update_ : write_mids}
 
 def write_tag_set(spec, state):
     update_key = UPDATE.redirect(spec, state)
-    result     = dmids.ParseTagsMiddleware.tags_to_str()
+    result     = BM.ParseTagsMiddleware.tags_to_str()
 
     return { update_key : result }
 
 def write_name_set(spec, state):
     update_key = UPDATE.redirect(spec, state)
-    result     = dmids.MergeLastNameFirstName.names_to_str()
+    result     = BM.MergeLastNameFirstName.names_to_str()
 
     return { update_key : result }

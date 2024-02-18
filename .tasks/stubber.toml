@@ -17,17 +17,17 @@ recursive            = false                                 # <bool>
 print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
 inject               = ["target"]
-accept_fn            = "task_code.stubber:not_copied"
+accept_fn            = "taskcode.stubber:not_copied"
 sub_actions          = [
                      {do="skipIfFile", args=["{target}"]},
                      {do="copy", from_="fpath", to="{target}"},
-                     {do="task_code.stubber:gen_stub", update_="stubtext", to="{target}"},
+                     {do="taskcode.stubber:gen_stub", update_="stubtext", to="{target}"},
                      {do="putPost", args=["{stubtext}"]},
                      {do="delete!", args=["{fpath}"]},
 ]
 head_actions         = [
                      {do="getPost", stubs="-"},
-                     {do="task_code.stubber:join_stubs", from_="stubs", update_="text"},
+                     {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
                      {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
 ]
 
@@ -36,6 +36,6 @@ name        = "cleanup"
 version     = "0.1"
 ctor        = "job"
 mixins      = ["job:walker", "job:terse"]
-accept_fn   = "task_code.stubber:select_refiled"
+accept_fn   = "taskcode.stubber:select_refiled"
 roots       = ["{todo_pdfs}"]
 sub_actions = [{do="delete!", args=["{fpath}"]}]
