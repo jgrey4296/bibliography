@@ -38,7 +38,7 @@ sub_actions            = [
                      { do="taskcode.chunking:build_chunking_parse_stack",   update_="parse_stack"},
                      { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
                      # convert to n * target_bib_size libraries
-                     { do="taskcode.bibtex:split_library", from_="bib_db", update_="split_libs" },
+                     { do="taskcode.chunking:split_library", from_="bib_db", update_="split_libs" },
                      # add to postbox
                      { do="putPost", args=["split_libs"] },
                      { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{chunk_failed}/{fstem}.bib" },

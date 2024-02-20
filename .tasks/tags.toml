@@ -8,7 +8,7 @@ disable = true
 name                 = "cleaner"
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
-doc                  = ["todo"]                   # <list[str]>
+doc                  = ["TODO"]                   # <list[str]>
 depends_on           = ["file:>{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
 actions              = [
                      { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
@@ -19,8 +19,8 @@ actions              = [
 name                     = "totals"
 version                  = "0.1"                                                                  # <str>
 ctor                     = "job"
-mixins                   = ["job:walker", "job:terse"]
 docs                     = ["extract known and new tags"]
+mixins                   = ["job:walker", "job:terse"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
 recursive                = false                                                                  # <bool>
@@ -33,8 +33,8 @@ head_actions             = [
                      { do="taskcode.tags:write_new", from_="tags", to="{temp}/tags/new.tags" },
 ]
 
-[[tasks.bib]]
-name                 = "names.and.tags"
+[[tasks.tags]]
+name                 = "extract.bib"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                             # <type>
 mixins               = ["job:walker", "job:terse"]
@@ -52,14 +52,14 @@ sub_actions          = [
                      { do="dootle.bibtex.v2:BibtexToStrAction", from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
 ]                                                                                                                         # <str>
 head_actions = [
-             { do="taskcode.bibtex:write_tag_set", update_="tags" },
+             { do="taskcode.tags:write_tag_set", update_="tags" },
              { do="write!", from_="tags", to="{temp}/tags/bib.tags"},
-             { do="taskcode.bibtex:write_name_set", update_="names" },
+             { do="taskcode.tags:write_name_set", update_="names" },
              { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]
 
-[[tasks.bookmark]]
-name                 = "tags"
+[[tasks.tags]]
+name                 = "extract.bkmk"
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 doc                  = ["Create a Tags file of the main bookmark's tags"] # <list[str]>

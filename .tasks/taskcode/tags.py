@@ -78,3 +78,15 @@ def read_tags(spec, state):
     tags = TagFile.read(target)
 
     return { update : tags }
+
+def write_tag_set(spec, state):
+    update_key = UPDATE.redirect(spec, state)
+    result     = BM.ParseTagsMiddleware.tags_to_str()
+
+    return { update_key : result }
+
+def write_name_set(spec, state):
+    update_key = UPDATE.redirect(spec, state)
+    result     = BM.MergeLastNameFirstName.names_to_str()
+
+    return { update_key : result }

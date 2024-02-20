@@ -7,7 +7,7 @@ todo_pdfs  = "/media/john/data/todo/pdfs"
 [[tasks.bib]]
 name                 = "stubber"
 version              = "0.1"                                 # <str>
-doc                  = []                                    # <list[str]>
+doc                  = ["Move pdfs and epubs into working directory, create stub entry for each one"]
 ctor                 = "job"                                # <str>
 mixins               = ["job:walker", "job:terse"]                   # <list>               mix in additional capabilities
 queue_behaviour      = "default"                             # <str>                default | auto | reactive
@@ -34,6 +34,7 @@ head_actions         = [
 [[tasks.bib]]
 name        = "cleanup"
 version     = "0.1"
+doc         = ["Cleanup refiled pdfs and epubs"]
 ctor        = "job"
 mixins      = ["job:walker", "job:terse"]
 accept_fn   = "taskcode.stubber:select_refiled"

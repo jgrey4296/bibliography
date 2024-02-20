@@ -1,39 +1,58 @@
 
+
 [[locations]]
 tex_template = "~/github/_templates/tex-config/tex/export_template.tex"
+tex_export   = "{export}/tex"
+tex_fail     = "{export}/tex/failed"
+pdf_export   = "{export}/pdfs"
 
 # TODO: compile bibtex to pdfs
 # TODO: compile to html with bibtex2html
 
+[[tasks.bib]]
+name                 = "full.compile"
+version              = "0.1"                                    # <str>
+doc                  = ["trigger a full export, and compile the results"]
+ctor                 = "task"                                   # <str>
+depends_on           = ["bib::export", "bib::export.$head$", "bib::compile", "bib::compile.$head"]
 
 [[tasks.bib]]
-name                 = "compile"
-version              = "0.1"                                    # <str>
-doc                  = []                                       # <list[str]>
-ctor                 = "task"                                   # <str>
-mixins               = ["job:setup", "job:terse", "job:walker"] # <list>               mix in additional capabilities
-flags                = [ "TASK" ]                               # <TaskFlags>
-inject               = []                                       # <list[str]>
-queue_behaviour      = "default"                                # <str>                default | auto | reactive
-exts                 = [".bib"]                                 # <list[str]>
-roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
+name                 = "pdf.compile"
+version              = "0.1"
+doc                  = ["compile anything in {bib_export} to pdf"]
+ctor                 = "job"
+mixins               = ["job:terse", "job:walker"]
+queue_behaviour      = "default"
+exts                 = [".bib"]
+roots                = ["{bib_export}"]
 sub_actions          = [
-                     # create tex file in temp
-                     # set title, set bib file
+                     # Load template
+                     # set title, bib file
                      # compile tex
                      # compile bib
                      # compile tex
                      # compile tex
 ]
 
+[[tasks.bib]]
+name                 = "html.compile"
+version              = "0.1"
+doc                  = ["compile anything in {bib_export} to html"]
+ctor                 = "job"
+mixins               = ["job:terse", "job:walker"]                     # <list>               mix in additional capabilities
+queue_behaviour      = "default"                                       # <str>                default | auto | reactive
+exts                 = [".bib"]                                        # <list[str]>
+roots                = ["{bib_export}"]                                # <list[str|pl.Path]>  Places the Walker will start
+sub_actions          = [
+                     # Run bibtex2html
+]
 
 [[tasks.bib]]
-name                 = "identify.fails"
+name                 = "pdf.fails"
 version              = "0.1"                                    # <str>
-doc                  = []                                       # <list[str]>
-ctor                 = "task"                                   # <str>
+doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
+ctor                 = "job"                                   # <str>
 mixins               = ["job:setup", "job:terse", "job:walker"] # <list>               mix in additional capabilities
-flags                = [ "TASK" ]                               # <TaskFlags>
 inject               = []                                       # <list[str]>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
 exts                 = [".bib"]                                 # <list[str]>

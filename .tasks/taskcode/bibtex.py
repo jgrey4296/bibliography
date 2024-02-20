@@ -101,15 +101,3 @@ def build_export_write_stack(spec,state):
         ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return {spec.kwargs.update_ : write_mids}
-
-def write_tag_set(spec, state):
-    update_key = UPDATE.redirect(spec, state)
-    result     = BM.ParseTagsMiddleware.tags_to_str()
-
-    return { update_key : result }
-
-def write_name_set(spec, state):
-    update_key = UPDATE.redirect(spec, state)
-    result     = BM.MergeLastNameFirstName.names_to_str()
-
-    return { update_key : result }

@@ -5,7 +5,7 @@ name                 = "format"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                                # <type>
 mixins               = ["job:limit", "job:walker", "job:terse"]
-doc                  = ["Load each bib file and reformat it"]                               # <list[str]>
+doc                  = ["Load each bib file and format/validate it"]                               # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname"]                                          # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
