@@ -28,6 +28,7 @@ run = { tracker = "default", runner = "default", reporter= "default", report-lin
 [[locations]]
 lib-root      = "/media/john/data/library/pdfs/"
 temp          = ".temp"
+export        = "{temp}/export"
 bib           = "main"
 firefox       = "~/snap/firefox/common/.mozilla/firefox"
 bookmarks     = "bookmarks/total.bookmarks"

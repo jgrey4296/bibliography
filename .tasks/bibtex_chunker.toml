@@ -1,12 +1,31 @@
 [[locations]]
-failed = "{temp}/failed_bib"
-chunked = "{temp}/chunked"
+chunked      = "{temp}/chunked"
+chunk_failed = "{chunked}/failed"
+
+[[tasks.bib]]
+name                 = "chunker"
+version              = "0.1"                # <str>
+ctor                 = "job"               # <str>
+mixins               = ["job:terse", "doot.mixins.job.postbox_expander:PostBoxExpanderMixin"] # <list>               mix in additional capabilities
+doc                  = ["Writer split bib libraries to files"]
+inject               = []                   # <list[str]>
+depends_on           = ["bib::_chunker.split", "bib::_chunker.split.$head$"]
+queue_behaviour      = "default"            # <str>                default | auto | reactive
+postbox              = {inject_key='data', task='bib::split', sub_key='-' }
+sub_actions          = [
+            # write library
+            { do="taskcode.chunking:generate_stem", from_="data", update_="fstem"},
+            { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
+            { do="dootle.bibtex.v2:BibtexToStrAction",  from_="data", update_="bib_text", write_stack_="write_stack" },
+            { do="write!", from_="bib_text", to="{chunked}/{fstem}.bib"},
+]
 
 [[tasks.bib]]
 name                   = "_chunker.split"
 version                = "0.1"                       # <str>
 ctor                   = "job"                      # <str>
 mixins                 = ["job:terse", "job:walker"] # <list>               mix in additional capabilities
+doc                    = ["walk the target for bibs, and split them to smaller libs"]
 cli                    = [{ name="target", type="str", prefix="-", default=".", desc="", positional=false  }]
 inject                 = ["target_bib_size"]                          # <list[str]>
 queue_behaviour        = "default"                   # <str>                default | auto | reactive
@@ -22,23 +41,5 @@ sub_actions            = [
                      { do="taskcode.bibtex:split_library", from_="bib_db", update_="split_libs" },
                      # add to postbox
                      { do="putPost", args=["split_libs"] },
-                     { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{failed}/failed_{fstem}.bib" },
-]
-
-
-[[tasks.bib]]
-name                 = "chunker"
-version              = "0.1"                # <str>
-ctor                 = "job"               # <str>
-mixins               = ["job:terse", "doot.mixins.job.postbox_expander:PostBoxExpanderMixin"] # <list>               mix in additional capabilities
-inject               = []                   # <list[str]>
-depends_on           = ["bib::_chunker.split", "bib::_chunker.split.$head$"]
-queue_behaviour      = "default"            # <str>                default | auto | reactive
-postbox              = {inject_key='data', task='bib::split', sub_key='-' }
-sub_actions          = [
-            # write library
-            { do="taskcode.chunking:generate_stem", from_="data", update_="fstem"},
-            { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
-            { do="dootle.bibtex.v2:BibtexToStrAction",  from_="data", update_="bib_text", write_stack_="write_stack" },
-            { do="write!", from_="bib_text", to="{chunked}/{fstem}.bib"},
+                     { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{chunk_failed}/{fstem}.bib" },
 ]

@@ -1,7 +1,7 @@
 
 
 [[locations]]
-bib_export = "{temp}/bib"
+bib_export = "{export}/tex"
 
 [[tasks.bib]]
 name                 = "export"
@@ -20,4 +20,5 @@ sub_actions          = [
                      { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
                      { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
                      { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
-]                                                                                                                         # <str>
+                     { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{bib_export}/failed/{fstem}.bib" },
+]
