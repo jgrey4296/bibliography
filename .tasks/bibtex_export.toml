@@ -1,0 +1,23 @@
+
+
+[[locations]]
+bib_export = "{temp}/bib"
+
+[[tasks.bib]]
+name                 = "export"
+version              = "0.1"                                                                # <str>
+ctor                 = "job"                                                                # <type>
+mixins               = ["job:walker", "job:terse"]
+doc                  = ["Load each bib file and prep it for export"]                               # <list[str]>
+print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
+inject               = ["fpath", "fstem", "fname"]                                          # <('list',)>
+roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
+exts                 = [".bib"]                                                             # <list[str]>
+sub_actions          = [
+                     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+                     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
+                     { do="taskcode.bibtex:build_export_write_stack",   update_="write_stack" },
+                     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+                     { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+                     { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
+]                                                                                                                         # <str>

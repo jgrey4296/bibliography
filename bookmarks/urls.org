@@ -20,11 +20,13 @@
   - [[#machine-learning][Machine Learning]]
   - [[#programming][Programming]]
   - [[#reading-lists][Reading lists]]
+  - [[#grammar][Grammar]]
 - [[#resources--assets][Resources / Assets]]
   - [[#archive][Archive]]
   - [[#cities][Cities]]
   - [[#datasets][Datasets]]
   - [[#fonts][Fonts]]
+  - [[#fonts-1][Fonts]]
   - [[#government][Government]]
   - [[#image][Image]]
   - [[#maps][Maps]]
@@ -2419,6 +2421,8 @@ https://www.taylorfrancis.com/books/edit/10.4324/9781315302430/organizational-sp
 https://www.theschooloflife.com/thebookoflife/how-to-read-fewer-books/
 https://www.uu.nl/en/research/game-research/research/publications
 https://www.wzchen.com/data-science-books
+** Grammar
+https://www.merriam-webster.com/grammar/
 * Resources / Assets
 ** Archive
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
@@ -2441,6 +2445,7 @@ https://www.si.edu/openaccess                                                   
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
 ** Datasets
+https://docs.opentermsarchive.org/
 http://apps.ecmwf.int/datasets/
 http://blog.webkid.io/datasets-for-machine-learning/
 http://boingboing.net/2015/07/21/almost-ever-reddit-comment-as.html
@@ -2553,6 +2558,8 @@ https://tex.stackexchange.com/questions/12887/is-there-a-list-available-for-all-
 https://vusd.github.io/spacesheet/
 https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/latexcommands.htm
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
+** Fonts
+https://chevyray.itch.io/pixel-font-megapack
 ** Government
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 http://lcweb2.loc.gov/cgi-bin/ampage?fileName=rbc0001_2003gen37813page.db&collId=rbc3                          :  Library of Congress Digital Collections

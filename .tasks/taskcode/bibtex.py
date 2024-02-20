@@ -66,7 +66,7 @@ def build_working_parse_stack(spec, state):
         BM.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
-        BM.LatexReader(True, keep_braced_groups=True, keep_math_mode=True),
+        # BM.LatexReader(True, keep_braced_groups=True, keep_math_mode=True),
         BM.PathReader(lib_root=doot.locs["{lib-root}"]),
         BM.IsbnValidator(True),
         BM.TagsReader(),
@@ -94,7 +94,7 @@ def build_export_write_stack(spec,state):
     write_mids = [
         BM.NameWriter(True),
         ms.MergeCoAuthors(True),
-        # BM.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.LatexWriter(keep_math=True, enclose_urls=False),
         BM.IsbnWriter(True),
         BM.TagsWriter(),
         BM.PathWriter(lib_root=doot.locs["{lib-root}"]),
