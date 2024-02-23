@@ -44,6 +44,7 @@
 
 * todos
 ** useful
+https://docs.opentermsarchive.org/
 https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html#simple-smart-contract
 https://www.ledger-cli.org/index.html
 https://pandoc.org/
@@ -980,6 +981,7 @@ https://www.alanzucconi.com/tutorials/
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
 
 ** Blogs
+https://notpoliticallycorrect.me/2024/01/31/race-racism-stereotypes-and-crime-a-moral-argument-for-why-racism-is-morally-wrong/
 https://pressthink.org/
 https://www.realclimate.org/
 https://aphyr.com/
@@ -2346,6 +2348,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Programming
+https://gnucobol.sourceforge.io/HTML/gnucobpg.html
 https://github.com/nikitadanilov/3-lisp
 https://aphyr.com/
 [[https://nbviewer.jupyter.org/github/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb#topic=0&lambda=1&term=][python nlp]]

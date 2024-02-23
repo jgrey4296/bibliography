@@ -1,0 +1,18 @@
+
+[[locations]]
+count_out = "{temp}/counts"
+
+[[tasks.count]]
+name = "main.entries"
+
+[[tasks.count]]
+name = "plus.entries"
+
+[[tasks.count]]
+name = "files"
+
+[[tasks.count]]
+name = "bookmarks"
+
+[[tasks.count]]
+name = "todos"
