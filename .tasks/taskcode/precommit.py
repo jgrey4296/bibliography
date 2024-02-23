@@ -43,11 +43,14 @@ from doot.structs import DootKey
 
 @DootKey.kwrap.types("files")
 def cli_retriever(spec, state, files):
+    root = doot.locs["."]
+    printer.info("Testing: %s", files)
     for x in files:
         fpath = doot.locs[x]
-        if fpath.ext != ".bib":
+        if fpath.suffix != ".bib":
             continue
-        lpath = fpath.relative_to(pl.Path())
+        printer.info("success: %s", fpath)
+        lpath = fpath.relative_to(root)
         yield dict(name=fpath.stem,
                    fpath=fpath,
                    fstem=fpath.stem,
