@@ -41,6 +41,8 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 
+HEAD_TAG_RE = re.compile(r"^\[\w+\]")
+
 @DootKey.kwrap.types("files")
 def cli_retriever(spec, state, files):
     root = doot.locs["."]
@@ -57,3 +59,10 @@ def cli_retriever(spec, state, files):
                    fname=fpath.name,
                    lpath=lpath,
                    pstem=fpath.parent.stem)
+
+@DootKey.kwrap.expands("text")
+def validate(spec, state, text):
+    head = text.split("\n")[0]
+    if not HEAD_TAG_RE.match(head):
+        printer.warning("Commit Messages need to have a [tag] at the start")
+        return False
