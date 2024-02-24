@@ -43,22 +43,6 @@ from doot.structs import DootKey
 
 HEAD_TAG_RE = re.compile(r"^\[\w+\]")
 
-@DootKey.kwrap.types("files")
-def cli_retriever(spec, state, files):
-    root = doot.locs["."]
-    printer.info("Testing: %s", files)
-    for x in files:
-        fpath = doot.locs[x]
-        if fpath.suffix != ".bib":
-            continue
-        printer.info("success: %s", fpath)
-        lpath = fpath.relative_to(root)
-        yield dict(name=fpath.stem,
-                   fpath=fpath,
-                   fstem=fpath.stem,
-                   fname=fpath.name,
-                   lpath=lpath,
-                   pstem=fpath.parent.stem)
 
 @DootKey.kwrap.expands("text")
 def validate(spec, state, text):

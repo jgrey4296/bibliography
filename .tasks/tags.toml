@@ -34,16 +34,22 @@ head_actions             = [
 ]
 
 [[tasks.tags]]
-name                 = "extract.bib"
+name                 = "extract"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                             # <type>
-mixins               = ["job:walker", "job:terse"]
+mixins               = ["job:walker"]
 doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname"]                                 # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
-sub_actions          = [
+sub_task             = "tags::_extract.bib"
+head_task            = "tags::_extract.bib.finish"
+
+[[tasks.tags]]
+name             = "_extract.bib"
+ctor             = "task"
+actions          = [
                      { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
                      { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
                      { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
@@ -51,12 +57,17 @@ sub_actions          = [
                      { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
                      { do="dootle.bibtex.v2:BibtexToStrAction", from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
 ]                                                                                                                         # <str>
-head_actions = [
+
+[[tasks.tags]]
+name     = "_extract.bib.finish"
+ctor     = "task"
+actions  = [
              { do="taskcode.tags:write_tag_set", update_="tags" },
              { do="write!", from_="tags", to="{temp}/tags/bib.tags"},
              { do="taskcode.tags:write_name_set", update_="names" },
              { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]
+
 
 [[tasks.tags]]
 name                 = "extract.bkmk"

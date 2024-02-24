@@ -15,16 +15,6 @@ select_limit_type    = "soft"                                                   
 select_limit         = 10                                                                   # <int|None>
 subtask              = "bib::_formatter"
 
-[[tasks.bib]]
-name         = "precommit.format"
-ctor         = "job"
-mixins       = ["job:expander"]
-cli          = [
-             { name="files",   type="list", default=[], positional=true }
-]
-print_levels = { head="INFO", build="DEBUG", execute="INFO", sleep="WARNING", action="WARNING" }
-retriever    = "taskcode.precommit:cli_retriever"
-sub_task      = "bib::_formatter"
 
 [[tasks.bib]]
 name             = "_formatter"

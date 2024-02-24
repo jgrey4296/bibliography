@@ -1,14 +1,44 @@
 
+
 [[tasks.precommit]]
-name                 = "validate"
-version              = "0.1"                # <str>
-doc                  = ["Validate a commit message"]
-cli                  = [
-{ name="msgfile",   default="", type="str", positional=true },
-# { name="changed",   default=[], type="list", positional=true }
+name     = "validate"
+version  = "0.1"                # <str>
+doc      = ["Validate a commit message"]
+cli      = [{ name="msgfile",   default="", type="str", positional=true }]
+ctor     = "task"               # <str>
+actions  = [
+         {do="read", from_="msgfile", update_="text"},
+         {do="taskcode.precommit:validate", from_="text"}
 ]
-ctor                 = "task"               # <str>
-actions              = [
-                     {do="read", from_="msgfile", update_="text"},
-                     {do="taskcode.precommit:validate", from_="text"}
-]
+
+[[tasks.bib]]
+name          = "precommit.format"
+ctor          = "job"
+mixins        = ["job:expander"]
+cli           = [{ name="files",   type="list", default=[], positional=true }]
+print_levels  = { head="INFO", build="DEBUG", execute="INFO", sleep="WARNING", action="WARNING" }
+retriever     = "doot.utils.retrievers:cli_retriever"
+exts          = [".bib"]
+sub_task      = "bib::_formatter"
+
+[[tasks.tags]]
+name          = "precommit.extract"
+ctor          = "job"
+mixins        = ["job:terse", "job:expander"]
+cli           = [{ name="files",   type="list", default=[], positional=true }]
+print_levels  = { head="INFO", build="DEBUG", execute="INFO", sleep="WARNING", action="WARNING" }
+retriever     = "doot.utils.retrievers:cli_retriever"
+exts          = [".bib"]
+sub_task      = "tags::_extract.bib"
+
+[[tasks.summary]]
+name        = "precommit.top"
+doc         = ["For Pre-Commit"]
+ctor        = "job"
+mixins      = ["job:match", "job:expander"]
+cli         = [{ name="files", type="list", default=[], positional=true}]
+retriever   = "doot.utils.retrievers:cli_retriever"
+exts        = [".bib", ".bookmarks"]
+match_fn    = "ext"
+match_field = "fpath"
+match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks"}

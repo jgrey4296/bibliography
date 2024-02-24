@@ -1,18 +1,28 @@
 
+
 [[locations]]
 count_out = "{temp}/counts"
 
-[[tasks.count]]
-name = "main.entries"
+[[tasks.summary]]
+name        = "manual.top"
+doc         = ["Summarise main"]
+ctor        = "job"
+mixins      = ["job:match", "job:walker"]
+exts        = [".bib", ".bookmarks"]
+roots       = ["{bib}"]
+match_fn    = "ext"
+match_field = "fpath"
+match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks"}
+head_task   = "summary::_fin"
 
-[[tasks.count]]
-name = "plus.entries"
+[[tasks.summary]]
+name = "_bibs"
+actions = []
 
-[[tasks.count]]
-name = "files"
+[[tasks.summary]]
+name    = "_bookmarks"
+actions = []
 
-[[tasks.count]]
-name = "bookmarks"
-
-[[tasks.count]]
-name = "todos"
+[[tasks.summary]]
+name    = "_fin"
+actions = []
