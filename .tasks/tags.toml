@@ -14,7 +14,6 @@ actions              = [
                      { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
 ]                   # <list[Any]>
 
-
 [[tasks.tags]]
 name                     = "totals"
 version                  = "0.1"                                                                  # <str>
@@ -67,7 +66,6 @@ actions  = [
              { do="taskcode.tags:write_name_set", update_="names" },
              { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]
-
 
 [[tasks.tags]]
 name                 = "extract.bkmk"

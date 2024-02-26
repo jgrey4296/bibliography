@@ -1,5 +1,8 @@
 ## bookmark.toml -*- mode: conf-toml -*-
 
+[[locations]]
+firefox       = "~/snap/firefox/common/.mozilla/firefox"
+
 # TODO: duplicate removal
 
 [[tasks.bookmark]]

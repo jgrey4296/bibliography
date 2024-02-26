@@ -1,4 +1,6 @@
 ## bibtex.toml -*- mode: conf-toml -*-
+[[locations]]
+lib-root      = "/media/john/data/library/pdfs/"
 
 [[tasks.bib]]
 name                 = "format"
