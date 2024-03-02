@@ -5,28 +5,19 @@ repos:
    rev: v3.2.0
    hooks:
    -   id: trailing-whitespace
-   -   id: end-of-file-fixer
    -   id: check-yaml
    -   id: end-of-file-fixer
        exclude: ".+?.bookmarks$"
 - repo: local
   hooks:
-    - id: formatBib
-      name: formatBib
+    - id: doot
+      name: doot
       description: Format changed bib files using doot
       language: system
-      entry: mamba run "-n" "doot-dev" doot "bib::precommit.format"
+      entry: mamba run "-n" "doot-dev" doot "precommit::top"
       verbose: true
       require_serial: true
       stages: [pre-commit]
-    # - id: summarise
-    #   name: summarise
-    #   description: Re-Generate summaries of any changed files
-    #   language: system
-    #   entry: mamba run "-n" "doot-dev" doot "summary::precommit.top"
-    #   verbose: true
-    #   require_serial: true
-    #   stages: [pre-commit]
     - id: updateBookmarks
       name: Update Bookmarks
       description: Grab Bookmarks from Firefox
@@ -35,16 +26,8 @@ repos:
       verbose: true
       require_serial: true
       stages: [pre-commit]
-    # - id: updateTags
-    #   name: Update Tags
-    #   description: Extract tags from changed files
-    #   language: system
-    #   entry: mamba run "-n" "doot-dev" doot "tags::precommit.extract"
-    #   verbose: true
-    #   require_serial: true
-    #   stages: [pre-commit]
     - id: validateMsg
-      name: validage commit message
+      name: validate
       description: checks the commit msg has a tag at the start
       language: system
       entry: mamba run "-n" "doot-dev" doot "precommit::validate"
@@ -53,7 +36,7 @@ repos:
       name: Clean up PDFs
       description: Deletes refiled_* files from the todo dir
       language: system
-      entry: mamba run "-n" "doot-dev" doot "bib::cleanup" "export::all"
+      entry: mamba run "-n" "doot-dev" doot "bib::cleanup"
       verbose: true
       require_serial: true
       stages: [post-commit]

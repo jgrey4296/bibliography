@@ -1,4 +1,6 @@
 
+[[locations]]
+changed_file = "{temp}/.changed"
 
 [[tasks.precommit]]
 name     = "validate"
@@ -11,18 +13,31 @@ actions  = [
          {do="taskcode.precommit:validate", from_="text"}
 ]
 
-[[tasks.bib]]
-name          = "precommit.format"
+[[tasks.precommit]]
+name          = "top"
+ctor          = "job"
+cli           = [{ name="files",   type="list", default=[], positional=true }]
+actions       = [
+              {do="log", msg="TODO"}
+               # append changed file list to {changed_file}
+               # queue format, extract
+]
+
+
+[[tasks.precommit]]
+name          = "format"
 ctor          = "job"
 mixins        = ["job:expander"]
 cli           = [{ name="files",   type="list", default=[], positional=true }]
 print_levels  = { head="INFO", build="DEBUG", execute="INFO", sleep="WARNING", action="WARNING" }
 retriever     = "doot.utils.retrievers:cli_retriever"
 exts          = [".bib"]
-sub_task      = "bib::_formatter"
+actions       = [
+              {do="job.queue", args=["bib::_formatter"]}
+]
 
-[[tasks.tags]]
-name          = "precommit.extract"
+[[tasks.precomit]]
+name          = "extract"
 ctor          = "job"
 mixins        = ["job:terse", "job:expander"]
 cli           = [{ name="files",   type="list", default=[], positional=true }]
@@ -31,8 +46,8 @@ retriever     = "doot.utils.retrievers:cli_retriever"
 exts          = [".bib"]
 sub_task      = "tags::_extract.bib"
 
-[[tasks.summary]]
-name        = "precommit.top"
+[[tasks.precommit]]
+name        = "summary"
 doc         = ["For Pre-Commit"]
 ctor        = "job"
 mixins      = ["job:match", "job:expander"]
@@ -42,3 +57,14 @@ exts        = [".bib", ".bookmarks"]
 match_fn    = "ext"
 match_field = "fpath"
 match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks"}
+
+
+
+[[tasks.postcommit]]
+name = "top"
+ctor = "job"
+actions = [
+        #  Queue post actions, using {changed_file}
+        #  ...
+        #  clear {changed_file}
+]
