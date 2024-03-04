@@ -1,4 +1,5 @@
 
+
 [[locations]]
 changed_file = "{temp}/.changed"
 
@@ -18,53 +19,24 @@ name          = "top"
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
 actions       = [
-              {do="log", msg="TODO"}
-               # append changed file list to {changed_file}
-               # queue format, extract
+            {do="log", msg="TODO"},
+            # todo append changed file list to {changed_file}
+            {do="job.expand", from_="files", update_="format_tasks", inject="fpath", base="bib::_formatter"},
+            {do="job.expand", from_="files", update_="tag_tasks",    inject="fpath", base="tags::_extract.bib"},
+            # todo {do="job.expand", from_="files", update_="tag_tasks", inject="fpath", base="summary::top"},
+            {do="job.queue", from_multi_=["format_tasks", "tag_tasks"]}, # queue
+            {do="job.queue.head", base_="head_actions"}, # head actions clear changed file
+            # alt head: {do="job.queue.head", base="precommit::simple"},
+]
+head_actions = [
+             {do="log", msg="Finished"}
+             # todo clear changed file
 ]
 
-
 [[tasks.precommit]]
-name          = "format"
-ctor          = "job"
-mixins        = ["job:expander"]
-cli           = [{ name="files",   type="list", default=[], positional=true }]
-print_levels  = { head="INFO", build="DEBUG", execute="INFO", sleep="WARNING", action="WARNING" }
-retriever     = "doot.utils.retrievers:cli_retriever"
-exts          = [".bib"]
-actions       = [
-              {do="job.queue", args=["bib::_formatter"]}
-]
-
-[[tasks.precomit]]
-name          = "extract"
-ctor          = "job"
-mixins        = ["job:terse", "job:expander"]
-cli           = [{ name="files",   type="list", default=[], positional=true }]
-print_levels  = { head="INFO", build="DEBUG", execute="INFO", sleep="WARNING", action="WARNING" }
-retriever     = "doot.utils.retrievers:cli_retriever"
-exts          = [".bib"]
-sub_task      = "tags::_extract.bib"
-
-[[tasks.precommit]]
-name        = "summary"
-doc         = ["For Pre-Commit"]
-ctor        = "job"
-mixins      = ["job:match", "job:expander"]
-cli         = [{ name="files", type="list", default=[], positional=true}]
-retriever   = "doot.utils.retrievers:cli_retriever"
-exts        = [".bib", ".bookmarks"]
-match_fn    = "ext"
-match_field = "fpath"
-match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks"}
-
-
-
-[[tasks.postcommit]]
-name = "top"
-ctor = "job"
-actions = [
-        #  Queue post actions, using {changed_file}
-        #  ...
-        #  clear {changed_file}
+name            = "simple"
+ctor            = "task"
+actions         = [
+             {do="log", msg="Finished"}
+             # todo clear changed filej
 ]

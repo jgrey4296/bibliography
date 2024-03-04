@@ -21,10 +21,14 @@ name                 = "pdf.compile"
 version              = "0.1"
 doc                  = ["compile anything in {bib_export} to pdf"]
 ctor                 = "job"
-mixins               = ["job:terse", "job:walker"]
 queue_behaviour      = "default"
 exts                 = [".bib"]
 roots                = ["{bib_export}"]
+actions = [
+        {do="job.walk", update_="files"}, # walk
+        {do="job.expand", key="fpath", base_="sub_actions", update_="tasks"},
+        {do="job.queue", from_="tasks"} # queue
+]
 sub_actions          = [
                      # Load template
                      # set title, bib file
@@ -39,10 +43,14 @@ name                 = "html.compile"
 version              = "0.1"
 doc                  = ["compile anything in {bib_export} to html"]
 ctor                 = "job"
-mixins               = ["job:terse", "job:walker"]                     # <list>               mix in additional capabilities
 queue_behaviour      = "default"                                       # <str>                default | auto | reactive
 exts                 = [".bib"]                                        # <list[str]>
 roots                = ["{bib_export}"]                                # <list[str|pl.Path]>  Places the Walker will start
+actions = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.queue", from_="tasks"}, # queue
+]
 sub_actions          = [
                      # Run bibtex2html
 ]
@@ -52,11 +60,15 @@ name                 = "pdf.fails"
 version              = "0.1"                                    # <str>
 doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
 ctor                 = "job"                                   # <str>
-mixins               = ["job:setup", "job:terse", "job:walker"] # <list>               mix in additional capabilities
 inject               = []                                       # <list[str]>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
 exts                 = [".bib"]                                 # <list[str]>
 roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
+actions = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.queue", from_="tasks"}, # queue
+]
 sub_actions          = [
                      # if pdf exists in temp for bib, silent
                      # else complain

@@ -9,7 +9,6 @@ name                 = "stubber"
 version              = "0.1"                                 # <str>
 doc                  = ["Move pdfs and epubs into working directory, create stub entry for each one"]
 ctor                 = "job"                                # <str>
-mixins               = ["job:walker", "job:terse"]                   # <list>               mix in additional capabilities
 queue_behaviour      = "default"                             # <str>                default | auto | reactive
 exts                 = [".pdf", ".epub"]                     # <list[str]>
 roots                = ["{dropbox}"]                         # <list[str|pl.Path]>  Places the Walker will start
@@ -18,6 +17,12 @@ print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
 inject               = ["target"]
 accept_fn            = "taskcode.stubber:not_copied"
+actions = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.queue", from_="tasks"}, # queue
+        {do="job.queue.head", base_="head_actions"},
+]
 sub_actions          = [
                      {do="skipIfFile", args=["{target}"]},
                      {do="copy", from_="fpath", to="{target}"},
@@ -36,7 +41,11 @@ name        = "cleanup"
 version     = "0.1"
 doc         = ["Cleanup refiled pdfs and epubs"]
 ctor        = "job"
-mixins      = ["job:walker", "job:terse"]
 accept_fn   = "taskcode.stubber:select_refiled"
 roots       = ["{todo_pdfs}"]
 sub_actions = [{do="delete!", args=["{fpath}"]}]
+actions     = [
+            {do="job.walk", update_="files"}, # walk,
+            {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+            {do="job.queue", from_="tasks"}, # queue
+]

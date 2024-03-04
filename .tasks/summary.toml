@@ -7,13 +7,17 @@ count_out = "{temp}/counts"
 name        = "manual.top"
 doc         = ["Summarise main"]
 ctor        = "job"
-mixins      = ["job:match", "job:walker"]
 exts        = [".bib", ".bookmarks"]
 roots       = ["{bib}"]
 match_fn    = "ext"
-match_field = "fpath"
 match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks"}
-head_task   = "summary::_fin"
+actions     = [
+        {do="job.walk",   update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath"},
+        {do="job.match",  onto_="tasks", mapping_="match_map"},
+        {do="job.queue",  from_="tasks"}, # queue
+        {do="job.queue.head", base="summary::_fin"}
+]
 
 [[tasks.summary]]
 name = "_bibs"

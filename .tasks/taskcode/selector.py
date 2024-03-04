@@ -43,7 +43,7 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 
-def oldest(job, specs:list) -> list:
+def oldest(spec:list, state, sub_specs) -> list:
     # Sorts oldest -> newest
-    by_mod_time = sorted(specs, key=lambda x: x.extra.fpath.stat().st_mtime)
+    by_mod_time = sorted(sub_specs, key=lambda x: x.extra.fpath.stat().st_mtime)
     return by_mod_time[0:job.spec.extra.select_limit]

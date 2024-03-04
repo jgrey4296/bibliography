@@ -9,12 +9,16 @@ cal_export = "{export}/calendar"
 name                 = "all"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                                # <type>
-mixins               = ["job:walker", "job:terse"]
 doc                  = ["Load each bib file and prep it for export"]                               # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname"]                                          # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
+actions = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.queue", from_="tasks"}, # queue
+]
 sub_actions          = [
                      { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
                      { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
@@ -29,12 +33,16 @@ sub_actions          = [
 name                 = "some"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                                # <type>
-mixins               = ["job:walker", "job:terse"]
 doc                  = ["export a selection from the main database"]
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname"]                                          # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
+actions = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.queue", from_="tasks"}, # queue
+]
 sub_actions          = [
                      { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
                      # TODO build selector stack

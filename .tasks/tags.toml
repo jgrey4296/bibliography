@@ -12,38 +12,46 @@ doc                  = ["TODO"]                   # <list[str]>
 depends_on           = ["file:>{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
 actions              = [
                      { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
-]                   # <list[Any]>
+]
 
 [[tasks.tags]]
 name                     = "totals"
 version                  = "0.1"                                                                  # <str>
 ctor                     = "job"
 docs                     = ["extract known and new tags"]
-mixins                   = ["job:walker", "job:terse"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
 recursive                = false                                                                  # <bool>
-# accept_fn              = ""                                                                     # <callable>
+actions                  = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.queue", from_="tasks"}, # queue
+        {do="job.queue.head", base_="head_actions"}
+
+]
 sub_actions              = [{ do="taskcode.tags:ReadSubs", from="{fpath}", update_="subs" }]     # <list[Any]>
 head_actions             = [
-                     { do="taskcode.tags:write_known", to="{temp}/tags/known.tags"},
-                     { do="taskcode.tags:ReadSubs",  from="{substitutions}/people.sub", update_="tags" },
-                     { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" },
-                     { do="taskcode.tags:write_new", from_="tags", to="{temp}/tags/new.tags" },
+                            { do="taskcode.tags:write_known", to="{temp}/tags/known.tags"},
+                            { do="taskcode.tags:ReadSubs",  from="{substitutions}/people.sub", update_="tags" },
+                            { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags",    update_="tags" },
+                            { do="taskcode.tags:write_new", from_="tags", to="{temp}/tags/new.tags" },
 ]
 
 [[tasks.tags]]
 name                 = "extract"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                             # <type>
-mixins               = ["job:walker"]
 doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 inject               = ["fpath", "fstem", "fname"]                                 # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
-sub_task             = "tags::_extract.bib"
-head_task            = "tags::_extract.bib.finish"
+actions = [
+        {do="job.walk", update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject="fpath", base="tags::_extract.bib"},
+        {do="job.queue", from_="tasks"}, # queue
+        {do="job.queue.head", base="tags::_extract.bib.finish"},
+]
 
 [[tasks.tags]]
 name             = "_extract.bib"
