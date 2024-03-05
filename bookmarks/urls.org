@@ -26,7 +26,6 @@
   - [[#cities][Cities]]
   - [[#datasets][Datasets]]
   - [[#fonts][Fonts]]
-  - [[#fonts-1][Fonts]]
   - [[#government][Government]]
   - [[#image][Image]]
   - [[#maps][Maps]]
@@ -44,6 +43,8 @@
 
 * todos
 ** useful
+https://www.merriam-webster.com/grammar/how-to-use-and-understand-diacritics-diacritical-marks : grammar
+https://creativelawcenter.com/museums-open-access-images/
 https://docs.opentermsarchive.org/
 https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html#simple-smart-contract
 https://www.ledger-cli.org/index.html
@@ -2428,6 +2429,7 @@ https://www.wzchen.com/data-science-books
 https://www.merriam-webster.com/grammar/
 * Resources / Assets
 ** Archive
+https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 https://archive.org/details/cbk                                                                                :  Archive.org Cookbook Collection
 https://archive.org/details/noise-arch                                                                         :  Archive.org noise music collection
@@ -2448,6 +2450,7 @@ https://www.si.edu/openaccess                                                   
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
 ** Datasets
+https://data.techforpalestine.org/
 https://docs.opentermsarchive.org/
 http://apps.ecmwf.int/datasets/
 http://blog.webkid.io/datasets-for-machine-learning/
@@ -2561,7 +2564,6 @@ https://tex.stackexchange.com/questions/12887/is-there-a-list-available-for-all-
 https://vusd.github.io/spacesheet/
 https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/latexcommands.htm
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
-** Fonts
 https://chevyray.itch.io/pixel-font-megapack
 ** Government
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
@@ -2654,6 +2656,13 @@ https://www.parismuseescollections.paris.fr/en                                  
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.vam.ac.uk/articles/explore-entartete-kunst-the-nazis-inventory-of-degenerate-art#?c=&m=&s=&cv=     :  Victoria and Albert Museum: Entartete Kunst inventory
 https://www.vam.ac.uk/collections?type=featured                                                                :  Victoria and Albert Museum collections
+
+https://www.metmuseum.org/art/collection/search
+https://data.rijksmuseum.nl/object-metadata/download/
+https://parismuseescollections.paris.fr/en/recherche/image-libre/1
+https://www.si.edu/search/collection-images
+https://www.clevelandart.org/art/collection/search
+https://www.britishmuseum.org/collection
 ** People
 http://acg.media.mit.edu/people/fry/index.html
 http://ai.eecs.umich.edu/people/laird/
@@ -2948,7 +2957,6 @@ https://www.dimensions.com/                                                     
 https://tineye.com/                                                                                            :  Tin Eye Reverse Image Search
 https://unsplash.com/                                                                                          :  Unsplash
 http://audiobookvault.ws/
-
 
 ** Sound
 

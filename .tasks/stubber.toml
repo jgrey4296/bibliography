@@ -24,14 +24,14 @@ actions = [
         {do="job.queue.head", base_="head_actions"},
 ]
 sub_actions          = [
-                     {do="skipIfFile", args=["{target}"]},
+                     {do="exists?", args=["{target}"]},
                      {do="copy", from_="fpath", to="{target}"},
                      {do="taskcode.stubber:gen_stub", update_="stubtext", to="{target}"},
                      {do="putPost", args=["{stubtext}"]},
                      {do="delete!", args=["{fpath}"]},
 ]
 head_actions         = [
-                     {do="getPost", stubs="-"},
+                     {do="post.get", stubs="-"},
                      {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
                      {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
 ]

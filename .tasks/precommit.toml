@@ -21,7 +21,7 @@ cli           = [{ name="files",   type="list", default=[], positional=true }]
 actions       = [
             {do="log", msg="TODO"},
             # todo append changed file list to {changed_file}
-            {do="job.expand", from_="files", update_="format_tasks", inject="fpath", base="bib::_formatter"},
+            {do="job.expand", from_="files", update_="format_tasks", inject="fpath", base="format::_individual"},
             {do="job.expand", from_="files", update_="tag_tasks",    inject="fpath", base="tags::_extract.bib"},
             # todo {do="job.expand", from_="files", update_="tag_tasks", inject="fpath", base="summary::top"},
             {do="job.queue", from_multi_=["format_tasks", "tag_tasks"]}, # queue

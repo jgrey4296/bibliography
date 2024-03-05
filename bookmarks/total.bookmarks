@@ -6522,6 +6522,7 @@ https://cairocffi.readthedocs.io/en/latest/ : cairo : libraries : python
 https://cairocffi.readthedocs.io/en/latest/overview.html : cairo : libraries : python : reference
 https://calgarysun.com/news/crime/woman-shot-dead-by-calgary-police-on-christmas-was-like-a-disney-princess#Echobox=1546050427 : calgary : calgary_sun : canada : drunk_driving : racism
 https://calhum.org/the-green-book-in-california-places-of-note/ : california_humanities : green_book : history : racism : travel
+https://calibre-ebook.com/about : calibre : ebook
 https://calpaterson.com/bank-python.html : bank_python : banking : oral_history : python : software_engineering : systems
 https://calver.org/ : software_engineering : standard : version_control
 https://caneadventures.blog/2019/10/05/car-free-cities-risk-excluding-disabled-people/ : accessibility : cane_adventures : disability : urban_design
@@ -6705,6 +6706,7 @@ https://dassur.ma/things/when-workers/ : blog : dassur : javascript : technical 
 https://data.census.gov/cedsci/table : USA : __come_back_to : census : data
 https://data.census.gov/cedsci/table?q=United%20States&tid=ACSDP1Y2017.DP05&vintage=2017&layer=state&cid=DP05_0001E : USA : census : demographics : statistics
 https://data.nhm.ac.uk/dataset/ : archive : dataset : natural_history : natural_history_museum
+https://data.techforpalestine.org/ : datasets : genocide : human_rights : israel : palestine
 https://datacolada.org/109 : academia : datacolada : francesco_gino : harvard
 https://dataconsciencebook.com/ : __come_back_to : book : data_conscience
 https://datasociety.net/output/ai-in-context/ : STS : ai : ai_in_context : data_society : ethics : report : technology
@@ -7648,6 +7650,7 @@ https://foreignpolicy.com/2020/01/31/coronavirus-china-trump-united-states-publi
 https://forge.medium.com/how-to-change-a-mind-1774681b9369 : changing_minds : eleanor_gordon_smith : medium
 https://fortran-lang.discourse.group/t/the-perils-of-polishing-long/5444 : blog : fortran : programming
 https://fortune.com/2023/07/13/signal-president-mass-surveillance-uk-law/ : UK : law : privacy : signal : surveillance
+https://forum.openwrt.org/t/openwrt-based-talktalk-sagemcom-fast-5364-tinkering/49961 : router : ssh : talktalk
 https://forum.paradoxplaza.com/forum/index.php : blog : game_design : game_development : social_system : software_development : stellaris
 https://forum.paradoxplaza.com/forum/index.php?threads/the-obligatory-euiv-strange-screenshot-thread.706850/ : __come_back_to : archive : europa_universalis : forum : game : games : humour : paradox : screen_shot
 https://forum.unity3d.com/threads/shortcut-key-for-lock-inspector.95815/ : code_analysis : unity
@@ -8292,6 +8295,7 @@ https://github.com/sdmg15/Best-websites-a-programmer-should-visit : curated : gi
 https://github.com/seanthegeek/mastodon-lists : lists : mastodon : seanthegeek
 https://github.com/sequitur/improv : generation : grammar : libraries : tracery : twitter
 https://github.com/shanecelis/water-demo : c_sharp : shader : unity : water
+https://github.com/shiroiokami85/talktalk_fast_5364 : firmware : github : router : talktalk
 https://github.com/showcases/programming-languages : github : language : programming
 https://github.com/sile/erl_dist : erlang : github : protocol : rust
 https://github.com/sixohsix/twitter : github : libraries : python : twitter
@@ -10061,6 +10065,7 @@ https://researchwhisperer.org/2022/12/13/how-to-run-an-asynchronous-online-event
 https://resources.infosecinstitute.com/topic/pdf-file-format-basic-structure/ : data_structure : metadata : pdf : reference
 https://restructuredtext.documatt.com/element/rubric.html : reference : restructured_text : sphinx
 https://restructuredtext.readthedocs.io/en/latest/ : restructured_text : rst : sphinx
+https://resumeworded.com/ : cv : resume : work
 https://retractionwatch.com/ : academia : dataset : ethics : retraction_watch : scholarship
 https://returntonow.net/2019/03/04/swedish-couple-builds-greenhouse-around-home-to-stay-warm-and-grow-food-all-year-long/ : architecture : blog : charles_sacilotto : green_house : marie_granmar : sweden
 https://rewire.news/article/2016/08/31/catholic-hospital-denies-transgender-man-hysterectomy-on-religious-grounds/ : LGBTQ : bigotry : catholic : health_care : rewire
