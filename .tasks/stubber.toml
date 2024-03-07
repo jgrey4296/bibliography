@@ -15,23 +15,24 @@ roots                = ["{dropbox}"]                         # <list[str|pl.Path
 recursive            = false                                 # <bool>
 print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
-inject               = ["target"]
 accept_fn            = "taskcode.stubber:not_copied"
-actions = [
-        {do="job.walk", update_="files"}, # walk,
+actions              = [
+        {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.inject.path", onto_="tasks", key="fpath"},
         {do="job.queue", from_="tasks"}, # queue
         {do="job.queue.head", base_="head_actions"},
+        # {do="break!"},
 ]
 sub_actions          = [
-                     {do="exists?", args=["{target}"]},
-                     {do="copy", from_="fpath", to="{target}"},
-                     {do="taskcode.stubber:gen_stub", update_="stubtext", to="{target}"},
-                     {do="putPost", args=["{stubtext}"]},
+                     {do="exists?", args=["{dest}"]},
+                     {do="copy", from_="fpath", to="{todo_pdfs}/{fname}"},
+                     {do="taskcode.stubber:gen_stub", update_="stubtext", to="{todo_pdfs}/{fname}"},
+                     {do="post.put", args=["{stubtext}"]},
                      {do="delete!", args=["{fpath}"]},
 ]
 head_actions         = [
-                     {do="post.get", stubs="-"},
+                     {do="post.get", stubs="bib::stubber.-"},
                      {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
                      {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
 ]
@@ -43,9 +44,13 @@ doc         = ["Cleanup refiled pdfs and epubs"]
 ctor        = "job"
 accept_fn   = "taskcode.stubber:select_refiled"
 roots       = ["{todo_pdfs}"]
-sub_actions = [{do="delete!", args=["{fpath}"]}]
+recursive   = false
 actions     = [
-            {do="job.walk", update_="files"}, # walk,
+            {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
             {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
             {do="job.queue", from_="tasks"}, # queue
+            {do="job.queue.head"},
+]
+sub_actions = [
+            {do="delete!", args=["{fpath}"]}
 ]

@@ -5615,6 +5615,7 @@ https://airflow.apache.org/docs/apache-airflow/stable/index.html : apache_airflo
 https://alamasnino.shinyapps.io/shotspotter_app/ : ShotSpotter : gun_violence : justice_tech_lab
 https://alarmingdevelopment.org/ : __come_back_to : blog : programming : research
 https://alarmingdevelopment.org/?p=1068 : UI : UX : blog : design : interface : programming
+https://alec.land/ : alec_robbins : comedy : crime_hot : mr_boop : people : show_me_less_like_this : webcomic
 https://alexanderameye.github.io/notes/rendering-outlines/ : github : graphics : outline : rendering
 https://alexanderetz.com/2015/04/15/understanding-bayes-a-look-at-the-likelihood/ : bayes : likelihood : statistics : tutorial
 https://alexey.radul.name/ideas/2013/introduction-to-automatic-differentiation/ : alexey_radul : automatic_differentiation : math
@@ -7216,6 +7217,7 @@ https://en.m.wikipedia.org/wiki/The_Wisdom_of_Crowds : book : crowd : psychology
 https://en.m.wikipedia.org/wiki/Theory_of_constraints : TOC : constraints : management : theory_of_constraints : wiki
 https://en.m.wikipedia.org/wiki/Tiling_window_manager : UI : ui : wiki : window_manager
 https://en.m.wikipedia.org/wiki/Timelines_of_world_history : history : lists : wiki
+https://en.m.wikipedia.org/wiki/Twelvefold_way : combinatorics : math : taxonomy : wiki
 https://en.m.wikipedia.org/wiki/Underhanded_C_Contest : c_lang : deception : obfuscation : programming : wiki
 https://en.m.wikipedia.org/wiki/United_States_debt-ceiling_crisis_of_2011 : 2011 : debt_crisis : wiki
 https://en.m.wikipedia.org/wiki/United_States_diplomatic_cables_leak : USA : chelsea_manning : diplomacy : wikileak
@@ -7326,6 +7328,7 @@ https://en.wikipedia.org/wiki/Generative_science : computation : interdisciplina
 https://en.wikipedia.org/wiki/Genocide : genocide : war_crimes : wiki
 https://en.wikipedia.org/wiki/Gift_economy : david_graeber : debt : economics : money : wiki
 https://en.wikipedia.org/wiki/Global_village_(term) : marshall_mcluhan : wiki
+https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence : ai : come_back_to : glossary : wiki
 https://en.wikipedia.org/wiki/Government_of_the_Han_Dynasty : china : history : wiki
 https://en.wikipedia.org/wiki/Gramm-leach-bliley : 1999 : banking : clinton : glass_steagall : law : regulation : wiki
 https://en.wikipedia.org/wiki/Haska_Meyna_wedding_party_airstrike : 2008 : USA : afghanistan : civilian : haska_meyna : massacre : war_crimes
@@ -7870,6 +7873,7 @@ https://github.com/SciumoTech/clipsrules : CLIPS : github : production_system : 
 https://github.com/SeriousCache/UABE : asset_unpacker : github : unity
 https://github.com/Shopify/liquid/wiki/liquid-for-designers : github : jekyll : reference : web_design
 https://github.com/SimHacker/micropolis : github : micropolis : sim_city
+https://github.com/Smithsonian/OpenAccess : datasets : github : smithsonian
 https://github.com/SoarGroup/Soar : SOAR : ai : github : library
 https://github.com/Svalorzen/AI-Toolbox : ai : c_plus_plus : github : python : toolbox
 https://github.com/TES5Edit/TES5Edit : bethesda : github : modding
@@ -9965,6 +9969,7 @@ https://pymotw.com/3/abc/ : python : software_design
 https://pymupdf.readthedocs.io/en/latest/tutorial.html#pdf-maintenance : pymupdf
 https://pypa-build.readthedocs.io/en/latest/ : build : build_lib : distribution : module : programming : python : software_engineering
 https://pyparsing-docs.readthedocs.io/en/latest/whats_new_in_3_0_0.html#new-features : github : parser : programming : pyparsing : python : reference
+https://pypi.org/ : packages : python
 https://pypi.org/classifiers/ : classifier : pypi : python
 https://pypi.org/project/grid-royale/ : __come_back_to : grid_royale : modeling : programming : python
 https://pypi.org/project/humanize/ : human_readable : library : python
@@ -10056,6 +10061,8 @@ https://regions.regionalstudies.org/ezine/issue/02/ : RSA : journal : research
 https://relaxng.org/jclark/ : XML : schema : trang : xml : xsd
 https://relaxng.org/jclark/trang-manual.html : XML : manual : trang : xml
 https://renegadeinc.com/he-died-for-our-debts-not-our-sins/ : bible : christianity : debt : economics : jesus : michael_hudson : renagade_inc : sin
+https://repository.usfca.edu/be/ : __important : academia : education : race
+https://reproducible-builds.org/ : best_practices : reproducible_builds : software_engineering : standards
 https://requester.mturk.com/pricing : __important : amazon : categories : mechanical_turk
 https://requests.readthedocs.io/en/latest/ : documentation : library : python : request : requests
 https://research.googleblog.com/2017/08/transformer-novel-neural-network.html : NLP : attention : deep_learning : google : machine_learning : transform
@@ -10273,6 +10280,7 @@ https://sluggerotoole.com/2018/05/06/you-get-less-holidays-than-a-medieval-peasa
 https://smallpondscience.com/2014/12/29/dead-grandmothers-no-more-the-equal-accommodation-classroom/ : blog : education
 https://smartech.gatech.edu/handle/1853/3739 : academia : georgia_tech : library : thesis
 https://smittenkitchen.com/2014/10/better-chocolate-babka/ : babka : chocolate : recipe : smitten_kitchen
+https://snakemake.readthedocs.io/en/stable/ : python : snakemake : task_runner : workflow
 https://snap.stanford.edu/data/web-Amazon.html : data_sets
 https://snikolov.wordpress.com/2014/07/31/rhythmic-composition-as-a-self-avoiding-random-walk/amp/ : music : search : sound : space_filling
 https://snootysims.com/ : __come_back_to : games : mods : the_sims

@@ -21,6 +21,7 @@
   - [[#programming][Programming]]
   - [[#reading-lists][Reading lists]]
   - [[#grammar][Grammar]]
+  - [[#wiki][Wiki]]
 - [[#resources--assets][Resources / Assets]]
   - [[#apis][APIs]]
   - [[#archive][Archive]]
@@ -67,7 +68,7 @@
   - [[#simulations][Simulations]]
   - [[#traffic][Traffic]]
   - [[#uk-parliament][UK parliament]]
-  - [[#wiki][Wiki]]
+  - [[#wiki-1][Wiki]]
 - [[#broken][Broken]]
 - [[#links][Links]]
 
@@ -2462,6 +2463,11 @@ https://www.uu.nl/en/research/game-research/research/publications
 https://www.wzchen.com/data-science-books
 ** Grammar
 https://www.merriam-webster.com/grammar/
+** Wiki
+https://en.wikipedia.org/wiki/History_of_software_configuration_management
+https://en.wikipedia.org/wiki/Infrastructure_as_code
+https://en.wikipedia.org/wiki/Chain_of_trust
+https://en.wikipedia.org/wiki/Reproducible_builds
 * Resources / Assets
 ** APIs
 https://www.oldbaileyonline.org/about/docapi
@@ -3696,6 +3702,7 @@ https://www.parliament.uk/archives
 http://www.legislation.gov.uk/ukpga
 ** Wiki
 https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
+https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
 * Broken
 http://blog.webkid.io/datasets-for-machine-learning/
 http://kolesnikov.ga/Datasets_in_Python/

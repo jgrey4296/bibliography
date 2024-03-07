@@ -47,6 +47,6 @@ sub_actions            = [
                      # convert to n * target_bib_size libraries
                      { do="taskcode.chunking:split_library", from_="bib_db", update_="split_libs" },
                      # add to postbox
-                     { do="putPost", args=["split_libs"] },
+                     { do="post.put", args=["split_libs"] },
                      { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{chunk_failed}/{fstem}.bib" },
 ]
