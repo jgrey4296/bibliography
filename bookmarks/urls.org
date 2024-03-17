@@ -1,77 +1,5 @@
 #+TITLE: Urls
 
-* Overview :toc:
-- [[#todos][todos]]
-  - [[#useful][useful]]
-  - [[#fresh][fresh]]
-  - [[#misc][misc]]
-  - [[#__come_back_to][__come_back_to]]
-  - [[#__important][__important]]
-- [[#main][Main]]
-  - [[#audio-visual][Audio Visual]]
-  - [[#blogs][Blogs]]
-  - [[#causal-inference][Causal Inference]]
-  - [[#economics][Economics]]
-  - [[#emacs][Emacs]]
-  - [[#game-dev][Game Dev]]
-  - [[#games][Games]]
-  - [[#github][Github]]
-  - [[#itchio][Itch.io]]
-  - [[#machine-learning][Machine Learning]]
-  - [[#programming][Programming]]
-  - [[#reading-lists][Reading lists]]
-  - [[#grammar][Grammar]]
-  - [[#wiki][Wiki]]
-- [[#resources--assets][Resources / Assets]]
-  - [[#apis][APIs]]
-  - [[#archive][Archive]]
-  - [[#cities][Cities]]
-  - [[#fonts][Fonts]]
-  - [[#government][Government]]
-  - [[#image][Image]]
-  - [[#maps][Maps]]
-  - [[#museums-and-libraries][Museums and Libraries]]
-  - [[#people][People]]
-  - [[#reference][Reference]]
-  - [[#search][Search]]
-  - [[#sound][Sound]]
-  - [[#tv][Tv]]
-  - [[#universities-and-academia][Universities and Academia]]
-  - [[#youtube-channels][Youtube channels]]
-  - [[#youtube-playlists][Youtube playlists]]
-  - [[#youtube-videos][Youtube videos]]
-- [[#digital-collections][Digital Collections]]
-- [[#datasets][Datasets]]
-  - [[#audio][Audio]]
-  - [[#concept-net--verbnet][Concept net / verbnet]]
-  - [[#dblp][Dblp]]
-  - [[#drugs][Drugs]]
-  - [[#enron-emails][Enron emails]]
-  - [[#games-1][Games]]
-  - [[#government-agencies][Government agencies]]
-  - [[#history][History]]
-  - [[#language-corpora][Language corpora]]
-  - [[#licenses][Licenses]]
-  - [[#math][Math]]
-  - [[#metadata][Metadata]]
-  - [[#misc-1][Misc]]
-  - [[#narrative][Narrative]]
-  - [[#networksgraphs][Networks/graphs]]
-  - [[#organisation][Organisation]]
-  - [[#palestine][Palestine]]
-  - [[#pew-research][Pew research]]
-  - [[#policing--crime][Policing / crime]]
-  - [[#pronounciation][Pronounciation]]
-  - [[#reality-commons][Reality commons]]
-  - [[#regulation--safety][Regulation / safety]]
-  - [[#scotus][Scotus]]
-  - [[#simulations][Simulations]]
-  - [[#traffic][Traffic]]
-  - [[#uk-parliament][UK parliament]]
-  - [[#wiki-1][Wiki]]
-- [[#broken][Broken]]
-- [[#links][Links]]
-
 * todos
 ** useful
 https://www.merriam-webster.com/grammar/how-to-use-and-understand-diacritics-diacritical-marks : grammar
@@ -1009,7 +937,24 @@ https://www.alanzucconi.com/tutorials/
 [[http://thebookofshaders.com/05/][book of shaders]]
 [[http://explorabl.es/][explorable explanations]]
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
+** Journalism
+https://genderanalysis.net
+http://www.nytimes.com/
+https://www.washingtonpost.com/
+https://pressthink.org/
+https://transwrites.world/
+https://www.thecontinent.org/
+https://www.texasstandard.org/broken/
+https://www.theneweuropean.co.uk/
+http://www.guardian.co.uk/
+https://www.thenation.com
+https://www.theatlantic.com
+https://www.theguardian.com
+https://www.techdirt.com
+https://www.propublica.org
+https://www.thetrace.org
 ** Blogs
+*** 1
 https://notpoliticallycorrect.me/2024/01/31/race-racism-stereotypes-and-crime-a-moral-argument-for-why-racism-is-morally-wrong/
 https://www.realclimate.org/
 https://aphyr.com/
@@ -1030,6 +975,7 @@ https://andymatuschak.org
 https://anirudhsasikumar.net
 https://archinect.com/
 https://archive.casouri.cc
+*** 2
 https://arktimes.com/arkansas-blog
 https://arstechnica.com
 https://artificialbureaucracy.substack.com
@@ -1050,6 +996,7 @@ https://blacktriangle.org/
 https://boardgamegeek.com/boardgame
 https://boingboing.net
 https://borderhouseblog.com
+*** 2
 https://boringml.com
 https://botherer.org/category/brian/
 https://botwiki.org
@@ -1070,6 +1017,7 @@ https://cloud4scieng.org
 https://computerhistory.org
 https://connelhooley.uk/blog
 https://craphound.com
+*** 2
 https://critical-distance.com
 https://crookedtimber.org
 https://crush.hashnode.dev
@@ -1090,6 +1038,7 @@ https://dinnerbone.com
 https://diobla.info/
 https://diogocastro.com
 https://discoversociety.org
+*** 2
 https://distill.pub
 https://distractionware.com
 https://dlang.org/blog
@@ -1110,6 +1059,7 @@ https://emshort.blog
 https://engineering.riotgames.com
 https://ericlippert.com
 https://erlc.com
+*** 2
 https://existentialcomics.com
 https://explosion.ai
 https://extranewsfeed.com
@@ -1130,6 +1080,7 @@ https://ggth.typepad.com
 https://ghost.org
 https://ghostinfluence.com
 https://going-medieval.com
+*** 2
 https://gorillasun.de
 https://gregorygundersen.com
 https://growabrain.typepad.com/
@@ -1150,6 +1101,7 @@ https://irisvanrooijcogsci.com
 https://irrationalgames.com/insider/
 https://irreal.org
 https://itsyourturnblog.com
+*** 2
 https://jahya.net/blog
 https://janosh.io
 https://jarango.com
@@ -1170,6 +1122,7 @@ https://learntemail.sam.today
 https://litfl.com
 https://longersky.com
 https://lostgarden.home.blog
+*** 2
 https://lowlevelbits.org/
 https://lucumr.pocoo.org
 https://ludeon.com/blog
@@ -1190,6 +1143,7 @@ https://meaningness.com
 https://mediaarchaeology.glitch.me
 https://mightynest.com
 https://mimo.blog
+*** 2
 https://mindingourway.com
 https://mixandgo.com
 https://monkeylearn.com
@@ -1210,6 +1164,7 @@ https://onbeing.org
 https://ondra.nepozitek.cz
 https://onsen.io/blog
 https://openai.com
+*** 2
 https://openmymind.net
 https://patentlaw.typepad.com/patent/
 https://paulgraham.com/onlisp.html
@@ -1230,6 +1185,7 @@ https://programmaticallyspeaking.com
 https://programmingisterrible.com
 https://project.jacobgarbe.com
 https://projectzomboid.com
+*** 2
 https://pybit.es
 https://qntm.org
 https://raganwald.com
@@ -1250,6 +1206,7 @@ https://scienceblogs.com/goodmath
 https://sciencefictionruminations.com
 https://serialmentor.com
 https://sethmlarson.dev
+*** 2
 https://sfgate.com
 https://sharpbrains.com
 https://shipilev.net
@@ -1270,6 +1227,7 @@ https://talkingpointsmemo.com/edblog/
 https://tansyrr.com
 https://tech-blog.capital-match.com
 https://tech.grammarly.com
+*** 2
 https://techblog.netflix.com
 https://tenthousandmeters.com
 https://terranova.blogs.com
@@ -1290,6 +1248,7 @@ https://tomasp.net
 https://tonsky.me
 https://towardsdatascience.com
 https://typealias.com
+*** 2
 https://unbound.com
 https://unstrangemind.com
 https://unwttng.com
@@ -1310,6 +1269,7 @@ https://web.archive.org/web/20110101185334/https://idrewthis.org
 https://web.archive.org/web/20120124151018/https://www.ffwdweekly.com/calgary-blogs/francisism
 https://web.archive.org/web/20120425000003/https://www.altdevblogaday.com
 https://web.archive.org/web/20121106102625/https://blog.objectmentor.com
+*** 2
 https://web.archive.org/web/20130203100838/https://www.ffwdweekly.com/calgary-blogs/francisism
 https://web.archive.org/web/20130315112245/https://playthisthing.com
 https://web.archive.org/web/20131217193709/https://www.hastac.org
@@ -1330,6 +1290,7 @@ https://writing.kemitchell.com
 https://writing.markchristian.org
 https://wthh.dataforprogress.org
 https://www.7pace.com
+*** 2
 https://www.ableton.com/en/blog
 https://www.abubalay.com/blog
 https://www.adalovelaceinstitute.org
@@ -1350,6 +1311,7 @@ https://www.b-list.org/weblog
 https://www.ballardian.com
 https://www.barnesandnoble.com
 https://www.barnesandnoble.com/blog/sci-fi-fantasy
+*** 2
 https://www.beforegame.net
 https://www.billemory.com/dillard
 https://www.blacktable.com
@@ -1370,6 +1332,7 @@ https://www.coati.io/blog
 https://www.cocoawithlove.com
 https://www.codecommit.com
 https://www.codersnotes.com
+*** 2
 https://www.collisiondetection.net
 https://www.community-intelligence.com
 https://www.corentindupont.info
@@ -1390,6 +1353,7 @@ https://www.designer-notes.com
 https://www.destroyallsoftware.com
 https://www.devdungeon.com
 https://www.divio.com
+*** 2
 https://www.dotkam.com
 https://www.drmaciver.com
 https://www.eclectablog.com
@@ -1410,6 +1374,7 @@ https://www.gains.af
 https://www.gameai.com/blogs.php
 https://www.gameinformer.com/themes/blogs
 https://www.gamesbyangelina.org
+*** 2
 https://www.getdnote.com
 https://www.git-tower.com
 https://www.godpatterns.com
@@ -1430,6 +1395,7 @@ https://www.interpretermag.com
 https://www.jamieoliver.com
 https://www.jgoertler.com/
 https://www.joelonsoftware.com
+*** 2
 https://www.johnath.com
 https://www.johndcook.com
 https://www.jonas-kyratzes.net
@@ -1450,6 +1416,7 @@ https://www.majid.info
 https://www.math3ma.com
 https://www.mattkenney.me
 https://www.mikeash.com
+*** 2
 https://www.mmorpg.com
 https://www.msnbc.com/the-reidout/reidout-blog
 https://www.mymodernmet.com
@@ -1470,6 +1437,7 @@ https://www.philipzucker.com
 https://www.pixelpoppers.com
 https://www.play-crafts.com
 https://www.pluralsight.com
+*** 2
 https://www.politics.co.uk/blogs
 https://www.portlandmercury.com
 https://www.poynter.org/how-tos
@@ -1490,6 +1458,7 @@ https://www.scattered-thoughts.net
 https://www.schneier.com
 https://www.sciencenews.org
 https://www.scotusblog.com
+*** 2
 https://www.snakelinksonic.com/
 https://www.snapfon.com
 https://www.snaptest.io
@@ -1510,6 +1479,7 @@ https://www.theopennotebook.com
 https://www.thewhoresofyore.com
 https://www.thinktsalagi.com/blog
 https://www.vam.ac.uk/blog/digital
+*** 2
 https://www.vera.org/blog/dispatches-from-germany
 https://www.vincit.fi/en/blog
 https://www.wilfred.me.uk/blog
@@ -2464,6 +2434,8 @@ https://www.wzchen.com/data-science-books
 ** Grammar
 https://www.merriam-webster.com/grammar/
 ** Wiki
+https://en.m.wikipedia.org/wiki/Data_vault_modeling
+https://en.m.wikipedia.org/wiki/Data_warehouse
 https://en.wikipedia.org/wiki/History_of_software_configuration_management
 https://en.wikipedia.org/wiki/Infrastructure_as_code
 https://en.wikipedia.org/wiki/Chain_of_trust
@@ -2472,6 +2444,7 @@ https://en.wikipedia.org/wiki/Reproducible_builds
 ** APIs
 https://www.oldbaileyonline.org/about/docapi
 http://developer.nytimes.com/
+https://github.com/subat0mik/Misconfiguration-Manager - windows
 ** Archive
 https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
@@ -2521,6 +2494,8 @@ https://www.federalregister.gov/                                                
 https://www.loc.gov/collections/                                                                               :  Library of Congress Digital Collections 2
 https://www.loc.gov/free-to-use/cats                                                                           :  Library of Congress: Cats
 ** Image
+https://simonschreibt.de/gat/windows-ac-row-ininite/#update8
+https://johnnygizmo.gumroad.com/l/zttus
 http://arabimagefoundation.com/                                                                                :  Arab Image Foundation
 http://envelopecollection.com/                                                                                 :  Envelope Collection
 http://oldradio.ru/logos/index.shtml                                                                           :  Soviet Radio Logos
@@ -2971,6 +2946,8 @@ https://www.cs.rochester.edu/research/cisd/resources/                           
 https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/                                :  University of Glasgow Digital Collections
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
+** Web App
+https://q.uiver.app/  - diagrams, latex
 ** Youtube channels
 http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
 http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
@@ -3551,6 +3528,7 @@ https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
 * Digital Collections
+https://www.c82.net/iconography/
 https://www.senate.gov/art-artifacts/historical-images-landing-page.htm
 https://archives.parliament.uk/our-collections/
 https://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1
@@ -3598,6 +3576,8 @@ https://catalog.data.gov/dataset/
 https://www.ncbi.nlm.nih.gov/
 https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book
 https://www.fec.gov/data/candidates/president/?election_year=2024&cycle=2024&election_full=true
+https://cspp.ippsr.msu.edu/congress/ - congress data
+https://github.com/IPPSR/congressData
 ** History
 https://seshat-db.com/
 http://seshatdatabank.info/
@@ -3643,6 +3623,7 @@ https://www.gov.uk/government/publications/department-for-transport-and-ndpb-str
 ** Palestine
 https://data.techforpalestine.org/
 ** Pew research
+https://www.pewresearch.org/religion/religious-landscape-study/
 https://www.pewresearch.org/topic/politics-policy/
 http://www.pewglobal.org/category/datasets/
 http://www.pewresearch.org/
