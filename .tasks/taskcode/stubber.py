@@ -42,10 +42,10 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 
-FPATH    = DootKey.make("fpath")
-UPDATE   = DootKey.make("update_")
-FROM_KEY = DootKey.make("from")
-TO_KEY   = DootKey.make("to")
+FPATH    = DootKey.build("fpath")
+UPDATE   = DootKey.build("update_")
+FROM_KEY = DootKey.build("from")
+TO_KEY   = DootKey.build("to")
 
 def gen_stub(spec, state):
     update = UPDATE.redirect(spec)

@@ -48,7 +48,7 @@ exts                 = [".bib"]                                        # <list[s
 roots                = ["{bib_export}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions          = [
@@ -60,13 +60,12 @@ name                 = "pdf.fails"
 version              = "0.1"                                    # <str>
 doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
 ctor                 = "job"                                   # <str>
-inject               = []                                       # <list[str]>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
 exts                 = [".bib"]                                 # <list[str]>
 roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]},base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions          = [

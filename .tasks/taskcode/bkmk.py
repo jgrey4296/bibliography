@@ -44,8 +44,8 @@ from doot.enums import ActionResponseEnum
 from dootle.tags.structs import TagFile
 from dootle.bookmarks.structs import BookmarkCollection
 
-UPDATE   : Final[DootKey]   = DootKey.make("update_")
-FROM_KEY : Final[DootKey]   = DootKey.make("from_")
+UPDATE   : Final[DootKey]   = DootKey.build("update_")
+FROM_KEY : Final[DootKey]   = DootKey.build("from_")
 TODAY                       = datetime.datetime.now().date()
 
 def collect_tags(spec, state):

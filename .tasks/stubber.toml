@@ -18,7 +18,7 @@ target               = "{todo_pdfs}/{fname}"
 accept_fn            = "taskcode.stubber:not_copied"
 actions              = [
         {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
         {do="job.inject.path", onto_="tasks", key="fpath"},
         {do="job.queue", from_="tasks"}, # queue
         {do="job.queue.head", base_="head_actions"},
@@ -47,7 +47,7 @@ roots       = ["{todo_pdfs}"]
 recursive   = false
 actions     = [
             {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
-            {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+            {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
             {do="job.queue", from_="tasks"}, # queue
             {do="job.queue.head"},
 ]

@@ -41,9 +41,9 @@ import doot.errors
 from doot.structs import DootKey
 from dootle.tags.structs import TagFile, SubstitutionFile
 
-UPDATE_KEY = DootKey.make("update_")
-FROM_KEY   = DootKey.make("from")
-TO_KEY     = DootKey.make("to")
+UPDATE_KEY = DootKey.build("update_")
+FROM_KEY   = DootKey.build("from")
+TO_KEY     = DootKey.build("to")
 
 class ReadSubs:
     _total = SubstitutionFile()

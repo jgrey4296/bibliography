@@ -24,7 +24,7 @@ exts                     = [".sub"]                                             
 recursive                = false                                                                  # <bool>
 actions                  = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject="fpath", base_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
         {do="job.queue.head", base_="head_actions"}
 
@@ -43,12 +43,12 @@ version              = "0.1"                                                    
 ctor                 = "job"                                                             # <type>
 doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
 print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
-inject               = ["fpath", "fstem", "fname"]                                 # <('list',)>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject="fpath", base="tags::_extract.bib"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base="tags::_extract.bib"},
+        {do="job.inject.path", onto_="tasks", key="fpath"},
         {do="job.queue", from_="tasks"}, # queue
         {do="job.queue.head", base="tags::_extract.bib.finish"},
 ]

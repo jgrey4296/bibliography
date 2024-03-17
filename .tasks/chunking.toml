@@ -28,7 +28,6 @@ version                = "0.1"                       # <str>
 ctor                   = "job"                      # <str>
 doc                    = ["walk the target for bibs, and split them to smaller libs"]
 cli                    = [{ name="target", type="str", prefix="-", default=".", desc="", positional=false  }]
-inject                 = ["target_bib_size"]                          # <list[str]>
 queue_behaviour        = "default"                   # <str>                default | auto | reactive
 roots                  = ["{target}"]                     # <list[str|pl.Path]>  Places the Walker will start
 exts                   = [".bib"]                          # <list[str]>
@@ -36,7 +35,7 @@ recursive              = false                       # <bool>
 target_bib_size        = 250
 actions = [
         {do="job.walk",   update_="files" }, # walk
-        {do="job.expand", from_="files", base_="sub_actions", inject="fpath", update_="tasks"},
+        {do="job.expand", from_="files", base_="sub_actions", inject={copy=["target_bib_size"], replace=["fpath"]}, update_="tasks"},
         {do="job.inject.path", onto_="tasks", key="fpath"},
         {do="job.queue",  from_="tasks"},
 ]

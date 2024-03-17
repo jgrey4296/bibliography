@@ -45,8 +45,8 @@ import bib_middleware as BM
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 
-UPDATE_K        : Final[DootKey] = DootKey.make("update_")
-FROM_KEY        : Final[DootKey] = DootKey.make("from")
+UPDATE_K        : Final[DootKey] = DootKey.build("update_")
+FROM_KEY        : Final[DootKey] = DootKey.build("from")
 
 def build_chunking_parse_stack(spec, state):
     read_mids = [
