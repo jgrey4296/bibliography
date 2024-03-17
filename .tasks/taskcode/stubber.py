@@ -75,4 +75,4 @@ def select_refiled(target:pl.Path):
 
 def not_copied(target:pl.Path):
     printer.info("Testing: %s", target)
-    return not target.name.startswith("_copied_")
+    return target.is_file() and not target.name.startswith("_copied_")
