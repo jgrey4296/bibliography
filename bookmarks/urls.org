@@ -237,7 +237,6 @@ https://yaml.org/spec/1.2.2/ - YAML
 https://yro.slashdot.org/story/13/03/12/137239/what-if-manning-had-leaked-to-the-new-york-times
 ** misc
 [[https://www.theatlantic.com/technology/archive/2017/05/dove-body-image/525867/][dove body image issues]]
-https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
 http://m.uk.ign.com/lists/top-100-rpgs/1 -- not loading
 https://m.imgur.com/a/6jUOL -- over capacity, check back later
 [[https://www.barnesandnoble.com/blog/sci-fi-fantasy/vanguard-jack-campbell-review/][jack campbell review]] - blocked on tor
@@ -350,7 +349,6 @@ https://docs.soliditylang.org/en/latest/index.html
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/
 https://docs.talkamatic.se/for-dialog-designers/
 https://docs.unrealengine.com/5.3/en-US/fluid-simulation-in-unreal-engine---overview/
-https://docseuss.medium.com/
 https://duckduckgo.com/
 https://duckduckgo.com/?t=ffab
 https://emacs.christianbaeuerlein.com/my-org-config.html
@@ -427,10 +425,6 @@ https://martinheinz.dev/posts/
 https://math.libretexts.org/Bookshelves
 https://meaningness.com/geeks-mops-sociopaths
 https://measuringstuff.com/
-https://medium.com/@gautamv/advanced-behavior-tree-structures-4b9dc0516f92
-https://medium.com/@joe_brewer/the-field-of-cultural-evolution-is-vital-now-c783ab84cd0e#.9qtkhh9tr
-https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
-https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
 https://meta.stackexchange.com/questions/334551/an-apology-to-our-community-and-next-steps
 https://mitpress.mit.edu/books/qualitative-representations
 https://mitpress.mit.edu/books/twelve-tomorrows
@@ -761,17 +755,6 @@ https://manifold.umn.edu/read/metagaming/section/50eda481-7722-4de0-abb8-3bf771d
 https://map.onesoil.ai/2018#2/44.35/-43.66
 https://meaningness.com/metablog/bongard-meta-rationality
 https://mediadiversified.org/2014/10/29/how-to-use-brown-people-to-illustrate-a-story-about-overpopulation/
-https://medium.com/@RealDorianDawes/ethics-in-world-building-law-enforcement-6a6ec0174d2f
-https://medium.com/@RealDorianDawes/ethics-in-world-building-prisoners-4f3a56cbbb2a
-https://medium.com/@yellowcardigan/kinds-of-men-7daaae56ab4a
-https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
-https://medium.com/maelstromic-insight/ballgowning-as-primary-unit-of-gameplay-you-mean-it-doesnt-just-happen-ce04acbca32f
-https://medium.com/s/powertrip/the-50-50-murder-a3832f587bee#---298-452
-https://medium.com/s/story/what-happened-when-a-trump-supporter-challenged-me-about-the-wall-e54e86a5edd1
-https://medium.com/space-anthropology/at-tending-to-anthropological-language-3d559fc7f3bc
-https://medium.com/syncedreview/the-staggering-cost-of-training-sota-ai-models-e329e80fa82
-https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc
-https://medium.com/thoughts-and-reflections/future-oriented-design-c8b4a458a722
 https://meltingasphalt.com/interactive/going-critical/
 https://mitpress.mit.edu/books/little-typer
 https://mkremins.itch.io/epitaph
@@ -892,7 +875,6 @@ https://www.tandfonline.com/doi/abs/10.1080/0022250X.1984.9989962
 https://www.taylorfrancis.com/books/edit/10.4324/9781315302430/organizational-space-beyond-sytze-kingma-karen-dale-varda-wasserman?refId=567a10ab-4e59-454a-859d-38b64675312e
 https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/
 https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/
-https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/?utm_term=2019-03-25T15%3A39%3A08&utm_content=edit-promo&utm_campaign=the-atlantic&utm_medium=social&utm_source=twitter
 https://www.theeffectbook.net/
 https://www.theguardian.com/food/2019/jun/13/bread-is-practically-sacred-how-the-taste-of-home-sustained-my-refugee-parents
 https://www.theguardian.com/games/2019/jun/28/the-women-game-designers-fighting-back-on-abortion-rights
@@ -954,6 +936,7 @@ https://www.techdirt.com
 https://www.propublica.org
 https://www.thetrace.org
 ** Blogs
+
 *** 1
 https://notpoliticallycorrect.me/2024/01/31/race-racism-stereotypes-and-crime-a-moral-argument-for-why-racism-is-morally-wrong/
 https://www.realclimate.org/
@@ -1897,17 +1880,49 @@ https://blogs.worldbank.org/publicsphere
 https://blogs.worldwatch.org/must-talk-population/
 *** Medium
 https://docseuss.medium.com
+https://docseuss.medium.com/
 https://elemental.medium.com
 https://inventingthemedium.com
 https://juliagaffield.medium.com
 https://medium.com/@GrrlScientist
 https://medium.com/@JustAnotherRandomGuy
+https://medium.com/@RealDorianDawes/ethics-in-world-building-law-enforcement-6a6ec0174d2f
+https://medium.com/@RealDorianDawes/ethics-in-world-building-prisoners-4f3a56cbbb2a
 https://medium.com/@aareed
+https://medium.com/@absurdistwords/how-to-discuss-race-with-black-people-faq-part-3-advanced-74b1ea50551a
+https://medium.com/@absurdistwords/how-to-discuss-race-with-black-people-faq-pt-1-2534db9e3409
+https://medium.com/@absurdistwords/how-to-discuss-race-with-black-people-part-2-intermediate-b2cdb7073186
+https://medium.com/@alexiskennedy/alexis-kennedy-on-the-cultist-simulator-the-way-through-the-wood-part-1-c53ca6a39e0
+https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2
 https://medium.com/@chanda
+https://medium.com/@chanda/decolonising-science-reading-list-339fb773d51f#.om5w2ivfq
+https://medium.com/@chanda/six-books-non-black-people-should-read-in-2018-39b086d1c469
+https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b                                            :  Stock Photos
 https://medium.com/@gautamv
+https://medium.com/@gautamv/advanced-behavior-tree-structures-4b9dc0516f92
+https://medium.com/@joe_brewer/the-field-of-cultural-evolution-is-vital-now-c783ab84cd0e#.9qtkhh9tr
+https://medium.com/@publicanthro/academia-and-the-people-without-jobs-c7e503f3bbc3
+https://medium.com/@yellowcardigan/kinds-of-men-7daaae56ab4a
+https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
+https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
+https://medium.com/design-strategy-data-people/sometimes-the-best-example-is-an-unlikely-one-c683882f5282
+https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
+https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
 https://medium.com/guesstimate-blog
 https://medium.com/international-affairs-blog
+https://medium.com/maelstromic-insight/ballgowning-as-primary-unit-of-gameplay-you-mean-it-doesnt-just-happen-ce04acbca32f
+https://medium.com/s/powertrip/the-50-50-murder-a3832f587bee#---298-452
+https://medium.com/s/story/what-happened-when-a-trump-supporter-challenged-me-about-the-wall-e54e86a5edd1
+https://medium.com/space-anthropology/at-tending-to-anthropological-language-3d559fc7f3bc
+https://medium.com/startup-grind/fueling-the-ai-gold-rush-7ae438505bc2#.hkx0xe0mj
+https://medium.com/syncedreview/the-staggering-cost-of-training-sota-ai-models-e329e80fa82
+https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc
 https://medium.com/thedevproject
+https://medium.com/thoughts-and-reflections/future-oriented-design-c8b4a458a722
+https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
+https://zora.medium.com/why-i-never-use-stock-photos-of-white-people-e069868160ba
+*** programming
+https://nedbatchelder.com/
 ** Causal Inference
 https://egap.org/resource/10-things-to-know-about-causal-inference/
 
@@ -2109,8 +2124,6 @@ https://libgdx.com/dev/
 https://lindenreid.wordpress.com/all-tutorials/
 https://love2d.org/
 https://magicfissile.tumblr.com/post/74278402763/par-intrinsic-vs-extrinsic-rewards-in-kleis
-https://medium.com/@alexiskennedy/alexis-kennedy-on-the-cultist-simulator-the-way-through-the-wood-part-1-c53ca6a39e0
-https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2
 https://procedural-generation.tumblr.com/post/190625480383/lennas-inception-after-a-long-development-cycle
 https://rogueliketutorials.com/tutorials/tcod/v2/part-0/
 https://screeps.com/
@@ -2145,7 +2158,7 @@ https://www.gamasutra.com/view/news/300314/Environment_art_isnt_about_making_pre
 https://www.gamedev.net/
 https://www.gamedeveloper.com/production/how-darkest-dungeon-ii-s-developers-evolved-their-early-access-process
 https://www.gamedeveloperstudio.com/                                                                           :  Game Developer Studio
-https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx?utm_content=bufferbe277&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx
 https://www.gaslampgames.com/2016/10/19/my-favourite-icons/
 https://www.gridsagegames.com/blog/
 https://www.gridsagegames.com/blog/2019/11/movement-qol/
@@ -2250,17 +2263,18 @@ https://wiki.teamfortress.com/wiki/Medieval_mode#Chat_parser
 https://www.northernlion-db.com/                                                                               :  The NorthernLion Database
 https://zeldamods.org/wiki/
 https://zeldamods.org/wiki/Beco
-wow.allakhazam.com/wiki/Quest_Hub
-www.bulletphysics.com/mediawiki-1.5.8/index.php?title=Main_Page
-www.ckiiwiki.com/Crusader_Kings_II_Wiki
-www.dosbox.com/wiki/Basic_Setup_and_Installation_of_DosBox
-www.minecraftwiki.net/wiki/Minecraft_Wiki
-www.prison-architect.com/wiki
-www.shikadi.net/keenwiki/Main_Page
-www.uesp.net/wiki
-www.wowwiki.com
+https://wow.allakhazam.com/wiki/Quest_Hub
+https://www.bulletphysics.com/mediawiki-1.5.8/index.php?title=Main_Page
+https://www.ckiiwiki.com/Crusader_Kings_II_Wiki
+https://www.dosbox.com/wiki/Basic_Setup_and_Installation_of_DosBox
+https://www.minecraftwiki.net/wiki/Minecraft_Wiki
+https://www.prison-architect.com/wiki
+https://www.shikadi.net/keenwiki/Main_Page
+https://www.uesp.net/wiki
+https://www.wowwiki.com
 
 ** Github
+https://github.com/VCVRack/Rack
 https://ganelson.github.io/inform/index.html
 https://github.com/Shopify/liquid/wiki/liquid-for-designers
 https://github.com/commonsense/conceptnet5/wiki/API
@@ -2790,7 +2804,7 @@ https://www.aljazeera.com/indepth/inpictures/record-71-million-people-forcibly-d
 https://www.bloomberg.com/opinion/articles/2019-06-17/how-housing-finance-enriched-whites-at-expense-of-black-borrowers
 https://www.buzzfeed.com/mjs538/straight-people-do-this-but-23-of-gay-people-are
 https://www.c64-wiki.com/wiki/Little_Computer_People
-https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/?utm_term=2019-09-06T21%3A38%3A14&utm_content=edit-promo&utm_source=twitter&utm_campaign=citylab&utm_medium=social
+https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/
 https://www.cl.cam.ac.uk/~nk480/
 https://www.cs.ox.ac.uk/people/yarin.gal/website/blog_3d801aa532c1ce.html
 https://www.currentaffairs.org/2017/10/people-literally-do-not-understand-what-laws-are-or-how-they-work
@@ -2835,7 +2849,7 @@ https://www.techdirt.com/blog/casestudies/articles/20121205/23530421253/people-r
 https://www.techdirt.com/blog/casestudies/articles/20121210/12422821338/infographic-people-will-pay-to-support-creators-even-when-free-is-option.shtml
 https://www.telegraph.co.uk/women/life/gender-neutral-bathrooms-womens-prisons-time-trans-people-carried/
 https://www.theatlantic.com/ideas/archive/2019/06/ibram-x-kendi-opposing-reparations-racist/592060/
-https://www.theatlantic.com/science/archive/2019/05/medieval-people-were-already-ruining-fish/589837/?utm_medium=social&utm_content=edit-promo&utm_term=2019-05-21T12%3A05%3A11&utm_source=twitter&utm_campaign=the-atlantic
+https://www.theatlantic.com/science/archive/2019/05/medieval-people-were-already-ruining-fish/589837
 https://www.thecanary.co/uk/2018/09/05/the-dwp-is-spying-on-disabled-people-and-causing-a-human-rights-emergency/
 https://www.thedailybeast.com/how-both-sides-journalism-is-failing-transgender-people
 https://www.theguardian.com/commentisfree/2014/jul/04/black-people-vanilla-ice-cream-jim-crow-independence-day?CMP=twt_gu
@@ -2856,7 +2870,7 @@ https://www.washingtonpost.com/amphtml/outlook/bad-science-puts-innocent-people-
 https://www.washingtonpost.com/local/trafficandcommuting/more-people-died-in-car-crashes-this-century-than-in-both-world-wars/2019/07/21/0ecc0006-3f54-11e9-9361-301ffb5bd5e6_story.html?utm_term=.52fe5b35036a
 https://www.washingtonpost.com/opinions/black-people-arent-keeping-white-americans-out-of-college-rich-people-are/2017/08/04/e478952e-794a-11e7-8f39-eeb7d3a2d304_story.html
 https://www.washingtonpost.com/politics/2018/10/11/are-people-day-trafficked-right-front-our-eyes-nope/
-https://www.wired.com/story/the-world-might-actually-run-out-of-people/?utm_source=twitter&utm_campaign=wired&utm_medium=social&utm_social-type=owned&utm_brand=wired&mbid=social_twitter
+https://www.wired.com/story/the-world-might-actually-run-out-of-people
 https://www.zinnedproject.org/news/tdih/amistad-mutiny/
 https://zora.medium.com/why-i-never-use-stock-photos-of-white-people-e069868160ba
 ** Reference
@@ -3604,7 +3618,6 @@ http://rs.io/100-interesting-data-sets-for-statistics/
 https://dasl.datadescription.com/datafiles/
 http://www.openculture.com/2018/01/10000-classic-movie-posters-getting-digitized-put-online-by-the-harry-ransom-center.html
 https://ourworldindata.org/
-https://medium.com/startup-grind/fueling-the-ai-gold-rush-7ae438505bc2#.hkx0xe0mj
 https://zenodo.org/ - dataset doi's
 ** Narrative
 https://www.usna.edu/Users/cs/nchamber/data/schemas/acl09/
