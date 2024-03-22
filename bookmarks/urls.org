@@ -2881,6 +2881,7 @@ https://refugeecouncil.org.uk/resource-category/guides-for-refugees/            
 https://reference.pictures/                                                                                    :  Reference Photos
 https://www.dimensions.com/                                                                                    :  Dimensions.com
 ** Search
+https://www.cochranelibrary.com/search?cookiesEnabled
 https://tineye.com/                                                                                            :  Tin Eye Reverse Image Search
 https://unsplash.com/                                                                                          :  Unsplash
 http://audiobookvault.ws/
