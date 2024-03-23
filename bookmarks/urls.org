@@ -2590,6 +2590,8 @@ https://www.loc.gov/free-to-use/cats                                            
 https://www.parismuseescollections.paris.fr/en                                                                 :  Paris Museum Public Collection
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.vam.ac.uk/articles/explore-entartete-kunst-the-nazis-inventory-of-degenerate-art#?c=&m=&s=&cv=     :  Victoria and Albert Museum: Entartete Kunst inventory
+
+https://yorsearch.york.ac.uk/primo-explore/collectionDiscovery?vid=44YORK-NUI&collectionId=81351305970001381 : uni of york dissertations
 ** People
 http://acg.media.mit.edu/people/fry/index.html
 http://ai.eecs.umich.edu/people/laird/
@@ -2881,6 +2883,7 @@ https://refugeecouncil.org.uk/resource-category/guides-for-refugees/            
 https://reference.pictures/                                                                                    :  Reference Photos
 https://www.dimensions.com/                                                                                    :  Dimensions.com
 ** Search
+https://duckduckgo.com/duckduckgo-help-pages/company/
 https://www.cochranelibrary.com/search?cookiesEnabled
 https://tineye.com/                                                                                            :  Tin Eye Reverse Image Search
 https://unsplash.com/                                                                                          :  Unsplash
