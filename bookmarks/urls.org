@@ -2,6 +2,7 @@
 
 * todos
 ** useful
+https://convertlive.com/
 https://www.merriam-webster.com/grammar/how-to-use-and-understand-diacritics-diacritical-marks : grammar
 https://creativelawcenter.com/museums-open-access-images/
 https://docs.opentermsarchive.org/
@@ -2949,6 +2950,7 @@ https://tvtropes.org/pmwiki/pmwiki.php/Main/ImNotAfraidOfYou
 https://www.huffingtonpost.co.uk/entry/bonding-netflix-bdsm_uk_5cc6d485e4b0fd8e35bf1d62?ncid=other_twitter_cooo9wqtham&utm_campaign=share_twitter&guccounter=1
 https://www.teenvogue.com/story/bert-and-ernie-sesame-street-gay
 ** Universities and Academia
+https://opencitations.net/index/api/v1/
 https://osf.io/institutions
 https://journals.plos.org/plosone/browse/
 http://www.darpa.mil/our-research
@@ -3548,6 +3550,7 @@ https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
 * Digital Collections
+https://opencitations.net/index/api/v1/
 https://www.c82.net/iconography/
 https://www.senate.gov/art-artifacts/historical-images-landing-page.htm
 https://archives.parliament.uk/our-collections/
