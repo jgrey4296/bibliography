@@ -19,7 +19,6 @@ name          = "top"
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
 actions       = [
-            {do="log", msg="TODO"},
             # todo append changed file list to {changed_file}
             {do="job.expand", from_="files", update_="format_tasks", inject={replace=["fpath"]}, base="format::_individual"},
             {do="job.expand", from_="files", update_="tag_tasks",    inject={replace=["fpath"]}, base="tags::_extract.bib"},
