@@ -46,4 +46,4 @@ from doot.structs import DootKey
 def oldest(spec:list, state, sub_specs) -> list:
     # Sorts oldest -> newest
     by_mod_time = sorted(sub_specs, key=lambda x: x.extra.fpath.stat().st_mtime)
-    return by_mod_time[0:job.spec.extra.select_limit]
+    return by_mod_time[0:spec.kwargs.count]

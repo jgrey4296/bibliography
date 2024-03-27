@@ -14,8 +14,8 @@ select_limit         = 10                                                       
 actions = [
         {do="job.walk",        update_="walked"},
         {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base="base::_formatter"},
-        {do="job.limit",       from_="walked", count_="select_limit", method_="taskcode.selector:oldest"},
-        {do="job.inject.path", onto_="tasks", key_="fpath"},
+        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:oldest"},
+        {do="job.inject.path", onto_="tasks",  key_="fpath"},
         {do="job.queue",       from_="tasks"},
 ]
 

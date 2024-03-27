@@ -26,7 +26,7 @@ exts                 = [".bib"]
 roots                = ["{bib_export}"]
 actions = [
         {do="job.walk", update_="files"}, # walk
-        {do="job.expand", key="fpath", base_="sub_actions", update_="tasks"},
+        {do="job.expand", key_="fpath", base_="sub_actions", update_="tasks"},
         {do="job.queue", from_="tasks"} # queue
 ]
 sub_actions          = [
