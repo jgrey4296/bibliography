@@ -5728,6 +5728,7 @@ https://archive.org/details/msdos_Girlfriend_Construction_Set_1989 : archive : s
 https://archive.org/details/msdos_President_Elect_-_1988_Edition_1987 : archive : simulation
 https://archive.org/details/msdos_SimAnt_-_The_Electronic_Ant_Colony_1991 : archive : simulation
 https://archive.org/details/msdos_SimFarm_1993 : archive : simulation
+https://archive.org/details/noah-caldwell-gervais : archive : game_essay : noah_caldwell_gervais
 https://archive.org/details/restaurantmenus?tab=collection : archive : history : menu : restaurant
 https://archive.org/details/s3pe_14-0222-1852 : the_sims
 https://archive.org/details/storyofcrisco00neilrich : archive : book : cooking : crisco : cuisine : history
@@ -6829,6 +6830,7 @@ https://developer.nvidia.com/content/basics-gpu-voxelization : GPU : graphics : 
 https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-users-lookup : api : libraries : python : twitter
 https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29 : api : valve
 https://developer.valvesoftware.com/wiki/Response_System : game_development : left_4_dead : response_system : software_development : source_engine : valve_software
+https://developer.valvesoftware.com/wiki/SDK_Docs : ai : documentation : programming : source_engine : valve : wiki
 https://developer.valvesoftware.com/wiki/Steam_Application_IDs : valve
 https://developer.valvesoftware.com/wiki/Steam_Web_API#GetPlayerSummaries_.28v0001.29 : valve
 https://developer.valvesoftware.com/wiki/VPK_File_Format : file_format : software_development : valve : vpk : wiki
@@ -8000,6 +8002,7 @@ https://github.com/dheid/micropolis : github : java : micropolis : sim_city
 https://github.com/disconcision/fructure : UI : design : fructure : github : graphical_programming : racket
 https://github.com/donnemartin/interactive-coding-challenges : github : practice : python
 https://github.com/donnemartin/system-design-primer : __important : github : reference : software_design : system_design : systems
+https://github.com/dotnet/project-system/tree/main : csharp : github : microsoft : project
 https://github.com/doug-martin/nools : github : javascript : libraries : node : production_system : programming
 https://github.com/douglascrockford/monad : github : monad
 https://github.com/dragonman225/curved-arrows : bezier_curve : github : programming : react
@@ -8913,6 +8916,7 @@ https://jmickle66666666.github.io/blog/2020/02/02/nodes.html : blog : graph : ja
 https://joanna-bryson.blogspot.co.uk/2016/06/knowledge-is-power-truth-in-information.html : blog : joanna_bryson
 https://joaotavora.github.io/yasnippet/ : emacs : reference : yasnippet
 https://joaotavora.github.io/yasnippet/snippet-development.html#sec-3-2 : elisp : emacs : yasnippet
+https://jobs.co.uk/ : jobs
 https://jobtalle.com/SDFMaker/ : image : sdf : texture
 https://joelmccracken.github.io/entries/writing-to-log-files-in-emacs/ : emacs : lisp : logging
 https://johnbattle.itch.io/dungeonremastered : dungeon_remastered : itchio : rpg
@@ -11645,6 +11649,7 @@ https://www.currentaffairs.org/2017/03/its-basically-just-immoral-to-be-rich : m
 https://www.currentaffairs.org/2017/10/people-literally-do-not-understand-what-laws-are-or-how-they-work : current_affairs : dunning_kruger : law : misunderstanding : nathan_robinson : oren_nimni
 https://www.currentaffairs.org/2019/02/death-to-minimalism : current_affairs : gentrification : minimalism : racism : urban_architecture : urban_design
 https://www.cut-the-knot.org/ : math : reference : visualisation
+https://www.cv-library.co.uk/ : jobs
 https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html : network : ssh : wake_on_lan : wol
 https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html : security : ssh
 https://www.dailycodingproblem.com/ : best_practices : challenge : practice : programming
@@ -13984,6 +13989,7 @@ https://www.thedailybeast.com/lesbian-couple-barred-from-fostering-child-refugee
 https://www.thedailybeast.com/republicans-say-forced-labor-is-good-for-detained-immigrants-in-letter-defending-private-prison : daily_beast : forced_labour : immigration : politics : republicans
 https://www.theeffectbook.net/ : __important : book : causality : nick_huntington_klein : open_access : the_effect
 https://www.thefire.org/sinclair-community-college-administrators-threatened-to-void-student-election-over-food-stamps-platform/ : education : food_stamps : politics : poverty : student_politics
+https://www.thefreshfishshop.com/collections/fish-fillets : fish : shopping : sushi : uk
 https://www.thegamer.com/fable-3-anniversary/ : cian_maher : design : fable : fable_3 : the_gamer : video_games
 https://www.thegauntlet.news/p/hospitals-are-killing-patients-because : covid : healthcare : infection_control : julia_doubleday
 https://www.theglobeandmail.com/news/world/brain-drain-of-african-doctors-has-saved-canada-400-million/article555168/ : africa : apartheid : brain_drain : canada : doctors : geoffrey_york : globe_and_mail : health_care : poaching : racism : recruitment
