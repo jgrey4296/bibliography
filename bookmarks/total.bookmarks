@@ -5925,6 +5925,7 @@ https://blog.sciencemuseum.org.uk/we-need-a-big-conversation-about-ai/ : ai : ar
 https://blog.scottnonnenberg.com/what-s-a-monad-digging-into-haskell/ : haskell : monad
 https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf : analysis : engine : javascript : runtime : software_development : stack
 https://blog.sicara.com/07-2017-best-big-data-new-articles-this-month-acb58d4bb15d : ai : deep_learning : machine_learning
+https://blog.simpleinjector.org/2016/06/whats-wrong-with-the-asp-net-core-di-abstraction/ : blog : csharp : dependency_injection : programming
 https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415 : deep_learning : hardware : machine_learning : neural_network : technology
 https://blog.stigok.com/2020/10/27/from-x11-xmodmap-to-wayland-xkb-custom-keyboard-layout.html : keyboard : wayland : xkb
 https://blog.torproject.org/ : privacy : surveillance : tor : web_browser
@@ -8003,6 +8004,7 @@ https://github.com/disconcision/fructure : UI : design : fructure : github : gra
 https://github.com/donnemartin/interactive-coding-challenges : github : practice : python
 https://github.com/donnemartin/system-design-primer : __important : github : reference : software_design : system_design : systems
 https://github.com/dotnet/project-system/tree/main : csharp : github : microsoft : project
+https://github.com/dotnet/samples/tree/main : csharp : dotnet : example : github
 https://github.com/doug-martin/nools : github : javascript : libraries : node : production_system : programming
 https://github.com/douglascrockford/monad : github : monad
 https://github.com/dragonman225/curved-arrows : bezier_curve : github : programming : react
