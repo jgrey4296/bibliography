@@ -7,3 +7,6 @@
 [submodule "wiki_"]
 	path = wiki_
 	url = git@github.com:jgrey4296/bibliography.wiki.git
+[submodule "timelines_"]
+	path = timelines_
+	url = git@github.com:jgrey4296/timelines.git
