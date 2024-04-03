@@ -1,0 +1,25 @@
+
+[[locations]]
+online_todo   = "~/github/bibliography/in_progress/online.bib"
+online_saves  = "/media/john/data/todo/pdfs/online"
+
+[[tasks.bib]]
+name             = "online"
+version          = "0.1"
+ctor             = "task"
+doc              = ["save todo online entries as pdfs"]
+print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+fpath            = "{online_todo}"
+actions          = [
+    { do="dir!", args=["{online_saves}"]},
+    { do="ext?", ext=".bib" },
+    { do="state.add.path.parts", from_="fpath" },
+    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.bibtex:build_online_downloader_parse_stack",  update_="parse_stack"},
+    { do="taskcode.bibtex:build_online_downloader_write_stack",  update_="write_stack" },
+    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+    { do="write!", from_="bib_text", to="{temp}/{fstem}_saved.bib"},
+    { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
+    { do="taskcode.online:shutdown_firefox" },
+]

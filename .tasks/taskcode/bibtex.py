@@ -61,13 +61,15 @@ def select_one_entry(spec, state):
     if bool(entry):
         return {update_key : entry}
 
-def build_working_parse_stack(spec, state):
+
+@DootKey.kwrap.paths("lib-root")
+def build_working_parse_stack(spec, state, _libroot):
+    """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
         BM.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
-        # BM.LatexReader(True, keep_braced_groups=True, keep_math_mode=True),
-        BM.PathReader(lib_root=doot.locs["{lib-root}"]),
+        BM.PathReader(lib_root=_libroot),
         BM.IsbnValidator(True),
         BM.TagsReader(),
         ms.SeparateCoAuthors(True),
@@ -76,20 +78,23 @@ def build_working_parse_stack(spec, state):
     ]
     return {spec.kwargs.update_ : read_mids}
 
-def build_working_write_stack(spec, state):
+
+@DootKey.kwrap.paths("lib-root")
+def build_working_write_stack(spec, state, _libroot):
     """ Doesn't encode into latex """
     write_mids = [
         BM.NameWriter(True),
         ms.MergeCoAuthors(True),
-        # BM.LatexWriter(keep_math=True, enclose_urls=False),
         BM.IsbnWriter(True),
         BM.TagsWriter(),
-        BM.PathWriter(lib_root=doot.locs["{lib-root}"]),
+        BM.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return {spec.kwargs.update_ : write_mids}
 
-def build_export_write_stack(spec,state):
+
+@DootKey.kwrap.paths("lib-root")
+def build_export_write_stack(spec,state, _libroot):
     """ encodes into latex for compilation """
     write_mids = [
         BM.NameWriter(True),
@@ -97,7 +102,30 @@ def build_export_write_stack(spec,state):
         BM.LatexWriter(keep_math=True, enclose_urls=False),
         BM.IsbnWriter(True),
         BM.TagsWriter(),
-        BM.PathWriter(lib_root=doot.locs["{lib-root}"]),
+        BM.PathWriter(lib_root=_libroot),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+    ]
+    return {spec.kwargs.update_ : write_mids}
+
+
+@DootKey.kwrap.paths("lib-root", "online_saves")
+def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget):
+    """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
+    read_mids = [
+        BM.DuplicateHandler(),
+        ms.ResolveStringReferencesMiddleware(True),
+        ms.RemoveEnclosingMiddleware(True),
+        BM.PathReader(lib_root=_libroot),
+        BM.OnlineHandler(target=_dltarget),
+    ]
+    return {spec.kwargs.update_ : read_mids}
+
+
+@DootKey.kwrap.paths("lib-root")
+def build_online_downloader_write_stack(spec, state, _libroot):
+    """ Doesn't encode into latex """
+    write_mids = [
+        BM.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return {spec.kwargs.update_ : write_mids}

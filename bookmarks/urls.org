@@ -581,7 +581,7 @@ http://dungeonexperience.com/
 http://dwarffortresswiki.org/index.php/DF2014:Ethic
 http://ecite.utas.edu.au/98443#page=94
 http://en.wikipedia.org/wiki/Tree-adjoining_grammar
-http://explorableexplanations.com/
+https://explorableexplanations.com/
 http://gamasutra.com/view/news/328255/How_a_Fallout_3_trailer_inspired_the_pitch_for_Fallout_Shelter.php
 http://gamasutra.com/view/news/330744/Developing_the_unique_multigenre_murdermystery_The_Hex.php
 http://hemisphericinstitute.org/hemi/en/emisferica-121-caribbean-rasanblaj/chin
@@ -921,21 +921,25 @@ https://www.alanzucconi.com/tutorials/
 [[http://explorabl.es/][explorable explanations]]
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
 ** Journalism
-https://genderanalysis.net
+https://www.mediamatters.org/
+http://www.pewresearch.org/
+https://boingboing.net
+https://arstechnica.com
+http://www.guardian.co.uk/
 http://www.nytimes.com/
-https://www.washingtonpost.com/
+https://genderanalysis.net
 https://pressthink.org/
 https://transwrites.world/
-https://www.thecontinent.org/
-https://www.texasstandard.org/broken/
-https://www.theneweuropean.co.uk/
-http://www.guardian.co.uk/
-https://www.thenation.com
-https://www.theatlantic.com
-https://www.theguardian.com
-https://www.techdirt.com
 https://www.propublica.org
+https://www.techdirt.com
+https://www.texasstandard.org/broken/
+https://www.theatlantic.com
+https://www.thecontinent.org/
+https://www.theguardian.com
+https://www.thenation.com
+https://www.theneweuropean.co.uk/
 https://www.thetrace.org
+https://www.washingtonpost.com/
 ** Blogs
 
 *** 1
@@ -1960,6 +1964,10 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://www.moddb.com/games/dawn-of-war-ii-retribution/addons/dow2-mod-tools
+https://docs.google.com/document/u/0/d/1T0C6u4Pua8wON1smf9XfFm7e0NQ4lmSGfQPO5JxRdVY/mobilebasic - dow2 modding guide
+https://www.nexusmods.com/dawnofwar2retribution/mods/42
+https://dow2mod.fandom.com/wiki/DoW_II_Modding_Wiki
 https://developer.valvesoftware.com/wiki/SDK_Docs
 https://github.com/OpenXRay/xray-16
 http://allenchou.net/2015/04/game-math-numeric-springing-examples/
@@ -2207,10 +2215,6 @@ https://www.zachtronics.com/
 https://yanderesimulator.com/
 ** Games
 https://scribblenauts.fandom.com/wiki/Scribblenauts_Wiki
-https://www.moddb.com/games/dawn-of-war-ii-retribution/addons/dow2-mod-tools
-https://docs.google.com/document/u/0/d/1T0C6u4Pua8wON1smf9XfFm7e0NQ4lmSGfQPO5JxRdVY/mobilebasic
-https://www.nexusmods.com/dawnofwar2retribution/mods/42
-https://dow2mod.fandom.com/wiki/DoW_II_Modding_Wiki
 https://www.guidesnotincluded.com/ - oxygen not included
 https://www.micromacro-game.com/en/extracontent.html
 http://arcengames.com/mediawiki/index.php?title=AI_War%3AFleet_Command#Expansions
@@ -2463,7 +2467,10 @@ https://en.wikipedia.org/wiki/Infrastructure_as_code
 https://en.wikipedia.org/wiki/Chain_of_trust
 https://en.wikipedia.org/wiki/Reproducible_builds
 ** Shopping
-https://www.thefreshfishshop.com/collections/fish-fillets
+https://www.thefreshfishshop.com
+https://thefishsociety.co.uk
+https://finefoodspecialist.co.yk
+https://britbuyer.co.uk
 ** Jobs
 https://jobs.co.uk/
 https://www.cv-library.co.uk/
@@ -2497,7 +2504,6 @@ https://opendata.cityofnewyork.us/data/                                         
 ** Fonts
 http://boingboing.net/2014/01/30/creatingafont.html
 http://etherealmind.com/cli-font-aliasing-font-choice-terminal/
-http://www.1001freefonts.com/sci-fi-fonts.php
 http://www.blacktable.com/fontova040603.htm
 http://www.tekrevue.com/tip/chrome-font-rendering-windows/
 https://developer.apple.com/fonts/TrueType-Reference-Manual/
@@ -2891,7 +2897,6 @@ https://www.wired.com/story/the-world-might-actually-run-out-of-people
 https://www.zinnedproject.org/news/tdih/amistad-mutiny/
 https://zora.medium.com/why-i-never-use-stock-photos-of-white-people-e069868160ba
 ** Reference
-https://www.dimensions.com/browse
 https://www.mcmaster.com/
 https://refugeecouncil.org.uk/resource-category/guides-for-refugees/                                           :  Guides for Refugees
 https://reference.pictures/                                                                                    :  Reference Photos
@@ -3618,7 +3623,6 @@ https://github.com/IPPSR/congressData
 https://seshat-db.com/
 http://seshatdatabank.info/
 ** Language corpora
-
 https://github.com/marcoguerini/DepecheMood/releases
 https://www.cs.rochester.edu/research/cisd/resources/                                                          :  Conversational Interaction and Spoken Dialogue Research Group Resources
 https://github.com/minimaxir/big-list-of-naughty-strings
@@ -3643,6 +3647,9 @@ https://ourworldindata.org/
 https://zenodo.org/ - dataset doi's
 ** Narrative
 https://www.usna.edu/Users/cs/nchamber/data/schemas/acl09/
+https://web.archive.org/web/20221114184919/https://sites.ualberta.ca/~urban/Projects/English/Motif_index.htm
+http://www.mftd.org/ - multilingual folk tale database
+
 ** Networks/graphs
 http://www-personal.umich.edu/~mejn/netdata/
 http://vlado.fmf.uni-lj.si/pub/networks/data/UciNet/UciData.htm
@@ -3686,12 +3693,40 @@ https://www.congress.gov/bill/114th-congress/house-bill/1735/all-actions?overvie
 https://www.senate.gov/legislative/bills_acts_laws.htm
 http://safetydata.fra.dot.gov/officeofsafety/default.aspx
 https://github.com/notioncollective/propublica-congress-node
-** Scotus
+** Judicial
+
+*** UK
+https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service
+https://www.scotcourts.gov.uk/
+https://www.courtsni.gov.uk/
+*** USA
 https://www.rstreet.org/research/supreme-court-confirmation-hearing-transcripts-as-data/
 http://scdb.wustl.edu/data.php
 http://scdb.wustl.edu/documentation.php
+https://www.supremecourt.gov/
+https://www.cand.uscourts.gov/
+https://www.courts.state.co.us
+https://www.justice.gov
+https://www.uscourts.gov/about-federal-courts/court-role-and-structure
+https://www.uscourts.gov/statistics-reports/publications/federal-probation-journal
+https://openjurist.org/us-court/type/appeals-court
+**** Courts of Appeal
+https://www.ca1.uscourts.gov/
+https://www.ca2.uscourts.gov/
+https://www.ca3.uscourts.gov/
+https://www.ca4.uscourts.gov/
+https://www.ca5.uscourts.gov/
+https://www.ca6.uscourts.gov/
+https://www.ca7.uscourts.gov/
+https://www.ca8.uscourts.gov/
+https://www.ca9.uscourts.gov/
+https://www.ca10.uscourts.gov/
+https://www.ca11.uscourts.gov/
+https://www.cadc.uscourts.gov/
+https://cafc.uscourts.gov/
 ** Simulations
 https://oasis.geneseo.edu/basic_search.php?type=Interactive%20Simulation
+
 ** Traffic
 https://opendata.stackexchange.com/questions/1767/data-of-vehicle-traffic
 https://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm

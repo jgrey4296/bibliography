@@ -3,8 +3,6 @@
 [[locations]]
 firefox       = "~/snap/firefox/common/.mozilla/firefox"
 
-# TODO: duplicate removal
-
 [[tasks.bookmark]]
 name                 = "update"
 version              = "0.1"                # <str>
