@@ -29,7 +29,8 @@ from uuid import UUID, uuid1
 ##-- end builtin imports
 
 ##-- lib imports
-import more_itertools as mitz
+# import more_itertools as mitz
+# from boltons import
 ##-- end lib imports
 
 ##-- logging
@@ -37,22 +38,30 @@ logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
-import bibtexparser as BTP
 import doot
 import doot.errors
 from doot.structs import DootKey
 
-def sort_oldest(spec:list, state, sub_specs) -> list:
-    # Sorts oldest -> newest
-    by_mod_time = sorted(sub_specs, key=lambda x: x.extra.fpath.stat().st_mtime)
-    return by_mod_time[0:spec.kwargs.count]
-
-@DootKey.kwrap.types("from", hint={"type":BTP.Library})
+@DootKey.kwrap.types("bib_db")
 @DootKey.kwrap.redirects("update_")
-def select_one_entry(spec, state, _bib_db, _update):
-    entries    = bib_db.entries
-    entry      = choice(entries)
-    # TODO have white/black list
+def get_db_files(spec, state, _db, _update):
+    """ get all files mentioned in the bibtex database """
+    filelist = []
+    for entry in _db.entries:
+        fields = entry.fields_dict
+        filelist += {v.value for k,v in fields.items() if "file" in x}
 
-    if bool(entry):
-        return { _update : entry }
+    return { _update : filelist }
+
+
+@DootKey.kwrap.types("bib")
+@DootKey.kwrap.types("fs")
+def diff_filelists(spec, state, _bib, _fs):
+    """ diff the bibtex filelist against the filesystem filelist """
+    bib_set        : set[str] = set(_bib)
+    fs_set         : set[str] = set(_fs)
+    only_mentioned : set[str] = set()
+    only_exists    : set[str] = set()
+
+
+    { "only_mentioned"  :  only_mentioned, "only_exists" : only_exists }

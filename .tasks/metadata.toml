@@ -1,0 +1,38 @@
+## metadata.toml -*- mode: conf-toml -*-
+
+[[locations]]
+
+[[tasks.meta]]
+name             = "update"
+doc              = ["Update the metadata for each file in the library"]
+ctor             = "job"
+version          = "0.1"
+print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+roots            = ["{bib}"]
+exts             = [".bib"]
+select_limit     = 10
+actions          = [
+        # walk
+        {do="job.walk", update_="walked"},
+        # expand
+        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base="meta::_.by.year"},
+        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
+        # queue
+        {do="job.queue",       from_="tasks"},
+]
+
+
+[[tasks.meta]]
+name             = "_by.year"
+doc              = ["update the file metadata for all entries in a single bib file"]
+version          = "0.1"
+ctor             = "task"
+print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+actions          = [
+    { do="ext?", ext=".bib" },
+    { do="state.add.path.parts", from_="fpath" },
+    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
+    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="taskcode.metadata:ApplyMetadata", from_="bib_db" },
+]
