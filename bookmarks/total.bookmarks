@@ -6645,6 +6645,8 @@ https://control--panel.com/ : control_panel : design : hardware
 https://cookiecutter.readthedocs.io/en/2.2.3/README.html : cookiecutter : python : software_engineering : templating
 https://copdips.com/2021/06/python-unittest-cheet-sheet.html#using-create_autospec : python : reference : unit_testing
 https://copenhagenletter.org/ : ai : copenhagen : ethics : frank_dignum : technology : virginia_dignum
+https://coq.inria.fr/coq-package-index : coq : ocaml : packages
+https://coq.inria.fr/doc/V8.18.0/refman/ : coq : logic : manual : reference
 https://corbinleonardmiller.files.wordpress.com/2017/11/corbin-miller-jmp_11-27-17.pdf : corbin_miller : economics : education : paper : research
 https://coronavirus.jhu.edu/data/mortality : covid_19 : johns_hopkins : mortality_analysis
 https://cosmicadventuresquad.itch.io/packets-please : game : game_jam : itch_io : net_neutrality : packets_please : politics
@@ -7756,7 +7758,7 @@ https://getpocket.com/explore/item/how-we-ll-forget-john-lennon : MIT : john_len
 https://getsharex.com/ : screen_recording : sharex : software : tools
 https://ghost.org/features/ : blog
 https://gibberlings3.github.io/iesdp/index.htm : bioware : iesdp : infinity_engine : planescape_torment : technical
-https://gis.cdc.gov/grasp/nchhstpatlas/maps.html : cdc : data : std : usa
+https://gis.cdc.gov/grasp/nchhstpatlas/maps.html : USA : cdc : data : std : usa
 https://gist.github.com/Endi1/4e72a505d5baaf3029edf2520038faf2 : github : recommendation : software_development
 https://gist.github.com/JPLeBreton/cef18e516047db06df8d7f41bced8a7e : game_design : jp_le_breton : manifesto
 https://gist.github.com/TSiege/cbb0507082bb18ff7e4b : github
@@ -8020,9 +8022,11 @@ https://github.com/elixirkoans/elixir-koans : elixir : erlang : github
 https://github.com/elsewhencode/project-guidelines : __important : best_practices : github : javascript : web_development
 https://github.com/emacs-evil/evil : emacs : evil : github
 https://github.com/emacs-helm/helm : emacs : github : help : libraries
+https://github.com/emacs-magus/once : configuration : emacs : lisp
 https://github.com/emacs-tw/awesome-emacs : emacs : github : libraries : lisp
 https://github.com/emacsmirror/font-lock-plus : emacs : font_lock : github : lisp
 https://github.com/emacsorphanage/osx-trash : OSX : emacs : github : trash
+https://github.com/emacsorphanage/quickrun : compilation : emacs : lisp : quickrun : ui
 https://github.com/erich666/GraphicsGems : github : graphics
 https://github.com/escobar-west/polars-cookbook : data_science : github : polars : python
 https://github.com/ethanfetaya/NRI : deep_learning : github : machine_learning : neural_relational_inference : python
@@ -8180,6 +8184,7 @@ https://github.com/mherrmann/selenium-python-helium : github : helium : python :
 https://github.com/mikanbako/sphinx-gradle-plugin : build_tool : github : gradle : sphinx
 https://github.com/miku/xmlcutty : XML : cli : github : xmlcutty
 https://github.com/miloyip/game-programmer : education : game_development : infographic : tutorial
+https://github.com/minad/marginalia : emacs : lisp : marginalia : ui
 https://github.com/minimaxir/big-list-of-naughty-strings : data_sets : github : software_development : test
 https://github.com/ml4a/ml4a-guides/blob/master/notebooks/transfer-learning.ipynb : deep_learning : github : tensorflow
 https://github.com/mlcommons/ck : academia : collective_knowledge : data_science : github
@@ -10141,6 +10146,7 @@ https://salimbo.com/deus-ex-architecture/ : architecture : deus_ex : game_critic
 https://samim.io/p/2018-04-21-dream-lens-exploration-and-visualization-of-large-sca/ : autodesk : dataset : design : large_scale : visualisation
 https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/ : blog : github : github_pages : reference : sphinx
 https://samoe-vazhnoe.blogspot.com/2016/10/15-sester.html : art : blog : children : russia
+https://samwoolley.org/about/ : person : propganda : research : samuel_woolley : technology
 https://sarabander.github.io/sicp/ : functional_programming : gerald_sussman : structure_and_interpretation
 https://sarahgraley.mybigcommerce.com/ : art : badges : cat : cut : pins : sarah_graley : shop_fronts
 https://sass-lang.com/documentation/syntax : css : sass : syntax : web_development
@@ -10468,7 +10474,8 @@ https://status.python.org/ : pypi : status : web
 https://steamcommunity.com/games/595690/announcements/detail/1611643799423800165 : __important : blog : design : game_development : jason_rohrer : on_hour_one_life : steam
 https://steamcommunity.com/games/595690/announcements/detail/3177783990875957515 : __important : game_development : game_mechanics : institution : jason_rohrer : one_hour_one_life : rule : simulation : steam
 https://steamcommunity.com/groups/OnwardMarch/discussions/1/ : archive : humble_bundle : steam
-https://steamcommunity.com/sharedfiles/filedetails/?id=177285368 :
+https://steamcommunity.com/sharedfiles/filedetails/?id=177285368 : ai : dont_starve : mods : steam
+https://steamcommunity.com/sharedfiles/filedetails/?id=177285602 : ai : dont_starve : mods : steam
 https://steamcommunity.com/sharedfiles/filedetails/?id=302750759 : executable : modding : stalker : steam
 https://stedolan.github.io/jq/ : command_line : github : jq : json
 https://stefan-marr.de/2023/11/python-global-interpreter-lock/ : blog : concurrency : gil : python
@@ -10510,6 +10517,7 @@ https://sub-q.com/making-interactive-fiction-branching-choices/ : bruno_dias : c
 https://sub-q.com/play-sleepless/ : interactive_fiction : sleep
 https://subslikescript.com/series/Burn_Notice-810788 : assets : burn_notice : script : transcript
 https://subversion.american.edu/aisaac/notes/netlogo-intro.xhtml : netlogo : tutorial
+https://supercollider.github.io/ : audio : programming : sound : supercollider
 https://supercollider.github.io/community/sc140.html : supercollider
 https://superuser.com/questions/231384/how-to-get-code-completion-in-emacs : emacs
 https://superuser.com/questions/42124/how-can-i-put-the-computer-to-sleep-from-command-prompt-run-menu : cmd : sleep : windows
@@ -11058,6 +11066,7 @@ https://weidu.org/main.html#weidu : infinity_engine : planescape_torment : weidu
 https://weidu.org/~thebigg/README-WeiDU.html : bioware : infinity_engine : planescape_torment : weidu
 https://weird-old-book-finder.glitch.me/ : __come_back_to : search_engine
 https://wellcomecollection.org/articles/WxEbjiIAAJUJZAs_ : 2018 : history : kate_lister : masturbation : sex : welcome_collection
+https://westwingthing.libsyn.com/2020/09 : podcast : west_wing
 https://wh40k.lexicanum.com/wiki/Horus_Heresy_Series : 40k : horus_heresy : sci_fi : warhammer : wiki
 https://wh40k.lexicanum.com/wiki/Portal:Miniatures : 40k : archive : games_workshop : lexicanum : miniature
 https://wh40k.lexicanum.com/wiki/Warhammer_40k_-_Lexicanum:Accepted_sources : 40k : canon : fiction : transmedia : warhammer : wiki
@@ -11526,7 +11535,7 @@ https://www.cc.gatech.edu/~riedl/pubs/aaai-keg17.pdf : creativity : machine_lear
 https://www.cdc.gov/mmwr/volumes/67/ss/ss6713a1.htm : CDC : abortion : statistics
 https://www.cdc.gov/mmwr/volumes/69/wr/mm6923e2.htm : bleach : cdc : covid
 https://www.cdc.gov/mmwr/volumes/70/wr/mm7010e3.htm?s_cid=mm7010e3_w : CDC : covid : mask_mandates
-https://www.cdc.gov/nchs/data-visualization/county-teen-births/index.htm#dashboard : cdc : data : std : usa
+https://www.cdc.gov/nchs/data-visualization/county-teen-births/index.htm#dashboard : USA : cdc : data : std : usa
 https://www.cdc.gov/nchs/fastats/deaths.htm : cdc : mortality : statistics
 https://www.cdc.gov/nchs/nvss/vsrr/covid19/health_disparities.htm : cdc : covid_19
 https://www.cdc.gov/nchs/products/databriefs/db329.htm : CDC : drug_overdose : opioid : report
@@ -14274,6 +14283,7 @@ https://www.upworthy.com/no-one-applauds-this-woman-because-theyre-too-creeped-o
 https://www.urbanomic.com/book/applied-ballardianism/ : __important : book : jg_ballard : recommendation
 https://www.usatoday.com/story/opinion/2017/04/13/trump-health-care-deal-is-clear-but-first-stop-gop-sabotage-medicaid-andy-slavitt-column/100348406/ : ACA : andy_slavitt : conservative : health_care : obama_care : trump
 https://www.usccr.gov/pubs/2019/10-24-Trauma-at-the-Border.pdf : USA : US_commission_on_civil_rights : border : government : oversight : racism
+https://www.uscourts.gov/statistics-reports/publications/federal-probation-journal : USA : journal : judiciary : legal_sysem
 https://www.usip.org/publications/2023/06/criminal-cancer-spreads-southeast-asia : asia : crime : mynmar
 https://www.usnews.com/news/articles/2008/01/28/john-mccain-prisoner-of-war-a-first-person-account : US_news : john_mccain : politics : pow : vietnam
 https://www.usnews.com/news/best-states/articles/these-are-the-states-with-mask-mandates : covid : journalism : kaia_hubbard : mask_mandates

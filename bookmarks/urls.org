@@ -2476,9 +2476,11 @@ https://jobs.co.uk/
 https://www.cv-library.co.uk/
 * Resources / Assets
 ** APIs
+https://archive.org/developers/index.html
 https://www.oldbaileyonline.org/about/docapi
 http://developer.nytimes.com/
 https://github.com/subat0mik/Misconfiguration-Manager - windows
+
 ** Archive
 https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
@@ -3689,7 +3691,7 @@ http://realitycommons.media.mit.edu/realitymining1.html
 http://realitycommons.media.mit.edu/socialevolution.html
 http://realitycommons.media.mit.edu/socialevolution1.html
 ** Regulation / safety
-https://www.congress.gov/bill/114th-congress/house-bill/1735/all-actions?overview=closed
+https://www.congress.gov/bill/115th-congress/house-bill/1735/all-actions?overview=closed
 https://www.senate.gov/legislative/bills_acts_laws.htm
 http://safetydata.fra.dot.gov/officeofsafety/default.aspx
 https://github.com/notioncollective/propublica-congress-node
@@ -3746,11 +3748,17 @@ https://www.th.gov.bc.ca/trafficData/
 https://webarchive.nationalarchives.gov.uk/ukgwa/*/http://www.dft.gov.uk/traffic-counts/
 https://www.transport.nsw.gov.au/data-and-research
 https://utd19.ethz.ch/
-** UK parliament
+** Government
+*** UK
+http://www.legislation.gov.uk/ukpga
 http://www.hansard-archive.parliament.uk/
 http://www.hansard-archive.parliament.uk/The_Official_Report,_House_of_Lords_(5th_Series)_Vol_1_(Jan_1909)_to_2004
 https://www.parliament.uk/archives
-http://www.legislation.gov.uk/ukpga
+*** USA
+**** Federal
+https://www.congress.gov
+**** State
+https://legiscan.com
 ** Wiki
 https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
 https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
