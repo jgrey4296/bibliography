@@ -1,16 +1,16 @@
-
+## summary.toml -*- mode: conf-toml -*-
 
 [[locations]]
 count_out = "{temp}/counts"
 
 [[tasks.summary]]
-name        = "manual.top"
+name        = "main"
 doc         = ["Summarise main"]
 ctor        = "job"
 exts        = [".bib", ".bookmarks"]
 roots       = ["{bib}"]
 match_fn    = "ext"
-match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks"}
+match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks" }
 actions     = [
         {do="job.walk",   update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}},
@@ -20,13 +20,16 @@ actions     = [
 ]
 
 [[tasks.summary]]
-name = "_bibs"
+name    = "_bibs"
+doc     = ["TODO"]
 actions = []
 
 [[tasks.summary]]
 name    = "_bookmarks"
+doc     = ["TODO"]
 actions = []
 
 [[tasks.summary]]
 name    = "_fin"
+doc     = ["TODO"]
 actions = []

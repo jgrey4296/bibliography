@@ -1,4 +1,4 @@
-
+## compile.toml -*- mode: conf-toml -*-
 
 [[locations]]
 tex_template = "~/github/_templates/tex-config/tex/export_template.tex"
@@ -6,18 +6,22 @@ tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
 
-# TODO: compile bibtex to pdfs
-# TODO: compile to html with bibtex2html
-
-[[tasks.bib]]
-name                 = "full.compile"
+[[tasks.compile]]
+name                 = "full"
 version              = "0.1"                                    # <str>
 doc                  = ["trigger a full export, and compile the results"]
 ctor                 = "task"                                   # <str>
-depends_on           = ["bib::export", "bib::export.$head$", "bib::compile", "bib::compile.$head"]
+depends_on           = [
+    "export::all",
+    "export::all.$head$",
+    "compile::pdf",
+    "compile::html",
+    "compile::pdf.$head$",
+    "compile::html.$head$"
+ ]
 
-[[tasks.bib]]
-name                 = "pdf.compile"
+[[tasks.compile]]
+name                 = "pdf"
 version              = "0.1"
 doc                  = ["compile anything in {bib_export} to pdf"]
 ctor                 = "job"
@@ -27,7 +31,8 @@ roots                = ["{bib_export}"]
 actions = [
         {do="job.walk", update_="files"}, # walk
         {do="job.expand", key_="fpath", base_="sub_actions", update_="tasks"},
-        {do="job.queue", from_="tasks"} # queue
+        {do="job.queue", from_="tasks"}, # queue
+        {do="job.queue.head"},
 ]
 sub_actions          = [
                      # Load template
@@ -38,8 +43,8 @@ sub_actions          = [
                      # compile tex
 ]
 
-[[tasks.bib]]
-name                 = "html.compile"
+[[tasks.compile]]
+name                 = "html"
 version              = "0.1"
 doc                  = ["compile anything in {bib_export} to html"]
 ctor                 = "job"
@@ -50,13 +55,14 @@ actions = [
         {do="job.walk", update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
+        {do="job.queue.head"},
 ]
 sub_actions          = [
-                     # Run bibtex2html
+                     # Run bibtex1html
 ]
 
-[[tasks.bib]]
-name                 = "pdf.fails"
+[[tasks.compile]]
+name                 = "_fails"
 version              = "0.1"                                    # <str>
 doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
 ctor                 = "job"                                   # <str>
@@ -67,8 +73,16 @@ actions = [
         {do="job.walk", update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]},base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
+        # queue head
 ]
 sub_actions          = [
                      # if pdf exists in temp for bib, silent
                      # else complain
 ]
+
+
+[[tasks.compile]]
+name    = "calendar"
+version = "0.1"
+ctor    = "job"
+doc     = ["create a calendar of when entries were added to the db"]

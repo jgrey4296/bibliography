@@ -1,9 +1,10 @@
-## bibtex.toml -*- mode: conf-toml -*-
+## format.toml -*- mode: conf-toml -*-
+
 [[locations]]
 lib-root      = "/media/john/data/library/pdfs/"
 
 [[tasks.format]]
-name                 = "walker"
+name                 = "all"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                                # <type>
 doc                  = ["Load each bib file and format/validate it"]                               # <list[str]>
@@ -14,7 +15,7 @@ select_limit         = 10                                                       
 actions = [
         {do="job.walk",        update_="walked"},
         {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base="base::_formatter"},
-        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:oldest"},
+        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
         {do="job.inject.path", onto_="tasks",  key_="fpath"},
         {do="job.queue",       from_="tasks"},
 ]

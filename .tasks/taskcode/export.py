@@ -30,36 +30,26 @@ from uuid import UUID, uuid1
 ##-- end builtin imports
 
 ##-- lib imports
-import more_itertools as mitz
+# import more_itertools as mitz
+# from boltons import
 ##-- end lib imports
 
 ##-- logging
 logging = logmod.getLogger(__name__)
+printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
-import doot
-import doot.errors
-from doot.structs import DootKey
-from doot.enums import ActionResponseEnum
-from dootle.tags.structs import TagFile
-from dootle.bookmarks.structs import BookmarkCollection
-
-TODAY                       = datetime.datetime.now().date()
-
-@DootKey.kwrap.types("from", hint={"type":BookmarkCollection})
+@DootKey.kwrap.paths("lib-root")
 @DootKey.kwrap.redirects("update_")
-def collect_tags(spec, state, _update, _db):
-    """ merge tags of bookmarks together """
-    tags           = TagFile()
-
-    for bkmk in _db:
-        tags.update(bkmk.tags)
-
-    return { _update : str(tags) }
-
-@DootKey.kwrap.paths("bookmarks")
-def recency_test(spec, state, bookmarks):
-    """ trigger task skip if the bookmarks file was modified today """
-    mod_date = datetime.datetime.fromtimestamp(bookmarks.stat().st_mtime).date()
-    if TODAY <= mod_date:
-        return ActionResponseEnum.SKIP
+def build_export_write_stack(spec,state, _libroot, _update):
+    """ encodes into latex for compilation """
+    write_mids = [
+        BM.NameWriter(True),
+        ms.MergeCoAuthors(True),
+        BM.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.IsbnWriter(True),
+        BM.TagsWriter(),
+        BM.PathWriter(lib_root=_libroot),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+    ]
+    return { _update : write_mids }

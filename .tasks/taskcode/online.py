@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 See EOF for license/metadata/notes as applicable
 """
 
@@ -40,11 +39,49 @@ logging = logmod.getLogger(__name__)
 
 printer = logmod.getLogger("doot._printer")
 
+from waybackpy import WaybackMachineSaveAPI
+import bib_middleware as BM
+import bibtexparser as BTP
+from bibtexparser import middlewares as ms
+
 import doot
 import doot.errors
 from doot.structs import DootKey
+from doot.enums import ActionResponseEnum
+from dootle.tags.structs import TagFile
+from dootle.bookmarks.structs import BookmarkCollection
+
+FF_DRIVER          = "__$ff_driver"
+READER_PREFIX      = "about:reader?url="
+LOAD_TIMEOUT       = 2
+WAYBACK_USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:40.0) Gecko/20100101 Firefox/40.0"
 
 import bib_middleware as BM
 
 def shutdown_firefox(spec, state):
     BM.OnlineHandler.close_firefox()
+
+
+@DootKey.kwrap.paths("lib-root", "online_saves")
+@DootKey.kwrap.redirects("update_")
+def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _update):
+    """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
+    read_mids = [
+        BM.DuplicateHandler(),
+        ms.ResolveStringReferencesMiddleware(True),
+        ms.RemoveEnclosingMiddleware(True),
+        BM.PathReader(lib_root=_libroot),
+        BM.OnlineHandler(target=_dltarget),
+    ]
+    return { _update : read_mids}
+
+
+@DootKey.kwrap.paths("lib-root")
+@DootKey.kwrap.redirects("update_")
+def build_online_downloader_write_stack(spec, state, _libroot, _update):
+    """ Doesn't encode into latex """
+    write_mids = [
+        BM.PathWriter(lib_root=_libroot),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+    ]
+    return { _update : write_mids}

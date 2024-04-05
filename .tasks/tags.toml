@@ -1,11 +1,8 @@
-
-# TODO: merge
-# TODO: diff
-# TODO: substitutions
+## tags.toml -*- mode: conf-toml -*-
 
 [[tasks.tags]]
-disable = true
-name                 = "cleaner"
+disable              = true
+name                 = "clean"
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 doc                  = ["TODO"]                   # <list[str]>
@@ -77,7 +74,7 @@ actions  = [
 ]
 
 [[tasks.tags]]
-name                 = "extract.bkmk"
+name                 = "_extract.bkmk"
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 doc                  = ["Create a Tags file of the main bookmark's tags"] # <list[str]>
