@@ -49,8 +49,6 @@ import bib_middleware as BM
 
 MYBIB                              = "#my_bibtex"
 MAX_TAGS                           = 7
-UPDATE        : Final[DootKey] = DootKey.build("update_")
-FROM_KEY      : Final[DootKey] = DootKey.build("from")
 
 @DootKey.kwrap.paths("lib-root")
 @DootKey.kwrap.redirects("update_")
