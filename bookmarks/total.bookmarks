@@ -5910,6 +5910,7 @@ https://blog.modeanalytics.com/lego-data-analysis/ : blog
 https://blog.monkeylearn.com/the-definitive-guide-to-natural-language-processing/ : blog
 https://blog.mozilla.org/ux/2012/06/firefox-heatmap-study-2012-results-are-in/ : analysis : blog
 https://blog.mozilla.org/ux/2012/10/visualizing-the-future-of-bookmarks/ : blog
+https://blog.nelhage.com/post/declarative-configuration-management/ : blog : configuration : software_engineering
 https://blog.openai.com/evolution-strategies/ : evolution : machine_learning : reinforcement
 https://blog.openai.com/science-of-ai/ : ai : artificial_intelligence : deep_learning : machine_learning : open_ai : scale : training
 https://blog.opticontrols.com/archives/105 : cascade_control
@@ -7570,6 +7571,7 @@ https://evil.readthedocs.io/en/latest/overview.html#installation-via-package-el 
 https://exhibits.tulane.edu/exhibit/mining-the-corporeal-black-women-in-casta-paintings/ : HBCU : art : casta : history : painting : race
 https://exif.readthedocs.io/en/latest/api_reference.html : exif : python : reference
 https://exiftool.org/ : exiftool : metadata
+https://exiftool.org/TagNames/XMP.html#prism : epub : pdf : technical_standards : xmp : xmp_prism
 https://experiments.withgoogle.com/living-archive-wayne-mcgregor : bastien_girschig : choreography : google : living_archive : machine_learning : wayne_mcgregor
 https://experiments.withgoogle.com/voice/story-speaker : UI : design : experiment : interactive_fiction
 https://explorabl.es/jam/ : example : explorable : game_jam : nick_case : programming
@@ -7769,6 +7771,7 @@ https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83 : GLSL : githu
 https://git-scm.com/book/en/v2 : git : git_book : reference : technical : version_control
 https://git-scm.com/docs/gitignore : git : gitignore : reference
 https://github.blog/2021-12-09-introducing-stack-graphs/ : __come_back_to : blog : code_navigation : github : rewrite_rules : stack_graphs
+https://github.com/0xd4d/dnlib : csharp : debugging : disassembly : dotnet : github
 https://github.com/2020PB/police-brutality : dataset : george_floyd : github : police_violence : protest
 https://github.com/26hzhang/DBLPParser : bibtex : dblp : python : xml
 https://github.com/AI-Planning/classical-domains : ai : github : pddl : planning
@@ -8093,6 +8096,8 @@ https://github.com/hsmfawaz/Chat-Bot-Using-python-and-ClIPS : CLIPS : github : p
 https://github.com/hundredrabbits/orca : composition : github : midi : music : orca : programming : sound
 https://github.com/hyperapp/hyperapp : UI : UX : github : javascript : libraries
 https://github.com/hypotext/notation : __important : github : notation : resource
+https://github.com/icedland/iced?tab=readme-ov-file : debugging : disassembly : github : rust
+https://github.com/icsharpcode/AvaloniaILSpy : disassembly : dotnet : github : ubuntu
 https://github.com/id-Software : github
 https://github.com/ideoforms/pylive : ableton : github : music : pylive : python
 https://github.com/iesl/institution_hierarchies : github : hierarchy : institution : machine_learning
@@ -8109,6 +8114,7 @@ https://github.com/ipython/ipython/issues/9816 : bug : emacs : ipython : termina
 https://github.com/isidentical/refactor : ast : github : programming : python : refactor
 https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md : best_practices : c_plus_plus : programming : reference
 https://github.com/istib/rainbow-blocks : colour : emacs : github : highlighting : syntax
+https://github.com/jacamo-lang/documentation/tree/main/programming-style : github : jacamo
 https://github.com/jacamo-lang/jacamo : github : jacamo
 https://github.com/jakevdp/PythonDataScienceHandbook : data_analysis : education : github : libraries : machine_learning : matplotlib : notebook : numpy : pandas : python : text_book : tutorial
 https://github.com/jakevdp/nfft : fft : github : libraries : python
@@ -8179,6 +8185,7 @@ https://github.com/mbostock/d3/wiki/Transitions : github
 https://github.com/mbostock/d3/wiki/Transitions#d3_ease : github
 https://github.com/me2beats/godot-tips-and-tricks/issues : github : godot : tips_and_tricks
 https://github.com/memoiry/Snaky : ai : github : python : snake
+https://github.com/meow-edit/meow/blob/master/EXPLANATION.org : emacs : github : meow : modal_editing
 https://github.com/mewo2/pronouncingpy : github : libraries : pronunciation : python
 https://github.com/mherrmann/selenium-python-helium : github : helium : python : selenium
 https://github.com/mikanbako/sphinx-gradle-plugin : build_tool : github : gradle : sphinx
@@ -9250,6 +9257,7 @@ https://magit.vc/ : emacs : git : magit : version_control
 https://mail.haskell.org/pipermail/haskell-cafe/2007-September/032260.html : customization : ghc : haskell
 https://mail.protonmail.com/login : email : security
 https://makefiletutorial.com/ : build_script : github : gnu_make : makefile : programming
+https://makemeacocktail.com/ : cocktails
 https://makingnoiseandhearingthings.com/2018/08/31/what-you-can-cant-and-shouldnt-do-with-social-media-data/ : data : ethics : machine_learning : making_noise_and_hearing_things : rachael_tatman : social_media
 https://mako-note.com/en/install-emacs28/ : brew : emacs : emacs-plus
 https://mamba.readthedocs.io/en/latest/index.html : conda : mamba : python
@@ -9708,6 +9716,7 @@ https://nplusonemag.com/online-only/book-review/not-every-kid-bond-matures/ : an
 https://nplusonemag.com/online-only/online-only/bureaucratic-heroism/ : CDC : bureaucracy : contagion : covid_19 : film : merve_emre : nplusone : pandemic
 https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2018-07-09/presidential-control-nuclear-weapons-football : NSA : archive : freedom_of_information : nuclear_football
 https://ntrs.nasa.gov/search?q=CLIPS+conference : CLIPS
+https://nullprogram.com/blog/2012/08/01/ : disassembly : emacs : java
 https://nullprogram.com/blog/2014/01/04/ : byte_code : emacs : lisp
 https://numinous.productions/ttft/ : alan_kay : andy_matuschak : doug_englebart : michael_nielsen : transformative_thought
 https://numpy.org/doc/stable/reference/arrays.html : math : numpy : python : reference
@@ -10156,6 +10165,7 @@ https://schneems.com/2017/10/02/lifelong-rubyist-makes-some-python-code-5x-faste
 https://scholar.google.co.uk/citations : anthropology : cultural_anthropology : people : qi_wang : research : social_system
 https://scholar.google.com/citations : daniel_vella : dark_souls : game_criticism : scholar : search
 https://scholar.google.com/citations?citation_for_view=7mn6g3oAAAAJ%3ARYcK_YlVTxYC&view_op=view_citation&pagesize=80 : institution : raul_pacheco_vega : review
+https://scholar.google.com/citations?hl=en&user=-czmBZcAAAAJ&view_op=list_works&sortby=pubdate : barbara_czarniaska : organisation_studies : person : research
 https://scholar.google.com/citations?sortby=pubdate&view_op=list_works : MAS : mehdi_dastani : norms
 https://scholar.google.com/scholar?cites=15368864239939516850&start=0 : __important : delegation : scholar : search
 https://scholar.google.com/scholar?cites=2913340340605917936 : institution : scholar : search
@@ -10540,6 +10550,7 @@ https://tagteam.harvard.edu/ : __come_back_to : harvard : tagging : tagteam
 https://tah.oah.org/november-2015/the-cause-was-never-lost/ : 1920 : USA : american_historian : confederacy : history : mississippi : racism
 https://tahayasseri.wordpress.com/2019/06/04/corruption-is-in-the-fabric-of-societies/ : blog : corruption : social_structure : taha_yasseri
 https://tailcall.net/blog/cracking-randomness-lcgs/ : math : random
+https://tailornova.com/ : tailoring
 https://tails.boum.org/about/index.en.html : linux : security : tails
 https://takecareblog.com/blog/cooperation-for-the-99 : anti_trust_law : law : legal
 https://takecareblog.com/blog/how-to-fix-america-s-monopoly-problem : anti_trust_law : law : legal
@@ -12165,6 +12176,7 @@ https://www.jefftk.com/p/you-dont-always-need-indexes : __come_back_to : databas
 https://www.jellykey.com/artisan-keycap/artifact-series-forbidden-realm-keycap : art : beauty : keyboards
 https://www.jenkins.io/ : jenkins
 https://www.jenkins.io/doc/ : jenkins
+https://www.jetbrains.com/help/decompiler/dotPeek_Getting_Started.html : debugging : disassembly : dotnet : dotpeek
 https://www.jfsowa.com/pubs/dynonto.htm : ambiguity : dynamic : formal_logic : ontology
 https://www.jgoertler.com/visual-exploration-gaussian-processes/ : __important : blog : gaussian_process : math : regression : tutorial
 https://www.jntrnr.com/why-i-left-rust/ : behaviour : jeanheyd_meneide : rust : rust_conference
@@ -12515,6 +12527,7 @@ https://www.nixonlibrary.gov/index.php/december-9-2010-materials-release : USA :
 https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/ : UI : UX : anti_patterns : flat_design : nielson
 https://www.nngroup.com/articles/why-advertising-doesnt-work-on-the-web/ : advertising : bot : fraud : jakob_nielson : marketing : nielson : nngroup : online_advertising
 https://www.nogalesinternational.com/news/despite-complaints-soldiers-add-more-wire-to-nogales-border-fence/article_d4397ff2-28b7-11e9-94ff-e36237f3a29f.html : USA : __important : barbed_wire : immigration : mexico : nogales : society : southern_border
+https://www.nongnu.org/emacs-tiny-tools/keybindings/ : emacs : keymap
 https://www.nonteek.com/en/multi-agent-systems-jade/ : MAS : blog : jade
 https://www.noodletools.com/overview/citing/ : noodle : research : tools : writing
 https://www.norges-bank.no/en/news-events/news-publications/Speeches/2017/2017-04-25-dnva/ : finance : money : norges_bank : report
@@ -13383,6 +13396,7 @@ https://www.swi-prolog.org/ : documentation : prolog : swipl
 https://www.swig.org/ : c_lang : c_plus_plus : interface : python : scripting_langauges : swig
 https://www.swrh.co.uk/ : UK : research : sex_work
 https://www.swrh.co.uk/academic-articles/open-letter-from-the-sex-work-research-hub-to-the-conservative-party-human-rights-commission-on-the-global-sex-trade : conservative : research : science : sex_trafficking : sex_work
+https://www.symbolab.com/ : math
 https://www.synalysis.net/ : data_analysis : hex_editor : synalysis
 https://www.syriamusicmap.org/en/home : map : music : syria : visualisation
 https://www.tableau.com/learn/articles/data-visualization : data_visualisation

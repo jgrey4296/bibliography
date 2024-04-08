@@ -1681,6 +1681,8 @@ https://saxxie.dev
 *** comics
 https://redpenblackpen.jasonya.com
 *** games
+https://littlealchemy2.com/
+https://www.retrogames.cc/
 https://www.molleindustria.org
 *** tumblr
 https://gothicpunk.tumblr.com
@@ -2988,8 +2990,18 @@ https://www.cs.rochester.edu/research/cisd/resources/                           
 https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/                                :  University of Glasgow Digital Collections
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
+** researchers
+https://scholar.google.com/citations?hl=en&user=-czmBZcAAAAJ&view_op=list_works&sortby=pubdate - barbara czarniawska
 ** Web App
+https://fakeyou.com/text-to-image
+https://www.autodraw.com/
 https://q.uiver.app/  - diagrams, latex
+https://makemeacocktail.com/ - cocktails
+https://bodyvisualizer.com/ - bodies
+https://tailornova.com/ - clothes
+https://www.symbolab.com/ - math
+https://temp-mail.org/ - mail
+https://musclewiki.com/ - muscles
 ** Youtube channels
 http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
 http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
