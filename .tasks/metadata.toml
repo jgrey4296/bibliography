@@ -22,6 +22,7 @@ actions          = [
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
         # queue
         {do="job.queue",       from_="tasks"},
+        {do="job.queue.head"},
 ]
 
 [[tasks.meta]]

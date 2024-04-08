@@ -6,8 +6,7 @@ backup_drive = "/media/john/big_ex"
 pdf_source   = "{data_drive}/library/pdfs"
 pdf_bkup     = "{backup_drive}/library/pdfs"
 
-# TODO movies
-# TODO images
+# TODO backup files from a bibtex file
 
 [[tasks.backup]]
 name                       = "pdfs"

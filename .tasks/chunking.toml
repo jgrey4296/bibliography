@@ -15,6 +15,7 @@ actions              = [
                      {do="post.get",   data="chunk::files.-"}, # Get from postbox
                      {do="job.expand", from_="data", base_="sub_actions", update_="tasks"},
                      {do="job.queue",  args=["tasks"]},      # Queue
+                     {do="job.queue.head"},
 ]
 sub_actions          = [
                      # write library
@@ -40,6 +41,7 @@ actions = [
         {do="job.expand", from_="files", base_="sub_actions", inject={copy=["target_bib_size"], replace=["fpath"]}, update_="tasks"},
         {do="job.inject.path", onto_="tasks", key_="fpath"},
         {do="job.queue",  from_="tasks"},
+        {do="job.queue.head"},
 ]
 sub_actions            = [
                      { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},

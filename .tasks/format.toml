@@ -18,6 +18,7 @@ actions = [
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
         {do="job.inject.path", onto_="tasks",  key_="fpath"},
         {do="job.queue",       from_="tasks"},
+        {do="job.queue.head"},
 ]
 
 
