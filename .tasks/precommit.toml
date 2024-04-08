@@ -1,7 +1,7 @@
 ## precommit.toml -*- mode: conf-toml -*-
 
 [[locations]]
-changed_file = "{temp}/.changed"
+changed_file = {file="{temp}/.changed"}
 
 [[tasks.precommit]]
 name     = "validate"

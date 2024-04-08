@@ -8,10 +8,10 @@ name       = "total"
 depends_on = ["file:>{orphans}/bib.files", "file:>{orphans}/fs.files"]
 actions = [
         # read file lists
-        {do="read", from="{orphans}/bib.files", type="lines", update_="bib"}
-        {do="read", from="{orphans}/fs.files", type="lines",  update_="fs"}
+        {do="read", from="{orphans}/bib.files", type="lines", update_="bib"},
+        {do="read", from="{orphans}/fs.files", type="lines",  update_="fs"},
         # diff them
-        {do="taskcode.orphans:diff_filelists"}
+        {do="taskcode.orphans:diff_filelists"},
         # write results:
         #### mentioned but doesnt exists {orphans}/only_mentioned.files
         #### exists but unmentioned {orphans}/only_exists.files

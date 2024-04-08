@@ -46,10 +46,10 @@ from doot.structs import DootKey
 @DootKey.kwrap.redirects("update_")
 def get_db_files(spec, state, _db, _update):
     """ get all files mentioned in the bibtex database """
-    filelist = []
+    filelist = set()
     for entry in _db.entries:
         fields = entry.fields_dict
-        filelist += {v.value for k,v in fields.items() if "file" in x}
+        filelist.update({v.value for k,v in fields.items() if "file" in x})
 
     return { _update : filelist }
 
