@@ -35,4 +35,7 @@ actions          = [
                 { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
                 { do="write!", from_="bib_text", to="{fpath}"},
                 { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
-]                                                                                                                         # <str>
+                # Extract tags and add to postbox:
+                { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
+                { do="post.put", tags="tags" },
+]

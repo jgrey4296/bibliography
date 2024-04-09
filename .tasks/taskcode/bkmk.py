@@ -46,9 +46,9 @@ from dootle.bookmarks.structs import BookmarkCollection
 
 TODAY                       = datetime.datetime.now().date()
 
-@DootKey.kwrap.types("from", hint={"type":BookmarkCollection})
+@DootKey.kwrap.types("from", hint={"type_":BookmarkCollection})
 @DootKey.kwrap.redirects("update_")
-def collect_tags(spec, state, _update, _db):
+def collect_tags(spec, state, _db, _update):
     """ merge tags of bookmarks together """
     tags           = TagFile()
 

@@ -40,53 +40,63 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 from dootle.tags.structs import TagFile, SubstitutionFile
+from bib_middleware import TagsReader
 
 UPDATE_KEY = DootKey.build("update_")
 FROM_KEY   = DootKey.build("from")
 TO_KEY     = DootKey.build("to")
 
-class ReadSubs:
-    _total = SubstitutionFile()
+@DootKey.kwrap.paths("from")
+@DootKey.kwrap.redirects("update_")
+def read_tags(spec, state, _from, _update):
+    tags = TagFile.read(_from)
+    return { _update : tags }
 
-    def __call__(self, spec, state):
-        target  = FROM_KEY.to_path(spec, state)
+@DootKey.kwrap.paths("from")
+@DootKey.kwrap.redirects("update_")
+def read_subs(spec, state, _target, _update):
+    target_subs = SubstitutionFile.read(_target)
+    return { _update : target_subs }
 
-        target_subs = SubstitutionFile.read(target)
-        ReadSubs._total.update(target_subs)
+@DootKey.kwrap.types("total", hint={"type_":TagFile})
+@DootKey.kwrap.types("known", hint={"type_":SubstitutionFile})
+@DootKey.kwrap.redirects("update_")
+def calc_new_tags(spec, state, _total, _known, _update):
+    new_tags = TagFile({x:1 for x in _total if not (_known.has_sub(x) or x in _known)})
+    return { _update : new_tags }
 
-def write_known(spec, state):
-    target  = TO_KEY.to_path(spec, state)
-    total   = set()
-    for tag in ReadSubs._total:
-        total.update(ReadSubs._total.sub(tag))
+@DootKey.kwrap.types("from", hint={"type_":TagFile})
+@DootKey.kwrap.redirects("update_")
+def write_tag_set(spec, state, _from, _update):
+    tag_str = str(_from)
+    return { _update : tag_str}
 
-    target.write_text("\n".join(sorted(total)))
+@DootKey.kwrap.redirects("update_")
+def write_name_set(spec, state, _update):
+    result     = BM.NameWriter.names_to_str()
+    return { _update : result }
 
-def write_new(spec, state):
-    total   = FROM_KEY.to_type(spec, state, type_=TagFile)
-    known   = ReadSubs._total
+@DootKey.kwrap.types("from", hint={"type_":list|set})
+@DootKey.kwrap.redirects("update_")
+def merge_tagfiles(spec, state, _tagfiles, _update):
+    merged = TagFile()
+    for tf in _tagfiles:
+        assert(isinstance(tf, TagFile))
+        merged += tf
 
-    new_tags = {x for x in total if not (known.has_sub(x) or x in known)}
+    return { _update : merged }
 
-    target  = TO_KEY.to_path(spec, state)
-    target.write_text("\n".join(sorted(new_tags)))
+@DootKey.kwrap.types("from", hint={"type_":list|set})
+@DootKey.kwrap.redirects("update_")
+def merge_subfiles(spec, state, _from, _update):
+    merged = SubstitutionFile()
+    for tf in _from:
+        merged += tf
 
-def read_tags(spec, state):
-    update = UPDATE_KEY.redirect(spec)
-    target = FROM_KEY.to_path(spec, state)
+    return { _update : merged }
 
-    tags = TagFile.read(target)
+@DootKey.kwrap.redirects("update_")
+def tags_from_middleware_to_state(spec, state, _update):
+    """ Get the TagFile of tags read from the current lib, and insert it into state """
 
-    return { update : tags }
-
-def write_tag_set(spec, state):
-    update_key = UPDATE.redirect(spec, state)
-    result     = BM.ParseTagsMiddleware.tags_to_str()
-
-    return { update_key : result }
-
-def write_name_set(spec, state):
-    update_key = UPDATE.redirect(spec, state)
-    result     = BM.MergeLastNameFirstName.names_to_str()
-
-    return { update_key : result }
+    return { _update : TagsReader._all_tags }
