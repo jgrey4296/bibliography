@@ -27,6 +27,7 @@ run = { tracker = "default", runner = "default", reporter= "default", report-lin
 
 [[locations]]
 temp          = ".temp"
+logs          = "{temp}/logs"
 export        = "{temp}/export"
 bib           = "main"
 bookmarks     = "bookmarks/total.bookmarks"
