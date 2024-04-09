@@ -56,13 +56,13 @@ def build_working_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
         BM.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
-        ms.RemoveEnclosingMiddleware(True),
+        ms.ResolveStringReferencesMiddleware(),
+        ms.RemoveEnclosingMiddleware(),
         BM.PathReader(lib_root=_libroot),
-        BM.IsbnValidator(True),
+        BM.IsbnValidator(),
         BM.TagsReader(),
-        ms.SeparateCoAuthors(True),
-        BM.NameReader(True),
+        ms.SeparateCoAuthors(),
+        BM.NameReader(),
         BM.TitleReader()
     ]
     return { _update : read_mids }
@@ -72,11 +72,11 @@ def build_working_parse_stack(spec, state, _libroot, _update):
 def build_working_write_stack(spec, state, _libroot, _update):
     """ Doesn't encode into latex """
     write_mids = [
-        BM.NameWriter(True),
-        ms.MergeCoAuthors(True),
-        BM.IsbnWriter(True),
+        BM.NameWriter(),
+        ms.MergeCoAuthors(allow_inplace_modification=False),
+        BM.IsbnWriter(),
         BM.TagsWriter(),
         BM.PathWriter(lib_root=_libroot),
-        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids }

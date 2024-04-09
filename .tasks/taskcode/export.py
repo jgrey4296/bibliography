@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 See EOF for license/metadata/notes as applicable
 """
 
@@ -39,17 +38,25 @@ logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
+import bibtexparser as BTP
+from bibtexparser import middlewares as ms
+
+import doot
+import doot.errors
+from doot.structs import DootKey
+import bib_middleware as BM
+
 @DootKey.kwrap.paths("lib-root")
 @DootKey.kwrap.redirects("update_")
 def build_export_write_stack(spec,state, _libroot, _update):
     """ encodes into latex for compilation """
     write_mids = [
-        BM.NameWriter(True),
-        ms.MergeCoAuthors(True),
+        BM.NameWriter(),
+        ms.MergeCoAuthors(),
         BM.LatexWriter(keep_math=True, enclose_urls=False),
-        BM.IsbnWriter(True),
+        BM.IsbnWriter(),
         BM.TagsWriter(),
         BM.PathWriter(lib_root=_libroot),
-        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids }

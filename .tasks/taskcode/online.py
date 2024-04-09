@@ -68,8 +68,8 @@ def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _updat
     """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
     read_mids = [
         BM.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
-        ms.RemoveEnclosingMiddleware(True),
+        ms.ResolveStringReferencesMiddleware(),
+        ms.RemoveEnclosingMiddleware(),
         BM.PathReader(lib_root=_libroot),
         BM.OnlineHandler(target=_dltarget),
     ]
@@ -82,6 +82,6 @@ def build_online_downloader_write_stack(spec, state, _libroot, _update):
     """ Doesn't encode into latex """
     write_mids = [
         BM.PathWriter(lib_root=_libroot),
-        ms.AddEnclosingMiddleware(allow_inplace_modification=True, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
+        ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids}

@@ -2,6 +2,8 @@
 
 [[locations]]
 lib-root      = "/media/john/data/library/pdfs/"
+bib_export    = "{export}/bib"
+cal_export    = "{export}/calendar"
 
 [[tasks.format]]
 name                 = "all"
@@ -26,6 +28,7 @@ actions = [
 name             = "_by.year"
 ctor             = "task"
 print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 actions          = [
                 { do="ext?", ext=".bib" },
                 { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
@@ -38,4 +41,9 @@ actions          = [
                 # Extract tags and add to postbox:
                 { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
                 { do="post.put", tags="tags" },
+
+                # Latex Export
+                { do="taskcode.export:build_export_write_stack",   update_="write_stack" },
+                { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+                { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
 ]
