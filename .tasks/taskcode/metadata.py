@@ -224,10 +224,10 @@ class ApplyMetadata:
 
     def _metadata_matches_entry(self, path, entry) -> bool:
         result = json.loads(exiftool("-J", str(path)))[0]
-        if 'bibtex' not in result and 'Description' not in result:
+        if 'Bibtex' not in result and 'Description' not in result:
             return False
 
-        if result.get('bibtex', None) == entry.raw:
+        if result.get('Bibtex', None) == entry.raw:
             return True
 
         if result.get('Description', None) == entry.raw:

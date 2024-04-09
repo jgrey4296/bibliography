@@ -34,7 +34,7 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
 roots            = ["{pdf_source}", "{bib}"]
 actions          = [
-    { do="log", msg="metadata by year", level="WARN"},
+    { do="log", msg="Metadata by year", level="WARN"},
     { do="ext?", ext=".bib" },
     { do="state.add.path.parts", from_="fpath" },
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
