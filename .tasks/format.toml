@@ -23,7 +23,7 @@ actions = [
 
 
 [[tasks.format]]
-name             = "_individual"
+name             = "_by.year"
 ctor             = "task"
 print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
 actions          = [

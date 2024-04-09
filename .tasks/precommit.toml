@@ -16,28 +16,21 @@ actions  = [
 
 [[tasks.precommit]]
 name          = "top"
+doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
+depends_on    = ["bookmark::update"]
 actions       = [
             # todo append changed file list to {changed_file}
-            {do="job.expand", from_="files", update_="format_tasks", inject={replace=["fpath"]}, base="format::_individual"},
-            {do="job.expand", from_="files", update_="tag_tasks",    inject={replace=["fpath"]}, base="tags::_extract.bib"},
-            # todo {do="job.expand", from_="file", update_="meta_tasks", inject={replace=["fpath"]}, base="meta::_by.year"},
+            {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, base="format::_by.year"},
+            {do="job.expand", prefix="tag",    from_="files", update_="tag_tasks",    inject={replace=["fpath"]}, base="tags::_extract.bib"},
+            {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, base="meta::_by.year"},
+            {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, base="backup::_by.year"},
             # todo {do="job.expand", from_="files", update_="tag_tasks", inject={replace=["fpath"]}, base="summary::top"},
-            # todo {do="job.expand", from_="files", update_"backup_tasks", inject={replace=["fpath"]}, base="backup::_by.year"},
-            {do="job.queue", from_multi_=["format_tasks", "tag_tasks"]}, # queue
+            {do="job.queue", from_multi_=["format_tasks", "tag_tasks", "meta_tasks", "backup_tasks"]}, # queue
             {do="job.queue.head", base_="head_actions"}, # head actions clear changed file
-            # alt head: {do="job.queue.head", base="precommit::_simple"},
 ]
 head_actions = [
              {do="log", msg="Finished"}
              # todo clear changed file
-]
-
-[[tasks.precommit]]
-name            = "_simple"
-ctor            = "task"
-actions         = [
-             {do="log", msg="Finished"}
-             # todo clear changed filej
 ]
