@@ -88,6 +88,8 @@ class ApplyMetadata:
                     pass
                 case x if x.suffix == ".pdf" and not self._pdf_is_modifiable(x):
                     printer.warning("PDF is locked: %s", x)
+                case x if self._metadata_matches_entry(x, entry):
+                    printer.info("No Metadata Update Necessary: %s", x)
                 case x if x.suffix == ".pdf":
                     self._backup_original_metadata(_backup, x)
                     self._update_pdf_by_exiftool(x, entry)
@@ -146,6 +148,7 @@ class ApplyMetadata:
         if 'issn' in fields:
             args += ['-xmp-prism:issn={}'.format(fields['issn'].value)]
 
+        logging.debug("Pdf update args: %s : %s", path, args)
         # Call
         exiftool(*args, str(path))
 
@@ -174,8 +177,9 @@ class ApplyMetadata:
 
         args += ['--tags={}'.format(",".join(fields['tags'].value))]
         args += ['--date={}'.format(fields['year'].value)]
-        args += ['--comments=""']
+        args += ['--comments={}'.format(entry.raw)]
 
+        logging.debug("Ebook update args: %s : %s", path, args)
         calibre(str(path), *args)
 
     def _pdf_is_modifiable(self, path) -> bool:
@@ -217,3 +221,16 @@ class ApplyMetadata:
         result = json.loads(exiftool("-J", str(path)))[0]
         with jsonlines.open(archive, mode='a') as f:
             f.write(result)
+
+    def _metadata_matches_entry(self, path, entry) -> bool:
+        result = json.loads(exiftool("-J", str(path)))[0]
+        if 'bibtex' not in result and 'Description' not in result:
+            return False
+
+        if result.get('bibtex', None) == entry.raw:
+            return True
+
+        if result.get('Description', None) == entry.raw:
+            return True
+
+        return False
