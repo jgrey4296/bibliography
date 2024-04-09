@@ -82,14 +82,14 @@ class ApplyMetadata:
     @DootKey.kwrap.paths("meta_backup")
     def __call__(self, spec ,state, _lib, _backup):
         for entry in _lib.entries:
-            printer.info("Processing: %s", entry.key)
+            printer.warning("Processing: %s", entry.key)
             match self._get_file(entry):
                 case None:
                     pass
                 case x if x.suffix == ".pdf" and not self._pdf_is_modifiable(x):
                     printer.warning("PDF is locked: %s", x)
                 case x if self._metadata_matches_entry(x, entry):
-                    printer.info("No Metadata Update Necessary: %s", x)
+                    printer.warning("No Metadata Update Necessary: %s", x)
                 case x if x.suffix == ".pdf":
                     self._backup_original_metadata(_backup, x)
                     self._update_pdf_by_exiftool(x, entry)

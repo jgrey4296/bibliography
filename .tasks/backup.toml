@@ -34,12 +34,12 @@ head_actions               = [{do="doot.actions.postbox:SummarizePostAction", fu
 
 
 [[tasks.backup]]
-print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
 name               = "_by.year"
 doc                = ["update the file metadata for all entries in a single bib file"]
 version            = "0.1"
 ctor               = "job"
 cli                = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+print_levels       = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
 roots              = ["{pdf_source}", "{bib}"]
 shadow_root        = "{pdf_bkup}"
 actions            = [

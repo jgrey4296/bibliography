@@ -31,7 +31,7 @@ doc              = ["update the file metadata for all entries in a single bib fi
 version          = "0.1"
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
 roots            = ["{pdf_source}", "{bib}"]
 actions          = [
     { do="log", msg="Metadata by year", level="WARN"},
