@@ -18,7 +18,6 @@ actions = [
         {do="job.walk",        update_="walked"},
         {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base="base::_formatter"},
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
-        {do="job.inject.path", onto_="tasks",  key_="fpath"},
         {do="job.queue",       from_="tasks"},
         {do="job.queue.head"},
 ]
@@ -32,10 +31,12 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 actions          = [
                 { do="ext?", ext=".bib" },
                 { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+                { do="state.add.path.parts", from_="fpath", roots=["{bib}"]},
                 { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
                 { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
                 { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
                 { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+
                 { do="write!", from_="bib_text", to="{fpath}"},
                 { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
                 # Extract tags and add to postbox:
