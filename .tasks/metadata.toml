@@ -1,7 +1,7 @@
 ## metadata.toml -*- mode: conf-toml -*-
 
 [[locations]]
-meta_backup = {file="{temp}/meta_backup.jsonl"}
+meta_backup = {file="{logs}/meta_backup.jsonl"}
 
 [[tasks.meta]]
 name             = "update"
