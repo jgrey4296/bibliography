@@ -31,7 +31,7 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 actions          = [
                 { do="ext?", ext=".bib" },
                 { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
-                { do="state.add.path.parts", from_="fpath", roots=["{bib}"]},
+                { do="state.add.path.parts", from_="fpath", roots=["."]},
                 { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
                 { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
                 { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
