@@ -21,7 +21,7 @@ shadow_root                = "{pdf_bkup}"
 actions = [
         {do="job.walk", update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
-        {do="job.inject.path", onto_="tasks",  key_="fpath"},
+        {do="job.inject.path.elements", onto_="tasks",  key_="fpath"},
         {do="job.inject.shadow", onto_="tasks", key_="rpath"},
         {do="job.queue", from_="tasks"}, # queue
         {do="job.queue.head", base_="head_actions"},
@@ -43,17 +43,18 @@ print_levels       = { head="INFO", build="WARNING", execute="WARNING", sleep="W
 roots              = ["{pdf_source}", "{bib}"]
 shadow_root        = "{pdf_bkup}"
 actions            = [
-    { do="log", msg="Backup By Year", level="WARN"},
+    { do="log", msg="Backup By Year: {fpath}", level="WARN"},
     { do="ext?", ext=".bib" },
     { do="doot.actions.control_flow:SkipUnlessRelativeTo", unless_roots_="roots"},
-    { do="state.add.path.parts", from_="fpath"},
+    { do="path.elements", from_="fpath"},
+    # Read
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.backup:build_backup_parse_stack",  update_="parse_stack"},
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-
     { do="taskcode.backup:get_files", from_="bib_db", update_="files" },
+    # Queue
     { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
-    { do="job.inject.path",   onto_="tasks",  key_="fpath" },
+    { do="job.inject.path.elements",   onto_="tasks",  key_="fpath" },
     { do="job.inject.shadow", onto_="tasks", key_="rpath"},
 
     { do="job.queue", from_="tasks" },

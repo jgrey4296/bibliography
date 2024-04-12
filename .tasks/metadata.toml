@@ -34,12 +34,15 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 print_levels     = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
 roots            = ["{pdf_source}", "{bib}"]
 actions          = [
-    { do="log", msg="Metadata by year", level="WARN"},
+    { do="log", msg="Metadata by year: {fpath}", level="WARN"},
     { do="ext?", ext=".bib" },
     { do="doot.actions.control_flow:SkipUnlessRelativeTo", unless_roots_="roots"},
-    { do="state.add.path.parts", from_="fpath" },
+    { do="path.elements", from_="fpath" },
+    # Read
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    # Apply
+    # TODO make this queue tasks instead
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", meta_backup="{meta_backup}"},
 ]

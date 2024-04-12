@@ -26,18 +26,20 @@ actions = [
 [[tasks.format]]
 name             = "_by.year"
 ctor             = "task"
-print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="INFO" }
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 actions          = [
                 { do="ext?", ext=".bib" },
+                { do="path.elements", from_="fpath", roots=["."]},
+
                 { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
-                { do="state.add.path.parts", from_="fpath", roots=["."]},
+                # Load
                 { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
                 { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-                { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
 
                 # Write formatted out
                 { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
+                { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
                 { do="write!", from_="bib_text", to="{fpath}"},
                 # Write any failed blocks
                 { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },

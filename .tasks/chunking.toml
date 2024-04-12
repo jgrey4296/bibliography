@@ -39,7 +39,7 @@ target_bib_size        = 250
 actions = [
         {do="job.walk",   update_="files" }, # walk
         {do="job.expand", from_="files", base_="sub_actions", inject={copy=["target_bib_size"], replace=["fpath"]}, update_="tasks"},
-        {do="job.inject.path", onto_="tasks", key_="fpath"},
+        {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue",  from_="tasks"},
         {do="job.queue.head"},
 ]

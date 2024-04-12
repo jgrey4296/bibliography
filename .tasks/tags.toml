@@ -53,7 +53,7 @@ exts                 = [".bib"]                                                 
 actions = [
         {do="job.walk", update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base="tags::_extract.bib"},
-        {do="job.inject.path", onto_="tasks", key_="fpath"},
+        {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"}, # queue
         {do="job.queue.head", base="tags::_extract.bib.finish"},
 ]

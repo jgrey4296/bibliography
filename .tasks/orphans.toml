@@ -35,7 +35,7 @@ actions          = [
 ]
 sub_actions = [
     { do="ext?", ext=".bib" },
-    { do="state.add.path.parts", from_="fpath" },
+    { do="path.elements", from_="fpath" },
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
