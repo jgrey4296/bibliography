@@ -1,7 +1,7 @@
 ## metadata.toml -*- mode: conf-toml -*-
 
 [[locations]]
-meta_backup = {file="{logs}/meta_backup.jsonl"}
+meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
 
 [[tasks.meta]]
 name             = "update"
@@ -36,6 +36,7 @@ roots            = ["{pdf_source}", "{bib}"]
 actions          = [
     { do="log", msg="Metadata by year", level="WARN"},
     { do="ext?", ext=".bib" },
+    { do="doot.actions.control_flow:SkipUnlessRelativeTo", unless_roots_="roots"},
     { do="state.add.path.parts", from_="fpath" },
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},

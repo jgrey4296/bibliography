@@ -1,7 +1,7 @@
 ## precommit.toml -*- mode: conf-toml -*-
 
 [[locations]]
-changed_file = {file="{temp}/.changed"}
+changed_file = {loc="{temp}/.changed", file=true}
 
 [[tasks.precommit]]
 name     = "validate"
@@ -22,12 +22,12 @@ cli           = [{ name="files",   type="list", default=[], positional=true }]
 print_levels  = { head="INFO", build="WARN", action="WARN", sleep="WARN", execute="WARN" }
 depends_on    = ["bookmark::update"]
 actions       = [
-            # todo append changed file list to {changed_file}
+            # TODO append changed file list to {changed_file}
             {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, base="format::_by.year"},
             {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, base="meta::_by.year"},
             {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, base="backup::_by.year"},
-            {do="job.queue", from_multi_=["format_tasks", "tag_tasks", "meta_tasks", "backup_tasks"]}, # queue
-            {do="job.queue.head", base_="head_actions"}, # head actions clear changed file
+            {do="job.queue", from_multi_=["format_tasks", "meta_tasks", "backup_tasks"]},
+            {do="job.queue.head", base_="head_actions"},
 ]
 head_actions = [
              {do="log", msg="Finished"}

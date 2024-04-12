@@ -23,7 +23,7 @@ doc              = ["walk all bibfiles, summarise entry files"]
 ctor             = "job"
 version          = "0.1"
 print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
-required_for     = [{file="{orphans}/bib.files"}]
+required_for     = [{loc="{orphans}/bib.files", file=true}]
 roots            = ["{bib}"]
 exts             = [".bib"]
 actions          = [
@@ -49,7 +49,7 @@ doc              = ["walk the library filesystem, summarising all existing files
 ctor             = "job"
 version          = "0.1"
 print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
-required_for     = [{file="{orphans}/fs.files"}]
+required_for     = [{loc="{orphans}/fs.files", file=true}]
 roots            = ["{lib-root}"]
 exts             = [".pdf", ".epub"]
 actions          = [
