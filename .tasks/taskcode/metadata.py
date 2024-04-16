@@ -40,8 +40,6 @@ printer = logmod.getLogger("doot._printer")
 
 import json
 import jsonlines
-import libxmp
-import pikepdf
 import sh
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms

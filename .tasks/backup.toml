@@ -42,14 +42,18 @@ cli                = [{ name="fpath", type="str", prefix="-", default="", desc="
 print_levels       = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
 roots              = ["{pdf_source}", "{bib}"]
 shadow_root        = "{pdf_bkup}"
-actions            = [
-    { do="log", msg="Backup By Year: {fpath}", level="WARN"},
+depends_on         = [
     { do="ext?", ext=".bib" },
     { do="doot.actions.control_flow:SkipUnlessRelativeTo", unless_roots_="roots"},
+]
+setup              = [
     { do="path.elements", from_="fpath"},
-    # Read
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.backup:build_backup_parse_stack",  update_="parse_stack"},
+]
+actions            = [
+    { do="log", msg="Backup By Year: {fpath}", level="WARN"},
+    # Read
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     { do="taskcode.backup:get_files", from_="bib_db", update_="files" },
     # Queue

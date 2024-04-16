@@ -10,17 +10,18 @@ ctor                 = "task"               # <type>
 cli                  = [{ name="files",   type="list", default=[], positional=true }]
 doc                  = ["Merge firefox bookmarks into bibliography repo"]
 db_name              = "places.sqlite"
-depends-on           = ["bookmark::_firefox", "bookmark::_archived"]
+depends-on           = [{ do="pred?", pred="taskcode.bkmk:recency_test" }, "bookmark::_firefox", "bookmark::_archived"]
+setup = [
+   { do="doot.actions.state:AddNow", format="%Y-%m-%d : %H:%M", update_="_date"},
+]
 actions              = [
-                     { do="pred?", pred="taskcode.bkmk:recency_test" },
-                     { do="post.get", head_firefox_bkmks="bookmark::_firefox.-", head_archived_bkmks="bookmark::_archived.-" },
-                     { do="dootle.bookmarks.actions:BookmarksMerge", from_=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
-                     { do="dootle.bookmarks.actions:BookmarksRemoveDuplicates", from_="total_bkmks" },
-                     { do="dootle.bookmarks.actions:BookmarksToStr", from_="total_bkmks", update_="bkmks_str" },
-                     { do="doot.actions.state:AddNow", format="%Y-%m-%d : %H:%M", update_="_date"},
-                     { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{temp}/append.test" },
-                     { do="write!", from_="bkmks_str", to="{temp}/merged.bookmarks" },
-                     { do="write!", from_="bkmks_str", to="{bookmarks}" },
+   { do="post.get", head_firefox_bkmks="bookmark::_firefox.-", head_archived_bkmks="bookmark::_archived.-" },
+   { do="dootle.bookmarks.actions:BookmarksMerge", from_=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
+   { do="dootle.bookmarks.actions:BookmarksRemoveDuplicates", from_="total_bkmks" },
+   { do="dootle.bookmarks.actions:BookmarksToStr", from_="total_bkmks", update_="bkmks_str" },
+   { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{temp}/append.test" },
+   { do="write!", from_="bkmks_str", to="{temp}/merged.bookmarks" },
+   { do="write!", from_="bkmks_str", to="{bookmarks}" },
 ]                                                                                                        # <list[Any]>
 
 [[tasks.bookmark]]
@@ -29,13 +30,17 @@ version              = "0.1"                # <str>
 ctor                 = "task" # <type>
 doc                  = [] # <list[str]>
 db_name              = "places.sqlite"
+cleanup = [
+   { do="delete!", args=["{temp}/{db_name}", "{temp}/{db_name}-shm", "{temp}/{db_name}-wal"], lax=true },
+]
+setup                = [
+   { do="doot.actions.io:SimpleFind", from="{firefox}", pattern_="db_name", rec=true, update_="db_locs"},
+
+]
 actions              = [
-                     { do="doot.actions.io:SimpleFind", from="{firefox}", pattern_="db_name", rec=true, update_="db_locs"},
-                     { do="delete!", args=["{temp}/{db_name}", "{temp}/{db_name}-shm", "{temp}/{db_name}-wal"], lax=true },
-                     { do="copy", from_="db_locs", to="{temp}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
-                     { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp}/{db_name}", update_="firefox_bkmks" }, # extract
-                     { do="post.put", args=["{firefox_bkmks}"] },
-                     { do="delete!", args=["{temp}/{db_name}", "{temp}/{db_name}-shm", "{temp}/{db_name}-wal"], lax=true },
+   { do="copy", from_="db_locs", to="{temp}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
+   { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp}/{db_name}", update_="firefox_bkmks" }, # extract
+   { do="post.put", args=["{firefox_bkmks}"] },
 ]
 
 [[tasks.bookmark]]
@@ -46,9 +51,9 @@ doc                  = []                   # <list[str]>
 depends_on           = ["file:>{bookmarks}"]                   # <list[DootTaskArtifact]>
 required_for         = ["file:>{temp}/tags/bkmk.tags"]
 actions              = [
-                     { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
-                     { do="post.put", args=["total_bkmks"] },
-                     # Write extracted tags:
-                     { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
-                     { do="write!", from_="tags", to="{temp}/tags/bkmks.tags" },
+   { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
+   { do="post.put", args=["total_bkmks"] },
+   # Write extracted tags:
+   { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
+   { do="write!", from_="tags", to="{temp}/tags/bkmks.tags" },
 ]

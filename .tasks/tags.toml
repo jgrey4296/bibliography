@@ -15,10 +15,10 @@ actions              = [
 name                     = "calc.new"
 version                  = "0.1"                                                                  # <str>
 ctor                     = "job"
-docs                     = ["calculate known and new tags"]
+docs                     = ["calculate canon and new tags"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
-# required_for             = ["file:>{temp}/tags/known.tags", "file:>{temp}/tags/new.tags"]
+# required_for             = ["file:>{temp}/tags/canon.tags", "file:>{temp}/tags/new.tags"]
 recursive                = false                                                                  # <bool>
 actions                  = [
         {do="job.walk", update_="files"}, # walk,
@@ -36,9 +36,10 @@ head_actions             = [
     { do="taskcode.tags:merge_subfiles", from_="subs", update_="known_tags" },
     { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="total_tags" },
     { do="taskcode.tags:calc_new_tags",   total_="total_tags", known_="known_tags", update_="new_tags" },
+    { do="taskcode.tags:calc_canon_tags", known_="known_tags", update_="canon_tags"},
     # Then write them
     { do="write!", from_="new_tags", to="{temp}/tags/new.tags"},
-    { do="write!", from_="known_tags", to="{temp}/tags/known.tags"},
+    { do="write!", from_="canon_tags", to="{temp}/tags/canon.tags"},
 
 ]
 
@@ -62,11 +63,15 @@ actions = [
 name             = "_extract.bib"
 doc              = ["adds tags found in the bibtex to a middleware state"]
 ctor             = "task"
+depends_on       = [
+    { do="ext?", ext=".bib"},
+]
+setup            = [
+    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
+    { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
+]
 actions          = [
-                     { do="ext?", ext=".bib"},
-                     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
-                     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-                     { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
                      { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
                      { do="post.put", tags="tags" },
 ]                                                                                                                         # <str>

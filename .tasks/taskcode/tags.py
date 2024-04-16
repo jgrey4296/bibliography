@@ -46,38 +46,44 @@ UPDATE_KEY = DootKey.build("update_")
 FROM_KEY   = DootKey.build("from")
 TO_KEY     = DootKey.build("to")
 
-@DootKey.kwrap.paths("from")
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.paths("from")
+@DootKey.dec.redirects("update_")
 def read_tags(spec, state, _from, _update):
     tags = TagFile.read(_from)
     return { _update : tags }
 
-@DootKey.kwrap.paths("from")
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.paths("from")
+@DootKey.dec.redirects("update_")
 def read_subs(spec, state, _target, _update):
     target_subs = SubstitutionFile.read(_target)
     return { _update : target_subs }
 
-@DootKey.kwrap.types("total", hint={"type_":TagFile})
-@DootKey.kwrap.types("known", hint={"type_":SubstitutionFile})
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.types("total", hint={"type_":TagFile})
+@DootKey.dec.types("known", hint={"type_":SubstitutionFile})
+@DootKey.dec.redirects("update_")
 def calc_new_tags(spec, state, _total, _known, _update):
     new_tags = TagFile({x:1 for x in _total if not (_known.has_sub(x) or x in _known)})
     return { _update : new_tags }
 
-@DootKey.kwrap.types("from", hint={"type_":TagFile})
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.types("known", hint={"type_":SubstitutionFile})
+@DootKey.dec.redirects("update_")
+def calc_canon_tags(spec, state, _known, _update):
+    return { _update : known.canonical() }
+
+
+@DootKey.dec.types("from", hint={"type_":TagFile})
+@DootKey.dec.redirects("update_")
 def write_tag_set(spec, state, _from, _update):
     tag_str = str(_from)
     return { _update : tag_str}
 
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.redirects("update_")
 def write_name_set(spec, state, _update):
     result     = BM.NameWriter.names_to_str()
     return { _update : result }
 
-@DootKey.kwrap.types("from", hint={"type_":list|set})
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.types("from", hint={"type_":list|set})
+@DootKey.dec.redirects("update_")
 def merge_tagfiles(spec, state, _tagfiles, _update):
     merged = TagFile()
     for tf in _tagfiles:
@@ -86,8 +92,8 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
 
     return { _update : merged }
 
-@DootKey.kwrap.types("from", hint={"type_":list|set})
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.types("from", hint={"type_":list|set})
+@DootKey.dec.redirects("update_")
 def merge_subfiles(spec, state, _from, _update):
     merged = SubstitutionFile()
     for tf in _from:
@@ -95,7 +101,7 @@ def merge_subfiles(spec, state, _from, _update):
 
     return { _update : merged }
 
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.redirects("update_")
 def tags_from_middleware_to_state(spec, state, _update):
     """ Get the TagFile of tags read from the current lib, and insert it into state """
 
