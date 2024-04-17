@@ -18,12 +18,16 @@ recursive            = false                                 # <bool>
 print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
 accept_fn            = "taskcode.stubber:not_copied"
+cleanup         = [
+    {do="post.get", stubs="stub::files.-"},
+    {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
+    {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
+]
 actions              = [
         {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
         {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"}, # queue
-        {do="job.queue.head", base_="head_actions"},
 ]
 sub_actions          = [
                      {do="exists?", args=["{dest}"]},
@@ -31,14 +35,6 @@ sub_actions          = [
                      {do="taskcode.stubber:gen_stub", update_="stubtext", to="{todo_pdfs}/{fname}"},
                      {do="post.put", args=["{stubtext}"]},
                      {do="delete!", args=["{fpath}"]},
-]
-head_actions         = [
-                     {do="post.get", stubs="stub::files.-"},
-                     {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
-                     {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
-]
-fail_actions = [
-             # TODO
 ]
 
 [[tasks.stub]]
@@ -53,7 +49,6 @@ actions     = [
             {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
             {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
             {do="job.queue", from_="tasks"}, # queue
-            {do="job.queue.head"},
 ]
 sub_actions = [
             {do="delete!", args=["{fpath}"]}

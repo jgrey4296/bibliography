@@ -16,7 +16,6 @@ actions     = [
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}},
         {do="job.match",  onto_="tasks", mapping_="match_map"},
         {do="job.queue",  from_="tasks"}, # queue
-        {do="job.queue.head", base="summary::_fin"}
 ]
 
 [[tasks.summary]]
@@ -26,10 +25,5 @@ actions = []
 
 [[tasks.summary]]
 name    = "_bookmarks"
-doc     = ["TODO"]
-actions = []
-
-[[tasks.summary]]
-name    = "_fin"
 doc     = ["TODO"]
 actions = []

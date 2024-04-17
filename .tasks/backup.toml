@@ -18,19 +18,21 @@ exts                       = []                                  # <list[str]>
 recursive                  = true                                # <bool>
 roots                      = ["{pdf_source}"]                    # <list[str|pl.Path]>  Places the globber will start
 shadow_root                = "{pdf_bkup}"
+cleanup  = [
+    {do="doot.actions.postbox:SummarizePostAction", full=false}
+]
 actions = [
-        {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
-        {do="job.inject.path.elements", onto_="tasks",  key_="fpath"},
-        {do="job.inject.shadow", onto_="tasks", key_="rpath"},
-        {do="job.queue", from_="tasks"}, # queue
-        {do="job.queue.head", base_="head_actions"},
+    {do="job.walk", update_="files"}, # walk,
+    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+    {do="job.inject.path.elements", onto_="tasks",  key_="fpath"},
+    {do="job.inject.shadow", onto_="tasks", key_="rpath"},
+    {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions                = [
-                     {do="dir!", args=["{shadow_path}"] },
-                     {do="backup!", from_="fpath", to="{shadow_path}/{fname}"}
+    {do="log", msg="Backing up: {fpath}"},
+    {do="dir!", args=["{shadow_path}"] },
+    {do="backup!", from_="fpath", to="{shadow_path}/{fname}"}
 ]
-head_actions               = [{do="doot.actions.postbox:SummarizePostAction", full=false}]
 
 
 [[tasks.backup]]
@@ -43,8 +45,9 @@ print_levels       = { head="INFO", build="WARNING", execute="WARNING", sleep="W
 roots              = ["{pdf_source}", "{bib}"]
 shadow_root        = "{pdf_bkup}"
 depends_on         = [
-    { do="ext?", ext=".bib" },
-    { do="doot.actions.control_flow:SkipUnlessRelativeTo", unless_roots_="roots"},
+    {do="log", msg="running test for backup"},
+    { do="ext?",      args=["{fpath}"], exts=[".bib"] },
+    { do="relative?", args=["{fpath}"], base_="roots" },
 ]
 setup              = [
     { do="path.elements", from_="fpath"},
@@ -62,9 +65,10 @@ actions            = [
     { do="job.inject.shadow", onto_="tasks", key_="rpath"},
 
     { do="job.queue", from_="tasks" },
-    { do="job.queue.head" }
 ]
 sub_actions     = [
-    {do="dir!", args=["{shadow_path}"] },
-    {do="backup!", from_="fpath", to="{shadow_path}/{fname}"}
+    {do="relative?", args=["{fpath}"], base_="roots"},
+    {do="log", msg="Backing up: {fpath}"},
+    {do="dir!",      args=["{shadow_path}"] },
+    {do="backup!",   from_="fpath", to="{shadow_path}/{fname}"},
 ]

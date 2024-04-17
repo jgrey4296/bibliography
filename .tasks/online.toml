@@ -12,7 +12,7 @@ print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNIN
 fpath            = "{online_todo}"
 depends_on       = [
     { do="dir!", args=["{online_saves}"]},
-    { do="ext?", ext=".bib" },
+    { do="ext?", args=["{fpath}"], exts=[".bib"] },
 ]
 cleanup          = [
     { do="taskcode.online:shutdown_firefox" },

@@ -31,10 +31,9 @@ actions          = [
     {do="job.walk", update_="walked"},
     {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
     {do="job.queue",       from_="tasks"},
-    {do="job.queue.head"},
 ]
 sub_actions = [
-    { do="ext?", ext=".bib" },
+    { do="ext?", args=["{fpath}"], exts=[".bib"] },
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},

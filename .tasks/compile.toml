@@ -32,7 +32,6 @@ actions = [
         {do="job.walk", update_="files"}, # walk
         {do="job.expand", key_="fpath", base_="sub_actions", update_="tasks"},
         {do="job.queue", from_="tasks"}, # queue
-        {do="job.queue.head"},
 ]
 sub_actions          = [
                      # Load template
@@ -55,7 +54,6 @@ actions = [
         {do="job.walk", update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
-        {do="job.queue.head"},
 ]
 sub_actions          = [
                      # Run bibtex1html
@@ -73,7 +71,6 @@ actions = [
         {do="job.walk", update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]},base_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
-        {do="job.queue.head"},
 ]
 sub_actions          = [
                      # if pdf exists in temp for bib, silent
