@@ -91,8 +91,8 @@ class ApplyMetadata:
                 case x if x.suffix == ".pdf":
                     self._backup_original_metadata(_backup, x)
                     self._update_pdf_by_exiftool(x, entry)
-                    self._pdf_validate(x)
-                    self._pdf_finalize(x)
+                    if self._pdf_validate(x):
+                        self._pdf_finalize(x)
                 case x if x.suffix == ".epub":
                     self._backup_original_metadata(_backup, x)
                     self._update_epub_by_calibre(x, entry)
@@ -200,8 +200,12 @@ class ApplyMetadata:
     def _pdf_validate(self, path) -> bool:
         # code 0 for fine,
         # writes to stderr for issues
-        qpdf("--check", str(path))
-        return True
+        try:
+            qpdf("--check", str(path))
+            return True
+        except sh.ErrorReturnCode:
+            printer.warning("PDF Failed Validation: %s", path)
+            return False
 
     def _pdf_finalize(self, path):
         """ run qpdf --linearize,
@@ -212,15 +216,19 @@ class ApplyMetadata:
         copied   = path.with_stem(path.stem + "_cp")
         backup   = path.with_suffix(".pdf_original")
         if copied.exists():
-            raise doot.errors.DootActionError("the temp copy for linearization shouldn't already exist", original)
+            raise doot.errors.DootActionError("The temp copy for linearization shouldn't already exist", original)
 
         path.rename(copied)
 
-        qpdf(str(copied), "--linearize", original)
-
-        if backup.exists():
-            backup.unlink()
-        copied.unlink()
+        try:
+            qpdf(str(copied), "--linearize", original)
+        except sh.ErrorReturnCode:
+            printer.warning("Linearization Failed for: %s", original)
+            copied.rename(original)
+        else:
+            if backup.exists():
+                backup.unlink()
+            copied.unlink()
 
     def _backup_original_metadata(self, archive, path):
         result = json.loads(exiftool("-J", str(path)))[0]
@@ -228,7 +236,12 @@ class ApplyMetadata:
             f.write(result)
 
     def _metadata_matches_entry(self, path, entry) -> bool:
-        result = json.loads(exiftool("-J", str(path)))[0]
+        try:
+            result = json.loads(exiftool("-J", str(path)))[0]
+        except sh.ErrorReturnCode:
+            printer.warning("Couldn't load json metadata: %s", path)
+            return False
+
         if 'Bibtex' not in result and 'Description' not in result:
             return False
 
