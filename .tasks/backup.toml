@@ -47,7 +47,7 @@ shadow_root        = "{pdf_bkup}"
 depends_on         = [
     {do="log", msg="running test for backup"},
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },
-    { do="relative?", args=["{fpath}"], base_="roots" },
+    { do="relative?", args=["{fpath}"], bases_="roots" },
 ]
 setup              = [
     { do="path.elements", from_="fpath"},
@@ -67,7 +67,7 @@ actions            = [
     { do="job.queue", from_="tasks" },
 ]
 sub_actions     = [
-    {do="relative?", args=["{fpath}"], base_="roots"},
+    {do="relative?", args=["{fpath}"], bases_="roots"},
     {do="log", msg="Backing up: {fpath}"},
     {do="dir!",      args=["{shadow_path}"] },
     {do="backup!",   from_="fpath", to="{shadow_path}/{fname}"},

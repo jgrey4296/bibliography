@@ -53,7 +53,7 @@ actions          = [
         { do="post.put", tags="tags" },
 
         # Latex Export
-        { do="relative?", args=["{fpath}"], base_="export_bases" },
+        { do="relative?", args=["{fpath}"], bases_="export_bases" },
         { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
 ]
