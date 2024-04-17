@@ -89,13 +89,21 @@ class ApplyMetadata:
                 case x if self._metadata_matches_entry(x, entry):
                     printer.warning("No Metadata Update Necessary: %s", x)
                 case x if x.suffix == ".pdf":
-                    self._backup_original_metadata(_backup, x)
-                    self._update_pdf_by_exiftool(x, entry)
-                    if self._pdf_validate(x):
+                    try:
+                        self._backup_original_metadata(_backup, x)
+                        self._update_pdf_by_exiftool(x, entry)
+                        self._pdf_validate(x)
                         self._pdf_finalize(x)
+                    except doot.actions.DootActionError as err:
+                        printer.warning("Pdf Update Failed: %s : %s", x, err)
+                        continue
                 case x if x.suffix == ".epub":
-                    self._backup_original_metadata(_backup, x)
-                    self._update_epub_by_calibre(x, entry)
+                    try:
+                        self._backup_original_metadata(_backup, x)
+                        self._update_epub_by_calibre(x, entry)
+                    except doot.actions.DootActionError as err:
+                        printer.warning("Epub Update failed: %s : %s", x, err)
+                        continue
                 case x:
                     printer.warning("Found a file that wasn't an epub or pdf: %s", x)
 
@@ -151,7 +159,11 @@ class ApplyMetadata:
 
         logging.debug("Pdf update args: %s : %s", path, args)
         # Call
-        exiftool(*args, str(path))
+        try:
+            exiftool(*args, str(path))
+        except sh.ErrorCode:
+            raise doot.errors.DootActionError("Exiftool update failed")
+
 
     def _update_epub_by_calibre(self, path, entry):
         fields = entry.fields_dict
@@ -185,7 +197,12 @@ class ApplyMetadata:
         args += ['--comments={}'.format(entry.raw)]
 
         logging.debug("Ebook update args: %s : %s", path, args)
-        calibre(str(path), *args)
+        try:
+            calibre(str(path), *args)
+        except sh.ErrorReturnCode:
+            raise doot.errors.DootActionError("Calibre Update Failed")
+
+
 
     def _pdf_is_modifiable(self, path) -> bool:
         """ Test the pdf for encryption or password locking """
@@ -197,15 +214,14 @@ class ApplyMetadata:
 
         return True
 
-    def _pdf_validate(self, path) -> bool:
+    def _pdf_validate(self, path):
         # code 0 for fine,
         # writes to stderr for issues
         try:
             qpdf("--check", str(path))
-            return True
         except sh.ErrorReturnCode:
-            printer.warning("PDF Failed Validation: %s", path)
-            return False
+            raise doot.errors.DootActionError("PDF Failed Validation")
+
 
     def _pdf_finalize(self, path):
         """ run qpdf --linearize,
@@ -223,15 +239,19 @@ class ApplyMetadata:
         try:
             qpdf(str(copied), "--linearize", original)
         except sh.ErrorReturnCode:
-            printer.warning("Linearization Failed for: %s", original)
             copied.rename(original)
+            raise doot.errors.DootActionError("Linearization Failed")
         else:
             if backup.exists():
                 backup.unlink()
             copied.unlink()
 
     def _backup_original_metadata(self, archive, path):
-        result = json.loads(exiftool("-J", str(path)))[0]
+        try:
+            result = json.loads(exiftool("-J", str(path)))[0]
+        except sh.ErrorReturnCode:
+            raise doot.errors.DootActionError("Could't retrieve metadata as json")
+
         with jsonlines.open(archive, mode='a') as f:
             f.write(result)
 
@@ -239,8 +259,7 @@ class ApplyMetadata:
         try:
             result = json.loads(exiftool("-J", str(path)))[0]
         except sh.ErrorReturnCode:
-            printer.warning("Couldn't load json metadata: %s", path)
-            return False
+            raise doot.errors.DootActionError("Could't retrieve metadata as json")
 
         if 'Bibtex' not in result and 'Description' not in result:
             return False
