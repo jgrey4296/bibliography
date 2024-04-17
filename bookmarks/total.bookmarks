@@ -6972,6 +6972,7 @@ https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html : interpola
 https://docs.scrapy.org/en/latest/ : documentation : python : scrapy
 https://docs.sentry.io/platforms/python/?original_referrer=https%3A%2F%2Fsentry.io%2F : error_messages : sentry : software_engineering
 https://docs.soliditylang.org/en/latest/index.html : __come_back_to : programming : smart_contract : solidity
+https://docs.soliditylang.org/en/v0.8.25/ : blockchain : etherium : programming : smart_contracts : solidity
 https://docs.sqlalchemy.org/en/20/intro.html : python : sqlalchemy
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/ : __come_back_to : documentation : protocol : swift
 https://docs.sympy.org/latest/contributing/deprecations.html#deprecation-policy : depcrecation : deprecation_policy : python : sympy
@@ -8026,6 +8027,7 @@ https://github.com/elsewhencode/project-guidelines : __important : best_practice
 https://github.com/emacs-evil/evil : emacs : evil : github
 https://github.com/emacs-helm/helm : emacs : github : help : libraries
 https://github.com/emacs-magus/once : configuration : emacs : lisp
+https://github.com/emacs-mirror/emacs : emacs : github : gnu : source
 https://github.com/emacs-tw/awesome-emacs : emacs : github : libraries : lisp
 https://github.com/emacsmirror/font-lock-plus : emacs : font_lock : github : lisp
 https://github.com/emacsorphanage/osx-trash : OSX : emacs : github : trash
@@ -8649,6 +8651,7 @@ https://howwegettonext.com/its-time-for-a-new-kind-of-power-fantasy-a5ff23b2237f
 https://howwegettonext.com/never-go-to-space-its-terrible-omg-35e0ffa4d2fc?gi=1c43d8ce2ffb#.qki6cvh4y : leigh_alexander : space_travel
 https://howwegettonext.com/silicon-valley-thinks-everyone-feels-the-same-six-emotions-38354a0ef3d7 : ai : autism : emotion : how_we_get_to_next : machine_learning : neuro_typical : rich_firth_godbehere : silicon_valley
 https://howwegettonext.com/what-our-tech-ethics-crisis-says-about-the-state-of-computer-science-education-a6a5544e1da6?gi=cd7115e1ac41 : casey_fiesler : ethics : how_we_get_to_next : industry : tech_ethics
+https://hri.global/ : drug_war : harm_reduction_international : research
 https://hsivonen.fi/producing-xml/ : XML : blog : reference : tutorial
 https://htdp.org/2023-8-14/Book/index.html : __come_back_to : how_to_design_programs : krishnamurthi
 https://htmlcheatsheet.com/ : html : reference
@@ -8905,6 +8908,7 @@ https://jason.sourceforge.net/api/ : MAS : api : documentation : jason : java
 https://javarevisited.blogspot.nl/2014/05/10-articles-every-programmer-must-read.html : java : paper : programming : recommendation : software_development
 https://javascript.info/ : best_practices : javascript : tutorial
 https://jayhulme.com/blog/transmen : blog : jay_hulme : trans_men : trans_phobia
+https://jazzpunk.bandcamp.com/album/jazzpunk-original-soundtrack : jazzpunk : music : soundtrack
 https://jeb.substack.com/p/dunks-without-end : USA : bernie_sanders : politics : presidential_election
 https://jedi.readthedocs.io/en/latest/docs/usage.html : jedi : python
 https://jeffhuang.com/designed_to_last/ : web_design
@@ -11949,6 +11953,7 @@ https://www.gnu.org/software/emacs/manual/html_node/elisp/Building-Emacs.html : 
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Key-Binding-Conventions.html : convention : emacs : keybinding
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Regexp-Special.html#Regexp-Special : emacs : reference : regexp
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips.html : best_practices : emacs : lisp
+https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html : emacs : gnu : lisp : manul
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Change-Window.html#Change-Window : emacs : gnu
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Major-Modes.html : emacs : gnu
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html#Version-Control : emacs : gnu
@@ -12178,6 +12183,8 @@ https://www.jair.org/index.php/jair/issue/view/1159 : academia : journal : journ
 https://www.jcwi.org.uk/right-to-rent : UK : immigration : politics : racism : right_to_rent : welfare
 https://www.jefftk.com/p/you-dont-always-need-indexes : __come_back_to : database
 https://www.jellykey.com/artisan-keycap/artifact-series-forbidden-realm-keycap : art : beauty : keyboards
+https://www.jendrikillner.com/article_database/ : graphics : programming : shaders
+https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/ : blog : graphics : programming
 https://www.jenkins.io/ : jenkins
 https://www.jenkins.io/doc/ : jenkins
 https://www.jetbrains.com/help/decompiler/dotPeek_Getting_Started.html : debugging : disassembly : dotnet : dotpeek
@@ -12857,6 +12864,7 @@ https://www.plannedparenthood.org/learn/sexual-orientation-gender/gender-gender-
 https://www.playnightingale.com/post/realm-cards-endless-adventures-across-the-fae-realms : RPG : game_design : nightinggale
 https://www.ploggingdev.com/2017/01/multiprocessing-and-multithreading-in-python-3/ : multi_processing : multi_threading : programming : python : thread : tutorial
 https://www.pluralsight.com/blog/tutorials/how-to-create-your-first-character-rig-in-blender-part-1 : blender : bones : rigging : tutorial
+https://www.pm.gc.ca/en/news/statements/2024/04/13/statement-prime-minister-attack-iranian-regime-against-israel : iran : israel : justin_trudeau : politics
 https://www.pnas.org/content/116/6/2158 : genetics : paywall : research
 https://www.policescorecard.org/about : metrics : police_scorecard : police_violence
 https://www.politicalcompass.org/ : measurement : politics : quiz
