@@ -130,7 +130,10 @@ class ApplyMetadata:
         if 'subtitle' in fields:
             title += ": {}".format(fields['subtitle'].value)
         args += ['-title={}'.format(title)]
-        args += ['-author={}'.format(fields['author'].value)]
+        if 'author' in fields:
+            args += ['-author={}'.format(fields['author'].value)]
+        elif 'editor' in fields:
+            args += ['-author={}'.format(fields['editor'].value)]
         args += ['-Keywords={}'.format(",".join(fields['tags'].value))]
 
         if 'edition' in fields:
@@ -158,7 +161,11 @@ class ApplyMetadata:
         if 'subtitle' in fields:
             title += ": {}".format(fields['subtitle'].value)
         args += ['--title={}'.format(title)]
-        args += ['--authors={}'.format(fields['author'].value)]
+        if 'author' in fields:
+            args += ['--authors={}'.format(fields['author'].value)]
+        elif 'editor' in fields:
+            args += ['--authors={}'.format(fields['editor'].value)]
+
         if 'publisher' in fields:
             args += ["--publisher={}".format(fields['publisher'].value)]
         if 'series' in fields:
