@@ -77,7 +77,7 @@ class ApplyMetadata:
         pass
 
     @DootKey.kwrap.types("from", hint={"type_":BTP.Library})
-    @DootKey.kwrap.paths("meta_backup")
+    @DootKey.kwrap.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
         for entry in _lib.entries:
             printer.warning("Processing: %s", entry.key)
@@ -142,7 +142,7 @@ class ApplyMetadata:
         if 'doi' in fields:
             args += ['-xmp-prism:DOI={}'.format(fields['doi'].value)]
         if 'institution' in fields:
-            args += ['-xmp-prism:organization=[}'.format(fields['institution'].value)]
+            args += ['-xmp-prism:organization={}'.format(fields['institution'].value)]
         if 'issn' in fields:
             args += ['-xmp-prism:issn={}'.format(fields['issn'].value)]
 

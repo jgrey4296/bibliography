@@ -48,5 +48,5 @@ actions          = [
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Apply
     # TODO make this queue tasks instead
-    { do="taskcode.metadata:ApplyMetadata", from_="bib_db", meta_backup="{meta_backup}"},
+    { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
 ]
