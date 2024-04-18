@@ -217,6 +217,8 @@ class ApplyMetadata:
     def _pdf_validate(self, path):
         # code 0 for fine,
         # writes to stderr for issues
+
+        # TODO also use pdfinto
         try:
             qpdf("--check", str(path))
         except sh.ErrorReturnCode:

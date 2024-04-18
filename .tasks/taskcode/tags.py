@@ -39,7 +39,8 @@ logging = logmod.getLogger(__name__)
 import doot
 import doot.errors
 from doot.structs import DootKey
-from dootle.tags.structs import TagFile, SubstitutionFile
+from jgdv.files.tags.base import TagFile
+from jgdv.files.tags.substitutions import SubstitutionFile
 from bib_middleware import TagsReader
 
 UPDATE_KEY = DootKey.build("update_")
