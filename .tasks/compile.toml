@@ -30,7 +30,7 @@ exts                 = [".bib"]
 roots                = ["{bib_export}"]
 actions = [
         {do="job.walk", update_="files"}, # walk
-        {do="job.expand", key_="fpath", base_="sub_actions", update_="tasks"},
+        {do="job.expand", key_="fpath", template_="sub_actions", update_="tasks"},
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions          = [
@@ -52,7 +52,7 @@ exts                 = [".bib"]                                        # <list[s
 roots                = ["{bib_export}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions          = [
@@ -69,7 +69,7 @@ exts                 = [".bib"]                                 # <list[str]>
 roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]},base_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions          = [

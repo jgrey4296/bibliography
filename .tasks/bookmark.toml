@@ -52,7 +52,7 @@ depends_on           = ["file:>{bookmarks}"]                   # <list[DootTaskA
 required_for         = ["file:>{temp}/tags/bkmk.tags"]
 actions              = [
    { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
-   { do="post.put", args=["total_bkmks"] },
+   { do="post.put", args=["{total_bkmks}"] },
    # Write extracted tags:
    { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
    { do="write!", from_="tags", to="{temp}/tags/bkmks.tags" },

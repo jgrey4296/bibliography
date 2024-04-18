@@ -23,7 +23,7 @@ cleanup  = [
 ]
 actions = [
     {do="job.walk", update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
     {do="job.inject.path.elements", onto_="tasks",  key_="fpath"},
     {do="job.inject.shadow", onto_="tasks", key_="rpath"},
     {do="job.queue", from_="tasks"}, # queue
@@ -60,7 +60,7 @@ actions            = [
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     { do="taskcode.backup:get_files", from_="bib_db", update_="files" },
     # Queue
-    { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+    { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
     { do="job.inject.path.elements",   onto_="tasks",  key_="fpath" },
     { do="job.inject.shadow", onto_="tasks", key_="rpath"},
 

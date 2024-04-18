@@ -33,12 +33,12 @@ cleanup = [
 ]
 actions                  = [
     {do="job.walk", update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
     {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions              = [
     { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", allsubs=["subs"] },
+    { do="post.put", allsubs=["{subs}"] },
 ]
 
 [[tasks.tags]]
@@ -71,7 +71,7 @@ setup            = [
 ]
 actions          = [
     { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
-    { do="post.put", tags="tags" },
+    { do="post.put", tags=["{tags}"] },
 ]                                                                                                                         # <str>
 
 [[tasks.tags]]

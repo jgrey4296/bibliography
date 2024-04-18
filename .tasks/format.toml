@@ -50,7 +50,7 @@ actions          = [
         { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
         # Extract tags and add to postbox:
         { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
-        { do="post.put", tags="tags" },
+        { do="post.put", tags=["{tags}"] },
 
         # Latex Export
         { do="relative?", args=["{fpath}"], bases_="export_bases" },

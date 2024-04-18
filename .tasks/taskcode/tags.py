@@ -68,8 +68,8 @@ def calc_new_tags(spec, state, _total, _known, _update):
 @DootKey.dec.types("known", hint={"type_":SubstitutionFile})
 @DootKey.dec.redirects("update_")
 def calc_canon_tags(spec, state, _known, _update):
-    return { _update : known.canonical() }
-
+    canonical = _known.canonical()
+    return { _update : canonical }
 
 @DootKey.dec.types("from", hint={"type_":TagFile})
 @DootKey.dec.redirects("update_")

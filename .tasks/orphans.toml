@@ -29,7 +29,7 @@ exts             = [".bib"]
 actions          = [
     {do="delete!", args=["{orphans}/bib.files"]},
     {do="job.walk", update_="walked"},
-    {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+    {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
     {do="job.queue",       from_="tasks"},
 ]
 sub_actions = [
