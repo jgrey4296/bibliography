@@ -1,0 +1,51 @@
+## metadata.toml -*- mode: conf-toml -*-
+
+[[locations]]
+meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
+
+[[tasks.meta]]
+name             = "update"
+doc              = ["Update the metadata for each file in the library"]
+ctor             = "job"
+version          = "0.1"
+print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
+roots            = ["{target}"]
+exts             = [".bib"]
+recursive        = false
+select_limit     = 10
+actions          = [
+        # walk
+        {do="job.walk", update_="walked"},
+        # expand
+        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="meta::_.by.year"},
+        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
+        # queue
+        {do="job.queue",       from_="tasks"},
+]
+
+[[tasks.meta]]
+name             = "_by.year"
+doc              = ["update the file metadata for all entries in a single bib file"]
+version          = "0.1"
+ctor             = "task"
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+print_levels     = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
+roots            = ["{pdf_source}", "{bib}"]
+depends_on       = [
+    { do="ext?",      args=["{fpath}"], exts=[".bib"] },
+    { do="relative?", args=["{fpath}"], bases_="roots"},
+]
+setup            = [
+    { do="path.elements", from_="fpath" },
+    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
+]
+actions          = [
+    { do="log", msg="Metadata by year: {fpath}", level="WARN"},
+    # Read
+    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    # Apply
+    # TODO make this queue tasks instead
+    { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
+]

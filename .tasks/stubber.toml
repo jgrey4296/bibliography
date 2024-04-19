@@ -1,11 +1,13 @@
+## stubber.toml -*- mode: conf-toml -*-
+
 [[locations]]
 todo_bib   = "~/github/bibliography/in_progress/todo.bib"
 dropbox    = "~/Dropbox/docs"
 downloads  = "~/Downloads"
 todo_pdfs  = "/media/john/data/todo/pdfs"
 
-[[tasks.bib]]
-name                 = "stubber"
+[[tasks.stub]]
+name                 = "files"
 version              = "0.1"                                 # <str>
 doc                  = ["Move pdfs and epubs into working directory, create stub entry for each one"]
 ctor                 = "job"                                # <str>
@@ -16,13 +18,16 @@ recursive            = false                                 # <bool>
 print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
 accept_fn            = "taskcode.stubber:not_copied"
+cleanup         = [
+    {do="post.get", stubs="stub::files.-"},
+    {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
+    {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
+]
 actions              = [
         {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
-        {do="job.inject.path", onto_="tasks", key_="fpath"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+        {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"}, # queue
-        {do="job.queue.head", base_="head_actions"},
-        # {do="break!"},
 ]
 sub_actions          = [
                      {do="exists?", args=["{dest}"]},
@@ -31,16 +36,8 @@ sub_actions          = [
                      {do="post.put", args=["{stubtext}"]},
                      {do="delete!", args=["{fpath}"]},
 ]
-head_actions         = [
-                     {do="post.get", stubs="bib::stubber.-"},
-                     {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
-                     {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
-]
-fail_actions = [
-             # TODO
-]
 
-[[tasks.bib]]
+[[tasks.stub]]
 name        = "cleanup"
 version     = "0.1"
 doc         = ["Cleanup refiled pdfs and epubs"]
@@ -50,9 +47,8 @@ roots       = ["{todo_pdfs}"]
 recursive   = false
 actions     = [
             {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
-            {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, base_="sub_actions"},
+            {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
             {do="job.queue", from_="tasks"}, # queue
-            {do="job.queue.head"},
 ]
 sub_actions = [
             {do="delete!", args=["{fpath}"]}

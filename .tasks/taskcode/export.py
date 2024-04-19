@@ -29,15 +29,14 @@ from uuid import UUID, uuid1
 ##-- end builtin imports
 
 ##-- lib imports
-import more_itertools as mitz
+# import more_itertools as mitz
+# from boltons import
 ##-- end lib imports
 
 ##-- logging
 logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 ##-- end logging
-
-from random import choice, choices
 
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
@@ -47,33 +46,14 @@ import doot.errors
 from doot.structs import DootKey
 import bib_middleware as BM
 
-MYBIB                              = "#my_bibtex"
-MAX_TAGS                           = 7
-
 @DootKey.kwrap.paths("lib-root")
 @DootKey.kwrap.redirects("update_")
-def build_working_parse_stack(spec, state, _libroot, _update):
-    """ read and clean the file's entries, without handling latex encoding """
-    read_mids = [
-        BM.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(),
-        ms.RemoveEnclosingMiddleware(),
-        BM.PathReader(lib_root=_libroot),
-        BM.IsbnValidator(),
-        BM.TagsReader(),
-        ms.SeparateCoAuthors(),
-        BM.NameReader(),
-        BM.TitleReader()
-    ]
-    return { _update : read_mids }
-
-@DootKey.kwrap.paths("lib-root")
-@DootKey.kwrap.redirects("update_")
-def build_working_write_stack(spec, state, _libroot, _update):
-    """ Doesn't encode into latex """
+def build_export_write_stack(spec,state, _libroot, _update):
+    """ encodes into latex for compilation """
     write_mids = [
         BM.NameWriter(),
-        ms.MergeCoAuthors(allow_inplace_modification=False),
+        ms.MergeCoAuthors(),
+        BM.LatexWriter(keep_math=True, enclose_urls=False),
         BM.IsbnWriter(),
         BM.TagsWriter(),
         BM.PathWriter(lib_root=_libroot),

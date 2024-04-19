@@ -1,7 +1,7 @@
-
+## precommit.toml -*- mode: conf-toml -*-
 
 [[locations]]
-changed_file = "{temp}/.changed"
+changed_file = {loc="{temp}/.changed", file=true}
 
 [[tasks.precommit]]
 name     = "validate"
@@ -16,26 +16,21 @@ actions  = [
 
 [[tasks.precommit]]
 name          = "top"
+doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
+print_levels  = { head="INFO", build="WARN", action="WARN", sleep="WARN", execute="WARN" }
+depends_on    = ["bookmark::update"]
+cleanup       = [
+   {do="log", msg="Finished"}
+   # todo clear changed file
+]
 actions       = [
-            # todo append changed file list to {changed_file}
-            {do="job.expand", from_="files", update_="format_tasks", inject={replace=["fpath"]}, base="format::_individual"},
-            {do="job.expand", from_="files", update_="tag_tasks",    inject={replace=["fpath"]}, base="tags::_extract.bib"},
-            # todo {do="job.expand", from_="files", update_="tag_tasks", inject={replace=["fpath"]}, base="summary::top"},
-            {do="job.queue", from_multi_=["format_tasks", "tag_tasks"]}, # queue
-            {do="job.queue.head", base_="head_actions"}, # head actions clear changed file
-            # alt head: {do="job.queue.head", base="precommit::simple"},
-]
-head_actions = [
-             {do="log", msg="Finished"}
-             # todo clear changed file
-]
-
-[[tasks.precommit]]
-name            = "simple"
-ctor            = "task"
-actions         = [
-             {do="log", msg="Finished"}
-             # todo clear changed filej
+            # TODO append changed file list to {changed_file}
+            {do="log", msg="Formatting/Meta/Backup for : {files}"},
+            {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_by.year"},
+            # TODO move these to a postcommit hook
+            # {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, template="meta::_by.year"},
+            # {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, template="backup::_by.year"},
+            {do="job.queue", from_multi_=["format_tasks", "meta_tasks", "backup_tasks"]},
 ]

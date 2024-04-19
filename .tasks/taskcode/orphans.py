@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 See EOF for license/metadata/notes as applicable
 """
 
@@ -30,36 +29,39 @@ from uuid import UUID, uuid1
 ##-- end builtin imports
 
 ##-- lib imports
-import more_itertools as mitz
+# import more_itertools as mitz
+# from boltons import
 ##-- end lib imports
 
 ##-- logging
 logging = logmod.getLogger(__name__)
+printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
 import doot
 import doot.errors
 from doot.structs import DootKey
-from doot.enums import ActionResponseEnum
-from jgdv.files.tags.base import TagFile
-from jgdv.files.bookmarks.collection import BookmarkCollection
 
-TODAY                       = datetime.datetime.now().date()
-
-@DootKey.kwrap.types("from", hint={"type_":BookmarkCollection})
+@DootKey.kwrap.types("bib_db")
 @DootKey.kwrap.redirects("update_")
-def collect_tags(spec, state, _db, _update):
-    """ merge tags of bookmarks together """
-    tags           = TagFile()
+def get_db_files(spec, state, _db, _update):
+    """ get all files mentioned in the bibtex database """
+    filelist = set()
+    for entry in _db.entries:
+        fields = entry.fields_dict
+        filelist.update({v.value for k,v in fields.items() if "file" in x})
 
-    for bkmk in _db:
-        tags.update(bkmk.tags)
+    return { _update : filelist }
 
-    return { _update : str(tags) }
 
-@DootKey.kwrap.paths("bookmarks")
-def recency_test(spec, state, bookmarks):
-    """ trigger task skip if the bookmarks file was modified today """
-    mod_date = datetime.datetime.fromtimestamp(bookmarks.stat().st_mtime).date()
-    if TODAY <= mod_date:
-        return ActionResponseEnum.SKIP
+@DootKey.kwrap.types("bib")
+@DootKey.kwrap.types("fs")
+def diff_filelists(spec, state, _bib, _fs):
+    """ diff the bibtex filelist against the filesystem filelist """
+    bib_set        : set[str] = set(_bib)
+    fs_set         : set[str] = set(_fs)
+    only_mentioned : set[str] = set()
+    only_exists    : set[str] = set()
+
+
+    { "only_mentioned"  :  only_mentioned, "only_exists" : only_exists }

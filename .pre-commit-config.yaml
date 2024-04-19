@@ -18,14 +18,6 @@ repos:
       verbose: true
       require_serial: true
       stages: [pre-commit]
-    - id: updateBookmarks
-      name: Update Bookmarks
-      description: Grab Bookmarks from Firefox
-      language: system
-      entry: mamba run "-n" "doot-dev" doot "bookmark::update"
-      verbose: true
-      require_serial: true
-      stages: [pre-commit]
     - id: validateMsg
       name: validate
       description: checks the commit msg has a tag at the start

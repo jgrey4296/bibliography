@@ -29,15 +29,13 @@ from uuid import UUID, uuid1
 ##-- end builtin imports
 
 ##-- lib imports
-import more_itertools as mitz
+# import more_itertools as mitz
+# from boltons import
 ##-- end lib imports
 
 ##-- logging
 logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
 ##-- end logging
-
-from random import choice, choices
 
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
@@ -47,36 +45,25 @@ import doot.errors
 from doot.structs import DootKey
 import bib_middleware as BM
 
-MYBIB                              = "#my_bibtex"
-MAX_TAGS                           = 7
 
 @DootKey.kwrap.paths("lib-root")
 @DootKey.kwrap.redirects("update_")
-def build_working_parse_stack(spec, state, _libroot, _update):
+def build_backup_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
         BM.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(),
-        ms.RemoveEnclosingMiddleware(),
+        ms.ResolveStringReferencesMiddleware(True),
+        ms.RemoveEnclosingMiddleware(True),
         BM.PathReader(lib_root=_libroot),
-        BM.IsbnValidator(),
-        BM.TagsReader(),
-        ms.SeparateCoAuthors(),
-        BM.NameReader(),
-        BM.TitleReader()
     ]
     return { _update : read_mids }
 
-@DootKey.kwrap.paths("lib-root")
+
+@DootKey.kwrap.types("from", hint={"type_":BTP.Library})
 @DootKey.kwrap.redirects("update_")
-def build_working_write_stack(spec, state, _libroot, _update):
-    """ Doesn't encode into latex """
-    write_mids = [
-        BM.NameWriter(),
-        ms.MergeCoAuthors(allow_inplace_modification=False),
-        BM.IsbnWriter(),
-        BM.TagsWriter(),
-        BM.PathWriter(lib_root=_libroot),
-        ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
-    ]
-    return { _update : write_mids }
+def get_files(spec, state, _lib, _update):
+    files = []
+    for entry in _lib.entries:
+        files += [x.value for x in entry.fields if "file" in x.key]
+
+    return { _update : files }

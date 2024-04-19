@@ -1681,6 +1681,8 @@ https://saxxie.dev
 *** comics
 https://redpenblackpen.jasonya.com
 *** games
+https://littlealchemy2.com/
+https://www.retrogames.cc/
 https://www.molleindustria.org
 *** tumblr
 https://gothicpunk.tumblr.com
@@ -1964,6 +1966,9 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://www.jendrikillner.com/article_database/ - graphics programming weekly
+https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/
+https://mgsvmoddingwiki.github.io/
 https://www.moddb.com/games/dawn-of-war-ii-retribution/addons/dow2-mod-tools
 https://docs.google.com/document/u/0/d/1T0C6u4Pua8wON1smf9XfFm7e0NQ4lmSGfQPO5JxRdVY/mobilebasic - dow2 modding guide
 https://www.nexusmods.com/dawnofwar2retribution/mods/42
@@ -2286,6 +2291,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/dhowe/adnauseam
 https://github.com/VCVRack/Rack
 https://ganelson.github.io/inform/index.html
 https://github.com/Shopify/liquid/wiki/liquid-for-designers
@@ -2466,6 +2472,7 @@ https://en.wikipedia.org/wiki/History_of_software_configuration_management
 https://en.wikipedia.org/wiki/Infrastructure_as_code
 https://en.wikipedia.org/wiki/Chain_of_trust
 https://en.wikipedia.org/wiki/Reproducible_builds
+https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
 ** Shopping
 https://www.thefreshfishshop.com
 https://thefishsociety.co.uk
@@ -2474,6 +2481,7 @@ https://britbuyer.co.uk
 ** Jobs
 https://jobs.co.uk/
 https://www.cv-library.co.uk/
+
 * Resources / Assets
 ** APIs
 https://archive.org/developers/index.html
@@ -2970,6 +2978,7 @@ https://tvtropes.org/pmwiki/pmwiki.php/Main/ImNotAfraidOfYou
 https://www.huffingtonpost.co.uk/entry/bonding-netflix-bdsm_uk_5cc6d485e4b0fd8e35bf1d62?ncid=other_twitter_cooo9wqtham&utm_campaign=share_twitter&guccounter=1
 https://www.teenvogue.com/story/bert-and-ernie-sesame-street-gay
 ** Universities and Academia
+https://openreview.net/
 https://opencitations.net/index/api/v1/
 https://osf.io/institutions
 https://journals.plos.org/plosone/browse/
@@ -2988,8 +2997,18 @@ https://www.cs.rochester.edu/research/cisd/resources/                           
 https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/                                :  University of Glasgow Digital Collections
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
+** researchers
+https://scholar.google.com/citations?hl=en&user=-czmBZcAAAAJ&view_op=list_works&sortby=pubdate - barbara czarniawska
 ** Web App
+https://fakeyou.com/text-to-image
+https://www.autodraw.com/
 https://q.uiver.app/  - diagrams, latex
+https://makemeacocktail.com/ - cocktails
+https://bodyvisualizer.com/ - bodies
+https://tailornova.com/ - clothes
+https://www.symbolab.com/ - math
+https://temp-mail.org/ - mail
+https://musclewiki.com/ - muscles
 ** Youtube channels
 http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
 http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
@@ -3712,6 +3731,7 @@ https://www.justice.gov
 https://www.uscourts.gov/about-federal-courts/court-role-and-structure
 https://www.uscourts.gov/statistics-reports/publications/federal-probation-journal
 https://openjurist.org/us-court/type/appeals-court
+https://www.azcourts.gov/opinions/SearchOpinionsMemoDecs.aspx
 **** Courts of Appeal
 https://www.ca1.uscourts.gov/
 https://www.ca2.uscourts.gov/
@@ -3762,6 +3782,7 @@ https://legiscan.com
 ** Wiki
 https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
 https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
 * Broken
 http://blog.webkid.io/datasets-for-machine-learning/
 http://kolesnikov.ga/Datasets_in_Python/
