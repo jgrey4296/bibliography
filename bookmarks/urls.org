@@ -1,47 +1,11 @@
 #+TITLE: Urls
 
-* Overview :toc:
-- [[#todos][todos]]
-  - [[#useful][useful]]
-  - [[#fresh][fresh]]
-  - [[#misc][misc]]
-  - [[#__come_back_to][__come_back_to]]
-  - [[#__important][__important]]
-- [[#main][Main]]
-  - [[#audio-visual][Audio Visual]]
-  - [[#blogs][Blogs]]
-  - [[#causal-inference][Causal Inference]]
-  - [[#economics][Economics]]
-  - [[#emacs][Emacs]]
-  - [[#game-dev][Game Dev]]
-  - [[#games][Games]]
-  - [[#github][Github]]
-  - [[#itchio][Itchio]]
-  - [[#machine-learning][Machine Learning]]
-  - [[#programming][Programming]]
-  - [[#reading-lists][Reading lists]]
-- [[#resources--assets][Resources / Assets]]
-  - [[#archive][Archive]]
-  - [[#cities][Cities]]
-  - [[#datasets][Datasets]]
-  - [[#fonts][Fonts]]
-  - [[#government][Government]]
-  - [[#image][Image]]
-  - [[#maps][Maps]]
-  - [[#museums-and-libraries][Museums and Libraries]]
-  - [[#people][People]]
-  - [[#reference][Reference]]
-  - [[#search][Search]]
-  - [[#sound][Sound]]
-  - [[#tv][Tv]]
-  - [[#universities-and-academia][Universities and Academia]]
-  - [[#youtube-channels][Youtube channels]]
-  - [[#youtube-playlists][Youtube playlists]]
-  - [[#youtube-videos][Youtube videos]]
-- [[#links][Links]]
-
 * todos
 ** useful
+https://convertlive.com/
+https://www.merriam-webster.com/grammar/how-to-use-and-understand-diacritics-diacritical-marks : grammar
+https://creativelawcenter.com/museums-open-access-images/
+https://docs.opentermsarchive.org/
 https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html#simple-smart-contract
 https://www.ledger-cli.org/index.html
 https://pandoc.org/
@@ -55,9 +19,8 @@ https://pandoc.org/
 [[https://socialmediacollective.org/reading-lists/critical-algorithm-studies/][critical algorithm studies]]
 [[https://www.jstor.org/stable/2392415?seq=1#page_scan_tab_contents][bureaucracy as praxis]]
 [[https://www.researchgate.net/profile/Alicia_Tang/publication/283028012_Norms_Decay_Framework_in_Open_Normative_Multi-agent_Systems/links/5626e37408aeabddac936268.pdf][norm decay]]
-** TODO fresh
-depressurizer/wiki/Guide
-http://boingboing.net/2014/06/05/how-wikipedia-can-become-a-no.html
+** fresh
+http://boingboing.net/2013/06/05/how-wikipedia-can-become-a-no.html
 http://code.google.com/p/googlecl/wiki/ExampleScripts#post
 http://code.google.com/p/googlecl/wiki/Manual
 http://code.google.com/p/soar/wiki/Downloads
@@ -174,30 +137,51 @@ https://gothicpunk.tumblr.com/archive?source=blog_view_login_wall
 https://htdp.org/2023-8-14/Book/index.html - how to design programs book
 https://hyperpolyglot.org/
 https://ifyoulived.org/wiki_email.txt
+https://imslp.org/wiki/Main_Page
 https://incubator.wikimedia.org/wiki/Wp/enm/Mayne_Page
 https://ioke.org/wiki/index.php/Guide
+https://ioke.org/wiki/index.php/Guide
 https://javieracordero.notion.site/Job-Application-Manager-fce5406854f0475aa21d5fcd9fa5e668
+https://letsplay.wikia.com/wiki/Let%27s_Play_Wiki
+https://lwjgl.org/wiki/index.php?title=Main_Page#Getting_started
 https://micronations.wiki/wiki/Ministry_of_Social_Engagement_and_Joy
+https://mtg.wikia.com/wiki/Protection
 https://musclewiki.org/
+https://mywiki.wooledge.org/BashFAQ
 https://natlib.govt.nz/about-us/open-data/papers-past-metadata/papers-past-newspaper-open-data-pilot
 https://networkcultures.org/publications/#tod
 https://neverworkintheory.org/ - theory
 https://notimetoplay.org/cgi-bin/wiki/Gamebooks_and_grammars
+https://opende.sourceforge.net/wiki/index.php/Main_Page
 https://ovipets.fandom.com/wiki/Category:Species
 https://rifts.fandom.com/wiki/O.C.C.s
 https://rmzoo.math.uconn.edu/ - math
+https://saintsrow.wikia.com/Gang_Customization
 https://scihub.wikicn.top/10.1177/0010414019852687
+https://sepans.com/wikistalker/#
+https://simspark.sourceforge.net/wiki/index.php/Agents
 https://sites.math.washington.edu/~billey/talks/theorem.finder.html - math
+https://slick.ninjacave.com/wiki/index.php?title=Main_Page
 https://snk.fandom.com/wiki/Faselei
+https://snowleopard.wikidot.com/
+https://soar/wiki/Downloads
+https://ssloy/tinyrenderer/wiki
 https://stacks.math.columbia.edu/browse - math
 https://starwars.fandom.com/wiki/Book_of_Sith:_Secrets_from_the_Dark_Side
 https://starwars.fandom.com/wiki/Quarren
 https://support.terra.bio/hc/en-us/articles/360037117492-Overview-Getting-started-with-WDL - tutorial
 https://sv.m.wikipedia.org/wiki/Svampen,_Örebro
 https://sv.wikipedia.org/wiki/Njalla#/media/Fil:Sami_Storehouse.jpg
+https://swiki.hfbk-hamburg.de:8888/MusicTechnology/848
+https://theantlrguy.atlassian.net/wiki/display/ANTLR4/JavaScript+Target
 https://thegrayzone.com/2020/06/10/wikipedia-formally-censors-the-grayzone-as-regime-change-advocates-monopolize-editing/
 https://thegrayzone.com/2020/06/11/meet-wikipedias-ayn-rand-loving-founder-and-wikimedia-foundations-regime-change-operative-ceo/
+https://theportalwiki.com/wiki
 https://tiddlywiki.com/
+https://tikiwiki
+https://torch/torch7/wiki/Cheatsheet
+https://trac.macports.org/wiki/TeXLivePackages
+https://trac.v2.nl/wiki/pyOSC
 https://trustandsafety.fun/ - paulo pedericini, game design
 https://twitter.com/HarveySawikin/status/1016671849277743104
 https://twitter.com/dasbrieger/status/955581256053415936?ref_src=twcamp%5Eshare%7Ctwsrc%5Eios%7Ctwgr%5Ecom.apple.UIKit.activity.Message
@@ -211,10 +195,21 @@ https://upload.wikimedia.org/wikipedia/commons/d/de/Giggling_call_of_a_spotted_h
 https://us.metamath.org/ - math
 https://vignette.wikia.nocookie.net/metroid/images/4/4c/Sanctuary_Fortress_City.png/revision/latest?cb=20140808195259&format=original
 https://vignette.wikia.nocookie.net/metroid/images/e/ed/Sanctuary_Fortress.jpg/revision/latest?cb=20140831032706
+https://wiki.blender.org/index.php
+https://wiki.eclipse.org
 https://wiki.eleksmaker.com/doku.php?id=eleksegg
 https://wiki.eleksmaker.com/doku.php?id=elekslasera3pro
+https://wiki.garrysmod.com/page/Main_Page
+https://wiki.godvillegame.com/Godville_%28game%29
+https://wiki.humanobs.org/public:events:constructivist-workshop-fall-2011
+https://wiki.libsdl.org/Tutorials
+https://wiki.lspace.org
 https://wiki.mtgsalvation.com/article/Summoning_sickness
 https://wiki.opencog.org/w/Hands_On_With_OpenCog
+https://wiki.xxiivv.com/purgateus
+https://wiki/Main_Page
+https://wiki/SuperCollider_Quick_Reference
+https://wiki/display
 https://wikileaks.org/gitmo/prisoner/10016.html
 https://wikileaks.org/podesta-emails/emailid/32870
 https://wizardzines.com/comics/ - julia evans
@@ -222,6 +217,7 @@ https://www.awsgeek.com/
 https://www.bloomberg.com/news/features/2016-12-22/how-woke-is-wikipedia-s-editorial-pool
 https://www.commonwl.org/user_guide/ - common workflow language
 https://www.cut-the-knot.org/ - math
+https://www.frathwiki.com/index.php?title=Dr._Zahir%27s_Ethnographical_Questionnaire&amp;_ga=1.174814436.797121631.1416645773
 https://www.gnu.org/manual/manual.html
 https://www.kalzumeus.com/archive/ - patrick mckenzie blog
 https://www.marginalia.nu/
@@ -235,54 +231,19 @@ https://www.reddit.com/r/personalfinance/wiki/commontopics
 https://www.reddit.com/r/rpg/wiki/scarcity
 https://www.spritefusion.com/editor
 https://www.thenation.com/article/wikileaks-haiti-let-them-live-3-day/
+https://www.thetudorswiki.com/page/POLITICS+of+the+Tudor+Court
 https://www.wikiart.org/en/eyvind-earle
+https://www.wikihow.com/Make-a-Raw-Vegan-Brownie
 https://yaml.org/spec/1.2.2/ - YAML
 https://yro.slashdot.org/story/13/03/12/137239/what-if-manning-had-leaked-to-the-new-york-times
-imslp.org/wiki/Main_Page
-ioke.org/wiki/index.php/Guide
-letsplay.wikia.com/wiki/Let%27s_Play_Wiki
-lwjgl.org/wiki/index.php?title=Main_Page#Getting_started
-mtg.wikia.com/wiki/Protection
-mywiki.wooledge.org/BashFAQ
-opende.sourceforge.net/wiki/index.php/Main_Page
-saintsrow.wikia.com/Gang_Customization
-sepans.com/wikistalker/#
-simspark.sourceforge.net/wiki/index.php/Agents
-slick.ninjacave.com/wiki/index.php?title=Main_Page
-snowleopard.wikidot.com/
-soar/wiki/Downloads
-ssloy/tinyrenderer/wiki
-swiki.hfbk-hamburg.de:8888/MusicTechnology/848
-theantlrguy.atlassian.net/wiki/display/ANTLR4/JavaScript+Target
-theportalwiki.com/wiki
-tikiwiki
-torch/torch7/wiki/Cheatsheet
-trac.macports.org/wiki/TeXLivePackages
-trac.v2.nl/wiki/pyOSC
-wiki.blender.org/index.php
-wiki.eclipse.org
-wiki.garrysmod.com/page/Main_Page
-wiki.godvillegame.com/Godville_%28game%29
-wiki.humanobs.org/public:events:constructivist-workshop-fall-2011
-wiki.libsdl.org/Tutorials
-wiki.lspace.org
-wiki.xxiivv.com/purgateus
-wiki/Main_Page
-wiki/SuperCollider_Quick_Reference
-wiki/display
-www.frathwiki.com/index.php?title=Dr._Zahir%27s_Ethnographical_Questionnaire&amp;_ga=1.174814436.797121631.1416645773
-www.thetudorswiki.com/page/POLITICS+of+the+Tudor+Court
-www.wikihow.com/Make-a-Raw-Vegan-Brownie
 ** misc
 [[https://www.theatlantic.com/technology/archive/2017/05/dove-body-image/525867/][dove body image issues]]
-https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
 http://m.uk.ign.com/lists/top-100-rpgs/1 -- not loading
 https://m.imgur.com/a/6jUOL -- over capacity, check back later
 [[https://www.barnesandnoble.com/blog/sci-fi-fantasy/vanguard-jack-campbell-review/][jack campbell review]] - blocked on tor
 [[https://www.theatlantic.com/magazine/archive/2017/06/make-time-for-boredom/524514/?utm_source=atltw][boredom]]
 [[https://www.theverge.com/2017/5/16/15643638/chelsea-manning-trans-woman-community][tutorial on generative systems]]
 [[https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf][purely functional data structures]]
-
 [[https://scholar.google.com/scholar?cites=3306143469979875467&as_sdt=5,39&sciodt=0,39&hl=en][scholar search to come back to]]
 [[https://scholar.google.co.uk/scholar?start=30&hl=en&as_sdt=2005&sciodt=0,5&cites=7701723112115115442&scipsc=][scholar search 2]]
 ** __come_back_to
@@ -389,7 +350,6 @@ https://docs.soliditylang.org/en/latest/index.html
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/
 https://docs.talkamatic.se/for-dialog-designers/
 https://docs.unrealengine.com/5.3/en-US/fluid-simulation-in-unreal-engine---overview/
-https://docseuss.medium.com/
 https://duckduckgo.com/
 https://duckduckgo.com/?t=ffab
 https://emacs.christianbaeuerlein.com/my-org-config.html
@@ -466,10 +426,6 @@ https://martinheinz.dev/posts/
 https://math.libretexts.org/Bookshelves
 https://meaningness.com/geeks-mops-sociopaths
 https://measuringstuff.com/
-https://medium.com/@gautamv/advanced-behavior-tree-structures-4b9dc0516f92
-https://medium.com/@joe_brewer/the-field-of-cultural-evolution-is-vital-now-c783ab84cd0e#.9qtkhh9tr
-https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
-https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
 https://meta.stackexchange.com/questions/334551/an-apology-to-our-community-and-next-steps
 https://mitpress.mit.edu/books/qualitative-representations
 https://mitpress.mit.edu/books/twelve-tomorrows
@@ -625,7 +581,7 @@ http://dungeonexperience.com/
 http://dwarffortresswiki.org/index.php/DF2014:Ethic
 http://ecite.utas.edu.au/98443#page=94
 http://en.wikipedia.org/wiki/Tree-adjoining_grammar
-http://explorableexplanations.com/
+https://explorableexplanations.com/
 http://gamasutra.com/view/news/328255/How_a_Fallout_3_trailer_inspired_the_pitch_for_Fallout_Shelter.php
 http://gamasutra.com/view/news/330744/Developing_the_unique_multigenre_murdermystery_The_Hex.php
 http://hemisphericinstitute.org/hemi/en/emisferica-121-caribbean-rasanblaj/chin
@@ -800,17 +756,6 @@ https://manifold.umn.edu/read/metagaming/section/50eda481-7722-4de0-abb8-3bf771d
 https://map.onesoil.ai/2018#2/44.35/-43.66
 https://meaningness.com/metablog/bongard-meta-rationality
 https://mediadiversified.org/2014/10/29/how-to-use-brown-people-to-illustrate-a-story-about-overpopulation/
-https://medium.com/@RealDorianDawes/ethics-in-world-building-law-enforcement-6a6ec0174d2f
-https://medium.com/@RealDorianDawes/ethics-in-world-building-prisoners-4f3a56cbbb2a
-https://medium.com/@yellowcardigan/kinds-of-men-7daaae56ab4a
-https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
-https://medium.com/maelstromic-insight/ballgowning-as-primary-unit-of-gameplay-you-mean-it-doesnt-just-happen-ce04acbca32f
-https://medium.com/s/powertrip/the-50-50-murder-a3832f587bee#---298-452
-https://medium.com/s/story/what-happened-when-a-trump-supporter-challenged-me-about-the-wall-e54e86a5edd1
-https://medium.com/space-anthropology/at-tending-to-anthropological-language-3d559fc7f3bc
-https://medium.com/syncedreview/the-staggering-cost-of-training-sota-ai-models-e329e80fa82
-https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc
-https://medium.com/thoughts-and-reflections/future-oriented-design-c8b4a458a722
 https://meltingasphalt.com/interactive/going-critical/
 https://mitpress.mit.edu/books/little-typer
 https://mkremins.itch.io/epitaph
@@ -931,7 +876,6 @@ https://www.tandfonline.com/doi/abs/10.1080/0022250X.1984.9989962
 https://www.taylorfrancis.com/books/edit/10.4324/9781315302430/organizational-space-beyond-sytze-kingma-karen-dale-varda-wasserman?refId=567a10ab-4e59-454a-859d-38b64675312e
 https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/
 https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/
-https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/?utm_term=2019-03-25T15%3A39%3A08&utm_content=edit-promo&utm_campaign=the-atlantic&utm_medium=social&utm_source=twitter
 https://www.theeffectbook.net/
 https://www.theguardian.com/food/2019/jun/13/bread-is-practically-sacred-how-the-taste-of-home-sustained-my-refugee-parents
 https://www.theguardian.com/games/2019/jun/28/the-women-game-designers-fighting-back-on-abortion-rights
@@ -976,14 +920,32 @@ https://www.alanzucconi.com/tutorials/
 [[http://thebookofshaders.com/05/][book of shaders]]
 [[http://explorabl.es/][explorable explanations]]
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
-
-** Blogs
+** Journalism
+https://www.mediamatters.org/
+http://www.pewresearch.org/
+https://boingboing.net
+https://arstechnica.com
+http://www.guardian.co.uk/
+http://www.nytimes.com/
+https://genderanalysis.net
 https://pressthink.org/
+https://transwrites.world/
+https://www.propublica.org
+https://www.techdirt.com
+https://www.texasstandard.org/broken/
+https://www.theatlantic.com
+https://www.thecontinent.org/
+https://www.theguardian.com
+https://www.thenation.com
+https://www.theneweuropean.co.uk/
+https://www.thetrace.org
+https://www.washingtonpost.com/
+** Blogs
+
+*** 1
+https://notpoliticallycorrect.me/2024/01/31/race-racism-stereotypes-and-crime-a-moral-argument-for-why-racism-is-morally-wrong/
 https://www.realclimate.org/
 https://aphyr.com/
-https://adamosloizou.github.io
-https://adcontrarian.blogspot.com
-https://adoseoflogic.blogspot.com
 https://adrianmejia.com
 https://afutureworththinkingabout.com
 https://agamesdesignblog.com
@@ -991,9 +953,6 @@ https://aidanmoher.com
 https://akgupta.ca/
 https://alarmingdevelopment.org
 https://alexcpeterson.com
-https://aliceandkev.wordpress.com/
-https://allankelly.blogspot.com.ar
-https://allendowney.blogspot.co.uk
 https://allyouneedisbackend.com
 https://amir.rachum.com
 https://amos.me/
@@ -1001,12 +960,10 @@ https://analogik.com
 https://andrewyoderdesign.blog
 https://android-developers.googleblog.com
 https://andymatuschak.org
-https://anilkseth.wordpress.com
 https://anirudhsasikumar.net
-https://anykeytostart.wordpress.com
-https://aramzs.github.io
 https://archinect.com/
 https://archive.casouri.cc
+*** 2
 https://arktimes.com/arkansas-blog
 https://arstechnica.com
 https://artificialbureaucracy.substack.com
@@ -1017,20 +974,788 @@ https://auth0.com
 https://aworkinglibrary.com
 https://baatz.io
 https://bactra.org
-https://baltarstar.blogspot.com
 https://bartoszmilewski.com
-https://bbbscarter.wordpress.com/
-https://beanishlang.wordpress.com
 https://benfry.com
 https://betterprogramming.pub
 https://beyondrawfood.com
-https://bgbg.blogspot.com/
 https://billchambers.me
 https://bisociations.tumblr.com
+https://blacktriangle.org/
+https://boardgamegeek.com/boardgame
+https://boingboing.net
+https://borderhouseblog.com
+*** 2
+https://boringml.com
+https://botherer.org/category/brian/
+https://botwiki.org
+https://brkeogh.com
+https://brokeassstuart.com/blog
+https://c0debabe.com
+https://cacm.acm.org/blogs/blog-cacm
+https://caneadventures.blog
+https://carlos-trigoso.com/
+https://carstenknoch.com
+https://cepr.org/voxeu/columns
+https://cghlewis.com
+https://chrismm.com/blog/
+https://chronicle.com/
+https://cironline.org
+https://cjamcl.com
+https://cloud4scieng.org
+https://computerhistory.org
+https://connelhooley.uk/blog
+https://craphound.com
+*** 2
+https://critical-distance.com
+https://crookedtimber.org
+https://crush.hashnode.dev
+https://csharphelper.com/
+https://culturecog.blog
+https://dagster.io/blog
+https://dalelane.co.uk/
+https://dangillmor.com
+https://dangrover.com/
+https://danluu.com/programming-blogs/
+https://darrananderson.com
+https://dassur.ma
+https://datagenetics.com/
+https://dbader.org
+https://deepmind.com
+https://devonzuegel.com/
+https://dinnerbone.com
+https://diobla.info/
+https://diogocastro.com
+https://discoversociety.org
+*** 2
+https://distill.pub
+https://distractionware.com
+https://dlang.org/blog
+https://dnote.io
+https://docs.microsoft.com/en-gb/archive/blogs/axmfg
+https://donhavey.com/
+https://dragan.rocks
+https://dsmobserver.com
+https://dustycloud.org/blog/sussman-on-ai/
+https://eagereyes.org
+https://edge-online.com/blogs/you-can-keep-the-popcorn
+https://edw519.posthaven.com/
+https://eev.ee
+https://efavdb.com/gaussian-processes/
+https://elevanth.org
+https://ellengoodlett.com
+https://emshort.blog
+https://engineering.riotgames.com
+https://ericlippert.com
+https://erlc.com
+*** 2
+https://existentialcomics.com
+https://explosion.ai
+https://extranewsfeed.com
+https://federicoterzi.com
+https://feeltrain.com
+https://felixangell.com
+https://floppy.foone.org
+https://footnotesblog.com
+https://fortran-lang.discourse.group
+https://forums.introversion.co.uk/introversion
+https://freethoughtblogs.com/blaghag
+https://freethoughtblogs.com/carrier
+https://fs.blog
+https://fusion.net/story/322651/second-rape/
+https://gamedesignadvance.com
+https://gameinternals.com/
+https://ggth.typepad.com
+https://ghost.org
+https://ghostinfluence.com
+https://going-medieval.com
+*** 2
+https://gorillasun.de
+https://gregorygundersen.com
+https://growabrain.typepad.com/
+https://grumpygamer.com
+https://gwern.net
+https://hbr.org
+https://higherorderfun.com/
+https://hivelogic.com/articles/using_usr_local
+https://holapapi.substack.com
+https://hollywoodlog.typepad.com/nickerblog
+https://hsivonen.fi
+https://iandallas.com/
+https://idlewords.com
+https://immunant.com
+https://infovore.org
+https://insomnia.rest
+https://irisvanrooijcogsci.com
+https://irrationalgames.com/insider/
+https://irreal.org
+https://itsyourturnblog.com
+*** 2
+https://jahya.net/blog
+https://janosh.io
+https://jarango.com
+https://jayhulme.com
+https://jlongster.com/Stop-Writing-JavaScript-Compilers--Make-Macros-Instead
+https://jonathanstark.com
+https://jordanmechner.com
+https://journal.stuffwithstuff.com
+https://judgmentalobserver.com
+https://justinmayer.com
+https://jvns.ca
+https://jxv.io
+https://kevingal.com
+https://kieranhealy.org
+https://kimberlyhirsh.com
+https://lambda-the-ultimate.org/
+https://learntemail.sam.today
+https://litfl.com
+https://longersky.com
+https://lostgarden.home.blog
+*** 2
+https://lowlevelbits.org/
+https://lucumr.pocoo.org
+https://ludeon.com/blog
+https://m.cacm.acm.org/blogs/blog-cacm
+https://machinequestion.org/
+https://maddox.xmission.com/
+https://magenta.tensorflow.org/gansynth
+https://magicfissile.tumblr.com
+https://maisonneuve.org/
+https://markburgess.org/
+https://markmanson.net/
+https://martinheinz.dev
+https://maryrosecook.com
+https://mattsclancy.substack.com
+https://mattt.me
+https://mcdemarco.net
+https://meaningness.com
+https://mediaarchaeology.glitch.me
+https://mightynest.com
+https://mimo.blog
+*** 2
+https://mindingourway.com
+https://mixandgo.com
+https://monkeylearn.com
+https://moz.com/blog
+https://msm.runhello.com
+https://mubaris.com
+https://news.cnet.com/8301-1023_3-57488543-93/judge-to-oracle-google-did-you-pay-off-bloggers/
+https://nicoleorchard.com
+https://niskanencenter.org
+https://nora.zone/
+https://norvig.com
+https://notchesblog.com
+https://nullprogram.com
+https://obscurevideogames.tumblr.com
+https://ocharles.org.uk/blog
+https://octavore.com
+https://onbeing.org
+https://ondra.nepozitek.cz
+https://onsen.io/blog
+https://openai.com
+*** 2
+https://openmymind.net
+https://patentlaw.typepad.com/patent/
+https://paulgraham.com/onlisp.html
+https://penguinrandomhouse.ca/hazlitt
+https://perfectionkills.com
+https://perlmaven.com
+https://phocks.tumblr.com
+https://pixelmonkey.org
+https://pluralistic.net
+https://ponyfoo.com
+https://popular.info
+https://popwatch.ew.com/
+https://practicalphd.net
+https://pragmaticemacs.com
+https://prog21.dadgum.com/
+https://procedural-generation.tumblr.com/
+https://programmaticallyspeaking.com
+https://programmingisterrible.com
+https://project.jacobgarbe.com
+https://projectzomboid.com
+*** 2
+https://pybit.es
+https://qntm.org
+https://raganwald.com
+https://rayli.net
+https://readyset.zam.com
+https://redditblog.com
+https://rednafi.com
+https://research.googleblog.com
+https://resolution-magazine.co.uk
+https://returntonow.net
+https://ridiculousfish.com
+https://rob.rho.org.uk
+https://robotlolita.me
+https://rubikscode.net
+https://salvage.zone/
+https://samnicholls.net
+https://scienceblogs.com/goodmath
+https://sciencefictionruminations.com
+https://serialmentor.com
+https://sethmlarson.dev
+*** 2
+https://sfgate.com
+https://sharpbrains.com
+https://shipilev.net
+https://sidebarsblog.com
+https://sinisterdesign.net
+https://skepdic.com
+https://skippable.tumblr.com
+https://smallpondscience.com
+https://speechesofnote.com
+https://stefan-marr.de
+https://stevehanov.ca
+https://storify.com/mark_riedl
+https://tailcall.net
+https://takecareblog.com
+https://tale-of-tales.com
+https://talkingpointsmemo.com/edblog
+https://talkingpointsmemo.com/edblog/
+https://tansyrr.com
+https://tech-blog.capital-match.com
+https://tech.grammarly.com
+*** 2
+https://techblog.netflix.com
+https://tenthousandmeters.com
+https://terranova.blogs.com
+https://thatsnot.fun
+https://theburningmonk.com
+https://theestablishment.co
+https://thenewinquiry.com
+https://thephd.dev
+https://thephoenix.substack.com
+https://thesystemsthinker.com
+https://thinkprogress.org/culture
+https://thundercluck-blog.tumblr.com
+https://tim.blog
+https://tiny-design.tumblr.com
+https://tinysubversions.com
+https://tom.preston-werner.com
+https://tomasp.net
+https://tonsky.me
+https://towardsdatascience.com
+https://typealias.com
+*** 2
+https://unbound.com
+https://unstrangemind.com
+https://unwttng.com
+https://urbanhonking.com/ideasfordozens
+https://vaibhavsagar.com
+https://vasir.net
+https://vertex.ai
+https://victorzhou.com
+https://vilimpoc.org
+https://wagatwe.myportfolio.com
+https://weatherfactory.biz
+https://web.advent.today
+https://web.archive.org/web/20081017002554/https://www.edge-online.com/blogs
+https://web.archive.org/web/20100304001218/https://www.narrativeflood.com
+https://web.archive.org/web/20100306162602/https://www.firstpersonshouter.com
+https://web.archive.org/web/20100715074610/https://www.kwanzoo.com
+https://web.archive.org/web/20110101185334/https://idrewthis.org
+https://web.archive.org/web/20120124151018/https://www.ffwdweekly.com/calgary-blogs/francisism
+https://web.archive.org/web/20120425000003/https://www.altdevblogaday.com
+https://web.archive.org/web/20121106102625/https://blog.objectmentor.com
+*** 2
+https://web.archive.org/web/20130203100838/https://www.ffwdweekly.com/calgary-blogs/francisism
+https://web.archive.org/web/20130315112245/https://playthisthing.com
+https://web.archive.org/web/20131217193709/https://www.hastac.org
+https://web.archive.org/web/20150111095039/https://www.dewdrop-world.net
+https://web.archive.org/web/20160308210700/https://theappendix.net
+https://web.archive.org/web/20160722201256/https://www.costik.com
+https://webaim.org
+https://weblog.jamisbuck.org
+https://weblog.west-wind.com
+https://whatever.scalzi.com
+https://where.coraline.codes
+https://williamspaniel.com
+https://without.boats
+https://withoutbullshit.com
+https://wizardzines.com
+https://wordsinspace.net
+https://writing.kemitchell.com
+https://writing.markchristian.org
+https://wthh.dataforprogress.org
+https://www.7pace.com
+*** 2
+https://www.ableton.com/en/blog
+https://www.abubalay.com/blog
+https://www.adalovelaceinstitute.org
+https://www.additudemag.com
+https://www.adjust.com
+https://www.aldaily.com
+https://www.alexirpan.com
+https://www.andrewheiss.com
+https://www.andrewhugill.com
+https://www.andrewt.net
+https://www.annaclemens.com
+https://www.aoc.gov/explore-capitol-campus/blog
+https://www.apriorit.com/dev-blog
+https://www.ashleyb.org
+https://www.asthreeworks.com
+https://www.astrocyte-design.com
+https://www.b-list.org/weblog
+https://www.ballardian.com
+https://www.barnesandnoble.com
+https://www.barnesandnoble.com/blog/sci-fi-fantasy
+*** 2
+https://www.beforegame.net
+https://www.billemory.com/dillard
+https://www.blacktable.com
+https://www.bldgblog.com
+https://www.bleedingcool.com
+https://www.blinkingcaret.com
+https://www.blog.pythonlibrary.org
+https://www.blog.radiator.debacle.us
+https://www.blogs.hss.ed.ac.uk/pubs-and-publications
+https://www.bluh.org
+https://www.blurofinsanity.com
+https://www.bpl.org/blogs
+https://www.brainpickings.org/index.php/author/mpopova/
+https://www.brainygamer.com
+https://www.catonmat.net
+https://www.causeandeffect.fm
+https://www.coati.io/blog
+https://www.cocoawithlove.com
+https://www.codecommit.com
+https://www.codersnotes.com
+*** 2
+https://www.collisiondetection.net
+https://www.community-intelligence.com
+https://www.corentindupont.info
+https://www.countbayesie.com
+https://www.cqse.eu/en
+https://www.cracked.com
+https://www.craft.ai
+https://www.critical-distance.com
+https://www.crossfit.com
+https://www.crossref.org/blog
+https://www.crowdscontrol.net
+https://www.cs.ox.ac.uk/people/yarin.gal
+https://www.danylkoweb.com
+https://www.datacamp.com/community/blog
+https://www.datasciencecentral.com
+https://www.datasciencecentral.com/profiles/blogs
+https://www.designer-notes.com
+https://www.destroyallsoftware.com
+https://www.devdungeon.com
+https://www.divio.com
+*** 2
+https://www.dotkam.com
+https://www.drmaciver.com
+https://www.eclectablog.com
+https://www.economist.com/blogs/graphicdetail
+https://www.efficientfrontier.com
+https://www.elegantcoding.com
+https://www.elizabethsampat.com
+https://www.emptywheel.net
+https://www.erikphoel.com
+https://www.errantsignal.com
+https://www.ethanhein.com
+https://www.exceptionnotfound.net
+https://www.extraordinaryunusual.co.uk
+https://www.f-secure.com
+https://www.farnamstreetblog.com
+https://www.fortressofdoors.com
+https://www.gains.af
+https://www.gameai.com/blogs.php
+https://www.gameinformer.com/themes/blogs
+https://www.gamesbyangelina.org
+*** 2
+https://www.getdnote.com
+https://www.git-tower.com
+https://www.godpatterns.com
+https://www.gridsagegames.com/blog/
+https://www.hamvocke.com
+https://www.hastac.org/blogs/danicasavonick
+https://www.heavy-backpack.com
+https://www.humus.name/index.php
+https://www.hytradboi.com
+https://www.iasc-culture.org
+https://www.ibm.com/blogs/watson
+https://www.infoq.com/minibooks
+https://www.insidehighered.com/blogs/just-visiting
+https://www.instituteforgovernment.org.uk/blog
+https://www.intelligent-artifice.com
+https://www.inter-alia.net
+https://www.interpretermag.com
+https://www.jamieoliver.com
+https://www.jgoertler.com/
+https://www.joelonsoftware.com
+*** 2
+https://www.johnath.com
+https://www.johndcook.com
+https://www.jonas-kyratzes.net
+https://www.josephkirwin.com
+https://www.justsecurity.org
+https://www.keenandgraev.com
+https://www.kickstarter.com
+https://www.kittywumpus.net
+https://www.lawfareblog.com
+https://www.lawyersgunsmoneyblog.com
+https://www.learnpyqt.com
+https://www.lesswrong.com
+https://www.lichun.cc
+https://www.loc.gov/teachers/classroommaterials
+https://www.local-guru.net
+https://www.maccima.ph/post/game-ai
+https://www.majid.info
+https://www.math3ma.com
+https://www.mattkenney.me
+https://www.mikeash.com
+*** 2
+https://www.mmorpg.com
+https://www.msnbc.com/the-reidout/reidout-blog
+https://www.mymodernmet.com
+https://www.ncameron.org/blog/how-the-rls-works/
+https://www.nerve.com/
+https://www.newyorker.com/online/blogs/books
+https://www.nonteek.com
+https://www.nullpointer.co.uk
+https://www.nypl.org
+https://www.openphilanthropy.org
+https://www.oreillynet.com/mac/blog
+https://www.pamelajhobart.com
+https://www.patheos.com/blogs/foxyfolklorist
+https://www.paulgraham.com
+https://www.pawfal.org/dave
+https://www.philipotoole.com
+https://www.philipzucker.com
+https://www.pixelpoppers.com
+https://www.play-crafts.com
+https://www.pluralsight.com
+*** 2
+https://www.politics.co.uk/blogs
+https://www.portlandmercury.com
+https://www.poynter.org/how-tos
+https://www.prettygooddesign.org
+https://www.programmingforbeginnersbook.com
+https://www.psmag.com/navigation/nature-and-technology
+https://www.psychologytoday.com/blog/the-science-success
+https://www.psychologytoday.com/blog/the-scientific-fundamentalist
+https://www.quinion.com
+https://www.rebelcircus.com
+https://www.ribbonfarm.com
+https://www.riedlanna.com/
+https://www.robinsloan.com
+https://www.samharris.org
+https://www.sandimetz.com/
+https://www.sarenaulibarri.com
+https://www.scattered-thoughts.net
+https://www.schneier.com
+https://www.sciencenews.org
+https://www.scotusblog.com
+*** 2
+https://www.snakelinksonic.com/
+https://www.snapfon.com
+https://www.snaptest.io
+https://www.soldak.com/Blogs/Steven
+https://www.somasim.com
+https://www.sourcetrail.com
+https://www.springboard.com
+https://www.statsblogs.com
+https://www.stephendiehl.com
+https://www.studica.com
+https://www.studioaka.co.uk/jojo/
+https://www.the-syllabus.com
+https://www.thearticulateautistic.com
+https://www.thebookoflife.org
+https://www.thecepblog.com
+https://www.thelongtail.com
+https://www.theopennotebook.com
+https://www.thewhoresofyore.com
+https://www.thinktsalagi.com/blog
+https://www.vam.ac.uk/blog/digital
+*** 2
+https://www.vera.org/blog/dispatches-from-germany
+https://www.vincit.fi/en/blog
+https://www.wilfred.me.uk/blog
+https://www.wrld3d.com/blog
+https://www.youhaventlived.com/qblog
+https://www.yoyogames.com/blog
+https://www.zephoria.org
+https://www.zerotier.com
+https://xyonline.net
+https://yabas.net
+https://youtube.googleblog.com
+https://zang.org
+https://zpbappi.com
+*** Gamasutra
+https://www.gamasutra.com/blogs/AdrianHawkins
+https://www.gamasutra.com/blogs/AngelLeighMcCoy
+https://www.gamasutra.com/blogs/AnnaJenelius
+https://www.gamasutra.com/blogs/ArviTeikari
+https://www.gamasutra.com/blogs/AsadSohail
+https://www.gamasutra.com/blogs/AshDavis/
+https://www.gamasutra.com/blogs/BarisbiAlborov
+https://www.gamasutra.com/blogs/BenjaminRivers
+https://www.gamasutra.com/blogs/BobTilford
+https://www.gamasutra.com/blogs/BobbyLockhart
+https://www.gamasutra.com/blogs/ChevyJohnston
+https://www.gamasutra.com/blogs/ChrisSimpson
+https://www.gamasutra.com/blogs/DavidStark
+https://www.gamasutra.com/blogs/DolgionChuluunbaatar
+https://www.gamasutra.com/blogs/EdBiden
+https://www.gamasutra.com/blogs/FelipePepe
+https://www.gamasutra.com/blogs/HermanTulleken
+https://www.gamasutra.com/blogs/HughJeremy
+https://www.gamasutra.com/blogs/ItayKeren
+https://www.gamasutra.com/blogs/JamesMargaris
+https://www.gamasutra.com/blogs/JasonSchklar
+https://www.gamasutra.com/blogs/JasonYu
+https://www.gamasutra.com/blogs/JonIngold
+https://www.gamasutra.com/blogs/JoshBycer
+https://www.gamasutra.com/blogs/JoshGe
+https://www.gamasutra.com/blogs/JrgFriedrich
+https://www.gamasutra.com/blogs/KonstantinosDimopoulos
+https://www.gamasutra.com/blogs/KubaStokalski
+https://www.gamasutra.com/blogs/KubaStokalski/20170119
+https://www.gamasutra.com/blogs/LarsDoucet
+https://www.gamasutra.com/blogs/MataHaggis
+https://www.gamasutra.com/blogs/MituKhandakerKokoris
+https://www.gamasutra.com/blogs/NickHalme
+https://www.gamasutra.com/blogs/OmTandon
+https://www.gamasutra.com/blogs/PascalBestebroer
+https://www.gamasutra.com/blogs/PaulTozour
+https://www.gamasutra.com/blogs/PhilippeRinguetteAngrignon
+https://www.gamasutra.com/blogs/RonDippold
+https://www.gamasutra.com/blogs/RyanSumo
+https://www.gamasutra.com/blogs/SamanthaStahlke
+https://www.gamasutra.com/blogs/SergeiAnankin
+https://www.gamasutra.com/blogs/ShayPierce
+https://www.gamasutra.com/blogs/SimonCarless
+https://www.gamasutra.com/blogs/TaekwanKim
+https://www.gamasutra.com/blogs/ThomasGrip
+https://www.gamasutra.com/blogs/TommyThompson
+https://www.gamasutra.com/blogs/TynanSylvester
+https://www.gamasutra.com/blogs/VictoriaTran
+https://www.gamasutra.com/blogs/XanderMarkham
+*** Blogspot
+https://adcontrarian.blogspot.com
+https://adoseoflogic.blogspot.com
+https://allankelly.blogspot.com.ar
+https://allendowney.blogspot.co.uk
+https://baltarstar.blogspot.com
+https://bgbg.blogspot.com/
 https://bkiers.blogspot.com
 https://blackconservative360.blogspot.com/
-https://blacktriangle.org/
 https://bldgblog.blogspot.com/
+https://briantannerresearch.blogspot.com
+https://chrisgreybrexitblog.blogspot.co.uk
+https://christophermpark.blogspot.co.uk/
+https://copyrightreadings.blogspot.com/
+https://critical-gaming.blogspot.com/2008/07/organic-and-inorganic-design.html
+https://crowdsimulation.blogspot.de
+https://danielvelkov.blogspot.de
+https://deevybee.blogspot.no
+https://dndppf.blogspot.com
+https://doingbayesiandataanalysis.blogspot.com
+https://dreamsofspace.blogspot.co.uk/
+https://drgamelove.blogspot.com
+https://eulawanalysis.blogspot.co.uk
+https://fabledlands.blogspot.com
+https://focusonthetruth.blogspot.com/
+https://frictionalgames.blogspot.co.uk
+https://frictionalgames.blogspot.com
+https://fullbright.blogspot.com
+https://geomblog.blogspot.com
+https://googlescholar.blogspot.com
+https://h4plo.blogspot.com
+https://hapticfeedbackgames.blogspot.com
+https://hooptyrides.blogspot.com/
+https://hyperboleandahalf.blogspot.com
+https://ip-updates.blogspot.com/
+https://jakonrath.blogspot.com
+https://janicepoonart.blogspot.com/
+https://javarevisited.blogspot.nl
+https://javarevisited.blogspot.sg
+https://jlelliotton.blogspot.jp/
+https://joanna-bryson.blogspot.co.uk
+https://justinmaio.blogspot.com
+https://lastskepticstanding.blogspot.com
+https://linuxcommando.blogspot.com
+https://linuxsleuthing.blogspot.com
+https://lisp-univ-etc.blogspot.com
+https://livingepic.blogspot.com/
+https://malepatternboldness.blogspot.com/
+https://mbucc.blogspot.nl
+https://meri-stuff.blogspot.com
+https://mightyatom.blogspot.com
+https://moyix.blogspot.com
+https://neilmitchell.blogspot.co.uk
+https://neopythonic.blogspot.com
+https://nlpers.blogspot.co.uk
+https://notthetreasuryview.blogspot.fr
+https://onemandoom.blogspot.com
+https://palmstroem.blogspot.co.uk
+https://palmstroem.blogspot.com
+https://philosophicaldisquisitions.blogspot.co.uk
+https://playfulprogramming.blogspot.co.at
+https://playingattheworld.blogspot.com/
+https://qscripts.blogspot.com
+https://richardcarrier.blogspot.com
+https://roguelikedeveloper.blogspot.com
+https://samoe-vazhnoe.blogspot.com
+https://saturnsatori.blogspot.com
+https://semantic-domain.blogspot.com
+https://sixages.blogspot.com
+https://somuchpileup.blogspot.com
+https://stupidpythonideas.blogspot.com
+https://theetheringtonbrothers.blogspot.com
+https://thunderpeel2001.blogspot.com
+https://togelius.blogspot.com.ar
+https://togelius.blogspot.fr
+https://versusclucluland.blogspot.com
+https://vgvisualvault.blogspot.com
+https://web.archive.org/web/20130115064519/https://sexyvideogameland.blogspot.com
+https://zelo-street.blogspot.com
+*** Edu
+https://cs.brown.edu/~dabel
+https://kitchingroup.cheme.cmu.edu
+https://languagelog.ldc.upenn.edu
+https://pages.gseis.ucla.edu/faculty/agre/
+https://www.cs.uni.edu/~wallingf/blog
+*** News
+https://www.techdirt.com
+https://www.thenation.com
+https://www.theparisreview.org
+https://www.guardian.co.uk/news/datablog
+https://www.mediamatters.org/blog
+https://www.buzzfeed.com/mjs538
+https://well.blogs.nytimes.com
+https://thehill.com/blogs/blog-briefing-room
+https://thehill.com/blogs/pundits-blog
+https://www.thedailybeast.com
+https://www.wired.com
+https://www.washingtonpost.com/amphtml/blogs/plum-line
+https://www.washingtonpost.com/blogs/wonkblog
+https://www.theguardian.com/books/booksblog
+https://www.theguardian.com/news/datablog
+https://www.theguardian.com/science/brain-flapping
+https://www.slate.com/blogs/browbeat
+https://www.slate.com/blogs/future_tense
+https://www.slate.com/blogs/outward
+https://krugman.blogs.nytimes.com
+https://www.slate.com/blogs/quora
+https://reason.com
+https://www.slate.com/blogs/xx_factor
+https://pressthink.org/
+*** aclu
+https://www.aclu.org/blog/lgbt-rights
+https://www.aclu.org/blog/privacy-technology
+https://www.aclu.org/blog/washington-markup
+https://www.aclu.org/blog/womens-rights
+*** autism
+https://thinkingautismguide.com
+*** Dev.to
+https://dev.stephendiehl.com/
+https://dev.to/
+https://dev.to/evantypanski
+https://dev.to/kfurjan
+https://dev.to/madebyjonny
+https://dev.to/ojkelly
+https://dev.to/vaidehijoshi
+*** dev blogs
+https://towardsdatascience.com/on-optimally-squishing-large-datasets-9276776cf0cb
+https://towardsdatascience.com/use-kaggle-to-start-and-guide-your-ml-data-science-journey-f09154baba35?gi=67279a870d21
+https://www.tor.com/blogs
+https://www.bitecode.dev/p/whats-the-deal-with-cpython-pypy
+https://devblogs.microsoft.com/oldnewthing
+https://emacsair.me
+https://emacsblog.org
+https://devblogs.microsoft.com/performance-diagnostics
+https://spacy.io/blog
+https://devblogs.microsoft.com/visualstudio
+https://klichx.dev
+https://new.pythonforengineers.com
+https://developers.redhat.com
+*** history
+*** personal
+https://www.raphkoster.com
+https://www.raulpacheco.org
+https://mycatcora-blog.tumblr.com
+https://lizengland.com
+https://rossignol.cream.org
+https://saxxie.dev
+*** comics
+https://redpenblackpen.jasonya.com
+*** games
+https://littlealchemy2.com/
+https://www.retrogames.cc/
+https://www.molleindustria.org
+*** tumblr
+https://gothicpunk.tumblr.com
+https://stfuconservatives.tumblr.com
+https://thebrainscoop.tumblr.com
+https://hannibalblog.tumblr.com/
+https://ilovecharts.tumblr.com
+*** Github.io
+https://zalo.github.io
+https://adamosloizou.github.io
+https://aramzs.github.io
+https://davidad.github.io
+https://emilyriehl.github.io
+https://floooh.github.io
+https://github.blog
+https://jakubdziworski.github.io
+https://jeffreykegler.github.io
+https://jmickle66666666.github.io
+https://lazystone.github.io
+https://lucasmreis.github.io
+https://matthewearl.github.io
+https://mkremins.github.io
+https://natali-pp.github.io
+https://nickdesaulniers.github.io
+https://nightblade9.github.io/godot-gamedev
+https://pchiusano.github.io
+https://raphlinus.github.io
+https://spadgos.github.io
+https://ticki.github.io/
+https://tni-back-soon.github.io
+https://jentery.github.io
+https://github.com/adonaac
+https://github.com/andreas-gone-wild
+https://github.com/jashkenas
+*** Wordpress
+https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/
+https://aliceandkev.wordpress.com/
+https://anilkseth.wordpress.com
+https://anykeytostart.wordpress.com
+https://bbbscarter.wordpress.com/
+https://beanishlang.wordpress.com
+https://byorgey.wordpress.com/
+https://carleisenstein.wordpress.com
+https://cdsmith.wordpress.com
+https://centauridevice.wordpress.com
+https://codeandculture.wordpress.com
+https://codesachin.wordpress.com
+https://danielskatzblog.wordpress.com
+https://dexvis.wordpress.com
+https://eventuallyalmosteverywhere.wordpress.com
+https://farkasdilemma.wordpress.com
+https://fgiesen.wordpress.com
+https://haduonght.wordpress.com
+https://hardsci.wordpress.com
+https://heterocephalusgabler.wordpress.com
+https://heterogenoustasks.wordpress.com
+https://idontgetoutmuch.wordpress.com
+https://itssmee.wordpress.com
+https://lewisdenby.wordpress.com
+https://lindseyreidblog.wordpress.com
+https://lucabolognese.wordpress.com
+https://nevalalee.wordpress.com
+https://parliamentsandlegislatures.wordpress.com
+https://paulcairney.wordpress.com
+https://silentamateur.wordpress.com
+https://softologyblog.wordpress.com
+https://specialolympicsblog.wordpress.com
+https://tahayasseri.wordpress.com
+https://thingspython.wordpress.com
+https://versublog.files.wordpress.com
+https://waterprogramming.wordpress.com
+https://womensartblog.wordpress.com
+*** Blog Dot
 https://blog.12bit.club
 https://blog.acolyer.org/
 https://blog.agilebits.com
@@ -1160,741 +1885,51 @@ https://blogs.unity3d.com
 https://blogs.unity3d.com/
 https://blogs.worldbank.org/publicsphere
 https://blogs.worldwatch.org/must-talk-population/
-https://boardgamegeek.com/boardgame
-https://boingboing.net
-https://borderhouseblog.com
-https://boringml.com
-https://botherer.org/category/brian/
-https://botwiki.org
-https://briantannerresearch.blogspot.com
-https://brkeogh.com
-https://brokeassstuart.com/blog
-https://byorgey.wordpress.com/
-https://c0debabe.com
-https://cacm.acm.org/blogs/blog-cacm
-https://caneadventures.blog
-https://carleisenstein.wordpress.com
-https://carlos-trigoso.com/
-https://carstenknoch.com
-https://cdsmith.wordpress.com
-https://centauridevice.wordpress.com
-https://cepr.org/voxeu/columns
-https://cghlewis.com
-https://chrisgreybrexitblog.blogspot.co.uk
-https://chrismm.com/blog/
-https://christophermpark.blogspot.co.uk/
-https://chronicle.com/
-https://cironline.org
-https://cjamcl.com
-https://cloud4scieng.org
-https://codeandculture.wordpress.com
-https://codesachin.wordpress.com
-https://computerhistory.org
-https://connelhooley.uk/blog
-https://copyrightreadings.blogspot.com/
-https://craphound.com
-https://critical-distance.com
-https://critical-gaming.blogspot.com/2008/07/organic-and-inorganic-design.html
-https://crookedtimber.org
-https://crowdsimulation.blogspot.de
-https://crush.hashnode.dev
-https://cs.brown.edu/~dabel
-https://csharphelper.com/
-https://culturecog.blog
-https://dagster.io/blog
-https://dalelane.co.uk/
-https://dangillmor.com
-https://dangrover.com/
-https://danielskatzblog.wordpress.com
-https://danielvelkov.blogspot.de
-https://danluu.com/programming-blogs/
-https://darrananderson.com
-https://dassur.ma
-https://datagenetics.com/
-https://davidad.github.io
-https://dbader.org
-https://deepmind.com
-https://deevybee.blogspot.no
-https://dev.stephendiehl.com/
-https://dev.to/
-https://dev.to/evantypanski
-https://dev.to/kfurjan
-https://dev.to/madebyjonny
-https://dev.to/ojkelly
-https://dev.to/vaidehijoshi
-https://devblogs.microsoft.com/oldnewthing
-https://devblogs.microsoft.com/performance-diagnostics
-https://devblogs.microsoft.com/visualstudio
-https://developers.redhat.com
-https://devonzuegel.com/
-https://dexvis.wordpress.com
-https://dinnerbone.com
-https://diobla.info/
-https://diogocastro.com
-https://discoversociety.org
-https://distill.pub
-https://distractionware.com
-https://dlang.org/blog
-https://dndppf.blogspot.com
-https://dnote.io
-https://docs.microsoft.com/en-gb/archive/blogs/axmfg
+*** Medium
 https://docseuss.medium.com
-https://doingbayesiandataanalysis.blogspot.com
-https://donhavey.com/
-https://dragan.rocks
-https://dreamsofspace.blogspot.co.uk/
-https://drgamelove.blogspot.com
-https://dsmobserver.com
-https://dustycloud.org/blog/sussman-on-ai/
-https://eagereyes.org
-https://edge-online.com/blogs/you-can-keep-the-popcorn
-https://edw519.posthaven.com/
-https://eev.ee
-https://efavdb.com/gaussian-processes/
+https://docseuss.medium.com/
 https://elemental.medium.com
-https://elevanth.org
-https://ellengoodlett.com
-https://emacsair.me
-https://emacsblog.org
-https://emilyriehl.github.io
-https://emshort.blog
-https://engineering.riotgames.com
-https://ericlippert.com
-https://erlc.com
-https://eulawanalysis.blogspot.co.uk
-https://eventuallyalmosteverywhere.wordpress.com
-https://existentialcomics.com
-https://explosion.ai
-https://extranewsfeed.com
-https://fabledlands.blogspot.com
-https://farkasdilemma.wordpress.com
-https://federicoterzi.com
-https://feeltrain.com
-https://felixangell.com
-https://fgiesen.wordpress.com
-https://floooh.github.io
-https://floppy.foone.org
-https://focusonthetruth.blogspot.com/
-https://footnotesblog.com
-https://fortran-lang.discourse.group
-https://forums.introversion.co.uk/introversion
-https://freethoughtblogs.com/blaghag
-https://freethoughtblogs.com/carrier
-https://frictionalgames.blogspot.co.uk
-https://frictionalgames.blogspot.com
-https://fs.blog
-https://fullbright.blogspot.com
-https://fusion.net/story/322651/second-rape/
-https://gamasutra.com/blogs/AngelLeighMcCoy
-https://gamasutra.com/blogs/BarisbiAlborov
-https://gamasutra.com/blogs/HermanTulleken
-https://gamasutra.com/blogs/HughJeremy
-https://gamasutra.com/blogs/ItayKeren
-https://gamasutra.com/blogs/JamesMargaris
-https://gamasutra.com/blogs/LarsDoucet
-https://gamasutra.com/blogs/OmTandon
-https://gamasutra.com/blogs/SamanthaStahlke
-https://gamasutra.com/blogs/SimonCarless
-https://gamasutra.com/blogs/ThomasGrip
-https://gamedesignadvance.com
-https://gameinternals.com/
-https://geomblog.blogspot.com
-https://ggth.typepad.com
-https://ghost.org
-https://ghostinfluence.com
-https://github.blog
-https://github.com/adonaac
-https://github.com/andreas-gone-wild
-https://github.com/jashkenas
-https://going-medieval.com
-https://googlescholar.blogspot.com
-https://gorillasun.de
-https://gothicpunk.tumblr.com
-https://gregorygundersen.com
-https://growabrain.typepad.com/
-https://grumpygamer.com
-https://gwern.net
-https://h4plo.blogspot.com
-https://haduonght.wordpress.com
-https://hannibalblog.tumblr.com/
-https://hapticfeedbackgames.blogspot.com
-https://hardsci.wordpress.com
-https://hbr.org
-https://heterocephalusgabler.wordpress.com
-https://heterogenoustasks.wordpress.com
-https://higherorderfun.com/
-https://hivelogic.com/articles/using_usr_local
-https://holapapi.substack.com
-https://hollywoodlog.typepad.com/nickerblog
-https://hooptyrides.blogspot.com/
-https://hsivonen.fi
-https://hyperboleandahalf.blogspot.com
-https://iandallas.com/
-https://idlewords.com
-https://idontgetoutmuch.wordpress.com
-https://ilovecharts.tumblr.com
-https://immunant.com
-https://infovore.org
-https://insomnia.rest
 https://inventingthemedium.com
-https://ip-updates.blogspot.com/
-https://irisvanrooijcogsci.com
-https://irrationalgames.com/insider/
-https://irreal.org
-https://itssmee.wordpress.com
-https://itsyourturnblog.com
-https://jahya.net/blog
-https://jakonrath.blogspot.com
-https://jakubdziworski.github.io
-https://janicepoonart.blogspot.com/
-https://janosh.io
-https://jarango.com
-https://javarevisited.blogspot.nl
-https://javarevisited.blogspot.sg
-https://jayhulme.com
-https://jeffreykegler.github.io
-https://jentery.github.io
-https://jlelliotton.blogspot.jp/
-https://jlongster.com/Stop-Writing-JavaScript-Compilers--Make-Macros-Instead
-https://jmickle66666666.github.io
-https://joanna-bryson.blogspot.co.uk
-https://joanna-bryson.blogspot.co.uk/
-https://jonathanstark.com
-https://jordanmechner.com
-https://journal.stuffwithstuff.com
-https://judgmentalobserver.com
 https://juliagaffield.medium.com
-https://justinmaio.blogspot.com
-https://justinmayer.com
-https://jvns.ca
-https://jxv.io
-https://kevingal.com
-https://kieranhealy.org
-https://kimberlyhirsh.com
-https://kitchingroup.cheme.cmu.edu
-https://klichx.dev
-https://krugman.blogs.nytimes.com
-https://lambda-the-ultimate.org/
-https://languagelog.ldc.upenn.edu
-https://lastskepticstanding.blogspot.com
-https://lazystone.github.io
-https://learntemail.sam.today
-https://lewisdenby.wordpress.com
-https://lindseyreidblog.wordpress.com
-https://linuxcommando.blogspot.com
-https://linuxsleuthing.blogspot.com
-https://lisp-univ-etc.blogspot.com
-https://litfl.com
-https://livingepic.blogspot.com/
-https://lizengland.com
-https://longersky.com
-https://lostgarden.home.blog
-https://lowlevelbits.org/
-https://lucabolognese.wordpress.com
-https://lucasmreis.github.io
-https://lucumr.pocoo.org
-https://ludeon.com/blog
-https://m.cacm.acm.org/blogs/blog-cacm
-https://machinequestion.org/
-https://maddox.xmission.com/
-https://magenta.tensorflow.org/gansynth
-https://magicfissile.tumblr.com
-https://maisonneuve.org/
-https://malepatternboldness.blogspot.com/
-https://markburgess.org/
-https://markmanson.net/
-https://martinheinz.dev
-https://maryrosecook.com
-https://matthewearl.github.io
-https://mattsclancy.substack.com
-https://mattt.me
-https://mbucc.blogspot.nl
-https://mcdemarco.net
-https://meaningness.com
-https://mediaarchaeology.glitch.me
 https://medium.com/@GrrlScientist
 https://medium.com/@JustAnotherRandomGuy
+https://medium.com/@RealDorianDawes/ethics-in-world-building-law-enforcement-6a6ec0174d2f
+https://medium.com/@RealDorianDawes/ethics-in-world-building-prisoners-4f3a56cbbb2a
 https://medium.com/@aareed
+https://medium.com/@absurdistwords/how-to-discuss-race-with-black-people-faq-part-3-advanced-74b1ea50551a
+https://medium.com/@absurdistwords/how-to-discuss-race-with-black-people-faq-pt-1-2534db9e3409
+https://medium.com/@absurdistwords/how-to-discuss-race-with-black-people-part-2-intermediate-b2cdb7073186
+https://medium.com/@alexiskennedy/alexis-kennedy-on-the-cultist-simulator-the-way-through-the-wood-part-1-c53ca6a39e0
+https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2
 https://medium.com/@chanda
+https://medium.com/@chanda/decolonising-science-reading-list-339fb773d51f#.om5w2ivfq
+https://medium.com/@chanda/six-books-non-black-people-should-read-in-2018-39b086d1c469
+https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b                                            :  Stock Photos
 https://medium.com/@gautamv
+https://medium.com/@gautamv/advanced-behavior-tree-structures-4b9dc0516f92
+https://medium.com/@joe_brewer/the-field-of-cultural-evolution-is-vital-now-c783ab84cd0e#.9qtkhh9tr
+https://medium.com/@publicanthro/academia-and-the-people-without-jobs-c7e503f3bbc3
+https://medium.com/@yellowcardigan/kinds-of-men-7daaae56ab4a
+https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
+https://medium.com/berkman-klein-center/an-introduction-to-extitutional-theory-e74b5a49ea53
+https://medium.com/design-strategy-data-people/sometimes-the-best-example-is-an-unlikely-one-c683882f5282
+https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
+https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2021-8481c4e0d409
 https://medium.com/guesstimate-blog
 https://medium.com/international-affairs-blog
+https://medium.com/maelstromic-insight/ballgowning-as-primary-unit-of-gameplay-you-mean-it-doesnt-just-happen-ce04acbca32f
+https://medium.com/s/powertrip/the-50-50-murder-a3832f587bee#---298-452
+https://medium.com/s/story/what-happened-when-a-trump-supporter-challenged-me-about-the-wall-e54e86a5edd1
+https://medium.com/space-anthropology/at-tending-to-anthropological-language-3d559fc7f3bc
+https://medium.com/startup-grind/fueling-the-ai-gold-rush-7ae438505bc2#.hkx0xe0mj
+https://medium.com/syncedreview/the-staggering-cost-of-training-sota-ai-models-e329e80fa82
+https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc
 https://medium.com/thedevproject
-https://meri-stuff.blogspot.com
-https://mightyatom.blogspot.com
-https://mightynest.com
-https://mimo.blog
-https://mindingourway.com
-https://mixandgo.com
-https://mkremins.github.io
-https://monkeylearn.com
-https://moyix.blogspot.com
-https://moz.com/blog
-https://msm.runhello.com
-https://mubaris.com
-https://mycatcora-blog.tumblr.com
-https://natali-pp.github.io
-https://neilmitchell.blogspot.co.uk
-https://neopythonic.blogspot.com
-https://nevalalee.wordpress.com
-https://new.pythonforengineers.com
-https://news.cnet.com/8301-1023_3-57488543-93/judge-to-oracle-google-did-you-pay-off-bloggers/
-https://nickdesaulniers.github.io
-https://nicoleorchard.com
-https://nightblade9.github.io/godot-gamedev
-https://niskanencenter.org
-https://nlpers.blogspot.co.uk
-https://nora.zone/
-https://norvig.com
-https://notchesblog.com
-https://notthetreasuryview.blogspot.fr
-https://nullprogram.com
-https://obscurevideogames.tumblr.com
-https://ocharles.org.uk/blog
-https://octavore.com
-https://onbeing.org
-https://ondra.nepozitek.cz
-https://onemandoom.blogspot.com
-https://onsen.io/blog
-https://openai.com
-https://openmymind.net
-https://pages.gseis.ucla.edu/faculty/agre/
-https://palmstroem.blogspot.co.uk
-https://palmstroem.blogspot.com
-https://parliamentsandlegislatures.wordpress.com
-https://patentlaw.typepad.com/patent/
-https://paulcairney.wordpress.com
-https://paulgraham.com/onlisp.html
-https://pchiusano.github.io
-https://penguinrandomhouse.ca/hazlitt
-https://perfectionkills.com
-https://perlmaven.com
-https://philosophicaldisquisitions.blogspot.co.uk
-https://phocks.tumblr.com
-https://pixelmonkey.org
-https://playfulprogramming.blogspot.co.at
-https://playingattheworld.blogspot.com/
-https://pluralistic.net
-https://ponyfoo.com
-https://popular.info
-https://popwatch.ew.com/
-https://practicalphd.net
-https://pragmaticemacs.com
-https://procedural-generation.tumblr.com/
-https://prog21.dadgum.com/
-https://programmaticallyspeaking.com
-https://programmingisterrible.com
-https://project.jacobgarbe.com
-https://projectzomboid.com
-https://pybit.es
-https://qntm.org
-https://qscripts.blogspot.com
-https://raganwald.com
-https://raphlinus.github.io
-https://rayli.net
-https://readyset.zam.com
-https://reason.com
-https://redditblog.com
-https://rednafi.com
-https://redpenblackpen.jasonya.com
-https://research.googleblog.com
-https://resolution-magazine.co.uk
-https://returntonow.net
-https://richardcarrier.blogspot.com
-https://ridiculousfish.com
-https://rob.rho.org.uk
-https://robotlolita.me
-https://roguelikedeveloper.blogspot.com
-https://rossignol.cream.org
-https://rubikscode.net
-https://salvage.zone/
-https://samnicholls.net
-https://samoe-vazhnoe.blogspot.com
-https://saturnsatori.blogspot.com
-https://saxxie.dev
-https://scienceblogs.com/goodmath
-https://sciencefictionruminations.com
-https://semantic-domain.blogspot.com
-https://serialmentor.com
-https://sethmlarson.dev
-https://sfgate.com
-https://sharpbrains.com
-https://shipilev.net
-https://sidebarsblog.com
-https://silentamateur.wordpress.com
-https://sinisterdesign.net
-https://sixages.blogspot.com
-https://skepdic.com
-https://skippable.tumblr.com
-https://smallpondscience.com
-https://softologyblog.wordpress.com
-https://somuchpileup.blogspot.com
-https://spacy.io/blog
-https://spadgos.github.io
-https://specialolympicsblog.wordpress.com
-https://speechesofnote.com
-https://stefan-marr.de
-https://stevehanov.ca
-https://stfuconservatives.tumblr.com
-https://storify.com/mark_riedl
-https://stupidpythonideas.blogspot.com
-https://tahayasseri.wordpress.com
-https://tailcall.net
-https://takecareblog.com
-https://tale-of-tales.com
-https://talkingpointsmemo.com/edblog
-https://talkingpointsmemo.com/edblog/
-https://tansyrr.com
-https://tech-blog.capital-match.com
-https://tech.grammarly.com
-https://techblog.netflix.com
-https://tenthousandmeters.com
-https://terranova.blogs.com
-https://thatsnot.fun
-https://thebrainscoop.tumblr.com
-https://theburningmonk.com
-https://theestablishment.co
-https://theetheringtonbrothers.blogspot.com
-https://thehill.com/blogs/blog-briefing-room
-https://thehill.com/blogs/pundits-blog
-https://thenewinquiry.com
-https://thephd.dev
-https://thephoenix.substack.com
-https://thesystemsthinker.com
-https://thingspython.wordpress.com
-https://thinkingautismguide.com
-https://thinkprogress.org/culture
-https://thundercluck-blog.tumblr.com
-https://thunderpeel2001.blogspot.com
-https://ticki.github.io/
-https://tim.blog
-https://tiny-design.tumblr.com
-https://tinysubversions.com
-https://tni-back-soon.github.io
-https://togelius.blogspot.com.ar
-https://togelius.blogspot.fr
-https://tom.preston-werner.com
-https://tomasp.net
-https://tonsky.me
-https://towardsdatascience.com
-https://typealias.com
-https://unbound.com
-https://unstrangemind.com
-https://unwttng.com
-https://urbanhonking.com/ideasfordozens
-https://vaibhavsagar.com
-https://vasir.net
-https://versublog.files.wordpress.com
-https://versusclucluland.blogspot.com
-https://vertex.ai
-https://vgvisualvault.blogspot.com
-https://victorzhou.com
-https://vilimpoc.org
-https://wagatwe.myportfolio.com
-https://waterprogramming.wordpress.com
-https://weatherfactory.biz
-https://web.advent.today
-https://web.archive.org/web/20081017002554/https://www.edge-online.com/blogs
-https://web.archive.org/web/20100304001218/https://www.narrativeflood.com
-https://web.archive.org/web/20100306162602/https://www.firstpersonshouter.com
-https://web.archive.org/web/20100715074610/https://www.kwanzoo.com
-https://web.archive.org/web/20110101185334/https://idrewthis.org
-https://web.archive.org/web/20120124151018/https://www.ffwdweekly.com/calgary-blogs/francisism
-https://web.archive.org/web/20120425000003/https://www.altdevblogaday.com
-https://web.archive.org/web/20121106102625/https://blog.objectmentor.com
-https://web.archive.org/web/20130115064519/https://sexyvideogameland.blogspot.com
-https://web.archive.org/web/20130203100838/https://www.ffwdweekly.com/calgary-blogs/francisism
-https://web.archive.org/web/20130315112245/https://playthisthing.com
-https://web.archive.org/web/20131217193709/https://www.hastac.org
-https://web.archive.org/web/20150111095039/https://www.dewdrop-world.net
-https://web.archive.org/web/20160308210700/https://theappendix.net
-https://web.archive.org/web/20160722201256/https://www.costik.com
-https://webaim.org
-https://weblog.jamisbuck.org
-https://weblog.west-wind.com
-https://well.blogs.nytimes.com
-https://whatever.scalzi.com
-https://where.coraline.codes
-https://williamspaniel.com
-https://without.boats
-https://withoutbullshit.com
-https://wizardzines.com
-https://womensartblog.wordpress.com
-https://wordsinspace.net
-https://writing.kemitchell.com
-https://writing.markchristian.org
-https://wthh.dataforprogress.org
-https://www.7pace.com
-https://www.ableton.com/en/blog
-https://www.abubalay.com/blog
-https://www.aclu.org/blog/lgbt-rights
-https://www.aclu.org/blog/privacy-technology
-https://www.aclu.org/blog/washington-markup
-https://www.aclu.org/blog/womens-rights
-https://www.adalovelaceinstitute.org
-https://www.additudemag.com
-https://www.adjust.com
-https://www.aldaily.com
-https://www.alexirpan.com
-https://www.andrewheiss.com
-https://www.andrewhugill.com
-https://www.andrewt.net
-https://www.annaclemens.com
-https://www.aoc.gov/explore-capitol-campus/blog
-https://www.apriorit.com/dev-blog
-https://www.ashleyb.org
-https://www.asthreeworks.com
-https://www.astrocyte-design.com
-https://www.b-list.org/weblog
-https://www.ballardian.com
-https://www.barnesandnoble.com
-https://www.barnesandnoble.com/blog/sci-fi-fantasy
-https://www.beforegame.net
-https://www.billemory.com/dillard
-https://www.bitecode.dev/p/whats-the-deal-with-cpython-pypy
-https://www.blacktable.com
-https://www.bldgblog.com
-https://www.bldgblog.com/
-https://www.bleedingcool.com
-https://www.blinkingcaret.com
-https://www.blog.pythonlibrary.org
-https://www.blog.radiator.debacle.us
-https://www.blogs.hss.ed.ac.uk/pubs-and-publications
-https://www.bluh.org
-https://www.blurofinsanity.com
-https://www.bpl.org/blogs
-https://www.brainpickings.org/index.php/author/mpopova/
-https://www.brainygamer.com
-https://www.buzzfeed.com/mjs538
-https://www.catonmat.net
-https://www.causeandeffect.fm
-https://www.coati.io/blog
-https://www.cocoawithlove.com
-https://www.codecommit.com
-https://www.codersnotes.com
-https://www.collisiondetection.net
-https://www.community-intelligence.com
-https://www.corentindupont.info
-https://www.countbayesie.com
-https://www.cqse.eu/en
-https://www.cracked.com
-https://www.craft.ai
-https://www.critical-distance.com
-https://www.crossfit.com
-https://www.crossref.org/blog
-https://www.crowdscontrol.net
-https://www.cs.ox.ac.uk/people/yarin.gal
-https://www.cs.uni.edu/~wallingf/blog
-https://www.danylkoweb.com
-https://www.datacamp.com/community/blog
-https://www.datasciencecentral.com
-https://www.datasciencecentral.com/profiles/blogs
-https://www.designer-notes.com
-https://www.destroyallsoftware.com
-https://www.devdungeon.com
-https://www.divio.com
-https://www.dotkam.com
-https://www.drmaciver.com
-https://www.eclectablog.com
-https://www.economist.com/blogs/graphicdetail
-https://www.efficientfrontier.com
-https://www.elegantcoding.com
-https://www.elizabethsampat.com
-https://www.emptywheel.net
-https://www.erikphoel.com
-https://www.errantsignal.com
-https://www.ethanhein.com
-https://www.exceptionnotfound.net
-https://www.extraordinaryunusual.co.uk
-https://www.f-secure.com
-https://www.farnamstreetblog.com
-https://www.fortressofdoors.com
-https://www.gains.af
-https://www.gamasutra.com/blogs/AdrianHawkins
-https://www.gamasutra.com/blogs/AngelLeighMcCoy
-https://www.gamasutra.com/blogs/AnnaJenelius
-https://www.gamasutra.com/blogs/ArviTeikari
-https://www.gamasutra.com/blogs/AsadSohail
-https://www.gamasutra.com/blogs/AshDavis/
-https://www.gamasutra.com/blogs/BarisbiAlborov
-https://www.gamasutra.com/blogs/BenjaminRivers
-https://www.gamasutra.com/blogs/BobTilford
-https://www.gamasutra.com/blogs/BobbyLockhart
-https://www.gamasutra.com/blogs/ChevyJohnston
-https://www.gamasutra.com/blogs/ChrisSimpson
-https://www.gamasutra.com/blogs/DavidStark
-https://www.gamasutra.com/blogs/DolgionChuluunbaatar
-https://www.gamasutra.com/blogs/EdBiden
-https://www.gamasutra.com/blogs/FelipePepe
-https://www.gamasutra.com/blogs/HermanTulleken
-https://www.gamasutra.com/blogs/ItayKeren
-https://www.gamasutra.com/blogs/JasonSchklar
-https://www.gamasutra.com/blogs/JasonYu
-https://www.gamasutra.com/blogs/JonIngold
-https://www.gamasutra.com/blogs/JoshBycer
-https://www.gamasutra.com/blogs/JoshGe
-https://www.gamasutra.com/blogs/JrgFriedrich
-https://www.gamasutra.com/blogs/KonstantinosDimopoulos
-https://www.gamasutra.com/blogs/KubaStokalski
-https://www.gamasutra.com/blogs/KubaStokalski/20170119
-https://www.gamasutra.com/blogs/MataHaggis
-https://www.gamasutra.com/blogs/MituKhandakerKokoris
-https://www.gamasutra.com/blogs/NickHalme
-https://www.gamasutra.com/blogs/OmTandon
-https://www.gamasutra.com/blogs/PascalBestebroer
-https://www.gamasutra.com/blogs/PaulTozour
-https://www.gamasutra.com/blogs/PhilippeRinguetteAngrignon
-https://www.gamasutra.com/blogs/RonDippold
-https://www.gamasutra.com/blogs/RyanSumo
-https://www.gamasutra.com/blogs/SamanthaStahlke
-https://www.gamasutra.com/blogs/SergeiAnankin
-https://www.gamasutra.com/blogs/ShayPierce
-https://www.gamasutra.com/blogs/SimonCarless
-https://www.gamasutra.com/blogs/TaekwanKim
-https://www.gamasutra.com/blogs/ThomasGrip
-https://www.gamasutra.com/blogs/TommyThompson
-https://www.gamasutra.com/blogs/TynanSylvester
-https://www.gamasutra.com/blogs/VictoriaTran
-https://www.gamasutra.com/blogs/XanderMarkham
-https://www.gameai.com/blogs.php
-https://www.gameinformer.com/themes/blogs
-https://www.gamesbyangelina.org
-https://www.getdnote.com
-https://www.git-tower.com
-https://www.godpatterns.com
-https://www.gridsagegames.com/blog/
-https://www.guardian.co.uk/news/datablog
-https://www.hamvocke.com
-https://www.hastac.org/blogs/danicasavonick
-https://www.heavy-backpack.com
-https://www.humus.name/index.php
-https://www.hytradboi.com
-https://www.iasc-culture.org
-https://www.ibm.com/blogs/watson
-https://www.infoq.com/minibooks
-https://www.insidehighered.com/blogs/just-visiting
-https://www.instituteforgovernment.org.uk/blog
-https://www.intelligent-artifice.com
-https://www.inter-alia.net
-https://www.interpretermag.com
-https://www.jamieoliver.com
-https://www.jgoertler.com/
-https://www.joelonsoftware.com
-https://www.johnath.com
-https://www.johndcook.com
-https://www.jonas-kyratzes.net
-https://www.josephkirwin.com
-https://www.justsecurity.org
-https://www.keenandgraev.com
-https://www.kickstarter.com
-https://www.kittywumpus.net
-https://www.lawfareblog.com
-https://www.lawyersgunsmoneyblog.com
-https://www.learnpyqt.com
-https://www.lesswrong.com
-https://www.lichun.cc
-https://www.loc.gov/teachers/classroommaterials
-https://www.local-guru.net
-https://www.maccima.ph/post/game-ai
-https://www.majid.info
-https://www.math3ma.com
-https://www.mattkenney.me
-https://www.mediamatters.org/blog
-https://www.mikeash.com
-https://www.mmorpg.com
-https://www.molleindustria.org
-https://www.msnbc.com/the-reidout/reidout-blog
-https://www.mymodernmet.com
-https://www.ncameron.org/blog/how-the-rls-works/
-https://www.nerve.com/
-https://www.newyorker.com/online/blogs/books
-https://www.nonteek.com
-https://www.nullpointer.co.uk
-https://www.nypl.org
-https://www.openphilanthropy.org
-https://www.oreillynet.com/mac/blog
-https://www.pamelajhobart.com
-https://www.patheos.com/blogs/foxyfolklorist
-https://www.paulgraham.com
-https://www.pawfal.org/dave
-https://www.philipotoole.com
-https://www.philipzucker.com
-https://www.pixelpoppers.com
-https://www.play-crafts.com
-https://www.pluralsight.com
-https://www.politics.co.uk/blogs
-https://www.portlandmercury.com
-https://www.poynter.org/how-tos
-https://www.prettygooddesign.org
-https://www.programmingforbeginnersbook.com
-https://www.psmag.com/navigation/nature-and-technology
-https://www.psychologytoday.com/blog/the-science-success
-https://www.psychologytoday.com/blog/the-scientific-fundamentalist
-https://www.quinion.com
-https://www.raphkoster.com
-https://www.raulpacheco.org
-https://www.rebelcircus.com
-https://www.ribbonfarm.com
-https://www.riedlanna.com/
-https://www.robinsloan.com
-https://www.samharris.org
-https://www.sandimetz.com/
-https://www.sarenaulibarri.com
-https://www.scattered-thoughts.net
-https://www.schneier.com
-https://www.sciencenews.org
-https://www.scotusblog.com
-https://www.slate.com/blogs/browbeat
-https://www.slate.com/blogs/future_tense
-https://www.slate.com/blogs/outward
-https://www.slate.com/blogs/quora
-https://www.slate.com/blogs/xx_factor
-https://www.snakelinksonic.com/
-https://www.snapfon.com
-https://www.snaptest.io
-https://www.soldak.com/Blogs/Steven
-https://www.somasim.com
-https://www.sourcetrail.com
-https://www.springboard.com
-https://www.statsblogs.com
-https://www.stephendiehl.com
-https://www.studica.com
-https://www.studioaka.co.uk/jojo/
-https://www.techdirt.com
-https://www.the-syllabus.com
-https://www.thearticulateautistic.com
-https://www.thebookoflife.org
-https://www.thecepblog.com
-https://www.thedailybeast.com
-https://www.theguardian.com/books/booksblog
-https://www.theguardian.com/news/datablog
-https://www.theguardian.com/science/brain-flapping
-https://www.thelongtail.com
-https://www.thenation.com
-https://www.theopennotebook.com
-https://www.theparisreview.org
-https://www.thewhoresofyore.com
-https://www.thinktsalagi.com/blog
-https://www.tor.com/blogs
-https://www.vam.ac.uk/blog/digital
-https://www.vera.org/blog/dispatches-from-germany
-https://www.vincit.fi/en/blog
-https://www.washingtonpost.com/amphtml/blogs/plum-line
-https://www.washingtonpost.com/blogs/wonkblog
-https://www.wilfred.me.uk/blog
-https://www.wired.com
-https://www.wrld3d.com/blog
-https://www.youhaventlived.com/qblog
-https://www.yoyogames.com/blog
-https://www.zephoria.org
-https://www.zerotier.com
-https://xyonline.net
-https://yabas.net
-https://youtube.googleblog.com
-https://zalo.github.io
-https://zang.org
-https://zelo-street.blogspot.com
-https://zpbappi.com
+https://medium.com/thoughts-and-reflections/future-oriented-design-c8b4a458a722
+https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
+https://zora.medium.com/why-i-never-use-stock-photos-of-white-people-e069868160ba
+*** programming
+https://nedbatchelder.com/
 ** Causal Inference
 https://egap.org/resource/10-things-to-know-about-causal-inference/
 
@@ -1915,22 +1950,30 @@ https://www.emacswiki.org/emacs/EmacsTags
 https://www.emacswiki.org/emacs/ModeTutorial
 https://www.emacswiki.org/emacs/SampleMode
 https://www.emacswiki.org/emacs/TagsFile#tags_file
-http://www.emacswiki.org/
-http://www.emacswiki.org/emacs/DvorakKeyboard
-http://www.emacswiki.org/emacs/DynamicAbbreviations
-http://www.emacswiki.org/emacs/ElispCookbook
-http://www.emacswiki.org/emacs/EmacsNewbieWithIcicles
-http://www.emacswiki.org/emacs/EmacsNiftyTricks
-http://www.emacswiki.org/emacs/ExecuteExternalCommand
-http://www.emacswiki.org/emacs/Icicles
-http://www.emacswiki.org/emacs/KeyboardMacrosTricks
-http://www.emacswiki.org/emacs/LoremIpsum
-http://www.emacswiki.org/emacs/MovingTheCtrlKey
-http://www.emacswiki.org/emacs/NoTabs
-http://www.emacswiki.org/emacs/OutlineMinorMode
-http://www.emacswiki.org/emacs/RegularExpression
-http://www.emacswiki.org/emacs/download/thesaurus.el
+https://www.emacswiki.org/
+https://www.emacswiki.org/emacs/DvorakKeyboard
+https://www.emacswiki.org/emacs/DynamicAbbreviations
+https://www.emacswiki.org/emacs/ElispCookbook
+https://www.emacswiki.org/emacs/EmacsNewbieWithIcicles
+https://www.emacswiki.org/emacs/EmacsNiftyTricks
+https://www.emacswiki.org/emacs/ExecuteExternalCommand
+https://www.emacswiki.org/emacs/Icicles
+https://www.emacswiki.org/emacs/KeyboardMacrosTricks
+https://www.emacswiki.org/emacs/LoremIpsum
+https://www.emacswiki.org/emacs/MovingTheCtrlKey
+https://www.emacswiki.org/emacs/NoTabs
+https://www.emacswiki.org/emacs/OutlineMinorMode
+https://www.emacswiki.org/emacs/RegularExpression
+https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://www.jendrikillner.com/article_database/ - graphics programming weekly
+https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/
+https://mgsvmoddingwiki.github.io/
+https://www.moddb.com/games/dawn-of-war-ii-retribution/addons/dow2-mod-tools
+https://docs.google.com/document/u/0/d/1T0C6u4Pua8wON1smf9XfFm7e0NQ4lmSGfQPO5JxRdVY/mobilebasic - dow2 modding guide
+https://www.nexusmods.com/dawnofwar2retribution/mods/42
+https://dow2mod.fandom.com/wiki/DoW_II_Modding_Wiki
+https://developer.valvesoftware.com/wiki/SDK_Docs
 https://github.com/OpenXRay/xray-16
 http://allenchou.net/2015/04/game-math-numeric-springing-examples/
 http://arcengames.com/ai-war-first-four-years-postmortem-and-by-extension-arcen-history/
@@ -1944,7 +1987,7 @@ http://basound.com/case-studies-music-borderlands/
 http://blog.madsoftgames.com/post/92643631360/we-can-build-them-better-stronger-smarter
 http://blog.mattbierner.com/stupid-template-tricks-super-template-tetris/
 http://blog.mattnewport.com/why-c17-is-the-new-programming-language-for-games-i-want/
-http://blog.patrick-scott.com/#_=_
+http://blog.patrick-scott.com/
 http://blogs.unity3d.com/2010/01/14/2010-trends/
 http://boingboing.net/2013/09/25/manyland-a-virtual-world-wher.html
 http://boingboing.net/2013/11/06/regex-runner-a-game-to-teach.html#more-266705
@@ -2096,8 +2139,6 @@ https://libgdx.com/dev/
 https://lindenreid.wordpress.com/all-tutorials/
 https://love2d.org/
 https://magicfissile.tumblr.com/post/74278402763/par-intrinsic-vs-extrinsic-rewards-in-kleis
-https://medium.com/@alexiskennedy/alexis-kennedy-on-the-cultist-simulator-the-way-through-the-wood-part-1-c53ca6a39e0
-https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2
 https://procedural-generation.tumblr.com/post/190625480383/lennas-inception-after-a-long-development-cycle
 https://rogueliketutorials.com/tutorials/tcod/v2/part-0/
 https://screeps.com/
@@ -2132,7 +2173,7 @@ https://www.gamasutra.com/view/news/300314/Environment_art_isnt_about_making_pre
 https://www.gamedev.net/
 https://www.gamedeveloper.com/production/how-darkest-dungeon-ii-s-developers-evolved-their-early-access-process
 https://www.gamedeveloperstudio.com/                                                                           :  Game Developer Studio
-https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx?utm_content=bufferbe277&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx
 https://www.gaslampgames.com/2016/10/19/my-favourite-icons/
 https://www.gridsagegames.com/blog/
 https://www.gridsagegames.com/blog/2019/11/movement-qol/
@@ -2178,6 +2219,8 @@ https://www.youtube.com/watch?v=lHLpKzUxjGk
 https://www.zachtronics.com/
 https://yanderesimulator.com/
 ** Games
+https://scribblenauts.fandom.com/wiki/Scribblenauts_Wiki
+https://www.guidesnotincluded.com/ - oxygen not included
 https://www.micromacro-game.com/en/extracontent.html
 http://arcengames.com/mediawiki/index.php?title=AI_War%3AFleet_Command#Expansions
 http://arcengames.com/mediawiki/index.php?title=AI_War:Fleet_Command#Expansions
@@ -2237,17 +2280,19 @@ https://wiki.teamfortress.com/wiki/Medieval_mode#Chat_parser
 https://www.northernlion-db.com/                                                                               :  The NorthernLion Database
 https://zeldamods.org/wiki/
 https://zeldamods.org/wiki/Beco
-wow.allakhazam.com/wiki/Quest_Hub
-www.bulletphysics.com/mediawiki-1.5.8/index.php?title=Main_Page
-www.ckiiwiki.com/Crusader_Kings_II_Wiki
-www.dosbox.com/wiki/Basic_Setup_and_Installation_of_DosBox
-www.minecraftwiki.net/wiki/Minecraft_Wiki
-www.prison-architect.com/wiki
-www.shikadi.net/keenwiki/Main_Page
-www.uesp.net/wiki
-www.wowwiki.com
+https://wow.allakhazam.com/wiki/Quest_Hub
+https://www.bulletphysics.com/mediawiki-1.5.8/index.php?title=Main_Page
+https://www.ckiiwiki.com/Crusader_Kings_II_Wiki
+https://www.dosbox.com/wiki/Basic_Setup_and_Installation_of_DosBox
+https://www.minecraftwiki.net/wiki/Minecraft_Wiki
+https://www.prison-architect.com/wiki
+https://www.shikadi.net/keenwiki/Main_Page
+https://www.uesp.net/wiki
+https://www.wowwiki.com
 
 ** Github
+https://github.com/dhowe/adnauseam
+https://github.com/VCVRack/Rack
 https://ganelson.github.io/inform/index.html
 https://github.com/Shopify/liquid/wiki/liquid-for-designers
 https://github.com/commonsense/conceptnet5/wiki/API
@@ -2278,8 +2323,7 @@ https://github.com/torch/torch7/wiki/Cheatsheet
 https://jolantahuba.github.io/YT-Backup/
 https://scipy.github.io/old-wiki/pages/Cookbook/SavitzkyGolay
 
-** Itchio
-
+** Itch.io
 http://delca.itch.io/town
 http://jamespatton.itch.io/masques-and-murder
 http://managore.itch.io/planetarium
@@ -2344,6 +2388,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Programming
+https://gnucobol.sourceforge.io/HTML/gnucobpg.html
 https://github.com/nikitadanilov/3-lisp
 https://aphyr.com/
 [[https://nbviewer.jupyter.org/github/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb#topic=0&lambda=1&term=][python nlp]]
@@ -2355,7 +2400,7 @@ https://aphyr.com/
 [[http://bloom-lang.net/features/][bud]]
 [[http://connelhooley.uk/blog/2017/04/10/f-sharp-guide][c# guide to f#]]
 https://wiki.python.org/moin/Generators
-wiki.python.org/moin/HowTo/Sorting
+https://wiki.python.org/moin/HowTo/Sorting
 https://wiki.lineageos.org/devices/i9100/install
 https://slick.cokeandcode.com/wiki/doku.php?id=tutorials
 https://theantlrguy.atlassian.net/wiki/display/ANTLR4/JavaScript+Target
@@ -2367,8 +2412,8 @@ https://status.python.org/
 https://wiki.haskell.org/All_About_Monads#The_Continuation_monad
 https://en.wikibooks.org/wiki/Haskell/Monad_transformers
 https://wikicoding.org/wiki/c/Tomohiko_Sakamoto%27s_Algorithm/
-pcg.wikidot.com/category-pcg-algorithms
-wikicoding.org/wiki/c/Tomohiko_Sakamoto%27s_Algorithm/
+https://pcg.wikidot.com/category-pcg-algorithms
+https://wikicoding.org/wiki/c/Tomohiko_Sakamoto%27s_Algorithm/
 https://rosettacode.org/wiki/Category:Solutions_by_Programming_Task
 https://rosettacode.org/wiki/Rosetta_Code
 https://wiki.haskell.org/Gtk2Hs/Mac
@@ -2394,7 +2439,6 @@ http://io9.com/the-essential-cyberpunk-reading-list-1714180001
 http://marhicks.com/syllabi.html#womenincomputing
 http://www.betsydisalvo.com/
 https://anarchopac.wordpress.com/2013/05/31/recommended-reading/amp/
-https://anarchopac.wordpress.com/2013/05/31/recommended-reading/amp/
 https://andrebrock.academia.edu/
 https://anti-intelligence.space/reading_group/
 https://blogs.lt.vt.edu/futurecities/reading-list/
@@ -2419,8 +2463,34 @@ https://www.taylorfrancis.com/books/edit/10.4324/9781315302430/organizational-sp
 https://www.theschooloflife.com/thebookoflife/how-to-read-fewer-books/
 https://www.uu.nl/en/research/game-research/research/publications
 https://www.wzchen.com/data-science-books
+** Grammar
+https://www.merriam-webster.com/grammar/
+** Wiki
+https://en.m.wikipedia.org/wiki/Data_vault_modeling
+https://en.m.wikipedia.org/wiki/Data_warehouse
+https://en.wikipedia.org/wiki/History_of_software_configuration_management
+https://en.wikipedia.org/wiki/Infrastructure_as_code
+https://en.wikipedia.org/wiki/Chain_of_trust
+https://en.wikipedia.org/wiki/Reproducible_builds
+https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
+** Shopping
+https://www.thefreshfishshop.com
+https://thefishsociety.co.uk
+https://finefoodspecialist.co.yk
+https://britbuyer.co.uk
+** Jobs
+https://jobs.co.uk/
+https://www.cv-library.co.uk/
+
 * Resources / Assets
+** APIs
+https://archive.org/developers/index.html
+https://www.oldbaileyonline.org/about/docapi
+http://developer.nytimes.com/
+https://github.com/subat0mik/Misconfiguration-Manager - windows
+
 ** Archive
+https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 https://archive.org/details/cbk                                                                                :  Archive.org Cookbook Collection
 https://archive.org/details/noise-arch                                                                         :  Archive.org noise music collection
@@ -2437,110 +2507,13 @@ https://www.britishnewspaperarchive.co.uk/search                                
 https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/                                :  University of Glasgow Digital Collections
 https://www.newspapers.com/papers/                                                                             :  Newspapers.com
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
+https://www.walter-benjamin.online/
 ** Cities
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
-** Datasets
-http://apps.ecmwf.int/datasets/
-http://blog.webkid.io/datasets-for-machine-learning/
-http://boingboing.net/2015/07/21/almost-ever-reddit-comment-as.html
-http://conceptnet5.media.mit.edu/
-http://corpus.byu.edu/
-http://cs.stanford.edu/~althoff/raop-dataset/
-http://deim.urv.cat/~alexandre.arenas/data/welcome.htm
-http://developer.nytimes.com/
-http://en.wikipedia.org/wiki/Word_lists_by_frequency
-http://justicetechlab.org/data/
-http://kolesnikov.ga/Datasets_in_Python/
-http://lib.stat.cmu.edu/DASL/
-http://mizar.org/project/
-http://networkdata.ics.uci.edu/data.php
-http://parl.ai/projects/light/
-http://realitycommons.media.mit.edu/badgedataset1.html
-http://realitycommons.media.mit.edu/badgedataset2.html
-http://realitycommons.media.mit.edu/friendsdataset1.html
-http://realitycommons.media.mit.edu/realitymining1.html
-http://realitycommons.media.mit.edu/socialevolution.html
-http://realitycommons.media.mit.edu/socialevolution1.html
-http://rhizome.org/editorial/2016/nov/21/simulating-enron/
-http://rs.io/100-interesting-data-sets-for-statistics/
-http://safetydata.fra.dot.gov/officeofsafety/default.aspx
-http://scdb.wustl.edu/data.php
-http://scdb.wustl.edu/documentation.php
-http://seshatdatabank.info/
-http://snap.stanford.edu/data/
-http://snap.stanford.edu/quotus/#data
-http://snap.stanford.edu/quotus/srcdata/quotes_json-readme.txt
-http://snap.stanford.edu/quotus/srcdata/transcripts-readme.txt
-http://socialphysics.media.mit.edu/
-http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/
-http://vene.ro/betrayal/#data
-http://verbs.colorado.edu/~mpalmer/projects/verbnet.html
-http://verbs.colorado.edu/~mpalmer/projects/verbnet/downloads.html
-http://victorianhumour.com/jokedb/
-http://vlado.fmf.uni-lj.si/pub/networks/data/UciNet/UciData.htm
-http://wordnet.princeton.edu/
-http://www-personal.umich.edu/~mejn/netdata/
-http://www.cs.rochester.edu/research/cisd/resources/
-http://www.darpa.mil/our-research
-http://www.fda.gov/cder/ob/default.htm
-http://www.fec.gov/disclosurep/PDownload.do
-http://www.hansard-archive.parliament.uk/
-http://www.hansard-archive.parliament.uk/The_Official_Report,_House_of_Lords_(5th_Series)_Vol_1_(Jan_1909)_to_2004
-http://www.hansard-corpus.org/
-http://www.image-net.org/
-http://www.legislation.gov.uk/ukpga
-http://www.ncbi.nlm.nih.gov/
-http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml
-http://www.nyclu.org/content/stop-and-frisk-data
-http://www.openculture.com/2018/01/10000-classic-movie-posters-getting-digitized-put-online-by-the-harry-ransom-center.html
-http://www.people-press.org/
-http://www.pewglobal.org/category/datasets/
-http://www.pewresearch.org/
-http://www.priceofweed.com/
-http://www.product-open-data.com/en/1-home.html
-http://www.senate.gov/reference/common/faq/how_to_committe_hrg.htm
-http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
-http://www.usna.edu/Users/cs/nchamber/data/schemas/acl09/
-https://archive.org/details/ird059
-https://boingboing.net/2014/12/16/37k-sentiment-analysis-words-a.html
-https://boingboing.net/2017/01/27/fbi-releases-declassified-game.html
-https://catalog.data.gov/dataset/tax-ideas-submitted-by-the-public
-https://dblp.uni-trier.de/xml/
-https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
-https://github.com/minimaxir/big-list-of-naughty-strings
-https://github.com/notioncollective/propublica-congress-node
-https://googlebooks.byu.edu/x.asp
-https://journals.plos.org/plosone/article
-https://medium.com/startup-grind/fueling-the-ai-gold-rush-7ae438505bc2#.hkx0xe0mj
-https://oasis.geneseo.edu/
-https://opendata.stackexchange.com/questions/1767/data-of-vehicle-traffic
-https://openfootball.github.io/
-https://openlibrary.org/developers/dumps
-https://osf.io/institutions/a2jlab/
-https://ourworldindata.org/homicides
-https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/
-https://snap.stanford.edu/data/web-Amazon.html
-https://towardsdatascience.com/on-optimally-squishing-large-datasets-9276776cf0cb
-https://towardsdatascience.com/use-kaggle-to-start-and-guide-your-ml-data-science-journey-f09154baba35?gi=67279a870d21
-https://urbansounddataset.weebly.com/                                                                          :  Urban Sound Dataset
-https://www.british-history.ac.uk/catalogue
-https://www.congress.gov/bill/114th-congress/house-bill/1735/all-actions?overview=closed
-https://www.cs.cmu.edu/~./enron/
-https://www.cs.rochester.edu/research/cisd/resources/                                                          :  Conversational Interaction and Spoken Dialogue Research Group Resources
-https://www.oldbaileyonline.org/static/DocAPI.jsp
-https://www.parliament.uk/archives
-https://www.reddit.com/r/DataHoarder/comments/8dn03t/16000_bbc_sound_effects_wavs_now_available_online/
-https://www.rstreet.org/2019/04/04/supreme-court-confirmation-hearing-transcripts-as-data/
-https://www.soundsurvey.org.uk/index.php/history/street_cries/usa/612/3370
-https://www.springboard.com/blog/data-mining-python-tutorial/
-https://www.techdirt.com/articles/20140805/12031528117/fcc-releases-all-net-neutrality-comments-as-giant-xml-files-data-analysis.shtml
-https://www.walter-benjamin.online/
-https://zenodo.org/ - dataset doi's
 ** Fonts
 http://boingboing.net/2014/01/30/creatingafont.html
 http://etherealmind.com/cli-font-aliasing-font-choice-terminal/
-http://www.1001freefonts.com/sci-fi-fonts.php
 http://www.blacktable.com/fontova040603.htm
 http://www.tekrevue.com/tip/chrome-font-rendering-windows/
 https://developer.apple.com/fonts/TrueType-Reference-Manual/
@@ -2553,6 +2526,7 @@ https://tex.stackexchange.com/questions/12887/is-there-a-list-available-for-all-
 https://vusd.github.io/spacesheet/
 https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/latexcommands.htm
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
+https://chevyray.itch.io/pixel-font-megapack
 ** Government
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 http://lcweb2.loc.gov/cgi-bin/ampage?fileName=rbc0001_2003gen37813page.db&collId=rbc3                          :  Library of Congress Digital Collections
@@ -2563,6 +2537,10 @@ https://www.federalregister.gov/                                                
 https://www.loc.gov/collections/                                                                               :  Library of Congress Digital Collections 2
 https://www.loc.gov/free-to-use/cats                                                                           :  Library of Congress: Cats
 ** Image
+https://colordesigner.io/
+https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
+https://simonschreibt.de/gat/windows-ac-row-ininite/#update8
+https://johnnygizmo.gumroad.com/l/zttus
 http://arabimagefoundation.com/                                                                                :  Arab Image Foundation
 http://envelopecollection.com/                                                                                 :  Envelope Collection
 http://oldradio.ru/logos/index.shtml                                                                           :  Soviet Radio Logos
@@ -2623,8 +2601,6 @@ https://la.curbed.com/maps/roadside-architecture-programmatic-mimetic
 https://openknowledgemaps.org/
 https://www.davidrumsey.com/                                                                                   :  David Rumsey Map Collection
 ** Museums and Libraries
-
-http://lcweb2.loc.gov/cgi-bin/ampage?fileName=rbc0001_2003gen37813page.db&collId=rbc3                          :  Library of Congress Digital Collections
 https://bll01.primo.exlibrisgroup.com/discovery/search?vid=44BL_INST:BLL01&lang=en : British library
 https://blogs.cul.columbia.edu/rbml/2018/09/10/collections-news-albert-field-playing-cards-go-online/          :  Columbia University Library Playing Cards
 https://blogs.library.duke.edu/preservation/2019/04/26/quick-pic-choose-your-sumo-hairstyle/                   :  Duke University Libraries: Sumo Hairstyles
@@ -2643,7 +2619,8 @@ https://www.loc.gov/free-to-use/cats                                            
 https://www.parismuseescollections.paris.fr/en                                                                 :  Paris Museum Public Collection
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.vam.ac.uk/articles/explore-entartete-kunst-the-nazis-inventory-of-degenerate-art#?c=&m=&s=&cv=     :  Victoria and Albert Museum: Entartete Kunst inventory
-https://www.vam.ac.uk/collections?type=featured                                                                :  Victoria and Albert Museum collections
+
+https://yorsearch.york.ac.uk/primo-explore/collectionDiscovery?vid=44YORK-NUI&collectionId=81351305970001381 : uni of york dissertations
 ** People
 http://acg.media.mit.edu/people/fry/index.html
 http://ai.eecs.umich.edu/people/laird/
@@ -2860,7 +2837,7 @@ https://www.aljazeera.com/indepth/inpictures/record-71-million-people-forcibly-d
 https://www.bloomberg.com/opinion/articles/2019-06-17/how-housing-finance-enriched-whites-at-expense-of-black-borrowers
 https://www.buzzfeed.com/mjs538/straight-people-do-this-but-23-of-gay-people-are
 https://www.c64-wiki.com/wiki/Little_Computer_People
-https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/?utm_term=2019-09-06T21%3A38%3A14&utm_content=edit-promo&utm_source=twitter&utm_campaign=citylab&utm_medium=social
+https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/
 https://www.cl.cam.ac.uk/~nk480/
 https://www.cs.ox.ac.uk/people/yarin.gal/website/blog_3d801aa532c1ce.html
 https://www.currentaffairs.org/2017/10/people-literally-do-not-understand-what-laws-are-or-how-they-work
@@ -2905,7 +2882,7 @@ https://www.techdirt.com/blog/casestudies/articles/20121205/23530421253/people-r
 https://www.techdirt.com/blog/casestudies/articles/20121210/12422821338/infographic-people-will-pay-to-support-creators-even-when-free-is-option.shtml
 https://www.telegraph.co.uk/women/life/gender-neutral-bathrooms-womens-prisons-time-trans-people-carried/
 https://www.theatlantic.com/ideas/archive/2019/06/ibram-x-kendi-opposing-reparations-racist/592060/
-https://www.theatlantic.com/science/archive/2019/05/medieval-people-were-already-ruining-fish/589837/?utm_medium=social&utm_content=edit-promo&utm_term=2019-05-21T12%3A05%3A11&utm_source=twitter&utm_campaign=the-atlantic
+https://www.theatlantic.com/science/archive/2019/05/medieval-people-were-already-ruining-fish/589837
 https://www.thecanary.co/uk/2018/09/05/the-dwp-is-spying-on-disabled-people-and-causing-a-human-rights-emergency/
 https://www.thedailybeast.com/how-both-sides-journalism-is-failing-transgender-people
 https://www.theguardian.com/commentisfree/2014/jul/04/black-people-vanilla-ice-cream-jim-crow-independence-day?CMP=twt_gu
@@ -2926,7 +2903,7 @@ https://www.washingtonpost.com/amphtml/outlook/bad-science-puts-innocent-people-
 https://www.washingtonpost.com/local/trafficandcommuting/more-people-died-in-car-crashes-this-century-than-in-both-world-wars/2019/07/21/0ecc0006-3f54-11e9-9361-301ffb5bd5e6_story.html?utm_term=.52fe5b35036a
 https://www.washingtonpost.com/opinions/black-people-arent-keeping-white-americans-out-of-college-rich-people-are/2017/08/04/e478952e-794a-11e7-8f39-eeb7d3a2d304_story.html
 https://www.washingtonpost.com/politics/2018/10/11/are-people-day-trafficked-right-front-our-eyes-nope/
-https://www.wired.com/story/the-world-might-actually-run-out-of-people/?utm_source=twitter&utm_campaign=wired&utm_medium=social&utm_social-type=owned&utm_brand=wired&mbid=social_twitter
+https://www.wired.com/story/the-world-might-actually-run-out-of-people
 https://www.zinnedproject.org/news/tdih/amistad-mutiny/
 https://zora.medium.com/why-i-never-use-stock-photos-of-white-people-e069868160ba
 ** Reference
@@ -2935,13 +2912,14 @@ https://refugeecouncil.org.uk/resource-category/guides-for-refugees/            
 https://reference.pictures/                                                                                    :  Reference Photos
 https://www.dimensions.com/                                                                                    :  Dimensions.com
 ** Search
+https://duckduckgo.com/duckduckgo-help-pages/company/
+https://www.cochranelibrary.com/search?cookiesEnabled
 https://tineye.com/                                                                                            :  Tin Eye Reverse Image Search
 https://unsplash.com/                                                                                          :  Unsplash
 http://audiobookvault.ws/
-
+https://guides.library.duke.edu/az.php : research databases
 
 ** Sound
-
 https://blogs.bl.uk/sound-and-vision/2018/11/recording-of-the-week-a-duet-for-ugandan-lyres.html               :  A Duet for Ugandan Lyres
 https://dasg.ac.uk/?lang=en                                                                                    :  Digital Archive of Scottish Gaelic
 https://dischord.bandcamp.com/                                                                                 :  Discord Records Bandcamp
@@ -3000,6 +2978,13 @@ https://tvtropes.org/pmwiki/pmwiki.php/Main/ImNotAfraidOfYou
 https://www.huffingtonpost.co.uk/entry/bonding-netflix-bdsm_uk_5cc6d485e4b0fd8e35bf1d62?ncid=other_twitter_cooo9wqtham&utm_campaign=share_twitter&guccounter=1
 https://www.teenvogue.com/story/bert-and-ernie-sesame-street-gay
 ** Universities and Academia
+https://openreview.net/
+https://opencitations.net/index/api/v1/
+https://osf.io/institutions
+https://journals.plos.org/plosone/browse/
+http://www.darpa.mil/our-research
+https://www.ecmwf.int/ : climate research
+https://cbsr.ucr.edu/
 https://blogs.cul.columbia.edu/rbml/2018/09/10/collections-news-albert-field-playing-cards-go-online/          :  Columbia University Library Playing Cards
 https://blogs.library.duke.edu/preservation/2019/04/26/quick-pic-choose-your-sumo-hairstyle/                   :  Duke University Libraries: Sumo Hairstyles
 https://commons.princeton.edu/soviet/                                                                          :  Princeton Visual language of Soviety Childrens books
@@ -3012,6 +2997,18 @@ https://www.cs.rochester.edu/research/cisd/resources/                           
 https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/                                :  University of Glasgow Digital Collections
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
+** researchers
+https://scholar.google.com/citations?hl=en&user=-czmBZcAAAAJ&view_op=list_works&sortby=pubdate - barbara czarniawska
+** Web App
+https://fakeyou.com/text-to-image
+https://www.autodraw.com/
+https://q.uiver.app/  - diagrams, latex
+https://makemeacocktail.com/ - cocktails
+https://bodyvisualizer.com/ - bodies
+https://tailornova.com/ - clothes
+https://www.symbolab.com/ - math
+https://temp-mail.org/ - mail
+https://musclewiki.com/ - muscles
 ** Youtube channels
 http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
 http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
@@ -3591,5 +3588,209 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
+* Digital Collections
+https://opencitations.net/index/api/v1/
+https://www.c82.net/iconography/
+https://www.senate.gov/art-artifacts/historical-images-landing-page.htm
+https://archives.parliament.uk/our-collections/
+https://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1
+https://www.si.edu/openaccess/devtools
+https://www.metmuseum.org/art/collection/search
+https://www.clevelandart.org/art/collection/search
+https://www.si.edu/search/collection-images
+https://www.britishmuseum.org/collection
+https://parismuseescollections.paris.fr/en/recherche/image-libre/1
+https://www.loc.gov/collections/
+https://dlc.library.columbia.edu/
+https://repository.duke.edu/dc?f%5Bcommon_model_name_ssi%5D%5B%5D=Collection
+https://news-navigator.labs.loc.gov/search
+https://digital.library.illinois.edu/
+https://ufdc.ufl.edu/collections
+https://www.british-history.ac.uk/catalogue
+https://www.digitalcommonwealth.org/collections
+https://www.vam.ac.uk/collections?type=featured
+https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online
+* Datasets
+** Audio
+https://www.reddit.com/r/DataHoarder/comments/8dn03t/16000_bbc_sound_effects_wavs_now_available_online/
+https://www.soundsurvey.org.uk/index.php/history/street_cries/usa/612/3370
+https://urbansounddataset.weebly.com/                                                                          :  Urban Sound Dataset
+https://archive.org/details/ird059 : numbers stations
+** Concept net / verbnet
+http://wordnet.princeton.edu/
+http://verbs.colorado.edu/~mpalmer/projects/verbnet.html
+http://verbs.colorado.edu/~mpalmer/projects/verbnet/downloads.html
+http://conceptnet5.media.mit.edu/
+http://www.image-net.org/
+** Dblp
+https://dblp.uni-trier.de/xml/
+** Drugs
+https://www.priceofweed.com/
+** Enron emails
+https://www.cs.cmu.edu/~./enron/
+http://rhizome.org/editorial/2016/nov/21/simulating-enron/
+** Games
+https://openfootball.github.io/
+http://parl.ai/projects/light/
+http://vene.ro/betrayal/#data
+** Government agencies
+https://catalog.data.gov/dataset/
+https://www.ncbi.nlm.nih.gov/
+https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book
+https://www.fec.gov/data/candidates/president/?election_year=2024&cycle=2024&election_full=true
+https://cspp.ippsr.msu.edu/congress/ - congress data
+https://github.com/IPPSR/congressData
+** History
+https://seshat-db.com/
+http://seshatdatabank.info/
+** Language corpora
+https://github.com/marcoguerini/DepecheMood/releases
+https://www.cs.rochester.edu/research/cisd/resources/                                                          :  Conversational Interaction and Spoken Dialogue Research Group Resources
+https://github.com/minimaxir/big-list-of-naughty-strings
+https://www.techdirt.com/articles/20140805/12031528117/fcc-releases-all-net-neutrality-comments-as-giant-xml-files-data-analysis.shtml
+http://boingboing.net/2015/07/21/almost-ever-reddit-comment-as.html
+https://www.english-corpora.org//
+http://cs.stanford.edu/~althoff/raop-dataset/ : pizza requests
 
+http://en.wikipedia.org/wiki/Word_lists_by_frequency
+** Licenses
+https://docs.opentermsarchive.org/
+** Math
+http://mizar.org/project/
+** Metadata
+https://openlibrary.org/developers/dumps
+https://data.rijksmuseum.nl/object-metadata/download/
+** Misc
+http://rs.io/100-interesting-data-sets-for-statistics/
+https://dasl.datadescription.com/datafiles/
+http://www.openculture.com/2018/01/10000-classic-movie-posters-getting-digitized-put-online-by-the-harry-ransom-center.html
+https://ourworldindata.org/
+https://zenodo.org/ - dataset doi's
+** Narrative
+https://www.usna.edu/Users/cs/nchamber/data/schemas/acl09/
+https://web.archive.org/web/20221114184919/https://sites.ualberta.ca/~urban/Projects/English/Motif_index.htm
+http://www.mftd.org/ - multilingual folk tale database
+
+** Networks/graphs
+http://www-personal.umich.edu/~mejn/netdata/
+http://vlado.fmf.uni-lj.si/pub/networks/data/UciNet/UciData.htm
+http://snap.stanford.edu/data/
+http://snap.stanford.edu/quotus/#data
+http://snap.stanford.edu/quotus/srcdata/quotes_json-readme.txt
+http://snap.stanford.edu/quotus/srcdata/transcripts-readme.txt
+https://snap.stanford.edu/data/web-Amazon.html
+
+http://deim.urv.cat/~alexandre.arenas/data/welcome.htm
+** Organisation
+https://www.gov.uk/government/publications/department-for-transport-and-ndpb-structure-charts-organisational-and-salary-disclosure-data
+** Palestine
+https://data.techforpalestine.org/
+** Pew research
+https://www.pewresearch.org/religion/religious-landscape-study/
+https://www.pewresearch.org/topic/politics-policy/
+http://www.pewglobal.org/category/datasets/
+http://www.pewresearch.org/
+** Policing / crime
+https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
+https://ourworldindata.org/homicides
+https://vault.fbi.gov/
+https://vault.fbi.gov/gamergate/Gamergate%20Part%2001%20of%2001/view : gamergate
+https://justicetechlab.org/data/
+https://www.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+http://www.nyclu.org/content/stop-and-frisk-data
+http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
+** Pronounciation
+http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/
+** Reality commons
+http://socialphysics.media.mit.edu/
+http://realitycommons.media.mit.edu/badgedataset1.html
+http://realitycommons.media.mit.edu/badgedataset2.html
+http://realitycommons.media.mit.edu/friendsdataset1.html
+http://realitycommons.media.mit.edu/realitymining1.html
+http://realitycommons.media.mit.edu/socialevolution.html
+http://realitycommons.media.mit.edu/socialevolution1.html
+** Regulation / safety
+https://www.congress.gov/bill/115th-congress/house-bill/1735/all-actions?overview=closed
+https://www.senate.gov/legislative/bills_acts_laws.htm
+http://safetydata.fra.dot.gov/officeofsafety/default.aspx
+https://github.com/notioncollective/propublica-congress-node
+** Judicial
+
+*** UK
+https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service
+https://www.scotcourts.gov.uk/
+https://www.courtsni.gov.uk/
+*** USA
+https://www.rstreet.org/research/supreme-court-confirmation-hearing-transcripts-as-data/
+http://scdb.wustl.edu/data.php
+http://scdb.wustl.edu/documentation.php
+https://www.supremecourt.gov/
+https://www.cand.uscourts.gov/
+https://www.courts.state.co.us
+https://www.justice.gov
+https://www.uscourts.gov/about-federal-courts/court-role-and-structure
+https://www.uscourts.gov/statistics-reports/publications/federal-probation-journal
+https://openjurist.org/us-court/type/appeals-court
+https://www.azcourts.gov/opinions/SearchOpinionsMemoDecs.aspx
+**** Courts of Appeal
+https://www.ca1.uscourts.gov/
+https://www.ca2.uscourts.gov/
+https://www.ca3.uscourts.gov/
+https://www.ca4.uscourts.gov/
+https://www.ca5.uscourts.gov/
+https://www.ca6.uscourts.gov/
+https://www.ca7.uscourts.gov/
+https://www.ca8.uscourts.gov/
+https://www.ca9.uscourts.gov/
+https://www.ca10.uscourts.gov/
+https://www.ca11.uscourts.gov/
+https://www.cadc.uscourts.gov/
+https://cafc.uscourts.gov/
+** Simulations
+https://oasis.geneseo.edu/basic_search.php?type=Interactive%20Simulation
+
+** Traffic
+https://opendata.stackexchange.com/questions/1767/data-of-vehicle-traffic
+https://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm
+https://experience.arcgis.com/experience/e28f77ad6cfc4c14ae8cb20a0e944fc4/page/Page/?org=azgeo
+https://dot.ca.gov/programs/traffic-operations/census
+https://dtdapps.coloradodot.info/otis
+https://www.fdot.gov/agencyresources/mapsanddata.shtm
+https://www.maine.gov/mdot/traffic/
+https://www.dot.state.mn.us/traffic/data/
+https://www.dot.ny.gov/highway-data-services
+https://www.oregon.gov/odot/data/pages/index.aspx
+https://wsdot.wa.gov/about/transportation-data/travel-data/traffic-count-data
+https://data.cityofchicago.org/Transportation/Average-Daily-Traffic-Counts/pfsx-4n4m/about_data
+https://data.arlingtonva.us/
+https://www.dvrpc.org/webmaps/trafficcounts/
+https://www.th.gov.bc.ca/trafficData/
+https://webarchive.nationalarchives.gov.uk/ukgwa/*/http://www.dft.gov.uk/traffic-counts/
+https://www.transport.nsw.gov.au/data-and-research
+https://utd19.ethz.ch/
+** Government
+*** UK
+http://www.legislation.gov.uk/ukpga
+http://www.hansard-archive.parliament.uk/
+http://www.hansard-archive.parliament.uk/The_Official_Report,_House_of_Lords_(5th_Series)_Vol_1_(Jan_1909)_to_2004
+https://www.parliament.uk/archives
+*** USA
+**** Federal
+https://www.congress.gov
+**** State
+https://legiscan.com
+** Wiki
+https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
+https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
+* Broken
+http://blog.webkid.io/datasets-for-machine-learning/
+http://kolesnikov.ga/Datasets_in_Python/
+http://networkdata.ics.uci.edu/data.php
+http://victorianhumour.com/jokedb/
+http://www.hansard-corpus.org/
+http://www.product-open-data.com/en/1-home.html
+https://googlebooks.byu.edu/x.asp
+https://osf.io/institutions/a2jlab/
+https://www.springboard.com/blog/data-mining-python-tutorial/
 * Links

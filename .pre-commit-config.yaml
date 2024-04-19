@@ -1,10 +1,34 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
-    hooks:
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
-    -   id: check-yaml
-    # -   id: check-added-large-files
+-  repo: https://github.com/pre-commit/pre-commit-hooks
+   rev: v3.2.0
+   hooks:
+   -   id: trailing-whitespace
+   -   id: check-yaml
+   -   id: end-of-file-fixer
+       exclude: ".+?.bookmarks$"
+- repo: local
+  hooks:
+    - id: doot
+      name: doot
+      description: Format changed bib files using doot
+      language: system
+      entry: mamba run "-n" "doot-dev" doot "precommit::top"
+      verbose: true
+      require_serial: true
+      stages: [pre-commit]
+    - id: validateMsg
+      name: validate
+      description: checks the commit msg has a tag at the start
+      language: system
+      entry: mamba run "-n" "doot-dev" doot "precommit::validate"
+      stages: [commit-msg]
+    - id: cleanupPdfs
+      name: Clean up PDFs
+      description: Deletes refiled_* files from the todo dir
+      language: system
+      entry: mamba run "-n" "doot-dev" doot "bib::cleanup"
+      verbose: true
+      require_serial: true
+      stages: [post-commit]

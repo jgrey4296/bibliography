@@ -1,0 +1,361 @@
+#+TITLE: Media
+
+* Google
+** Films
+*** Annihilation (2018)
+*** Bird of Prey (2020)
+*** Dune (2021)
+*** Joke (2019)
+*** Mandy (2018)
+*** Nobody (2021)
+*** Nope (2022)
+*** Parasite (2020)
+*** Priscilla Queen of the Desert (1994)
+*** So I Married an Axe Murderer (1993)
+*** Sphere (1998)
+*** Spiderman: No Way Home (2021)
+*** The Adjustment Bureau (2011)
+*** The Batman (2022)
+*** The Death of Stalin (2017)
+*** The Full Monty (1997)
+*** The Lighthouse (2019)
+*** The Menu (2022)
+*** The Thing (1982)
+
+*** Venom: Left There Be Carnage (2021)
+** Shows
+*** Any Human Heart
+*** Burn Notice
+*** Chernobyl
+*** Doctor Who
+*** Fringe
+*** Miracle Workers
+*** Pushing Daisies
+*** The Good Place
+*** Watchmen
+* Apple
+** Films
+*** 10 Cloverfield Lane
+*** Adventureland
+*** Alien Covenant
+*** Argo
+*** Avengers: Age of Ultron
+*** Barbie Fairytopia
+*** Big Hero 6
+*** Birdman
+*** Black Swan
+*** Blade Runner 2049
+*** Captain America: Civil War
+*** Casino Royale
+*** Cast Away
+*** Children of Men
+*** Cloud Atlas
+*** Concert for George
+*** Deadpool
+*** Dune (1985)
+*** Easy A
+*** Elysium
+*** Existenz
+*** Fantasia
+*** Fight Club
+*** Flubber
+*** Frozen
+*** Get Out
+*** Godzilla (2014)
+*** Gravity
+*** Guardians of the Galaxy
+*** Guardians of the Galaxy Vol 2
+*** Hail, Caesar!
+*** Her (2013)
+*** High-Rise
+*** Holes
+*** Inception
+*** Inside Out (2015)
+*** Interstellar
+*** Iron Man 3
+*** Jodorowsky's Dune
+*** Joy
+*** Kedi
+*** Kick Ass
+*** Kingsman
+*** Live Die Repeat
+*** Locke
+*** Logan
+*** Lost River
+*** Metropolis
+*** Moana
+*** Mother!
+*** Ocean's Eleven
+*** Ocean's Thirteen
+*** Ocean's Twelve
+*** Pacific Rim
+*** Scooby-Doo (2002)
+*** Scooby-Doo 2: Monsters Unleashed (2004)
+*** Scooby-Doo and the Alien Invaders (2001)
+*** Scooby-Doo and the Witch's Ghost (1999)
+*** Shark Tale
+*** Shark Tale
+*** Skyfall
+*** Snatch
+*** Sorry to Bother You
+*** Spectre
+*** Spider-man: Homecoming
+*** Spirit: Stallion Of The Cimarron
+*** Straight Outta Compton
+*** The Big Short
+*** The Dark Knight
+*** The Dark Knight Rises
+*** The End of the Tour
+*** The Fountain
+*** The Grand Budapest Hotel
+*** The Hobbit: An Unexpected Journey
+*** The Hobbit: The Desolation of Smaug
+*** The Hunger Games, Mockingjay: Part 1
+*** The Lord of the Rings: The Fellowship of the Ring
+*** The Lord of the Rings: The Return of the King
+*** The Lord of the Rings: The Two Towers
+*** The Martian
+*** The Secret of NIMH
+*** The Secret of NIMH 2
+*** The Social Network
+*** The World's End
+*** The Zero Theorem
+*** Top Secret!
+*** Trumbo (2015)
+*** Up
+*** Us (2019)
+*** Watchmen
+*** Zombieland
+** Shows
+*** Absolute Power
+*** Battlestar Galactica
+*** Billions
+*** Blackadder
+*** Boardwalk Empire
+*** Breaking Bad
+*** Brooklyn Nine-Nine
+*** Burn Notice
+*** Californication
+*** Caprica
+*** Childhood's End
+*** Chuck
+*** Coupling
+*** Cowboy Bebop
+*** Crossbones
+*** Dexter
+*** Dirk Gently's Holistic Detective Agency (2016)
+*** Doctor Who
+*** Dollhouse
+*** Dr Horribles Sing Along Blog
+*** Einstein and Eddington
+*** Fargo
+*** Firefly
+*** Game Of Thrones
+*** Glee
+*** Going Postal
+*** Gravity Falls
+*** Hannibal
+*** How I Met Your Mother
+*** In Treatment
+*** Jonathan Strange & Mr Norrell
+*** Life
+*** Looking For Alaska
+*** Mad Men
+*** Mockingbird Lane
+*** Monk
+*** Mr Robot
+*** Orphan Black
+*** Pan Am
+*** Phineas and Ferb
+*** Psych
+*** Pushing Daisies
+*** Riviera
+*** Sherlock
+*** Sliders
+*** Smash
+*** Taboo
+*** The Armstrong & Miller Show
+*** The Big Bang Theory
+*** The Borgias (2011)
+*** The Expanse
+*** The Good Place
+*** The Inbetweeners
+*** The It Crowd
+*** The Little House
+*** The Mentalist
+*** The Newsroom
+*** The Night Manager
+*** The Simpsons
+*** The Sopranos
+*** The Walking Dead
+*** The West Wing
+*** The Young Pope
+*** Treme
+*** True Blood
+*** Upstairs Downstairs
+*** Wallace & Gromit
+*** Warehouse 13
+*** Watchmen
+*** White Collar
+** Music
+*** The Heavy - The Glorious Dead
+*** The Heavy - Great Vengeance and Furious Fire
+*** The Heavy - The House That Dirt Built
+*** Jungle - For Ever
+*** Jungle - Jungle
+*** Lana Del Rey - Born To Die
+*** The Rapture - Pieces Of The People We Love
+*** The Grand Budapest Hotel OST
+*** Cowboy Bebop OST
+*** Moon OST
+*** Requiem For A Dream OST
+*** Spiritualized - Ladies and Gentlemen We Are In Space
+*** Calvin Harris - Bounce
+*** Dj Fresh - Louder
+*** The National - High Violet
+*** Rihanna - Loud
+*** Pendulum - In Silico
+*** Jona Lewis - You'll Always Find Me In The Kitchen
+*** The National - Exile Viligy
+*** Jack Johnson - Brushfire Fairytales
+*** Electric Light Orchestra - Out Of The Blue
+*** Aloe Blacc - Good Things
+*** LMFAO - Party Rock Anthem
+*** Lady Gaga - The Fame Monster
+*** Incubus - Morning View
+*** Spiritualized - Let It Come Down
+*** Kimmo Pohjonen - Uniko
+*** Jim Guthrie - Sword & Sworcery LP
+*** The Zombies - Original Studio Recordings, Vol 1
+*** Alina Ibragimova - Bach Sonatas & Partitas For Solo Violin
+*** The Andrews Sisters
+*** Dexter OST
+*** Bioshock 2 OST
+*** Audioslave - Revelations
+*** Bear McCreary - Battlestar Sonatica For Solo Piano
+*** Beck - Odelay
+*** Beck - Modern Guilt
+*** Eternal Sunshine For The Spotless Mind OST
+*** Boards Of Canada - Music Has The Right To Children
+*** Bob Dylan - John Wesley Harding
+*** Kronos Quartet - Monk Suite
+*** Kronos Quartet - Golijov
+*** Frank Zappa - Beat The Boots 3
+*** The Gothic Archies - The Tragic Treasury
+*** Jamiroquai - Rock Dust Light Star
+*** Johann Mertz - Strauss : Waltzes
+*** Johnny Hollow - Dirty Hands
+*** Kenny Rogers - Solid Gold
+*** Lou Reed - Metal Machine Music
+*** Marilyn Manson - The High End Of Low
+*** Massive Attack - Mezzanine
+*** Massive Attack - Heligoland
+*** Parliament - Mothership Connection
+*** Paul Simon - Graceland
+*** Pink Floyd - Wish You Were Here
+*** Prince - Parade
+*** REM - Automatic For The People
+*** Red Hot Chili Peppers - By The Way
+*** Red Hot Chili Peppers - Californication
+*** Robin Williams - Weapons Of Self Destruction
+*** Scissor Sisters - Night Work
+*** Simon & Garfunkel - Sounds Of Silence
+*** Squarepusher - Hello Everything
+*** Stereophonics - Just Enough Education To Perform
+*** The White Stripes - Icky Thump
+*** The White Stripes - Elephant
+*** Yeah Yeah Yeahs - It's Blitz!
+* Audible
+* Unlocked
+** Music
+*** Chopin Piano Concertos Nos. 1 & 2
+*** Deadbolt OST
+*** Disasterpeace - FEZ OST
+*** Environmental Station Alpha OST
+*** Gnarls Barkley - St. Elsewhere
+*** Hotline Miami OST
+*** Jamiroquai - A Funk Odyssey
+*** Jamiroquai - Dynamite
+*** Jamiroquai - Emergency on Planet Earth
+*** Jamiroquai - Rock Dust Light Star
+*** Jamiroquai - Synkronized
+*** Jamiroquai - The Return Of The Space Cowboy
+*** Jamiroquai - Travelling Without Moving
+*** Koronos Quartet - Lutoslawski
+*** Kronos Quartet - Black Angels
+*** Lisa OST
+*** Marily Manson - Holy Wood
+*** Marily Manson - Last Tour On Earth
+*** Marily Manson - Lest We Forget
+*** Marily Manson -  Mechanical Animals
+*** Marilyn Manson - Antichrist Superstar
+*** Massive Attack
+*** Miles Davis - Kind Of Blue
+*** Nigel Kennedy & Kroke - East Meets East
+*** Nine Inch Nails - Ghosts I - IV
+*** Nine Inch Nails - Ghosts V
+*** Nine Inch Nails - Ghosts VI
+*** Nine Inch Nails - Still
+*** Nine Inch Nails - The Downward Spiral
+*** Nine Inch Nails - The Fragile
+*** Nine Inch Nails - The Slip
+*** Parliament
+*** Paul Simon
+*** Proteus OST
+*** Risk of Rain OST
+*** Samorost 3 OST
+*** Saul Williams - Niggytardust
+*** Scissor Sisters - Scissor Sisters
+*** The Beatles - Abbey Road
+*** The Daniel Pemberton TV Orchestra - Little Big Planet OST
+*** Undertale OST
+*** XCOM 2 OST
+** Audiobooks
+*** 40k - False Gods
+*** 40k - Fulgrim
+*** 40k - Galaxy In Flames
+*** 40k - Garro Legion Of One
+*** 40k - Garro Oath Of Moment
+*** 40k - Horus Rising
+*** 40k - Prospero
+*** 40k - The Flight Of The Eisenstein
+*** 40k - Thousand Sons
+*** Altered Carbon
+*** Atlas Shrugged
+*** Catch-22
+*** Cyberspace Lost
+*** Day Of The Triffids
+*** Discworld
+*** Down and Out in the Magic Kingdom
+*** I Am Legend
+*** Isaac Asimov - The Last Question
+*** Methuselah's Children
+*** Something Inside
+*** The Demolished Man
+*** The Kraken Wakes
+*** The Ode Less Travelled
+*** The Starts My Destination
+*** The Trial
+*** Tombs Of Atuan
+** Films
+*** Dr Strangelove
+*** Eraserhead
+*** Howl's Moving Castle
+*** Kiki's Delivery Service
+*** My Neighbor Totoro
+*** Nausicaa Of The Valley Of The Wind
+*** Princess Mononoke
+*** Rheingold
+*** Spirited Away
+** Shows
+*** Avatar The Last Airbender
+*** Full Metal Alchemist - Brotherhood
+*** Jojos Bizarre Adventure - Diamond Is Forever
+*** Korra
+*** The Spice Trail
+*** Trapdoor
+* Physical
+** Films
+** Shows
+** Audiobooks
+** Music

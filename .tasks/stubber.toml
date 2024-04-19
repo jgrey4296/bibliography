@@ -1,41 +1,55 @@
+## stubber.toml -*- mode: conf-toml -*-
+
 [[locations]]
 todo_bib   = "~/github/bibliography/in_progress/todo.bib"
 dropbox    = "~/Dropbox/docs"
 downloads  = "~/Downloads"
 todo_pdfs  = "/media/john/data/todo/pdfs"
 
-[[tasks.bib]]
-name                 = "stubber"
+[[tasks.stub]]
+name                 = "files"
 version              = "0.1"                                 # <str>
-doc                  = []                                    # <list[str]>
+doc                  = ["Move pdfs and epubs into working directory, create stub entry for each one"]
 ctor                 = "job"                                # <str>
-mixins               = ["job:walker", "job:terse"]                   # <list>               mix in additional capabilities
 queue_behaviour      = "default"                             # <str>                default | auto | reactive
 exts                 = [".pdf", ".epub"]                     # <list[str]>
 roots                = ["{dropbox}"]                         # <list[str|pl.Path]>  Places the Walker will start
 recursive            = false                                 # <bool>
 print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
-inject               = ["target"]
-accept_fn            = "task_code.stubber:not_copied"
+accept_fn            = "taskcode.stubber:not_copied"
+cleanup         = [
+    {do="post.get", stubs="stub::files.-"},
+    {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
+    {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
+]
+actions              = [
+        {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+        {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
+        {do="job.queue", from_="tasks"}, # queue
+]
 sub_actions          = [
-                     {do="skipIfFile", args=["{target}"]},
-                     {do="copy", from_="fpath", to="{target}"},
-                     {do="task_code.stubber:gen_stub", update_="stubtext", to="{target}"},
-                     {do="putPost", args=["{stubtext}"]},
+                     {do="exists?", args=["{dest}"]},
+                     {do="copy", from_="fpath", to="{todo_pdfs}/{fname}"},
+                     {do="taskcode.stubber:gen_stub", update_="stubtext", to="{todo_pdfs}/{fname}"},
+                     {do="post.put", args=["{stubtext}"]},
                      {do="delete!", args=["{fpath}"]},
 ]
-head_actions         = [
-                     {do="getPost", stubs="-"},
-                     {do="task_code.stubber:join_stubs", from_="stubs", update_="text"},
-                     {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
-]
 
-[[tasks.bib]]
+[[tasks.stub]]
 name        = "cleanup"
 version     = "0.1"
+doc         = ["Cleanup refiled pdfs and epubs"]
 ctor        = "job"
-mixins      = ["job:walker", "job:terse"]
-accept_fn   = "task_code.stubber:select_refiled"
+accept_fn   = "taskcode.stubber:select_refiled"
 roots       = ["{todo_pdfs}"]
-sub_actions = [{do="delete!", args=["{fpath}"]}]
+recursive   = false
+actions     = [
+            {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
+            {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+            {do="job.queue", from_="tasks"}, # queue
+]
+sub_actions = [
+            {do="delete!", args=["{fpath}"]}
+]
