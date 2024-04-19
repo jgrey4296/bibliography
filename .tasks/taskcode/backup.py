@@ -46,15 +46,16 @@ from doot.structs import DootKey
 import bib_middleware as BM
 
 
+
 @DootKey.kwrap.paths("lib-root")
 @DootKey.kwrap.redirects("update_")
 def build_backup_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
-        BM.DuplicateHandler(),
+        BM.metadata.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
-        BM.PathReader(lib_root=_libroot),
+        BM.files.PathReader(lib_root=_libroot),
     ]
     return { _update : read_mids }
 

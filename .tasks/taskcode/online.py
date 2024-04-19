@@ -48,8 +48,8 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 from doot.enums import ActionResponseEnum
-from jgdv.files.tags.base import TagFile
-from jgdv.files.bookmarks.collection import BookmarkCollection
+from jgdv.files.tags import TagFile
+from jgdv.files.bookmarks import BookmarkCollection
 
 FF_DRIVER          = "__$ff_driver"
 READER_PREFIX      = "about:reader?url="
@@ -59,7 +59,7 @@ WAYBACK_USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:40.0) Gecko/20100101 Firef
 import bib_middleware as BM
 
 def shutdown_firefox(spec, state):
-    BM.OnlineHandler.close_firefox()
+    BM.files.OnlineDownloader.close_firefox()
 
 
 @DootKey.kwrap.paths("lib-root", "online_saves")
@@ -67,11 +67,11 @@ def shutdown_firefox(spec, state):
 def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _update):
     """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
     read_mids = [
-        BM.DuplicateHandler(),
+        BM.metadata.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(),
         ms.RemoveEnclosingMiddleware(),
-        BM.PathReader(lib_root=_libroot),
-        BM.OnlineHandler(target=_dltarget),
+        BM.files.PathReader(lib_root=_libroot),
+        BM.files.OnlineDownloader(target=_dltarget),
     ]
     return { _update : read_mids}
 
@@ -81,7 +81,7 @@ def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _updat
 def build_online_downloader_write_stack(spec, state, _libroot, _update):
     """ Doesn't encode into latex """
     write_mids = [
-        BM.PathWriter(lib_root=_libroot),
+        BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids}

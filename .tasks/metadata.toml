@@ -38,13 +38,13 @@ depends_on       = [
 ]
 setup            = [
     { do="path.elements", from_="fpath" },
-    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
 ]
 actions          = [
     { do="log", msg="Metadata by year: {fpath}", level="WARN"},
     # Read
-    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Apply
     # TODO make this queue tasks instead
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},

@@ -65,9 +65,9 @@ depends_on       = [
     { do="ext?", args=["{fpath}"], ext=[".bib"]},
 ]
 setup            = [
-    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-    { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
+    { do="dootle.bibtex:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
 ]
 actions          = [
     { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
@@ -86,6 +86,6 @@ actions         = [
     { do="taskcode.tags:write_tag_set", from_="merged.tags", update_="tagstr" },
     { do="write!", from_="tagstr", to="{temp}/tags/bib.tags"},
     # Write names:
-    { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
-    { do="write!", from_="names", to="{temp}/tags/bib.names" }
+    # { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
+    # { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]

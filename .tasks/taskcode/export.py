@@ -51,12 +51,12 @@ import bib_middleware as BM
 def build_export_write_stack(spec,state, _libroot, _update):
     """ encodes into latex for compilation """
     write_mids = [
-        BM.NameWriter(),
+        BM.people.NameWriter(),
         ms.MergeCoAuthors(),
-        BM.LatexWriter(keep_math=True, enclose_urls=False),
-        BM.IsbnWriter(),
-        BM.TagsWriter(),
-        BM.PathWriter(lib_root=_libroot),
+        BM.latex.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.metadata.IsbnWriter(),
+        BM.metadata.TagsWriter(),
+        BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids }

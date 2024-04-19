@@ -33,7 +33,7 @@ depends_on       = [
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
-        { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+        { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
         { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
         # TODO : write-stack with tag substitution after loading sub files
         { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
@@ -42,18 +42,18 @@ setup = [
 actions          = [
         {do="log", msg="Formatting: {fpath}"},
         # Load
-        { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+        { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
         # Write formatted out
-        { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+        { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
         { do="write!", from_="bib_text", to="{fpath}"},
         # Write any failed blocks
-        { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
+        { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
         # Extract tags and add to postbox:
         { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
         { do="post.put", tags=["{tags}"] },
 
         # Latex Export
         { do="relative?", args=["{fpath}"], bases_="export_bases" },
-        { do="dootle.bibtex.v2:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
+        { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
 ]

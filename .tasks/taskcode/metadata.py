@@ -57,13 +57,13 @@ qpdf     = sh.qpdf
 def build_metadata_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
-        BM.DuplicateHandler(),
+        BM.metadata.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
-        BM.PathReader(lib_root=_libroot),
-        BM.IsbnValidator(True),
-        BM.TagsReader(),
-        BM.TitleReader()
+        BM.files.PathReader(lib_root=_libroot),
+        BM.metadata.IsbnValidator(True),
+        BM.metadata.TagsReader(),
+        BM.fields.TitleReader()
     ]
     return { _update : read_mids }
 
