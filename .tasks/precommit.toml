@@ -15,7 +15,7 @@ actions  = [
 ]
 
 [[tasks.precommit]]
-name          = "top"
+name          = "pre"
 doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
@@ -26,11 +26,21 @@ cleanup       = [
    # todo clear changed file
 ]
 actions       = [
-            # TODO append changed file list to {changed_file}
-            {do="log", msg="Formatting/Meta/Backup for : {files}"},
-            {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_by.year"},
-            # TODO move these to a postcommit hook
-            # {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, template="meta::_by.year"},
-            # {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, template="backup::_by.year"},
-            {do="job.queue", from_multi_=["format_tasks", "meta_tasks", "backup_tasks"]},
+   # TODO append changed file list to {changed_file}
+   {do="log", msg="Formatting/Meta/Backup for : {files}"},
+   {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_by.year"},
+   # TODO move these to a postcommit hook
+   # {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, template="meta::_by.year"},
+   # {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, template="backup::_by.year"},
+   {do="job.queue", from_multi_=["format_tasks", "meta_tasks", "backup_tasks"]},
+]
+
+[[tasks.precommit]]
+name       = "post"
+doc        = []
+ctor       = "job"
+depends_on = ["bib::cleanup"]
+actions    = [
+           # TODO queue latex export of changed bibs
+           # TODO queue build of changed exported bibs
 ]

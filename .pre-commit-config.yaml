@@ -10,11 +10,11 @@ repos:
        exclude: ".+?.bookmarks$"
 - repo: local
   hooks:
-    - id: doot
-      name: doot
+    - id: dootPre
+      name: dootPre
       description: Format changed bib files using doot
       language: system
-      entry: mamba run "-n" "doot-dev" doot "precommit::top"
+      entry: mamba run "-n" "doot-dev" doot "precommit::pre"
       verbose: true
       require_serial: true
       stages: [pre-commit]
@@ -24,11 +24,11 @@ repos:
       language: system
       entry: mamba run "-n" "doot-dev" doot "precommit::validate"
       stages: [commit-msg]
-    - id: cleanupPdfs
-      name: Clean up PDFs
+    - id: dootPost
+      name: dootPost
       description: Deletes refiled_* files from the todo dir
       language: system
-      entry: mamba run "-n" "doot-dev" doot "bib::cleanup"
+      entry: mamba run "-n" "doot-dev" doot "precommit::post"
       verbose: true
       require_serial: true
       stages: [post-commit]
