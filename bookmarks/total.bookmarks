@@ -8152,6 +8152,7 @@ https://github.com/jwiegley/use-package : emacs : github : libraries : lisp : pa
 https://github.com/kamranahmedse/developer-roadmap : github : learning : resource : tutorial : web_development
 https://github.com/karan/Projects : github : practice : project
 https://github.com/karlicoss/orgparse : github : library : org_mode : python
+https://github.com/katef/kgt : bnf_grammar : github : railroad_diagram : visualisation
 https://github.com/keendreams/keen : assembly : c_lang : commander_keen : dos : game : game_design : github : source
 https://github.com/keijiro/Cloner : c_sharp : mesh : unity
 https://github.com/keijiro/GVoxelizer : github : unity : voxels
@@ -8646,6 +8647,7 @@ https://homoartificialis.files.wordpress.com/2012/03/moral-decision-making-in-au
 https://homoartificialis.files.wordpress.com/2012/03/whole-brain-emulation-a-roadmap.pdf : ai : neuro_science : pdf : simulation
 https://hoodmaps.com/tokyo : districts : map : tokyo
 https://horizon-magazine.eu/article/sixth-mass-extinction-could-destroy-life-we-know-it-biodiversity-expert.html : EU : biodiversity : climate_change : horizon_magazine : mass_extinction : research
+https://how-did-i-get-here.net/ : how_did_i_get_here : internet : technical : trace
 https://howlingmoonsoftware.itch.io/verdant-skies : __important : itch_io : simulation : verdant_skies
 https://howmuch.net/articles/world-economy-as-a-living-organism : data_visualisation : economics : how_much : world_economy
 https://howwegettonext.com/its-time-for-a-new-kind-of-power-fantasy-a5ff23b2237f#.fnr7yn51n : game_development : leigh_alexander : power : social_system
@@ -9612,6 +9614,7 @@ https://motherboard.vice.com/read/the-history-of-twitters-rules : sarah_jeong : 
 https://motherboard.vice.com/read/womens-healthcare-star-wars : abortion : feminism : health_care : sarah_jeong : social_system : star_wars
 https://moyix.blogspot.com/2022/09/someones-been-messing-with-my-subnormals.html?m=1 : ffastmath : floating_point : packages : pypi : python
 https://moz.com/blog/online-advertising-fraud : advertising : bot : fraud : marketing : mozilla : online_advertising : samuel_scott
+https://mozilla.github.io/platform-tilt/ : browsers : github : mozilla : platform-tilt
 https://mrandri19.github.io/2022/01/12/a-PPL-in-70-lines-of-python.html : DAG : __come_back_to : probability : programming : python
 https://msdn.microsoft.com/en-us/library/bb397933(v=vs.90).aspx : .net : LINQ : c_sharp : microsoft : unity
 https://msdp.app/ : __come_back_to : mdsp : music : sound_design
@@ -10804,6 +10807,7 @@ https://toml.io/en/ : config_file : python : toml
 https://tompepinsky.com/2017/01/30/weak-and-incompetent-leaders-act-like-strong-leaders/ : politics : trump
 https://tompride.wordpress.com/2017/08/31/how-the-press-lied-about-the-little-girl-staying-with-muslim-foster-parents-here-are-the-facts/amp/ : journalism : lies : muslim : racism : telegraph : time
 https://tonsky.me/blog/unicode/ : unicode
+https://tonsky.me/projects/ : cv : github : niki_tonsky : people : programmer
 https://tooling.js.org/ : javascript : programming : tooling : web_development
 https://towardsdatascience.com/ai-architecture-f9d78c6958e0?gi=ba57e7504245 : ai : architecture : data_science : deep_learning : floor_plan : machine_learning : stanislas_chaillou
 https://towardsdatascience.com/from-classic-ai-techniques-to-deep-learning-753d20cf8578 : ai : deep_learning : reinforcement_learning : tutorial
@@ -11638,6 +11642,7 @@ https://www.complexityexplorer.org/courses : complexity : dynamic_systems : non_
 https://www.congress.gov/115/bills/hr1/BILLS-115hr1pcs.pdf : USA : bill : politics : senate : tax
 https://www.congress.gov/bill/114th-congress/house-bill/1735/all-actions?overview=closed : data_analysis : data_sets : government
 https://www.congress.gov/bill/115th-congress/house-bill/1/text : act : bill : congress : tax
+https://www.connectedpapers.com/ : academia : connected_papers : graph : visualisation
 https://www.contactdermatitisinstitute.com/ : allergens : dermatitis : education : health_care : reference
 https://www.conventionalcommits.org/en/v1.0.0/#specification : best_practices : convention : git : software_engineering : version_control
 https://www.cookielaw.org/ : cookies : internet : law : privacy : surveillance
@@ -11931,6 +11936,7 @@ https://www.gamedeveloper.com/production/how-darkest-dungeon-ii-s-developers-evo
 https://www.gamedeveloperstudio.com/graphics/ : assets : graphics : image
 https://www.gamefaqs.com/pc/699808-the-witcher-3-wild-hunt/faqs/73353 : game : script : transcript : witcher
 https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx?utm_content=bufferbe277&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer : a_place_for_the_unwilling : cody_mello_klein : game_development : game_informer : games : h_p_lovecraft
+https://www.gamesradar.com/games/rpg/darkwebstreamer-is-a-narrative-roguelike-that-interrogates-the-voyeuristic-horror-fan-in-us-all/ : adventure_game : darkwebSTREAMER : game_development : roguelike
 https://www.gao.gov/ : GAO : resource
 https://www.gaslampgames.com/2015/04/15/smart-objects-or-everything-i-know-about-ai-i-stole-from-the-sims/ : __come_back_to : ai : clockwork_empires : gaslamp_games : programming : smart_objects : the_sims
 https://www.gaslampgames.com/2016/10/19/my-favourite-icons/ : game_design : game_development
