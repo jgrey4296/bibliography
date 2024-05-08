@@ -30,5 +30,5 @@ temp          = ".temp"
 logs          = "{temp}/logs"
 export        = "{temp}/export"
 bib           = "main"
-bookmarks     = "bookmarks/total.bookmarks"
+bookmarks     = {file="bookmarks/total.bookmarks"}
 substitutions = "tags/substitutions"

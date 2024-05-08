@@ -51,8 +51,18 @@ actions          = [
         # Extract tags and add to postbox:
         { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
         { do="post.put", tags=["{tags}"] },
+]
 
-        # Latex Export
+[[tasks.export]]
+name            = "_by.year"
+depends-on      = ["format::_by.year[fpath]"]
+queue_behaviour = "reactive"
+setup           = [
+        { do="path.elements", from_="fpath", roots=["."]},
+        { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
+        { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
+]
+actions = [
         { do="relative?", args=["{fpath}"], bases_="export_bases" },
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{bib_export}/{fname}"},

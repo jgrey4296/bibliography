@@ -1,6 +1,6 @@
 
 [[locations]]
-online_todo   = "~/github/bibliography/in_progress/online.bib"
+online_todo   = {file="~/github/bibliography/in_progress/online.bib"}
 online_saves  = "/media/john/data/todo/pdfs/online"
 
 [[tasks.online]]

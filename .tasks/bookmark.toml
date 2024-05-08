@@ -49,7 +49,7 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 doc                  = []                   # <list[str]>
 depends_on           = ["file:>{bookmarks}"]                   # <list[DootTaskArtifact]>
-required_for         = ["file:>{temp}/tags/bkmk.tags"]
+required_for         = ["file:>{temp}/tags/bkmks.tags"]
 actions              = [
    { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
    { do="post.put", args=["{total_bkmks}"] },
