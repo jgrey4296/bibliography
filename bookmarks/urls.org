@@ -14,6 +14,8 @@ https://www.alanzucconi.com/tutorials/
 [[http://thebookofshaders.com/05/][book of shaders]]
 [[http://explorabl.es/][explorable explanations]]
 [[http://worrydream.com/LadderOfAbstraction/][up and down the ladder of abstraction]]
+** Podcasts
+https://citationsneeded.libsyn.com/episode-198-how-the-atlantic-magazine-helps-sell-austerity-and-war-to-middlebrow-liberals
 ** Causal Inference
 https://egap.org/resource/10-things-to-know-about-causal-inference/
 
@@ -376,6 +378,8 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/open-dicom/awesome-dicom
+https://github.com/mintisan/awesome-kan
 https://github.com/dhowe/adnauseam
 https://github.com/VCVRack/Rack
 https://ganelson.github.io/inform/index.html
@@ -498,6 +502,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Programming
+https://makefiletutorial.com/
 https://gnucobol.sourceforge.io/HTML/gnucobpg.html
 https://github.com/nikitadanilov/3-lisp
 https://aphyr.com/
@@ -2356,6 +2361,8 @@ https://utd19.ethz.ch/
 https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
 https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
 https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
+** Json
+https://www.schemastore.org/json/
 * Broken
 http://blog.webkid.io/datasets-for-machine-learning/
 http://kolesnikov.ga/Datasets_in_Python/
