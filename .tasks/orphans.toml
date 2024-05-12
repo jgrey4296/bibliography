@@ -18,11 +18,11 @@ actions = [
 ]
 
 [[tasks.orphans]]
-name             = "_bib"
+name             = "_.bib"
 doc              = ["walk all bibfiles, summarise entry files"]
 ctor             = "job"
 version          = "0.1"
-print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="INFO", action="WARNING" }
 required_for     = [{loc="{orphans}/bib.files", file=true}]
 roots            = ["{bib}"]
 exts             = [".bib"]
@@ -43,11 +43,11 @@ sub_actions = [
 ]
 
 [[tasks.orphans]]
-name             = "_filesystem"
+name             = "_.filesystem"
 doc              = ["walk the library filesystem, summarising all existing files"]
 ctor             = "job"
 version          = "0.1"
-print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="INFO", action="WARNING" }
 required_for     = [{loc="{orphans}/fs.files", file=true}]
 roots            = ["{lib-root}"]
 exts             = [".pdf", ".epub"]

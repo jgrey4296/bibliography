@@ -8,7 +8,7 @@ name             = "update"
 doc              = ["Update the metadata for each file in the library"]
 ctor             = "job"
 version          = "0.1"
-print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="INFO", action="WARNING" }
 cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
 roots            = ["{target}"]
 exts             = [".bib"]
@@ -25,12 +25,12 @@ actions          = [
 ]
 
 [[tasks.meta]]
-name             = "_by.year"
+name             = "_.by.year"
 doc              = ["update the file metadata for all entries in a single bib file"]
 version          = "0.1"
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-print_levels     = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="WARNING", action="WARNING" }
 roots            = ["{pdf_source}", "{bib}"]
 depends_on       = [
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },

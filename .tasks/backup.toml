@@ -36,12 +36,12 @@ sub_actions                = [
 
 
 [[tasks.backup]]
-name               = "_by.year"
+name               = "_.by.year"
 doc                = ["update the file metadata for all entries in a single bib file"]
 version            = "0.1"
 ctor               = "job"
 cli                = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-print_levels       = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
+print_levels       = { head="INFO", build="WARNING", execute="WARNING", action="WARNING" }
 roots              = ["{pdf_source}", "{bib}"]
 shadow_root        = "{pdf_bkup}"
 depends_on         = [

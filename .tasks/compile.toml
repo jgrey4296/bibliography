@@ -57,7 +57,7 @@ sub_actions          = [
 ]
 
 [[tasks.compile]]
-name                 = "_fails"
+name                 = "_.fails"
 version              = "0.1"                                    # <str>
 doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
 ctor                 = "job"                                   # <str>

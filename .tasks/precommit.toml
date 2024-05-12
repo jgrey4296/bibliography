@@ -19,7 +19,7 @@ name          = "pre"
 doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
-print_levels  = { head="INFO", build="WARN", action="WARN", sleep="WARN", execute="WARN" }
+print_levels  = { head="INFO", build="WARN", action="WARN", execute="WARN" }
 depends_on    = ["bookmark::update"]
 cleanup       = [
    {do="log", msg="Finished"}

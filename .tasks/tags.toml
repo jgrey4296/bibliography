@@ -75,7 +75,7 @@ actions          = [
 ]                                                                                                                         # <str>
 
 [[tasks.tags]]
-name            = "_extract.bib.finish"
+name            = "_.extract.bib.finish"
 ctor            = "task"
 requird_for     = ["file:>{temp}/tags/bib.tags", "file:>{temp}/tags/bib.names"]
 queue_behaviour = "reactive"

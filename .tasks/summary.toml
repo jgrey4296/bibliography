@@ -19,11 +19,11 @@ actions     = [
 ]
 
 [[tasks.summary]]
-name    = "_bibs"
+name    = "_.bibs"
 doc     = ["TODO"]
 actions = []
 
 [[tasks.summary]]
-name    = "_bookmarks"
+name    = "_.bookmarks"
 doc     = ["TODO"]
 actions = []
