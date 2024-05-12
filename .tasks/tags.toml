@@ -51,14 +51,14 @@ roots                = ["{bib}"]                                                
 exts                 = [".bib"]                                                             # <list[str]>
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="tags::_extract.bib"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="tags::_.extract.bib"},
         {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"},
-        {do="job.queue", args=["tags::_extract.bib.finish"], after=["$head$"]},
+        {do="job.queue", args=["tags::_.extract.bib.finish"], after=["$head$"]},
 ]
 
 [[tasks.tags]]
-name             = "_extract.bib"
+name             = "_.extract.bib"
 doc              = ["adds tags found in the bibtex to a middleware state"]
 ctor             = "task"
 depends_on       = [

@@ -16,14 +16,14 @@ exts                 = [".bib"]                                                 
 select_limit         = 10                                                                   # <int|None>
 actions = [
         {do="job.walk",        update_="walked"},
-        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="base::_formatter"},
+        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="base::_.formatter"},
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
         {do="job.queue",       from_="tasks"},
 ]
 
 
 [[tasks.format]]
-name             = "_by.year"
+name             = "_.by.year"
 ctor             = "task"
 print_levels     = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="INFO" }
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
@@ -54,8 +54,8 @@ actions          = [
 ]
 
 [[tasks.export]]
-name            = "_by.year"
-depends-on      = ["format::_by.year[fpath]"]
+name            = "_.by.year"
+depends-on      = ["format::_.by.year[fpath]"]
 queue_behaviour = "reactive"
 setup           = [
         { do="path.elements", from_="fpath", roots=["."]},
