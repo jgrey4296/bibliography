@@ -19,7 +19,7 @@ print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
 accept_fn            = "taskcode.stubber:not_copied"
 cleanup         = [
-    {do="post.get", stubs="stub::files.-"},
+    {do="post.get", stubs="stub::files..-"},
     {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
     {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib}" },
 ]
