@@ -67,6 +67,15 @@ def build_metadata_parse_stack(spec, state, _libroot, _update):
     ]
     return { _update : read_mids }
 
+
+@DootKey.dec.types("tasks")
+def report_chosen_files(spec, state, tasks):
+    printer.info("Chosen Files:")
+    for x in tasks:
+        path = x.extra.fpath
+        printer.warning("%-20s : %s", pl.Path(path.parent.name) / path.name, datetime.datetime.fromtimestamp(path.stat().st_mtime))
+
+
 class ApplyMetadata:
     """ Apply metadata to files mentioned in bibtex entries
       uses xmp-prism tags and some custom ones for pdfs,
@@ -94,14 +103,14 @@ class ApplyMetadata:
                         self._update_pdf_by_exiftool(x, entry)
                         self._pdf_validate(x)
                         self._pdf_finalize(x)
-                    except doot.actions.DootActionError as err:
+                    except doot.errors.DootActionError as err:
                         printer.warning("Pdf Update Failed: %s : %s", x, err)
                         continue
                 case x if x.suffix == ".epub":
                     try:
                         self._backup_original_metadata(_backup, x)
                         self._update_epub_by_calibre(x, entry)
-                    except doot.actions.DootActionError as err:
+                    except doot.errors.DootActionError as err:
                         printer.warning("Epub Update failed: %s : %s", x, err)
                         continue
                 case x:
@@ -134,15 +143,24 @@ class ApplyMetadata:
             args += ['-ISBN={}'.format(fields['isbn'].value)]
 
         # General
-        title = fields['title'].value
+        match fields:
+            case {"title": t}:
+                title = t.value
+            case {"short_parties": t}:
+                title = t.value
+
         if 'subtitle' in fields:
             title += ": {}".format(fields['subtitle'].value)
         args += ['-title={}'.format(title)]
-        if 'author' in fields:
-            args += ['-author={}'.format(fields['author'].value)]
-        elif 'editor' in fields:
-            args += ['-author={}'.format(fields['editor'].value)]
-        args += ['-Keywords={}'.format(",".join(fields['tags'].value))]
+
+        match fields:
+            case {"author": a}:
+                args += ['-author={}'.format(a.value)]
+            case {"editor": a}:
+                args += ['-author={}'.format(a.value)]
+
+        if 'tags' in fields:
+            args += ['-Keywords={}'.format(",".join(fields['tags'].value))]
 
         if 'edition' in fields:
             args += ['-xmp-prism:edition={}'.format(fields['edition'].value)]
@@ -161,22 +179,29 @@ class ApplyMetadata:
         # Call
         try:
             exiftool(*args, str(path))
-        except sh.ErrorCode:
-            raise doot.errors.DootActionError("Exiftool update failed")
+        except sh.ErrorReturnCode as err:
+            raise doot.errors.DootActionError("Exiftool update failed", err)
 
 
     def _update_epub_by_calibre(self, path, entry):
         fields = entry.fields_dict
         args = []
 
-        title = fields['title'].value
+        match fields:
+            case {"title":t}:
+                title = t.value
+            case {"short_parties":t}:
+                title = t.value
         if 'subtitle' in fields:
             title += ": {}".format(fields['subtitle'].value)
+
         args += ['--title={}'.format(title)]
-        if 'author' in fields:
-            args += ['--authors={}'.format(fields['author'].value)]
-        elif 'editor' in fields:
-            args += ['--authors={}'.format(fields['editor'].value)]
+
+        match fields:
+            case {"author":a}:
+                args += ['--authors={}'.format(a.value)]
+            case {"editor":a}:
+                args += ['--authors={}'.format(a.value)]
 
         if 'publisher' in fields:
             args += ["--publisher={}".format(fields['publisher'].value)]
@@ -192,8 +217,11 @@ class ApplyMetadata:
         if 'doi' in fields:
             args += ['--identifier=doi:{}'.format(fields['doi'].value)]
 
-        args += ['--tags={}'.format(",".join(fields['tags'].value))]
-        args += ['--date={}'.format(fields['year'].value)]
+        if 'tags' in fields:
+            args += ['--tags={}'.format(",".join(fields['tags'].value))]
+        if 'year' in fields:
+            args += ['--date={}'.format(fields['year'].value)]
+
         args += ['--comments={}'.format(entry.raw)]
 
         logging.debug("Ebook update args: %s : %s", path, args)

@@ -16,8 +16,8 @@ exts                 = [".bib"]                                                 
 select_limit         = 10                                                                   # <int|None>
 actions = [
         {do="job.walk",        update_="walked"},
-        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="base::_.formatter"},
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
+        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="base::_.formatter"},
         {do="job.queue",       from_="tasks"},
 ]
 

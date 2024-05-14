@@ -8,7 +8,7 @@ name             = "update"
 doc              = ["Update the metadata for each file in the library"]
 ctor             = "job"
 version          = "0.1"
-print_levels     = { head="INFO", build="WARNING", execute="INFO", action="WARNING" }
+print_levels     = { head="INFO", build="WARNING", execute="WARNING", action="WARNING" }
 cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
 roots            = ["{target}"]
 exts             = [".bib"]
@@ -18,8 +18,10 @@ actions          = [
         # walk
         {do="job.walk", update_="walked"},
         # expand
-        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="meta::_.by.year"},
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
+        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="meta::_.by.year"},
+        {do="taskcode.metadata:report_chosen_files"},
+
         # queue
         {do="job.queue",       from_="tasks"},
 ]
@@ -46,6 +48,7 @@ actions          = [
     # Read
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Apply
-    # TODO make this queue tasks instead
+    # TODO make this queue tasks instead?
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
+    { do="touch", args=["{fpath}"] },
 ]
