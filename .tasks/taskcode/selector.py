@@ -43,7 +43,8 @@ import doot.errors
 from doot.structs import DootKey
 
 @DootKey.dec.types("count")
-def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], count:int) -> list:
+def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], count:int|str) -> list:
+    count = int(count)
     # Sorts oldest -> newest
     by_mod_time = sorted(sub_specs, key=lambda x: x.stat().st_mtime)
     return by_mod_time[:count]

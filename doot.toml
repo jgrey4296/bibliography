@@ -10,9 +10,28 @@ code    = []         # Directories where task specific code can be imported from
 sleep   = { task=0.2, subtask=1, batch=1 }
 
 [logging]
-stream  = { level="WARN",  allow=["doot"], format="{levelname:<8} : {message}", colour=true }
-file    = { level="DEBUG", allow=["doot"], format="{levelname:<8} : {message:<20} :|: (module:{module} line:{lineno} fn:{funcName})" }
-printer = { level="INFO", colour=true}
+stream  = { level="WARNING", format="{levelname:<8} : {message}", filters=["doot"], target="stdout" }
+file    = { level="DEBUG",   format="{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})", filters=["doot"], target="file" }
+printer = { level="INFO",    format="{message}", colour=true, target="stdout", filter=["doot._printer.checkloc"] }
+
+[logging.subprinters]
+#     action_exec, action_group, artifact, cmd, fail, header, help, queue,
+#     report, skip, sleep, success, task, task_header, task_loop, task_state,
+#     track, setup, shutdown
+setup        = {level="WARNING", format="---- Setup: {message}", propagate=false}
+shutdown     = {level="WARNING", format="---- Shutdown: {message}", propagate=false}
+success      = {}
+fail         = {target="stdout", format="---- !!!! {message}", propagate=false}
+track        = {format="(Tracking) {message}"}
+task_header  = {}
+task         = {}
+task_state   = {}
+action_group = {}
+action_exec  = {}
+queue        = {}
+report       = {}
+
+[logging.extra]
 
 [plugins]
 # Allows for defining shorthands

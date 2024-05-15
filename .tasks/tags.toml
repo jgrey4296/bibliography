@@ -46,7 +46,6 @@ name                 = "extract.bib"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                             # <type>
 doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
-print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
 actions = [

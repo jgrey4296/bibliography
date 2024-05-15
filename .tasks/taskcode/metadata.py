@@ -36,6 +36,7 @@ from uuid import UUID, uuid1
 ##-- logging
 logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
+fail_l  = printer.getChild("fail")
 ##-- end logging
 
 import json
@@ -88,15 +89,18 @@ class ApplyMetadata:
     @DootKey.kwrap.types("from", hint={"type_":BTP.Library})
     @DootKey.kwrap.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
-        for entry in _lib.entries:
-            printer.warning("Processing: %s", entry.key)
+        total                                       = len(_lib.entries)
+        failures : list[tuple[str, pl.Path, Error]] = []
+        for i, entry in enumerate(_lib.entries):
+            printer.info("(%-4s/%-4s) Processing: %s", i, total, entry.key)
             match self._get_file(entry):
                 case None:
                     pass
                 case x if x.suffix == ".pdf" and not self._pdf_is_modifiable(x):
-                    printer.warning("PDF is locked: %s", x)
+                    failures.append(("locked", x, None))
+                    fail_l.warning("PDF is locked: %s", x)
                 case x if self._metadata_matches_entry(x, entry):
-                    printer.warning("No Metadata Update Necessary: %s", x)
+                    fail_l.info("No Metadata Update Necessary: %s", x)
                 case x if x.suffix == ".pdf":
                     try:
                         self._backup_original_metadata(_backup, x)
@@ -104,24 +108,25 @@ class ApplyMetadata:
                         self._pdf_validate(x)
                         self._pdf_finalize(x)
                     except doot.errors.DootActionError as err:
-                        printer.warning("Pdf Update Failed: %s : %s", x, err)
-                        continue
+                        failures.append(("pdf_fail", x, err))
+                        fail_l.warning("Pdf Update Failed: %s : %s", x, err)
                 case x if x.suffix == ".epub":
                     try:
                         self._backup_original_metadata(_backup, x)
                         self._update_epub_by_calibre(x, entry)
                     except doot.errors.DootActionError as err:
-                        printer.warning("Epub Update failed: %s : %s", x, err)
-                        continue
+                        failures.append(("epub_fail", x, err))
+                        fail_l.warning("Epub Update failed: %s : %s", x, err)
                 case x:
-                    printer.warning("Found a file that wasn't an epub or pdf: %s", x)
+                    failures.append(("unknown", x, None))
+                    fail_l.warning("Found a file that wasn't an epub or pdf: %s", x)
+
+        return { "failures" : failures }
 
     def _get_file(self, entry) -> None|pl.Path:
-        path = entry.fields_dict.get("file", None)
-        if path is None:
-            return None
-
-        match path:
+        match entry.fields_dict.get("file", None):
+            case None:
+                return None
             case pl.Path():
                 return path
             case BTP.model.Field() if isinstance(path.value, pl.Path) :
@@ -129,7 +134,7 @@ class ApplyMetadata:
             case _:
                 raise doot.errors.DootActionError("Bad File Path Type", path)
 
-    def _update_pdf_by_exiftool(self, path, entry):
+    def _update_pdf_by_exiftool(self, path, entry) -> None:
         # exiftool -{tag}="{content}" {file}
         # Build args:
         args   = []
@@ -137,21 +142,19 @@ class ApplyMetadata:
 
         # XMP-bib:
         args += [f'-bibtex={entry.raw}']
-        args += ['-tags={}'.format(",".join(fields['tags'].value))]
+
         args += ['-Year={}'.format(fields['year'].value)]
         if 'isbn' in fields:
             args += ['-ISBN={}'.format(fields['isbn'].value)]
 
         # General
         match fields:
+            case {"title": t, "subtitle": st}:
+                args += ['-title={}: {}'.format(t.value, st.value)]
             case {"title": t}:
-                title = t.value
+                args += ['-title={}'.format(t.value)]
             case {"short_parties": t}:
-                title = t.value
-
-        if 'subtitle' in fields:
-            title += ": {}".format(fields['subtitle'].value)
-        args += ['-title={}'.format(title)]
+                args += ['-title={}'.format(t.value)]
 
         match fields:
             case {"author": a}:
@@ -161,7 +164,6 @@ class ApplyMetadata:
 
         if 'tags' in fields:
             args += ['-Keywords={}'.format(",".join(fields['tags'].value))]
-
         if 'edition' in fields:
             args += ['-xmp-prism:edition={}'.format(fields['edition'].value)]
         if 'publisher' in fields:
@@ -183,7 +185,7 @@ class ApplyMetadata:
             raise doot.errors.DootActionError("Exiftool update failed", err)
 
 
-    def _update_epub_by_calibre(self, path, entry):
+    def _update_epub_by_calibre(self, path, entry) -> None:
         fields = entry.fields_dict
         args = []
 
@@ -242,7 +244,7 @@ class ApplyMetadata:
 
         return True
 
-    def _pdf_validate(self, path):
+    def _pdf_validate(self, path) -> None:
         # code 0 for fine,
         # writes to stderr for issues
 
@@ -253,11 +255,11 @@ class ApplyMetadata:
             raise doot.errors.DootActionError("PDF Failed Validation")
 
 
-    def _pdf_finalize(self, path):
+    def _pdf_finalize(self, path) -> None:
         """ run qpdf --linearize,
           and delete the pdf_original if it exists """
         assert(path.suffix == ".pdf")
-        logging.debug("Finalizing Pdf: {}", path)
+        logging.debug("Finalizing Pdf: %s", path)
         original = str(path)
         copied   = path.with_stem(path.stem + "_cp")
         backup   = path.with_suffix(".pdf_original")
@@ -276,11 +278,11 @@ class ApplyMetadata:
                 backup.unlink()
             copied.unlink()
 
-    def _backup_original_metadata(self, archive, path):
+    def _backup_original_metadata(self, archive, path) -> None:
         try:
             result = json.loads(exiftool("-J", str(path)))[0]
         except sh.ErrorReturnCode:
-            raise doot.errors.DootActionError("Could't retrieve metadata as json")
+            raise doot.errors.DootActionError("Couldn't retrieve metadata as json", path)
 
         with jsonlines.open(archive, mode='a') as f:
             f.write(result)
@@ -289,7 +291,8 @@ class ApplyMetadata:
         try:
             result = json.loads(exiftool("-J", str(path)))[0]
         except sh.ErrorReturnCode:
-            raise doot.errors.DootActionError("Could't retrieve metadata as json")
+            fail_l.warning("Couldn't match metadata", path)
+            return False
 
         if 'Bibtex' not in result and 'Description' not in result:
             return False
@@ -301,3 +304,14 @@ class ApplyMetadata:
             return True
 
         return False
+
+
+
+class GenMetadataTasks:
+    """
+      TODO Alternative implementation
+      Iterate through each entry in a lib,
+      and generate a taskspec, returning them
+    """
+
+    pass

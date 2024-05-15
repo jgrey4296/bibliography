@@ -2,13 +2,13 @@
 
 [[locations]]
 meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
+fail_log    = {file="{logs}/meta_failures.txt"}
 
 [[tasks.meta]]
 name             = "update"
 doc              = ["Update the metadata for each file in the library"]
 ctor             = "job"
 version          = "0.1"
-print_levels     = { head="INFO", build="WARNING", execute="WARNING", action="WARNING" }
 cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
 roots            = ["{target}"]
 exts             = [".bib"]
@@ -21,7 +21,7 @@ actions          = [
         {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
         {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="meta::_.by.year"},
         {do="taskcode.metadata:report_chosen_files"},
-
+        {do="wait", count=5},
         # queue
         {do="job.queue",       from_="tasks"},
 ]
@@ -32,7 +32,6 @@ doc              = ["update the file metadata for all entries in a single bib fi
 version          = "0.1"
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-print_levels     = { head="INFO", build="WARNING", execute="WARNING", action="WARNING" }
 roots            = ["{pdf_source}", "{bib}"]
 depends_on       = [
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },
@@ -50,5 +49,6 @@ actions          = [
     # Apply
     # TODO make this queue tasks instead?
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
+    { do="append!", to="{fail_log}", args=["{failures}"] },
     { do="touch", args=["{fpath}"] },
 ]

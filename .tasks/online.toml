@@ -8,7 +8,6 @@ name             = "download.entries"
 version          = "0.1"
 ctor             = "task"
 doc              = ["save todo online entries as pdfs"]
-print_levels     = { head="INFO", build="WARNING", execute="INFO", action="WARNING" }
 fpath            = "{online_todo}"
 depends_on       = [
     { do="dir!", args=["{online_saves}"]},

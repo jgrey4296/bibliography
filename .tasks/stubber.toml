@@ -15,7 +15,6 @@ queue_behaviour      = "default"                             # <str>            
 exts                 = [".pdf", ".epub"]                     # <list[str]>
 roots                = ["{dropbox}"]                         # <list[str|pl.Path]>  Places the Walker will start
 recursive            = false                                 # <bool>
-print_levels         = {execute="INFO", action="INFO"}
 target               = "{todo_pdfs}/{fname}"
 accept_fn            = "taskcode.stubber:not_copied"
 cleanup         = [
