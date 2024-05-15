@@ -591,6 +591,7 @@ https://en.wikipedia.org/wiki/Infrastructure_as_code
 https://en.wikipedia.org/wiki/Chain_of_trust
 https://en.wikipedia.org/wiki/Reproducible_builds
 https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
+https://en.m.wikipedia.org/wiki/Stagflation
 * Blogs
 ** ACLU
 https://www.aclu.org/blog/lgbt-rights
@@ -2164,6 +2165,10 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
+** Autism
+https://embrace-autism.com/
+https://aspietests.org/
+
 * Digital Collections
 https://opencitations.net/index/api/v1/
 https://www.c82.net/iconography/
