@@ -127,9 +127,9 @@ class ApplyMetadata:
         match entry.fields_dict.get("file", None):
             case None:
                 return None
-            case pl.Path():
+            case pl.Path() as path:
                 return path
-            case BTP.model.Field() if isinstance(path.value, pl.Path) :
+            case BTP.model.Field() as path if isinstance(path.value, pl.Path) :
                 return path.value
             case _:
                 raise doot.errors.DootActionError("Bad File Path Type", path)
