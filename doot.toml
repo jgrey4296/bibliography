@@ -1,6 +1,6 @@
 # -*- mode:conf-toml; -*-
 [settings.general]
-notify                   = { say-on-exit = false }
+notify                   = { say-on-exit = true }
 loaders                  = { commands="default", task="default", parser="default"}
 location_check           = { make_missing = true, print_levels={action="WARN", execute="WARN" } }
 
@@ -12,26 +12,31 @@ sleep   = { task=0.2, subtask=1, batch=1 }
 [logging]
 stream  = { level="WARNING", format="{levelname:<8} : {message}", filters=["doot"], target="stdout" }
 file    = { level="DEBUG",   format="{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})", filters=["doot"], target="file" }
-printer = { level="INFO",    format="{message}", colour=true, target="stdout", filter=["doot._printer.checkloc"] }
+printer = { level="INFO",    format="{message}", colour=true, target="stdout", filter=[] }
 
 [logging.subprinters]
-#     action_exec, action_group, artifact, cmd, fail, header, help, queue,
-#     report, skip, sleep, success, task, task_header, task_loop, task_state,
-#     track, setup, shutdown
-setup        = {level="WARNING", format="---- Setup: {message}", propagate=false}
-shutdown     = {level="WARNING", format="---- Shutdown: {message}", propagate=false}
-success      = {}
-fail         = {target="stdout", format="---- !!!! {message}", propagate=false}
-track        = {format="(Tracking) {message}"}
-task_header  = {}
+# Divider subprinters: artifact, task_header, header
+task_header  = {format="---{message}", colour=true, target="stdout"}
+
+# Process subprinters: cmd, setup, shutdown, track, task_loop
+cmd          = {level="INFO",    format="-- Cmd: {message}"}
+setup        = {level="INFO",    format="-- Setup: {message}"}
+shutdown     = {level="WARNING", format="-- Shutdown: {message}"}
+track        = {level="WARNING", format="-- Tracking: {message}"}
+report       = {level="INFO",    format="{message}", target="stdout", colour=true}
+
+# Event Subprinters: success, fail, skip, sleep, header, help, queue, report, task_state
+# ## action_exec, action_group, task
 task         = {}
-task_state   = {}
-action_group = {}
-action_exec  = {}
-queue        = {}
-report       = {}
+task_state   = {level="WARNING", format="Task State: {message}"}
+success      = {level="WARNING", format="-- Success {message}"}
+fail         = {level="WARNING", target="stdout", format="!!!! {message}"}
+queue        = {format="++++ {message}"}
+action_group = {level="WARNING", format="Action Group: {message}"}
+action_exec  = {level="WARNING", format="--------> Action Execution: {message}", target="stdout", colour=true}
 
 [logging.extra]
+"doot._printer.checkloc" = {level="WARNING"}
 
 [plugins]
 # Allows for defining shorthands
