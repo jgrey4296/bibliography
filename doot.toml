@@ -2,10 +2,10 @@
 [settings.general]
 notify                   = { say-on-exit = true }
 loaders                  = { commands="default", task="default", parser="default"}
-location_check           = { make_missing = true, print_levels={action="WARN", execute="WARN" } }
+location_check           = { make_missing = true }
 
 [settings.tasks]
-sources = [".tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
+sources = [".tasks", "/media/john/data/github/_templates/doot/android_tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
 code    = []         # Directories where task specific code can be imported from, expanded according to [[locations]] keys
 sleep   = { task=0.2, subtask=1, batch=1 }
 
@@ -19,7 +19,7 @@ printer = { level="INFO",    format="{message}", colour=true, target="stdout", f
 task_header  = {format="---{message}", colour=true, target="stdout"}
 
 # Process subprinters: cmd, setup, shutdown, track, task_loop
-cmd          = {level="INFO",    format="-- Cmd: {message}"}
+cmd          = {level="INFO",    format="{message}"}
 setup        = {level="INFO",    format="-- Setup: {message}"}
 shutdown     = {level="WARNING", format="-- Shutdown: {message}"}
 track        = {level="WARNING", format="-- Tracking: {message}"}

@@ -19,7 +19,7 @@ name          = "pre"
 doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
-depends_on    = ["bookmark::update"]
+depends_on    = []
 cleanup       = [
    {do="log", msg="Finished"}
    # todo clear changed file
@@ -38,7 +38,7 @@ actions       = [
 name       = "post"
 doc        = []
 ctor       = "job"
-depends_on = ["bib::cleanup"]
+depends_on = ["bookmark::update", "bib::cleanup"]
 actions    = [
            # TODO queue latex export of changed bibs
            # TODO queue build of changed exported bibs
