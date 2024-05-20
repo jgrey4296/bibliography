@@ -21,7 +21,7 @@ exts                     = [".sub"]                                             
 # required_for             = ["file:>{temp}/tags/canon.tags", "file:>{temp}/tags/new.tags"]
 recursive                = false                                                                  # <bool>
 cleanup = [
-    { do="post.get", subs="tags::calc.new..allsubs" },
+    { do="post.get", subs="tags::calc..allsubs" },
     { do="taskcode.tags:merge_subfiles", from_="subs", update_="known_tags" },
     { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="total_tags" },
     { do="taskcode.tags:calc_new_tags",   total_="total_tags", known_="known_tags", update_="new_tags" },
@@ -38,7 +38,7 @@ actions                  = [
 ]
 sub_actions              = [
     { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", allsubs=["{subs}"] },
+    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
 ]
 
 [[tasks.tags]]
