@@ -6956,6 +6956,7 @@ https://docs.python.org/3.5/library/unittest.html : libraries : python : test : 
 https://docs.python.org/3.9/library/ast.html : ast : code_analysis : documentation : parser : python
 https://docs.python.org/3/extending/building.html#building : ffi : packaging : python : rust
 https://docs.python.org/3/howto/argparse.html : argparse : argument : cli : python : tutorial
+https://docs.python.org/3/howto/logging-cookbook.html#using-a-context-manager-for-selective-logging : logging : python
 https://docs.python.org/3/index.html : documentation : python : reference
 https://docs.python.org/3/library/sqlite3.html : SQL : documentation : libraries : python
 https://docs.python.org/3/library/statistics.html : libraries : python : statistics
@@ -9834,6 +9835,7 @@ https://oversight.house.gov/news/press-releases/new-staff-report-shows-administr
 https://owl.english.purdue.edu/owl/resource/621/01 : apostrophe : grammar
 https://owl.english.purdue.edu/owl/resource/621/01/ : apostrophe : edu : learning : writing
 https://packaging.python.org/en/latest/guides/ : package_management : python : python_packaging
+https://packaging.python.org/en/latest/guides/packaging-namespace-packages/ : namespace_package : python : software_development
 https://packaging.python.org/en/latest/specifications/version-specifiers/ : pip : python : version_numbers
 https://packaging.python.org/en/latest/tutorials/packaging-projects/ : best_practices : packages : packaging : python
 https://pages.gseis.ucla.edu/faculty/agre/ : archive : blog : phil_agre
@@ -10820,7 +10822,7 @@ https://togelius.blogspot.fr/2016/04/the-differences-between-tinkering-and.html 
 https://toil.readthedocs.io/en/latest/appendices/architecture.html : genomics : python : task_runner : toil : ucsc : workflow
 https://tomassetti.me/resources-create-programming-languages/ : parser : programming
 https://tomeyro.itch.io/godot-sfxr : game_development : godot.sfxr : sound_effects
-https://toml.io/en/ : config_file : python : toml
+https://toml.io/en/ : config_file : python : specification : toml
 https://tompepinsky.com/2017/01/30/weak-and-incompetent-leaders-act-like-strong-leaders/ : politics : trump
 https://tompride.wordpress.com/2017/08/31/how-the-press-lied-about-the-little-girl-staying-with-muslim-foster-parents-here-are-the-facts/amp/ : journalism : lies : muslim : racism : telegraph : time
 https://tonsky.me/blog/unicode/ : unicode
