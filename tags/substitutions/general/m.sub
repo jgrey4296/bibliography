@@ -116,7 +116,7 @@ mandala                                  : 1
 mandals                                  : 1
 mandarin                                 : 1
 mandatory_minimum                        : 1
-mandatory_minimums                       : 2
+mandatory_minimums                       : 2 : mandatory_minimum
 mandelbrot                               : 2
 mandingo                                 : 1
 mandolorian                              : 1

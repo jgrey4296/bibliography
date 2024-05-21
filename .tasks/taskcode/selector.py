@@ -42,10 +42,12 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 
-def sort_oldest(spec:list, state, sub_specs) -> list:
+@DootKey.dec.types("count")
+def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], count:int|str) -> list:
+    count = int(count)
     # Sorts oldest -> newest
-    by_mod_time = sorted(sub_specs, key=lambda x: x.extra.fpath.stat().st_mtime)
-    return by_mod_time[0:spec.kwargs.count]
+    by_mod_time = sorted(sub_specs, key=lambda x: x.stat().st_mtime)
+    return by_mod_time[:count]
 
 @DootKey.kwrap.types("from", hint={"type_":BTP.Library})
 @DootKey.kwrap.redirects("update_")

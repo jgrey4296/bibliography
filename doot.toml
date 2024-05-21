@@ -1,18 +1,42 @@
 # -*- mode:conf-toml; -*-
 [settings.general]
-notify                   = { say-on-exit = false }
+notify                   = { say-on-exit = true }
 loaders                  = { commands="default", task="default", parser="default"}
-location_check           = { make_missing = true, print_levels={action="WARN", execute="WARN" } }
+location_check           = { make_missing = true }
 
 [settings.tasks]
-sources = [".tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
+sources = [".tasks", "/media/john/data/github/_templates/doot/android_tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
 code    = []         # Directories where task specific code can be imported from, expanded according to [[locations]] keys
 sleep   = { task=0.2, subtask=1, batch=1 }
 
 [logging]
-stream  = { level="WARN",  allow=["doot"], format="{levelname:<8} : {message}", colour=true }
-file    = { level="DEBUG", allow=["doot"], format="{levelname:<8} : {message:<20} :|: (module:{module} line:{lineno} fn:{funcName})" }
-printer = { level="INFO", colour=true}
+stream  = { level="WARNING", format="{levelname:<8} : {message}", filters=["doot"], target="stdout" }
+file    = { level="DEBUG",   format="{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})", filters=["doot"], target="file" }
+printer = { level="INFO",    format="{message}", colour=true, target="stdout", filter=[] }
+
+[logging.subprinters]
+# Divider subprinters: artifact, task_header, header
+task_header  = {format="---{message}", colour=true, target="stdout"}
+
+# Process subprinters: cmd, setup, shutdown, track, task_loop
+cmd          = {level="INFO",    format="{message}"}
+setup        = {level="INFO",    format="-- Setup: {message}"}
+shutdown     = {level="WARNING", format="-- Shutdown: {message}"}
+track        = {level="WARNING", format="-- Tracking: {message}"}
+report       = {level="INFO",    format="{message}", target="stdout", colour=true}
+
+# Event Subprinters: success, fail, skip, sleep, header, help, queue, report, task_state
+# ## action_exec, action_group, task
+task         = {}
+task_state   = {level="WARNING", format="Task State: {message}"}
+success      = {level="WARNING", format="-- Success {message}"}
+fail         = {level="WARNING", target="stdout", format="!!!! {message}"}
+queue        = {format="++++ {message}"}
+action_group = {level="WARNING", format="Action Group: {message}"}
+action_exec  = {level="WARNING", format="--------> Action Execution: {message}", target="stdout", colour=true}
+
+[logging.extra]
+"doot._printer.checkloc" = {level="WARNING"}
 
 [plugins]
 # Allows for defining shorthands
@@ -30,5 +54,5 @@ temp          = ".temp"
 logs          = "{temp}/logs"
 export        = "{temp}/export"
 bib           = "main"
-bookmarks     = "bookmarks/total.bookmarks"
+bookmarks     = {file="bookmarks/total.bookmarks"}
 substitutions = "tags/substitutions"

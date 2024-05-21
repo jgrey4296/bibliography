@@ -1,7 +1,7 @@
 ## compile.toml -*- mode: conf-toml -*-
 
 [[locations]]
-tex_template = "~/github/_templates/tex-config/tex/export_template.tex"
+tex_template = {file="~/github/_templates/tex-config/tex/export_template.tex"}
 tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
@@ -12,12 +12,9 @@ version              = "0.1"                                    # <str>
 doc                  = ["trigger a full export, and compile the results"]
 ctor                 = "task"                                   # <str>
 depends_on           = [
-    "export::all",
-    "export::all.$head$",
-    "compile::pdf",
-    "compile::html",
-    "compile::pdf.$head$",
-    "compile::html.$head$"
+    "export::all", "export::all.$head$",
+    "compile::pdf", "compile::html",
+    "compile::pdf.$head$", "compile::html.$head$"
  ]
 
 [[tasks.compile]]
@@ -60,7 +57,7 @@ sub_actions          = [
 ]
 
 [[tasks.compile]]
-name                 = "_fails"
+name                 = "_.fails"
 version              = "0.1"                                    # <str>
 doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
 ctor                 = "job"                                   # <str>

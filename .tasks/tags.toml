@@ -21,7 +21,7 @@ exts                     = [".sub"]                                             
 # required_for             = ["file:>{temp}/tags/canon.tags", "file:>{temp}/tags/new.tags"]
 recursive                = false                                                                  # <bool>
 cleanup = [
-    { do="post.get", subs="tags::calc.allsubs" },
+    { do="post.get", subs="tags::calc..allsubs" },
     { do="taskcode.tags:merge_subfiles", from_="subs", update_="known_tags" },
     { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="total_tags" },
     { do="taskcode.tags:calc_new_tags",   total_="total_tags", known_="known_tags", update_="new_tags" },
@@ -38,7 +38,7 @@ actions                  = [
 ]
 sub_actions              = [
     { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", allsubs=["{subs}"] },
+    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
 ]
 
 [[tasks.tags]]
@@ -46,28 +46,27 @@ name                 = "extract.bib"
 version              = "0.1"                                                                # <str>
 ctor                 = "job"                                                             # <type>
 doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
-print_levels         = {action="WARN", execute="WARN"}                                      # <Dict: {'action', 'execute', 'build', 'sleep', 'head'}>
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
 actions = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="tags::_extract.bib"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="tags::_.extract.bib"},
         {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"},
-        {do="job.queue", args=["tags::_extract.bib.finish"], after=["$head$"]},
+        {do="job.queue", args=["tags::_.extract.bib.finish"], after=["$head$"]},
 ]
 
 [[tasks.tags]]
-name             = "_extract.bib"
+name             = "_.extract.bib"
 doc              = ["adds tags found in the bibtex to a middleware state"]
 ctor             = "task"
 depends_on       = [
     { do="ext?", args=["{fpath}"], ext=[".bib"]},
 ]
 setup            = [
-    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-    { do="dootle.bibtex.v2:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
+    { do="dootle.bibtex:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
 ]
 actions          = [
     { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
@@ -75,17 +74,17 @@ actions          = [
 ]                                                                                                                         # <str>
 
 [[tasks.tags]]
-name            = "_extract.bib.finish"
+name            = "_.extract.bib.finish"
 ctor            = "task"
 requird_for     = ["file:>{temp}/tags/bib.tags", "file:>{temp}/tags/bib.names"]
 queue_behaviour = "reactive"
 actions         = [
-    { do="post.get", tags="tags::extract.tags"},
+    { do="post.get", tags="tags::_.extract.bib..tags"},
     { do="taskcode.tags:merge_tagfiles", from_="tags", update_="merged.tags"},
     # Write Tags
     { do="taskcode.tags:write_tag_set", from_="merged.tags", update_="tagstr" },
     { do="write!", from_="tagstr", to="{temp}/tags/bib.tags"},
     # Write names:
-    { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
-    { do="write!", from_="names", to="{temp}/tags/bib.names" }
+    # { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
+    # { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]

@@ -919,7 +919,7 @@ drug_policy                               : 1
 drug_prevention                           : 1
 drug_pricing                              : 1
 drug_use                                  : 1
-drug_war                                  : 38
+drug_war                                  : 38 : war_on_drugs
 drugs                                     : 28
 drum_programming                          : 2
 drumming                                  : 2

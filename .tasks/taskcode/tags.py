@@ -39,9 +39,8 @@ logging = logmod.getLogger(__name__)
 import doot
 import doot.errors
 from doot.structs import DootKey
-from jgdv.files.tags.base import TagFile
-from jgdv.files.tags.substitutions import SubstitutionFile
-from bib_middleware import TagsReader
+from jgdv.files.tags import TagFile, SubstitutionFile
+from bib_middleware.metadata import TagsReader
 
 UPDATE_KEY = DootKey.build("update_")
 FROM_KEY   = DootKey.build("from")
@@ -78,10 +77,10 @@ def write_tag_set(spec, state, _from, _update):
     tag_str = str(_from)
     return { _update : tag_str}
 
-@DootKey.dec.redirects("update_")
-def write_name_set(spec, state, _update):
-    result     = BM.NameWriter.names_to_str()
-    return { _update : result }
+# @DootKey.dec.redirects("update_")
+# def write_name_set(spec, state, _update):
+#     result     = BM.NameWriter.names_to_str()
+#     return { _update : result }
 
 @DootKey.dec.types("from", hint={"type_":list|set})
 @DootKey.dec.redirects("update_")

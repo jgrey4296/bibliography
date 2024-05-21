@@ -13,7 +13,6 @@ version                    = "0.1"                                              
 doc                        = ["Backup pdf library"]
 ctor                       = "job"             # <type>
 clean_locs                 = ["{pdf_bkup}"]
-print_levels               = {build="WARNING", action="WARNING", execute="INFO"} # <Dict: {'build', 'action', 'sleep', 'head', 'execute'}>
 exts                       = []                                  # <list[str]>
 recursive                  = true                                # <bool>
 roots                      = ["{pdf_source}"]                    # <list[str|pl.Path]>  Places the globber will start
@@ -36,12 +35,11 @@ sub_actions                = [
 
 
 [[tasks.backup]]
-name               = "_by.year"
+name               = "_.by.year"
 doc                = ["update the file metadata for all entries in a single bib file"]
 version            = "0.1"
 ctor               = "job"
 cli                = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-print_levels       = { head="INFO", build="WARNING", execute="WARNING", sleep="WARNING", action="WARNING" }
 roots              = ["{pdf_source}", "{bib}"]
 shadow_root        = "{pdf_bkup}"
 depends_on         = [
@@ -51,13 +49,13 @@ depends_on         = [
 ]
 setup              = [
     { do="path.elements", from_="fpath"},
-    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.backup:build_backup_parse_stack",  update_="parse_stack"},
 ]
 actions            = [
     { do="log", msg="Backup By Year: {fpath}", level="WARN"},
     # Read
-    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     { do="taskcode.backup:get_files", from_="bib_db", update_="files" },
     # Queue
     { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},

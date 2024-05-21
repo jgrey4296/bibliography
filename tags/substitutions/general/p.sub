@@ -682,7 +682,7 @@ polarity                             : 3
 polarization                         : 5
 polcy                                : 1  : policy
 pole_position                        : 1
-poli_sci                             : 1  : political_sciene
+poli_sci                             : 1  : political_science
 polic                                : 1  : police
 polic_violence                       : 1  : police_violence
 police                               : 162
@@ -733,7 +733,7 @@ polisci                              : 6  : political_science
 politcs                              : 7  : politics
 politeness                           : 14
 politi                               : 1  : politics
-politica_geography                   : 1 : political_geography
+politica_geography                   : 1  : political_geography
 political_alliance                   : 1
 political_appointments               : 1
 political_attacks                    : 1
@@ -744,7 +744,7 @@ political_contagion                  : 1
 political_correctness                : 3
 political_deals                      : 1
 political_design                     : 1
-political_economics                  : 1
+political_economics                  : 1 : political_economy
 political_economy                    : 2
 political_elites                     : 1
 political_factors                    : 2

@@ -10,7 +10,7 @@ ctor        = "job"
 exts        = [".bib", ".bookmarks"]
 roots       = ["{bib}"]
 match_fn    = "ext"
-match_map   = { ".bib"="summary::_bibs", ".bookmarks"="summary::_bookmarks" }
+match_map   = { ".bib"="summary::_.bibs", ".bookmarks"="summary::_.bookmarks" }
 actions     = [
         {do="job.walk",   update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}},
@@ -19,11 +19,11 @@ actions     = [
 ]
 
 [[tasks.summary]]
-name    = "_bibs"
+name    = "_.bibs"
 doc     = ["TODO"]
 actions = []
 
 [[tasks.summary]]
-name    = "_bookmarks"
+name    = "_.bookmarks"
 doc     = ["TODO"]
 actions = []
