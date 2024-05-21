@@ -52,6 +52,7 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/overview?homepageId=2850903
 https://www.jendrikillner.com/article_database/ - graphics programming weekly
 https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/
 https://mgsvmoddingwiki.github.io/
@@ -412,6 +413,13 @@ https://github.com/torch/torch7/wiki/Cheatsheet
 https://jolantahuba.github.io/YT-Backup/
 https://scipy.github.io/old-wiki/pages/Cookbook/SavitzkyGolay
 
+https://github.com/Rishikant181/Rettiwt-API
+https://github.com/bear/python-twitter
+https://github.com/mbostock/d3/wiki/API-Reference
+https://github.com/notioncollective/propublica-congress-node
+https://github.com/prabhath6/theguardian-api-python
+https://github.com/toddmotto/public-apis
+
 ** Grammar
 https://www.merriam-webster.com/grammar/
 ** Itch.io
@@ -504,43 +512,26 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Agents
+http://www.sarl.io/publications/index.html
 https://agentclinic.github.io/
 http://ccl.northwestern.edu/netlogo/docs/dictionary.html#link
-
 http://jasss.soc.surrey.ac.uk/1/3/1.html
-
 http://moise.sourceforge.net/
-
 http://www.janus-project.org/Home
-
 http://www.simplusplus.com/
-
 http://www.simsesam.de/
-
 https://agentmodels.org/
-
 https://en.m.wikipedia.org/wiki/DARPA_Agent_Markup_Language
-
 https://en.wikipedia.org/wiki/Agent-based_social_simulation
-
 https://en.wikipedia.org/wiki/Comparison_of_agent-based_modeling_software
-
 https://en.wikipedia.org/wiki/MASON_(Java)
-
 https://en.wikipedia.org/wiki/Repast_(Modelling_toolkit)
-
 https://en.wikipedia.org/wiki/Sugarscape
-
 https://en.wikipedia.org/wiki/Swarm_(simulation)
-
 https://github.com/backspaces/agentscript
-
 https://github.com/joonspk-research/generative_agents/tree/main
-
 https://github.com/open-policy-agent/opa
-
 https://simassocc.org/
-
 https://www.openpolicyagent.org/
 ** Programming
 https://www.linode.com/docs/
@@ -627,6 +618,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/SARL_(programming_language)
+https://en.m.wikipedia.org/wiki/Syslog
 https://en.m.wikipedia.org/wiki/Data_vault_modeling
 https://en.m.wikipedia.org/wiki/Data_warehouse
 https://en.wikipedia.org/wiki/History_of_software_configuration_management
@@ -1106,6 +1099,59 @@ http://developer.nytimes.com/
 https://github.com/subat0mik/Misconfiguration-Manager - windows
 https://how-did-i-get-here.net/
 
+https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+https://archive.org/developers/
+https://rapidapi.com/blog/directory/
+https://developers.vam.ac.uk/guide/v2/welcome.html
+https://data.nhm.ac.uk/
+http://api.repo.nypl.org/
+http://api2.bigoven.com/
+http://developer.nytimes.com/
+http://eamann.com/tech/google-reader-api-a-brief-tutorial/
+http://food2fork.com/about/api
+http://nlp.stanford.edu/nlp/javadoc/javanlp/
+http://nodejs.org/docs/v0.4.11/api/http.html#http.request
+http://python.apichecklist.com/
+http://scdb.wustl.edu/documentation.php
+http://scikit-learn.org/stable/modules/preprocessing.html#binarization
+http://sweetjs.org/doc/main/sweet.html#rule-macros
+https://anapioficeandfire.com/Documentation
+https://bbcarchdev.github.io/inside-acropolis/#consumers
+https://blog.qmo.io/ultimate-guide-to-api-design/
+https://devdocs.io/
+https://developer.chrome.com/apps/api_index
+https://developer.chrome.com/extensions/bookmarks
+https://developer.chrome.com/extensions/webNavigation
+https://developer.chrome.com/extensions/webRequest
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/bookmarks
+https://developer.mozilla.org/en-US/docs/Web/Events#Standard_events
+https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-users-lookup
+https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29
+https://developers.google.com/web/updates/2019/03/kv-storage
+https://developers.google.com/youtube/v3/guides/using_resumable_upload_protocol
+https://docs.joinmastodon.org/api/
+https://docs.oracle.com/javase/10/docs/api/overview-summary.html
+https://docs.talkamatic.se/for-dialog-designers/
+https://gizmodo.com/5978902/is-facebook-locking-down-its-social-graph-data
+https://insomnia.rest/blog/introducing-designer/
+https://insomnia.rest/products/insomnia
+https://jacamo.sourceforge.net/doc/api/index.html?overview-summary.html
+https://jason.sourceforge.net/api/
+https://keras.io/layers/embeddings/
+https://medium.com/@SamSchmir/a-guide-to-the-twitter-api-and-twurl-8711466a0635
+https://moise.sourceforge.net/doc/api/index.html
+https://open-platform.theguardian.com/documentation/
+https://petitions.whitehouse.gov/developers
+https://propublica.github.io/congress-api-docs/#congress-api-documentation
+https://tweepy.readthedocs.io/en/v3.5.0/index.html
+https://www.awsgeek.com/
+https://www.blender.org/api/248PythonDoc/
+https://www.blender.org/api/blender_python_api_current/
+https://www.charitynavigator.org/products-and-services/graphql-api/
+https://www.mobygames.com/info/api
+https://www.oldbaileyonline.org/static/API.jsp
+https://www.oldbaileyonline.org/static/DocAPI.jsp
+https://www.publicapis.com/
 ** Archive
 https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
@@ -1125,6 +1171,40 @@ https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/ 
 https://www.newspapers.com/papers/                                                                             :  Newspapers.com
 https://www.si.edu/openaccess                                                                                  :  Smithsonian Open Access
 https://www.walter-benjamin.online/
+** TODO Archive B
+https://www.nga.gov/open-access-images.html
+https://www.rijksmuseum.nl/en/rijksstudio?ii=0&p=0&from=2023-09-20T16%3A42%3A17.6045022Z
+http://api.repo.nypl.org/
+http://api2.bigoven.com/
+http://developer.nytimes.com/
+http://jurix.nl/proceedings/
+http://retractiondatabase.org/RetractionSearch.aspx?
+https://britishculturearchive.co.uk/
+https://caselaw.nationalarchives.gov.uk/
+https://catalog.archives.gov/
+https://climate.nasa.gov/vital-signs/carbon-dioxide/
+https://collections.library.yale.edu/
+https://docs.google.com/spreadsheets/u/0/d/11Ps8ILDHH-vojJGyIx7CcaoB5l1mBRHy3OQAgWkm0W4/htmlview#gid=0
+https://github.com/notioncollective/propublica-congress-node
+https://github.com/prabhath6/theguardian-api-python
+https://id.loc.gov/
+https://idb.ub.uni-tuebingen.de/opendigi/El54_qt#p=3
+https://open-platform.theguardian.com/documentation/
+https://osf.io/46sfd/
+https://ourworldindata.or
+https://propublica.github.io/congress-api-docs/#congress-api-documentation
+https://repository.si.edu/
+https://seaice.visuals.earth/
+https://sites.ualberta.ca/~urban/Projects/English/Motif_Index.htm
+https://surnames.behindthename.com/
+https://www.gov.uk/official-documents
+https://www.govinfo.gov/app/collection/uscourts/appellate/
+https://www.mcmaster.com/
+https://www.mobygames.com/info/api
+https://www.oise.utoronto.ca/collaborativeindigenousresearch
+https://www.oldbaileyonline.org/static/API.jsp
+https://www.opensecrets.org/
+https://xeroxparcarchive.computerhistory.org/
 ** Cities
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
