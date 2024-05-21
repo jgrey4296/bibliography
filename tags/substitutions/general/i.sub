@@ -509,7 +509,7 @@ intelligent_agents                 : 3
 intelligent_design                 : 1
 intelligent_tutoring               : 1
 intelligent_tutoring_system        : 2
-intelligent_tutoring_systems       : 1
+intelligent_tutoring_systems       : 1   : intelligent_tutoring_system
 intension                          : 1   : intention
 intent                             : 3   : intention
 intention                          : 22
