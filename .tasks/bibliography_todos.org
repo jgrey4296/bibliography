@@ -1,0 +1,164 @@
+#+TITLE: Bibliography Todos
+
+* TODO Bibliography
+** in_progress
+*** ai-reviews
+*** anthology
+*** dijkstra
+** conferences
+*** alife
+*** chi play
+*** coG
+*** ICEC
+*** ToG
+*** T-CIAIG
+*** DONE [#A] aisb
+** journals
+** individuals
+** favourites
+** scifi
+**** ac_clarke_award
+**** galaxy_award
+**** hugo_award
+**** lambda_award
+**** le_guin_award
+**** nebula_award
+**** nommo_award
+**** pk_dick_award
+**** timeline
+**** world_fantasy_award.bib
+** tags                                          :tag:
+*** integrate new
+** ebooks                                        :ebooks:
+*** epubs
+**** Abnett_2004_Eisenhorn_Omnibus.epub
+**** Abnett_2008_Titanicus.epub
+**** Aristotle_1998_Metaphysics.epub
+**** Banks_1987_Consider_Phlebas_d5bab.epub
+**** Banks_1987_Consider_Phlebas.epub
+**** Bergson_1913_Laughter.epub
+**** Bester_1981_The_Deceivers.epub
+**** Bush_1945_As_We_May_Think.epub
+**** Camic_2011_The_Essential_Writings_of_Thorstein_Vebl.epub
+**** Card_2006_The_Cambridge_Companion_to_Simone_De_Bea.epub
+**** Croshaw_2022_Will_Save_the_Galaxy_for_Food.epub
+**** De_1949_The_Second_Sex.epub
+**** Drucker_1998_On_the_Profession_of_Management.epub
+**** Dunn_2012_The_Primarchs.epub
+**** Dunn_2016_The_Silent_War.epub
+**** Eberl_2008_Battlestar_Galactica_and_Philosophy.epub
+**** Fadiman_2000_Ex_Libris.epub
+**** Galbraith_1955_The_Great_Crash_1929.epub
+**** Galbraith_1983_The_Anatomy_of_Power.epub
+**** George_2005_Case_Studies_and_Theory_Development_in_t.epub
+**** Miceli_2015_Expectancy_and_Emotion.epub
+**** Mieville_2011_Embassytown.epub
+**** Okrent_2009_In_the_Land_of_Invented_Languages_Esper.epub
+**** Plato_2004_The_Laws.epub
+**** Pratchett_1991_Reaper_Man.epub
+**** Pratchett_1991_Witches_Abroad.epub
+**** Pratchett_1992_Lords_and_Ladies.epub
+**** Pratchett_1993_Men_At_Arms.epub
+**** Pratchett_1994_Interesting_Times.epub
+**** Pratchett_1996_Feet_of_Clay.epub
+**** Pratchett_1996_Hogfather.epub
+**** Pratchett_1997_Jingo.epub
+**** Pratchett_2001_Thief_of_Time.epub
+**** Pratchett_2002_Night_Watch.epub
+**** Pratchett_2003_Monstrous_Regiment.epub
+**** Pratchett_2004_Going_Postal.epub
+**** Pratchett_2005_Thud_.epub
+**** Pratchett_2007_Making_Money.epub
+**** Pratchett_2010_I_Shall_Wear_Midnight.epub
+**** Pratchett_2011_Snuff.epub
+**** Pratchett_2013_Raising_Steam.epub
+**** Pryor_2010_The_making_of_the_British_landscape.epub
+**** Reid_2005_United_We_Stand.epub
+**** Rowling_2007_Harry_Potter.epub
+**** Scalzi_2005_Old_Man_s_War.epub
+**** Scalzi_2022_The_Kaiju_Preservation_Society.epub
+**** Szczesnik_2016_Unity_5_x_Animation_Cookbook.epub
+
+*** erin
+*** police violence
+*** phil agre
+** timelines
+*** DONE shift to submodule
+*** shift definitions to timelines repo?
+
+** tasks                                         :bibliography:
+*** summary counts
+*** twitter threads
+*** bookmark duplicate remove
+*** listings
+**** list books
+**** list proceedings
+**** list journals
+
+*** verify
+**** wayback urls
+**** check for predatory journals
+**** check for predatory publishers
+**** remove duplicates
+
+*** build
+**** compile main changes
+1) format
+2) export
+3) create tex
+4) compile
+**** compile individuals
+**** compile conferences
+**** compile journals
+*** tags
+**** rebuild tags
+**** merge tags
+**** clean tags
+**** build timeline for tag
+**** diff tag changes
+*** other
+**** DONE update bookmarks
+**** parse ceur
+**** bib format, for plus
+*** xml
+**** [#B] parse and extract dblp
+**** sitemaps                                   :sitemaps:
+***** boingboing
+***** boykiss
+***** critical-distance
+***** doctorow
+***** federalist
+***** hansard
+***** journals
+***** jstor
+***** koster
+***** media_matters
+***** mit
+***** news_sitemaps
+***** porn
+***** propublica
+***** sciencedirect
+***** scifi_ruminations
+***** scotus_blog
+***** springer
+***** techdirt
+***** the_nation
+***** the_trace
+***** variancehammer
+***** ceur-ws-index.xml
+***** game_philosophy.xml
+***** papersindex.xml
+***** paul_mcguire.xml
+***** pentiment.xml
+***** talks-2022.xml
+***** verso.xml
+**** thompson motifs
+*** DONE metadata update
+*** DONE chunker
+**** DONE plus/anthology
+**** DONE plus/ai_reviews
+*** DONE build stubs
+** wiki
+
+
+* Links
