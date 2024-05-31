@@ -52,6 +52,7 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://github.com/Xibanya/ShaderTutorials
 https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/overview?homepageId=2850903
 https://www.jendrikillner.com/article_database/ - graphics programming weekly
 https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/
@@ -379,6 +380,10 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/leipzig/SandwichesWithSnakemake
+https://github.com/klembot/twinejs
+https://github.com/stathissideris/ditaa
+https://github.com/Xibanya/ShaderTutorials
 https://github.com/open-dicom/awesome-dicom
 https://github.com/mintisan/awesome-kan
 https://github.com/dhowe/adnauseam
@@ -423,6 +428,7 @@ https://github.com/toddmotto/public-apis
 ** Grammar
 https://www.merriam-webster.com/grammar/
 ** Itch.io
+https://penflower-ink.itch.io/passkey-srd
 http://delca.itch.io/town
 http://jamespatton.itch.io/masques-and-murder
 http://managore.itch.io/planetarium
@@ -484,6 +490,7 @@ https://zarkonnen.itch.io/occult-defence-agency-budgeting-simulator
 https://jobs.co.uk/
 https://www.cv-library.co.uk/
 ** Journalism
+https://nation.africa
 https://euromedmonitor.org/en
 https://www.justsecurity.org/
 https://www.mediamatters.org/
@@ -534,6 +541,8 @@ https://github.com/open-policy-agent/opa
 https://simassocc.org/
 https://www.openpolicyagent.org/
 ** Programming
+https://launchpad.net/
+https://wiki.archlinux.org/
 https://www.linode.com/docs/
 https://ubuntu.com/engage
 https://makefiletutorial.com/
@@ -583,6 +592,37 @@ https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-im
 https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
+** Software Engineering
+https://semgrep.dev/docs/writing-rules/rule-ideas
+https://sarahabd.com/til/accessibility-resources
+https://sarahabd.com/blog/my-accessibility-review-checklist
+https://sarahabd.com/til/accessibility-resources-second-edition
+https://www.oxygenxml.com/dita/styleguide/
+https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes
+https://calver.org/
+https://cookiecutter.readthedocs.io/en/2.2.3/README.html
+https://github.com/ghostinthewires/Azure-Readiness-Checklist/blob/master/README.md
+https://pep8.org/
+https://refactoring.guru/
+https://www.cisa.gov/resources-tools/resources/types-software-bill-materials-sbom
+https://www.sphinx-doc.org/en/master/contents.html
+https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/
+http://tusharma.in/smells/
+http://webdevchecklist.com/
+http://www.programming-idioms.org/about#about-block-all-idioms
+http://www.rankred.com/nasa-coding-rules/
+https://12factor.net/
+https://adamosloizou.github.io/software/2018/06/18/software-engineering-principles.html
+https://docs.readthedocs.io/en/stable/
+https://engineering.riotgames.com/news/taxonomy-tech-debt
+https://github.com/noffle/art-of-readme
+https://keepachangelog.com/en/1.1.0/
+https://matklad.github.io/2021/02/06/ARCHITECTURE.md
+https://reproducible-builds.org/
+https://semver.org/
+https://www.conventionalcommits.org/en/v1.0.0
+https://www.datatilsynet.no/en/regulations-and-tools/guidelines/data-protection-by-design-and-by-default/
+https://www.makeareadme.com/
 ** Reading lists
 http://io9.com/the-essential-cyberpunk-reading-list-1714180001
 http://marhicks.com/syllabi.html#womenincomputing
@@ -628,6 +668,7 @@ https://en.wikipedia.org/wiki/Chain_of_trust
 https://en.wikipedia.org/wiki/Reproducible_builds
 https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
 https://en.m.wikipedia.org/wiki/Stagflation
+https://en.m.wikipedia.org/wiki/Karim_Ahmad_Khan
 * Blogs
 ** ACLU
 https://www.aclu.org/blog/lgbt-rights
@@ -1153,6 +1194,7 @@ https://www.oldbaileyonline.org/static/API.jsp
 https://www.oldbaileyonline.org/static/DocAPI.jsp
 https://www.publicapis.com/
 ** Archive
+https://www.replacementdocs.com  : blocked in uk
 https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 https://archive.org/details/cbk                                                                                :  Archive.org Cookbook Collection
@@ -1608,6 +1650,7 @@ https://www.mcmaster.com/
 https://refugeecouncil.org.uk/resource-category/guides-for-refugees/                                           :  Guides for Refugees
 https://reference.pictures/                                                                                    :  Reference Photos
 https://www.dimensions.com/                                                                                    :  Dimensions.com
+https://posereference.com/collection/all
 ** religion
 https://faenrandir.github.io/a_careful_examination/
 ** researchers
@@ -2440,6 +2483,7 @@ https://www.pewresearch.org/topic/politics-policy/
 http://www.pewglobal.org/category/datasets/
 http://www.pewresearch.org/
 ** Policing / crime
+https://www.whoismakingnews.com/#source-data
 https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
 https://ourworldindata.org/homicides
 https://vault.fbi.gov/

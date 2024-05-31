@@ -6904,8 +6904,8 @@ https://docs.drools.org/7.73.0.Final/drools-docs/html_single/index.html : KIE : 
 https://docs.getpelican.com/en/latest/ : pelican : site_generator : template
 https://docs.getpelican.com/en/latest/index.html : documentation : pelican : python : static_site_generator : web
 https://docs.github.com/en/actions/quickstart : documentation : github : github_actions : sphinx : technical
-https://docs.godotengine.org/en/3.1/classes/index.html : api : godot
-https://docs.godotengine.org/en/3.1/getting_started/editor/unity_to_godot.html : comparison : godot : unity
+https://docs.godotengine.org/en/latest/classes/index.html : api : godot
+https://docs.godotengine.org/en/latest/getting_started/editor/unity_to_godot.html : comparison : godot : unity
 https://docs.godotengine.org/en/latest/contributing/development/core_and_modules/internal_rendering_architecture.html : godot : rendering
 https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#doc-gdscript : gdscript : godot : scripting
 https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html : gdscript : godot
