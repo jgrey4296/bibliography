@@ -1,0 +1,79 @@
+#+TITLE: Journals Todo
+
+* Journals Todo
+** acm_prog_lang
+*** oopsla
+*** pldi
+*** popl
+** ai_mag
+*** vol_1        -
+*** vol_2        -
+*** vol_3        -
+*** vol_4        -
+*** vol_5        -
+*** vol_6        -
+*** vol_7        -
+*** vol_8        -
+*** vol_9        -
+*** vol_10       -
+*** vol_11       -
+*** vol_12       -
+*** vol_13       -
+*** vol_14       -
+*** vol_15       -
+*** vol_16       -
+*** vol_17       -
+*** vol_18       -
+*** vol_19       -
+*** vol_20       -
+*** vol_21       -
+*** vol_22       -
+*** vol_23       -
+*** vol_24       -
+*** vol_44_to_25 - split
+** ai_tools
+*** international_journal_of_ai_tools - split this
+** artificial_intelligence
+open access publishing charge - $4030.
+*** vol_1_to_12 - split this
+*** vol_320_to_193 - split this
+** frontiers_of_ai
+*** frontiers_of_ai - split this
+** jasss
+*** vol_1.bib
+*** vol_2.bib
+*** vol_3.bib
+*** vol_4.bib
+*** vol_5.bib
+*** vol_6.bib
+*** vol_7.bib
+*** vol_8.bib
+*** vol_9.bib
+*** vol_10.bib
+*** vol_11.bib
+*** vol_12.bib
+*** vol_13.bib
+*** vol_14.bib
+*** vol_15.bib
+*** vol_16.bib
+*** vol_17.bib
+*** vol_18.bib
+*** vol_19.bib
+*** vol_20.bib
+*** vol_21.bib
+*** vol_22.bib
+*** vol_23.bib
+*** vol_24.bib
+*** vol_25.bib
+*** vol_26.bib
+** jair
+https://dblp.org/db/journals/jair/index.html
+** science fiction
+*** Science Fiction Studies
+https://muse.jhu.edu/pub/347/journal/780
+https://www.jstor.org/journal/sciefictstud
+*** extrapolation
+https://www.liverpooluniversitypress.co.uk/journal/extr
+
+
+* Links

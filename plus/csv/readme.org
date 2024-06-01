@@ -3,17 +3,6 @@
 * Overview
 A collection of csv files of interest
 
-* Main
-** TODO springer
-collections of results from searching springerlink and exporting
-** TODO ai_spec_gaming.csv
-a collection of examples of ai gaming their metrics
-** TODO dl_contents.csv
-a collection of transactions, journals and proceedings on the dl.acl.org
-** TODO epi_reading_list.csv
-an epidemiology reading list
-** TODO game_clips.csv
-a collection of youtube clips of various games
 * Links
 
 http://dl.acm.org/feeds/dl_contents.csv

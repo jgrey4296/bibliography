@@ -1,0 +1,49 @@
+#+TITLE: Primary Conferences
+
+* Overview
+As complete a proceeding list as I can find for each conference, for each year it occurred.
+uses dblp.org as initial source
+
+* Main
+** DONE aaai 1980-2023
+** atal_aamas
+** aisb
+Some papers done. 1974-2023
+from: https://aisb.org.uk/convention-proceedings/
+
+*** 1974 -
+*** 1976 -
+*** 1978 -
+*** 1980 -
+*** 2000 -
+*** 2002 - add papers
+*** 2003 - add papers
+*** 2004 - add papers
+*** 2005 - add papers
+*** 2006 - add papers
+*** 2007 - add papers
+*** 2008 - add papers
+*** 2009 - add papers
+*** 2010 -
+*** 2011 - add papers
+*** 2012 - add papers
+*** 2013 - add papers
+*** 2015 - add papers
+*** 2016 -
+*** 2017 - add papers
+*** 2023 -
+
+** chi
+Has All papers up to 1981-2023
+
+** coin
+
+*** 2023 proceedings
+** digra
+** fdg
+** icids
+** ijcai
+** iva
+** pcg
+** sacair
+* Links

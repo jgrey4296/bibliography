@@ -1,6 +1,6 @@
 #+TITLE: Bibliography Todos
 
-* TODO Bibliography
+* Bibliography
 ** in_progress
 *** ai-reviews
 *** anthology
@@ -159,6 +159,38 @@
 **** DONE plus/ai_reviews
 *** DONE build stubs
 ** wiki
-
+** CSVs
+*** springer
+collections of results from searching springerlink and exporting
+*** ai_spec_gaming.csv
+a collection of examples of ai gaming their metrics
+*** dl_contents.csv
+a collection of transactions, journals and proceedings on the dl.acl.org
+*** epi_reading_list.csv
+an epidemiology reading list
+*** game_clips.csv
+a collection of youtube clips of various games
+** XMLs
+*** boykiss
+*** critical-distance
+*** doctorow
+*** federalist
+*** hansard
+*** journals
+*** koster
+*** media_matters
+*** mit
+*** propublica
+*** scifi_ruminations
+*** scotus_blog
+*** the_nation
+*** the_trace
+*** variancehammer
+*** game_philosophy.xml
+*** papersindex.xml
+*** paul_mcguire.xml
+*** pentiment.xml
+*** talks-2022.xml
+*** verso.xml
 
 * Links

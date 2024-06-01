@@ -1,52 +1,10 @@
-#+TITLE: Primary Conferences
-
-* Overview
-As complete a proceeding list as I can find for each conference, for each year it occurred.
-uses dblp.org as initial source
+#+TITLE: Conferences Primary
 
 * Main
-** DONE aaai 1980-2023
-** TODO atal_aamas
-** TODO aisb
-Some papers done. 1974-2023
-from: https://aisb.org.uk/convention-proceedings/
 
-*** TODO 1974 -
-*** TODO 1976 -
-*** TODO 1978 -
-*** TODO 1980 -
-*** TODO 2000 -
-*** TODO 2002 - add papers
-*** TODO 2003 - add papers
-*** TODO 2004 - add papers
-*** TODO 2005 - add papers
-*** TODO 2006 - add papers
-*** TODO 2007 - add papers
-*** TODO 2008 - add papers
-*** TODO 2009 - add papers
-*** TODO 2010 -
-*** TODO 2011 - add papers
-*** TODO 2012 - add papers
-*** TODO 2013 - add papers
-*** TODO 2015 - add papers
-*** TODO 2016 -
-*** TODO 2017 - add papers
-*** TODO 2023 -
 
-** TODO chi
-Has All papers up to 1981-2023
-
-** coin
-
-*** TODO 2023 proceedings
-** TODO digra
-** TODO fdg
-** TODO icids
-** TODO ijcai
-** TODO iva
-** TODO pcg
-** TODO sacair
 * Links
 https://www.ijcai.org/
 https://dblp.org/
 https://ceur-ws.org/
+https://facctconference.org/2024/sponsors

@@ -1,0 +1,73 @@
+#+TITLE: Secondary Conferences
+
+* Secondary Conferences
+** proceedings.bib - check and expand
+
+** a2hc - needs dblp.keys
+** abss - needs dplp.keys
+** acai - needs dplp.keys
+** acan - needs dplp.keys
+** todi alife
+** aois
+*** 2002 - add papers
+** aose
+** argmas
+** at
+** atop - needs dplp.keys
+** care - needs dplp.keys
+** ceemas
+** cgames
+** clima
+** clips
+*** 1994 - add papers
+** coax
+*** coax - split into years
+** comp creative
+*** comp_creative - add papers, get proceedings
+** daghsthul - needs dplp.keys
+** dai
+** dalt
+** deon
+** digital_libs - rename to ercimdl
+** digitel
+** e4mas
+** ecaiw
+** emas
+** esaw
+** esoa - needs dplp.keys
+** eumas
+** gurt
+*** 1984 - add papers
+** hais
+** ias
+** icaps
+** icmas
+** ifm
+** ipc - needs dplp.keys
+** itmas - needs dplp.keys
+** jurix
+** lads
+** lpnr
+** maamaw
+** mabs
+** macsyma
+*** macsyma_1977 - add papers
+** mallow
+** mates
+** mmas
+** mochart
+** mrs
+** oamas - needs dplp.keys
+** oas
+** oopsla
+** prima
+** promas
+** rule tech - needs dplp.keys
+** selmas
+** socase
+** storytelling - needs dplp.keys
+** tpdl - needs dplp.keys
+** trust - needs dplp.keys
+** wat - needs dplp.keys
+** WCSS
+* Links

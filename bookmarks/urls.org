@@ -593,6 +593,7 @@ https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
 ** Software Engineering
+https://git-cliff.org/docs/
 https://semgrep.dev/docs/writing-rules/rule-ideas
 https://sarahabd.com/til/accessibility-resources
 https://sarahabd.com/blog/my-accessibility-review-checklist
