@@ -52,6 +52,7 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://gameuidatabase.com/index.php
 https://github.com/Xibanya/ShaderTutorials
 https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/overview?homepageId=2850903
 https://www.jendrikillner.com/article_database/ - graphics programming weekly
@@ -380,6 +381,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/g-truc/glm
 https://github.com/leipzig/SandwichesWithSnakemake
 https://github.com/klembot/twinejs
 https://github.com/stathissideris/ditaa
@@ -2337,6 +2339,7 @@ https://embrace-autism.com/
 https://aspietests.org/
 
 * Digital Collections
+https://gameuidatabase.com/index.php
 https://opencitations.net/index/api/v1/
 https://www.c82.net/iconography/
 https://www.senate.gov/art-artifacts/historical-images-landing-page.htm
