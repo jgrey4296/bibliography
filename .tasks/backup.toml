@@ -10,7 +10,7 @@ pdf_bkup     = "{backup_drive}/library/pdfs"
 [[tasks.backup]]
 name                       = "pdfs"
 version                    = "0.1"                                                       # <str>
-doc                        = ["Backup pdf library"]
+doc                        = ["Backup raw pdf library"]
 ctor                       = "job"             # <type>
 clean_locs                 = ["{pdf_bkup}"]
 exts                       = []                                  # <list[str]>
@@ -36,7 +36,7 @@ sub_actions                = [
 
 [[tasks.backup]]
 name               = "_.by.year"
-doc                = ["update the file metadata for all entries in a single bib file"]
+doc                = ["backup all files mentioned in a specific bibtex year"]
 version            = "0.1"
 ctor               = "job"
 cli                = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]

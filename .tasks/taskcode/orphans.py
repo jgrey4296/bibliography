@@ -42,26 +42,32 @@ import doot
 import doot.errors
 from doot.structs import DootKey
 
-@DootKey.kwrap.types("bib_db")
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.types("bib_db")
+@DootKey.dec.redirects("update_")
 def get_db_files(spec, state, _db, _update):
     """ get all files mentioned in the bibtex database """
     filelist = set()
     for entry in _db.entries:
         fields = entry.fields_dict
-        filelist.update({v.value for k,v in fields.items() if "file" in x})
+        filelist.update({v.value for k,v in fields.items() if "file" in k})
 
     return { _update : filelist }
 
 
-@DootKey.kwrap.types("bib")
-@DootKey.kwrap.types("fs")
+@DootKey.dec.types("bib")
+@DootKey.dec.types("fs")
 def diff_filelists(spec, state, _bib, _fs):
-    """ diff the bibtex filelist against the filesystem filelist """
-    bib_set        : set[str] = set(_bib)
-    fs_set         : set[str] = set(_fs)
-    only_mentioned : set[str] = set()
-    only_exists    : set[str] = set()
+    """ a simple diff of the bibtex filelist against the filesystem filelist """
+    bib_set        : set[str] = set(x.strip() for x in _bib)
+    fs_set         : set[str] = set(x.strip() for x in _fs)
+    only_mentioned : set[str] = bib_set.difference(fs_set)
+    only_exists    : set[str] = fs_set.difference(bib_set)
+    printer.info("Difference:")
+    printer.info("Mentioned : %s -|- %s Exists", len(only_mentioned), len(only_exists))
+    return { "only_mentioned"  :  "\n".join(only_mentioned), "only_exists" : "\n".join(only_exists) }
 
-
-    { "only_mentioned"  :  only_mentioned, "only_exists" : only_exists }
+@DootKey.dec.types("from")
+@DootKey.dec.redirects("update")
+def format_filelist(spec, state, _files, _update):
+    result = "\n".join(sorted(str(x) for x in _files))
+    return { _update : result }

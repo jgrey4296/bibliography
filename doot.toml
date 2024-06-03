@@ -56,3 +56,4 @@ export        = "{temp}/export"
 bib           = "main"
 bookmarks     = {file="bookmarks/total.bookmarks"}
 substitutions = "tags/substitutions"
+lib-root      = "/media/john/data/library/pdfs/"

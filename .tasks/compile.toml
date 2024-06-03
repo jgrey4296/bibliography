@@ -5,6 +5,7 @@ tex_template = {file="~/github/_templates/tex-config/tex/export_template.tex"}
 tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
+html_export  = "{export}/html"
 
 [[tasks.compile]]
 name                 = "full"
@@ -47,13 +48,25 @@ ctor                 = "job"
 queue_behaviour      = "default"                                       # <str>                default | auto | reactive
 exts                 = [".bib"]                                        # <list[str]>
 roots                = ["{bib_export}"]                                # <list[str|pl.Path]>  Places the Walker will start
-actions = [
+actions              = [
         {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="compile::_.to_html"},
         {do="job.queue", from_="tasks"}, # queue
 ]
-sub_actions          = [
-                     # Run bibtex1html
+
+
+[[tasks.compile]]
+name                 = "_.to.html"
+version              = "0.1"
+ctor                 = "task"
+export_bases         = ["{bib_export}"]
+cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+actions              = [
+        {do="relative?", args=["{fpath}"], bases_="export_bases"},
+        {do="path.elements", from_="fpath", roots_="export_bases"},
+        # Run bibtex1html
+        {do="shell", args=["bibtex2html", "-o", "{html_export}/{fstem}", "{fpath}"]},
+        {do="touch", args=["{fpath}"]},
 ]
 
 [[tasks.compile]]
@@ -65,9 +78,9 @@ queue_behaviour      = "default"                                # <str>         
 exts                 = [".bib"]                                 # <list[str]>
 roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
-        {do="job.walk", update_="files"}, # walk,
+        {do="job.walk",   update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
-        {do="job.queue", from_="tasks"}, # queue
+        {do="job.queue",  from_="tasks"}, # queue
 ]
 sub_actions          = [
                      # if pdf exists in temp for bib, silent

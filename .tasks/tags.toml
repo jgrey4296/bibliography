@@ -7,9 +7,10 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 doc                  = ["TODO"]                   # <list[str]>
 depends_on           = ["file:>{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
-actions              = [
+setup= [
                      { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
 ]
+actions = []
 
 [[tasks.tags]]
 name                     = "calc.new"
@@ -18,8 +19,16 @@ ctor                     = "job"
 docs                     = ["calculate canon and new tags"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
-# required_for             = ["file:>{temp}/tags/canon.tags", "file:>{temp}/tags/new.tags"]
 recursive                = false                                                                  # <bool>
+actions                  = [
+    {do="job.walk", update_="files"}, # walk,
+    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+    {do="job.queue", from_="tasks"}, # queue
+]
+sub_actions              = [
+    { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
+    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
+]
 cleanup = [
     { do="post.get", subs="tags::calc..allsubs" },
     { do="taskcode.tags:merge_subfiles", from_="subs", update_="known_tags" },
@@ -30,15 +39,6 @@ cleanup = [
     { do="write!", from_="new_tags", to="{temp}/tags/new.tags"},
     { do="write!", from_="canon_tags", to="{temp}/tags/canon.tags"},
 
-]
-actions                  = [
-    {do="job.walk", update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
-    {do="job.queue", from_="tasks"}, # queue
-]
-sub_actions              = [
-    { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
 ]
 
 [[tasks.tags]]

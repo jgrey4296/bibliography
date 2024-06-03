@@ -192,5 +192,110 @@ a collection of youtube clips of various games
 *** pentiment.xml
 *** talks-2022.xml
 *** verso.xml
-
+* Tasks
+** Backup
+*** [⟙] PDFs total
+- State "[⟙]"        from "[∅]"        [2024-06-02 Sun 22:44]
+*** [⟙] by.year
+- State "[⟙]"        from              [2024-06-02 Sun 22:44]
+*** [∅] by changed from git diff
+*** [∅] pdf only backup
+*** [∅] epub only backup
+** Bookmarks
+*** [⟙] total
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [⟙] firefox
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [⟙] archived
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+** Compilation
+*** [∅] full
+*** [∅] by changed
+*** [∅] to pdfs
+*** [∅] to html
+*** [∅] _fails
+*** [∅] calendar
+** Export
+*** [⟙] latex-ready export
+- State "[⟙]"        from "[⇒]"        [2024-06-02 Sun 21:46]
+*** [∅] by changed
+** Formatting
+*** [⟙] oldest
+- State "[⟙]"        from              [2024-06-02 Sun 22:45]
+*** [⟙] by.year
+- State "[⟙]"        from              [2024-06-02 Sun 21:46]
+*** [∅] bookmark cruft removal
+*** [∅] by changed
+** Metadata
+*** [⟙] update total
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [⟙] by year
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [∅] by changed
+** Online
+*** [⟙] Downloader
+- State "[⟙]"        from              [2024-06-02 Sun 22:46]
+*** [∅] downloader direct write
+*** [∅] waybacker
+*** [∅] 404 checker
+*** [∅] downloader transform action instead of middleware
+** Orphans
+*** [⟙] total
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
+*** [∅] by changed
+*** [⟙] by year
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
+*** [⟙] all.bib
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
+*** [⟙] one.bib
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:08]
+*** [⟙] filesystem
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:08]
+*** [∅] filesystem using fdfind
+** Precommit
+*** [⟙] validate
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:09]
+*** [∅] pre
+*** TODO post
+**** get changed files using git diff
+**** export changed bibs
+**** build  changed bibs
+**** fixup metadata
+**** backup new
+** Stubber
+*** [⟙] files
+- State "[⟙]"        from              [2024-06-03 Mon 04:26]
+*** [⟙] cleanup
+- State "[⟙]"        from              [2024-06-03 Mon 04:27]
+** Summary
+*** [∅] main  :task-mapping:
+*** [∅] bibs
+**** number of files
+**** number of entries
+**** entry type distribution
+**** authors
+**** number of entries without a file
+**** entries with no tags
+or under a minimum number
+**** entries in the wrong year
+**** completion updates
+publishers, authors, institutions,
+journals, organizations,  series
+**** entries marked "important"
+**** entries marked "come back to"
+**** timelines for certain tags
+*** [∅] bookmarks
+**** top level domains distribution
+**** entries marked "important"
+**** entries marked "come back to"
+** Tags
+*** [∅] clean
+**** read substitution lookups
+**** apply to bibtex
+**** apply to bookmarks
+*** [∅] calc.new
+**** refactor, pattern after orphans
+*** [⇒] extract.bib
+*** [∅] extract.bookmarks
+*** [∅] make tag for every named person in library
 * Links

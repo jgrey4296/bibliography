@@ -5,7 +5,7 @@ meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
 fail_log    = {file="{logs}/meta_failures.txt"}
 
 [[tasks.meta]]
-name             = "update"
+name             = "total"
 doc              = ["Update the metadata for each file in the library"]
 ctor             = "job"
 version          = "0.1"

@@ -17,10 +17,11 @@ actions     = [
         {do="job.match",  onto_="tasks", mapping_="match_map"},
         {do="job.queue",  from_="tasks"}, # queue
 ]
+cleanup = []
 
 [[tasks.summary]]
 name    = "_.bibs"
-doc     = ["TODO"]
+doc     = ["TODO Summarise bib files"]
 actions = []
 
 [[tasks.summary]]
