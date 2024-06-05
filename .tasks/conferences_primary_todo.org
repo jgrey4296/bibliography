@@ -1,4 +1,5 @@
 #+TITLE: Primary Conferences
+#+STARTUP: agenda
 
 * Overview
 As complete a proceeding list as I can find for each conference, for each year it occurred.

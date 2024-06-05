@@ -1,4 +1,5 @@
 #+TITLE: Secondary Conferences
+#+STARTUP: agenda
 
 * Secondary Conferences
 ** proceedings.bib - check and expand

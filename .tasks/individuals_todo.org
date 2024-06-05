@@ -1,4 +1,5 @@
 #+TITLE: Individuals Todo
+#+STARTUP: agenda
 
 * Individuals
 ** AArtikis

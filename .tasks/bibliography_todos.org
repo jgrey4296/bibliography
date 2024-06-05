@@ -1,4 +1,5 @@
 #+TITLE: Bibliography Todos
+#+STARTUP: agenda
 
 * Bibliography
 ** in_progress

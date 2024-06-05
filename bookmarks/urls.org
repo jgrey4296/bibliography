@@ -1137,6 +1137,8 @@ https://womensartblog.wordpress.com
 https://alexanderobenauer.com/labnotes/000/
 * Resources / Assets
 ** APIs
+https://12ft.io/  : website cleaner
+https://www.removepaywall.com/ : paywalls
 https://archive.org/developers/index.html
 https://www.oldbaileyonline.org/about/docapi
 http://developer.nytimes.com/

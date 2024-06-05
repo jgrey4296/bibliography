@@ -1,4 +1,5 @@
 #+TITLE: Journals Todo
+#+STARTUP: agenda
 
 * Journals Todo
 ** acm_prog_lang
