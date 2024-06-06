@@ -3,7 +3,7 @@
 [[locations]]
 meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
 fail_log    = {file="{logs}/meta_failures.txt"}
-meta_cache  = "{temp}/metadata.commit_cache"
+meta_cache  = {file="{temp}/metadata.commit_cache"}
 
 [[tasks.meta]]
 name             = "total"

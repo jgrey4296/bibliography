@@ -5,7 +5,7 @@ data_drive   = "/media/john/data"
 backup_1     = "/media/john/big_ex"
 backup_2     = "/media/john/BackupSD"
 pdf_source   = "{data_drive}/library/pdfs"
-backup_cache = "{temp}/backup.commit_cache"
+backup_cache = {file="{temp}/backup.commit_cache"}
 
 [[tasks.backup]]
 name                       = "pdfs"
