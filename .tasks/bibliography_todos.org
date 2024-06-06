@@ -1,35 +1,26 @@
 #+TITLE: Bibliography Todos
 #+STARTUP: agenda
 
-* Bibliography
+* Bibliography :bibliography:
 ** in_progress
-*** ai-reviews
-*** anthology
-*** dijkstra
-** conferences
-*** alife
-*** chi play
-*** coG
-*** ICEC
-*** ToG
-*** T-CIAIG
-*** DONE [#A] aisb
-** journals
-** individuals
-** favourites
-** scifi
-**** ac_clarke_award
-**** galaxy_award
-**** hugo_award
-**** lambda_award
-**** le_guin_award
-**** nebula_award
-**** nommo_award
-**** pk_dick_award
-**** timeline
-**** world_fantasy_award.bib
+*** [∅] ai-reviews
+*** [∅] anthology
+*** [∅] dijkstra
+** TODO favourites
+- State "TODO"       from              [2024-06-05 Wed 21:13]
+** scifi :scifi:
+**** [∅] ac_clarke_award
+**** [∅] galaxy_award
+**** [∅] hugo_award
+**** [∅] lambda_award
+**** [∅] le_guin_award
+**** [∅] nebula_award
+**** [∅] nommo_award
+**** [∅] pk_dick_award
+**** [∅] timeline
+**** [∅] world_fantasy_award
 ** tags                                          :tag:
-*** integrate new
+*** [∅] integrate new
 ** ebooks                                        :ebooks:
 *** epubs
 **** Abnett_2004_Eisenhorn_Omnibus.epub
@@ -83,117 +74,41 @@
 *** erin
 *** police violence
 *** phil agre
-** timelines
-*** DONE shift to submodule
-*** shift definitions to timelines repo?
-
-** tasks                                         :bibliography:
-*** summary counts
-*** twitter threads
-*** bookmark duplicate remove
-*** listings
-**** list books
-**** list proceedings
-**** list journals
-
-*** verify
-**** wayback urls
-**** check for predatory journals
-**** check for predatory publishers
-**** remove duplicates
-
-*** build
-**** compile main changes
-1) format
-2) export
-3) create tex
-4) compile
-**** compile individuals
-**** compile conferences
-**** compile journals
-*** tags
-**** rebuild tags
-**** merge tags
-**** clean tags
-**** build timeline for tag
-**** diff tag changes
-*** other
-**** DONE update bookmarks
-**** parse ceur
-**** bib format, for plus
-*** xml
-**** [#B] parse and extract dblp
-**** sitemaps                                   :sitemaps:
-***** boingboing
-***** boykiss
-***** critical-distance
-***** doctorow
-***** federalist
-***** hansard
-***** journals
-***** jstor
-***** koster
-***** media_matters
-***** mit
-***** news_sitemaps
-***** porn
-***** propublica
-***** sciencedirect
-***** scifi_ruminations
-***** scotus_blog
-***** springer
-***** techdirt
-***** the_nation
-***** the_trace
-***** variancehammer
-***** ceur-ws-index.xml
-***** game_philosophy.xml
-***** papersindex.xml
-***** paul_mcguire.xml
-***** pentiment.xml
-***** talks-2022.xml
-***** verso.xml
-**** thompson motifs
-*** DONE metadata update
-*** DONE chunker
-**** DONE plus/anthology
-**** DONE plus/ai_reviews
-*** DONE build stubs
 ** wiki
 ** CSVs
-*** springer
+*** [∅] springer
 collections of results from searching springerlink and exporting
-*** ai_spec_gaming.csv
+*** [∅] ai_spec_gaming.csv
 a collection of examples of ai gaming their metrics
-*** dl_contents.csv
+*** [∅] dl_contents.csv
 a collection of transactions, journals and proceedings on the dl.acl.org
-*** epi_reading_list.csv
+*** [∅] epi_reading_list.csv
 an epidemiology reading list
-*** game_clips.csv
+*** [∅] game_clips.csv
 a collection of youtube clips of various games
 ** XMLs
-*** boykiss
-*** critical-distance
-*** doctorow
-*** federalist
-*** hansard
-*** journals
-*** koster
-*** media_matters
-*** mit
-*** propublica
-*** scifi_ruminations
-*** scotus_blog
-*** the_nation
-*** the_trace
-*** variancehammer
-*** game_philosophy.xml
-*** papersindex.xml
-*** paul_mcguire.xml
-*** pentiment.xml
-*** talks-2022.xml
-*** verso.xml
-* Tasks
+*** [∅] boykiss
+*** [∅] critical-distance
+*** [∅] doctorow
+*** [∅] federalist
+*** [∅] hansard
+*** [∅] journals
+*** [∅] koster
+*** [∅] media_matters
+*** [∅] mit
+*** [∅] propublica
+*** [∅] scifi_ruminations
+*** [∅] scotus_blog
+*** [∅] the_nation
+*** [∅] the_trace
+*** [∅] variancehammer
+*** [∅] game_philosophy.xml
+*** [∅] papersindex.xml
+*** [∅] paul_mcguire.xml
+*** [∅] pentiment.xml
+*** [∅] talks-2022.xml
+*** [∅] verso.xml
+* Tasks :tasks:doot:
 ** Backup
 *** [⟙] PDFs total
 - State "[⟙]"        from "[∅]"        [2024-06-02 Sun 22:44]
@@ -258,11 +173,11 @@ a collection of youtube clips of various games
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:09]
 *** [∅] pre
 *** TODO post
-**** get changed files using git diff
-**** export changed bibs
-**** build  changed bibs
-**** fixup metadata
-**** backup new
+**** [∅] get changed files using git diff
+**** [∅] export changed bibs
+**** [∅] build  changed bibs
+**** [∅] fixup metadata
+**** [∅] backup new
 ** Stubber
 *** [⟙] files
 - State "[⟙]"        from              [2024-06-03 Mon 04:26]
@@ -299,4 +214,77 @@ journals, organizations,  series
 *** [⇒] extract.bib
 *** [∅] extract.bookmarks
 *** [∅] make tag for every named person in library
+* Triage
+** summary counts
+** twitter threads
+** bookmark duplicate remove
+** listings
+*** list books
+*** list proceedings
+*** list journals
+
+** verify
+*** wayback urls
+*** check for predatory journals
+*** check for predatory publishers
+*** remove duplicates
+
+** build
+*** compile main changes
+1) format
+2) export
+3) create tex
+4) compile
+*** compile individuals
+*** compile conferences
+*** compile journals
+** tags
+*** rebuild tags
+*** merge tags
+*** clean tags
+*** build timeline for tag
+*** diff tag changes
+** other
+*** DONE update bookmarks
+*** parse ceur
+*** bib format, for plus
+** xml
+*** [#B] parse and extract dblp
+*** sitemaps :sitemaps:
+**** boingboing
+**** boykiss
+**** critical-distance
+**** doctorow
+**** federalist
+**** hansard
+**** journals
+**** jstor
+**** koster
+**** media_matters
+**** mit
+**** news_sitemaps
+**** porn
+**** propublica
+**** sciencedirect
+**** scifi_ruminations
+**** scotus_blog
+**** springer
+**** techdirt
+**** the_nation
+**** the_trace
+**** variancehammer
+**** ceur-ws-index.xml
+**** game_philosophy.xml
+**** papersindex.xml
+**** paul_mcguire.xml
+**** pentiment.xml
+**** talks-2022.xml
+**** verso.xml
+*** thompson motifs
+** DONE metadata update
+** DONE chunker
+*** DONE plus/anthology
+*** DONE plus/ai_reviews
+** DONE build stubs
+** [∅] refactor backup into recursive tasks
 * Links

@@ -2,11 +2,13 @@
 #+STARTUP: agenda
 
 * Journals Todo
-** acm_prog_lang
+** TODO acm_prog_lang
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 *** oopsla
 *** pldi
 *** popl
-** ai_mag
+** TODO ai_mag
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 *** vol_1        -
 *** vol_2        -
 *** vol_3        -
@@ -32,15 +34,19 @@
 *** vol_23       -
 *** vol_24       -
 *** vol_44_to_25 - split
-** ai_tools
+** TODO ai_tools
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 *** international_journal_of_ai_tools - split this
-** artificial_intelligence
+** TODO artificial_intelligence
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 open access publishing charge - $4030.
 *** vol_1_to_12 - split this
 *** vol_320_to_193 - split this
-** frontiers_of_ai
+** TODO frontiers_of_ai
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 *** frontiers_of_ai - split this
-** jasss
+** TODO jasss
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 *** vol_1.bib
 *** vol_2.bib
 *** vol_3.bib
@@ -67,9 +73,11 @@ open access publishing charge - $4030.
 *** vol_24.bib
 *** vol_25.bib
 *** vol_26.bib
-** jair
+** TODO jair
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 https://dblp.org/db/journals/jair/index.html
-** science fiction
+** TODO science fiction
+- State "TODO"       from              [2024-06-05 Wed 21:20]
 *** Science Fiction Studies
 https://muse.jhu.edu/pub/347/journal/780
 https://www.jstor.org/journal/sciefictstud
