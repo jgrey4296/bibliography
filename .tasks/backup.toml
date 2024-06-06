@@ -2,9 +2,9 @@
 
 [[locations]]
 data_drive   = "/media/john/data"
-backup_drive = "/media/john/big_ex"
+backup_1     = "/media/john/big_ex"
+backup_2     = "/media/john/BackupSD"
 pdf_source   = "{data_drive}/library/pdfs"
-pdf_bkup     = "{backup_drive}/library/pdfs"
 
 
 [[tasks.backup]]
@@ -16,7 +16,7 @@ clean_locs                 = ["{pdf_bkup}"]
 exts                       = []                                  # <list[str]>
 recursive                  = true                                # <bool>
 roots                      = ["{pdf_source}"]                    # <list[str|pl.Path]>  Places the globber will start
-shadow_root                = "{pdf_bkup}"
+shadow_roots               = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
 cleanup  = [
     {do="doot.actions.postbox:SummarizePostAction", full=false}
 ]
@@ -24,13 +24,12 @@ actions = [
     {do="job.walk", update_="files"}, # walk,
     {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
     {do="job.inject.path.elements", onto_="tasks",  key_="fpath"},
-    {do="job.inject.shadow", onto_="tasks", key_="rpath"},
+    {do="dootle.utils.multi_shadow:InjectMultiShadow", onto_="tasks", key_="rpath"},
     {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions                = [
     {do="log", msg="Backing up: {fpath}"},
-    {do="dir!", args=["{shadow_path}"] },
-    {do="backup!", from_="fpath", to="{shadow_path}/{fname}"}
+    {do="dootle.utils.multi_shadow:MultiBackupAction", from_="fpath", pattern="{shadow_path}/{fname}"}
 ]
 
 
