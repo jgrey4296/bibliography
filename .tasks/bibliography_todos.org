@@ -287,4 +287,7 @@ journals, organizations,  series
 *** DONE plus/ai_reviews
 ** DONE build stubs
 ** [∅] refactor backup into recursive tasks
+** [∅] record commit when meta task completes
+get files changed between that and current
+** [∅] refactor metadata apply to add to task queue
 * Links

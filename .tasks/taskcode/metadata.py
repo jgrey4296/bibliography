@@ -90,7 +90,7 @@ class ApplyMetadata:
     @DootKey.kwrap.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
         total                                       = len(_lib.entries)
-        failures : list[tuple[str, pl.Path, Error]] = []
+        failures : list[tuple[str, pl.Path, Exception]] = []
         for i, entry in enumerate(_lib.entries):
             printer.info("(%-4s/%-4s) Processing: %s", i, total, entry.key)
             match self._get_file(entry):

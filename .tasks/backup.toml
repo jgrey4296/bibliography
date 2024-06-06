@@ -5,7 +5,7 @@ data_drive   = "/media/john/data"
 backup_1     = "/media/john/big_ex"
 backup_2     = "/media/john/BackupSD"
 pdf_source   = "{data_drive}/library/pdfs"
-
+backup_cache = "{temp}/backup.commit_cache"
 
 [[tasks.backup]]
 name                       = "pdfs"
@@ -17,9 +17,6 @@ exts                       = []                                  # <list[str]>
 recursive                  = true                                # <bool>
 roots                      = ["{pdf_source}"]                    # <list[str|pl.Path]>  Places the globber will start
 shadow_roots               = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
-cleanup  = [
-    {do="doot.actions.postbox:SummarizePostAction", full=false}
-]
 actions = [
     {do="job.walk", update_="files"}, # walk,
     {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
@@ -31,7 +28,33 @@ sub_actions                = [
     {do="log", msg="Backing up: {fpath}"},
     {do="dootle.utils.multi_shadow:MultiBackupAction", from_="fpath", pattern="{shadow_path}/{fname}"}
 ]
+cleanup  = [
+    {do="doot.actions.postbox:SummarizePostAction", full=false},
+    {do="dootle.utils.commit_caching:CacheGitCommit", cache="{backup_cache}"}
+]
 
+[[tasks.backup]]
+name             = "changed"
+doc              = ["Trigger backups of files mentioned in changed bibtex files"]
+ctor             = "job"
+version          = "0.1"
+cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
+roots            = ["{target}"]
+exts             = [".bib"]
+actions          = [
+        # get files changed since commit and head
+        {do="dootle.utils.commit_caching:GetChangedFilesByCommit", cache="{backup_cache}" , update_="changed" },
+        # expand
+        {do="job.expand",      from_="changed", update_="tasks", inject={replace=["fpath"]}, template="backup::_.by.year"},
+        {do="taskcode.metadata:report_chosen_files"},
+        {do="wait", count=5},
+        # queue
+        {do="job.queue",       from_="tasks"},
+        ]
+cleanup = [
+        # on complete, cache head commit
+        { do="dootle.utils.commit_caching:CacheGitCommit", cache="{meta_cache}"}
+]
 
 [[tasks.backup]]
 name               = "_.by.year"
@@ -40,9 +63,8 @@ version            = "0.1"
 ctor               = "job"
 cli                = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 roots              = ["{pdf_source}", "{bib}"]
-shadow_root        = "{pdf_bkup}"
+shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
 depends_on         = [
-    {do="log", msg="running test for backup"},
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },
     { do="relative?", args=["{fpath}"], bases_="roots" },
 ]
@@ -59,13 +81,12 @@ actions            = [
     # Queue
     { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
     { do="job.inject.path.elements",   onto_="tasks",  key_="fpath" },
-    { do="job.inject.shadow", onto_="tasks", key_="rpath"},
+    { do="dootle.utils.multi_shadow:InjectMultiShadow", onto_="tasks", key_="rpath"},
 
     { do="job.queue", from_="tasks" },
 ]
 sub_actions     = [
     {do="relative?", args=["{fpath}"], bases_="roots"},
     {do="log", msg="Backing up: {fpath}"},
-    {do="dir!",      args=["{shadow_path}"] },
-    {do="backup!",   from_="fpath", to="{shadow_path}/{fname}"},
+    {do="dootle.utils.multi_shadow:MultiBackupAction", from_="fpath", pattern="{shadow_path}/{fname}"}
 ]

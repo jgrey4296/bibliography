@@ -3,6 +3,7 @@
 [[locations]]
 meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
 fail_log    = {file="{logs}/meta_failures.txt"}
+meta_cache  = "{temp}/metadata.commit_cache"
 
 [[tasks.meta]]
 name             = "total"
@@ -24,6 +25,31 @@ actions          = [
         {do="wait", count=5},
         # queue
         {do="job.queue",       from_="tasks"},
+        # on complete, cache head commit
+        { do="dootle.utils.commit_caching:CacheGitCommit", cache="{meta_cache}"}
+]
+
+[[tasks.meta]]
+name             = "changed"
+doc              = ["Update the metadata for files that have been changed since the last metadata update task was run"]
+ctor             = "job"
+version          = "0.1"
+cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
+roots            = ["{target}"]
+exts             = [".bib"]
+actions          = [
+        # get files changed since commit and head
+        {do="dootle.utils.commit_caching:GetChangedFilesByCommit", cache="{meta_cache}" , update_="changed" },
+        # expand
+        {do="job.expand",      from_="changed", update_="tasks", inject={replace=["fpath"]}, template="meta::_.by.year"},
+        {do="taskcode.metadata:report_chosen_files"},
+        {do="wait", count=5},
+        # queue
+        {do="job.queue",       from_="tasks"},
+        ]
+cleanup = [
+        # on complete, cache head commit
+        { do="dootle.utils.commit_caching:CacheGitCommit", cache="{meta_cache}"}
 ]
 
 [[tasks.meta]]
@@ -47,7 +73,6 @@ actions          = [
     # Read
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Apply
-    # TODO make this queue tasks instead?
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
     { do="append!", to="{fail_log}", args=["{failures}"] },
     { do="touch", args=["{fpath}"] },
