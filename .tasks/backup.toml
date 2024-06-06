@@ -33,28 +33,6 @@ cleanup  = [
     {do="dootle.utils.commit_caching:CacheGitCommit", cache="{backup_cache}"}
 ]
 
-[[tasks.backup]]
-name             = "changed"
-doc              = ["Trigger backups of files mentioned in changed bibtex files"]
-ctor             = "job"
-version          = "0.1"
-cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
-roots            = ["{target}"]
-exts             = [".bib"]
-actions          = [
-        # get files changed since commit and head
-        {do="dootle.utils.commit_caching:GetChangedFilesByCommit", cache="{backup_cache}" , update_="changed" },
-        # expand
-        {do="job.expand",      from_="changed", update_="tasks", inject={replace=["fpath"]}, template="backup::_.by.year"},
-        {do="taskcode.metadata:report_chosen_files"},
-        {do="wait", count=5},
-        # queue
-        {do="job.queue",       from_="tasks"},
-        ]
-cleanup = [
-        # on complete, cache head commit
-        { do="dootle.utils.commit_caching:CacheGitCommit", cache="{meta_cache}"}
-]
 
 [[tasks.backup]]
 name               = "_.by.year"

@@ -290,4 +290,16 @@ journals, organizations,  series
 ** [∅] record commit when meta task completes
 get files changed between that and current
 ** [∅] refactor metadata apply to add to task queue
+** ACTIVE applicable to cache:
+*** tag extraction
+- make tag extractor middleware wrapper
+*** link checking and waybacker
+*** metadata apply
+- distinguish failures, encrypted, and locked
+- as subtasks, applicator can be an entry middleware
+*** find orphans
+*** backup files
+*** export for latex
+*** compile to pdf and html
+*** generate summary
 * Links

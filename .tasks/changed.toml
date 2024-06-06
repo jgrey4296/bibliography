@@ -1,0 +1,53 @@
+## changed.toml -*- mode: conf-toml -*-
+## Collected tasks for processing changed files after they have been committed
+##
+
+[[tasks.changed]]
+name             = "_.one.bib"
+doc              = ["run updates for a changed bibtex"]
+version          = "0.1"
+ctor             = "job"
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+roots            = ["{bib}"]
+depends_on       = [
+    { do="ext?",      args=["{fpath}"], exts=[".bib"] },
+    { do="relative?", args=["{fpath}"], bases_="roots"},
+]
+setup            = [
+    { do="path.elements", from_="fpath" },
+    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
+    { do="taskcode.export:build_export_write_stack",      update_="export_stack" },
+]
+actions          = [
+    { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
+    # Read
+    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    # Queue Entry Subtasks:
+    { do="taskcode.metadata:GenBibEntryTask", template="changed::_.single.entry.update", from_="bib_db", update_="entry_tasks"},
+    { do="job.queue", from_="entry_tasks"},
+    # Queue compile and export
+    { task="compile::_.to.html", fpath_="fpath" },
+    { task="compile::_.to_pdf" , fpath_="fpath" },
+    # Queue summary
+]
+
+
+[[tasks.changed]]
+name               = "_.single.entry.update"
+doc                = ["Entry tasks that do not modify the entry itself"]
+ctor               = "task"
+roots              = ["{pdf_source}"]
+shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
+actions            = [
+    # Extract Tags
+    # ---
+    # Update Metadata
+    {do="taskcode.metadata:FileMetadataUpdate"},
+    # Orphan Check and update
+    # ---
+    # Link check
+    # ---
+    # Backup files:
+    {do="taskcode.metadata:FileMultiBackup", from_="fpath", pattern="{shadow_path}/{fname}"}
+]

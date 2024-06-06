@@ -46,15 +46,15 @@ import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 import doot
 import doot.errors
-from doot.structs import DootKey
+from doot.structs import DootKey, TaskSpec
 import bib_middleware as BM
 
 exiftool = sh.exiftool
 calibre  = sh.ebook_meta
 qpdf     = sh.qpdf
 
-@DootKey.kwrap.paths("lib-root")
-@DootKey.kwrap.redirects("update_")
+@DootKey.dec.paths("lib-root")
+@DootKey.dec.redirects("update_")
 def build_metadata_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
@@ -84,21 +84,41 @@ class ApplyMetadata(BM.metadata.MetadataApplicator):
     def __init__(self):
         super().__init__()
 
-    @DootKey.kwrap.types("from", hint={"type_":BTP.Library})
-    @DootKey.kwrap.paths("backup")
+    @DootKey.dec.types("from", hint={"type_":BTP.Library})
+    @DootKey.dec.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
         self._backup = _backup
         for i, entry in enumerate(_lib.entries):
             printer.info("(%-4s/%-4s) Processing: %s", i, total, entry.key)
-            self.trasnform_entry(entry)
+            self.transform_entry(entry, None)
 
         return { "failures" : self._failures }
 
-class GenMetadataTasks:
+class GenBibEntryTask:
     """
-      TODO Alternative implementation
-      Iterate through each entry in a lib,
-      and generate a taskspec, returning them
+    Queue each entry of a library as a separate subtask application
     """
 
-    pass
+    def __init__(self):
+        super().__init__()
+
+    @DootKey.dec.types("from", hint={"type_":BTP.Library})
+    @DootKey.dec.expands("template")
+    @DootKey.dec.redirects("update_")
+    def __call__(self, spec , state, _lib, template, _update):
+        subtasks : list[TaskSpec] = []
+        self._backup = _backup
+        for i, entry in enumerate(_lib.entries):
+            # Build task spec
+            # spec = {source:[template], extra['entry'] = entry
+
+        return { _update : subtasks }
+
+class FileMetadataUpdate(BM.metadata.MetadataApplicator):
+    """
+    A Single Entry metadata update wrapper around metadata applicator
+    """
+
+    @DootKey.dec.types("entry")
+    def __call__(self, spec, state, entry):
+        self.transform_entry(entry, None)

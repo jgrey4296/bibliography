@@ -32,11 +32,18 @@ actions       = [
 name       = "post"
 doc        = []
 ctor       = "job"
-depends_on = ["bookmark::update", "bib::cleanup"]
-actions    = [
-   # git diff for changed files
-   # {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, template="meta::_.by.year"},
-   # {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, template="backup::_.by.year"},
-   # TODO queue latex export of changed bibs
-   # TODO queue build of changed exported bibs
+roots      = ["{bib}"]
+exts       = [".bib"]
+depends_on = [
+           "bookmark::update"
 ]
+setup = [
+      # clear orphan file lists
+]
+actions    = [
+   # No cache, so just process the head changes:
+   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   # Queue metadata update
+   {do="job.expand", from_="changed", inject={replace=["fpath"]}, template="changed::_.one.bib"},
+]
+cleanup = ["bib::cleanup"]

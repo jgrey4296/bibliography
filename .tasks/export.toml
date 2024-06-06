@@ -4,7 +4,7 @@ bib_export    = "{export}/bib"
 cal_export    = "{export}/calendar"
 
 [[tasks.export]]
-name            = "_.by.year"
+name            = "_.one.bib"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib}"]
 # queue_behaviour = "reactive"

@@ -4,20 +4,6 @@
 orphans = "{temp}/orphans"
 
 [[tasks.orphans]] # starter
-name       = "total"
-ctor       = "job"
-# depends_on = ["file:>{orphans}/bib.files", "file:>{orphans}/fs.files"]
-setup = [
-    {do="delete!", args=["{orphans}/bib.files"]},
-    {do="delete!", args=["{orphans}/fs.files"]},
-]
-actions =[
-    {do="job.queue", args=["orphans::_.all.bib", "orphans::_.filesystem"]}
-]
-cleanup = ["orphans::_.report"]
-
-
-[[tasks.orphans]] # starter
 name    = "by.year"
 doc     = ["compare a bibtex year to its pdf lib files"]
 cli     = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
@@ -36,23 +22,6 @@ actions = [
 ]
 cleanup = ["orphans::_.report"]
 
-[[tasks.orphans]]
-name             = "_.all.bib"
-doc              = ["walk all bibfiles, summarise entry files"]
-ctor             = "job"
-version          = "0.1"
-# required_for     = [{loc="{orphans}/bib.files", file=true}]
-roots            = ["{bib}"]
-exts             = [".bib"]
-actions          = [
-    {do="delete!", args=["{orphans}/bib.files"]},
-    {do="job.walk", update_="walked"},
-    {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template_="orphans::_.one.bib"},
-    {do="job.queue",       from_="tasks"},
-]
-cleanup = [
-    { do="exists?", args=["{orphans}/bib.files"], fail=true },
-]
 
 [[tasks.orphans]]
 name        = "_.one.bib"
@@ -88,7 +57,6 @@ actions            = [
     {do="taskcode.orphans:format_filelist", from_="walked", update_="files"},
     {do="append!", args=["{files}"], to="{orphans}/fs.files" }
 ]
-
 
 [[tasks.orphans]]
 name         = "_.report"

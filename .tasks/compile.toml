@@ -8,51 +8,25 @@ pdf_export   = "{export}/pdfs"
 html_export  = "{export}/html"
 
 [[tasks.compile]]
-name                 = "full"
-version              = "0.1"                                    # <str>
-doc                  = ["trigger a full export, and compile the results"]
-ctor                 = "task"                                   # <str>
-depends_on           = [
-    "export::all", "export::all.$head$",
-    "compile::pdf", "compile::html",
-    "compile::pdf.$head$", "compile::html.$head$"
- ]
-
-[[tasks.compile]]
-name                 = "pdf"
-version              = "0.1"
-doc                  = ["compile anything in {bib_export} to pdf"]
-ctor                 = "job"
-queue_behaviour      = "default"
-exts                 = [".bib"]
-roots                = ["{bib_export}"]
-actions = [
-        {do="job.walk", update_="files"}, # walk
-        {do="job.expand", key_="fpath", template_="sub_actions", update_="tasks"},
-        {do="job.queue", from_="tasks"}, # queue
+name             = "_.to.pdf"
+ctor             = "task"
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+depends_on       = [{task="export::_.one.bib", fpath_="fpath"}]
+setup = [
+    # Load template
 ]
-sub_actions          = [
-                     # Load template
-                     # set title, bib file
-                     # compile tex
-                     # compile bib
-                     # compile tex
-                     # compile tex
+actions =[
+    # set title, bib file
+    # compile tex
+    # compile bib
+    # compile tex
+    # compile tex
+]
+cleanup = [
+    # remove intermediate artifacts
 ]
 
-[[tasks.compile]]
-name                 = "html"
-version              = "0.1"
-doc                  = ["compile anything in {bib_export} to html"]
-ctor                 = "job"
-queue_behaviour      = "default"                                       # <str>                default | auto | reactive
-exts                 = [".bib"]                                        # <list[str]>
-roots                = ["{bib_export}"]                                # <list[str|pl.Path]>  Places the Walker will start
-actions              = [
-        {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="compile::_.to_html"},
-        {do="job.queue", from_="tasks"}, # queue
-]
+
 
 
 [[tasks.compile]]
@@ -61,6 +35,9 @@ version              = "0.1"
 ctor                 = "task"
 export_bases         = ["{bib_export}"]
 cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+depends_on           = [
+        {task="export::_.one.bib", fpath_="fpath"},
+]
 actions              = [
         {do="relative?", args=["{fpath}"], bases_="export_bases"},
         {do="path.elements", from_="fpath", roots_="export_bases"},
@@ -69,8 +46,9 @@ actions              = [
         {do="touch", args=["{fpath}"]},
 ]
 
+
 [[tasks.compile]]
-name                 = "_.fails"
+name                 = "_.failed"
 version              = "0.1"                                    # <str>
 doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
 ctor                 = "job"                                   # <str>
@@ -89,7 +67,7 @@ sub_actions          = [
 
 
 [[tasks.compile]]
-name    = "calendar"
+name    = "_.to.calendar"
 version = "0.1"
 ctor    = "job"
 doc     = ["create a calendar of when entries were added to the db"]

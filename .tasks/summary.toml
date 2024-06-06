@@ -4,22 +4,6 @@
 count_out = "{temp}/counts"
 
 [[tasks.summary]]
-name        = "main"
-doc         = ["Summarise main"]
-ctor        = "job"
-exts        = [".bib", ".bookmarks"]
-roots       = ["{bib}"]
-match_fn    = "ext"
-match_map   = { ".bib"="summary::_.bibs", ".bookmarks"="summary::_.bookmarks" }
-actions     = [
-        {do="job.walk",   update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}},
-        {do="job.match",  onto_="tasks", mapping_="match_map"},
-        {do="job.queue",  from_="tasks"}, # queue
-]
-cleanup = []
-
-[[tasks.summary]]
 name    = "_.bibs"
 doc     = ["TODO Summarise bib files"]
 actions = []

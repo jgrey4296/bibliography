@@ -2,23 +2,6 @@
 
 
 [[tasks.format]]
-name                 = "oldest"
-version              = "0.1"                                                                # <str>
-ctor                 = "job"                                                                # <type>
-cli                  = [{ name="target", type="str", prefix="-", default="format::_.by.year", desc="", positional=false  }]
-doc                  = ["Load each bib file and format/validate it"]                               # <list[str]>
-roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
-exts                 = [".bib"]                                                             # <list[str]>
-select_limit         = 10                                                                   # <int|None>
-actions = [
-        {do="job.walk",        update_="walked"},
-        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
-        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template_="{target}"},
-        {do="job.queue",       from_="tasks"},
-]
-
-
-[[tasks.format]]
 name             = "_.by.year"
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
