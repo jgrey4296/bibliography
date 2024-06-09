@@ -381,6 +381,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/ragapp/ragapp
 https://github.com/g-truc/glm
 https://github.com/leipzig/SandwichesWithSnakemake
 https://github.com/klembot/twinejs
@@ -521,6 +522,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Agents
+https://github.com/ragapp/ragapp
 http://www.sarl.io/publications/index.html
 https://agentclinic.github.io/
 http://ccl.northwestern.edu/netlogo/docs/dictionary.html#link
@@ -543,6 +545,8 @@ https://github.com/open-policy-agent/opa
 https://simassocc.org/
 https://www.openpolicyagent.org/
 ** Programming
+https://xapian.org/
+https://xapian.org/docs/
 https://launchpad.net/
 https://wiki.archlinux.org/
 https://www.linode.com/docs/
@@ -1750,13 +1754,13 @@ https://www.xeno-canto.org/                                                     
 ** Web App
 https://fakeyou.com/text-to-image
 https://www.autodraw.com/
-https://q.uiver.app/  - diagrams, latex
+https://q.uiver.app/         - diagrams, latex
 https://makemeacocktail.com/ - cocktails
-https://bodyvisualizer.com/ - bodies
-https://tailornova.com/ - clothes
-https://www.symbolab.com/ - math
-https://temp-mail.org/ - mail
-https://musclewiki.com/ - muscles
+https://bodyvisualizer.com/  - bodies
+https://tailornova.com/      - clothes
+https://www.symbolab.com/    - math
+https://temp-mail.org/       - mail
+https://musclewiki.com/      - muscles
 ** Youtube channels
 http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
 http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
