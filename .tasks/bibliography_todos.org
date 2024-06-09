@@ -117,6 +117,7 @@ a collection of youtube clips of various games
 *** [∅] by changed from git diff
 *** [∅] pdf only backup
 *** [∅] epub only backup
+*** MAYBE refactor into recursive tasks
 ** Bookmarks
 *** [⟙] total
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
@@ -124,6 +125,8 @@ a collection of youtube clips of various games
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
 *** [⟙] archived
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [∅] remove duplicates
+
 ** Compilation
 *** [∅] full
 *** [∅] by changed
@@ -142,12 +145,17 @@ a collection of youtube clips of various games
 - State "[⟙]"        from              [2024-06-02 Sun 21:46]
 *** [∅] bookmark cruft removal
 *** [∅] by changed
+*** [∅] bib+ formatting
+*** twitter threads
 ** Metadata
 *** [⟙] update total
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
 *** [⟙] by year
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
 *** [∅] by changed
+*** [∅] record commit when meta task completes
+get files changed between that and current
+*** [∅] refactor metadata apply to add to task queue
 ** Online
 *** [⟙] Downloader
 - State "[⟙]"        from              [2024-06-02 Sun 22:46]
@@ -155,6 +163,8 @@ a collection of youtube clips of various games
 *** [∅] waybacker
 *** [∅] 404 checker
 *** [∅] downloader transform action instead of middleware
+*** [∅] check for predatory journals
+*** [∅] check for predatory publishers
 ** Orphans
 *** [⟙] total
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
@@ -204,6 +214,10 @@ journals, organizations,  series
 **** top level domains distribution
 **** entries marked "important"
 **** entries marked "come back to"
+*** list books
+*** list proceedings
+*** list journals
+
 ** Tags
 *** [∅] clean
 **** read substitution lookups
@@ -214,82 +228,11 @@ journals, organizations,  series
 *** [⇒] extract.bib
 *** [∅] extract.bookmarks
 *** [∅] make tag for every named person in library
-* Triage
-** summary counts
-** twitter threads
-** bookmark duplicate remove
-** listings
-*** list books
-*** list proceedings
-*** list journals
-
-** verify
-*** wayback urls
-*** check for predatory journals
-*** check for predatory publishers
-*** remove duplicates
-
-** build
-*** compile main changes
-1) format
-2) export
-3) create tex
-4) compile
-*** compile individuals
-*** compile conferences
-*** compile journals
-** tags
 *** rebuild tags
 *** merge tags
-*** clean tags
 *** build timeline for tag
 *** diff tag changes
-** other
-*** DONE update bookmarks
-*** parse ceur
-*** bib format, for plus
-** xml
-*** [#B] parse and extract dblp
-*** sitemaps :sitemaps:
-**** boingboing
-**** boykiss
-**** critical-distance
-**** doctorow
-**** federalist
-**** hansard
-**** journals
-**** jstor
-**** koster
-**** media_matters
-**** mit
-**** news_sitemaps
-**** porn
-**** propublica
-**** sciencedirect
-**** scifi_ruminations
-**** scotus_blog
-**** springer
-**** techdirt
-**** the_nation
-**** the_trace
-**** variancehammer
-**** ceur-ws-index.xml
-**** game_philosophy.xml
-**** papersindex.xml
-**** paul_mcguire.xml
-**** pentiment.xml
-**** talks-2022.xml
-**** verso.xml
-*** thompson motifs
-** DONE metadata update
-** DONE chunker
-*** DONE plus/anthology
-*** DONE plus/ai_reviews
-** DONE build stubs
-** [∅] refactor backup into recursive tasks
-** [∅] record commit when meta task completes
-get files changed between that and current
-** [∅] refactor metadata apply to add to task queue
+** parse ceur
 ** ACTIVE applicable to cache:
 *** tag extraction
 - make tag extractor middleware wrapper
@@ -302,4 +245,5 @@ get files changed between that and current
 *** export for latex
 *** compile to pdf and html
 *** generate summary
+* Triage
 * Links
