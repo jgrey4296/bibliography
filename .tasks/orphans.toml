@@ -4,7 +4,7 @@
 orphans = "{temp}/orphans"
 
 [[tasks.orphans]] # starter
-name    = "by.year"
+name    = "_.one.year"
 doc     = ["compare a bibtex year to its pdf lib files"]
 cli     = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 version = "0.1"
@@ -38,6 +38,7 @@ actions = [
     { do="taskcode.orphans:get_db_files", from_="bib_db" , update_="filelist"},
     { do="taskcode.orphans:format_filelist", from_="filelist", update_="formatted" },
     { do="append!", args=["{formatted}"], to="{orphans}/bib.files"},
+    { do="write!", args=["{formatted}"], to="{orphans}/{fstem}.bib.files" },
 ]
 
 [[tasks.orphans]]
@@ -47,15 +48,16 @@ cli                = [{ name="fpath", type="str", prefix="-", default="{lib-root
 fpath              = "{lib-root}"
 ctor               = "task"
 version            = "0.1"
-required_for       = [{loc="{orphans}/fs.files", file=true}]
-roots              = ["{fpath}"]
+# required_for       = [{loc="{orphans}/{fstem}.fs.files", file=true}]
+roots              = ["{lib-root}/{fstem}"]
 exts               = [".pdf", ".epub"]
 recursive          = true
 actions            = [
-    {do="log", msg="Walking: {fpath}"},
+    {do="path.elements", from_="fpath" },
+    {do="log", msg="Walking: {lib-root}/{fstem}"},
     {do="job.walk", update_="walked"}, # TODO: or use fdfind
     {do="taskcode.orphans:format_filelist", from_="walked", update_="files"},
-    {do="append!", args=["{files}"], to="{orphans}/fs.files" }
+    {do="append!", args=["{files}"], to="{orphans}/{fstem}.fs.files" }
 ]
 
 [[tasks.orphans]]

@@ -57,7 +57,7 @@ actions            = [
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     { do="taskcode.backup:get_files", from_="bib_db", update_="files" },
     # Queue
-    { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+    { do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"], copy=["roots"]}, template_="sub_actions"},
     { do="job.inject.path.elements",   onto_="tasks",  key_="fpath" },
     { do="dootle.utils.multi_shadow:InjectMultiShadow", onto_="tasks", key_="rpath"},
 
@@ -65,6 +65,5 @@ actions            = [
 ]
 sub_actions     = [
     {do="relative?", args=["{fpath}"], bases_="roots"},
-    {do="log", msg="Backing up: {fpath}"},
     {do="dootle.utils.multi_shadow:MultiBackupAction", from_="fpath", pattern="{shadow_path}/{fname}"}
 ]

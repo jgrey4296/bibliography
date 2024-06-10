@@ -45,3 +45,17 @@ actions         = [
     # { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
     # { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]
+
+
+
+[[tasks.tags]]
+name = "_.clean.bib"
+
+[[tasks.tags]]
+name = "_.clean.bookmarks"
+
+[[tasks.tags]]
+name = "generate.people"
+
+[[tasks.tags]]
+name = "generate.total"

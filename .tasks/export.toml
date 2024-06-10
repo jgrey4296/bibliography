@@ -7,7 +7,6 @@ cal_export    = "{export}/calendar"
 name            = "_.one.bib"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib}"]
-# queue_behaviour = "reactive"
 depends_on = [
         { do="relative?", args=["{fpath}"], bases_="export_bases" },
 ]
@@ -21,5 +20,8 @@ actions = [
         { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
+]
+cleanup = [
         { do="touch", args=["{fpath}"] },
+        { do="log", msg="Exported {fname} to {bib_export}"},
 ]

@@ -7,7 +7,8 @@ ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib}"]
 depends_on       = [
-        { do="ext?", args=["{fpath}"], exts=[".bib"] },
+        {do="exists?", args=["{fpath}"], fail=true },
+        {do="ext?",    args=["{fpath}"], exts=[".bib"] },
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},

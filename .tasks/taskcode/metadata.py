@@ -110,7 +110,8 @@ class GenBibEntryTask:
         self._backup = _backup
         for i, entry in enumerate(_lib.entries):
             # Build task spec
-            # spec = {source:[template], extra['entry'] = entry
+            spec = TaskSpec.build({"source":[template], "entry":entry})
+            subtasks.append(spec)
 
         return { _update : subtasks }
 

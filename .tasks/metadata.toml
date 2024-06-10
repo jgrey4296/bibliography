@@ -28,5 +28,7 @@ actions          = [
     # Apply
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
     { do="append!", to="{fail_log}", args=["{failures}"] },
+]
+cleanup = [
     { do="touch", args=["{fpath}"] },
 ]

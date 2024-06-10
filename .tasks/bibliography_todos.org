@@ -114,9 +114,10 @@ a collection of youtube clips of various games
 - State "[⟙]"        from "[∅]"        [2024-06-02 Sun 22:44]
 *** [⟙] by.year
 - State "[⟙]"        from              [2024-06-02 Sun 22:44]
-*** [∅] by changed from git diff
-*** [∅] pdf only backup
-*** [∅] epub only backup
+*** DEAD by changed from git diff
+included in git cache collection
+*** MAYBE pdf only backup
+*** MAYBE epub only backup
 *** MAYBE refactor into recursive tasks
 ** Bookmarks
 *** [⟙] total
@@ -127,35 +128,47 @@ a collection of youtube clips of various games
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
 *** [∅] remove duplicates
 
+*** [∅] bookmark cruft removal
 ** Compilation
-*** [∅] full
-*** [∅] by changed
-*** [∅] to pdfs
-*** [∅] to html
-*** [∅] _fails
+*** DEAD full
+*** DEAD by changed
+*** [⟙] to pdfs
+- State "[⟙]"        from "[∅]"        [2024-06-11 Tue 00:26]
+*** [⟙] to html
+- State "[⟙]"        from "[∅]"        [2024-06-10 Mon 00:37]
+*** [∅] _.failed report
 *** [∅] calendar
+- by date added
+- random
+- to org calendar
+- tag calendar
+- bookmarks
+*** [∅] join
 ** Export
 *** [⟙] latex-ready export
 - State "[⟙]"        from "[⇒]"        [2024-06-02 Sun 21:46]
-*** [∅] by changed
+*** DEAD by changed
 ** Formatting
 *** [⟙] oldest
 - State "[⟙]"        from              [2024-06-02 Sun 22:45]
 *** [⟙] by.year
 - State "[⟙]"        from              [2024-06-02 Sun 21:46]
-*** [∅] bookmark cruft removal
-*** [∅] by changed
+*** DEAD by changed
 *** [∅] bib+ formatting
 *** twitter threads
+*** tag substitutions
 ** Metadata
 *** [⟙] update total
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
 *** [⟙] by year
 - State "[⟙]"        from              [2024-06-02 Sun 21:49]
-*** [∅] by changed
+*** DEAD by changed
 *** [∅] record commit when meta task completes
 get files changed between that and current
 *** [∅] refactor metadata apply to add to task queue
+*** [∅] [#A] implement genbibentrytask
+*** [∅] [#A] merge metadata.parse.stack with working.parse.stack
+mainly means handle split authors in building metadata
 ** Online
 *** [⟙] Downloader
 - State "[⟙]"        from              [2024-06-02 Sun 22:46]
@@ -168,15 +181,16 @@ get files changed between that and current
 ** Orphans
 *** [⟙] total
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
-*** [∅] by changed
+*** DEAD by changed
 *** [⟙] by year
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
 *** [⟙] all.bib
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
 *** [⟙] one.bib
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:08]
-*** [⟙] filesystem
+*** [∅] filesystem
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:08]
+- give task fpath in {bib}, relativize it to {lib-root}
 *** [∅] filesystem using fdfind
 ** Precommit
 *** [⟙] validate
@@ -231,19 +245,23 @@ journals, organizations,  series
 *** rebuild tags
 *** merge tags
 *** build timeline for tag
+[[*calendar][calendar]]
 *** diff tag changes
 ** parse ceur
-** ACTIVE applicable to cache:
-*** tag extraction
+** ACTIVE Changed
+:LOGBOOK:
+CLOCK: [2024-06-10 Mon 18:04]--[2024-06-10 Mon 23:38] =>  5:34
+:END:
+*** git cache collection
+**** tag extraction
 - make tag extractor middleware wrapper
-*** link checking and waybacker
-*** metadata apply
+**** link checking and waybacker
+**** metadata apply
 - distinguish failures, encrypted, and locked
 - as subtasks, applicator can be an entry middleware
-*** find orphans
-*** backup files
-*** export for latex
-*** compile to pdf and html
-*** generate summary
-* Triage
+**** find orphans
+**** backup files
+**** export for latex
+**** compile to pdf and html
+**** generate summary
 * Links

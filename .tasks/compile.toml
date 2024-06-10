@@ -1,7 +1,7 @@
 ## compile.toml -*- mode: conf-toml -*-
 
 [[locations]]
-tex_template = {file="~/github/_templates/tex-config/tex/export_template.tex"}
+tex_template = {file="~/github/_templates/tex-config/tex/export_template_py.tex"}
 tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
@@ -10,20 +10,42 @@ html_export  = "{export}/html"
 [[tasks.compile]]
 name             = "_.to.pdf"
 ctor             = "task"
+doc              = ["given fpath in {bib}, get its exported version, and compile it"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-depends_on       = [{task="export::_.one.bib", fpath_="fpath"}]
-setup = [
+tex_prog         = "pdflatex"
+author           = "jg"
+depends_on       = [
+    {do="installed?", args=["pdftex", "bibtex"] },
+    {do="relative?", args=["{fpath}"], bases=["{bib}"]},
+    # {task="export::_.one.bib", constraints=["fpath"]},
+]
+setup            = [
     # Load template
+    {do="path.elements", from_="fpath", roots=["{bib}"]},
+    {do="exists?"  , args=["{bib_export}/{fstem}.bib"], fail=true },
+    {do="read", from="{tex_template}", update_="template"},
 ]
 actions =[
-    # set title, bib file
+    # expand the template
+    {do="dootle.utils.template_expansion:TemplateExpansion", template_="template", title="{fstem}", target="{bib_export}/{fstem}.bib", update_="tex"},
+    # Write it to a temp file
+    {do="write!", args=["{tex}"], to="{tex_export}/{fstem}.tex"},
     # compile tex
+    {do="shell", args=["{tex-prog}", "--output-directory={tex_export}", "-interaction=nonstopmode", "{tex_export}/{fstem}"]},
+    {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
     # compile bib
-    # compile tex
-    # compile tex
+    {do="shell", args=["bibtex", "--terse", "{tex_export}/{fstem}"], cwd="{tex_export}"},
+    # link crossrefs
+    {do="shell", args=["{tex-prog}", "--output-directory={tex_export}", "-interaction=nonstopmode", "{tex_export}/{fstem}"]},
+    {do="shell", args=["{tex-prog}", "--output-directory={tex_export}", "-interaction=nonstopmode", "{tex_export}/{fstem}"]},
 ]
 cleanup = [
+    {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
     # remove intermediate artifacts
+    {do="delete!", args=["{tex_export}/{fstem}.aux", "{tex_export}/{fstem}.bbl", "{tex_export}/{fstem}.blg"]},
+    {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out", "{tex_export}/{fstem}.tex"]},
+    # put the final pdf in the right place
+    {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
 ]
 
 
@@ -33,17 +55,22 @@ cleanup = [
 name                 = "_.to.html"
 version              = "0.1"
 ctor                 = "task"
-export_bases         = ["{bib_export}"]
 cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 depends_on           = [
-        {task="export::_.one.bib", fpath_="fpath"},
+        {task="export::_.one.bib", injections={fpath="fpath"}},
+        {do="installed?", args=["bibtex2html"]},
+        {do="relative?", args=["{fpath}"], bases=["{bib}"]},
+        {do="path.elements", from_="fpath", roots=["{bib}"]},
+        {do="exists?", args=["{bib_export}/{fname}"], fail=True},
 ]
 actions              = [
-        {do="relative?", args=["{fpath}"], bases_="export_bases"},
-        {do="path.elements", from_="fpath", roots_="export_bases"},
-        # Run bibtex1html
-        {do="shell", args=["bibtex2html", "-o", "{html_export}/{fstem}", "{fpath}"]},
+        # Run bibtex2html
+        {do="shell", args=["bibtex2html", "-o", "{html_export}/{fstem}", "{bib_export}/{fname}"]},
+]
+cleanup = [
+        {do="exists?", args=["{html_export}/{fstem}.html"], fail=true},
         {do="touch", args=["{fpath}"]},
+        {do="log",   msg="Compiled {fname} to {html_export}"},
 ]
 
 
