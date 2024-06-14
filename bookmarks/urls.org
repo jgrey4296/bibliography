@@ -52,6 +52,7 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://dwarffortressbugtracker.com/view_all_bug_page.php
 https://gameuidatabase.com/index.php
 https://github.com/Xibanya/ShaderTutorials
 https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/overview?homepageId=2850903
