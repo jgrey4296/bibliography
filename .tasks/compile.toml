@@ -48,9 +48,6 @@ cleanup = [
     {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
 ]
 
-
-
-
 [[tasks.compile]]
 name                 = "_.to.html"
 version              = "0.1"
@@ -61,7 +58,7 @@ depends_on           = [
         {do="installed?", args=["bibtex2html"]},
         {do="relative?", args=["{fpath}"], bases=["{bib}"]},
         {do="path.elements", from_="fpath", roots=["{bib}"]},
-        {do="exists?", args=["{bib_export}/{fname}"], fail=True},
+        {do="exists?", args=["{bib_export}/{fname}"], fail=true},
 ]
 actions              = [
         # Run bibtex2html
@@ -72,7 +69,6 @@ cleanup = [
         {do="touch", args=["{fpath}"]},
         {do="log",   msg="Compiled {fname} to {html_export}"},
 ]
-
 
 [[tasks.compile]]
 name                 = "_.failed"
@@ -91,7 +87,6 @@ sub_actions          = [
                      # if pdf exists in temp for bib, silent
                      # else complain
 ]
-
 
 [[tasks.compile]]
 name    = "_.to.calendar"

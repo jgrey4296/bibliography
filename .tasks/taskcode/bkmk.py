@@ -40,7 +40,7 @@ logging = logmod.getLogger(__name__)
 import doot
 import doot.errors
 from doot.structs import DootKey
-from doot.enums import ActionResponseEnum
+from doot.enums import ActionResponse_e
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
 
@@ -62,4 +62,4 @@ def recency_test(spec, state, bookmarks):
     """ trigger task skip if the bookmarks file was modified today """
     mod_date = datetime.datetime.fromtimestamp(bookmarks.stat().st_mtime).date()
     if TODAY <= mod_date:
-        return ActionResponseEnum.SKIP
+        return ActionResponse_e.SKIP

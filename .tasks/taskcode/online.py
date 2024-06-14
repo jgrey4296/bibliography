@@ -47,7 +47,7 @@ from bibtexparser import middlewares as ms
 import doot
 import doot.errors
 from doot.structs import DootKey
-from doot.enums import ActionResponseEnum
+from doot.enums import ActionResponse_e
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
 
