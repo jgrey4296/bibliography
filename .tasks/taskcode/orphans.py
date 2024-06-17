@@ -40,10 +40,10 @@ printer = logmod.getLogger("doot._printer")
 
 import doot
 import doot.errors
-from doot.structs import DootKey
+from doot.structs import DootKey, Keyed
 
-@DootKey.dec.types("bib_db")
-@DootKey.dec.redirects("update_")
+@Keyed.types("bib_db")
+@Keyed.redirects("update_")
 def get_db_files(spec, state, _db, _update):
     """ get all files mentioned in the bibtex database """
     filelist = set()
@@ -54,8 +54,8 @@ def get_db_files(spec, state, _db, _update):
     return { _update : filelist }
 
 
-@DootKey.dec.types("bib")
-@DootKey.dec.types("fs")
+@Keyed.types("bib")
+@Keyed.types("fs")
 def diff_filelists(spec, state, _bib, _fs):
     """ a simple diff of the bibtex filelist against the filesystem filelist """
     bib_set        : set[str] = set(x.strip() for x in _bib)
@@ -66,8 +66,8 @@ def diff_filelists(spec, state, _bib, _fs):
     printer.info("Mentioned : %s -|- %s Exists", len(only_mentioned), len(only_exists))
     return { "only_mentioned"  :  "\n".join(only_mentioned), "only_exists" : "\n".join(only_exists) }
 
-@DootKey.dec.types("from")
-@DootKey.dec.redirects("update")
+@Keyed.types("from")
+@Keyed.redirects("update")
 def format_filelist(spec, state, _files, _update):
     result = "\n".join(sorted(str(x) for x in _files))
     return { _update : result }

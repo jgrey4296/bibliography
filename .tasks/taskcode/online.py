@@ -46,7 +46,7 @@ from bibtexparser import middlewares as ms
 
 import doot
 import doot.errors
-from doot.structs import DootKey
+from doot.structs import DootKey, Keyed
 from doot.enums import ActionResponse_e
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
@@ -62,8 +62,8 @@ def shutdown_firefox(spec, state):
     BM.files.OnlineDownloader.close_firefox()
 
 
-@DootKey.kwrap.paths("lib-root", "online_saves")
-@DootKey.kwrap.redirects("update_")
+@Keyed.paths("lib-root", "online_saves")
+@Keyed.redirects("update_")
 def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _update):
     """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
     read_mids = [
@@ -76,8 +76,8 @@ def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _updat
     return { _update : read_mids}
 
 
-@DootKey.kwrap.paths("lib-root")
-@DootKey.kwrap.redirects("update_")
+@Keyed.paths("lib-root")
+@Keyed.redirects("update_")
 def build_online_downloader_write_stack(spec, state, _libroot, _update):
     """ Doesn't encode into latex """
     write_mids = [

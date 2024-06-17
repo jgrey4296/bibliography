@@ -46,15 +46,15 @@ import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 import doot
 import doot.errors
-from doot.structs import DootKey, TaskSpec
+from doot.structs import DootKey, TaskSpec, Keyed
 import bib_middleware as BM
 
 exiftool = sh.exiftool
 calibre  = sh.ebook_meta
 qpdf     = sh.qpdf
 
-@DootKey.dec.paths("lib-root")
-@DootKey.dec.redirects("update_")
+@Keyed.paths("lib-root")
+@Keyed.redirects("update_")
 def build_metadata_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
@@ -69,7 +69,7 @@ def build_metadata_parse_stack(spec, state, _libroot, _update):
     return { _update : read_mids }
 
 
-@DootKey.dec.types("tasks")
+@Keyed.types("tasks")
 def report_chosen_files(spec, state, tasks):
     printer.info("Chosen Files:")
     for x in tasks:
@@ -84,8 +84,8 @@ class ApplyMetadata(BM.metadata.MetadataApplicator):
     def __init__(self):
         super().__init__()
 
-    @DootKey.dec.types("from", hint={"type_":BTP.Library})
-    @DootKey.dec.paths("backup")
+    @Keyed.types("from", hint={"type_":BTP.Library})
+    @Keyed.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
         self._backup = _backup
         for i, entry in enumerate(_lib.entries):
@@ -102,9 +102,9 @@ class GenBibEntryTask:
     def __init__(self):
         super().__init__()
 
-    @DootKey.dec.types("from", hint={"type_":BTP.Library})
-    @DootKey.dec.expands("template")
-    @DootKey.dec.redirects("update_")
+    @Keyed.types("from", hint={"type_":BTP.Library})
+    @Keyed.expands("template")
+    @Keyed.redirects("update_")
     def __call__(self, spec , state, _lib, template, _update):
         subtasks : list[TaskSpec] = []
         self._backup = _backup
@@ -120,6 +120,6 @@ class FileMetadataUpdate(BM.metadata.MetadataApplicator):
     A Single Entry metadata update wrapper around metadata applicator
     """
 
-    @DootKey.dec.types("entry")
+    @Keyed.types("entry")
     def __call__(self, spec, state, entry):
         self.transform_entry(entry, None)

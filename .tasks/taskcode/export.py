@@ -43,11 +43,11 @@ from bibtexparser import middlewares as ms
 
 import doot
 import doot.errors
-from doot.structs import DootKey
+from doot.structs import DootKey, Keyed
 import bib_middleware as BM
 
-@DootKey.kwrap.paths("lib-root")
-@DootKey.kwrap.redirects("update_")
+@Keyed.paths("lib-root")
+@Keyed.redirects("update_")
 def build_export_write_stack(spec,state, _libroot, _update):
     """ encodes into latex for compilation """
     write_mids = [
