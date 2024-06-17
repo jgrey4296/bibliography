@@ -600,6 +600,7 @@ https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
 ** Software Engineering
+https://rp.wtf/articles/
 https://git-cliff.org/docs/
 https://semgrep.dev/docs/writing-rules/rule-ideas
 https://sarahabd.com/til/accessibility-resources
@@ -1204,6 +1205,7 @@ https://www.oldbaileyonline.org/static/API.jsp
 https://www.oldbaileyonline.org/static/DocAPI.jsp
 https://www.publicapis.com/
 ** Archive
+https://freedomarchives.org/
 https://www.replacementdocs.com  : blocked in uk
 https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives

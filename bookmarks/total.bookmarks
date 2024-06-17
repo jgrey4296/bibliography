@@ -6963,7 +6963,6 @@ https://docs.python.org/3/extending/building.html#building : ffi : packaging : p
 https://docs.python.org/3/howto/argparse.html : argparse : argument : cli : python : tutorial
 https://docs.python.org/3/howto/logging-cookbook.html#using-a-context-manager-for-selective-logging : logging : python
 https://docs.python.org/3/index.html : documentation : python : reference
-https://docs.python.org/3/library/index.html :
 https://docs.python.org/3/library/sqlite3.html : SQL : documentation : libraries : python
 https://docs.python.org/3/library/statistics.html : libraries : python : statistics
 https://docs.python.org/3/library/typing.html : python : type_checking : typing
@@ -7119,6 +7118,7 @@ https://en.m.wikipedia.org/wiki/Bash_(Unix_shell) : wiki
 https://en.m.wikipedia.org/wiki/Benjanun_Sriduangkaew : benjuanun_sriduangkaew : wiki
 https://en.m.wikipedia.org/wiki/Binary_relation : binary_relation : wiki
 https://en.m.wikipedia.org/wiki/Binomial_nomenclature : biology : biomial_nomenclature : latin : linnaeus : taxonomy : wiki
+https://en.m.wikipedia.org/wiki/Boosey_%26_Hawkes : boosey_and_hawkes : music : publishing : wiki
 https://en.m.wikipedia.org/wiki/Boycott,_Divestment_and_Sanctions : BDS : israel : palestine : wiki
 https://en.m.wikipedia.org/wiki/Buck_v._Bell : SCOTUS : USA : abortion : buck_v_well : disability : eugenics : sterilisation : wiki
 https://en.m.wikipedia.org/wiki/Burmese_names : burma : mynmar : naming
@@ -7179,6 +7179,7 @@ https://en.m.wikipedia.org/wiki/List_of_XML_markup_languages : XML : lists : wik
 https://en.m.wikipedia.org/wiki/List_of_commercial_video_games_with_later_released_source_code : games : source_code : wiki
 https://en.m.wikipedia.org/wiki/List_of_countries_by_firearm-related_death_rate : gun_violence : statistics : wiki
 https://en.m.wikipedia.org/wiki/List_of_federal_political_sex_scandals_in_the_United_States#1980.E2.80.931989 : federal : sex_scandals : wiki
+https://en.m.wikipedia.org/wiki/List_of_law_enforcement_officers_convicted_for_an_on-duty_killing_in_the_United_States : police_violence
 https://en.m.wikipedia.org/wiki/List_of_logic_symbols : logic : wiki
 https://en.m.wikipedia.org/wiki/List_of_mathematical_proofs : lists : math : proof : theorem : wiki
 https://en.m.wikipedia.org/wiki/List_of_pioneers_in_computer_science : computer_science : wiki
@@ -7697,6 +7698,7 @@ https://franklycurious.com/wp/2018/09/01/sexual-assault-norms/ : franklycurious 
 https://fransorin.com/one-small-act-kindness-saved-lives-impact-giving-lipsticks-women-brink-death/ : death : fran_sorin : history : holocaust : lipstick
 https://fredrikdeboer.com/2017/06/28/two-concepts-about-sampling-that-were-tricky-for-me/ : freddy_deboer : sampling : statistics
 https://free3d.com/3d-models/lowpoly : 3d_models : game_development : low_poly
+https://freedomarchives.org/ : __come_back_to : archive : freedom_archives
 https://freepythontips.wordpress.com/2013/07/30/20-python-libraries-you-cant-live-without/ : libraries : python : recommendation
 https://freesound.org/browse/ : assets : libraries : resource : sound : soundfx : soundscape
 https://freethoughtblogs.com/carrier/archives/8903 : __come_back_to : blog
@@ -9953,6 +9955,7 @@ https://plotly.com/python/ : plotly : python : visualisation
 https://pluggy.readthedocs.io/en/stable/index.html : __important : hooks : pluggy : python : software_engineering
 https://pluralistic.net/ : blog : cory_doctorow : pluralistic
 https://pluralistic.net/tag/linkdump/ : blog : corey_doctorow : link_dump
+https://plushiedreadfuls.com/collections/plushiedreadfuls : __come_back_to : plushie : steph
 https://pmneila.github.io/jsexp/grayscott/ : diffusion : gray_scott : procedural_content : programming : project : tutorial : web_GL
 https://pocgamer.com/category/racism-2/racism-in-games/ : africa : analysis : criticism : fantasy : g_a_barber : poc_gamer : race : science_fiction
 https://podcasts.apple.com/gb/podcast/failed-architecture/id1384867713?i=1000431616321 : failed_architecture : podcast : qatar
@@ -12162,6 +12165,7 @@ https://www.icivics.org/ : civics : edu_games : game : law : society
 https://www.ictj.org/resource-library?f%5B0%5D=issues%3A63&f%5B1%5D=publication_type%3A43&f%5B2%5D=publication_type%3A43&f%5B3%5D=publication_type%3A44&f%5B4%5D=publication_type%3A44&f%5B5%5D=publication_type%3A45&f%5B6%5D=publication_type%3A45&f%5B7%5D=publication_type%3A54&f%5B8%5D=publication_type%3A54&f%5B9%5D=publication_type%3A70&f%5B10%5D=publication_type%3A70&f%5B11%5D=publication_type%3A77&f%5B12%5D=publication_type%3A77&f%5B13%5D=publication_type%3A81&f%5B14%5D=publication_type%3A81&f%5B15%5D=publication_type%3A273&f%5B16%5D=publication_type%3A273&f%5B17%5D=publication_type%3A275&f%5B18%5D=publication_type%3A275 : __come_back_to : dignity : ictj : justice : truth
 https://www.idlethumbs.net/designernotes/episodes/sid-meier-part-1 : designer_notes : sid_meier
 https://www.idlethumbs.net/tonecontrol : game_development : interview : podcast
+https://www.idris-lang.org/ : idris : programming_language : type_system
 https://www.idrlabs.com/autism-spectrum/test.php : autism
 https://www.ietf.org/rfc/rfc2119.txt : deontic : standards
 https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-shireen-abu-akleh-shrine-desecrated-in-the-west-bank : desecration : israel : shireen_abu_akleh : west_bank
