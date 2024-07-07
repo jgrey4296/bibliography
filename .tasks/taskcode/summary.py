@@ -39,4 +39,4 @@ printer = logmod.getLogger("doot._printer")
 
 import doot
 import doot.errors
-from doot.structs import DootKey
+from doot.structs import DKey

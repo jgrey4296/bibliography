@@ -42,13 +42,13 @@ from bibtexparser import middlewares as ms
 
 import doot
 import doot.errors
-from doot.structs import DootKey, Keyed
+from doot.structs import DKey, DKeyed
 import bib_middleware as BM
 
 
 
-@Keyed.paths("lib-root")
-@Keyed.redirects("update_")
+@DKeyed.paths("lib-root")
+@DKeyed.redirects("update_")
 def build_backup_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
@@ -60,8 +60,8 @@ def build_backup_parse_stack(spec, state, _libroot, _update):
     return { _update : read_mids }
 
 
-@Keyed.types("from", hint={"type_":BTP.Library})
-@Keyed.redirects("update_")
+@DKeyed.types("from", hint={"type_":BTP.Library})
+@DKeyed.redirects("update_")
 def get_files(spec, state, _lib, _update):
     files = []
     for entry in _lib.entries:

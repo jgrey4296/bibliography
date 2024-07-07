@@ -39,15 +39,15 @@ logging = logmod.getLogger(__name__)
 
 import doot
 import doot.errors
-from doot.structs import DootKey, Keyed
+from doot.structs import DKey, DKeyed
 from doot.enums import ActionResponse_e
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
 
 TODAY                       = datetime.datetime.now().date()
 
-@Keyed.types("from", hint={"type_":BookmarkCollection})
-@Keyed.redirects("update_")
+@DKeyed.types("from", hint={"type_":BookmarkCollection})
+@DKeyed.redirects("update_")
 def collect_tags(spec, state, _db, _update):
     """ merge tags of bookmarks together """
     tags           = TagFile()
@@ -57,7 +57,7 @@ def collect_tags(spec, state, _db, _update):
 
     return { _update : str(tags) }
 
-@Keyed.paths("bookmarks")
+@DKeyed.paths("bookmarks")
 def recency_test(spec, state, bookmarks):
     """ trigger task skip if the bookmarks file was modified today """
     mod_date = datetime.datetime.fromtimestamp(bookmarks.stat().st_mtime).date()

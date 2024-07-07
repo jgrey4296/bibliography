@@ -40,17 +40,17 @@ printer = logmod.getLogger("doot._printer")
 import bibtexparser as BTP
 import doot
 import doot.errors
-from doot.structs import DootKey, Keyed
+from doot.structs import DKey, DKeyed
 
-@Keyed.types("count")
+@DKeyed.types("count")
 def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], count:int|str) -> list:
     count = int(count)
     # Sorts oldest -> newest
     by_mod_time = sorted(sub_specs, key=lambda x: x.stat().st_mtime)
     return by_mod_time[:count]
 
-@Keyed.types("from", hint={"type_":BTP.Library})
-@Keyed.redirects("update_")
+@DKeyed.types("from", hint={"type_":BTP.Library})
+@DKeyed.redirects("update_")
 def select_one_entry(spec, state, _bib_db, _update):
     entries    = bib_db.entries
     entry      = choice(entries)

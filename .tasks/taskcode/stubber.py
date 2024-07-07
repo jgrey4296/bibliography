@@ -40,16 +40,15 @@ printer = logmod.getLogger("doot._printer")
 
 import doot
 import doot.errors
-from doot.structs import DootKey
+from doot.structs import DKey
 
-FPATH    = DootKey.build("fpath")
-UPDATE   = DootKey.build("update_")
-FROM_KEY = DootKey.build("from")
-TO_KEY   = DootKey.build("to")
+UPDATE   = DKey("update_")
+FROM_KEY = DKey("from")
+TO_KEY   = DKey("to", mark=pl.Path)
 
 def gen_stub(spec, state):
     update = UPDATE.redirect(spec)
-    fpath  = TO_KEY.to_path(spec, state)
+    fpath  = TO_KEY.expand(spec, state)
     fstem  = fpath.stem
     year   = datetime.datetime.now().year
 
@@ -62,7 +61,7 @@ def gen_stub(spec, state):
     return { update : "\n".join(stub) }
 
 def join_stubs(spec, state):
-    match FROM_KEY.to_type(spec, state, type_=list|None):
+    match FROM_KEY.expand(spec, state, check=list|None):
         case None:
             stubs = []
         case _ as x:

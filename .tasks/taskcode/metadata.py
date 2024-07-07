@@ -46,15 +46,15 @@ import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 import doot
 import doot.errors
-from doot.structs import DootKey, TaskSpec, Keyed
+from doot.structs import DKey, TaskSpec, DKeyed
 import bib_middleware as BM
 
 exiftool = sh.exiftool
 calibre  = sh.ebook_meta
 qpdf     = sh.qpdf
 
-@Keyed.paths("lib-root")
-@Keyed.redirects("update_")
+@DKeyed.paths("lib-root")
+@DKeyed.redirects("update_")
 def build_metadata_parse_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
@@ -69,7 +69,7 @@ def build_metadata_parse_stack(spec, state, _libroot, _update):
     return { _update : read_mids }
 
 
-@Keyed.types("tasks")
+@DKeyed.types("tasks")
 def report_chosen_files(spec, state, tasks):
     printer.info("Chosen Files:")
     for x in tasks:
@@ -84,8 +84,8 @@ class ApplyMetadata(BM.metadata.MetadataApplicator):
     def __init__(self):
         super().__init__()
 
-    @Keyed.types("from", hint={"type_":BTP.Library})
-    @Keyed.paths("backup")
+    @DKeyed.types("from", hint={"type_":BTP.Library})
+    @DKeyed.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
         self._backup = _backup
         for i, entry in enumerate(_lib.entries):
@@ -102,9 +102,9 @@ class GenBibEntryTask:
     def __init__(self):
         super().__init__()
 
-    @Keyed.types("from", hint={"type_":BTP.Library})
-    @Keyed.expands("template")
-    @Keyed.redirects("update_")
+    @DKeyed.types("from", hint={"type_":BTP.Library})
+    @DKeyed.formats("template")
+    @DKeyed.redirects("update_")
     def __call__(self, spec , state, _lib, template, _update):
         subtasks : list[TaskSpec] = []
         self._backup = _backup
@@ -120,6 +120,6 @@ class FileMetadataUpdate(BM.metadata.MetadataApplicator):
     A Single Entry metadata update wrapper around metadata applicator
     """
 
-    @Keyed.types("entry")
+    @DKeyed.types("entry")
     def __call__(self, spec, state, entry):
         self.transform_entry(entry, None)
