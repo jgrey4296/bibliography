@@ -22,7 +22,7 @@ depends_on    = []
 actions       = [
    {do="log", msg="Formatting/Meta/Backup for : {files}"},
    {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_.by.year"},
-   {do="job.queue", from_multi_=["format_tasks", "meta_tasks", "backup_tasks"]},
+   {do="job.queue", from_=["format_tasks", "meta_tasks", "backup_tasks"]},
 ]
 cleanup       = [
    {do="log", msg="Finished"}
