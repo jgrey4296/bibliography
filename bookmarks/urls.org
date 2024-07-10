@@ -1,5 +1,6 @@
 #+TITLE: Urls
 
+https://calculatingempires.net/
 * Main
 ** Audio Visual
 https://www.whocanuse.com/
@@ -26,6 +27,7 @@ https://www.census.gov/quickfacts/fact/table/US/PST045219
 
 ** Emacs
 http://wikemacs.org/wiki/How_to_write_helm_extensions
+https://blog.phundrak.com/emacs-29-what-can-we-expect/#eglot-is-now-part-of-emacs-core
 https://emacsair.me
 https://emacsblog.org
 https://pragmaticemacs.com
@@ -52,6 +54,10 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://gendesignmc.wikidot.com/wiki:2024-settlement-generation-competition
+https://dwarffortressbugtracker.com/view_all_bug_page.php
+https://gameuidatabase.com/index.php
+https://github.com/Xibanya/ShaderTutorials
 https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/overview?homepageId=2850903
 https://www.jendrikillner.com/article_database/ - graphics programming weekly
 https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/
@@ -379,6 +385,13 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/catppuccin/catppuccin - theme
+https://github.com/ragapp/ragapp
+https://github.com/g-truc/glm
+https://github.com/leipzig/SandwichesWithSnakemake
+https://github.com/klembot/twinejs
+https://github.com/stathissideris/ditaa
+https://github.com/Xibanya/ShaderTutorials
 https://github.com/open-dicom/awesome-dicom
 https://github.com/mintisan/awesome-kan
 https://github.com/dhowe/adnauseam
@@ -423,6 +436,7 @@ https://github.com/toddmotto/public-apis
 ** Grammar
 https://www.merriam-webster.com/grammar/
 ** Itch.io
+https://penflower-ink.itch.io/passkey-srd
 http://delca.itch.io/town
 http://jamespatton.itch.io/masques-and-murder
 http://managore.itch.io/planetarium
@@ -484,6 +498,7 @@ https://zarkonnen.itch.io/occult-defence-agency-budgeting-simulator
 https://jobs.co.uk/
 https://www.cv-library.co.uk/
 ** Journalism
+https://nation.africa
 https://euromedmonitor.org/en
 https://www.justsecurity.org/
 https://www.mediamatters.org/
@@ -512,6 +527,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Agents
+https://github.com/ragapp/ragapp
 http://www.sarl.io/publications/index.html
 https://agentclinic.github.io/
 http://ccl.northwestern.edu/netlogo/docs/dictionary.html#link
@@ -534,6 +550,10 @@ https://github.com/open-policy-agent/opa
 https://simassocc.org/
 https://www.openpolicyagent.org/
 ** Programming
+https://xapian.org/
+https://xapian.org/docs/
+https://launchpad.net/
+https://wiki.archlinux.org/
 https://www.linode.com/docs/
 https://ubuntu.com/engage
 https://makefiletutorial.com/
@@ -583,6 +603,39 @@ https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-im
 https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
+** Software Engineering
+https://rp.wtf/articles/
+https://git-cliff.org/docs/
+https://semgrep.dev/docs/writing-rules/rule-ideas
+https://sarahabd.com/til/accessibility-resources
+https://sarahabd.com/blog/my-accessibility-review-checklist
+https://sarahabd.com/til/accessibility-resources-second-edition
+https://www.oxygenxml.com/dita/styleguide/
+https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes
+https://calver.org/
+https://cookiecutter.readthedocs.io/en/2.2.3/README.html
+https://github.com/ghostinthewires/Azure-Readiness-Checklist/blob/master/README.md
+https://pep8.org/
+https://refactoring.guru/
+https://www.cisa.gov/resources-tools/resources/types-software-bill-materials-sbom
+https://www.sphinx-doc.org/en/master/contents.html
+https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/
+http://tusharma.in/smells/
+http://webdevchecklist.com/
+http://www.programming-idioms.org/about#about-block-all-idioms
+http://www.rankred.com/nasa-coding-rules/
+https://12factor.net/
+https://adamosloizou.github.io/software/2018/06/18/software-engineering-principles.html
+https://docs.readthedocs.io/en/stable/
+https://engineering.riotgames.com/news/taxonomy-tech-debt
+https://github.com/noffle/art-of-readme
+https://keepachangelog.com/en/1.1.0/
+https://matklad.github.io/2021/02/06/ARCHITECTURE.md
+https://reproducible-builds.org/
+https://semver.org/
+https://www.conventionalcommits.org/en/v1.0.0
+https://www.datatilsynet.no/en/regulations-and-tools/guidelines/data-protection-by-design-and-by-default/
+https://www.makeareadme.com/
 ** Reading lists
 http://io9.com/the-essential-cyberpunk-reading-list-1714180001
 http://marhicks.com/syllabi.html#womenincomputing
@@ -618,6 +671,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.wikipedia.org/wiki/Piece_table
+https://en.wikipedia.org/wiki/Rope_(data_structure)
 https://en.m.wikipedia.org/wiki/SARL_(programming_language)
 https://en.m.wikipedia.org/wiki/Syslog
 https://en.m.wikipedia.org/wiki/Data_vault_modeling
@@ -628,6 +683,7 @@ https://en.wikipedia.org/wiki/Chain_of_trust
 https://en.wikipedia.org/wiki/Reproducible_builds
 https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
 https://en.m.wikipedia.org/wiki/Stagflation
+https://en.m.wikipedia.org/wiki/Karim_Ahmad_Khan
 * Blogs
 ** ACLU
 https://www.aclu.org/blog/lgbt-rights
@@ -1035,6 +1091,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://www.stuartellis.name/
 https://andrewwegner.com/
 https://www.marginalia.nu/
 https://blog.cassidoo.co/
@@ -1093,6 +1150,9 @@ https://womensartblog.wordpress.com
 https://alexanderobenauer.com/labnotes/000/
 * Resources / Assets
 ** APIs
+https://droughtmonitor.unl.edu/CurrentMap.aspx
+https://12ft.io/  : website cleaner
+https://www.removepaywall.com/ : paywalls
 https://archive.org/developers/index.html
 https://www.oldbaileyonline.org/about/docapi
 http://developer.nytimes.com/
@@ -1153,6 +1213,8 @@ https://www.oldbaileyonline.org/static/API.jsp
 https://www.oldbaileyonline.org/static/DocAPI.jsp
 https://www.publicapis.com/
 ** Archive
+https://freedomarchives.org/
+https://www.replacementdocs.com  : blocked in uk
 https://www.theblackvault.com/documentarchive/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 https://archive.org/details/cbk                                                                                :  Archive.org Cookbook Collection
@@ -1205,6 +1267,10 @@ https://www.oise.utoronto.ca/collaborativeindigenousresearch
 https://www.oldbaileyonline.org/static/API.jsp
 https://www.opensecrets.org/
 https://xeroxparcarchive.computerhistory.org/
+** Autism
+https://embrace-autism.com/
+https://aspietests.org/
+
 ** Cities
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
@@ -1224,6 +1290,8 @@ https://vusd.github.io/spacesheet/
 https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/latexcommands.htm
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
 https://chevyray.itch.io/pixel-font-megapack
+** Food
+https://www.tasteatlas.com/
 ** Government
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 http://lcweb2.loc.gov/cgi-bin/ampage?fileName=rbc0001_2003gen37813page.db&collId=rbc3                          :  Library of Congress Digital Collections
@@ -1297,6 +1365,9 @@ https://kotaku.com/5935634/give-me-more-world-maps-in-my-rpgs
 https://la.curbed.com/maps/roadside-architecture-programmatic-mimetic
 https://openknowledgemaps.org/
 https://www.davidrumsey.com/                                                                                   :  David Rumsey Map Collection
+** Math
+https://franknielsen.github.io/Divergence/
+
 ** Museums and Libraries
 https://bll01.primo.exlibrisgroup.com/discovery/search?vid=44BL_INST:BLL01&lang=en : British library
 https://blogs.cul.columbia.edu/rbml/2018/09/10/collections-news-albert-field-playing-cards-go-online/          :  Columbia University Library Playing Cards
@@ -1319,6 +1390,7 @@ https://www.vam.ac.uk/articles/explore-entartete-kunst-the-nazis-inventory-of-de
 
 https://yorsearch.york.ac.uk/primo-explore/collectionDiscovery?vid=44YORK-NUI&collectionId=81351305970001381 : uni of york dissertations
 ** People
+https://franknielsen.github.io/ - distance measures
 http://acg.media.mit.edu/people/fry/index.html
 http://ai.eecs.umich.edu/people/laird/
 http://ai.stanford.edu/users/nilsson/
@@ -1608,6 +1680,7 @@ https://www.mcmaster.com/
 https://refugeecouncil.org.uk/resource-category/guides-for-refugees/                                           :  Guides for Refugees
 https://reference.pictures/                                                                                    :  Reference Photos
 https://www.dimensions.com/                                                                                    :  Dimensions.com
+https://posereference.com/collection/all
 ** religion
 https://faenrandir.github.io/a_careful_examination/
 ** researchers
@@ -1631,6 +1704,7 @@ https://ubu.com/sound/occult.html                                               
 https://urbansounddataset.weebly.com/                                                                          :  Urban Sound Dataset
 https://www.soundsurvey.org.uk/                                                                                :  Sound Survey
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
+
 ** Tv
 http://arstechnica.com/the-multiverse/2014/06/don-draper-may-be-an-alien-but-mad-men-is-definitely-science-fiction/
 http://en.battlestarwiki.org/wiki/Dirty_Hands
@@ -1702,13 +1776,13 @@ https://www.xeno-canto.org/                                                     
 ** Web App
 https://fakeyou.com/text-to-image
 https://www.autodraw.com/
-https://q.uiver.app/  - diagrams, latex
+https://q.uiver.app/         - diagrams, latex
 https://makemeacocktail.com/ - cocktails
-https://bodyvisualizer.com/ - bodies
-https://tailornova.com/ - clothes
-https://www.symbolab.com/ - math
-https://temp-mail.org/ - mail
-https://musclewiki.com/ - muscles
+https://bodyvisualizer.com/  - bodies
+https://tailornova.com/      - clothes
+https://www.symbolab.com/    - math
+https://temp-mail.org/       - mail
+https://musclewiki.com/      - muscles
 ** Youtube channels
 http://www.youtube.com/channel/UC-7oMv6E4Uz2tF51w5Sj49w  : PlayFrame
 http://www.youtube.com/channel/UC-B38CIiv_AdZjJsUwagMvA  : SlimeFancypants
@@ -2288,11 +2362,8 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
-** Autism
-https://embrace-autism.com/
-https://aspietests.org/
-
 * Digital Collections
+https://gameuidatabase.com/index.php
 https://opencitations.net/index/api/v1/
 https://www.c82.net/iconography/
 https://www.senate.gov/art-artifacts/historical-images-landing-page.htm
@@ -2440,6 +2511,7 @@ https://www.pewresearch.org/topic/politics-policy/
 http://www.pewglobal.org/category/datasets/
 http://www.pewresearch.org/
 ** Policing / crime
+https://www.whoismakingnews.com/#source-data
 https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
 https://ourworldindata.org/homicides
 https://vault.fbi.gov/

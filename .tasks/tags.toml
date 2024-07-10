@@ -1,25 +1,22 @@
 ## tags.toml -*- mode: conf-toml -*-
 
 [[tasks.tags]]
-disable              = true
-name                 = "clean"
-version              = "0.1"                # <str>
-ctor                 = "task"               # <type>
-doc                  = ["TODO"]                   # <list[str]>
-depends_on           = ["file:>{temp}/tags/totals.tags"]                   # <list[DootTaskArtifact]>
-actions              = [
-                     { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="tags" }
-]
-
-[[tasks.tags]]
 name                     = "calc.new"
 version                  = "0.1"                                                                  # <str>
 ctor                     = "job"
 docs                     = ["calculate canon and new tags"]
 roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
 exts                     = [".sub"]                                                               # <list[str]>
-# required_for             = ["file:>{temp}/tags/canon.tags", "file:>{temp}/tags/new.tags"]
 recursive                = false                                                                  # <bool>
+actions                  = [
+    {do="job.walk", update_="files"}, # walk,
+    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+    {do="job.queue", from_="tasks"}, # queue
+]
+sub_actions              = [
+    { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
+    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
+]
 cleanup = [
     { do="post.get", subs="tags::calc..allsubs" },
     { do="taskcode.tags:merge_subfiles", from_="subs", update_="known_tags" },
@@ -31,47 +28,7 @@ cleanup = [
     { do="write!", from_="canon_tags", to="{temp}/tags/canon.tags"},
 
 ]
-actions                  = [
-    {do="job.walk", update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
-    {do="job.queue", from_="tasks"}, # queue
-]
-sub_actions              = [
-    { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
-]
 
-[[tasks.tags]]
-name                 = "extract.bib"
-version              = "0.1"                                                                # <str>
-ctor                 = "job"                                                             # <type>
-doc                  = ["extract names and tags from bibtex files"]                         # <list[str]>
-roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
-exts                 = [".bib"]                                                             # <list[str]>
-actions = [
-        {do="job.walk", update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="tags::_.extract.bib"},
-        {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
-        {do="job.queue", from_="tasks"},
-        {do="job.queue", args=["tags::_.extract.bib.finish"], after=["$head$"]},
-]
-
-[[tasks.tags]]
-name             = "_.extract.bib"
-doc              = ["adds tags found in the bibtex to a middleware state"]
-ctor             = "task"
-depends_on       = [
-    { do="ext?", args=["{fpath}"], ext=[".bib"]},
-]
-setup            = [
-    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-    { do="dootle.bibtex:BibtexLoadAction",  from_="fpath",     update_="bib_db",   parse_stack_="parse_stack"},
-]
-actions          = [
-    { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
-    { do="post.put", tags=["{tags}"] },
-]                                                                                                                         # <str>
 
 [[tasks.tags]]
 name            = "_.extract.bib.finish"
@@ -88,3 +45,17 @@ actions         = [
     # { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
     # { do="write!", from_="names", to="{temp}/tags/bib.names" }
 ]
+
+
+
+[[tasks.tags]]
+name = "_.clean.bib"
+
+[[tasks.tags]]
+name = "_.clean.bookmarks"
+
+[[tasks.tags]]
+name = "generate.people"
+
+[[tasks.tags]]
+name = "generate.total"

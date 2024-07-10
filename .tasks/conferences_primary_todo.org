@@ -1,0 +1,28 @@
+#+TITLE: Primary Conferences
+#+STARTUP: agenda
+
+* Overview
+As complete a proceeding list as I can find for each conference, for each year it occurred.
+uses dblp.org as initial source
+
+* Main
+** DONE aaai 1980-2023
+** TODO atal_aamas
+** TODO chi
+Has All papers up to 1981-2023
+
+** TODO coin
+
+*** [∅] 2023 proceedings
+** TODO digra
+** TODO fdg
+** TODO icids
+** TODO ijcai
+** TODO iva
+** TODO pcg
+** TODO sacair
+** TODO extraamas
+- State "TODO"       from              [2024-06-05 Wed 21:19]
+** TODO tidse
+- State "TODO"       from              [2024-06-05 Wed 21:19]
+* Links

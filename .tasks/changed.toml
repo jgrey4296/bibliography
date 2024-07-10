@@ -1,0 +1,70 @@
+## changed.toml -*- mode: conf-toml -*-
+## Collected tasks for processing changed files after they have been committed
+##
+
+[[tasks.changed]]
+name             = "_.one.bib"
+doc              = ["run updates for a changed bibtex"]
+version          = "0.1"
+ctor             = "job"
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+roots            = ["{bib}"]
+depends_on       = [
+    # Check the fpath is a bibtex and in the library
+    { do="ext?",      args=["{fpath}"], exts=[".bib"] },
+    { do="relative?", args=["{fpath}"], bases_="roots"},
+]
+setup            = [
+    # build the parse and export stacks, and the db
+    { do="path.elements", from_="fpath" },
+    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
+    { do="taskcode.export:build_export_write_stack",      update_="export_stack" },
+]
+actions          = [
+    { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
+    # Read the file
+    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+
+    # Queue Entry Subtasks:
+    { do="taskcode.metadata:GenBibEntryTask", template="changed::_.single.entry.update", from_="bib_db", update_="entry_tasks"},
+    { do="job.queue", from_="entry_tasks" },
+]
+head_actions = [
+    # Queue (whole file) compile and export
+    { task="export::_.on.bib",   inject={fpath="fpath"} },
+    { task="compile::_.to.html", inject={fpath="fpath"} },
+    { task="compile::_.to_pdf" , inject={fpath="fpath"} },
+    # Queue year directory orphan check
+    { task="orphans::_.filesystem", inject={fpath="fpath"} },
+    { task="orphans::_.one.bib",    inject={fpath="fpath"}  },
+    # Summarise
+]
+cleanup = [
+    # Remove any intermediate files
+]
+
+
+[[tasks.changed]]
+name               = "_.single.entry.update"
+doc                = ["Entry tasks that do not modify the entry itself"]
+ctor               = "task"
+roots              = ["{pdf_source}"]
+shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
+actions            = [
+    # Extract Tags
+    # Extract publisher, institution, journal, organisation, series...
+    # ---
+    # Update Metadata
+    {do="taskcode.metadata:FileMetadataUpdate"},
+    # Orphan Check and update
+    # ---
+    # Link check
+    # ---
+    # Backup files:
+    {do="taskcode.metadata:FileMultiBackup", from_="fpath", pattern="{shadow_path}/{fname}"}
+]
+cleanup = [
+    # Remove intermediate files?
+
+]

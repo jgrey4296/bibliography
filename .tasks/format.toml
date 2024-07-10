@@ -1,25 +1,5 @@
 ## format.toml -*- mode: conf-toml -*-
 
-[[locations]]
-lib-root      = "/media/john/data/library/pdfs/"
-bib_export    = "{export}/bib"
-cal_export    = "{export}/calendar"
-
-[[tasks.format]]
-name                 = "all"
-version              = "0.1"                                                                # <str>
-ctor                 = "job"                                                                # <type>
-doc                  = ["Load each bib file and format/validate it"]                               # <list[str]>
-roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
-exts                 = [".bib"]                                                             # <list[str]>
-select_limit         = 10                                                                   # <int|None>
-actions = [
-        {do="job.walk",        update_="walked"},
-        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
-        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="base::_.formatter"},
-        {do="job.queue",       from_="tasks"},
-]
-
 
 [[tasks.format]]
 name             = "_.by.year"
@@ -27,7 +7,8 @@ ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib}"]
 depends_on       = [
-        { do="ext?", args=["{fpath}"], exts=[".bib"] },
+        {do="exists?", args=["{fpath}"], fail=true },
+        {do="ext?",    args=["{fpath}"], exts=[".bib"] },
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
@@ -35,7 +16,6 @@ setup = [
         { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
         # TODO : write-stack with tag substitution after loading sub files
         { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
-        { do="taskcode.export:build_export_write_stack",   update_="export_stack" },
 ]
 actions          = [
         {do="log", msg="Formatting: {fpath}"},
@@ -49,19 +29,4 @@ actions          = [
         # Extract tags and add to postbox:
         { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
         { do="post.put", "format::_.by.year..tags"=["{tags}"] },
-]
-
-[[tasks.export]]
-name            = "_.by.year"
-depends-on      = ["format::_.by.year[fpath]"]
-queue_behaviour = "reactive"
-setup           = [
-        { do="path.elements", from_="fpath", roots=["."]},
-        { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-        { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-]
-actions = [
-        { do="relative?", args=["{fpath}"], bases_="export_bases" },
-        { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
-        { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
 ]

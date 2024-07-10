@@ -1,7 +1,6 @@
 ## precommit.toml -*- mode: conf-toml -*-
 
 [[locations]]
-changed_file = {loc="{temp}/.changed", file=true}
 
 [[tasks.precommit]]
 name     = "validate"
@@ -20,26 +19,31 @@ doc           = ["Is passed a cli list of files changed, which are used to queue
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
 depends_on    = []
-cleanup       = [
-   {do="log", msg="Finished"}
-   # todo clear changed file
-]
 actions       = [
-   # TODO append changed file list to {changed_file}
    {do="log", msg="Formatting/Meta/Backup for : {files}"},
    {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_.by.year"},
-   # TODO move these to a postcommit hook
-   # {do="job.expand", prefix="meta",   from_="files", update_="meta_tasks",   inject={replace=["fpath"]}, template="meta::_.by.year"},
-   # {do="job.expand", prefix="backup", from_="files", update_="backup_tasks", inject={replace=["fpath"]}, template="backup::_.by.year"},
-   {do="job.queue", from_multi_=["format_tasks", "meta_tasks", "backup_tasks"]},
+   {do="job.queue", from_=["format_tasks", "meta_tasks", "backup_tasks"]},
+]
+cleanup       = [
+   {do="log", msg="Finished"}
 ]
 
 [[tasks.precommit]]
 name       = "post"
 doc        = []
 ctor       = "job"
-depends_on = ["bookmark::update", "bib::cleanup"]
-actions    = [
-           # TODO queue latex export of changed bibs
-           # TODO queue build of changed exported bibs
+roots      = ["{bib}"]
+exts       = [".bib"]
+depends_on = [
+           "bookmark::update"
 ]
+setup = [
+      # clear orphan file lists
+]
+actions    = [
+   # No cache, so just process the head changes:
+   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   # Queue metadata update
+   {do="job.expand", from_="changed", inject={replace=["fpath"]}, template="changed::_.one.bib"},
+]
+cleanup = ["bib::cleanup"]

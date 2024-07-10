@@ -1,0 +1,267 @@
+#+TITLE: Bibliography Todos
+#+STARTUP: agenda
+
+* Bibliography :bibliography:
+** in_progress
+*** [∅] ai-reviews
+*** [∅] anthology
+*** [∅] dijkstra
+** TODO favourites
+- State "TODO"       from              [2024-06-05 Wed 21:13]
+** scifi :scifi:
+**** [∅] ac_clarke_award
+**** [∅] galaxy_award
+**** [∅] hugo_award
+**** [∅] lambda_award
+**** [∅] le_guin_award
+**** [∅] nebula_award
+**** [∅] nommo_award
+**** [∅] pk_dick_award
+**** [∅] timeline
+**** [∅] world_fantasy_award
+** tags                                          :tag:
+*** [∅] integrate new
+** ebooks                                        :ebooks:
+*** epubs
+**** Abnett_2004_Eisenhorn_Omnibus.epub
+**** Abnett_2008_Titanicus.epub
+**** Aristotle_1998_Metaphysics.epub
+**** Banks_1987_Consider_Phlebas_d5bab.epub
+**** Banks_1987_Consider_Phlebas.epub
+**** Bergson_1913_Laughter.epub
+**** Bester_1981_The_Deceivers.epub
+**** Bush_1945_As_We_May_Think.epub
+**** Camic_2011_The_Essential_Writings_of_Thorstein_Vebl.epub
+**** Card_2006_The_Cambridge_Companion_to_Simone_De_Bea.epub
+**** Croshaw_2022_Will_Save_the_Galaxy_for_Food.epub
+**** De_1949_The_Second_Sex.epub
+**** Drucker_1998_On_the_Profession_of_Management.epub
+**** Dunn_2012_The_Primarchs.epub
+**** Dunn_2016_The_Silent_War.epub
+**** Eberl_2008_Battlestar_Galactica_and_Philosophy.epub
+**** Fadiman_2000_Ex_Libris.epub
+**** Galbraith_1955_The_Great_Crash_1929.epub
+**** Galbraith_1983_The_Anatomy_of_Power.epub
+**** George_2005_Case_Studies_and_Theory_Development_in_t.epub
+**** Miceli_2015_Expectancy_and_Emotion.epub
+**** Mieville_2011_Embassytown.epub
+**** Okrent_2009_In_the_Land_of_Invented_Languages_Esper.epub
+**** Plato_2004_The_Laws.epub
+**** Pratchett_1991_Reaper_Man.epub
+**** Pratchett_1991_Witches_Abroad.epub
+**** Pratchett_1992_Lords_and_Ladies.epub
+**** Pratchett_1993_Men_At_Arms.epub
+**** Pratchett_1994_Interesting_Times.epub
+**** Pratchett_1996_Feet_of_Clay.epub
+**** Pratchett_1996_Hogfather.epub
+**** Pratchett_1997_Jingo.epub
+**** Pratchett_2001_Thief_of_Time.epub
+**** Pratchett_2002_Night_Watch.epub
+**** Pratchett_2003_Monstrous_Regiment.epub
+**** Pratchett_2004_Going_Postal.epub
+**** Pratchett_2005_Thud_.epub
+**** Pratchett_2007_Making_Money.epub
+**** Pratchett_2010_I_Shall_Wear_Midnight.epub
+**** Pratchett_2011_Snuff.epub
+**** Pratchett_2013_Raising_Steam.epub
+**** Pryor_2010_The_making_of_the_British_landscape.epub
+**** Reid_2005_United_We_Stand.epub
+**** Rowling_2007_Harry_Potter.epub
+**** Scalzi_2005_Old_Man_s_War.epub
+**** Scalzi_2022_The_Kaiju_Preservation_Society.epub
+**** Szczesnik_2016_Unity_5_x_Animation_Cookbook.epub
+
+*** erin
+*** police violence
+*** phil agre
+** wiki
+** CSVs
+*** [∅] springer
+collections of results from searching springerlink and exporting
+*** [∅] ai_spec_gaming.csv
+a collection of examples of ai gaming their metrics
+*** [∅] dl_contents.csv
+a collection of transactions, journals and proceedings on the dl.acl.org
+*** [∅] epi_reading_list.csv
+an epidemiology reading list
+*** [∅] game_clips.csv
+a collection of youtube clips of various games
+** XMLs
+*** [∅] boykiss
+*** [∅] critical-distance
+*** [∅] doctorow
+*** [∅] federalist
+*** [∅] hansard
+*** [∅] journals
+*** [∅] koster
+*** [∅] media_matters
+*** [∅] mit
+*** [∅] propublica
+*** [∅] scifi_ruminations
+*** [∅] scotus_blog
+*** [∅] the_nation
+*** [∅] the_trace
+*** [∅] variancehammer
+*** [∅] game_philosophy.xml
+*** [∅] papersindex.xml
+*** [∅] paul_mcguire.xml
+*** [∅] pentiment.xml
+*** [∅] talks-2022.xml
+*** [∅] verso.xml
+* Tasks :tasks:doot:
+** Backup
+*** [⟙] PDFs total
+- State "[⟙]"        from "[∅]"        [2024-06-02 Sun 22:44]
+*** [⟙] by.year
+- State "[⟙]"        from              [2024-06-02 Sun 22:44]
+*** DEAD by changed from git diff
+included in git cache collection
+*** MAYBE pdf only backup
+*** MAYBE epub only backup
+*** MAYBE refactor into recursive tasks
+** Bookmarks
+*** [⟙] total
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [⟙] firefox
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [⟙] archived
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [∅] remove duplicates
+
+*** [∅] bookmark cruft removal
+** Compilation
+*** DEAD full
+*** DEAD by changed
+*** [⟙] to pdfs
+- State "[⟙]"        from "[∅]"        [2024-06-11 Tue 00:26]
+*** [⟙] to html
+- State "[⟙]"        from "[∅]"        [2024-06-10 Mon 00:37]
+*** [∅] _.failed report
+*** [∅] calendar
+- by date added
+- random
+- to org calendar
+- tag calendar
+- bookmarks
+*** [∅] join
+** Export
+*** [⟙] latex-ready export
+- State "[⟙]"        from "[⇒]"        [2024-06-02 Sun 21:46]
+*** DEAD by changed
+** Formatting
+*** [⟙] oldest
+- State "[⟙]"        from              [2024-06-02 Sun 22:45]
+*** [⟙] by.year
+- State "[⟙]"        from              [2024-06-02 Sun 21:46]
+*** DEAD by changed
+*** [∅] bib+ formatting
+*** twitter threads
+*** tag substitutions
+** Metadata
+*** [⟙] update total
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** [⟙] by year
+- State "[⟙]"        from              [2024-06-02 Sun 21:49]
+*** DEAD by changed
+*** [∅] record commit when meta task completes
+get files changed between that and current
+*** [∅] refactor metadata apply to add to task queue
+*** [∅] [#A] implement genbibentrytask
+*** [∅] [#A] merge metadata.parse.stack with working.parse.stack
+mainly means handle split authors in building metadata
+** Online
+*** [⟙] Downloader
+- State "[⟙]"        from              [2024-06-02 Sun 22:46]
+*** [∅] downloader direct write
+*** [∅] waybacker
+*** [∅] 404 checker
+*** [∅] downloader transform action instead of middleware
+*** [∅] check for predatory journals
+*** [∅] check for predatory publishers
+** Orphans
+*** [⟙] total
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
+*** DEAD by changed
+*** [⟙] by year
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
+*** [⟙] all.bib
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
+*** [⟙] one.bib
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:08]
+*** [∅] filesystem
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:08]
+- give task fpath in {bib}, relativize it to {lib-root}
+*** [∅] filesystem using fdfind
+** Precommit
+*** [⟙] validate
+- State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:09]
+*** [∅] pre
+*** TODO post
+**** [∅] get changed files using git diff
+**** [∅] export changed bibs
+**** [∅] build  changed bibs
+**** [∅] fixup metadata
+**** [∅] backup new
+** Stubber
+*** [⟙] files
+- State "[⟙]"        from              [2024-06-03 Mon 04:26]
+*** [⟙] cleanup
+- State "[⟙]"        from              [2024-06-03 Mon 04:27]
+** Summary
+*** [∅] main  :task-mapping:
+*** [∅] bibs
+**** number of files
+**** number of entries
+**** entry type distribution
+**** authors
+**** number of entries without a file
+**** entries with no tags
+or under a minimum number
+**** entries in the wrong year
+**** completion updates
+publishers, authors, institutions,
+journals, organizations,  series
+**** entries marked "important"
+**** entries marked "come back to"
+**** timelines for certain tags
+*** [∅] bookmarks
+**** top level domains distribution
+**** entries marked "important"
+**** entries marked "come back to"
+*** list books
+*** list proceedings
+*** list journals
+
+** Tags
+*** [∅] clean
+**** read substitution lookups
+**** apply to bibtex
+**** apply to bookmarks
+*** [∅] calc.new
+**** refactor, pattern after orphans
+*** [⇒] extract.bib
+*** [∅] extract.bookmarks
+*** [∅] make tag for every named person in library
+*** rebuild tags
+*** merge tags
+*** build timeline for tag
+[[*calendar][calendar]]
+*** diff tag changes
+** parse ceur
+** ACTIVE Changed
+:LOGBOOK:
+CLOCK: [2024-06-10 Mon 18:04]--[2024-06-10 Mon 23:38] =>  5:34
+:END:
+*** git cache collection
+**** tag extraction
+- make tag extractor middleware wrapper
+**** link checking and waybacker
+**** metadata apply
+- distinguish failures, encrypted, and locked
+- as subtasks, applicator can be an entry middleware
+**** find orphans
+**** backup files
+**** export for latex
+**** compile to pdf and html
+**** generate summary
+* Links

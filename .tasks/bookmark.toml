@@ -10,6 +10,7 @@ ctor                 = "task"               # <type>
 cli                  = [{ name="files",   type="list", default=[], positional=true }]
 doc                  = ["Merge firefox bookmarks into bibliography repo"]
 db_name              = "places.sqlite"
+log_file             = "{temp}/logs/bookmark_update.log"
 depends-on           = [
    { do="pred?", pred="taskcode.bkmk:recency_test" },
    "bookmark::_.firefox",
@@ -23,7 +24,7 @@ actions              = [
    { do="dootle.bookmarks.actions:BookmarksMerge", from_=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
    { do="dootle.bookmarks.actions:BookmarksRemoveDuplicates", from_="total_bkmks" },
    { do="dootle.bookmarks.actions:BookmarksToStr", from_="total_bkmks", update_="bkmks_str" },
-   { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{temp}/append.test" },
+   { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{log_file}" },
    { do="write!", from_="bkmks_str", to="{temp}/merged.bookmarks" },
    { do="write!", from_="bkmks_str", to="{bookmarks}" },
 ]                                                                                                        # <list[Any]>
@@ -39,7 +40,6 @@ cleanup = [
 ]
 setup                = [
    { do="doot.actions.io:SimpleFind", from="{firefox}", pattern_="db_name", rec=true, update_="db_locs"},
-
 ]
 actions              = [
    { do="copy", from_="db_locs", to="{temp}/" }, # copy the db from {firefox}/../{db_name} -> {temp}

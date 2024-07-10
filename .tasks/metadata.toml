@@ -3,28 +3,7 @@
 [[locations]]
 meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
 fail_log    = {file="{logs}/meta_failures.txt"}
-
-[[tasks.meta]]
-name             = "update"
-doc              = ["Update the metadata for each file in the library"]
-ctor             = "job"
-version          = "0.1"
-cli              = [{ name="target", type="str", prefix="-", default="{bib}", desc="", positional=false  }]
-roots            = ["{target}"]
-exts             = [".bib"]
-recursive        = false
-select_limit     = 10
-actions          = [
-        # walk
-        {do="job.walk", update_="walked"},
-        # expand
-        {do="job.limit",       from_="walked", count_="select_limit", method="taskcode.selector:sort_oldest"},
-        {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template="meta::_.by.year"},
-        {do="taskcode.metadata:report_chosen_files"},
-        {do="wait", count=5},
-        # queue
-        {do="job.queue",       from_="tasks"},
-]
+meta_cache  = {file="{temp}/metadata.commit_cache"}
 
 [[tasks.meta]]
 name             = "_.by.year"
@@ -47,8 +26,9 @@ actions          = [
     # Read
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Apply
-    # TODO make this queue tasks instead?
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
     { do="append!", to="{fail_log}", args=["{failures}"] },
+]
+cleanup = [
     { do="touch", args=["{fpath}"] },
 ]

@@ -3,54 +3,76 @@
 [[locations]]
 orphans = "{temp}/orphans"
 
-[[tasks.orphans]]
-name       = "total"
-depends_on = ["file:>{orphans}/bib.files", "file:>{orphans}/fs.files"]
-actions = [
-        # read file lists
-        {do="read", from="{orphans}/bib.files", type="lines", update_="bib"},
-        {do="read", from="{orphans}/fs.files", type="lines",  update_="fs"},
-        # diff them
-        {do="taskcode.orphans:diff_filelists"},
-        # write results:
-        {do="write!", from_="only_mentioned", to="{orphans}/only_mentioned.files"},
-        {do="write!", from_="only_exists",    to="{orphans}/only_exists.files"},
+[[tasks.orphans]] # starter
+name    = "_.one.year"
+doc     = ["compare a bibtex year to its pdf lib files"]
+cli     = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+version = "0.1"
+ctor    = "job"
+setup = [
+    {do="delete!", args=["{orphans}/bib.files"]},
+    {do="delete!", args=["{orphans}/fs.files"]},
+    {do="exists?", args=["{fpath}"], fail=true},
+    {do="path.elements",   from_="fpath", roots=["{bib}"]},
 ]
+actions = [
+    {do="job.expand",      from_="fpath", update_="bibtasks", inject={replace=["fpath"]}, template="orphans::_.one.bib"},
+    {do="job.expand",      from="{lib-root}/{fstem}", update_="fstasks", inject={replace=["fpath"], copy=["fstem"]}, template="orphans::_.filesystem"},
+    {do="job.queue",       from_multi_=["bibtasks", "fstasks"]}
+]
+cleanup = ["orphans::_.report"]
+
 
 [[tasks.orphans]]
-name             = "_.bib"
-doc              = ["walk all bibfiles, summarise entry files"]
-ctor             = "job"
-version          = "0.1"
-required_for     = [{loc="{orphans}/bib.files", file=true}]
-roots            = ["{bib}"]
-exts             = [".bib"]
-actions          = [
-    {do="delete!", args=["{orphans}/bib.files"]},
-    {do="job.walk", update_="walked"},
-    {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
-    {do="job.queue",       from_="tasks"},
-]
-sub_actions = [
+name        = "_.one.bib"
+doc         = ["get all files referenced by a bibtex file"]
+cli         = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+ctor        = "task"
+actions = [
     { do="ext?", args=["{fpath}"], exts=[".bib"] },
+    { do="log", msg="Getting Files for: {fpath}"},
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     { do="taskcode.orphans:get_db_files", from_="bib_db" , update_="filelist"},
-    { do="append!", args=["{filelist}"], to="{orphans}/bib.files"},
+    { do="taskcode.orphans:format_filelist", from_="filelist", update_="formatted" },
+    { do="append!", args=["{formatted}"], to="{orphans}/bib.files"},
+    { do="write!", args=["{formatted}"], to="{orphans}/{fstem}.bib.files" },
 ]
 
 [[tasks.orphans]]
-name             = "_.filesystem"
-doc              = ["walk the library filesystem, summarising all existing files"]
-ctor             = "job"
-version          = "0.1"
-required_for     = [{loc="{orphans}/fs.files", file=true}]
-roots            = ["{lib-root}"]
-exts             = [".pdf", ".epub"]
-actions          = [
-    {do="delete!", args=["{orphans}/fs.files"]},
+name               = "_.filesystem"
+doc                = ["walk the library filesystem, summarising all existing files"]
+cli                = [{ name="fpath", type="str", prefix="-", default="{lib-root}", desc="", positional=false  }]
+fpath              = "{lib-root}"
+ctor               = "task"
+version            = "0.1"
+# required_for       = [{loc="{orphans}/{fstem}.fs.files", file=true}]
+roots              = ["{lib-root}/{fstem}"]
+exts               = [".pdf", ".epub"]
+recursive          = true
+actions            = [
+    {do="path.elements", from_="fpath" },
+    {do="log", msg="Walking: {lib-root}/{fstem}"},
     {do="job.walk", update_="walked"}, # TODO: or use fdfind
-    {do="write!", from_="walked", to="{orphans}/fs.files" }
+    {do="taskcode.orphans:format_filelist", from_="walked", update_="files"},
+    {do="append!", args=["{files}"], to="{orphans}/{fstem}.fs.files" }
+]
+
+[[tasks.orphans]]
+name         = "_.report"
+doc          = ["reports a diff of bib referenced files against the filesystem"]
+ctor         = "task"
+priority     = 1
+# depends_on = ["file:>{orphans}/bib.files", "file:>{orphans}/fs.files"]
+actions      = [
+        # read file lists
+        {do="read", from="{orphans}/bib.files", type="lines",  update_="bib"},
+        {do="read", from="{orphans}/fs.files",  type="lines",  update_="fs"},
+        # diff them
+        {do="taskcode.orphans:diff_filelists"},
+        # write results:
+        {do="write!", from_="only_mentioned", to="{orphans}/only_mentioned.files"},
+        {do="write!", from_="only_exists",    to="{orphans}/only_exists.files"},
 ]

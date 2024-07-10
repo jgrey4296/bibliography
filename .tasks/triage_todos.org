@@ -1,0 +1,18 @@
+* Triage
+** TRIAGE doot add 'chain' action group
+   [[/media/john/data/github/bibliography/.tasks/changed.toml::67][Location]]
+   :context:
+        <2024-06-10 Mon> cleanup = [
+   :END:
+possibly with a 'query' option to explicitly ask user
+** TRIAGE dootle 'newer than' action
+   [[/media/john/data/github/bibliography/.tasks/export.toml::11][Location]]
+   :context:
+        <2024-06-11 Tue>         { do="relative?", args=["{fpath}"], bases_="export_bases" },
+   :END:
+for when generating exported bibtex, don't bother if the exported exists and doesnt need to be changed
+** TRIAGE add IEEE CoG to plus
+   [[/media/john/data/github/bibliography/in_progress/todo.bib::216][Location]]
+   :context:
+        <2024-07-05 Fri> @inproceedings{christiansen22:_space,
+   :END:
