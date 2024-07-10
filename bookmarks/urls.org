@@ -1,5 +1,6 @@
 #+TITLE: Urls
 
+https://calculatingempires.net/
 * Main
 ** Audio Visual
 https://www.whocanuse.com/
@@ -26,6 +27,7 @@ https://www.census.gov/quickfacts/fact/table/US/PST045219
 
 ** Emacs
 http://wikemacs.org/wiki/How_to_write_helm_extensions
+https://blog.phundrak.com/emacs-29-what-can-we-expect/#eglot-is-now-part-of-emacs-core
 https://emacsair.me
 https://emacsblog.org
 https://pragmaticemacs.com
@@ -52,6 +54,7 @@ https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
 ** Game Dev
+https://gendesignmc.wikidot.com/wiki:2024-settlement-generation-competition
 https://dwarffortressbugtracker.com/view_all_bug_page.php
 https://gameuidatabase.com/index.php
 https://github.com/Xibanya/ShaderTutorials
@@ -382,6 +385,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/catppuccin/catppuccin - theme
 https://github.com/ragapp/ragapp
 https://github.com/g-truc/glm
 https://github.com/leipzig/SandwichesWithSnakemake
@@ -667,6 +671,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.wikipedia.org/wiki/Piece_table
+https://en.wikipedia.org/wiki/Rope_(data_structure)
 https://en.m.wikipedia.org/wiki/SARL_(programming_language)
 https://en.m.wikipedia.org/wiki/Syslog
 https://en.m.wikipedia.org/wiki/Data_vault_modeling
@@ -1085,6 +1091,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://www.stuartellis.name/
 https://andrewwegner.com/
 https://www.marginalia.nu/
 https://blog.cassidoo.co/
@@ -1143,6 +1150,7 @@ https://womensartblog.wordpress.com
 https://alexanderobenauer.com/labnotes/000/
 * Resources / Assets
 ** APIs
+https://droughtmonitor.unl.edu/CurrentMap.aspx
 https://12ft.io/  : website cleaner
 https://www.removepaywall.com/ : paywalls
 https://archive.org/developers/index.html
@@ -1259,6 +1267,10 @@ https://www.oise.utoronto.ca/collaborativeindigenousresearch
 https://www.oldbaileyonline.org/static/API.jsp
 https://www.opensecrets.org/
 https://xeroxparcarchive.computerhistory.org/
+** Autism
+https://embrace-autism.com/
+https://aspietests.org/
+
 ** Cities
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
@@ -1278,6 +1290,8 @@ https://vusd.github.io/spacesheet/
 https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/latexcommands.htm
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
 https://chevyray.itch.io/pixel-font-megapack
+** Food
+https://www.tasteatlas.com/
 ** Government
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 http://lcweb2.loc.gov/cgi-bin/ampage?fileName=rbc0001_2003gen37813page.db&collId=rbc3                          :  Library of Congress Digital Collections
@@ -1351,6 +1365,9 @@ https://kotaku.com/5935634/give-me-more-world-maps-in-my-rpgs
 https://la.curbed.com/maps/roadside-architecture-programmatic-mimetic
 https://openknowledgemaps.org/
 https://www.davidrumsey.com/                                                                                   :  David Rumsey Map Collection
+** Math
+https://franknielsen.github.io/Divergence/
+
 ** Museums and Libraries
 https://bll01.primo.exlibrisgroup.com/discovery/search?vid=44BL_INST:BLL01&lang=en : British library
 https://blogs.cul.columbia.edu/rbml/2018/09/10/collections-news-albert-field-playing-cards-go-online/          :  Columbia University Library Playing Cards
@@ -1373,6 +1390,7 @@ https://www.vam.ac.uk/articles/explore-entartete-kunst-the-nazis-inventory-of-de
 
 https://yorsearch.york.ac.uk/primo-explore/collectionDiscovery?vid=44YORK-NUI&collectionId=81351305970001381 : uni of york dissertations
 ** People
+https://franknielsen.github.io/ - distance measures
 http://acg.media.mit.edu/people/fry/index.html
 http://ai.eecs.umich.edu/people/laird/
 http://ai.stanford.edu/users/nilsson/
@@ -1686,6 +1704,7 @@ https://ubu.com/sound/occult.html                                               
 https://urbansounddataset.weebly.com/                                                                          :  Urban Sound Dataset
 https://www.soundsurvey.org.uk/                                                                                :  Sound Survey
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
+
 ** Tv
 http://arstechnica.com/the-multiverse/2014/06/don-draper-may-be-an-alien-but-mad-men-is-definitely-science-fiction/
 http://en.battlestarwiki.org/wiki/Dirty_Hands
@@ -2343,10 +2362,6 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
-** Autism
-https://embrace-autism.com/
-https://aspietests.org/
-
 * Digital Collections
 https://gameuidatabase.com/index.php
 https://opencitations.net/index/api/v1/
