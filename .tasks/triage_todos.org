@@ -11,3 +11,8 @@ possibly with a 'query' option to explicitly ask user
         <2024-06-11 Tue>         { do="relative?", args=["{fpath}"], bases_="export_bases" },
    :END:
 for when generating exported bibtex, don't bother if the exported exists and doesnt need to be changed
+** TRIAGE add IEEE CoG to plus
+   [[/media/john/data/github/bibliography/in_progress/todo.bib::216][Location]]
+   :context:
+        <2024-07-05 Fri> @inproceedings{christiansen22:_space,
+   :END:

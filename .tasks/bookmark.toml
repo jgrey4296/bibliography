@@ -40,7 +40,6 @@ cleanup = [
 ]
 setup                = [
    { do="doot.actions.io:SimpleFind", from="{firefox}", pattern_="db_name", rec=true, update_="db_locs"},
-
 ]
 actions              = [
    { do="copy", from_="db_locs", to="{temp}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
