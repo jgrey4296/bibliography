@@ -49,7 +49,7 @@ def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], c
     by_mod_time = sorted(sub_specs, key=lambda x: x.stat().st_mtime)
     return by_mod_time[:count]
 
-@DKeyed.types("from", hint={"type_":BTP.Library})
+@DKeyed.types("from", check=BTP.Library)
 @DKeyed.redirects("update_")
 def select_one_entry(spec, state, _bib_db, _update):
     entries    = bib_db.entries

@@ -84,7 +84,7 @@ class ApplyMetadata(BM.metadata.MetadataApplicator):
     def __init__(self):
         super().__init__()
 
-    @DKeyed.types("from", hint={"type_":BTP.Library})
+    @DKeyed.types("from", check=BTP.Library)
     @DKeyed.paths("backup")
     def __call__(self, spec ,state, _lib, _backup):
         self._backup = _backup
@@ -102,7 +102,7 @@ class GenBibEntryTask:
     def __init__(self):
         super().__init__()
 
-    @DKeyed.types("from", hint={"type_":BTP.Library})
+    @DKeyed.types("from", check=BTP.Library)
     @DKeyed.formats("template")
     @DKeyed.redirects("update_")
     def __call__(self, spec , state, _lib, template, _update):

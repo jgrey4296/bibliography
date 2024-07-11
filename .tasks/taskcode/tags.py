@@ -54,20 +54,20 @@ def read_subs(spec, state, _target, _update):
     target_subs = SubstitutionFile.read(_target)
     return { _update : target_subs }
 
-@DKeyed.types("total", hint={"type_":TagFile})
-@DKeyed.types("known", hint={"type_":SubstitutionFile})
+@DKeyed.types("total", chekc=TagFile)
+@DKeyed.types("known", check=SubstitutionFile)
 @DKeyed.redirects("update_")
 def calc_new_tags(spec, state, _total, _known, _update):
     new_tags = TagFile({x:1 for x in _total if not (_known.has_sub(x) or x in _known)})
     return { _update : new_tags }
 
-@DKeyed.types("known", hint={"type_":SubstitutionFile})
+@DKeyed.types("known", check=SubstitutionFile)
 @DKeyed.redirects("update_")
 def calc_canon_tags(spec, state, _known, _update):
     canonical = _known.canonical()
     return { _update : canonical }
 
-@DKeyed.types("from", hint={"type_":TagFile})
+@DKeyed.types("from", check=TagFile)
 @DKeyed.redirects("update_")
 def write_tag_set(spec, state, _from, _update):
     tag_str = str(_from)
@@ -78,7 +78,7 @@ def write_tag_set(spec, state, _from, _update):
 #     result     = BM.NameWriter.names_to_str()
 #     return { _update : result }
 
-@DKeyed.types("from", hint={"type_":list|set})
+@DKeyed.types("from", check=list|set)
 @DKeyed.redirects("update_")
 def merge_tagfiles(spec, state, _tagfiles, _update):
     merged = TagFile()
@@ -88,7 +88,7 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
 
     return { _update : merged }
 
-@DKeyed.types("from", hint={"type_":list|set})
+@DKeyed.types("from", check=list|set)
 @DKeyed.redirects("update_")
 def merge_subfiles(spec, state, _from, _update):
     merged = SubstitutionFile()
