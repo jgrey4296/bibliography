@@ -60,7 +60,7 @@ def build_backup_parse_stack(spec, state, _libroot, _update):
     return { _update : read_mids }
 
 
-@DKeyed.types("from", hint={"type_":BTP.Library})
+@DKeyed.types("from", check=BTP.Library)
 @DKeyed.redirects("update_")
 def get_files(spec, state, _lib, _update):
     files = []

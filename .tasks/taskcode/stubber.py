@@ -40,36 +40,36 @@ printer = logmod.getLogger("doot._printer")
 
 import doot
 import doot.errors
-from doot.structs import DKey
+from doot.structs import DKey, DKeyed
 
-UPDATE   = DKey("update_")
-FROM_KEY = DKey("from")
-TO_KEY   = DKey("to", mark=pl.Path)
 
-def gen_stub(spec, state):
-    update = UPDATE.redirect(spec)
-    fpath  = TO_KEY.expand(spec, state)
-    fstem  = fpath.stem
+@DKeyed.paths("to")
+@DKeyed.redirects("update_")
+def gen_stub(spec, state, _fpath, _update):
+    fstem  = _fpath.stem
     year   = datetime.datetime.now().year
 
     stub   = []
     stub.append("@misc{,")
     stub.append(f"  title = {{{fstem}}},")
     stub.append(f"  year = {{{year}}},")
-    stub.append(f"  file = {{{fpath}}},")
+    stub.append(f"  file = {{{_fpath}}},")
     stub.append("}")
-    return { update : "\n".join(stub) }
+    return { _update : "\n".join(stub) }
 
-def join_stubs(spec, state):
-    match FROM_KEY.expand(spec, state, check=list|None):
+
+@DKeyed.types("from", check=list|None)
+@DKeyed.redirects("update_")
+def join_stubs(spec, state, _from, _update):
+    match _from:
         case None:
             stubs = []
         case _ as x:
             stubs = x
-    update = UPDATE.redirect(spec)
-    return { update : "\n\n".join(stubs) }
+    return { _update : "\n\n".join(stubs) }
 
 def select_refiled(target:pl.Path):
+    logging.warning("Testing: %s", target)
     return target.stem.startswith("_refiled_") and not target.is_dir()
 
 def not_copied(target:pl.Path):

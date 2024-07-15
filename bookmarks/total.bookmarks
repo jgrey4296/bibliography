@@ -6637,6 +6637,7 @@ https://colah.github.io/posts/2015-09-NN-Types-FP/ : functional_programming : gi
 https://collections.library.yale.edu/ : digital_collections : history : library : yale
 https://collegepublications.co.uk/systems/ : __come_back_to : college_publications : journals
 https://communemag.com/coyote-commune/ : ICE : commune_mag : coyotes : immigration : police_violence
+https://company-mode.github.io/manual/ : company_mode : completion : emacs : lisp
 https://components.ai/ : ai : art : components : components_ai : computational_design : design : explorable : modular : procedural_content : voronoi
 https://compstudiesjournal.com/ : composition_studies : journal
 https://computerhistory.org/blog/early-digital-research-cpm-source-code/ : computer_history : cp_m
@@ -6941,6 +6942,7 @@ https://docs.google.com/spreadsheets/u/0/d/1hxzNhBEIxHoIjtPBu--maHMqyuOxHwyvv9oK
 https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml : ai : creativity : games : learning
 https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vR_xmYt4ACPDZCDJcY12kCiMiH0ODyx3E1ZvgOHB8ae1tRcjXbs_yWBOA4j4uoCEADVfC1PS2jYO68B/pubhtml# : covid_19 : spreadsheet
 https://docs.gradle.org/current/userguide/userguide.html : gradle : java : kotlin : software_engineering
+https://docs.idmod.org/projects/doc-guidance/en/latest/rst.html : documentation : idmod : python : rst : sphinx
 https://docs.jboss.org/drools/release/5.2.0.Final/drools-expert-docs/html/ch03.html : drools : java : production_system : rule
 https://docs.latexbase.com/ : latex
 https://docs.microsoft.com/en-gb/archive/blogs/axmfg/product-configuration-performance-with-z3 : __come_back_to : product_configuration : z3
@@ -6966,7 +6968,7 @@ https://docs.python.org/3/extending/building.html#building : ffi : packaging : p
 https://docs.python.org/3/howto/argparse.html : argparse : argument : cli : python : tutorial
 https://docs.python.org/3/howto/logging-cookbook.html#using-a-context-manager-for-selective-logging : logging : python
 https://docs.python.org/3/index.html : documentation : python : reference
-https://docs.python.org/3/library/index.html : python : documentation
+https://docs.python.org/3/library/index.html : documentation : python
 https://docs.python.org/3/library/sqlite3.html : SQL : documentation : libraries : python
 https://docs.python.org/3/library/statistics.html : libraries : python : statistics
 https://docs.python.org/3/library/typing.html : python : type_checking : typing
@@ -7000,7 +7002,8 @@ https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Framework/ : gam
 https://docs.unrealengine.com/5.3/en-US/fluid-simulation-in-unreal-engine---overview/ : __come_back_to : fluid_simulation : pipeline : unreal : workflow
 https://docseuss.medium.com/ : __come_back_to : blog : doc_burford : game_analysis : game_design : medium
 https://documents.un.org/prod/ods.nsf/home.xsp : open_access : report : reports : united_nations
-https://docutils.sourceforge.io/docs/user/rst/quickstart.html : restructured_text : rst : sphinx
+https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html : language_spec : python : rst : sourceforge : sphinx
+https://docutils.sourceforge.io/docs/user/rst/quickstart.html : documentation : language : primer : python : restructured_text : rst : sphinx
 https://dotnet.github.io/docfx/spec/metadata_format_spec.html : documentation : dotnet
 https://dotown.maeda-design-room.net/page/13/ : pixel_art
 https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/pragmas.html : haskell : pragmas
@@ -8203,6 +8206,7 @@ https://github.com/koekeishiya/yabai : github : macos : window-manager : yabai
 https://github.com/kosua20/herebedragons : c_plus_plus : example : github : graphics : open_gl : tutorial : web_GL
 https://github.com/kovidgoyal/calibre : calibre : ebooks : github
 https://github.com/kqr/gists/blob/master/articles/gentle-introduction-monad-transformers.md : github : haskell : monad : monad_transformers : tutorial
+https://github.com/la-switch/LAS-Randomizer : github : modding : python : randomizer : switch : zelda
 https://github.com/leon196/CurveModifier : c_sharp : github : unity
 https://github.com/leonardr/olipy/ : NLP : bot : github : language : programming
 https://github.com/libgdx/gdx-ai : ai : github : library : path_finding
@@ -9959,6 +9963,7 @@ https://placesjournal.org/article/a-city-is-not-a-computer/ : __important : city
 https://placesjournal.org/article/shade-an-urban-design-mandate : places_journal : sam_bloch : shade : urban_design
 https://placesjournal.org/article/shade-an-urban-design-mandate/ : places_journal : sam_block : shade : urban_design
 https://planning.wiki/guide/whatis/pddl : ai : logic : pddl : planning : wiki
+https://plantweb.readthedocs.io/#installation : diagram : documentation : plantuml : plantweb : rst : sphinx : uml
 https://plato.stanford.edu/ : encyclopedia : philosophy : resource : stanford
 https://plato.stanford.edu/entries/logic-deontic/ : deontic_logic : philosophy
 https://plato.stanford.edu/entries/speech-acts/ : __come_back_to : speech_act

@@ -46,7 +46,7 @@ from jgdv.files.bookmarks import BookmarkCollection
 
 TODAY                       = datetime.datetime.now().date()
 
-@DKeyed.types("from", hint={"type_":BookmarkCollection})
+@DKeyed.types("from", check=BookmarkCollection)
 @DKeyed.redirects("update_")
 def collect_tags(spec, state, _db, _update):
     """ merge tags of bookmarks together """
