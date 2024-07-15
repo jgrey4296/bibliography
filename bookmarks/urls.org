@@ -385,6 +385,8 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/SciresM/hactool - switch modding
+https://github.com/la-switch/LAS-Randomizer - zelda randomizer
 https://github.com/catppuccin/catppuccin - theme
 https://github.com/ragapp/ragapp
 https://github.com/g-truc/glm
@@ -498,6 +500,8 @@ https://zarkonnen.itch.io/occult-defence-agency-budgeting-simulator
 https://jobs.co.uk/
 https://www.cv-library.co.uk/
 ** Journalism
+https://insideclimatenews.org
+https://www.goldmansachs.com/intelligence/
 https://nation.africa
 https://euromedmonitor.org/en
 https://www.justsecurity.org/
