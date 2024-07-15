@@ -38,7 +38,7 @@ head_actions = [
     # Queue year directory orphan check
     { task="orphans::_.filesystem", inject={fpath="fpath"} },
     { task="orphans::_.one.bib",    inject={fpath="fpath"}  },
-    # Summarise
+    # TODO Summarise
 ]
 cleanup = [
     # Remove any intermediate files
@@ -52,19 +52,19 @@ ctor               = "task"
 roots              = ["{pdf_source}"]
 shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
 actions            = [
-    # Extract Tags
-    # Extract publisher, institution, journal, organisation, series...
+    # TODO Extract Tags
+    # TODO Extract publisher, institution, journal, organisation, series...
     # ---
     # Update Metadata
     {do="taskcode.metadata:FileMetadataUpdate"},
-    # Orphan Check and update
+    # TODO Orphan Check and update
     # ---
-    # Link check
+    # TODO Link check
     # ---
     # Backup files:
     {do="taskcode.metadata:FileMultiBackup", from_="fpath", pattern="{shadow_path}/{fname}"}
 ]
 cleanup = [
-    # Remove intermediate files?
+    # TODO Remove intermediate files?
 
 ]

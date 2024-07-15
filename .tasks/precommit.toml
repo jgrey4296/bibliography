@@ -43,7 +43,8 @@ setup = [
 actions    = [
    # No cache, so just process the head changes:
    {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+
    # Queue metadata update
    {do="job.expand", from_="changed", inject={replace=["fpath"]}, template="changed::_.one.bib"},
 ]
-cleanup = ["bib::cleanup"]
+cleanup = ["stub::cleanup"]
