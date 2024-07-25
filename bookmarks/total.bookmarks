@@ -8075,6 +8075,7 @@ https://github.com/emacs-tw/awesome-emacs : emacs : github : libraries : lisp
 https://github.com/emacsmirror/font-lock-plus : emacs : font_lock : github : lisp
 https://github.com/emacsorphanage/osx-trash : OSX : emacs : github : trash
 https://github.com/emacsorphanage/quickrun : compilation : emacs : lisp : quickrun : ui
+https://github.com/erezsh/reladiff : diff : github : python : reladiff
 https://github.com/erich666/GraphicsGems : github : graphics
 https://github.com/escobar-west/polars-cookbook : data_science : github : polars : python
 https://github.com/ethanfetaya/NRI : deep_learning : github : machine_learning : neural_relational_inference : python
@@ -8279,6 +8280,7 @@ https://github.com/nwneetools/nwnsc : github : modding : neverwinter : reference
 https://github.com/oguzeroglu/Ego : __come_back_to : ai : decision_tree : github : javascript
 https://github.com/oliviaguest : academia : github : machine_learning : person
 https://github.com/olivierverdier/spacemacs-coq : emacs : github : layer : lisp : spacemacs
+https://github.com/ongardie/dissertation#readme : algorithm : github : latex : raft : thesis
 https://github.com/open-dicom/awesome-dicom : dicom : github
 https://github.com/open-guides/og-aws : github
 https://github.com/open-policy-agent/opa : github : norms : opa : policy : rules
@@ -9323,6 +9325,7 @@ https://magenta.tensorflow.org/music-transformer : machine_learning : magenta : 
 https://magenta.tensorflow.org/studio : ableton : machine_learning : magenta : music
 https://magicfissile.tumblr.com/post/74278402763/par-intrinsic-vs-extrinsic-rewards-in-kleis : blog : chris_hecker : dont_starve : extrinsic_rewards : game_development : intrinsic_rewards : jamie_cheng
 https://magit.vc/ : emacs : git : magit : version_control
+https://magit.vc/manual/transient/ : documentation : emacs : lisp : magit : transient
 https://mail.haskell.org/pipermail/haskell-cafe/2007-September/032260.html : customization : ghc : haskell
 https://mail.protonmail.com/login : email : security
 https://makefiletutorial.com/ : build_script : github : gnu_make : makefile : programming : tutorial
@@ -9824,6 +9827,7 @@ https://onbeing.org/blog/anjali-dayal-we-must-reckon-with-the-terrible-realities
 https://onbeing.org/blog/omid-safi-how-to-reach-out-to-someone-who-is-struggling/ : __come_back_to : compassion : omid_safi : onbeing
 https://ondra.nepozitek.cz/blog/415/unity-2d-dungeon-generator/ : blog : c_sharp : dungeon_generation : procedural_content : unity
 https://ondra.nepozitek.cz/blog/42/dungeon-generator-part-1-node-based-approach/ : blog : c_sharp : dungeon_generation : procedural_content : unity
+https://one.libretexts.org/home : education : libretexts : open_source
 https://onemandoom.blogspot.com/2016/09/alpha-accident-aae1wad.html : doom : game_design : level_analysis
 https://onezero.medium.com/africa-is-building-an-a-i-industry-that-doesnt-look-like-silicon-valley-72198eba706d : africa : ai : computer_science : dave_gershgorn : industry : medium : onezero : research : silicon_valley
 https://onezero.medium.com/chicago-cops-use-social-media-to-track-grieving-families-of-gunshot-victims-e68e5a6dc40c : chicago : elizabeth_king : medium : onezero : police_violence : privacy : surveillance
@@ -9883,6 +9887,7 @@ https://owl.english.purdue.edu/owl/resource/621/01 : apostrophe : grammar
 https://owl.english.purdue.edu/owl/resource/621/01/ : apostrophe : edu : learning : writing
 https://packaging.python.org/en/latest/guides/ : package_management : python : python_packaging
 https://packaging.python.org/en/latest/guides/packaging-namespace-packages/ : namespace_package : python : software_development
+https://packaging.python.org/en/latest/specifications/pyproject-toml/ : packaging : pyproject : python : specification
 https://packaging.python.org/en/latest/specifications/version-specifiers/ : pip : python : version_numbers
 https://packaging.python.org/en/latest/specifications/version-specifiers/#version-specifiers : python : specification : version-control
 https://packaging.python.org/en/latest/tutorials/packaging-projects/ : best_practices : packages : packaging : python
@@ -10125,10 +10130,12 @@ https://qz.com/876494/in-sex-shy-india-more-women-now-want-designer-vaginas/ : c
 https://qz.com/africa/822837/south-africas-apartheid-era-chemical-and-biological-warfare-poisoned-pasts-exhibition/ : africa : apartheid : lynsey_chutel : quartz : racism
 https://qz.com/quartzy/1121077/to-solve-problems-caused-by-sitting-learn-to-squat/ : culture : health : india : posture : quartz : rosie_spinks : sitting : squatting
 https://racereflections.co.uk/2018/06/09/racial-micro-aggressions-macro-micro-violence-in-the-workplace-an-infographic/amp/ : __come_back_to : micro_aggressions : race_relations
+https://raft.github.io/ : algorith : consensus : github : raft
 https://rainworld.miraheze.org/wiki/Behavior : __come_back_to : ai : rain_world : simulation
 https://rainworld.miraheze.org/wiki/Lizards : __come_back_to : ai : lizards : rainworld
 https://rakhesh.com/mac/macos-launchctl-commands/ : launchctl
 https://raphlinus.github.io/ui/graphics/2020/09/13/compositor-is-evil.html : blog : command_line : compositor : graphics : history : programming
+https://rattlecam.org/ : snake : video : webcam
 https://rayli.net/blog/data/top-10-data-mining-algorithms-in-plain-english/ : algorithm : data_mining : machine_learning
 https://raywang.tech/2017/12/20/Formal-Verification:-The-Gap-between-Perfect-Code-and-Reality/ : formal : programming : proof : simulation : verification
 https://rbharath.github.io/what-cant-deep-learning-do/ : deep_learning : limitations : machine_learning
@@ -11424,6 +11431,7 @@ https://www.apriorit.com/dev-blog/66-develop-boot-loader : bootloader : c_lang :
 https://www.arcanealchemist.co.uk/collections/mead : alcolhol : mead
 https://www.archdaily.com/882130/snohetta-unveils-designs-for-europes-first-underwater-restaurant : arch_daily : architecture : europe : restaurant : under_water
 https://www.archdaily.com/912205/the-freehand-sketches-of-pritzker-prize-winners : arch_daily : architecture : art : drawing
+https://www.archidiaries.com/publications/atlas-of-brutalist-architecture/ : architecture : book_recommendation : brutalism : phaidon
 https://www.archives.gov/exhibits/featured-documents/dc-emancipation-act : emancipation : history : national_archives : racism : slavery
 https://www.archives.gov/federal-register/cfr/about.html : USA : archive : federal_regulations : law : national_archives
 https://www.areaware.com/products/gradient-puzzle : areaware : gradient_puzzle : jade : jigsaw : puzzle : shopping
@@ -11689,6 +11697,7 @@ https://www.cjr.org/the_profile/tucker-carlson.php : columbia_journalism_review 
 https://www.cjr.org/tow_center/fox-news-partisan-progaganda-research.php : 2019 : USA : columbia_journalism_review : fox_news : jacob_nelson : journalism : politics : research : tow_center : trump
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-table.html : __come_back_to : archive : cambridge : computer_science : tech_report
 https://www.cl.cam.ac.uk/~nk480/ : coq : logic : neel_krishnaswami : people : programming_language : semantics
+https://www.clamav.net/ : antivirus : clamav : cli : software
 https://www.cleveland.com/entertainment/index.ssf/2018/06/clevelands_culinary_world_chan.html : anthony_bourdain : cleveland : nikki_delamotte : restaurant
 https://www.cleveland.com/opinion/index.ssf/2018/11/nikki_delamotte_1990-2018_a_jo.html : cleveland : journalist : murder : nikki_delamotte
 https://www.clickondetroit.com/news/national/seattle-man-who-stabbed-his-brother-to-death-with-4-foot-sword-thought-he-was-a-lizard-police-say : QAnon : brian_newlin : buckey_wolfe : click_on_detroit : detroit : fascism : insane : proud_boys : racism : seattle : sword
@@ -11942,6 +11951,7 @@ https://www.flickr.com/photos/armadillosoft/7367160548/in/set-72157630089822568 
 https://www.flickr.com/photos/britishlibrary/albums/with/72157638850077096 : art : british_library : flickr : public_domain
 https://www.flickr.com/photos/britishlibrary/sets/72157638736552283/page3/ : british_library : flickr : photographs : public_domain
 https://www.flickr.com/photos/chrisdraper/4185686671/ : art : british_railways : chris_draper : flickr : history
+https://www.flipsipuzzles.com/ : puzzle
 https://www.flycheck.org/en/latest/developer/developing.html#adding-a-checker : emacs : flycheck : lisp : programming_language : syntax
 https://www.folklore.org/ProjectView.py?project=Macintosh&sortOrder=Sort+by+Date : anecdotes : mac : software_development
 https://www.fondationcartier.com/en/collection/artworks/sans-titre-14 : __come_back_to : art : city : imaginary : mamdou_cisse
@@ -12007,7 +12017,7 @@ https://www.gamasutra.com/view/news/315664/The_AI_systems_that_govern_Final_Fant
 https://www.gamasutra.com/view/news/315954/Making_a_civilizationscale_crafting_system_for_Jason_Rohrers_One_Hour_One_Life.php : crafting : gamasutra : jason_rohrer : one_hour_one_life
 https://www.gamasutra.com/view/news/320624/Video_Procedurally_generating_history_in_Caves_of_Qud.php : GDC : caves_of_qud : gamasutra : procedural_content : video
 https://www.gamasutra.com/view/news/325047/Video_How_the_nemesis_system_in_Shadow_of_War_was_designed.php : gamasutra : game_design : nemesis_system : shadow_of_mordor
-https://www.game-cities.com/ : Konstantinos_Dimopoulos : cities : games : urban_design
+https://www.game-cities.com/ : Konstantinos_Dimopoulos : architecture : cities : game_cities : game_design : games : konstantinos_dimopoulos : urban_design
 https://www.gamedev.net/ : game_development : programming : reference : technical : tutorial
 https://www.gamedev.net/resources/_/technical/artificial-intelligence/chess-programming-part-i-getting-started-r1014 : ai : chess : game_ai : programming
 https://www.gamedeveloper.com/production/how-darkest-dungeon-ii-s-developers-evolved-their-early-access-process : darkest_dungeon : early_access : game_development
@@ -12889,6 +12899,7 @@ https://www.opensocietyfoundations.org/ : george_soros : open_society_foundation
 https://www.openstarts.units.it/dspace/bitstream/10077/5211/1/Evans_E%26P_XI_2009_1.pdf : logic : pdf : richard_evans
 https://www.openthegovernment.org/node/5713 : DHS : child : kirstjen_nielsen : migration : open_the_government : trump
 https://www.opm.gov/policy-data-oversight/data-analysis-documentation/federal-employment-reports/reports-publications/full-time-permanent-age-distributions/ : USA : employment : opm : statistics
+https://www.opportunityatlas.org/ : USA : map : opportunity_atlas : poverty : visualisation
 https://www.opusmodus.com/ : composition : computer_creativity : music : opusmodus : osx : vcvrack
 https://www.oregonlive.com/education/2020/02/concordia-universitys-online-vision-hid-grim-reality.html : USA : concordia : covid_19 : education : oregon : technology : university
 https://www.oreilly.com/ideas/visualizing-convolutional-neural-networks : machine_learning : neural_network : tensorboard : tensorflow : visualisation
@@ -13438,6 +13449,7 @@ https://www.shacknews.com/article/103473/beneath-a-starless-sky-pillars-of-etern
 https://www.shacknews.com/article/114982/world-on-fire-the-oral-history-of-fallout-and-fallout-2 : fallout : game_development : games : oral_history : shacknews
 https://www.shadertoy.com/ : c_plus_plus : graphics : programming : shader
 https://www.shaferbrown.com/ : art : cat : shafer_brown
+https://www.shellcheck.net/ : bash : lint : shell : shellcheck
 https://www.sherryturkle.com/life-on-the-screen : people : research : sherry_turkle
 https://www.shopify.ca/partners/shopify-cheat-sheet : jekyll : liquid : reference : web_design
 https://www.si.com/vault/issue/704435/11 : athletes : body_types : diversity : leading_off : olympics : sports_illustrated : women
@@ -14347,6 +14359,7 @@ https://www.thetimes.co.uk/article/southern-water-led-by-ian-mcaulay-alerts-sfo-
 https://www.thetrace.org/2016/10/chicago-gun-violence-per-capita-rate/ : chicago : gun_violence : shooting : statistics
 https://www.thetrace.org/2019/12/the-most-memorable-gun-violence-journalism-of-2019/ : domestic_abuse : georgia : gun_violence : police_violence : the_trace
 https://www.thetrace.org/2023/04/sig-sauer-p320-upgrade-safety/ : gun_violence : p320 : sig_sauer : the_trace
+https://www.thetrace.org/2023/05/permitless-carry-gun-laws-states-map/ : gun_control : law : the_trace
 https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist : ai : chatbot : microsoft : racism : the_verge : twitter
 https://www.theverge.com/2017/5/16/15643638/chelsea-manning-trans-woman-community : chelsea_manning : transgender : verge
 https://www.theverge.com/2018/10/26/18022758/channel-zero-dream-door-syfy-horror-show : channel_zero : horror : patricia_hernandez : verge

@@ -1020,6 +1020,7 @@ https://github.com/andreas-gone-wild
 https://github.com/jashkenas
 ** History
 ** Medium
+https://medium.com/@KonstantinosD
 https://docseuss.medium.com
 https://docseuss.medium.com/
 https://elemental.medium.com
@@ -1297,6 +1298,7 @@ https://chevyray.itch.io/pixel-font-megapack
 ** Food
 https://www.tasteatlas.com/
 ** Government
+https://www.thetrace.org/2023/05/permitless-carry-gun-laws-states-map/
 http://discovery.nationalarchives.gov.uk/                                                                      :  UK National Archives
 http://lcweb2.loc.gov/cgi-bin/ampage?fileName=rbc0001_2003gen37813page.db&collId=rbc3                          :  Library of Congress Digital Collections
 https://archives.parliament.uk/                                                                                :  UK Parliamentry Archives
@@ -2367,6 +2369,9 @@ https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
 * Digital Collections
+https://one.libretexts.org/home
+https://acleddata.com/us-crisis-monitor/#reports
+https://www.opportunityatlas.org/
 https://gameuidatabase.com/index.php
 https://opencitations.net/index/api/v1/
 https://www.c82.net/iconography/
