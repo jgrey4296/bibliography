@@ -108,6 +108,8 @@ a collection of youtube clips of various games
 *** [∅] pentiment.xml
 *** [∅] talks-2022.xml
 *** [∅] verso.xml
+** parse ceur
+
 * Tasks :tasks:doot:
 ** Backup
 *** [⟙] PDFs total
@@ -167,6 +169,7 @@ included in git cache collection
 get files changed between that and current
 *** [∅] refactor metadata apply to add to task queue
 *** [∅] [#A] implement genbibentrytask
+see taskcode.metadata.genbibtentrytask
 *** [∅] [#A] merge metadata.parse.stack with working.parse.stack
 mainly means handle split authors in building metadata
 ** Online
@@ -178,6 +181,7 @@ mainly means handle split authors in building metadata
 *** [∅] downloader transform action instead of middleware
 *** [∅] check for predatory journals
 *** [∅] check for predatory publishers
+*** [∅] integrate dblp extractor
 ** Orphans
 *** [⟙] total
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:07]
@@ -195,13 +199,19 @@ mainly means handle split authors in building metadata
 ** Precommit
 *** [⟙] validate
 - State "[⟙]"        from "[∅]"        [2024-06-03 Mon 04:09]
-*** [∅] pre
+*** [⟙] pre
+- State "[⟙]"        from "[∅]"        [2024-07-29 Mon 23:26]
 *** TODO post
 **** [∅] get changed files using git diff
-**** [∅] export changed bibs
-**** [∅] build  changed bibs
+**** [∅] trigger changed::_.one.bib
+**** DEAD export changed bibs
+superceded by changed::_one.bib
+**** DEAD build  changed bibs
+superceded by changed::_one.bib
 **** [∅] fixup metadata
-**** [∅] backup new
+superceded by changed::_one.bib
+**** [∅] backup new files
+superceded by changed::_one.bib
 ** Stubber
 *** [⟙] files
 - State "[⟙]"        from              [2024-06-03 Mon 04:26]
@@ -247,21 +257,21 @@ journals, organizations,  series
 *** build timeline for tag
 [[*calendar][calendar]]
 *** diff tag changes
-** parse ceur
 ** ACTIVE Changed
 :LOGBOOK:
 CLOCK: [2024-06-10 Mon 18:04]--[2024-06-10 Mon 23:38] =>  5:34
 :END:
-*** git cache collection
-**** tag extraction
+*** DONE git cache collection
+- State "DONE"       from              [2024-07-29 Mon 23:33]
+*** [∅] tag extraction
 - make tag extractor middleware wrapper
-**** link checking and waybacker
-**** metadata apply
+*** [∅] link checking and waybacker
+*** [∅] metadata apply
 - distinguish failures, encrypted, and locked
 - as subtasks, applicator can be an entry middleware
-**** find orphans
-**** backup files
-**** export for latex
-**** compile to pdf and html
-**** generate summary
+*** [∅] find orphans
+*** [∅] backup files
+*** [∅] export for latex
+*** [∅] compile to pdf and html
+*** [∅] generate summary
 * Links
