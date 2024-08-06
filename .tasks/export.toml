@@ -5,10 +5,12 @@ cal_export    = "{export}/calendar"
 
 [[tasks.export]]
 name            = "_.one.bib"
+doc = ["export a bibtex, with latex encoding"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib}"]
 depends_on = [
         { do="relative?", args=["{fpath}"], bases_="export_bases" },
+        # TODO skip if the exported bib exists and is recent
 ]
 setup           = [
         { do="path.elements", from_="fpath", roots=["."]},

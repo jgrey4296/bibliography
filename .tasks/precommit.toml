@@ -22,7 +22,7 @@ depends_on    = []
 actions       = [
    {do="log", msg="Formatting/Meta/Backup for : {files}"},
    {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_.by.year"},
-   {do="job.queue", from_=["format_tasks", "meta_tasks", "backup_tasks"]},
+   {do="job.queue", from_=["format_tasks"]},
 ]
 cleanup       = [
    {do="log", msg="Finished"}
@@ -34,17 +34,12 @@ doc        = []
 ctor       = "job"
 roots      = ["{bib}"]
 exts       = [".bib"]
-depends_on = [
-           "bookmark::update"
-]
-setup = [
-      # clear orphan file lists
-]
+depends_on = ["bookmark::update"]
+setup = [] # clear orphan file lists
 actions    = [
-   # No cache, so just process the head changes:
+   # if No cache, so just process the head changes:
    {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
-
    # Queue metadata update
    {do="job.expand", from_="changed", inject={replace=["fpath"]}, template="changed::_.one.bib"},
 ]
-cleanup = ["stub::cleanup"]
+cleanup = ["stub::cleanup"] # TODO cache head commit hash

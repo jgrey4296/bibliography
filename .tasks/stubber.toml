@@ -29,7 +29,7 @@ sub_actions = [
         {do="copy", from_="fpath", to_="target"},
         {do="taskcode.stubber:gen_stub", update_="stubtext", to_="target"},
         {do="post.put", "stub::files..-"=["{stubtext}"]},
-        # {do="delete!", args=["{fpath}"]},
+        {do="delete!", args=["{fpath}"]},
 ]
 cleanup = [
         {do="post.get", stubs="stub::files..-"},

@@ -104,13 +104,17 @@ class GenBibEntryTask:
 
     @DKeyed.types("from", check=BTP.Library)
     @DKeyed.formats("template")
+    @DKeyed.taskname
     @DKeyed.redirects("update_")
-    def __call__(self, spec , state, _lib, template, _update):
+    def __call__(self, spec , state, _lib, template, _basename, _update):
         subtasks : list[TaskSpec] = []
-        self._backup = _backup
         for i, entry in enumerate(_lib.entries):
             # Build task spec
-            spec = TaskSpec.build({"source":[template], "entry":entry})
+            spec = TaskSpec.build({
+                "name": _basename.root(top=True).subtask(i, "bib", "entry"),
+                "sources":[template],
+                "entry":entry
+                                  })
             subtasks.append(spec)
 
         return { _update : subtasks }

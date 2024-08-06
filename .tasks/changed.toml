@@ -32,12 +32,12 @@ actions          = [
 ]
 head_actions = [
     # Queue (whole file) compile and export
-    { task="export::_.on.bib",   inject={fpath="fpath"} },
-    { task="compile::_.to.html", inject={fpath="fpath"} },
-    { task="compile::_.to_pdf" , inject={fpath="fpath"} },
-    # Queue year directory orphan check
-    { task="orphans::_.filesystem", inject={fpath="fpath"} },
-    { task="orphans::_.one.bib",    inject={fpath="fpath"}  },
+    { task="export::_.one.bib",   inject={fpath="fpath"} },
+    { task="compile::_.to.html",  inject={fpath="fpath"} },
+    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} },
+    # # Queue year directory orphan check
+    # { task="orphans::_.filesystem", inject={fpath="fpath"} },
+    # { task="orphans::_.one.bib",    inject={fpath="fpath"}  },
     # TODO Summarise
 ]
 cleanup = [
@@ -51,7 +51,10 @@ doc                = ["Entry tasks that do not modify the entry itself"]
 ctor               = "task"
 roots              = ["{pdf_source}"]
 shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
+setup = [
+]
 actions            = [
+    {do="taskcode.bibtex:log_entry_name"},
     # TODO Extract Tags
     # TODO Extract publisher, institution, journal, organisation, series...
     # ---
@@ -61,8 +64,8 @@ actions            = [
     # ---
     # TODO Link check
     # ---
-    # Backup files:
-    {do="taskcode.metadata:FileMultiBackup", from_="fpath", pattern="{shadow_path}/{fname}"}
+    # TODO Backup files:
+
 ]
 cleanup = [
     # TODO Remove intermediate files?

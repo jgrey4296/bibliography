@@ -80,3 +80,12 @@ def build_working_write_stack(spec, state, _libroot, _update):
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids }
+
+
+@DKeyed.types("entry")
+def log_entry_name(spec, state, entry):
+    match entry.fields_dict.get("title", None):
+        case None:
+            printer.info("> %s", entry.key)
+        case x:
+            printer.info("> %s", x.value)
