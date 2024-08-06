@@ -10041,7 +10041,7 @@ https://projects.blender.org/blender/blender : blender : git : source_code
 https://projects.nj.com/data/force-visual/ : cop : new_jersey : police : police_violence : use_of_force
 https://projects.propublica.org/asylum/#how-asylum-works : america : asylum : propublica : racism
 https://projects.propublica.org/chicago-tickets/ : bureaucracy : chicago : data_journalism : explorable : propublica : racism : traffic_tickets
-https://projects.propublica.org/graphics/lgbtq-rights-rollback?utm_content=buffer18bbf&utm_medium=social&utm_source=twitter&utm_campaign=ProPublica+Main+#171490 : GOP : LGBTQ : adoption : discrimination : education : employment : health_care : housing : kirsten_berg : moiz_syed : propublica : trump
+https://projects.propublica.org/graphics/lgbtq-rights-rollback : GOP : LGBTQ : adoption : discrimination : education : employment : health_care : housing : kirsten_berg : moiz_syed : propublica : trump
 https://projects.propublica.org/nonprofits/ : data : funding : non_profit : politics : propublica
 https://projects.propublica.org/trump-town/ : america : corruption : data_analysis : politics : propublica : trump
 https://pron.github.io/posts/tlaplus_part1 : TLA : temporal_logic : tutorial
@@ -10565,7 +10565,7 @@ https://standards.iso.org/ : iso : stantards
 https://stanford.edu/~dyang1/pdfs/1984bravenewworld_draft.pdf : censorship : china : surveillance
 https://starmaidgames.itch.io/beach-date : __come_back_to : dating_game : game : itch_io : nina_freeman
 https://start.att.net/news/read/category/news/article/newser-the_5_most_least_educated_us_states-rnewsernor : USA : att : education : states
-https://statecharts.github.io/ : FSMs : __important : github : software : software_development : state_chart
+https://statecharts.dev/ : FSMs : __important : github : software : software_development : state_chart
 https://static.theintercept.com/amp/republican-attacks-on-robert-mueller-are-absurd-but-the-gop-has-been-lawless-for-decades.html : GOP : history : robert_mueller : the_intercept
 https://static.theintercept.com/amp/the-numbers-dont-lie-white-far-right-terrorists-pose-a-clear-danger-to-us-all.html : far_right : racism : right_wing : terrorism : the_intercept
 https://staticf0x.github.io/2021/custom-keyboard-layout-in-x11-and-wayland.html : keyboard : wayland : xkb
@@ -13030,7 +13030,7 @@ https://www.propublica.org/article/6-year-old-separated-from-his-father-tells-ju
 https://www.propublica.org/article/alabama-sheriffs-undermine-successors-after-losing-reelection : alabama : corruption : election : elections : law_enforcement : propublica
 https://www.propublica.org/article/children-separated-from-parents-border-patrol-cbp-trump-immigration-policy : audio : child_separation : immigration : podcast : propublica : trump
 https://www.propublica.org/article/earned-income-tax-credit-irs-audit-working-poor : GOP : IRS : auditing : corruption : propublica : tax
-https://www.propublica.org/article/employers-used-facebook-to-keep-women-and-older-workers-from-seeing-job-ads-the-federal-government-thinks-thats-illegal?utm_content=bufferce932&utm_medium=social&utm_source=twitter&utm_campaign=buffer : employment : facebook : law : propublica : redlining
+https://www.propublica.org/article/employers-used-facebook-to-keep-women-and-older-workers-from-seeing-job-ads-the-federal-government-thinks-thats-illegal : employment : facebook : law : propublica : redlining
 https://www.propublica.org/article/facebook-advertising-discrimination-housing-race-sex-national-origin : advertising : discrimination : facebook : propublica
 https://www.propublica.org/article/facebook-hate-speech-censorship-internal-documents-algorithms : censorship : facebook : hate_speech : propublica : racism
 https://www.propublica.org/article/how-black-communities-become-sacrifice-zones-for-industrial-air-pollution : journalism : propublica : racism : urban_design
@@ -13040,21 +13040,21 @@ https://www.propublica.org/article/how-some-of-americas-richest-towns-fight-affo
 https://www.propublica.org/article/how-some-sheriffs-force-their-inmates-into-medical-debt : alabama : connor_sheets : incarceration : medical_debt : propublica
 https://www.propublica.org/article/ice-guards-systematically-sexually-assault-detainees-in-an-el-paso-detention-center-lawyers-say : ICE : human_rights : immigration : journalism : propublica : racism
 https://www.propublica.org/article/ike-perlmutter-bruce-moskowitz-marc-sherman-shadow-rulers-of-the-va : VA : ike_perlmutter : isaac_arnsdorf : mar_a_largo : marvel : propublica : trump : veterans_affairs
-https://www.propublica.org/article/illinois-school-seclusions-reader-responses?utm_content=bufferec2e2&utm_medium=social&utm_source=twitter&utm_campaign=ProPublica+Main+#171461 : abuse : education : illinois : jennifer_richards : jodi_cohen : lakeidra_chavis : propublica : quiet_rooms
+https://www.propublica.org/article/illinois-school-seclusions-reader-responses : abuse : education : illinois : jennifer_richards : jodi_cohen : lakeidra_chavis : propublica : quiet_rooms
 https://www.propublica.org/article/laura-pena-gang-database-the-case-that-made-an-ex-ice-attorney-realize-the-government-was-relying-on-false-evidence-against-migrants : ICE : laura_pena : melissa_del_bosque : migration : propublica : racism : trump
-https://www.propublica.org/article/leakesville-south-mississippi-correctional-institution-prison-gangs?utm_content=buffer3d159&utm_medium=social&utm_source=twitter&utm_campaign=buffer : funding : incarceration : jerry_mitchell : mississippi : prison : propublica : violence
+https://www.propublica.org/article/leakesville-south-mississippi-correctional-institution-prison-gangs : funding : incarceration : jerry_mitchell : mississippi : prison : propublica : violence
 https://www.propublica.org/article/ms-13-immigration-facts-what-trump-administration-gets-wrong : gang : ms13 : politics : propublica : trump
 https://www.propublica.org/article/multiple-women-recall-sexual-misconduct-and-retaliation-by-gordon-sondland : gordon_sondland : impeachment : propublica : sexual_assault : trump
 https://www.propublica.org/article/stebbins-alaska-cops-criminal-records-domestic-violence : alaska : domestic_abuse : kyle_hopkins : law : propublica : stebbins
 https://www.propublica.org/article/texas-voter-id-law-led-to-fears-and-failures-in-2016-election : texas : voter_suppression
 https://www.propublica.org/article/the-climate-crisis-is-worse-than-you-can-imagine-heres-what-happens-if-you-try : climate_change : elizabeth_weil : propublica
-https://www.propublica.org/article/the-extraordinary-danger-of-being-pregnant-and-uninsured-in-texas?utm_content=buffer005b9&utm_medium=social&utm_source=twitter&utm_campaign=ProPublica+Main+ : USA : health_care : julia_belluz : nina_martin : pregnancy : propublica : texas
-https://www.propublica.org/article/the-trump-administration-says-it-has-violated-its-own-ethics-pledge?utm_content=bufferf6fda&utm_medium=social&utm_source=twitter&utm_campaign=buffer#169653 : ethics : propublica : trump
+https://www.propublica.org/article/the-extraordinary-danger-of-being-pregnant-and-uninsured-in-texas : USA : health_care : julia_belluz : nina_martin : pregnancy : propublica : texas
+https://www.propublica.org/article/the-trump-administration-says-it-has-violated-its-own-ethics-pledge : ethics : propublica : trump
 https://www.propublica.org/article/they-took-us-away-from-each-other-lost-inside-americas-shadow-foster-system : abortion : child_abuse : foster_system : propublica
-https://www.propublica.org/article/trumps-trillion-dollar-hit-to-homeowners?utm_content=bufferd5c2f&utm_medium=social&utm_source=twitter&utm_campaign=buffer : allan_sloan : propublica : real_estate : tax_cut : trump
+https://www.propublica.org/article/trumps-trillion-dollar-hit-to-homeowners : allan_sloan : propublica : real_estate : tax_cut : trump
 https://www.propublica.org/article/under-obama-more-appointments-go-unfilled#filibuster-correx : GOP : appointments : barack_obama : judiciary : obstruction : propublica
 https://www.propublica.org/article/utahs-social-safety-net-is-the-church-of-jesus-christ-of-latter-day-saints-what-does-that-mean-if-youre-not-one : poverty : propublica : religion : utah : welfare
-https://www.propublica.org/article/what-happens-when-sheriffs-release-violent-offenders-to-avoid-paying-their-medical-bills?utm_content=buffer9485f&utm_medium=social&utm_source=twitter&utm_campaign=ProPublica+Main+ : alabama : connor_sheets : incarceration : propublica
+https://www.propublica.org/article/what-happens-when-sheriffs-release-violent-offenders-to-avoid-paying-their-medical-bills : alabama : connor_sheets : incarceration : propublica
 https://www.propublica.org/article/what-we-found-in-trump-administration-drained-swamp-hundreds-of-ex-lobbyists-and-washington-dc-insiders : corruption : journalism : propublica : trump
 https://www.propublica.org/article/why-manafort-and-cohen-thought-theyd-get-away-with-it : paul_manafort : politics : propublica : robert_mueller : tax : tax_fraud : trump
 https://www.propublica.org/nerds/item/authenticating-email-using-dkim-and-arc-how-we-analyzed-the-kasowitz-email : authentication : email : propublica

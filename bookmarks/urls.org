@@ -53,7 +53,11 @@ https://www.emacswiki.org/emacs/NoTabs
 https://www.emacswiki.org/emacs/OutlineMinorMode
 https://www.emacswiki.org/emacs/RegularExpression
 https://www.emacswiki.org/emacs/download/thesaurus.el
+
+
 ** Game Dev
+https://www.gamedeveloper.com/
+https://gamedesignskills.com/game-design/combat-design/
 https://gendesignmc.wikidot.com/wiki:2024-settlement-generation-competition
 https://dwarffortressbugtracker.com/view_all_bug_page.php
 https://gameuidatabase.com/index.php
@@ -311,7 +315,19 @@ https://www.youtube.com/watch?v=jviNpRGuCIU
 https://www.youtube.com/watch?v=lHLpKzUxjGk
 https://www.zachtronics.com/
 https://yanderesimulator.com/
+
+** Game Studios
+https://www.nightdivestudios.com/games
+https://newblood.games/
+https://www.obsidian.net/games
+https://www.sledgehammergames.com/
+https://www.ravensoftware.com/
+https://bethesdagamestudios.com/
+https://en.wikipedia.org/wiki/Category:Video_game_development_companies
+
 ** Games
+https://www.poewiki.net/wiki/Game_mechanics : path-of-exile
+https://www.poewiki.net/wiki/Passive_skill : path-of-exile
 https://dialoguetree.net/ttyd/ - mario thousand year door dialogue
 https://scribblenauts.fandom.com/wiki/Scribblenauts_Wiki
 https://www.guidesnotincluded.com/ - oxygen not included
@@ -500,6 +516,7 @@ https://zarkonnen.itch.io/occult-defence-agency-budgeting-simulator
 https://jobs.co.uk/
 https://www.cv-library.co.uk/
 ** Journalism
+https://datasociety.net/research/
 https://insideclimatenews.org
 https://www.goldmansachs.com/intelligence/
 https://nation.africa
@@ -675,6 +692,9 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/Blocks_world
+https://en.m.wikipedia.org/wiki/IJCAI_Computers_and_Thought_Award
+https://en.m.wikipedia.org/wiki/List_of_computer_scientists
 https://en.wikipedia.org/wiki/Piece_table
 https://en.wikipedia.org/wiki/Rope_(data_structure)
 https://en.m.wikipedia.org/wiki/SARL_(programming_language)
@@ -1759,6 +1779,7 @@ https://tvtropes.org/pmwiki/pmwiki.php/Main/ImNotAfraidOfYou
 https://www.huffingtonpost.co.uk/entry/bonding-netflix-bdsm_uk_5cc6d485e4b0fd8e35bf1d62?ncid=other_twitter_cooo9wqtham&utm_campaign=share_twitter&guccounter=1
 https://www.teenvogue.com/story/bert-and-ernie-sesame-street-gay
 ** Universities and Academia
+https://www.ams.org/books/pspum/025/
 https://www.connectedpapers.com/
 https://openreview.net/
 https://opencitations.net/index/api/v1/
@@ -2414,6 +2435,7 @@ https://www.priceofweed.com/
 https://www.cs.cmu.edu/~./enron/
 http://rhizome.org/editorial/2016/nov/21/simulating-enron/
 ** Games
+https://afrohairlibrary.org/
 https://openfootball.github.io/
 http://parl.ai/projects/light/
 http://vene.ro/betrayal/#data
