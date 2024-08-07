@@ -335,14 +335,14 @@ aggression                            : 1
 aggressiveness                        : 1
 agile                                 : 4
 agile_alliance                        : 1
-agile_development                     : 1   : agile
+agile_development                     : 1 : agile
 aging                                 : 1
 agism                                 : 1
 aglets                                : 1
-Aglets                                : 1   : aglets
+Aglets                                : 1 : aglets
 agnatology                            : 1 : agnotology
 agnotology                            : 1
-agnts                                 : 1   : agents
+agnts                                 : 1 : agents
 agonism                               : 1
 agrammatism                           : 1
 agrarian_relation                     : 1
@@ -356,8 +356,8 @@ agrobiodiversity                      : 1
 agroecology                           : 1
 agroforestry                          : 1
 agu100                                : 1
-ah                                    : 1
 ahaninka                              : 1
+ai                                    : 1 : artificial_intelligence
 ai computer_vision                    : 1   : ai_computer_vision
 ai_and_games                          : 1
 ai_architecture                       : 1
