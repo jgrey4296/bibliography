@@ -35,13 +35,15 @@ actions =[
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
 ]
 cleanup = [
-    {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
+    {do="exists?", args=["{tex_export}/{fstem}.pdf"]},
+    # remove intermediate artifacts
+    {do="delete!", args=["{tex_export}/{fstem}.aux", "{tex_export}/{fstem}.bbl", "{tex_export}/{fstem}.blg"]},
+    {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
+    {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
+
+    {do="exists?", args=["{pdf_export}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
     {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
-    # remove intermediate artifacts
-    # {do="delete!", args=["{tex_export}/{fstem}.aux", "{tex_export}/{fstem}.bbl", "{tex_export}/{fstem}.blg"]},
-    # {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
-    # {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
 ]
 
 [[tasks.compile]]
@@ -85,9 +87,9 @@ cleanup = [
 ]
 
 [[tasks.compile]]
-name                 = "_.failed"
+name                 = "missing"
 version              = "0.1"                                    # <str>
-doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
+doc                  = ["list any bibs that don't have an exported bib, or a built pdf"]
 ctor                 = "job"                                   # <str>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
 exts                 = [".bib"]                                 # <list[str]>
@@ -98,8 +100,15 @@ actions = [
         {do="job.queue",  from_="tasks"}, # queue
 ]
 sub_actions          = [
-                     # if pdf exists in temp for bib, silent
-                     # else complain
+    # calc path parts
+    {do="path.elements", from_="fpath" },
+    {do="exists?", args=["{bib_export}/{fstem}.bib", "{pdf_export}/{fstem}.pdf"], not=true},
+    {do="post.put", "compile::missing..files"="{fstem}"},
+]
+head_actions = [
+    {do="post.get", missing="compile::missing..files"},
+    {do="log", msg="These are missing:"},
+    {do="log", msg="{missing}"},
 ]
 
 [[tasks.compile]]

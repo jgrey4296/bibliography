@@ -29,6 +29,21 @@ cleanup = [
 
 ]
 
+[[tasks.tags]]
+name    = "_.calculate.update"
+version = "0.1"
+inject  = ["postbox"]
+ctor    = "job"
+actions = [
+    # walk and read all sub files
+    # merge subs as 'known'
+    # get tags from postbox
+    # merge tags as 'existing
+    # calc difference for 'new'
+    # combine for 'total'
+    # write out
+]
+
 
 [[tasks.tags]]
 name            = "_.extract.bib.finish"

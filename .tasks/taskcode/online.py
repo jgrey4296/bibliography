@@ -48,6 +48,7 @@ import doot
 import doot.errors
 from doot.structs import DKey, DKeyed
 from doot.enums import ActionResponse_e
+from doot.actions.postbox import _DootPostBox
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
 
@@ -60,7 +61,6 @@ import bib_middleware as BM
 
 def shutdown_firefox(spec, state):
     BM.files.OnlineDownloader.close_firefox()
-
 
 @DKeyed.paths("lib-root", "online_saves")
 @DKeyed.redirects("update_")
@@ -75,7 +75,6 @@ def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _updat
     ]
     return { _update : read_mids}
 
-
 @DKeyed.paths("lib-root")
 @DKeyed.redirects("update_")
 def build_online_downloader_write_stack(spec, state, _libroot, _update):
@@ -85,3 +84,17 @@ def build_online_downloader_write_stack(spec, state, _libroot, _update):
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids}
+
+@DKeyed.types("entry")
+@DKeyed.formats("box")
+def link_check(spec, state, entry, box):
+    match entry.fields_dict.get("url", None):
+        case None:
+            return
+        case x:
+            printer.info("Checking Url: %s", x.value)
+            ## check
+            check_result = True
+            if not check_result:
+                box = TaskName.build(box)
+                _DootPostBox.put(box, x.value)

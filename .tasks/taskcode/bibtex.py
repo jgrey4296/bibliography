@@ -89,3 +89,13 @@ def log_entry_name(spec, state, entry):
             printer.info("> %s", entry.key)
         case x:
             printer.info("> %s", x.value)
+
+
+@DKeyed.types("entry")
+@DKeyed.redirects("update_")
+def get_entry_file(spec, state, entry, _update):
+    match entry.fields_dict.get("file", None):
+        case None:
+            return
+        case x:
+            return { _update : x.value }

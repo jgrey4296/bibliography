@@ -32,3 +32,14 @@ cleanup          = [
     { do="taskcode.online:shutdown_firefox" },
     { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
 ]
+
+[[tasks.online]]
+name     = "_.report.broken"
+version  = "0.1"
+inject   = ["postbox"]
+actions  = [
+        # Get reported broken urls
+        {do="post.get", broken_urls="{postbox}" },
+        # write out
+        { do="write!", from_="broken_urls", to="{temp}/broken.urls"},
+]

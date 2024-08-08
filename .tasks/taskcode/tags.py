@@ -34,13 +34,15 @@ import more_itertools as mitz
 
 ##-- logging
 logging = logmod.getLogger(__name__)
+printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
+from doot.structs import DKey, DKeyed, TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
 from bib_middleware.metadata import TagsReader
+from doot.actions.postbox import _DootPostBox
 
 @DKeyed.paths("from")
 @DKeyed.redirects("update_")
@@ -102,3 +104,17 @@ def tags_from_middleware_to_state(spec, state, _update):
     """ Get the TagFile of tags read from the current lib, and insert it into state """
 
     return { _update : TagsReader._all_tags }
+
+
+
+@DKeyed.types("entry")
+@DKeyed.expands("target")
+def postbox_tags(spec, state, entry, target):
+    match entry.fields_dict.get("tags", None):
+        case None:
+            return
+        case val:
+            xs = val.value
+            printer.info("Got Tags for Entry: %s", xs)
+            target_name = TaskName.build(target)
+            _DootPostBox.put(target_name, xs)

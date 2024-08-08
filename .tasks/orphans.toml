@@ -3,43 +3,31 @@
 [[locations]]
 orphans = "{temp}/orphans"
 
-[[tasks.orphans]] # starter
-name    = "_.one.year"
-doc     = ["compare a bibtex year to its pdf lib files"]
-cli     = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-version = "0.1"
-ctor    = "job"
-setup = [
-    {do="delete!", args=["{orphans}/bib.files"]},
-    {do="delete!", args=["{orphans}/fs.files"]},
-    {do="exists?", args=["{fpath}"], fail=true},
-    {do="path.elements",   from_="fpath", roots=["{bib}"]},
-]
-actions = [
-    {do="job.expand",      from_="fpath", update_="bibtasks", inject={replace=["fpath"]}, template="orphans::_.one.bib"},
-    {do="job.expand",      from="{lib-root}/{fstem}", update_="fstasks", inject={replace=["fpath"], copy=["fstem"]}, template="orphans::_.filesystem"},
-    {do="job.queue",       from_multi_=["bibtasks", "fstasks"]}
-]
-cleanup = ["orphans::_.report"]
-
 
 [[tasks.orphans]]
-name        = "_.one.bib"
-doc         = ["get all files referenced by a bibtex file"]
-cli         = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-ctor        = "task"
-actions = [
-    { do="ext?", args=["{fpath}"], exts=[".bib"] },
-    { do="log", msg="Getting Files for: {fpath}"},
-    { do="path.elements", from_="fpath" },
-    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-    { do="taskcode.orphans:get_db_files", from_="bib_db" , update_="filelist"},
-    { do="taskcode.orphans:format_filelist", from_="filelist", update_="formatted" },
-    { do="append!", args=["{formatted}"], to="{orphans}/bib.files"},
-    { do="write!", from_="formatted", to="{orphans}/{fstem}.bib.files" },
+name    = "_.report.missing"
+inject  = ["fpath", "postbox"]
+setup   = [
+    {do="exists?", args=["{fpath}"], fail=true},
+    # TODO calc lib subpath
+    {do="path.elements",   from_="fpath", roots=["{bib}"]},
 ]
+depends_on = [
+    # {task="orphans::_.filesystem", inject={fpath="lib_sub", fstem="fstem"} },
+]
+actions = [
+        #
+
+        # write to {orphans}/{fstem}.bib.files
+        # append to {orphans}/bib.files
+
+]
+cleanup = [
+        "orphans::_.report",
+        # clear postbox
+]
+
+
 
 [[tasks.orphans]]
 name               = "_.filesystem"
