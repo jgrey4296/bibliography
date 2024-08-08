@@ -50,3 +50,9 @@ def validate(spec, state, text):
     if not HEAD_TAG_RE.match(head):
         printer.warning("Commit Messages need to have a [tag] at the start")
         return False
+
+@DKeyed.types("changed")
+def print_changed(spec, state, changed):
+    printer.info("Changed Files:")
+    for x in changed:
+        printer.info("-- %s", x)

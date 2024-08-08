@@ -1,52 +1,83 @@
 ## tags.toml -*- mode: conf-toml -*-
 
+[[locations]]
+known_tag_file = {file="{temp}/tags/known.tags"}
+canon_tag_file = {file="{temp}/tags/canon.tags"}
+bkmk_tag_file  = {file="{temp}/tags/bkmks.tags"}
+
+
 [[tasks.tags]]
-name                     = "calc.new"
-version                  = "0.1"                                                                  # <str>
-ctor                     = "job"
-docs                     = ["calculate canon and new tags"]
-roots                    = ["{substitutions}/general"]                                            # <list[str|pl.Path]>  Places the walker will start
-exts                     = [".sub"]                                                               # <list[str]>
-recursive                = false                                                                  # <bool>
-actions                  = [
-    {do="job.walk", update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
-    {do="job.queue", from_="tasks"}, # queue
+name    = "_.build.bkmk.tags"
+version = "0.1"
+ctor    = "task"
+depends_on = [
+           # skip if bkmk.tags was touched today
+           {do="dootle.utils.recency_test:stale_test", source="{bookmarks}", dest="{bkmk_tag_file}"},
 ]
-sub_actions              = [
+actions = [
+        # read {bookmarks}
+        { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
+        # extract tags
+        { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
+        # write
+        {do="write!", from_="tags", to="{bkmk_tag_file}"}
+]
+
+[[tasks.tags]]
+name      = "_.build.total"
+doc       = ["build the totals.tags file from individual tag substitution files"]
+version   = "0.1"
+ctor      = "job"
+roots     = ["{substitutions}/general"]
+exts      = [".sub"]
+recursive = false
+depends_on = [
+    "tags::_.build.bkmk.tags",
+    # Skip if totals.tags was modified today
+    {do="dootle.utils.recency_test:recency_test", target="{canon_tag_file}"},
+]
+actions   = [
+    # walk and read all sub files
+    {do="job.walk",   update_="files"}, # walk,
+    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="read_sub_actions"},
+    {do="job.queue",  from_="tasks"}, # queue
+]
+read_sub_actions              = [
     { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
+    { do="post.put", "tags::read..allsubs"=["{subs}"] },
 ]
-cleanup = [
-    { do="post.get", subs="tags::calc..allsubs" },
-    { do="taskcode.tags:merge_subfiles", from_="subs", update_="known_tags" },
-    { do="taskcode.tags:read_tags", from="{temp}/tags/totals.tags", update_="total_tags" },
-    { do="taskcode.tags:calc_new_tags",   total_="total_tags", known_="known_tags", update_="new_tags" },
-    { do="taskcode.tags:calc_canon_tags", known_="known_tags", update_="canon_tags"},
-    # Then write them
-    { do="write!", from_="new_tags", to="{temp}/tags/new.tags"},
-    { do="write!", from_="canon_tags", to="{temp}/tags/canon.tags"},
-
+head_actions = [
+   { do="post.get", sub_objs="tags::read..allsubs" },
+   { do="taskcode.tags:read_tags", from="{bkmk_tag_file}", update_="bkmk_tags" },
+   { do="taskcode.tags:merge_subfiles_to_known_and_canon", args=["sub_objs", "bkmk_tags"] },
+   # TODO merge bkmk_tags into total
+   { do="write!",  from_="known_tags", to="{known_tag_file}" },
+   { do="write!",  from_="canon_tags", to="{canon_tag_file}" },
 ]
-
 
 [[tasks.tags]]
-name            = "_.extract.bib.finish"
-ctor            = "task"
-requird_for     = ["file:>{temp}/tags/bib.tags", "file:>{temp}/tags/bib.names"]
-queue_behaviour = "reactive"
-actions         = [
-    { do="post.get", tags="tags::_.extract.bib..tags"},
-    { do="taskcode.tags:merge_tagfiles", from_="tags", update_="merged.tags"},
-    # Write Tags
-    { do="taskcode.tags:write_tag_set", from_="merged.tags", update_="tagstr" },
-    { do="write!", from_="tagstr", to="{temp}/tags/bib.tags"},
-    # Write names:
-    # { do="taskcode.tags:write_name_set", from_="merged.tags", update_="names" },
-    # { do="write!", from_="names", to="{temp}/tags/bib.names" }
+name      = "_.calculate.update"
+version   = "0.1"
+doc       = []
+inject    = ["fpath"]
+ctor      = "task"
+roots     = ["{substitutions}/general"]
+exts      = [".sub"]
+recursive = false
+depends_on = ["tags::_.build.total"]
+actions = [
+    # Get existing totals
+    { do="taskcode.tags:read_tags", from="{canon_tag_file}", update_="total_tags" },
+    # Get tags from accumulator
+    { do="taskcode.tags:TagAccumulator", update_="file_tags"},
+    # Calc update
+    { do="taskcode.tags:TagCalculator", raw_="file_tags", totals_="total_tags"},
+    # Then write them
+    { do="path.elements", from_="fpath", roots=["{bib}"] },
+    { do="write!", from_="new_tags", to="{temp}/tags/{fstem}_new.tags"},
+    # Clear the tag record
+    { do="taskcode.tags:TagAccumulator", clear=true},
 ]
-
-
 
 [[tasks.tags]]
 name = "_.clean.bib"
@@ -56,6 +87,3 @@ name = "_.clean.bookmarks"
 
 [[tasks.tags]]
 name = "generate.people"
-
-[[tasks.tags]]
-name = "generate.total"

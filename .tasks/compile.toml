@@ -18,9 +18,11 @@ depends_on       = [
     {task="compile::_.gen.template", inject={fpath="fpath"}},
     {do="installed?", args=["pdftex", "bibtex"] },
     {do="relative?", args=["{fpath}"], bases=["{bib}"]},
+    { do="path.elements", from_="fpath", roots=["{bib}"]},
+    # skip if the exported bib exists and is recent
+    { do="dootle.utils.recency_test:stale_test", source="{fpath}", dest="{pdf_export}/{fstem}.pdf" },
 ]
 setup            = [
-    {do="path.elements", from_="fpath", roots=["{bib}"]},
     {do="copy", from="{bib_export}/{fstem}.bib", to="{tex_export}/{fstem}.bib"},
     {do="exists?"  , args=["{tex_export}/{fstem}.bib", "{tex_export}/{fstem}.tex"], fail=true },
 ]
@@ -35,13 +37,15 @@ actions =[
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
 ]
 cleanup = [
-    {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
+    {do="exists?", args=["{tex_export}/{fstem}.pdf"]},
+    # remove intermediate artifacts
+    {do="delete!", args=["{tex_export}/{fstem}.aux", "{tex_export}/{fstem}.bbl", "{tex_export}/{fstem}.blg"]},
+    {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
+    {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
+
+    {do="exists?", args=["{pdf_export}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
     {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
-    # remove intermediate artifacts
-    # {do="delete!", args=["{tex_export}/{fstem}.aux", "{tex_export}/{fstem}.bbl", "{tex_export}/{fstem}.blg"]},
-    # {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
-    # {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
 ]
 
 [[tasks.compile]]
@@ -72,22 +76,24 @@ depends_on           = [
         {do="relative?",  args=["{fpath}"], bases=["{bib}"]},
         {do="path.elements", from_="fpath", roots=["{bib}"]},
         {do="exists?", args=["{bib_export}/{fname}"], fail=true},
+        # skip if the exported bib exists and is recent
+        {do="dootle.utils.recency_test:stale_test", source="{fpath}", dest="{html_export}/{fstem}.html" },
 
 ]
 actions              = [
+        {do="log", msg="Converting {fname} to html"},
         # Run bibtex2html
         {do="shell", args=["bibtex2html", "-o", "{html_export}/{fstem}", "{bib_export}/{fname}"]},
 ]
 cleanup = [
         {do="exists?", args=["{html_export}/{fstem}.html"], fail=true},
-        {do="touch", args=["{fpath}"]},
         {do="log",   msg="Compiled {fname} to {html_export}"},
 ]
 
 [[tasks.compile]]
-name                 = "_.failed"
+name                 = "missing"
 version              = "0.1"                                    # <str>
-doc                  = ["Anything that has a tex file, but not a pdf, has failed somehow"]
+doc                  = ["list any bibs that don't have an exported bib, or a built pdf"]
 ctor                 = "job"                                   # <str>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
 exts                 = [".bib"]                                 # <list[str]>
@@ -98,8 +104,15 @@ actions = [
         {do="job.queue",  from_="tasks"}, # queue
 ]
 sub_actions          = [
-                     # if pdf exists in temp for bib, silent
-                     # else complain
+    # calc path parts
+    {do="path.elements", from_="fpath" },
+    {do="exists?", args=["{bib_export}/{fstem}.bib", "{pdf_export}/{fstem}.pdf"], not=true},
+    {do="post.put", "compile::missing..files"="{fstem}"},
+]
+head_actions = [
+    {do="post.get", missing="compile::missing..files"},
+    {do="log", msg="These are missing:"},
+    {do="log", msg="{missing}"},
 ]
 
 [[tasks.compile]]

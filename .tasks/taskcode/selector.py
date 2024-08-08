@@ -41,6 +41,7 @@ import bibtexparser as BTP
 import doot
 import doot.errors
 from doot.structs import DKey, DKeyed
+from doot.enums import ActionResponse_e as ActE
 
 @DKeyed.types("count")
 def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], count:int|str) -> list:
@@ -58,3 +59,8 @@ def select_one_entry(spec, state, _bib_db, _update):
 
     if bool(entry):
         return { _update : entry }
+
+@DKeyed.types("entry")
+def skip_if_no_file_in_entry(spec, state, entry):
+    if "file" not in entry.fields_dict:
+        return ActE.SKIP

@@ -40,7 +40,8 @@ printer = logmod.getLogger("doot._printer")
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
+from doot.structs import DKey, DKeyed, TaskName
+from doot.actions.postbox import _DootPostBox
 
 @DKeyed.types("bib_db")
 @DKeyed.redirects("update_")
@@ -71,3 +72,19 @@ def diff_filelists(spec, state, _bib, _fs):
 def format_filelist(spec, state, _files, _update):
     result = "\n".join(sorted(str(x) for x in _files))
     return { _update : result }
+
+
+@DKeyed.types("entry")
+@DKeyed.formats("box")
+def get_orphans(spec, state, entry, box):
+    """
+      Check then entry's files all exist.
+      add to the target postbox if it doesn't
+    """
+    match entry.fields_dict.get("orphaned", None):
+        case None:
+            pass
+        case x:
+            printer.info("Orphan Reference found: %s", x.key)
+            box = TaskName.build(box)
+            _DootPostBox.put(box, x.key)
