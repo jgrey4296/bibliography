@@ -3,11 +3,23 @@
 ##
 
 [[tasks.changed]]
+name       = "report"
+roots      = ["{bib}"]
+exts       = [".bib"]
+cache      = "{temp}/precommit::post.commit_cache"
+head_count = 2
+actions    = [
+   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   {do="taskcode.precommit:print_changed"},
+]
+
+[[tasks.changed]]
 name             = "_.one.bib"
 doc              = ["run updates for a changed bibtex"]
 version          = "0.1"
 ctor             = "job"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+inject           = ["fpath"]
 roots            = ["{bib}"]
 depends_on       = [
     # Check the fpath is a bibtex and in the library
@@ -19,52 +31,67 @@ setup            = [
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
-    { do="taskcode.export:build_export_write_stack",      update_="export_stack" },
+    # { do="taskcode.export:build_export_write_stack",      update_="export_stack" },
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
     # Read the file
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-
     # Queue Entry Subtasks:
     { do="taskcode.metadata:GenBibEntryTask", template="changed::_.single.entry.update", from_="bib_db", update_="entry_tasks"},
     { do="job.queue", from_="entry_tasks" },
 ]
 head_actions = [
     # Queue (whole file) compile and export
-    { task="export::_.on.bib",   inject={fpath="fpath"} },
-    { task="compile::_.to.html", inject={fpath="fpath"} },
-    { task="compile::_.to_pdf" , inject={fpath="fpath"} },
-    # Queue year directory orphan check
-    { task="orphans::_.filesystem", inject={fpath="fpath"} },
-    { task="orphans::_.one.bib",    inject={fpath="fpath"}  },
-    # Summarise
+    { task="export::_.one.bib",   inject={fpath="fpath"} },
+    { task="compile::_.to.html",  inject={fpath="fpath"} },
+    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} },
+    # Update Tags:
+    { task="tags::_.calculate.update", inject={fpath="fpath"}},
+    # Report broken urls:
+    # { task="online::_report.broken", inject={postbox="bibtex::entries..urls"}},
+    # Report orphan files
+    # { task="orphans::_.report.missing", inject={fpath="fpath"} },
+    # TODO Summarise
+    # { task="bibtex:_.summarise", inject={fpath="fpath"} },
 ]
-cleanup = [
-    # Remove any intermediate files
-]
-
+cleanup = []
 
 [[tasks.changed]]
 name               = "_.single.entry.update"
 doc                = ["Entry tasks that do not modify the entry itself"]
+inject             = ["entry"]
 ctor               = "task"
 roots              = ["{pdf_source}"]
 shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
+setup              = [
+]
 actions            = [
-    # Extract Tags
-    # Extract publisher, institution, journal, organisation, series...
+    {do="taskcode.bibtex:log_entry_name"},
+    # TODO Extract Tags
+    {do="taskcode.tags:TagAccumulator"},
+    # TODO Extract publisher, institution, journal, organisation, series...
+    # {do="taskcode.metadata:postbox_data", box="bibtex::metadata..misc"},
     # ---
+    # # extract filenames
+    {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
+    {do="taskcode.bibtex:get_entry_file", update_="entry_file"},
+    {do="path.elements", from_="entry_file"},
     # Update Metadata
     {do="taskcode.metadata:FileMetadataUpdate"},
-    # Orphan Check and update
+    # get orphans
+    {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"},
     # ---
-    # Link check
+    # TODO Link check
+    # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}
     # ---
-    # Backup files:
-    {do="taskcode.metadata:FileMultiBackup", from_="fpath", pattern="{shadow_path}/{fname}"}
+    # TODO Backup files:
+    # # calc shadows
+    {do="dootle.utils.multi_shadow:CalculateShadowDirs", rpath_="rpath"},
+    # # Run Backup
+    {do="dootle.utils.multi_shadow:MultiBackupAction", from_="entry_file", pattern="{shadow_path}/{fname}"},
 ]
 cleanup = [
-    # Remove intermediate files?
+    # TODO Remove intermediate files?
 
 ]

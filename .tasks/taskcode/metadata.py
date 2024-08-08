@@ -49,10 +49,6 @@ import doot.errors
 from doot.structs import DKey, TaskSpec, DKeyed
 import bib_middleware as BM
 
-exiftool = sh.exiftool
-calibre  = sh.ebook_meta
-qpdf     = sh.qpdf
-
 @DKeyed.paths("lib-root")
 @DKeyed.redirects("update_")
 def build_metadata_parse_stack(spec, state, _libroot, _update):
@@ -68,14 +64,12 @@ def build_metadata_parse_stack(spec, state, _libroot, _update):
     ]
     return { _update : read_mids }
 
-
 @DKeyed.types("tasks")
 def report_chosen_files(spec, state, tasks):
     printer.info("Chosen Files:")
     for x in tasks:
         path = x.extra.fpath
         printer.warning("%-20s : %s", pl.Path(path.parent.name) / path.name, datetime.datetime.fromtimestamp(path.stat().st_mtime))
-
 
 class ApplyMetadata(BM.metadata.MetadataApplicator):
     """ A Standalone Wrapper around the library-metadata MetadataApplicator
@@ -104,13 +98,17 @@ class GenBibEntryTask:
 
     @DKeyed.types("from", check=BTP.Library)
     @DKeyed.formats("template")
+    @DKeyed.taskname
     @DKeyed.redirects("update_")
-    def __call__(self, spec , state, _lib, template, _update):
+    def __call__(self, spec , state, _lib, template, _basename, _update):
         subtasks : list[TaskSpec] = []
-        self._backup = _backup
         for i, entry in enumerate(_lib.entries):
             # Build task spec
-            spec = TaskSpec.build({"source":[template], "entry":entry})
+            spec = TaskSpec.build({
+                "name": _basename.root(top=True).subtask(i, "bib", "entry"),
+                "sources":[template],
+                "entry":entry
+                                  })
             subtasks.append(spec)
 
         return { _update : subtasks }

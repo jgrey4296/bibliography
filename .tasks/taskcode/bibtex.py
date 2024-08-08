@@ -76,7 +76,27 @@ def build_working_write_stack(spec, state, _libroot, _update):
         ms.MergeCoAuthors(allow_inplace_modification=False),
         BM.metadata.IsbnWriter(),
         BM.metadata.TagsWriter(),
+        BM.metadata.FileCheck(),
         BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids }
+
+
+@DKeyed.types("entry")
+def log_entry_name(spec, state, entry):
+    match entry.fields_dict.get("title", None):
+        case None:
+            printer.info("> %s", entry.key)
+        case x:
+            printer.info("> %s", x.value)
+
+
+@DKeyed.types("entry")
+@DKeyed.redirects("update_")
+def get_entry_file(spec, state, entry, _update):
+    match entry.fields_dict.get("file", None):
+        case None:
+            return
+        case x:
+            return { _update : x.value }

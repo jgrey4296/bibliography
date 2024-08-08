@@ -25,7 +25,7 @@ actions          = [
     { do="log", msg="Metadata by year: {fpath}", level="WARN"},
     # Read
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-    # Apply
+    # Apply (TODO: change this to queue subtasks tasks)
     { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
     { do="append!", to="{fail_log}", args=["{failures}"] },
 ]
