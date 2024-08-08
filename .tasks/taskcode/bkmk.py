@@ -56,10 +56,3 @@ def collect_tags(spec, state, _db, _update):
         tags.update(bkmk.tags)
 
     return { _update : str(tags) }
-
-@DKeyed.paths("bookmarks")
-def recency_test(spec, state, bookmarks):
-    """ trigger task skip if the bookmarks file was modified today """
-    mod_date = datetime.datetime.fromtimestamp(bookmarks.stat().st_mtime).date()
-    if TODAY <= mod_date:
-        return ActionResponse_e.SKIP

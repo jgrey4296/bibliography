@@ -12,7 +12,7 @@ version = "0.1"
 ctor    = "task"
 depends_on = [
            # skip if bkmk.tags was touched today
-           {do="dootle.utils.recency_test:recency_test", target="{bkmk_tag_file}"},
+           {do="dootle.utils.recency_test:stale_test", source="{bookmarks}", dest="{bkmk_tag_file}"},
 ]
 actions = [
         # read {bookmarks}
@@ -77,10 +77,6 @@ actions = [
     { do="write!", from_="new_tags", to="{temp}/tags/{fstem}_new.tags"},
     # Clear the tag record
     { do="taskcode.tags:TagAccumulator", clear=true},
-]
-sub_actions = [
-    { do="taskcode.tags:read_subs", from="{fpath}", update_="subs" },
-    { do="post.put", "tags::calc..allsubs"=["{subs}"] },
 ]
 
 [[tasks.tags]]

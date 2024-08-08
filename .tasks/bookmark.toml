@@ -12,7 +12,7 @@ cli                  = [{ name="files",   type="list", default=[], positional=tr
 db_name              = "places.sqlite"
 log_file             = "{temp}/logs/bookmark_update.log"
 depends-on           = [
-   { do="pred?", pred="taskcode.bkmk:recency_test" },
+   { do="dootle.utils.recency_test:recency_test", target="{bookmarks}"}.
    "bookmark::_.firefox",
    "bookmark::_.archived"
 ]
