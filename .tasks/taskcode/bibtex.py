@@ -76,6 +76,7 @@ def build_working_write_stack(spec, state, _libroot, _update):
         ms.MergeCoAuthors(allow_inplace_modification=False),
         BM.metadata.IsbnWriter(),
         BM.metadata.TagsWriter(),
+        BM.metadata.FileCheck(),
         BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]

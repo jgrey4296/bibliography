@@ -3,6 +3,17 @@
 ##
 
 [[tasks.changed]]
+name       = "report"
+roots      = ["{bib}"]
+exts       = [".bib"]
+cache      = "{temp}/precommit::post.commit_cache"
+head_count = 2
+actions    = [
+   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   {do="taskcode.precommit:print_changed"},
+]
+
+[[tasks.changed]]
 name             = "_.one.bib"
 doc              = ["run updates for a changed bibtex"]
 version          = "0.1"
@@ -26,7 +37,6 @@ actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
     # Read the file
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-
     # Queue Entry Subtasks:
     { do="taskcode.metadata:GenBibEntryTask", template="changed::_.single.entry.update", from_="bib_db", update_="entry_tasks"},
     { do="job.queue", from_="entry_tasks" },
@@ -37,7 +47,7 @@ head_actions = [
     { task="compile::_.to.html",  inject={fpath="fpath"} },
     { task="compile::_.to.pdf" ,  inject={fpath="fpath"} },
     # Update Tags:
-    # { task="tags::_.calculate.update", inject={postbox="bibtex::entries..tags"}},
+    { task="tags::_.calculate.update", inject={fpath="fpath"}},
     # Report broken urls:
     # { task="online::_report.broken", inject={postbox="bibtex::entries..urls"}},
     # Report orphan files
@@ -45,10 +55,7 @@ head_actions = [
     # TODO Summarise
     # { task="bibtex:_.summarise", inject={fpath="fpath"} },
 ]
-cleanup = [
-    # Remove any intermediate files
-]
-
+cleanup = []
 
 [[tasks.changed]]
 name               = "_.single.entry.update"
@@ -62,16 +69,18 @@ setup              = [
 actions            = [
     {do="taskcode.bibtex:log_entry_name"},
     # TODO Extract Tags
-    # {do="taskcode.tags:postbox_tags", box="bibtex::entries..tags"},
+    {do="taskcode.tags:TagAccumulator"},
     # TODO Extract publisher, institution, journal, organisation, series...
+    # {do="taskcode.metadata:postbox_data", box="bibtex::metadata..misc"},
     # ---
     # # extract filenames
+    {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
     {do="taskcode.bibtex:get_entry_file", update_="entry_file"},
     {do="path.elements", from_="entry_file"},
     # Update Metadata
     {do="taskcode.metadata:FileMetadataUpdate"},
-    # TODO Orphan Check and update
-    # # {do="taskcode.orphans:check_file", box="bibtex::entries..orphans"}
+    # get orphans
+    {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"},
     # ---
     # TODO Link check
     # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}

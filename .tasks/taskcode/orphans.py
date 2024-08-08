@@ -76,15 +76,15 @@ def format_filelist(spec, state, _files, _update):
 
 @DKeyed.types("entry")
 @DKeyed.formats("box")
-def check_file(spec, state, entry, box):
+def get_orphans(spec, state, entry, box):
     """
       Check then entry's files all exist.
       add to the target postbox if it doesn't
     """
-    match entry.fields_dict.get("file"):
+    match entry.fields_dict.get("orphaned", None):
         case None:
             pass
-        case x if not x.value.resolve.exists():
-            printer.info("Orphan Reference found: %s", x.value)
+        case x:
+            printer.info("Orphan Reference found: %s", x.key)
             box = TaskName.build(box)
-            _DootPostBox.put(box, x.value)
+            _DootPostBox.put(box, x.key)

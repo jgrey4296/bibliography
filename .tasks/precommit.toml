@@ -46,15 +46,7 @@ actions    = [
    # Queue metadata update
    {do="job.expand", from_="changed", inject={replace=["fpath"]}, template_="sub_target"},
 ]
-cleanup = ["stub::cleanup"] # TODO cache head commit hash
-
-[[tasks.precommit]]
-name       = "post.report"
-roots      = ["{bib}"]
-exts       = [".bib"]
-cache      = "{temp}/precommit::post.commit_cache"
-head_count = 2
-actions    = [
-   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
-   {do="taskcode.precommit:print_changed"},
+cleanup = [
+   "stub::cleanup"
+   # TODO cache head commit hash
 ]

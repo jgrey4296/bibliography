@@ -56,29 +56,11 @@ def read_subs(spec, state, _target, _update):
     target_subs = SubstitutionFile.read(_target)
     return { _update : target_subs }
 
-@DKeyed.types("total", chekc=TagFile)
-@DKeyed.types("known", check=SubstitutionFile)
-@DKeyed.redirects("update_")
-def calc_new_tags(spec, state, _total, _known, _update):
-    new_tags = TagFile({x:1 for x in _total if not (_known.has_sub(x) or x in _known)})
-    return { _update : new_tags }
-
-@DKeyed.types("known", check=SubstitutionFile)
-@DKeyed.redirects("update_")
-def calc_canon_tags(spec, state, _known, _update):
-    canonical = _known.canonical()
-    return { _update : canonical }
-
 @DKeyed.types("from", check=TagFile)
 @DKeyed.redirects("update_")
 def write_tag_set(spec, state, _from, _update):
     tag_str = str(_from)
     return { _update : tag_str}
-
-# @DKeyed.redirects("update_")
-# def write_name_set(spec, state, _update):
-#     result     = BM.NameWriter.names_to_str()
-#     return { _update : result }
 
 @DKeyed.types("from", check=list|set)
 @DKeyed.redirects("update_")
@@ -90,14 +72,24 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
 
     return { _update : merged }
 
-@DKeyed.types("from", check=list|set)
-@DKeyed.redirects("update_")
-def merge_subfiles(spec, state, _from, _update):
+@DKeyed.args
+def merge_subfiles_to_known_and_canon(spec, state, args):
+    """ merge keys from args together,
+      handling tagfiles, and lists of tag files
+    """
+    keys = [DKey(x, mark=DKey.mark.FREE) for x in args]
     merged = SubstitutionFile()
-    for tf in _from:
-        merged += tf
+    for key in keys:
+        match key.expand(spec, state):
+            case TagFile() as tf:
+                merged += tf
+            case list() as lst:
+                for tf in lst:
+                    merged += tf
 
-    return { _update : merged }
+    canon_tags = merged.canonical()
+    known_tags = merged.known()
+    return { "known_tags": known_tags, "canon_tags": canon_tags }
 
 @DKeyed.redirects("update_")
 def tags_from_middleware_to_state(spec, state, _update):
@@ -105,16 +97,48 @@ def tags_from_middleware_to_state(spec, state, _update):
 
     return { _update : TagsReader._all_tags }
 
+class TagAccumulator:
+    """
+      Accumulate a set of all tags,
+      with the ability to clear it,
+      or get the set
+    """
+    all_tags = set()
 
-
-@DKeyed.types("entry")
-@DKeyed.expands("target")
-def postbox_tags(spec, state, entry, target):
-    match entry.fields_dict.get("tags", None):
-        case None:
+    @DKeyed.types("entry", fallback=None)
+    @DKeyed.types("clear", check=bool, fallback=False)
+    @DKeyed.redirects("update_", fallback=None)
+    def __call__(self, spec, state, entry, clear, update_):
+        if clear:
+            TagAccumulator.all_tags.clear()
             return
-        case val:
-            xs = val.value
-            printer.info("Got Tags for Entry: %s", xs)
-            target_name = TaskName.build(target)
-            _DootPostBox.put(target_name, xs)
+        elif update_ not in [None, "update"]:
+            return { update_ : TagAccumulator.all_tags }
+        elif entry is None:
+            return
+
+        match entry.fields_dict.get("tags", None):
+            case None:
+                return
+            case val:
+                xs = val.value
+                TagAccumulator.all_tags.update(xs)
+
+class TagCalculator:
+    """
+      Given a raw set of tags, a collection of subfiles,
+      and a tag file of total tags,
+      calculate updates
+    """
+
+    @DKeyed.types("raw", check=set)
+    @DKeyed.types("totals", check=TagFile)
+    def __call__(self, spec, state, raw, totals):
+        new_tags  = self._calc_new_tags(totals, raw)
+
+        return { "new_tags" : new_tags }
+
+    def _calc_new_tags(self, _total:TagFile, _raw:set[str]):
+        total_set : set = _total.to_set()
+        new_tags = TagFile(counts={x:1 for x in (_raw - total_set)})
+        return new_tags
