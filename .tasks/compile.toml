@@ -13,7 +13,7 @@ ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
 cli              = [
     { name="fpath", type="str", prefix="-", default="", desc="", positional=false  },
-    { name="out",   type="str". prefix="-", default="{pdf_export}", desc="", positional=false  },
+    { name="out",   type="str", prefix="-", default="{pdf_export}", desc="", positional=false  },
 ]
 tex_prog         = "pdflatex"
 depends_on       = [
