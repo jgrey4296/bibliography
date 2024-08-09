@@ -35,16 +35,15 @@ ctor       = "job"
 roots      = ["{bib}"]
 exts       = [".bib"]
 sub_target = "changed::_.one.bib"
+select_limit = 10
 depends_on = ["bookmark::update"]
-setup      = [# clear orphan file lists
-   {do="delete!", args=["{orphans}/bib.files"]},
-   {do="delete!", args=["{orphans}/fs.files"]},
-]
 actions    = [
    # if No cache, so just process the head changes:
    {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   {do="job.limit", count="select_limit", from_="changed"},
    # Queue metadata update
-   {do="job.expand", from_="changed", inject={replace=["fpath"]}, template_="sub_target"},
+   {do="job.expand", from_="changed", inject={replace=["fpath"]}, template="changed::_.one.bib", update_="bib_files"},
+   {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [
    "stub::cleanup"

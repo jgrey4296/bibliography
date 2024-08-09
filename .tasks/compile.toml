@@ -11,7 +11,10 @@ html_export  = "{export}/html"
 name             = "_.to.pdf"
 ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [
+    { name="fpath", type="str", prefix="-", default="", desc="", positional=false  },
+    { name="out",   type="str". prefix="-", default="{pdf_export}", desc="", positional=false  },
+]
 tex_prog         = "pdflatex"
 depends_on       = [
     {task="export::_.one.bib", inject={fpath="fpath"}},
@@ -46,9 +49,9 @@ cleanup = [
     {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
     {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
 
-    {do="exists?", args=["{pdf_export}/{fstem}.pdf"], not=true},
+    {do="exists?", args=["{out}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
-    {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
+    {do="move", from="{tex_export}/{fstem}.pdf", to="{out}/{fstem}.pdf"},
 ]
 
 [[tasks.compile]]

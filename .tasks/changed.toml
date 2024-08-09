@@ -62,31 +62,23 @@ inject             = ["entry"]
 ctor               = "task"
 roots              = ["{pdf_source}"]
 shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
-setup              = [
-]
+setup              = []
 actions            = [
     {do="taskcode.bibtex:log_entry_name"},
-    # TODO Extract Tags
-    {do="taskcode.tags:TagAccumulator"},
+    {do="taskcode.tags:TagAccumulator"}, # Extract Tags
     # TODO Extract publisher, institution, journal, organisation, series...
     # {do="taskcode.metadata:postbox_data", box="bibtex::metadata..misc"},
     # ---
-    # # extract filenames
     {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
-    {do="taskcode.bibtex:get_entry_file", update_="entry_file"},
+    {do="taskcode.bibtex:get_entry_file", update_="entry_file"}, # extract filenames
     {do="path.elements", from_="entry_file"},
-    # Update Metadata
-    {do="taskcode.metadata:FileMetadataUpdate"},
-    # get orphans
-    {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"},
+    {do="taskcode.metadata:FileMetadataUpdate"}, # Update Metadata
+    {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"}, # get orphans
     # ---
-    # TODO Link check
-    # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}
+    # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}, # TODO Link check
     # ---
-    # TODO Backup files:
-    # # calc shadows
-    {do="dootle.utils.multi_shadow:CalculateShadowDirs", rpath_="rpath"},
-    # # Run Backup
+    {do="dootle.utils.multi_shadow:CalculateShadowDirs", rpath_="rpath"}, # Calc shadows
+    # Backup Files
     {do="dootle.utils.multi_shadow:MultiBackupAction", from_="entry_file", pattern="{shadow_path}/{fname}"},
 ]
 cleanup = [
