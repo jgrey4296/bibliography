@@ -15,6 +15,7 @@ depends_on = [
            {do="dootle.utils.recency_test:stale_test", source="{bookmarks}", dest="{bkmk_tag_file}"},
 ]
 actions = [
+        {do="log", msg="Building Tags Summary from Bookmarks"},
         # read {bookmarks}
         { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
         # extract tags
@@ -47,12 +48,13 @@ read_sub_actions              = [
     { do="post.put", "tags::read..allsubs"=["{subs}"] },
 ]
 head_actions = [
-   { do="post.get", sub_objs="tags::read..allsubs" },
-   { do="taskcode.tags:read_tags", from="{bkmk_tag_file}", update_="bkmk_tags" },
-   { do="taskcode.tags:merge_subfiles_to_known_and_canon", args=["sub_objs", "bkmk_tags"] },
-   # TODO merge bkmk_tags into total
-   { do="write!",  from_="known_tags", to="{known_tag_file}" },
-   { do="write!",  from_="canon_tags", to="{canon_tag_file}" },
+    { do="log", msg="Building Canon Tags"},
+    { do="post.get", sub_objs="tags::read..allsubs" },
+    { do="taskcode.tags:read_tags", from="{bkmk_tag_file}", update_="bkmk_tags" },
+    { do="taskcode.tags:merge_subfiles_to_known_and_canon", args=["sub_objs", "bkmk_tags"] },
+    # TODO merge bkmk_tags into total
+    { do="write!",  from_="known_tags", to="{known_tag_file}" },
+    { do="write!",  from_="canon_tags", to="{canon_tag_file}" },
 ]
 
 [[tasks.tags]]
@@ -66,6 +68,7 @@ exts      = [".sub"]
 recursive = false
 depends_on = ["tags::_.build.total"]
 actions = [
+    { do="log", msg="Calculating Tags Update" },
     # Get existing totals
     { do="taskcode.tags:read_tags", from="{canon_tag_file}", update_="total_tags" },
     # Get tags from accumulator

@@ -27,12 +27,15 @@ setup            = [
     {do="exists?"  , args=["{tex_export}/{fstem}.bib", "{tex_export}/{fstem}.tex"], fail=true },
 ]
 actions =[
+    {do="log", msg="Compiling to pdf: {fname}"},
     # compile tex
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
     {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
     # compile bib
+    {do="log", msg="Compiling Bib"},
     {do="shell", args=["bibtex", "--terse", "./{fstem}"], cwd="{tex_export}"},
     # link crossrefs
+    {do="log", msg="Crossreferencing"},
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
 ]
@@ -69,7 +72,7 @@ actions =[
 name                 = "_.to.html"
 version              = "0.1"
 ctor                 = "task"
-cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false }]
 depends_on           = [
         {task="export::_.one.bib", inject={fpath="fpath"}},
         {do="installed?", args=["bibtex2html"]},

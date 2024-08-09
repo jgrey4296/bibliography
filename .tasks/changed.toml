@@ -31,7 +31,6 @@ setup            = [
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
-    # { do="taskcode.export:build_export_write_stack",      update_="export_stack" },
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
@@ -42,10 +41,9 @@ actions          = [
     { do="job.queue", from_="entry_tasks" },
 ]
 head_actions = [
-    # Queue (whole file) compile and export
-    { task="export::_.one.bib",   inject={fpath="fpath"} },
-    { task="compile::_.to.html",  inject={fpath="fpath"} },
-    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} },
+    { task="export::_.one.bib",   inject={fpath="fpath"} }, # Export
+    { task="compile::_.to.html",  inject={fpath="fpath"} }, # Compile html
+    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} }, # Compile pdf
     # Update Tags:
     { task="tags::_.calculate.update", inject={fpath="fpath"}},
     # Report broken urls:
