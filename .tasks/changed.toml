@@ -25,6 +25,7 @@ depends_on       = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },
     { do="relative?", args=["{fpath}"], bases_="roots"},
+    { do="exists?", args=["{fpath}"], fail=true},
 ]
 setup            = [
     # build the parse and export stacks, and the db

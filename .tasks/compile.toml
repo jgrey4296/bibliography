@@ -6,15 +6,13 @@ tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
 html_export  = "{export}/html"
+html_install = "~/github/jgrey4296.github.io/bibliography"
 
 [[tasks.compile]]
 name             = "_.to.pdf"
 ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
-cli              = [
-    { name="fpath", type="str", prefix="-", default="", desc="", positional=false  },
-    { name="out",   type="str", prefix="-", default="{pdf_export}", desc="", positional=false  },
-]
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 tex_prog         = "pdflatex"
 depends_on       = [
     {task="export::_.one.bib", inject={fpath="fpath"}},
@@ -51,7 +49,7 @@ cleanup = [
 
     {do="exists?", args=["{out}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
-    {do="move", from="{tex_export}/{fstem}.pdf", to="{out}/{fstem}.pdf"},
+    {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
 ]
 
 [[tasks.compile]]
@@ -129,3 +127,15 @@ doc     = ["create a calendar of when entries were added to the db"]
 setup   = []
 actions = []
 cleanup = []
+
+
+
+[[tasks.compile]]
+name    = "install.html"
+version = "0.1"
+cli = [{ name="out",   type="str", prefix="-", default="{html_install}", desc="", positional=false}]
+depends_on = [{do="exists?"  , args=["{out}"], fail=true }]
+actions = [
+    {do="log", msg="Installing compiled bib htmls to {out}"},
+    {do="copy", from="{html_export}/*.html", to="{out}"}
+]
