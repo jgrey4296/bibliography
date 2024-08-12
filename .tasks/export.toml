@@ -21,6 +21,7 @@ setup           = [
         { do="taskcode.export:build_export_write_stack",   update_="export_stack" },
 ]
 actions = [
+        { do="log", msg="Exporting: {fname}" },
         { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{bib_export}/{fname}"},

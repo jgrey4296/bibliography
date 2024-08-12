@@ -6,6 +6,7 @@ tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
 html_export  = "{export}/html"
+html_install = "~/github/jgrey4296.github.io/bibliography"
 
 [[tasks.compile]]
 name             = "_.to.pdf"
@@ -27,12 +28,15 @@ setup            = [
     {do="exists?"  , args=["{tex_export}/{fstem}.bib", "{tex_export}/{fstem}.tex"], fail=true },
 ]
 actions =[
+    {do="log", msg="Compiling to pdf: {fname}"},
     # compile tex
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
     {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
     # compile bib
+    {do="log", msg="Compiling Bib"},
     {do="shell", args=["bibtex", "--terse", "./{fstem}"], cwd="{tex_export}"},
     # link crossrefs
+    {do="log", msg="Crossreferencing"},
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
 ]
@@ -43,7 +47,7 @@ cleanup = [
     {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
     {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
 
-    {do="exists?", args=["{pdf_export}/{fstem}.pdf"], not=true},
+    {do="exists?", args=["{out}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
     {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
 ]
@@ -69,7 +73,7 @@ actions =[
 name                 = "_.to.html"
 version              = "0.1"
 ctor                 = "task"
-cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false }]
 depends_on           = [
         {task="export::_.one.bib", inject={fpath="fpath"}},
         {do="installed?", args=["bibtex2html"]},
@@ -123,3 +127,15 @@ doc     = ["create a calendar of when entries were added to the db"]
 setup   = []
 actions = []
 cleanup = []
+
+
+
+[[tasks.compile]]
+name    = "install.html"
+version = "0.1"
+cli = [{ name="out",   type="str", prefix="-", default="{html_install}", desc="", positional=false}]
+depends_on = [{do="exists?"  , args=["{out}"], fail=true }]
+actions = [
+    {do="log", msg="Installing compiled bib htmls to {out}"},
+    {do="copy", from="{html_export}/*.html", to="{out}"}
+]

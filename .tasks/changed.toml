@@ -25,13 +25,13 @@ depends_on       = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },
     { do="relative?", args=["{fpath}"], bases_="roots"},
+    { do="exists?", args=["{fpath}"], fail=true},
 ]
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
-    # { do="taskcode.export:build_export_write_stack",      update_="export_stack" },
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
@@ -42,10 +42,9 @@ actions          = [
     { do="job.queue", from_="entry_tasks" },
 ]
 head_actions = [
-    # Queue (whole file) compile and export
-    { task="export::_.one.bib",   inject={fpath="fpath"} },
-    { task="compile::_.to.html",  inject={fpath="fpath"} },
-    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} },
+    { task="export::_.one.bib",   inject={fpath="fpath"} }, # Export
+    { task="compile::_.to.html",  inject={fpath="fpath"} }, # Compile html
+    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} }, # Compile pdf
     # Update Tags:
     { task="tags::_.calculate.update", inject={fpath="fpath"}},
     # Report broken urls:
@@ -64,31 +63,23 @@ inject             = ["entry"]
 ctor               = "task"
 roots              = ["{pdf_source}"]
 shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
-setup              = [
-]
+setup              = []
 actions            = [
     {do="taskcode.bibtex:log_entry_name"},
-    # TODO Extract Tags
-    {do="taskcode.tags:TagAccumulator"},
+    {do="taskcode.tags:TagAccumulator"}, # Extract Tags
     # TODO Extract publisher, institution, journal, organisation, series...
     # {do="taskcode.metadata:postbox_data", box="bibtex::metadata..misc"},
     # ---
-    # # extract filenames
     {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
-    {do="taskcode.bibtex:get_entry_file", update_="entry_file"},
+    {do="taskcode.bibtex:get_entry_file", update_="entry_file"}, # extract filenames
     {do="path.elements", from_="entry_file"},
-    # Update Metadata
-    {do="taskcode.metadata:FileMetadataUpdate"},
-    # get orphans
-    {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"},
+    {do="taskcode.metadata:FileMetadataUpdate"}, # Update Metadata
+    {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"}, # get orphans
     # ---
-    # TODO Link check
-    # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}
+    # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}, # TODO Link check
     # ---
-    # TODO Backup files:
-    # # calc shadows
-    {do="dootle.utils.multi_shadow:CalculateShadowDirs", rpath_="rpath"},
-    # # Run Backup
+    {do="dootle.utils.multi_shadow:CalculateShadowDirs", rpath_="rpath"}, # Calc shadows
+    # Backup Files
     {do="dootle.utils.multi_shadow:MultiBackupAction", from_="entry_file", pattern="{shadow_path}/{fname}"},
 ]
 cleanup = [

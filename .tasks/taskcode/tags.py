@@ -110,13 +110,16 @@ class TagAccumulator:
     @DKeyed.redirects("update_", fallback=None)
     def __call__(self, spec, state, entry, clear, update_):
         if clear:
+            printer.info("Clearing Tags")
             TagAccumulator.all_tags.clear()
             return
         elif update_ not in [None, "update"]:
+            printer.info("Getting Tags")
             return { update_ : TagAccumulator.all_tags }
         elif entry is None:
             return
 
+        printer.info("Accumulating Tags")
         match entry.fields_dict.get("tags", None):
             case None:
                 return

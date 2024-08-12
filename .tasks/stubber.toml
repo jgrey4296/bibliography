@@ -24,7 +24,7 @@ actions              = [
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions = [
-        {do="log", msg="Trying: {fpath} to {target}"},
+        {do="log", msg="Stubbing: {fpath} to {target}"},
         {do="exists?", args=["{target}"], not=true},
         {do="copy", from_="fpath", to_="target"},
         {do="taskcode.stubber:gen_stub", update_="stubtext", to_="target"},
@@ -46,6 +46,7 @@ accept_fn   = "taskcode.stubber:select_refiled"
 roots       = ["{todo_pdfs!p}", "{todo_pdfs!p}/stubbed/"]
 recursive   = false
 actions     = [
+            {do="log", msg="Queuing Cleanup of old files"},
             {do="job.walk",   update_="files", fn_="accept_fn"}, # walk,
             {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
             {do="job.queue",  from_="tasks"}, # queue

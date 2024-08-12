@@ -20,6 +20,7 @@ setup            = [
       { do="taskcode.online:build_online_downloader_write_stack",  update_="write_stack" },
 ]
 actions          = [
+    { do="log", msg="Downloading Entries" },
     # Load
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Write
