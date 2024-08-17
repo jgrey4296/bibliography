@@ -19,7 +19,7 @@ depends_on       = [
     {task="compile::_.gen.template", inject={fpath="fpath"}},
     {do="installed?", args=["pdftex", "bibtex"] },
     {do="relative?", args=["{fpath}"], bases=["{bib}"]},
-    { do="path.elements", from_="fpath", roots=["{bib}"]},
+    {do="path.elements", from_="fpath", roots=["{bib}"]},
     # skip if the exported bib exists and is recent
     { do="dootle.utils.recency_test:stale_test", source="{fpath}", dest="{pdf_export}/{fstem}.pdf" },
 ]
@@ -87,7 +87,7 @@ depends_on           = [
 actions              = [
         {do="log", msg="Converting {fname} to html"},
         # Run bibtex2html
-        {do="shell", args=["bibtex2html", "-o", "{html_export}/{fstem}", "{bib_export}/{fname}"]},
+        {do="shell", args=["bibtex2html", "-o", "{html_export!p}/{fstem}", "{bib_export!p}/{fname}"]},
 ]
 cleanup = [
         {do="exists?", args=["{html_export}/{fstem}.html"], fail=true},
