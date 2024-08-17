@@ -3,6 +3,7 @@
 
 [[tasks.format]]
 name             = "_.by.year"
+doc              = ["Format a single bib file"]
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib}"]

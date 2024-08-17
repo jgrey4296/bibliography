@@ -26,6 +26,7 @@ depends_on       = [
     { do="ext?",      args=["{fpath}"], exts=[".bib"] },
     { do="relative?", args=["{fpath}"], bases_="roots"},
     { do="exists?", args=["{fpath}"], fail=true},
+    { task="format::_.by.year", inject={fpath="fpath"} },
 ]
 setup            = [
     # build the parse and export stacks, and the db
