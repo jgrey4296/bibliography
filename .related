@@ -10,6 +10,7 @@
 :export      : .temp/export
 :github      : .github/workflows
 :git         : .git
+:hooks       : .git/hooks
 :logs        : .temp/logs
 :plus        : plus
 :tasks       : .tasks
