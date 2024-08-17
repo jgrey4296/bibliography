@@ -1,0 +1,20 @@
+;; dot.related -*- mode: elisp -*-
+;; A Related dirs file
+;; ';;' are comment lines
+;; Others are :{name} : {path} pairs
+;; paths are relative
+
+:bookmarks   : bookmarks
+:data        : data
+:docs        : docs
+:export      : .temp/export
+:github      : .github/workflows
+:git         : .git
+:logs        : .temp/logs
+:plus        : plus
+:tasks       : .tasks
+:temp        : .temp
+:templates   : templates
+:timelines   : timelines_
+:todo        : in_progress
+:wiki        : wiki_
