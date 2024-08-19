@@ -56,6 +56,7 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://gamedesignskills.com/blog/
 https://www.gamedeveloper.com/
 https://gamedesignskills.com/game-design/combat-design/
 https://gendesignmc.wikidot.com/wiki:2024-settlement-generation-competition
@@ -1300,6 +1301,8 @@ https://aspietests.org/
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
 ** Fonts
+https://fontmeme.com/
+https://consolidatedpower.co/~donald/zero/Fonts
 http://boingboing.net/2014/01/30/creatingafont.html
 http://etherealmind.com/cli-font-aliasing-font-choice-terminal/
 http://www.blacktable.com/fontova040603.htm
@@ -2462,6 +2465,8 @@ https://www.adl.org/resources/tools-to-track-hate/heat-map
 ** History
 https://seshat-db.com/
 http://seshatdatabank.info/
+** Json
+https://www.schemastore.org/json/
 ** Judicial
 
 *** UK
@@ -2588,12 +2593,13 @@ https://www.th.gov.bc.ca/trafficData/
 https://webarchive.nationalarchives.gov.uk/ukgwa/*/http://www.dft.gov.uk/traffic-counts/
 https://www.transport.nsw.gov.au/data-and-research
 https://utd19.ethz.ch/
+
+** TV
+https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/KentuckyRouteZero
 ** Wiki
 https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
 https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
 https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
-** Json
-https://www.schemastore.org/json/
 * Broken
 http://blog.webkid.io/datasets-for-machine-learning/
 http://kolesnikov.ga/Datasets_in_Python/
