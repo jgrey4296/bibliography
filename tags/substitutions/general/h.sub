@@ -534,7 +534,7 @@ hunger                         : 3
 hunger_games                   : 1
 hurricane                      : 2
 hurricane_katrina              : 3
-hurricanes                     : 9
+hurricanes                     : 9  : hurricane
 hybrid                         : 1
 hybrid_cuckoo                  : 1
 hybrid_logics                  : 1

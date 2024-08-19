@@ -21,3 +21,8 @@ for when generating exported bibtex, don't bother if the exported exists and doe
    :context:
         <2024-07-31 Wed>         BM.metadata.DuplicateHandler(),
    :END:
+** TRIAGE add auto-sort of authors completions etc
+   [[/media/john/data/github/bibliography/.tasks/::7][Location]]
+   :context:
+        <2024-08-19 Mon>   -rw-rw-r--  1 john john 3.7K Aug 17 18:32 changed.toml
+   :END:

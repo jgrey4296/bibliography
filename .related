@@ -5,6 +5,7 @@
 ;; paths are relative
 
 :bookmarks   : bookmarks
+:main        : main
 :data        : data
 :docs        : docs
 :export      : .temp/export
@@ -19,3 +20,4 @@
 :timelines   : timelines_
 :todo        : in_progress
 :wiki        : wiki_
+:tags        : tags/substitutions/general
