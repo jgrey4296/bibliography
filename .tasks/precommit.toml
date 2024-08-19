@@ -32,13 +32,14 @@ cleanup       = [
 name       = "post"
 doc        = []
 ctor       = "job"
+cli        = [{ name="files",   type="list", default=[], positional=true }]
 roots      = ["{bib}"]
 exts       = [".bib"]
 sub_target = "changed::_.one.bib"
 select_limit = 1
 # depends_on = ["bookmark::update"]
 actions    = [
-   {do="log", msg="Starting Post Commit Process"},
+   {do="log", msg="Starting Post Commit Process : {files}"},
    # if No cache, so just process the head changes:
    {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
    {do="job.limit", count_="select_limit", from_="changed"},
