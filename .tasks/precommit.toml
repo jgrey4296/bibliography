@@ -38,6 +38,7 @@ sub_target = "changed::_.one.bib"
 select_limit = 1
 # depends_on = ["bookmark::update"]
 actions    = [
+   {do="log", msg="Starting Post Commit Process"},
    # if No cache, so just process the head changes:
    {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
    {do="job.limit", count_="select_limit", from_="changed"},
@@ -46,6 +47,7 @@ actions    = [
    {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [
-   "stub::cleanup"
+   "stub::cleanup",
    # TODO cache head commit hash
+   {do="log", msg="Finished Post Commit Process"},
 ]
