@@ -31,4 +31,5 @@ repos:
       entry: mamba run "-n" "default" doot "precommit::post"
       verbose: true
       require_serial: true
+      always_run: true
       stages: [post-commit]
