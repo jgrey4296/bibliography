@@ -1735,6 +1735,7 @@ https://www.soundsurvey.org.uk/                                                 
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
 
 ** Tv
+https://www.opensubtitles.com/
 http://arstechnica.com/the-multiverse/2014/06/don-draper-may-be-an-alien-but-mad-men-is-definitely-science-fiction/
 http://en.battlestarwiki.org/wiki/Dirty_Hands
 http://en.battlestarwiki.org/wiki/Gaius
