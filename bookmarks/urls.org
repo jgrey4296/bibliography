@@ -56,6 +56,7 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https:://www.mobygames.com
 https://gamedesignskills.com/blog/
 https://www.gamedeveloper.com/
 https://gamedesignskills.com/game-design/combat-design/
@@ -1176,6 +1177,7 @@ https://womensartblog.wordpress.com
 https://alexanderobenauer.com/labnotes/000/
 * Resources / Assets
 ** APIs
+https://search.worldcat.org/
 https://droughtmonitor.unl.edu/CurrentMap.aspx
 https://12ft.io/  : website cleaner
 https://www.removepaywall.com/ : paywalls

@@ -4,6 +4,7 @@
 ;; Others are :{name} : {path} pairs
 ;; paths are relative
 
+:doot        : doot.toml
 :bookmarks   : bookmarks
 :main        : main
 :data        : data
