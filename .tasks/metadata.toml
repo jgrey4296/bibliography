@@ -30,5 +30,5 @@ actions          = [
     { do="append!", to="{fail_log}", args=["{failures}"] },
 ]
 cleanup = [
-    { do="touch", args=["{fpath}"] },
+    { do="touch", args=["{fpath}"], soft=True },
 ]

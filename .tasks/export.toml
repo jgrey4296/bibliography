@@ -27,6 +27,6 @@ actions = [
         { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
 ]
 cleanup = [
-        { do="touch", args=["{fpath}"] },
-        { do="log", msg="Exported {fname} to {bib_export}"},
+        { do="touch", args=["{fpath}"], soft=True},
+        { do="log", msg="Exported {fname} to {bib_export!p}"},
 ]
