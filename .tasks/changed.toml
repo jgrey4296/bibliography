@@ -4,7 +4,7 @@
 
 [[tasks.changed]]
 name       = "report"
-roots      = ["{bib}"]
+roots      = ["{bib!p}"]
 exts       = [".bib"]
 cache      = "{temp}/precommit::post.commit_cache"
 head_count = 2
@@ -20,12 +20,12 @@ version          = "0.1"
 ctor             = "job"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 inject           = ["fpath"]
-roots            = ["{bib}"]
+roots            = ["{bib!p}"]
 depends_on       = [
     # Check the fpath is a bibtex and in the library
-    { do="ext?",      args=["{fpath}"], exts=[".bib"] },
-    { do="relative?", args=["{fpath}"], bases_="roots"},
-    { do="exists?", args=["{fpath}"], fail=true},
+    { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
+    { do="relative?", args=["{fpath!p}"], bases_="roots"},
+    { do="exists?", args=["{fpath!p}"], fail=true},
     { task="format::_.by.year", inject={fpath="fpath"} },
 ]
 setup            = [
@@ -62,8 +62,8 @@ name               = "_.single.entry.update"
 doc                = ["Entry tasks that do not modify the entry itself"]
 inject             = ["entry"]
 ctor               = "task"
-roots              = ["{pdf_source}"]
-shadow_roots       = ["{backup_1}/library/pdfs", "{backup_2}/library/pdfs"]
+roots              = ["{pdf_source!p}"]
+shadow_roots       = ["{backup_1!p}/library/pdfs", "{backup_2!p}/library/pdfs"]
 setup              = []
 actions            = [
     {do="taskcode.bibtex:log_entry_name"},
@@ -79,9 +79,9 @@ actions            = [
     # ---
     # # {do="taskcode.online:link_check", box="bibtex::entries..urls"}, # TODO Link check
     # ---
-    {do="dootle.utils.multi_shadow:CalculateShadowDirs", rpath_="rpath"}, # Calc shadows
+    {do="dootle.utils.multi_shadow:CalculateShadowDirs"}, # Calc shadows
     # Backup Files
-    {do="dootle.utils.multi_shadow:MultiBackupAction", from_="entry_file", pattern="{shadow_path}/{fname}"},
+    {do="dootle.utils.multi_shadow:MultiBackupAction", from_="entry_file", pattern="{shadow_path!p}/{fname}"},
 ]
 cleanup = [
     # TODO Remove intermediate files?

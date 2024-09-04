@@ -8,9 +8,9 @@ orphans = "{temp}/orphans"
 name    = "_.report.missing"
 inject  = ["fpath", "postbox"]
 setup   = [
-    {do="exists?", args=["{fpath}"], fail=true},
+    {do="exists?", args=["{fpath!p}"], fail=true},
     # TODO calc lib subpath
-    {do="path.elements",   from_="fpath", roots=["{bib}"]},
+    {do="path.elements",   from_="fpath", roots=["{bib!p}"]},
 ]
 depends_on = [
     # {task="orphans::_.filesystem", inject={fpath="lib_sub", fstem="fstem"} },
@@ -33,19 +33,19 @@ cleanup = [
 name               = "_.filesystem"
 doc                = ["walk the library filesystem, summarising all existing files"]
 cli                = [{ name="fpath", type="str", prefix="-", default="{lib-root}", desc="", positional=false  }]
-fpath              = "{lib-root}"
+fpath              = "{lib-root!p}"
 ctor               = "task"
 version            = "0.1"
 # required_for       = [{loc="{orphans}/{fstem}.fs.files", file=true}]
-roots              = ["{lib-root}/{fstem}"]
+roots              = ["{lib-root!p}/{fstem}"]
 exts               = [".pdf", ".epub"]
 recursive          = true
 actions            = [
     {do="path.elements", from_="fpath" },
-    {do="log", msg="Walking: {lib-root}/{fstem}"},
+    {do="log", msg="Walking: {lib-root!p}/{fstem}"},
     {do="job.walk", update_="walked"}, # TODO: or use fdfind
     {do="taskcode.orphans:format_filelist", from_="walked", update_="files"},
-    {do="append!", args=["{files}"], to="{orphans}/{fstem}.fs.files" }
+    {do="append!", args=["{files}"], to="{orphans!p}/{fstem}.fs.files" }
 ]
 
 [[tasks.orphans]]
@@ -56,11 +56,11 @@ priority     = 1
 # depends_on = ["file:>{orphans}/bib.files", "file:>{orphans}/fs.files"]
 actions      = [
         # read file lists
-        {do="read", from="{orphans}/bib.files", type="lines",  update_="bib"},
-        {do="read", from="{orphans}/fs.files",  type="lines",  update_="fs"},
+        {do="read", from="{orphans!p}/bib.files", type="lines",  update_="bib"},
+        {do="read", from="{orphans!p}/fs.files",  type="lines",  update_="fs"},
         # diff them
         {do="taskcode.orphans:diff_filelists"},
         # write results:
-        {do="write!", from_="only_mentioned", to="{orphans}/only_mentioned.files"},
-        {do="write!", from_="only_exists",    to="{orphans}/only_exists.files"},
+        {do="write!", from_="only_mentioned", to="{orphans!p}/only_mentioned.files"},
+        {do="write!", from_="only_exists",    to="{orphans!p}/only_exists.files"},
 ]

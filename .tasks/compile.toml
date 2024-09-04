@@ -18,38 +18,39 @@ depends_on       = [
     {task="export::_.one.bib", inject={fpath="fpath"}},
     {task="compile::_.gen.template", inject={fpath="fpath"}},
     {do="installed?", args=["pdftex", "bibtex"] },
-    {do="relative?", args=["{fpath}"], bases=["{bib}"]},
-    {do="path.elements", from_="fpath", roots=["{bib}"]},
+    {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
+    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
     # skip if the exported bib exists and is recent
-    { do="dootle.utils.recency_test:stale_test", source="{fpath}", dest="{pdf_export}/{fstem}.pdf" },
+    { do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
 ]
 setup            = [
-    {do="copy", from="{bib_export}/{fstem}.bib", to="{tex_export}/{fstem}.bib"},
-    {do="exists?"  , args=["{tex_export}/{fstem}.bib", "{tex_export}/{fstem}.tex"], fail=true },
+    {do="copy", from="{bib_export!p}/{fstem}.bib", to="{tex_export!p}/{fstem}.bib"},
+    {do="exists?"  , args=["{tex_export!p}/{fstem}.bib", "{tex_export!p}/{fstem}.tex"], fail=true },
 ]
 actions =[
     {do="log", msg="Compiling to pdf: {fname}"},
+
     # compile tex
-    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
-    {do="exists?", args=["{tex_export}/{fstem}.pdf"], fail=true },
+    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
+    {do="exists?", args=["{tex_export!p}/{fstem}.pdf"], fail=true },
     # compile bib
     {do="log", msg="Compiling Bib"},
-    {do="shell", args=["bibtex", "--terse", "./{fstem}"], cwd="{tex_export}"},
+    {do="shell", args=["bibtex", "--terse", "./{fstem}"], cwd="{tex_export!p}"},
     # link crossrefs
     {do="log", msg="Crossreferencing"},
-    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
-    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export}"},
+    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
+    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
 ]
 cleanup = [
-    {do="exists?", args=["{tex_export}/{fstem}.pdf"]},
+    {do="exists?", args=["{tex_export!p}/{fstem}.pdf"]},
     # remove intermediate artifacts
-    {do="delete!", args=["{tex_export}/{fstem}.aux", "{tex_export}/{fstem}.bbl", "{tex_export}/{fstem}.blg"]},
-    {do="delete!", args=["{tex_export}/{fstem}.log", "{tex_export}/{fstem}.out"]},
-    {do="delete!", args=["{tex_export}/{fstem}.tex", "{tex_export}/{fstem}.bib"]},
+    {do="delete!", args=["{tex_export!p}/{fstem}.aux", "{tex_export!p}/{fstem}.bbl", "{tex_export!p}/{fstem}.blg"]},
+    {do="delete!", args=["{tex_export!p}/{fstem}.log", "{tex_export!p}/{fstem}.out"]},
+    {do="delete!", args=["{tex_export!p}/{fstem}.tex", "{tex_export!p}/{fstem}.bib"]},
 
-    {do="exists?", args=["{out}/{fstem}.pdf"], not=true},
+    {do="exists?", args=["{out!p}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
-    {do="move", from="{tex_export}/{fstem}.pdf", to="{pdf_export}/{fstem}.pdf"},
+    {do="move", from="{tex_export!p}/{fstem}.pdf", to="{pdf_export!p}/{fstem}.pdf"},
 ]
 
 [[tasks.compile]]
@@ -59,14 +60,14 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 author           = "jg"
 setup            = [
     # Load template
-    {do="path.elements", from_="fpath", roots=["{bib}"]},
-    {do="read",          from="{tex_template}", update_="template"},
+    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+    {do="read",          from="{tex_template!p}", update_="template"},
 ]
 actions =[
     # expand the template
     {do="dootle.utils.template_expansion:TemplateExpansion", template_="template", title="{fstem}", target="./{fstem}.bib", update_="tex"},
     # Write it to a temp file
-    {do="write!", from_="tex", to="{tex_export}/{fstem}.tex"},
+    {do="write!", from_="tex", to="{tex_export!p}/{fstem}.tex"},
 ]
 
 [[tasks.compile]]
@@ -77,11 +78,11 @@ cli                  = [{ name="fpath", type="str", prefix="-", default="", desc
 depends_on           = [
         {task="export::_.one.bib", inject={fpath="fpath"}},
         {do="installed?", args=["bibtex2html"]},
-        {do="relative?",  args=["{fpath}"], bases=["{bib}"]},
-        {do="path.elements", from_="fpath", roots=["{bib}"]},
-        {do="exists?", args=["{bib_export}/{fname}"], fail=true},
+        {do="relative?",  args=["{fpath!p}"], bases=["{bib!p}"]},
+        {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+        {do="exists?", args=["{bib_export!p}/{fname}"], fail=true},
         # skip if the exported bib exists and is recent
-        {do="dootle.utils.recency_test:stale_test", source="{fpath}", dest="{html_export}/{fstem}.html" },
+        {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{html_export!p}/{fstem}.html" },
 
 ]
 actions              = [
@@ -90,7 +91,7 @@ actions              = [
         {do="shell", args=["bibtex2html", "-o", "{html_export!p}/{fstem}", "{bib_export!p}/{fname}"]},
 ]
 cleanup = [
-        {do="exists?", args=["{html_export}/{fstem}.html"], fail=true},
+        {do="exists?", args=["{html_export!p}/{fstem}.html"], fail=true},
         {do="log",   msg="Compiled {fname} to {html_export}"},
 ]
 
@@ -101,7 +102,7 @@ doc                  = ["list any bibs that don't have an exported bib, or a bui
 ctor                 = "job"                                   # <str>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
 exts                 = [".bib"]                                 # <list[str]>
-roots                = ["{bib}"]                                # <list[str|pl.Path]>  Places the Walker will start
+roots                = ["{bib!p}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
         {do="job.walk",   update_="files"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
@@ -110,7 +111,7 @@ actions = [
 sub_actions          = [
     # calc path parts
     {do="path.elements", from_="fpath" },
-    {do="exists?", args=["{bib_export}/{fstem}.bib", "{pdf_export}/{fstem}.pdf"], not=true},
+    {do="exists?", args=["{bib_export!p}/{fstem}.bib", "{pdf_export!p}/{fstem}.pdf"], not=true},
     {do="post.put", "compile::missing..files"="{fstem}"},
 ]
 head_actions = [
@@ -133,9 +134,9 @@ cleanup = []
 [[tasks.compile]]
 name    = "install.html"
 version = "0.1"
-cli = [{ name="out",   type="str", prefix="-", default="{html_install}", desc="", positional=false}]
-depends_on = [{do="exists?"  , args=["{out}"], fail=true }]
+cli = [{ name="out",   type="str", prefix="-", default="{html_install!p}", desc="", positional=false}]
+depends_on = [{do="exists?"  , args=["{out!p}"], fail=true }]
 actions = [
     {do="log", msg="Installing compiled bib htmls to {out}"},
-    {do="copy", from="{html_export}/*.html", to="{out}"}
+    {do="copy", from="{html_export!p}/*.html", to="{out!p}"}
 ]

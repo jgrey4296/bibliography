@@ -10,9 +10,9 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 cli                  = [{ name="files",   type="list", default=[], positional=true }]
 db_name              = "places.sqlite"
-log_file             = "{temp}/logs/bookmark_update.log"
+log_file             = "{temp!p}/logs/bookmark_update.log"
 depends-on           = [
-   { do="dootle.utils.recency_test:recency_test", target="{bookmarks}"},
+   { do="dootle.utils.recency_test:recency_test", target="{bookmarks!p}"},
    "bookmark::_.firefox",
    "bookmark::_.archived"
 ]
@@ -24,9 +24,9 @@ actions              = [
    { do="dootle.bookmarks.actions:BookmarksMerge", from_=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
    { do="dootle.bookmarks.actions:BookmarksRemoveDuplicates", from_="total_bkmks" },
    { do="dootle.bookmarks.actions:BookmarksToStr", from_="total_bkmks", update_="bkmks_str" },
-   { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{log_file}" },
-   { do="write!", from_="bkmks_str", to="{temp}/merged.bookmarks" },
-   { do="write!", from_="bkmks_str", to="{bookmarks}" },
+   { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{log_file!p}" },
+   { do="write!", from_="bkmks_str", to="{temp!p}/merged.bookmarks" },
+   { do="write!", from_="bkmks_str", to="{bookmarks!p}" },
 ]                                                                                                        # <list[Any]>
 
 [[tasks.bookmark]]
@@ -36,14 +36,14 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 db_name              = "places.sqlite"
 cleanup = [
-   { do="delete!", args=["{temp}/{db_name}", "{temp}/{db_name}-shm", "{temp}/{db_name}-wal"], lax=true },
+   { do="delete!", args=["{temp!p}/{db_name}", "{temp!p}/{db_name}-shm", "{temp!p}/{db_name}-wal"], lax=true },
 ]
 setup                = [
-   { do="doot.actions.io:SimpleFind", from="{firefox}", pattern_="db_name", rec=true, update_="db_locs"},
+   { do="doot.actions.io:SimpleFind", from="{firefox!p}", pattern_="db_name", rec=true, update_="db_locs"},
 ]
 actions              = [
-   { do="copy", from_="db_locs", to="{temp}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
-   { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp}/{db_name}", update_="firefox_bkmks" }, # extract
+   { do="copy", from_="db_locs", to="{temp!p}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
+   { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp!p}/{db_name}", update_="firefox_bkmks" }, # extract
    { do="post.put", args=["{firefox_bkmks}"] },
 ]
 
@@ -54,6 +54,6 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 depends_on           = ["file:>{bookmarks}"]                   # <list[DootTaskArtifact]>
 actions              = [
-   { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks}", update_="total_bkmks" },
+   { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks!p}", update_="total_bkmks" },
    { do="post.put", args=["{total_bkmks}"] },
 ]

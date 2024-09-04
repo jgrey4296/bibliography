@@ -7,16 +7,16 @@ cal_export    = "{export}/calendar"
 name             = "_.one.bib"
 doc              = ["export a bibtex, with latex encoding"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-export_bases     = ["{bib}"]
+export_bases     = ["{bib!p}"]
 depends_on       = [
-        { do="relative?", args=["{fpath}"], bases_="export_bases" },
+        { do="relative?", args=["{fpath!p}"], bases_="export_bases" },
         { do="path.elements", from_="fpath", roots=["."]},
         # skip if the exported bib exists and is recent
-        { do="dootle.utils.recency_test:stale_test", source="{fpath}", dest="{bib_export}/{fname}" },
+        { do="dootle.utils.recency_test:stale_test", source="{fpath!p}", dest="{bib_export!p}/{fname}" },
 ]
 setup           = [
-        { do="path.elements", from_="fpath", roots=["."]},
-        { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
+        # { do="path.elements", from_="fpath", roots=["."]},
+        { do="dootle.bibtex:BibtexInitAction",             update_="bib_db"},
         { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
         { do="taskcode.export:build_export_write_stack",   update_="export_stack" },
 ]
@@ -24,9 +24,9 @@ actions = [
         { do="log", msg="Exporting: {fname}" },
         { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
-        { do="write!", from_="bib_text", to="{bib_export}/{fname}"},
+        { do="write!", from_="bib_text", to="{bib_export!p}/{fname}"},
 ]
 cleanup = [
-        { do="touch", args=["{fpath}"], soft=True},
+        { do="touch", args=["{fpath!p}"], soft=true},
         { do="log", msg="Exported {fname} to {bib_export!p}"},
 ]

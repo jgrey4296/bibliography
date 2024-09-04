@@ -82,7 +82,6 @@ def build_working_write_stack(spec, state, _libroot, _update):
     ]
     return { _update : write_mids }
 
-
 @DKeyed.types("entry")
 def log_entry_name(spec, state, entry):
     match entry.fields_dict.get("title", None):
@@ -90,7 +89,6 @@ def log_entry_name(spec, state, entry):
             printer.info("> %s", entry.key)
         case x:
             printer.info("> %s", x.value)
-
 
 @DKeyed.types("entry")
 @DKeyed.redirects("update_")
