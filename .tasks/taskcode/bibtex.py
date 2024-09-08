@@ -82,6 +82,16 @@ def build_working_write_stack(spec, state, _libroot, _update):
     ]
     return { _update : write_mids }
 
+@DKeyed.redirects("update_")
+def build_minimal_parse_stack(spec, state, _update):
+    """ a minimal reader for moving entries around """
+    read_mids = [
+        BM.DuplicateHandler(),
+        ms.ResolveStringReferencesMiddleware(True),
+        ms.RemoveEnclosingMiddleware(True),
+    ]
+    return { _update : read_mids}
+
 @DKeyed.types("entry")
 def log_entry_name(spec, state, entry):
     match entry.fields_dict.get("title", None):

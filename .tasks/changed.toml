@@ -54,6 +54,7 @@ head_actions = [
     # { task="orphans::_.report.missing", inject={fpath="fpath"} },
     # TODO Summarise
     # { task="bibtex:_.summarise", inject={fpath="fpath"} },
+    {do="say", args=["Finished handling changes"]}
 ]
 cleanup = []
 
