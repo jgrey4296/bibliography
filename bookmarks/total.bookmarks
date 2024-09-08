@@ -1998,7 +1998,7 @@ http://math.furman.edu/~dcs/mvbook/ : edu : math
 http://math.stackexchange.com/questions/27535/how-to-find-center-of-an-arc-given-start-point-end-point-radius-and-arc-direc#87374 : geometry : math
 http://mathnmind.com/PDF%20Files/Algebra1/Textbook/chap14.pdf : math : pdf
 http://mathworld.wolfram.com/ : math
-http://matplotlib.org/examples/index.html : example : libraries : matplotlib : python : tutorial
+https://matplotlib.org/2.0.2/examples/index.html : example : libraries : matplotlib : python : tutorial
 http://matplotlib.org/faq/osx_framework.html : OSX : anaconda : conda : matplotlib : python
 http://matt.eifelle.com/2013/05/02/comparison-of-optimization-algorithms/ : algorithm : machine_learning : optimisation : overview : tutorial
 http://matt.might.net/articles/books-papers-materials-for-graduate-students/ : book : computer_science : recommendation : writing
