@@ -32,11 +32,6 @@ from uuid import UUID, uuid1
 import more_itertools as mitz
 ##-- end lib imports
 
-##-- logging
-logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
-##-- end logging
-
 from random import choice, choices
 
 import bibtexparser as BTP
@@ -47,8 +42,13 @@ import doot.errors
 from doot.structs import DKey, DKeyed
 import bib_middleware as BM
 
-MYBIB                              = "#my_bibtex"
-MAX_TAGS                           = 7
+##-- logging
+logging = logmod.getLogger(__name__)
+printer = doot.subprinter("action_exec")
+##-- end logging
+
+MYBIB    = "#my_bibtex"
+MAX_TAGS = 7
 
 @DKeyed.paths("lib-root")
 @DKeyed.redirects("update_")
