@@ -9,15 +9,14 @@
 :main        : main
 :data        : data
 :docs        : docs
-:export      : .temp/export
 :github      : .github/workflows
 :git         : .git
 :hooks       : .git/hooks
-:logs        : .temp/logs
 :plus        : plus
 :tasks       : .tasks
 :temp        : .temp
-:templates   : templates
+:export      : .temp/export
+:logs        : .temp/logs
 :timelines   : timelines_
 :todo        : in_progress
 :wiki        : wiki_
