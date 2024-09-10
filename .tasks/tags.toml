@@ -5,7 +5,6 @@ known_tag_file = {file="{temp}/tags/known.tags"}
 canon_tag_file = {file="{temp}/tags/canon.tags"}
 bkmk_tag_file  = {file="{temp}/tags/bkmks.tags"}
 
-
 [[tasks.tags]]
 name    = "_.build.bkmk.tags"
 version = "0.1"
@@ -25,14 +24,15 @@ actions = [
 ]
 
 [[tasks.tags]]
-name      = "_.build.total"
-doc       = ["build the totals.tags file from individual tag substitution files"]
-version   = "0.1"
-ctor      = "job"
-roots     = ["{substitutions!p}/general"]
-exts      = [".sub"]
-recursive = false
-depends_on = [
+name         = "_.build.total"
+doc          = ["build the totals.tags file from individual tag substitution files"]
+version      = "0.1"
+ctor         = "job"
+roots        = ["{substitutions!p}/general"]
+exts         = [".sub"]
+recursive    = false
+required_for = [{file="known_tag_file"}, {file="canon_tag_file"}]
+depends_on   = [
     "tags::_.build.bkmk.tags",
     # Skip if totals.tags was modified today
     {do="dootle.utils.recency_test:recency_test", target="{canon_tag_file!p}"},
@@ -60,7 +60,7 @@ head_actions = [
 [[tasks.tags]]
 name      = "_.calculate.update"
 version   = "0.1"
-doc       = []
+doc       = ["Calculate the difference between known tags and new tags"]
 inject    = ["fpath"]
 ctor      = "task"
 roots     = ["{substitutions!p}/general"]
@@ -81,12 +81,3 @@ actions = [
     # Clear the tag record
     { do="taskcode.tags:TagAccumulator", clear=true},
 ]
-
-[[tasks.tags]]
-name = "_.clean.bib"
-
-[[tasks.tags]]
-name = "_.clean.bookmarks"
-
-[[tasks.tags]]
-name = "generate.people"

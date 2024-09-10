@@ -22,6 +22,8 @@ actions          = [
         {do="log", msg="Formatting: {fpath!p}"},
         # Load
         { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+        # TODO clean Tags
+        # --
         # Write formatted out
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
         { do="write!", from_="bib_text", to="{fpath!p}"},
