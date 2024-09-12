@@ -1998,7 +1998,7 @@ http://math.furman.edu/~dcs/mvbook/ : edu : math
 http://math.stackexchange.com/questions/27535/how-to-find-center-of-an-arc-given-start-point-end-point-radius-and-arc-direc#87374 : geometry : math
 http://mathnmind.com/PDF%20Files/Algebra1/Textbook/chap14.pdf : math : pdf
 http://mathworld.wolfram.com/ : math
-http://matplotlib.org/examples/index.html : example : libraries : matplotlib : python : tutorial
+https://matplotlib.org/2.0.2/examples/index.html : example : libraries : matplotlib : python : tutorial
 http://matplotlib.org/faq/osx_framework.html : OSX : anaconda : conda : matplotlib : python
 http://matt.eifelle.com/2013/05/02/comparison-of-optimization-algorithms/ : algorithm : machine_learning : optimisation : overview : tutorial
 http://matt.might.net/articles/books-papers-materials-for-graduate-students/ : book : computer_science : recommendation : writing
@@ -6649,6 +6649,7 @@ https://confluence.cornell.edu/display/llresearch/Supreme+Court+Dialogs+Corpus :
 https://consent.yahoo.com/collectConsent?inline=false&lang=en-gb : huffington_post : kamala_harris : truancy
 https://consent.yahoo.com/collectConsent?sessionId=3_cc-session_5c886d8a-2b20-4d6b-83a8-d11812289681&lang=en-gb&inline=false : huffington_post : kamala_harris : truancy
 https://conservativehome.com/2023/11/20/david-gauke-defeat-in-court-on-the-rwanda-policy-is-no-reason-to-abandon-the-rule-of-law/ : conservative : david_gauke : immigration : rwanda : suella_braverman : uk
+https://consolidatedpower.co/~donald/zero/Fonts : fonts : kentucky_route_zero
 https://construct.readthedocs.io/en/latest/index.html : binary : construct : python
 https://control--panel.com/ : control_panel : design : hardware
 https://cookiecutter.readthedocs.io/en/2.2.3/README.html : cookiecutter : python : software_engineering : templating
@@ -6757,6 +6758,7 @@ https://deliciousmeta.tumblr.com/post/620460838937116672/redemption-arcs-and-chr
 https://demoman.net/?a=trig-for-games : demoman : game_development : math : programming : trig : trigonometry
 https://derek-epp.com/articles/ : __come_back_to : derek_epp : institution : policy
 https://designresearch.no/people/ragnhild-tronstad : academia : person : ragnhild_tronstad
+https://desotomo.com/contact-us/ : de_soto : missouri : police
 https://detroitography.com/2018/11/30/mapping-the-green-book-in-detroit-1938-1963/ : detroit : geography : green_book : history : racism
 https://dev.epicgames.com/community/learning/tutorials/L9vK/unreal-engine-common-issues-with-behavior-trees-and-things-you-should-competely-avoid : __come_back_to : behaviour_tree : blog : epic_games : unreal_engine
 https://dev.epicgames.com/documentation/en-us/uefn/verse-language-reference : epic_games : game_design : programming_language : verse
@@ -7752,6 +7754,7 @@ https://gamasutra.com/view/news/354810/Brenda_Romero_breaks_down_Empire_of_Sins_
 https://game.itu.dk/articles/ : game : paper : research_group : x_com
 https://gamedaily.biz/article/728/value-pithiness-over-lushness-weather-factorys-alexis-kennedy-on-crafting-exquisite-narrative?amphtml=1 : __come_back_to : alexis_kennedy : game_criticism : game_daily : game_development : narrative_design : writing
 https://gamedaily.biz/article/728/value-pithiness-over-lushness-weather-factorys-alexis-kennedy-on-crafting-exquisite-narrative?amphtml=1&__twitter_impression=true : __come_back_to : alexis_kennedy : game_criticism : game_daily : game_development : narrative_design : writing
+https://gamedesignskills.com/blog/ : blog : game_design
 https://gamehistory.org/simcity/ : 8_bit : game_history : history : sim_city
 https://gameraboy1.tumblr.com/post/178619671301/behind-the-scenes-of-battlestar-galactica-1978 : battlestar_galactica : tumblr
 https://gameraboy1.tumblr.com/post/179028559146/one-eye-viewed-the-room-briefly-before : art : science_fiction : tumblr
@@ -9032,6 +9035,7 @@ https://jsonlines.org/ : data : file_format : json : json_lines : standard
 https://jsonlines.readthedocs.io/en/latest/ : json : jsonlines : python
 https://juliagaffield.medium.com/who-was-jean-jacques-dessalines-and-why-does-he-matter-now-3cce1434c15b : 1804 : blog : haiti : history : independence : jean_jacques_dessalines : julia_gaffield : medium : revolution : slavery
 https://juliareda.eu/2017/09/when-filters-fail/ : algorithm : censorship : content : filter : trust
+https://junebug.bandcamp.com/album/too-late-to-love-you : kentucky_route_zero : music
 https://junestrings.itch.io/ : itchio : junestrings
 https://jupyterlab.readthedocs.io/en/stable/user/export.html : jupyter : notebook : python
 https://just.systems/man/en/chapter_1.html : just : make : rust : task_runner
@@ -10117,6 +10121,7 @@ https://pythonhosted.org/py2app/index.html : distribution : libraries : python
 https://pythontesting.net/framework/nose/nose-introduction/ : nose : python : unit_testing
 https://q.uiver.app/ : __important : diagram : editor : latex : quiver : web_app
 https://qntm.org/write : blog : technical : writing
+https://qpdf.readthedocs.io/en/stable/ : pdf : qpdf
 https://quality-diversity.github.io/papers : algorithm : github : machine_learning : quality_diversity : search
 https://qz.com/1418567/us-elections-are-held-on-a-tuesday-thanks-to-19th-century-farmers/ : USA : election : farming : history
 https://qz.com/1437623/600-free-online-courses-you-can-take-from-universities-worldwide/ : education : online_courses : online_education : quartz
@@ -12042,7 +12047,7 @@ https://www.gdquest.com/tutorial/godot/learning-paths/developer/ : education : g
 https://www.geografiainfinita.com/2017/06/una-radiografia-del-mundo-a-traves-de-la-distancia-al-mar/ : data_visualisation : geography : map : spain
 https://www.geologyin.com/2017/12/how-does-opal-get-its-color.html : gems : geology : opals : rocks
 https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/ : PIM : evernote : knowledge : personal_knowledge_base : sung_cho
-https://www.ghostscript.com/ : conversion : ghostscript : pdf : postscript
+https://www.ghostscript.com/ : cli : conversion : ghostscript : pdf : postscript
 https://www.gibberlings3.net/files/file/1003-cirerreks-iwd2-scripting-info/ : __come_back_to : file_format
 https://www.git-scm.com/docs/gitattributes#_marking_files_as_binary : binary_files : git : gitattributes : version_control
 https://www.git-tower.com/blog/setting-up-gpg-windows/ : gpg : windows

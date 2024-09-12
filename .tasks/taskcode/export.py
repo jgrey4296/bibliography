@@ -53,7 +53,7 @@ def build_export_write_stack(spec,state, _libroot, _update):
     write_mids = [
         BM.people.NameWriter(),
         ms.MergeCoAuthors(),
-        BM.latex.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.latex.LatexWriter(),
         BM.metadata.IsbnWriter(),
         BM.metadata.TagsWriter(),
         BM.files.PathWriter(lib_root=_libroot),

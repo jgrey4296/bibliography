@@ -1,0 +1,53 @@
+
+[[locations]]
+chunked      = "{temp}/chunked"
+chunk_failed = "{chunked}/failed"
+
+[[tasks.chunk]]
+disabled = true
+name            = "dir"
+doc             = ["Split a directory of bibtex into chunks of a limited number of entries"]
+ctor            = "job"
+roots           = ["{dir!p}"]
+exts            = [".bib"]
+recursive       = false
+target_bib_size = 250
+actions         = [
+    {do="job.walk",   update_="files" }, # walk
+    {do="job.expand", from_="files", template_="sub_actions", inject={copy=["target_bib_size"], replace=["fpath"]}, update_="tasks"},
+    {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
+    {do="job.queue",  from_="tasks"},
+]
+sub_actions = [
+    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
+    { do="taskcode.bibtex:build_minimal_parse_stack",   update_="parse_stack"},
+    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    # convert to n * target_bib_size libraries
+    { do="taskcode.chunking:split_library", from_="bib_db", update_="split_libs" },
+    # add to postbox
+    { do="post.put", args=["split_libs"] },
+    { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{chunk_failed!p}/{fstem}.bib" },
+]
+cleanup = [
+    "chunks::_.queue.chunks"
+]
+
+[[tasks.chunk]]
+name = "_.queue.chunks"
+ctor = "job"
+actions = [
+    {do="post.get",   data="chunk::dir..-"}, # Get from postbox
+    {do="job.expand", from_="data", template_="chunk::_.to.file", update_="tasks"},
+    {do="job.queue",  args=["tasks"]},      # Queue
+]
+
+
+[[tasks.chunk]]
+name = "_.to.file"
+actions = [
+    # write library
+    { do="taskcode.chunking:generate_stem", from_="data", update_="fstem"},
+    { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
+    { do="dootle.bibtex.v2:BibtexToStrAction",  from_="data", update_="bib_text", write_stack_="write_stack" },
+    { do="write!", from_="bib_text", to="{chunked!p}/{fstem}.bib"},
+]

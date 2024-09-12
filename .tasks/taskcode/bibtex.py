@@ -32,11 +32,6 @@ from uuid import UUID, uuid1
 import more_itertools as mitz
 ##-- end lib imports
 
-##-- logging
-logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
-##-- end logging
-
 from random import choice, choices
 
 import bibtexparser as BTP
@@ -47,8 +42,13 @@ import doot.errors
 from doot.structs import DKey, DKeyed
 import bib_middleware as BM
 
-MYBIB                              = "#my_bibtex"
-MAX_TAGS                           = 7
+##-- logging
+logging = logmod.getLogger(__name__)
+printer = doot.subprinter("action_exec")
+##-- end logging
+
+MYBIB    = "#my_bibtex"
+MAX_TAGS = 7
 
 @DKeyed.paths("lib-root")
 @DKeyed.redirects("update_")
@@ -82,6 +82,15 @@ def build_working_write_stack(spec, state, _libroot, _update):
     ]
     return { _update : write_mids }
 
+@DKeyed.redirects("update_")
+def build_minimal_parse_stack(spec, state, _update):
+    """ a minimal reader for moving entries around """
+    read_mids = [
+        BM.DuplicateHandler(),
+        ms.ResolveStringReferencesMiddleware(True),
+        ms.RemoveEnclosingMiddleware(True),
+    ]
+    return { _update : read_mids}
 
 @DKeyed.types("entry")
 def log_entry_name(spec, state, entry):
@@ -90,7 +99,6 @@ def log_entry_name(spec, state, entry):
             printer.info("> %s", entry.key)
         case x:
             printer.info("> %s", x.value)
-
 
 @DKeyed.types("entry")
 @DKeyed.redirects("update_")

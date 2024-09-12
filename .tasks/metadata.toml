@@ -11,10 +11,10 @@ doc              = ["update the file metadata for all entries in a single bib fi
 version          = "0.1"
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-roots            = ["{pdf_source}", "{bib}"]
+roots            = ["{pdf_source!p}", "{bib!p}"]
 depends_on       = [
-    { do="ext?",      args=["{fpath}"], exts=[".bib"] },
-    { do="relative?", args=["{fpath}"], bases_="roots"},
+    { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
+    { do="relative?", args=["{fpath!p}"], bases_="roots"},
 ]
 setup            = [
     { do="path.elements", from_="fpath" },
@@ -22,13 +22,13 @@ setup            = [
     { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
 ]
 actions          = [
-    { do="log", msg="Metadata by year: {fpath}", level="WARN"},
+    { do="log", msg="Metadata Update For Year: {fpath}", level="WARN"},
     # Read
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Apply (TODO: change this to queue subtasks tasks)
-    { do="taskcode.metadata:ApplyMetadata", from_="bib_db", backup_="meta_backup"},
-    { do="append!", to="{fail_log}", args=["{failures}"] },
+    { do="taskcode.metadata:ApplyMetadataToLibrary", from_="bib_db", backup_="meta_backup"},
+    { do="append!", to_="fail_log", args=["{failures}"] },
 ]
 cleanup = [
-    { do="touch", args=["{fpath}"] },
+    { do="touch", args=["{fpath!p}"], soft=true },
 ]

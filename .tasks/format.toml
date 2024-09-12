@@ -3,12 +3,13 @@
 
 [[tasks.format]]
 name             = "_.by.year"
+doc              = ["Format a single bib file"]
 ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-export_bases     = ["{bib}"]
+export_bases     = ["{bib!p}"]
 depends_on       = [
-        {do="exists?", args=["{fpath}"], fail=true },
-        {do="ext?",    args=["{fpath}"], exts=[".bib"] },
+        {do="exists?", args=["{fpath!p}"], fail=true },
+        {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
@@ -18,14 +19,16 @@ setup = [
         { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
 ]
 actions          = [
-        {do="log", msg="Formatting: {fpath}"},
+        {do="log", msg="Formatting: {fpath!p}"},
         # Load
         { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+        # TODO clean Tags
+        # --
         # Write formatted out
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
-        { do="write!", from_="bib_text", to="{fpath}"},
+        { do="write!", from_="bib_text", to="{fpath!p}"},
         # Write any failed blocks
-        { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp}/failed_{fstem}.bib" },
+        { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp!p}/failed_{fstem}.bib" },
         # Extract tags and add to postbox:
         { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
         { do="post.put", "format::_.by.year..tags"=["{tags}"] },

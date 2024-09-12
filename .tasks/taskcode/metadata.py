@@ -71,7 +71,7 @@ def report_chosen_files(spec, state, tasks):
         path = x.extra.fpath
         printer.warning("%-20s : %s", pl.Path(path.parent.name) / path.name, datetime.datetime.fromtimestamp(path.stat().st_mtime))
 
-class ApplyMetadata(BM.metadata.MetadataApplicator):
+class ApplyMetadataToLibrary(BM.metadata.MetadataApplicator):
     """ A Standalone Wrapper around the library-metadata MetadataApplicator
       """
 
@@ -90,11 +90,8 @@ class ApplyMetadata(BM.metadata.MetadataApplicator):
 
 class GenBibEntryTask:
     """
-    Queue each entry of a library as a separate subtask application
+    Generate a task for each entry of a library
     """
-
-    def __init__(self):
-        super().__init__()
 
     @DKeyed.types("from", check=BTP.Library)
     @DKeyed.formats("template")
@@ -120,4 +117,5 @@ class FileMetadataUpdate(BM.metadata.MetadataApplicator):
 
     @DKeyed.types("entry")
     def __call__(self, spec, state, entry):
+        printer.info("Applying Metadata to file")
         self.transform_entry(entry, None)

@@ -21,7 +21,6 @@
 *** The Lighthouse (2019)
 *** The Menu (2022)
 *** The Thing (1982)
-
 *** Venom: Left There Be Carnage (2021)
 ** Shows
 *** Any Human Heart
@@ -93,7 +92,6 @@
 *** Scooby-Doo 2: Monsters Unleashed (2004)
 *** Scooby-Doo and the Alien Invaders (2001)
 *** Scooby-Doo and the Witch's Ghost (1999)
-*** Shark Tale
 *** Shark Tale
 *** Skyfall
 *** Snatch
@@ -198,74 +196,235 @@
 *** Watchmen
 *** White Collar
 ** Music
-*** The Heavy - The Glorious Dead
-*** The Heavy - Great Vengeance and Furious Fire
-*** The Heavy - The House That Dirt Built
-*** Jungle - For Ever
-*** Jungle - Jungle
-*** Lana Del Rey - Born To Die
-*** The Rapture - Pieces Of The People We Love
-*** The Grand Budapest Hotel OST
-*** Cowboy Bebop OST
-*** Moon OST
-*** Requiem For A Dream OST
-*** Spiritualized - Ladies and Gentlemen We Are In Space
-*** Calvin Harris - Bounce
-*** Dj Fresh - Louder
-*** The National - High Violet
-*** Rihanna - Loud
-*** Pendulum - In Silico
-*** Jona Lewis - You'll Always Find Me In The Kitchen
-*** The National - Exile Viligy
-*** Jack Johnson - Brushfire Fairytales
-*** Electric Light Orchestra - Out Of The Blue
-*** Aloe Blacc - Good Things
-*** LMFAO - Party Rock Anthem
-*** Lady Gaga - The Fame Monster
-*** Incubus - Morning View
-*** Spiritualized - Let It Come Down
-*** Kimmo Pohjonen - Uniko
-*** Jim Guthrie - Sword & Sworcery LP
-*** The Zombies - Original Studio Recordings, Vol 1
 *** Alina Ibragimova - Bach Sonatas & Partitas For Solo Violin
-*** The Andrews Sisters
-*** Dexter OST
-*** Bioshock 2 OST
+*** Aloe Blacc - Good Things
 *** Audioslave - Revelations
 *** Bear McCreary - Battlestar Sonatica For Solo Piano
-*** Beck - Odelay
 *** Beck - Modern Guilt
-*** Eternal Sunshine For The Spotless Mind OST
+*** Beck - Odelay
+*** Bioshock 2 OST
 *** Boards Of Canada - Music Has The Right To Children
 *** Bob Dylan - John Wesley Harding
-*** Kronos Quartet - Monk Suite
-*** Kronos Quartet - Golijov
+*** Calvin Harris - Bounce
+*** Cowboy Bebop OST
+*** Dexter OST
+*** Dj Fresh - Louder
+*** Electric Light Orchestra - Out Of The Blue
+*** Eternal Sunshine For The Spotless Mind OST
 *** Frank Zappa - Beat The Boots 3
-*** The Gothic Archies - The Tragic Treasury
+*** Incubus - Morning View
+*** Jack Johnson - Brushfire Fairytales
 *** Jamiroquai - Rock Dust Light Star
+*** Jim Guthrie - Sword & Sworcery LP
 *** Johann Mertz - Strauss : Waltzes
 *** Johnny Hollow - Dirty Hands
+*** Jona Lewis - You'll Always Find Me In The Kitchen
+*** Jungle - For Ever
+*** Jungle - Jungle
 *** Kenny Rogers - Solid Gold
+*** Kimmo Pohjonen - Uniko
+*** Kronos Quartet - Golijov
+*** Kronos Quartet - Monk Suite
+*** Lady Gaga - The Fame Monster
+*** Lana Del Rey - Born To Die
+*** LMFAO - Party Rock Anthem
 *** Lou Reed - Metal Machine Music
 *** Marilyn Manson - The High End Of Low
-*** Massive Attack - Mezzanine
 *** Massive Attack - Heligoland
+*** Massive Attack - Mezzanine
+*** Moon OST
 *** Parliament - Mothership Connection
 *** Paul Simon - Graceland
+*** Pendulum - In Silico
 *** Pink Floyd - Wish You Were Here
 *** Prince - Parade
-*** REM - Automatic For The People
 *** Red Hot Chili Peppers - By The Way
 *** Red Hot Chili Peppers - Californication
+*** REM - Automatic For The People
+*** Requiem For A Dream OST
+*** Rihanna - Loud
 *** Robin Williams - Weapons Of Self Destruction
 *** Scissor Sisters - Night Work
 *** Simon & Garfunkel - Sounds Of Silence
+*** Spiritualized - Ladies and Gentlemen We Are In Space
+*** Spiritualized - Let It Come Down
 *** Squarepusher - Hello Everything
 *** Stereophonics - Just Enough Education To Perform
-*** The White Stripes - Icky Thump
+*** The Andrews Sisters
+*** The Gothic Archies - The Tragic Treasury
+*** The Grand Budapest Hotel OST
+*** The Heavy - Great Vengeance and Furious Fire
+*** The Heavy - The Glorious Dead
+*** The Heavy - The House That Dirt Built
+*** The National - Exile Vilify
+*** The National - High Violet
+*** The Rapture - Pieces Of The People We Love
 *** The White Stripes - Elephant
+*** The White Stripes - Icky Thump
+*** The Zombies - Original Studio Recordings, Vol 1
 *** Yeah Yeah Yeahs - It's Blitz!
 * Audible
+** US Audible
+*** 1984 - George Orwell
+*** 2312 - Kim Stanley Robinson
+*** A Canticle for Leibowitz - Walter M. Miller Jr.
+*** Alexander Hamilton - Ron Chernow
+*** A Maze of Death - Philip K. Dick
+*** Anathem - Neal Stephenson
+*** Ancillary Justice - Ann Leckie
+*** Any Human Heart - William Boyd
+*** Artemis - Andy Weir
+*** A Short History of Nearly Everything
+*** At Home - Bill Bryson
+*** Aurora - Kim Stanley Robinson
+*** Binti - Nnedi Okorafor
+*** Bleak House - Charles Dickens
+*** Capital in the Twenty-First Century - Thomas Piketty
+*** Carpe Jugulum - Terry Pratchett
+*** Civlization - Niall Ferguson
+*** Customs of the World: Using Cultural Intelligence to Adapt, Wherever you Are - David Livermore
+*** Debt - David Graeber
+*** Discipline and Punish - Michel Foucault
+*** Embassytown - China Mieville
+*** Food: A Cultural Culinary History - Ken Albala
+*** From Yao to Mao: 5000 years of Chinse History - Kenneth J. Hammond
+*** Gormenghast - Mervyn Peake
+*** Hard-Boiled Wonderland and the End of the World
+*** If This isn't Nice, What is - Kurt Vonnegut
+*** Invisible Cities - Italo Calvino
+*** Kraken - China Mieville
+*** Last and First Men - Olaf Stapleton
+*** Market Forces - Richard K. Morgan
+*** Men At Arms - Terry Pratchett
+*** Metro 2033 - Dmitry Glukovsky
+*** Mortal Engines - Stanislaw Lem
+*** Neuromancer - William Gibson
+*** New York 2140 - Kim Stanley Robinson
+*** Night Watch - Terry Pratchett
+*** One Hundred Years of Solitude - Gabrial Garcia Marquez
+*** Parable of the Sower - Octavia Butler
+*** Perdido Street Station - China Mieville
+*** Raising Steam - Terry Pratchett
+*** Ready Player One - Ernest Cline
+*** Redshirts - John Scalzi
+*** Shakespeare - Bill Bryson
+*** Small Gods - Terry Pratchett
+*** Snow Crash - Neal Stephenson
+*** Snuff - Terry Pratchett
+*** Solar Lottery - Philip K. Dick
+*** Sophie's World - Joestein Gaarder
+*** Stand on Zanzibar - John Brunner
+*** Surfaces and Essences - Douglas Hofstadter
+*** The 48 Laws of Power
+*** The African Experience: From Lucy to Mandela - Kenneth P. Vickery
+*** The Amber Spyglass - Philip Pullman
+*** The Architecture of Happiness - Alain de Botton
+*** The Ascent of Money - Niall Ferguson
+*** The Collapsing Empire - Jon Scalzi
+*** The Complete Short Stories - J. G. Ballard
+*** The Conservative Tradition - Patrick N. Allitt
+*** The Cyberiad - Stanislaw Lem
+*** The Dispossessed - Ursula Le Guin
+*** The Folklore of Discworld - Terry Pratchett
+*** The Found and the Lost - Ursula Le Guin
+*** The Great Degeneration - Niall Ferguson
+*** The Gunslinger - Stephen King
+*** The Handmaid's Tai - Margaret Atwood
+*** The Knowledge - Lewis Dartnell
+*** The Langoliers - Stephen King
+*** The Long Dark Tea Time of the Soul - Douglas Adams
+*** The Mandibles - Lionel Shriver
+*** The Martian - Andy Weir
+*** The Metamorphosis - Franz Kafka
+*** The Modern Political Tradition: Hobbes to Habermas - Lawrence Cahoone
+*** The New Jim Crow - Mihcelle Alexander
+*** The Northern Lights - Philip Pullman
+*** The Origins of Political Order - Francis Fukuyama
+*** The Other Side of History: Daily Life in the Ancient World - Robert Garland
+*** The Scar - China Mieville
+*** The Steel Remains - Richard K. Morgan
+*** The Subtle Knife - Philip Pullman
+*** The Tao of Pooh - Benjamin Hoff
+*** The Truth - Terry Pratchett
+*** The Wind-up Bird Chronicle - Haruki Murakami
+*** The Wonderful Wizard of Oz
+*** Thief of Time - Terry Pratchett
+*** Thirteen - Richard K. Morgan
+*** To Say Nothing of the Dog - Connie Willis
+*** Wild Ones - Jon Mooallem
+*** Xenos - Dan Abnett
+** UK Audible
+*** And Another Thing - Eoin Colfer
+*** A Wizard of Earthsea - Ursula K. Le Guin
+*** Blue Mars - Kim Stanley Robinson
+*** Cat's Cradle - Kurt Vonnegut
+*** Chaos - James Gleick
+*** Consider Phlebas - Iain M. Banks
+*** Crome Yellow - Aldous Huxley
+*** Cryptonomicon - Neal Stephenson
+*** Dead Until Dark - Charlaine Harris
+*** Dr Bloodmoney - Philip K. Dick
+*** Dune - Frank Herbert
+*** Foundation and Empire - Isaac Asimov
+*** Foundation - Isaac Asimov
+*** Gateway - Frederik Pohl
+*** Go the Fuck to Sleep - Adam Mansbach
+*** Green Mars - Kim Stanley Robinson
+*** Man Plus - Frederik Pohl
+*** Moab is my Washpot - Stephen Fry
+*** Player Piano - Kurt Vonnegut
+*** Red Dwarf: Infinity Welcomes Careful Drivers - Rob Grant, Doug Naylor
+*** Red Mars - Kim Stanley Robinson
+*** Second Foundation - Isaac Asimov
+*** Solaris - Stanislaw Lem
+*** Starship Troopers - Robert Heinlein
+*** State of Fear - Michael Crichton
+*** Strata - Terry Pratchett
+*** Sundiver - David Brin
+*** The Austere Academy - Lemony Snicket
+*** The Carnivorous Carnival - Lemony Snicket
+*** The Chrysalids - John Wyndham
+*** The Count of Monte Cristo - Alexandre Dumas
+*** The Diamond Age - Neal Stephenson
+*** The Dreaming Void - Peter F. Hamilton
+*** The Ersatz Elevator - Lemony Snicket
+*** The Fifth Elephant - Terry Pratchet
+*** The Forever War - Joe Haldeman
+*** The HitchHiker's Guide to the Galaxy: Primary Phase
+*** The HitchHiker's Guide to the Galaxy: Secondary Phase
+*** The Hobbit - J R R Tolkien
+*** The Hostile Hospital - Lemony Snicket
+*** The Information - James Gleick
+*** The Last Continent - Terry Pratchett
+*** The Man in the High Castle - Philip K. Dick
+*** The Man Who Was Thursday - G.K. Chesterton
+*** The Moon is a Harsh Mistress - Robert Heinlein
+*** The Satanic Verses - Salman Rushdie
+*** The Sirens of Titan - Kurt Vonnegut
+*** The Three Stimagata of Palmer Eldritch - Philip K. Dick
+*** The Vile Village - Lemony Snicket
+*** The Windup Girl - Paolo Bacigalupi
+*** Titus Groan - Mervyn Peake
+*** Under the Dome - Stepehn King
+** Simon Vance
+*** Any Human Heart
+*** Bleak House
+*** Dune
+*** Market Forces
+*** Sophie's World
+*** The Architecture of Happiness
+*** The Man Who Was Thursday
+*** The Steel Remains
+*** The Tao of Pooh
+*** Thirteen
+*** Titus Groan
+** John Lee
+*** Invisible Cities
+*** Kraken
+*** One Hundred Years Of Solitude
+*** Perdido Street Station
+*** The Count Of Monte Cristo
+*** The Knowledge
 * Unlocked
 ** Music
 *** Chopin Piano Concertos Nos. 1 & 2
@@ -347,6 +506,10 @@
 *** Princess Mononoke
 *** Rheingold
 *** Spirited Away
+*** the fountain
+*** existenz
+*** fantasia
+*** kedi
 ** Shows
 *** Avatar The Last Airbender
 *** Full Metal Alchemist - Brotherhood

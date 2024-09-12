@@ -56,6 +56,8 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https:://www.mobygames.com
+https://gamedesignskills.com/blog/
 https://www.gamedeveloper.com/
 https://gamedesignskills.com/game-design/combat-design/
 https://gendesignmc.wikidot.com/wiki:2024-settlement-generation-competition
@@ -625,6 +627,7 @@ https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
 ** Software Engineering
+https://www.pyopensci.org/python-package-guide/index.html
 https://rp.wtf/articles/
 https://git-cliff.org/docs/
 https://semgrep.dev/docs/writing-rules/rule-ideas
@@ -692,6 +695,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/Hydraulic_ram
+https://en.m.wikipedia.org/wiki/List_of_Go_terms
 https://en.m.wikipedia.org/wiki/Blocks_world
 https://en.m.wikipedia.org/wiki/IJCAI_Computers_and_Thought_Award
 https://en.m.wikipedia.org/wiki/List_of_computer_scientists
@@ -1175,6 +1180,7 @@ https://womensartblog.wordpress.com
 https://alexanderobenauer.com/labnotes/000/
 * Resources / Assets
 ** APIs
+https://search.worldcat.org/
 https://droughtmonitor.unl.edu/CurrentMap.aspx
 https://12ft.io/  : website cleaner
 https://www.removepaywall.com/ : paywalls
@@ -1300,6 +1306,8 @@ https://aspietests.org/
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
 ** Fonts
+https://fontmeme.com/
+https://consolidatedpower.co/~donald/zero/Fonts
 http://boingboing.net/2014/01/30/creatingafont.html
 http://etherealmind.com/cli-font-aliasing-font-choice-terminal/
 http://www.blacktable.com/fontova040603.htm
@@ -1316,6 +1324,7 @@ https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
 https://chevyray.itch.io/pixel-font-megapack
 ** Food
+https://www.foodtimeline.org
 https://www.tasteatlas.com/
 ** Government
 https://www.thetrace.org/2023/05/permitless-carry-gun-laws-states-map/
@@ -1732,6 +1741,7 @@ https://www.soundsurvey.org.uk/                                                 
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
 
 ** Tv
+https://www.opensubtitles.com/
 http://arstechnica.com/the-multiverse/2014/06/don-draper-may-be-an-alien-but-mad-men-is-definitely-science-fiction/
 http://en.battlestarwiki.org/wiki/Dirty_Hands
 http://en.battlestarwiki.org/wiki/Gaius
@@ -2451,6 +2461,10 @@ https://www.congress.gov
 **** State
 https://legiscan.com
 ** Government agencies
+https://wisqars.cdc.gov/reports
+https://www.nber.org/research/data/vital-statistics-natality-birth-data
+https://www.cdc.gov/nchs/data_access/Vitalstatsonline.htm
+https://www.cdc.gov/nchs/fastats/teen-births.htm
 https://catalog.data.gov/dataset/
 https://www.ncbi.nlm.nih.gov/
 https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book
@@ -2462,6 +2476,8 @@ https://www.adl.org/resources/tools-to-track-hate/heat-map
 ** History
 https://seshat-db.com/
 http://seshatdatabank.info/
+** Json
+https://www.schemastore.org/json/
 ** Judicial
 
 *** UK
@@ -2542,6 +2558,7 @@ https://www.pewresearch.org/topic/politics-policy/
 http://www.pewglobal.org/category/datasets/
 http://www.pewresearch.org/
 ** Policing / crime
+https://www.heritage.org/voterfraud
 https://www.whoismakingnews.com/#source-data
 https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
 https://ourworldindata.org/homicides
@@ -2588,12 +2605,13 @@ https://www.th.gov.bc.ca/trafficData/
 https://webarchive.nationalarchives.gov.uk/ukgwa/*/http://www.dft.gov.uk/traffic-counts/
 https://www.transport.nsw.gov.au/data-and-research
 https://utd19.ethz.ch/
+
+** TV
+https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/KentuckyRouteZero
 ** Wiki
 https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia
 https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
 https://en.m.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages
-** Json
-https://www.schemastore.org/json/
 * Broken
 http://blog.webkid.io/datasets-for-machine-learning/
 http://kolesnikov.ga/Datasets_in_Python/

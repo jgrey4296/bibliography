@@ -1,0 +1,22 @@
+## extract.toml -*- mode: Toml -*-
+#### Extract data from bibtex entries
+#### ie: publisher, names,
+
+
+[[tasks.extract]]
+name = "_.entry"
+inject = ["entry"]
+actions = [
+        # TODO use injected entry,
+        # extract:
+        ## publisher
+        ## institution
+        ## journal
+        ## series
+        ## year
+        ## pages
+        ## authors
+        ## editor
+        # --
+        # add results to postboxes
+]

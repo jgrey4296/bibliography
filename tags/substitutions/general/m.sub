@@ -144,7 +144,7 @@ manuakea                                 : 1
 manual                                   : 13
 manual_labour                            : 1
 manuals                                  : 2  : manual
-manufactured_consent                     : 1
+manufactured_consent                     : 1  : manufacturing_consent
 manufacturing                            : 3
 manufacturing_consent                    : 1
 manus                                    : 1
@@ -257,7 +257,7 @@ massacre                                 : 2
 massacres                                : 1  : massacre
 massage_worker                           : 1
 massive_attack                           : 1
-massive_MAS                              : 1
+massive_MAS                              : 1  : massive.MAS : MAS : agents
 mastodon                                 : 1
 masturbation                             : 2
 matariki                                 : 1
@@ -1141,3 +1141,4 @@ myth_of_digital_universalism             : 1
 mythic_entertainment                     : 1
 mythology                                : 6
 myths                                    : 9
+MAS : 1 : multi_agent_systems : agents
