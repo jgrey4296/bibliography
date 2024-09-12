@@ -627,6 +627,7 @@ https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
 ** Software Engineering
+https://www.pyopensci.org/python-package-guide/index.html
 https://rp.wtf/articles/
 https://git-cliff.org/docs/
 https://semgrep.dev/docs/writing-rules/rule-ideas
@@ -694,6 +695,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/Hydraulic_ram
+https://en.m.wikipedia.org/wiki/List_of_Go_terms
 https://en.m.wikipedia.org/wiki/Blocks_world
 https://en.m.wikipedia.org/wiki/IJCAI_Computers_and_Thought_Award
 https://en.m.wikipedia.org/wiki/List_of_computer_scientists
@@ -2458,6 +2461,10 @@ https://www.congress.gov
 **** State
 https://legiscan.com
 ** Government agencies
+https://wisqars.cdc.gov/reports
+https://www.nber.org/research/data/vital-statistics-natality-birth-data
+https://www.cdc.gov/nchs/data_access/Vitalstatsonline.htm
+https://www.cdc.gov/nchs/fastats/teen-births.htm
 https://catalog.data.gov/dataset/
 https://www.ncbi.nlm.nih.gov/
 https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book
@@ -2551,6 +2558,7 @@ https://www.pewresearch.org/topic/politics-policy/
 http://www.pewglobal.org/category/datasets/
 http://www.pewresearch.org/
 ** Policing / crime
+https://www.heritage.org/voterfraud
 https://www.whoismakingnews.com/#source-data
 https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
 https://ourworldindata.org/homicides
