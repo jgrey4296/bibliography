@@ -328,6 +328,8 @@ https://bethesdagamestudios.com/
 https://en.wikipedia.org/wiki/Category:Video_game_development_companies
 
 ** Games
+https://vivapinata.fandom.com/wiki/Viva_Pi%C3%B1ata_Wiki
+https://hard-drive.net/
 https://www.poewiki.net/wiki/Game_mechanics : path-of-exile
 https://www.poewiki.net/wiki/Passive_skill : path-of-exile
 https://dialoguetree.net/ttyd/ - mario thousand year door dialogue
@@ -690,11 +692,22 @@ https://www.theschooloflife.com/thebookoflife/how-to-read-fewer-books/
 https://www.uu.nl/en/research/game-research/research/publications
 https://www.wzchen.com/data-science-books
 ** Shopping
+https://www.thegreatcourses.com
+https://www.audible.com
 https://www.thefreshfishshop.com
 https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/Everyman%27s_Library
+https://en.m.wikipedia.org/wiki/The_Western_Canon
+https://en.m.wikipedia.org/wiki/Literary_realism
+https://en.m.wikipedia.org/wiki/John_Updike
+https://en.m.wikipedia.org/wiki/Clarke%27s_three_laws
+https://en.m.wikipedia.org/wiki/Oil_drop_experiment
+https://en.m.wikipedia.org/wiki/Coherence_(units_of_measurement)
+https://en.m.wikipedia.org/wiki/International_System_of_Units
+https://en.m.wikipedia.org/wiki/International_System_of_Quantities
 https://en.m.wikipedia.org/wiki/Hydraulic_ram
 https://en.m.wikipedia.org/wiki/List_of_Go_terms
 https://en.m.wikipedia.org/wiki/Blocks_world
@@ -715,6 +728,7 @@ https://en.m.wikipedia.org/wiki/Stagflation
 https://en.m.wikipedia.org/wiki/Karim_Ahmad_Khan
 * Blogs
 ** ACLU
+https://www.aclu.org/cases
 https://www.aclu.org/blog/lgbt-rights
 https://www.aclu.org/blog/privacy-technology
 https://www.aclu.org/blog/washington-markup
@@ -1404,6 +1418,8 @@ https://www.davidrumsey.com/                                                    
 https://franknielsen.github.io/Divergence/
 
 ** Museums and Libraries
+https://www.tate.org.uk/art/artworks/tanning-eine-kleine-nachtmusik-t07346
+https://collection.nationalmuseum.se/en/
 https://bll01.primo.exlibrisgroup.com/discovery/search?vid=44BL_INST:BLL01&lang=en : British library
 https://blogs.cul.columbia.edu/rbml/2018/09/10/collections-news-albert-field-playing-cards-go-online/          :  Columbia University Library Playing Cards
 https://blogs.library.duke.edu/preservation/2019/04/26/quick-pic-choose-your-sumo-hairstyle/                   :  Duke University Libraries: Sumo Hairstyles
@@ -2400,6 +2416,7 @@ https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
 * Digital Collections
+https://collection.nationalmuseum.se/en/
 https://one.libretexts.org/home
 https://acleddata.com/us-crisis-monitor/#reports
 https://www.opportunityatlas.org/
@@ -2558,6 +2575,7 @@ https://www.pewresearch.org/topic/politics-policy/
 http://www.pewglobal.org/category/datasets/
 http://www.pewresearch.org/
 ** Policing / crime
+https://policedata.org/
 https://www.heritage.org/voterfraud
 https://www.whoismakingnews.com/#source-data
 https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
