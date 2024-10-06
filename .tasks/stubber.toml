@@ -15,19 +15,19 @@ queue_behaviour      = "default"                             # <str>            
 exts                 = [".pdf", ".epub"]                     # <list[str]>
 roots                = ["{dropbox!p}"]                         # <list[str|pl.Path]>  Places the Walker will start
 recursive            = false                                 # <bool>
-target               = "{todo_pdfs!p}/stubbed/{fname}"
+out_target               = "{todo_pdfs!p}/stubbed/{fname}"
 accept_fn            = "taskcode.stubber:not_copied"
 actions              = [
         {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"], copy=["target"]}, template_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"], copy=["out_target"]}, template_="sub_actions"},
         {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"}, # queue
 ]
 sub_actions = [
-        {do="log", msg="Stubbing: {fpath} to {target}"},
-        {do="exists?", args=["{target!p}"], not=true},
-        {do="copy", from_="fpath", to_="target"},
-        {do="taskcode.stubber:gen_stub", update_="stubtext", to_="target"},
+        {do="log", msg="Stubbing: {fpath} to {out_target}"},
+        {do="exists?", args=["{out_target!p}"], not=true},
+        {do="copy", from_="fpath", to_="out_target"},
+        {do="taskcode.stubber:gen_stub", update_="stubtext", to_="out_target"},
         {do="post.put", "stub::files..-"=["{stubtext}"]},
         {do="delete!", args=["{fpath!p}"]},
 ]
