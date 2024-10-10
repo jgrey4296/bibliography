@@ -699,6 +699,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/List_of_textile_fibres
+https://en.m.wikipedia.org/wiki/J._G._Ballard
 https://en.m.wikipedia.org/wiki/Everyman%27s_Library
 https://en.m.wikipedia.org/wiki/The_Western_Canon
 https://en.m.wikipedia.org/wiki/Literary_realism
@@ -1418,6 +1420,7 @@ https://www.davidrumsey.com/                                                    
 https://franknielsen.github.io/Divergence/
 
 ** Museums and Libraries
+https://openlibrary.org/lists
 https://www.tate.org.uk/art/artworks/tanning-eine-kleine-nachtmusik-t07346
 https://collection.nationalmuseum.se/en/
 https://bll01.primo.exlibrisgroup.com/discovery/search?vid=44BL_INST:BLL01&lang=en : British library
