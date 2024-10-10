@@ -522,3 +522,4 @@
 ** Shows
 ** Audiobooks
 ** Music
+** Games
