@@ -5,7 +5,7 @@
 *** Annihilation (2018)
 *** Bird of Prey (2020)
 *** Dune (2021)
-*** Joke (2019)
+*** Joker (2019)
 *** Mandy (2018)
 *** Nobody (2021)
 *** Nope (2022)
@@ -315,7 +315,7 @@
 *** Sophie's World - Joestein Gaarder
 *** Stand on Zanzibar - John Brunner
 *** Surfaces and Essences - Douglas Hofstadter
-*** The 48 Laws of Power
+*** The 48 Laws of Power - Greene.
 *** The African Experience: From Lucy to Mandela - Kenneth P. Vickery
 *** The Amber Spyglass - Philip Pullman
 *** The Architecture of Happiness - Alain de Botton
@@ -354,58 +354,58 @@
 *** Wild Ones - Jon Mooallem
 *** Xenos - Dan Abnett
 ** UK Audible
-*** And Another Thing - Eoin Colfer
-*** A Wizard of Earthsea - Ursula K. Le Guin
-*** Blue Mars - Kim Stanley Robinson
-*** Cat's Cradle - Kurt Vonnegut
-*** Chaos - James Gleick
-*** Consider Phlebas - Iain M. Banks
-*** Crome Yellow - Aldous Huxley
-*** Cryptonomicon - Neal Stephenson
-*** Dead Until Dark - Charlaine Harris
-*** Dr Bloodmoney - Philip K. Dick
-*** Dune - Frank Herbert
-*** Foundation and Empire - Isaac Asimov
-*** Foundation - Isaac Asimov
-*** Gateway - Frederik Pohl
-*** Go the Fuck to Sleep - Adam Mansbach
-*** Green Mars - Kim Stanley Robinson
-*** Man Plus - Frederik Pohl
-*** Moab is my Washpot - Stephen Fry
-*** Player Piano - Kurt Vonnegut
-*** Red Dwarf: Infinity Welcomes Careful Drivers - Rob Grant, Doug Naylor
-*** Red Mars - Kim Stanley Robinson
-*** Second Foundation - Isaac Asimov
-*** Solaris - Stanislaw Lem
-*** Starship Troopers - Robert Heinlein
-*** State of Fear - Michael Crichton
-*** Strata - Terry Pratchett
-*** Sundiver - David Brin
-*** The Austere Academy - Lemony Snicket
-*** The Carnivorous Carnival - Lemony Snicket
-*** The Chrysalids - John Wyndham
-*** The Count of Monte Cristo - Alexandre Dumas
-*** The Diamond Age - Neal Stephenson
-*** The Dreaming Void - Peter F. Hamilton
-*** The Ersatz Elevator - Lemony Snicket
-*** The Fifth Elephant - Terry Pratchet
-*** The Forever War - Joe Haldeman
+*** And Another Thing - Eoin Colfer. Jones.
+*** A Wizard of Earthsea - Ursula K. Le Guin. Inglis.
+*** Blue Mars - Kim Stanley Robinson. ferrone.
+*** Cat's Cradle - Kurt Vonnegut. Roberts.
+*** Chaos - James Gleick. Shaprio.
+*** Consider Phlebas - Iain M. Banks. Kenny.
+*** Crome Yellow - Aldous Huxley. Whitfield.
+*** Cryptonomicon - Neal Stephenson. Dufris.
+*** Dead Until Dark - Charlaine Harris. Parker.
+*** Dr Bloodmoney - Philip K. Dick. Weiner.
+*** Dune - Frank Herbert. Brick, Cassidy, Morton, Vance...
+*** Foundation and Empire - Isaac Asimov. Brick.
+*** Foundation - Isaac Asimov. Brick.
+*** Gateway - Frederik Pohl. Wyman and sawyer.
+*** Go the Fuck to Sleep - Adam Mansbach. Jackson.
+*** Green Mars - Kim Stanley Robinson. ferrone.
+*** Man Plus - Frederik Pohl. boutsikaris, sawyer.
+*** Moab is my Washpot - Stephen Fry. Fry.
+*** Player Piano - Kurt Vonnegut. Rummel.
+*** Red Dwarf: Infinity Welcomes Careful Drivers - Rob Grant, Doug Naylor. Barrie
+*** Red Mars - Kim Stanley Robinson. ferrone.
+*** Second Foundation - Isaac Asimov. Brick.
+*** Solaris - Stanislaw Lem. Juliani.
+*** Starship Troopers - Robert Heinlein. james.
+*** State of Fear - Michael Crichton. Wilson.
+*** Strata - Terry Pratchett. Briggs.
+*** Sundiver - David Brin. Wilson.
+*** The Austere Academy - Lemony Snicket. Curry.
+*** The Carnivorous Carnival - Lemony Snicket. Curry.
+*** The Chrysalids - John Wyndham. Powell.
+*** The Count of Monte Cristo - Alexandre Dumas. Lee.
+*** The Diamond Age - Neal Stephenson. Wiltsie.
+*** The Dreaming Void - Peter F. Hamilton. Longworth.
+*** The Ersatz Elevator - Lemony Snicket. Curry.
+*** The Fifth Elephant - Terry Pratchet. Robinson. Abridged.
+*** The Forever War - Joe Haldeman. Wilson.
 *** The HitchHiker's Guide to the Galaxy: Primary Phase
 *** The HitchHiker's Guide to the Galaxy: Secondary Phase
-*** The Hobbit - J R R Tolkien
-*** The Hostile Hospital - Lemony Snicket
-*** The Information - James Gleick
-*** The Last Continent - Terry Pratchett
-*** The Man in the High Castle - Philip K. Dick
-*** The Man Who Was Thursday - G.K. Chesterton
-*** The Moon is a Harsh Mistress - Robert Heinlein
-*** The Satanic Verses - Salman Rushdie
-*** The Sirens of Titan - Kurt Vonnegut
-*** The Three Stimagata of Palmer Eldritch - Philip K. Dick
-*** The Vile Village - Lemony Snicket
-*** The Windup Girl - Paolo Bacigalupi
-*** Titus Groan - Mervyn Peake
-*** Under the Dome - Stepehn King
+*** The Hobbit - J R R Tolkien. Inglis.
+*** The Hostile Hospital - Lemony Snicket. Curry.
+*** The Information - James Gleick. Shapiro.
+*** The Last Continent - Terry Pratchett. Planer.
+*** The Man in the High Castle - Philip K. Dick. weiner.
+*** The Man Who Was Thursday - G.K. Chesterton. Vance.
+*** The Moon is a Harsh Mistress - Robert Heinlein. James.
+*** The Satanic Verses - Salman Rushdie. Dastor.
+*** The Sirens of Titan - Kurt Vonnegut. Snyder.
+*** The Three Stigmata of Palmer Eldritch - Philip K. Dick. Weiner.
+*** The Vile Village - Lemony Snicket. Curry.
+*** The Windup Girl - Paolo Bacigalupi. Davis.
+*** Titus Groan - Mervyn Peake. Vance.
+*** Under the Dome - Stephen King. esparza.
 ** Simon Vance
 *** Any Human Heart
 *** Bleak House
