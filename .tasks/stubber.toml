@@ -43,7 +43,7 @@ version     = "0.1"
 doc         = ["Cleanup refiled pdfs and epubs"]
 ctor        = "job"
 accept_fn   = "taskcode.stubber:select_refiled"
-roots       = ["{todo_pdfs!p}", "{todo_pdfs!p}/stubbed/"]
+roots       = ["{todo_pdfs!p}", "{todo_pdfs!p}/stubbed/", "{todo_pdfs!p}/online"]
 recursive   = false
 actions     = [
             {do="log", msg="Queuing Cleanup of old files"},
@@ -52,5 +52,5 @@ actions     = [
             {do="job.queue",  from_="tasks"}, # queue
 ]
 sub_actions = [
-            {do="delete!", args=["{fpath!p}"]}
+    {do="delete!", args=["{fpath!p}"]}
 ]
