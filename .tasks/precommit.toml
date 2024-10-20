@@ -32,7 +32,10 @@ cleanup       = [
 name       = "post"
 doc        = []
 ctor       = "job"
-cli        = [{name="files", type="list", default=[], positional=true}, {name="choose", type="int", default=1}]
+cli        = [
+           {name="files", type="list", default=[], positional=true},
+           {name="choose", type="int", default=1},
+           ]
 roots      = ["{bib!p}"]
 exts       = [".bib"]
 sub_target = "changed::_.one.bib"

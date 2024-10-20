@@ -142,6 +142,7 @@ class TagCalculator:
         return { "new_tags" : new_tags }
 
     def _calc_new_tags(self, _total:TagFile, _raw:set[str]):
+        _raw             = _raw or set()
         total_set : set = _total.to_set()
-        new_tags = TagFile(counts={x:1 for x in (_raw - total_set)})
+        new_tags        = TagFile(counts={x:1 for x in (_raw - total_set)})
         return new_tags
