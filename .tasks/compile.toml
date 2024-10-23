@@ -50,7 +50,7 @@ cleanup = [
 
     {do="exists?", args=["{out!p}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
-    {do="move", from="{tex_export!p}/{fstem}.pdf", to="{pdf_export!p}/{fstem}.pdf"},
+    {do="move", from="{tex_export!p}/{fstem}.pdf", to="{pdf_export!p}/{fstem}.pdf", force=true},
 ]
 
 [[tasks.compile]]
