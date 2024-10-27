@@ -56,6 +56,7 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://github.com/s4ptacle/Sims4Tools
 https:://www.mobygames.com
 https://gamedesignskills.com/blog/
 https://www.gamedeveloper.com/
@@ -405,6 +406,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/s4ptacle/Sims4Tools
 https://github.com/SciresM/hactool - switch modding
 https://github.com/la-switch/LAS-Randomizer - zelda randomizer
 https://github.com/catppuccin/catppuccin - theme
