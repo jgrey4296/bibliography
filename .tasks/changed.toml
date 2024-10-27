@@ -1,9 +1,14 @@
 ## changed.toml -*- mode: conf-toml -*-
+
 ## Collected tasks for processing changed files after they have been committed
 ##
+##
+[[locations]]
+processed = {loc="{temp}/processed"}
 
 [[tasks.changed]]
 name       = "report"
+doc        = ["List the files that have changed since the cached commit"]
 roots      = ["{bib!p}"]
 exts       = [".bib"]
 cache      = "{temp}/precommit::post.commit_cache"
@@ -55,7 +60,9 @@ head_actions = [
     # { task="orphans::_.report.missing", inject={fpath="fpath"} },
     # TODO Summarise
     # { task="bibtex:_.summarise", inject={fpath="fpath"} },
-    {do="say", args=["Finished handling changes for: {fstem}"]}
+    {do="path.elements", from_="fpath" },
+    {do="say", args=["Finished handling changes for: {fstem}"]},
+    {do="touch", args=["{processed!p}/{fstem}"]}
 ]
 cleanup = []
 
