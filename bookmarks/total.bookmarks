@@ -4054,11 +4054,11 @@ http://www.gq.com/story/inside-federal-bureau-of-way-too-many-guns : 2nd_amendme
 http://www.gq.com/story/the-last-true-hermit : introversion : story
 http://www.graphicine.com/hideaki-anno-neon-genesis-evangelion/ : UI : art : design : evangelion : interface : science_fiction
 http://www.graphicine.com/thornton-oakley-labor/ : architecture : art : graphicine : sci_fi : science_fiction
-http://www.graphviz.org/Documentation.php : graphviz : pygraphviz
-http://www.graphviz.org/doc/info/attrs.html : graph : graphviz : pygraphviz : python : reference
-http://www.graphviz.org/doc/info/shapes.html : graphviz : libraries : python : reference
-http://www.graphviz.org/pdf/neato.1.pdf : pygraphviz
-http://www.graphviz.org/pdf/neatoguide.pdf : pygraphviz
+http://graphviz.org/Documentation.php : graphviz : pygraphviz
+http://graphviz.org/doc/info/attrs.html : graph : graphviz : pygraphviz : python : reference
+http://graphviz.org/doc/info/shapes.html : graphviz : libraries : python : reference
+http://graphviz.org/pdf/neato.1.pdf : pygraphviz
+http://graphviz.org/pdf/neatoguide.pdf : pygraphviz
 http://www.greenteapress.com/thinkbayes/html/index.html : bayes : math : python : statistics
 http://www.greghendershott.com/2014/10/why-macros.html : lisp : macros : racket
 http://www.greghendershott.com/fear-of-macros/Transform_.html : macros : racket
