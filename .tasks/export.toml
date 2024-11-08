@@ -1,7 +1,7 @@
 
 [[locations]]
 bib_export    = "{export}/bib"
-cal_export    = "{export}/calendar"
+rst_export    = "{export}/rst"
 
 [[tasks.export]]
 name             = "_.one.bib"
@@ -15,7 +15,6 @@ depends_on       = [
         { do="dootle.utils.recency_test:stale_test", source="{fpath!p}", dest="{bib_export!p}/{fname}" },
 ]
 setup           = [
-        # { do="path.elements", from_="fpath", roots=["."]},
         { do="dootle.bibtex:BibtexInitAction",             update_="bib_db"},
         { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
         { do="taskcode.export:build_export_write_stack",   update_="export_stack" },
@@ -29,4 +28,30 @@ actions = [
 cleanup = [
         { do="touch", args=["{fpath!p}"], soft=true},
         { do="log", msg="Exported {fname} to {bib_export!p}"},
+]
+
+[[tasks.export]]
+name       = "_.to.rst"
+cli        = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false }]
+depends_on = [
+        {do="relative?",  args=["{fpath!p}"], bases=["{bib!p}"]},
+        {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+        # skip if the exported bib exists and is recent
+        {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{rst_export!p}/{fstem}.rst" },
+
+]
+setup           = [
+        { do="dootle.bibtex:BibtexInitAction",             update_="bib_db"},
+        { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
+        { do="taskcode.export:build_export_rst_write_stack",   update_="export_stack" },
+]
+actions              = [
+        {do="log", msg="Exporting {fname} to rst"},
+        { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
+        { do="taskcode.export:lib2rst",  title_="fstem", from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
+        { do="write!", from_="bib_text", to="{rst_export!p}/{fstem}.rst"},
+]
+cleanup = [
+        {do="exists?", args=["{rst_export!p}/{fstem}.rst"], fail=true},
+        {do="log",   msg="Compiled {fname} to {rst_export}"},
 ]

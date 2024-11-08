@@ -6,7 +6,7 @@ tex_export   = "{export}/tex"
 tex_fail     = "{export}/tex/failed"
 pdf_export   = "{export}/pdfs"
 html_export  = "{export}/html"
-html_install = "~/github/jgrey4296.github.io/bibliography"
+cal_export    = "{export}/calendar"
 
 [[tasks.compile]]
 name             = "_.to.pdf"
@@ -88,7 +88,17 @@ depends_on           = [
 actions              = [
         {do="log", msg="Converting {fname} to html"},
         # Run bibtex2html
-        {do="shell", args=["bibtex2html", "-o", "{html_export!p}/{fstem}", "{bib_export!p}/{fname}"]},
+        {do="shell", args=["bibtex2html",
+                    "-i", # ignore error
+                    "-dl", # as a dl table
+                    "-a", # Sort by author
+                     "-nodoc", # not a full html doc
+                     "-nobibsource", # just the html
+                     "-noheader",
+                     "-nofooter",
+                     "-o", "{html_export!p}/{fstem}",
+                     "{bib_export!p}/{fname}",
+                     ]},
 ]
 cleanup = [
         {do="exists?", args=["{html_export!p}/{fstem}.html"], fail=true},
@@ -129,14 +139,13 @@ setup   = []
 actions = []
 cleanup = []
 
-
-
 [[tasks.compile]]
-name    = "install.html"
-version = "0.1"
-cli = [{ name="out",   type="str", prefix="-", default="{html_install!p}", desc="", positional=false}]
-depends_on = [{do="exists?"  , args=["{out!p}"], fail=true }]
-actions = [
-    {do="log", msg="Installing compiled bib htmls to {out}"},
-    {do="copy", from="{html_export!p}/*.html", to="{out!p}"}
+name                 = "_.all.html"
+ctor                 = "job"
+exts                 = [".bib"]                                 # <list[str]>
+roots                = ["{bib!p}"]                                # <list[str|pl.Path]>  Places the Walker will start
+actions              = [
+        {do="job.walk",   update_="files"}, # walk,
+        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="compile::_.to.html"},
+        {do="job.queue",  from_="tasks"}, # queue
 ]
