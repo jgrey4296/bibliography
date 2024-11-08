@@ -519,7 +519,1240 @@
 *** Trapdoor
 * Physical
 ** Films
+*** About Schmidt
+*** Alien
+*** Aliens
+*** AI Artificial Intelligence
+*** Anchorman
+*** American Beauty
+*** American Psycho
+*** American History X
+*** Amelie
+*** Apocalypse Now
+*** A Series of Unfortunate Events
+*** Batman Begins
+*** Babel
+*** Beetlejuice
+*** Be Kind Rewind
+*** Being John Malcovich
+*** Bill Bailey Cosmic Jam
+*** Bladerunner
+*** Burn After Reading
+*** Brazil
+*** Big Fish
+*** Bill Bailey Bewilderness
+*** Black Snake Moan
+*** Hannibal Rising
+*** Castaway
+*** Casshern
+*** Capote
+*** Casanova
+*** Casino Royale
+*** Che
+*** Choke
+*** Chrysalis
+*** Children of Men
+*** Citizen Kane
+*** Cirque Du Soleil
+*** Cloverfield
+*** Clockwork Orange
+*** Close Encounters of the Third Kind
+*** Cronos
+*** Dawn of the Dead/ Director’s Cut
+*** Dark City
+*** Danto 01
+*** Day Watch
+*** Despicable Me
+*** Der Ring Des Nibelungen Die Walkure
+*** Der Ring Des Nibelungen Das Rheingold
+*** Deceived
+*** District 9
+*** Downfall
+*** Dreamcatcher
+*** Donny Darko
+*** Dracula
+*** Dr. Horrible
+*** Dr. Strange Love
+*** Ed Wood
+*** Eden Log
+*** Event Horizon
+*** Eraserhead
+*** Existenz
+*** Eternal Sunshine of the Spotless Mind
+*** Enchanted
+*** Fantasia
+*** Fight Club
+*** Full Metal Jacket
+*** Frost/Nixon
+*** Firefly
+*** G3 Live in Denver
+*** Good Night and Good Luck
+*** Gosford Park
+*** Groundhog Day
+*** Girl with the Pearl Earring
+*** Gladiator
+*** Ghost in the Shell
+*** Good Morning Vietnam
+*** Hamlet
+*** Hancock
+*** Hogfather
+*** Hot Fuzz
+*** Hitchhiker’s Guide to the Galaxy
+*** It’s All Gone Pete Tong
+*** Ironman 1, 2
+*** I want Candy
+*** Inception
+*** I’m not there
+*** I’m a Cyborg
+*** It
+*** I am Legend
+*** Jarhead
+*** Jekyll
+*** Koyaanisqatsi
+*** Kill Bill vol. 1, 2
+*** King Kong
+*** Land of the Dead
+*** Leaving Los Vegas
+*** Limitless
+*** Life of Brian
+*** Lord of War
+*** Love Actually
+*** Like Totally Dylan Moran
+*** Man on the Moon
+*** Mars Attacks
+*** Mad Men
+*** Man hunter
+*** Matrix Revolutions and Reloaded
+*** Mansfield Park
+*** Mrs. Henderson Presents
+*** Memento
+*** Monty Python And Now for Something Completely Different
+*** Midnight Cowboy
+*** Moon
+*** Michael Clayton
+*** Much Ado About Nothing
+*** Midsummer Night’s Dream
+*** Natural Born Killers
+*** Night Watch
+*** O Brother Where Art Thou
+*** Old Boy
+*** One Flew Over the CooCoo’s Nest
+*** Paul
+*** Planet Earth
+*** Pan’s Labyrinth
+*** PI
+*** Persepolis
+*** Pulp Fiction
+*** Quantum of Solace
+*** Rango
+*** Requiem for a Dream
+*** Robots
+*** Repo men
+*** Resident Evil
+*** Rome
+*** Run Fat Boy Run
+*** Resident Evil Extinction; Apocalypse
+*** Robin Hood Prince of Thieves
+*** Snatch
+*** Solaris
+*** Sexy
+*** Sphere
+*** Sunshine
+*** Sherlock Holms
+*** Shutter Island
+*** Sin City
+*** Severance
+*** Shaun of the Dead
+*** Shrek 1, 2, 3, Forever After
+*** Strumpet
+*** Star Wars Revenge of the Sith
+*** Sherlock Holms
+*** Spiderman 1, 2 , 3
+*** Steve Vai: Live at the Astoria
+*** Sympathy for Mr. Vengeance
+*** Sympathy for Lady Vengeance
+*** Taxi Driver
+*** Thirst
+*** THX1138
+*** The Trial
+*** The Terminal
+*** The Cat’s Meow
+*** The Witches of Eastwick
+*** The Weatherman
+*** The Bicentennial Man
+*** The Golden Compass
+*** The Hitch Hiker’s Guide to the Galaxy
+*** The Full Monty
+*** The Fountain
+*** The Day the Earth Stood Still
+*** The Altogether
+*** The Life Aquatic
+*** The Men Who Stare at Goats
+*** The Darjeeling Limited
+*** The Passion of Ayn Rana
+*** The Little Shop of Horrors
+*** The Iron Giant
+*** The Meaning of Life
+*** The Color of Magic
+*** The Conversation
+*** The imaginarium of Doctor Parnassus
+*** The Hurt Locker
+*** The Brothers Grimm
+*** The Return of the King
+*** The Devil’s Backbone
+*** The Rocky Horror Picture Show
+*** The Man Who Fell to Earth
+*** The Boat that Rocked
+*** The Langoliers
+*** The Jacket
+*** The Matrix
+*** The Shawshank Redemption
+*** The Merchant of Venice
+*** The Ruby in the Smoke
+*** The Shadow in the North
+*** The Trap Door
+*** Tube Tales
+*** That Mitchell and Webb Look
+*** The Dark Knight
+*** The Lord of the Rings The Two Towers; Fellowship of the Ring
+*** The Simpsons Movie
+*** The Red Violin
+*** Two Tower
+*** The Girl with the Dragon Tattoo
+*** V for Vendetta
+*** Wallace and Gromit
+*** Walk the Line
+*** Wall-E
+*** Watchmen
+*** Who Framed Roger Rabbit?
+*** Wild Hogs
+*** Zodiac
+*** 2001
+*** 300
+*** 28 Days Later
+*** 1984
+*** Alfred Hitchcock
+**** Marnie
+**** The Trouble with Harry
+**** Family Plot
+**** The Birds
+**** The Man Who Knew Too Much
+**** Psycho
+**** Rope
+**** Rear Window
+**** Torn Curtain
+**** Frenzie
+**** Shadow of a Doubt
+**** Topaz
+**** Vertigo
+**** Saboteur
 ** Shows
+*** A bit of Fry and Laurie
+*** Battlestar Galactica, season 1, 2, 3, 4; Razor
+*** Black Adder season 1, 2, 3, 4
+*** Bleak House
+*** Black Books season 1, 2, 3
+*** Breaking Bad season 1
+*** Californication season 1, 2
+*** Chuck season 1, 2
+*** Count Duckula
+*** CSI season 1, 2
+*** Death Note 2
+*** Desperate HouseWives season 4
+*** Dollhouse season 1
+*** Doctor Who season 1,2, 4
+*** Dexter season 1, 2, 3,
+*** Eureka season 1, 2, 3
+*** Fringe season 1
+*** Futurama: The Beast with a Billion Backs; Bender's Game; Into the Wild Green Yonder; Bender’s Big Score; season 1/2/3
+*** House season 1, 2,  3, 4
+*** Heroes season 1, 2, 3
+*** Jonathan Creek season 1, 2, 3, 4
+*** Life on Mars season 1, 2
+*** Little Dorrit
+*** Nip Tuck season 1, 2, 3, 4
+*** PeepShow season 1, 2, 3
+*** Pushing Daisies season 1, 2
+*** Primeval season 1, 2
+*** Red Dwarf season 1, 2, 3, 4, 5, 6, 7, 8
+*** Secret Diary of a Call Girl Season 1
+*** Shark season 1
+*** Star Trek; Voyager season 1, 2, 3, 4
+*** The Big Bang Theory season 1, 2
+*** The West Wing season 1, 2, 3, 4, 5, 6, 7
+*** The 4400 season 1, 2
+*** TorchWood season 1, 2
+*** Teachers season 1, 2, 3, 4
+*** X-Files season 1, 2, 3, 4, 5
+*** TinTin
+**** Destination Moon
+**** Explorers on the Moon
+**** In America
+**** Cigars of the Pharaoh
+**** The Red Sea Sharks: In Tibet
+**** The Black Island
+**** King Ottokar’s Scepter
+**** The Secret of the Unicorn
+**** Red Rackhamp’s Treasure
+**** Land of Black Gold
+**** The Calculus Affair
+**** The Crab with the Golden Claws
+**** The Shooting Star
+**** The Seven Crystal BArs
+**** Prisoner’s of the Sun
+**** The Castafiore Emerald
+**** The Picaros
+**** The Blue Lotus
+**** The Broken Ear
 ** Audiobooks
+*** Altered Carbon
+*** Broken Angels
+*** Cyberman
+*** Don Quixote
+*** Dalek Empire 1, 2, 3, 4
+*** Inferno
+*** Life the Universe and Everything
+*** Mostly Harmless
+*** Paradise Lost
+*** Slaughterhouse 5
+*** Stephen King Cell
+*** Stephen Fry The Ode Less Traveled
+*** So long and thanks for all the fish
+*** The Trial
+*** The Day of the Triffids
+*** The Death of Ivan Ilyich
+*** The Hitch Hiker’s Guide to the Galaxy
+*** The Hitch Hiker’s Guide to the Galaxy Tertiary Phase
+*** The Restaurant at the End of the Universe
+*** Waiting for Godot
+*** Woken Furies
+*** Doctor Who:
+**** The Reaping
+**** Spare Parts
+**** The Twilight Kingdom
+**** Memory Lane
+**** Master
+**** Scaredy Cat
+**** The Tomb of the Cybermen
+**** The Natural History of Fear
+**** The Invasion
+*** Discworld
+**** Guards Guards
+**** Interesting Times
+**** Lords and Ladies
+**** Moving Pictures
+**** Men at Arms
+**** Pyramids
+**** Soul Music
+**** Hog Father
+**** Soul Music
+**** Witches Abroad
+**** Unseen Academicals
+**** The Fifth Elephant
+**** Thud
 ** Music
 ** Games
+*** Xbox
+halo wars
+overlord 1, 2
+doom 3
+fable 1 2 3
+forza motorsport 4
+castlevania
+L.A. Noire
+Dragon Age
+dark sector
+prototype
+singularity
+wet
+resident evil 5
+gears of war 1, 2, 3
+far cry 2
+call of duty 4
+call of duty mw2
+call of duty wow
+call of duty black ops
+alpha protocol
+bionic commando
+fear 2
+devil may cry 4
+assassins creed 1, 2
+enslaved
+soul calibur 4
+red faction guerilla
+dead rising 1, 2
+shadowrun
+prey
+crackdown 1, 2
+saints row 2
+quae 4
+tomb raider underworld
+darksiders
+lsot odyssey
+bayonetta
+final fantasy 13
+eternal sonata
+prince of persia
+lost planet 1, 2
+army of two
+legao star wars 2
+red alert 3
+ninja gaiden 2
+left 4 dead 1, 2
+viva pinata 1, 2
+halo 1, 2, 3, odst
+just cause 2
+condemned 1, 2
+damnation
+fallout 3
+fallout new vegas
+splinter cell conviction
+medal of honor
+aliens versus predator
+battlefield bad company 2
+morrowind
+psychonauts
+dead space 1, 2
+mass effect 1, 2, 3
+the simpsons game
+chronicles of riddick
+time shift
+red dead redemption
+alan wake
+mirros edge
+bioshock 1, 2
+too human
+dead island
+star wars the force unleashed 1, 2
+GTA 4
+
+*** Playstation
+folklore
+rachet and clank a crack in time
+devil may cry
+final fantasy X
+metal gear solid 2, 3, 4
+soul calibur 2
+resistance fall of man
+street fighter 4
+beyond two souls
+killzone 2
+little big planet 1, 2
+infamous 1, 2
+heavy rain
+god of war 3
+uncharted 1, 2
+
+*** Nintendo
+metroid prime 2, 3
+resident evil 4
+warioland shake dimension
+super paper mario
+zelda twilight princess
+zelda collectors edition
+
+*** PC
+planescape tormet
+spore
+* Steam
+*** 3079 -- Block Action RPG
+*** 7 Grand Steps, Step 1: What Ancients Begat
+*** 8-Bit Bayonetta
+*** AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome
+*** Abyss Odyssey
+*** Age of Booty
+*** Agricultural Simulator 2013 Steam Edition
+*** Agricultural Simulator: Historical Farming
+*** Air Conflicts: Pacific Carriers
+*** AI War: Fleet Command
+*** Alan Wake
+*** Alan Wake's American Nightmare
+*** Alien Breed 2: Assault
+*** Alien Breed 3: Descent
+*** Alien Breed: Impact
+*** Alien: Isolation
+*** Alien Swarm: Reactive Drop
+*** Always Sometimes Monsters
+*** Amnesia: A Machine for Pigs
+*** Amnesia: The Dark Descent
+*** Anachronox
+*** Analogue: A Hate Story
+*** Ancient Space
+*** And Yet It Moves
+*** A New Beginning - Final Cut
+*** Anno 2070
+*** Anodyne
+*** Anomaly 2
+*** Antichamber
+*** Aquaria
+*** ArcaniA
+*** Arma 2
+*** Arma 2: Operation Arrowhead
+*** Artemis Spaceship Bridge Simulator
+*** Aseprite
+*** Assassin's Creed IV Black Flag
+*** A Story About My Uncle
+*** Audiosurf
+*** Avadon: The Black Fortress
+*** A Valley Without Wind
+*** A Valley Without Wind 2
+*** Avernum 4
+*** Avernum 5
+*** Avernum 6
+*** Avernum: Escape From the Pit
+*** AVSEQ
+*** Awesomenauts
+*** Back to the Future: Ep 1 - It's About Time
+*** Back to the Future: Ep 2 - Get Tannen!
+*** Back to the Future: Ep 3 - Citizen Brown
+*** Back to the Future: Ep 4 - Double Visions
+*** Back to the Future: Ep 5 - OUTATIME
+*** Bad Hotel
+*** Baldur's Gate: Enhanced Edition
+*** Baldur's Gate II: Enhanced Edition
+*** Ballpoint Universe: Infinite
+*** Banished
+*** Bastion
+*** Batman: Arkham Asylum GOTY Edition
+*** Batman: Arkham City GOTY
+*** Batman: Arkham City
+*** Batman: Arkham Knight
+*** Batman: Arkham Origins
+*** Beatbuddy: Tale of the Guardians
+*** Beholder
+*** Bejeweled 3
+*** Belial4296 » Games
+*** Ben There, Dan That!
+*** Besiege
+*** Betrayer
+*** BioShock
+*** BioShock 2
+*** BioShock 2 Remastered
+*** BioShock Infinite
+*** BioShock Remastered
+*** bit Dungeon II
+*** BIT.TRIP RUNNER
+*** Blackguards
+*** Blackwell Deception
+*** Blender
+*** Blood Bowl: Legendary Edition
+*** BookWorm Deluxe
+*** BookWorm DeluxeBookWorm Deluxe
+*** Borderlands 2
+*** Borderlands GOTY
+*** Borderlands GOTY Enhanced
+*** Borderlands: The Pre-Sequel
+*** Boss Monster
+*** Botanicula
+*** Braid
+*** Breath of Death VII
+*** Bridge Project
+*** Broken Age
+*** Broken Sword 1 - Shadow of the Templars: Director's Cut
+*** Broken Sword 2 - the Smoking Mirror: Remastered
+*** Brütal Legend
+*** Burnout Paradise: The Ultimate Box
+*** Call of Duty: Black Ops II
+*** Call of Duty: Modern Warfare 2 (2009)
+*** Capsized
+*** Castle Crashers
+*** Caveblazers
+*** Caves of Qud
+*** Cave Story+
+*** Cinders
+*** Cities in Motion 2
+*** Cities: Skylines
+*** Cities XL 2011
+*** Cities XL Platinum
+*** Clickteam Fusion 2.5
+*** Clockwork Empires
+*** Closure
+*** Cogs
+*** Command & Conquer 3: Tiberium Wars
+*** Command & Conquer 4 Tiberian Twilight
+*** Command & Conquer Red Alert 3
+*** Command & Conquer Red Alert 3 - Uprising
+*** Commander Keen Complete Pack
+*** Company of Heroes
+*** Company of Heroes
+*** Company of Heroes - Legacy Edition
+*** Company of Heroes: Opposing Fronts
+*** Company of Heroes: Tales of Valor
+*** Confrontation
+*** Continue?9876543210
+*** Convoy
+*** Cosmic DJ
+*** Cosmonautica
+*** Costume Quest
+*** Crayon Physics Deluxe
+*** Crazy Plant Shop
+*** Crusader Kings II
+*** Crypt of the NecroDancer
+*** Crysis
+*** Crysis 2 Maximum Edition
+*** Cthulhu Saves the World
+*** Cthulhu Saves the World
+*** Cube & Star: An Arbitrary Love
+*** Cultist Simulator
+*** Curious Expedition
+*** Daikatana
+*** Darkest Dungeon
+*** Darkout
+*** Dark Sector
+*** Darksiders
+*** Darksiders II
+*** Darksiders Warmastered Edition
+*** DARK SOULS III
+*** DARK SOULS II: Scholar of the First Sin
+*** DARK SOULS: Prepare To Die Edition
+*** Darkspore
+*** Darwinia
+*** Daylight
+*** Day of the Tentacle Remastered
+*** DEADBOLT
+*** Dead Cells
+*** Dead Island
+*** Deadlight
+*** Dead Space 2
+*** Dead Space (2008)
+*** Dear Esther
+*** Dear Esther: Landmark Edition
+*** Dear Leader Prototype
+*** DeathSpank
+*** DeathSpank: Thongs Of Virtue
+*** DEFCON
+*** Demigod
+*** Democracy 2
+*** Democracy 3
+*** Democracy 3 Africa
+*** Deponia
+*** Deus Ex: Game of the Year Edition
+*** Deus Ex: Human Revolution
+*** DFHack - Dwarf Fortress Modding Engine
+*** Dinner Date
+*** Din's Curse
+*** Dishonored
+*** Distant Worlds: Universe
+*** Divinity II: Developer's Cut
+*** Divinity: Original Sin (Classic)
+*** Divinity: Original Sin Enhanced Edition
+*** DLC Quest
+*** Don't Starve
+*** Don't Starve Together
+*** DOOM 3
+*** DOOM 3: BFG Edition
+*** DOOM 3: Resurrection of Evil
+*** Dota 2
+*** Dragon Age: Origins - Ultimate Edition
+*** Dream
+*** Duke Nukem 3D: Megaton Edition
+*** Duke Nukem Forever
+*** Dungeon Defenders
+*** Dungeonland
+*** Dungeon of the ENDLESS
+*** Dungeons
+*** Dungeon Siege
+*** Dungeon Siege 2
+*** Dungeon Siege III
+*** Dungeons of Dredmor
+*** Dust: An Elysian Tail
+*** Dustforce
+*** Dwarf Fortress
+*** Dwarfs!?
+*** Dyscourse
+*** Dysfunctional Systems: Learning to Manage Chaos
+*** Edge of Space
+*** Edna & Harvey: Harvey's New Eyes
+*** Eets Munchies
+*** Eidolon
+*** Eldritch
+*** Elegy For A Dead World
+*** Elite Dangerous
+*** ENDLESS Legend
+*** ENDLESS Space - Definitive Edition
+*** English Country Tune
+*** Enter the Gungeon
+*** Environmental Station Alpha
+*** Epic Battle Fantasy 4
+*** Escape Rosecliff Island
+*** Ethan: Meteor Hunter
+*** Eufloria
+*** Eufloria HD
+*** Europa Universalis III
+*** Europa Universalis IV
+*** Euro Truck Simulator
+*** Euro Truck Simulator 2
+*** Evoland
+*** Evolve Stage 2
+*** Fable - The Lost Chapters
+*** Fallout
+*** Fallout 3 - Game of the Year Edition
+*** Fallout 4
+*** Fallout: New Vegas
+*** Fallout Shelter
+*** Fantasy Kingdom Simulator
+*** Far Cry 2
+*** Far Cry 3
+*** Far Cry 3 Blood Dragon
+*** F.E.A.R.
+*** F.E.A.R. 2: Project Origin
+*** F.E.A.R. 3
+*** F.E.A.R.: Extraction Point
+*** F.E.A.R.: Perseus Mandate
+*** Feeding Frenzy 2: Shipwreck Showdown Deluxe
+*** FEZ
+*** Find a game
+*** Finding Teddy
+*** Firewatch
+*** Five Nights at Freddy's
+*** Followed (2)
+*** Fortune's Tavern - The Fantasy Tavern Simulator!
+*** Fractal: Make Blooms Not War
+*** FRACT OSC
+*** Freaking Meatbags
+*** Frozen Synapse
+*** FTL: Faster Than Light
+*** FUEL
+*** FUELFUEL
+*** Full Mojo Rampage
+*** Full Pipe
+*** Galactic Arms Race
+*** Galactic Civilizations II: Ultimate Edition
+*** Galaxy on Fire 2 Full HD
+*** Game of Thrones
+*** Game of Thrones
+*** Garry's Mod
+*** Gemini Rue
+*** Geneforge 1
+*** Geneforge 2
+*** Geneforge 3
+*** Geneforge 4
+*** Geneforge 5
+*** Giana Sisters: Twisted Dreams
+*** Gish
+*** Gloom
+*** Goat Simulator
+*** Gods Will Be Watching
+*** Godus
+*** Godus Wars
+*** Gone Home
+*** Gothic Playable Teaser
+*** Gratuitous Space Battles
+*** Gratuitous Space Battles 2
+*** Gratuitous Tank Battles
+*** Greed Corp
+*** Grey Goo
+*** GRID
+*** GRID 2
+*** GRIDGRID
+*** Grow Home
+*** Guacamelee! Gold Edition
+*** Guacamelee! Super Turbo Championship Edition
+*** Guardians of Middle-earth
+*** Guild Wars
+*** Gunpoint
+*** Hack 'n' Slash
+*** Hack, Slash, Loot
+*** Half-Life 2
+*** Half-Life 2: Deathmatch
+*** Half-Life 2: Episode One
+*** Half-Life 2: Episode Two
+*** Half-Life 2: Lost Coast
+*** Half-Life 2: Update
+*** Half-Life Deathmatch: Source
+*** Half-Life: Source
+*** Half Minute Hero: Super Mega Neo Climax Ultimate Boy
+*** Hammerfight
+*** Hard Reset
+*** Hate Plus
+*** Hector: Ep 1
+*** Hector: Ep 2
+*** Hector: Ep 3
+*** Hero Academy
+*** Heroes of Might & Magic V
+*** Hitman 2: Silent Assassin
+*** Hitman: Absolution
+*** Hitman: Codename 47
+*** Hitman: Sniper Challenge
+*** HITMAN
+*** HOARD
+*** Home
+*** Hotline Miami
+*** Human Fall Flat
+*** Human Resource Machine
+*** HunieCam Studio
+*** I Am Bread
+*** ibb & obb
+
+*** I Have No Mouth, and I Must Scream
+*** Incredipede
+*** Indiana Jones and the Fate of Atlantis
+*** Indiana Jones and the Last Crusade
+*** Indie Game: The Movie
+*** Indigo Prophecy
+*** Infested Planet
+*** Influent
+*** Inquisitor
+*** Insanely Twisted Shadow Planet
+*** Insurgency
+*** Interstellaria
+*** Intrusion 2
+*** Invisible, Inc.
+*** Jack Lumber
+*** Jamestown
+*** Jazzpunk: Director's Cut
+*** Jolly Rover
+*** Journey of a Roach
+*** Just Cause 2
+*** KAMI
+*** Kentucky Route Zero
+*** Kerbal Space Program
+*** KickBeat Steam Edition
+*** Killing Floor
+*** Killing Floor Mod: Defence Alliance 2
+*** Kill The Bad Guy
+*** Kinetic Void
+*** King of Dragon Pass
+*** King's Bounty: Armored Princess
+*** King's Bounty: Crossworlds
+*** King's Bounty: The Legend
+*** Knock-knock
+*** Krater
+*** Ladykiller in a Bind
+*** L.A. Noire
+*** Left 4 Dead 2
+*** Legend of Grimrock
+*** Legends of Persia
+*** LEGO Harry Potter: Years 1-4
+*** LEGO MARVEL Super Heroes
+*** Leviathan: Warships
+*** Lifeless Planet
+*** LIMBO
+*** LISA
+*** Little Inferno
+*** Little Pink Best Buds Prototype
+*** Lone Survivor: The Director's Cut
+*** Long Live The Queen
+*** Loom
+*** Lords of the Black Sun
+*** Lovely Planet
+*** LUDWIG
+*** Luxuria Superbia
+*** LYNE
+*** Machinarium
+*** Mafia II (Classic)
+*** Mafia II: Definitive Edition
+*** Magic 2014
+*** Magic 2014
+*** Magicka
+*** Magicka 2
+*** Maia
+*** Majesty 2
+*** Mandagon
+*** Mark of the Ninja
+*** Marmoset Hexels 3
+*** Marooners
+*** Mass Effect (2007)
+*** Mass Effect 2 (2010)
+*** Mass Effect 2 (2010) Edition
+*** McPixel
+*** Mechanic Escape
+*** Medal of Honor(TM) Multiplayer
+*** Medal of Honor(TM) Single Player
+*** Men of War
+*** Men of War: Assault Squad
+*** Men of War: Red Tide
+*** METAL GEAR SOLID V: GROUND ZEROES
+*** METAL GEAR SOLID V: THE PHANTOM PAIN
+*** Metro 2033
+*** Metro: Last Light Complete Edition
+*** Middle-earth: Shadow of Mordor
+*** Might & Magic: Heroes VI
+*** MIND Path to Thalamus E.Edition
+*** Mini Metro
+*** Mini Ninjas
+*** MirrorMoon EP
+*** Mirror's Edge
+*** Mnemonic Prototype
+*** Moirai
+*** Monaco
+*** Mordheim: City of the Damned
+*** Mortal Kombat Kollection
+*** Mountain
+*** Multiwinia
+*** Natural Selection 2
+*** Nethergate: Resurrection
+*** Neverwinter Nights 2: Platinum
+*** Nidhogg
+*** NightSky
+*** Noir Syndrome
+*** Nuclear Throne
+*** Oceanhorn: Monster of Uncharted Seas
+*** Oddworld: Abe's Exoddus
+*** Oddworld: Abe's Oddysee
+*** Oddworld: Munch's Oddysee
+*** Oddworld: Stranger's Wrath HD
+*** Offspring Fling!
+*** Offworld Trading Company
+*** Oil Rush
+*** OlliOlli
+*** Only If
+*** On the Rain-Slick Precipice of Darkness, Episode One
+*** On the Rain-Slick Precipice of Darkness, Episode Two
+*** Orcs Must Die!
+*** Orcs Must Die! 2
+*** Organ Trail: Director's Cut
+*** Orwell
+*** Our Darker Purpose
+*** Outlast
+*** Overlord
+*** Overlord II
+*** Overlord: Raising Hell
+*** Oxenfree
+*** Oxygen Not Included
+*** Painkiller Hell & Damnation
+*** Papers, Please
+*** Papo & Yo
+*** Paranautical Activity: Deluxe Atonement Edition
+*** Path of Exile
+*** Pathologic Classic HD
+*** Patrician IV: Steam Special Edition
+*** Peggle Deluxe
+*** Peggle Nights
+*** Pentiment
+*** Pillars of Eternity
+*** Plague Inc: Evolved
+*** Planetary Annihilation
+*** PlanetSide 2
+*** PlanetSide 2 - Test
+*** Plants vs. Zombies: Game of the Year
+*** Playtime
+*** Poker Night 2
+*** Poker Night at the Inventory
+*** Pony Island
+*** Pool Nation
+*** Portal
+*** Portal 2
+*** Postmortem: one must die (Extended Cut)
+*** Prey
+*** Prison Architect
+*** Professional Farmer 2014
+*** Project Temporality
+*** Project Zomboid
+*** Proteus
+*** Psychonauts
+*** Puzzle Agent
+*** Puzzle Agent 2
+*** Q.U.B.E.
+*** RAW - Realms of Ancient War
+*** Recettear: An Item Shop's Tale
+*** Red Faction: Armageddon
+*** Redshirt
+*** ReignMaker
+*** Reigns
+*** Reigns: Her Majesty
+*** Resident Evil 4 (2005)
+*** Resident Evil 6
+*** Resident Evil 7 Teaser: Beginning Hour
+*** Reus
+*** RimWorld
+*** Ring Runner: Flight of the Sages
+*** Risen 2 - Dark Waters
+*** Rising Storm/Red Orchestra 2 Multiplayer
+*** Risk of Rain (2013)
+*** Riven (1997)
+*** Road Not Taken
+*** Rochard
+*** Rock of Ages
+*** Rogue Legacy
+*** Rogue State
+*** RPG Maker VX Ace
+*** RPG Tycoon
+*** Sacred 2 Gold
+*** Saints Row 2
+*** Saints Row IV
+*** Saints Row: The Third
+*** Sakura Agent
+*** Sakura Angels
+*** Sakura Beach
+*** Sakura Beach 2
+*** Sakura Fantasy Chapter 1
+*** Sakura Spirit
+*** Sam & Max 301: The Penal Zone
+*** Sam & Max 302: The Tomb of Sammun-Mak
+*** Sam & Max 303: They Stole Max's Brain!
+*** Sam & Max 304: Beyond the Alley of the Dolls
+*** Sam & Max 305: The City that Dares not Sleep
+*** Samorost 2
+*** Samorost 3
+*** Sanctum
+*** Sanctum 2
+*** Satellite Reign
+*** Scanner Sombre
+*** Scribblenauts Unlimited
+*** Secrets of Rætikon
+*** SEGA Mega Drive & Genesis Classics
+*** Serious Sam 2
+*** Serious Sam 3: BFE
+*** Serious Sam Classics: Revolution
+*** Serious Sam Classic: The First Encounter
+*** Serious Sam Classic: The Second Encounter
+*** Serious Sam Double D XXL
+*** Serious Sam Fusion 2017 (beta)
+*** Serious Sam HD: The First Encounter
+*** Serious Sam HD: The Second Encounter
+*** Serious Sam: The Random Encounter
+*** Shadowgrounds
+*** Shadowgrounds: Survivor
+*** Shadowrun Chronicles - Boston Lockdown
+*** Shadowrun: Dragonfall - Director's Cut
+*** Shadowrun Returns
+*** Shadow Warrior Classic Redux
+*** Shank
+*** Shank 2
+*** Shank 2Shank 2
+*** Shantae and the Pirate's Curse
+*** Shatter
+*** Shattered Haven
+*** Shelter 1
+*** Shovel Knight: Treasure Trove
+*** Sid Meier's Civilization: Beyond Earth
+*** Sid Meier's Civilization V
+*** Sid Meier's Covert Action (Classic)
+*** Signs of Life
+*** SimCity 4 Deluxe
+*** Sins of a Solar Empire: Rebellion
+*** Sir, You Are Being Hunted
+*** Skyward Collapse
+*** Slime Rancher
+*** Snapshot
+*** SnapshotSnapshot
+*** Sokobond
+*** Solar 2
+*** SOMA
+*** Source Filmmaker
+*** Spacebase DF-9
+*** Spacebase DF-9 Prototype
+*** SPACECOM
+*** Space Empires IV Deluxe
+*** Space Engineers
+*** Space Hulk
+*** Space Hulk Ascension
+*** Space Hulk: Deathwing
+*** Space Hulk: Deathwing - Enhanced Edition
+*** Space Pirates and Zombies
+*** Spec Ops: The Line
+*** SpellForce 2 - Faith in Destiny
+*** Spelunky
+*** Spiral Knights
+*** Splice
+*** Spriter Pro
+*** Stacking
+*** S.T.A.L.K.E.R.: Call of Pripyat
+*** S.T.A.L.K.E.R.: Clear Sky
+*** S.T.A.L.K.E.R.: Shadow of Chernobyl
+*** StarCrawlers
+*** Stardew Valley
+*** StarForge
+*** Starseed Pilgrim
+*** STAR WARS: Dark Forces
+*** STAR WARS Knights of the Old Republic
+*** STASIS
+*** Stealth Bastard Deluxe
+*** Steam Marines
+*** SteamWorld Dig
+*** Steed Prototype
+*** Stellaris
+*** Stranded
+*** Streets of Rogue
+*** Strike Suit Infinity
+*** Strike Vector
+*** Subnautica
+*** Subsurface Circular
+*** Suits: A Business RPG
+*** Sunless Sea
+*** Sunset
+*** SunsetSunset
+*** Superbrothers: Sword & Sworcery EP
+*** Superfrog HD
+*** Superfrog HDSuperfrog HD
+*** Super Meat Boy
+*** Super Time Force Ultra
+*** Supreme Commander
+*** Supreme Commander: Forged Alliance
+*** Surgeon Simulator
+*** Survivor Squad
+*** Sword of the Stars II: Enhanced Edition
+*** Sword of the Stars: The Pit
+*** System Shock 2
+*** Tacoma
+*** Tales from Space: Mutant Blobs Attack
+*** Tales from the Borderlands
+*** Team Fortress 2
+*** Teleglitch: Die More Edition
+*** Terraria
+*** Tesla Effect
+*** The Baconing
+*** The Banner Saga
+*** The Bard's Tale
+*** The Basement Collection
+*** The Beginner's Guide
+*** The Binding of Isaac
+*** The Binding of Isaac: Rebirth
+*** The Blue Flamingo
+*** The Book of Unwritten Tales
+*** The Bridge
+*** The Bureau: XCOM Declassified
+*** The Cave
+*** The Dark Eye: Chains of Satinav
+*** The Darkness II
+*** The Darkside Detective
+*** The Dig
+*** The Dream Machine
+*** The Elder Scrolls III: Morrowind
+*** The Elder Scrolls V: Skyrim
+*** The Escapists
+*** The Fall
+*** The Flame in the Flood
+*** The Guild II
+*** The Incredible Adventures of Van Helsing
+*** The Last Federation
+*** The Lord of the Rings: War in the North
+*** The Novelist
+*** The Old City: Leviathan
+*** The Old Tree
+*** The Path
+*** The Settlers 7: Paths to a Kingdom - Gold Edition
+*** The Ship
+*** The Showdown Effect
+*** The Signal From Tölva
+*** The Sims 4
+*** The Stanley Parable
+*** The Surge
+*** The Swapper
+*** The Talos Principle
+*** The Testament of Sherlock Holmes
+*** The Typing of The Dead: Overkill
+*** The Vanishing of Ethan Carter
+*** The Vanishing of Ethan Carter Redux
+*** The Walking Dead
+*** The Whispered World
+*** The Whispered World Special Edition
+*** The Witcher 2: Assassins of Kings Enhanced Edition
+*** The Witcher 3: Wild Hunt
+*** The Witcher: Enhanced Edition
+*** The Witness
+*** The Wolf Among Us
+*** Thief
+*** Thief: Deadly Shadows
+*** Thief Gold
+*** This War of Mine
+*** Thomas Was Alone
+*** Thunder Wolves
+*** Ticket to Ride
+*** Tidalis
+*** Time Gentlemen, Please!
+*** Tiny and Big: Grandpa's Leftovers
+*** TIS-100
+*** Titan Quest
+*** Titan Quest Anniversary Edition
+*** Titan Souls
+*** Tomb Raider
+*** Torchlight
+*** Torchlight II
+*** Tormentum - Dark Sorrow
+*** Total War: SHOGUN 2
+*** To the Moon
+*** Tower of Guns
+*** Town of Salem
+*** Trainz Simulator 12
+*** Transistor
+*** Trine
+*** Trine 2
+*** Tropico 4
+*** Type:Rider
+*** Tyranny
+*** Undertale
+*** Universe Sandbox Legacy
+*** Unreal Gold
+*** Unreal II: The Awakening
+*** Unreal Tournament 2004
+*** Unreal Tournament 3: Black Edition
+*** Unreal Tournament: Game of the Year Edition
+*** Unrest
+*** Uplink
+*** Urban Empire
+*** VA-11 Hall-A: Cyberpunk Bartender Action
+*** Valve Logo
+*** Vampire: The Masquerade - Bloodlines
+*** VelocityUltra
+*** Verdun
+*** Vertical Drop Heroes HD
+*** Vessel
+*** Victoria II
+*** Viridi
+*** Viscera Cleanup Detail
+*** Viscera Cleanup Detail: Santa's Rampage
+*** Viscera Cleanup Detail: Shadow Warrior
+*** VVVVVV
+*** Waking Mars
+*** Wallace & Gromit Ep 1: Fright of the Bumblebees
+*** Wallace & Gromit Ep 2: The Last Resort
+*** Wallace & Gromit Ep 3: Muzzled!
+*** Wallace & Gromit Ep 4: The Bogey Man
+*** Wargame: European Escalation
+*** Warhammer 40,000: Armageddon
+*** Warhammer 40,000: Dawn of War - Anniversary Edition
+*** Warhammer 40,000: Dawn of War - Anniversary Edition
+*** Warhammer 40,000: Dawn of War - Dark Crusade
+*** Warhammer 40,000: Dawn of War II - Anniversary Edition
+*** Warhammer 40,000: Dawn of War II - Chaos Rising
+*** Warhammer 40,000: Dawn of War II - Retribution
+*** Warhammer 40,000: Dawn of War - Soulstorm
+*** Warhammer 40,000: Dawn of War - Winter Assault
+*** Warhammer 40,000: Kill Team
+*** Warhammer 40,000: Space Marine - Anniversary Edition
+*** Warhammer: End Times - Vermintide
+*** Warlock - Master of the Arcane
+*** Warmachine Tactics
+*** War of the Roses
+*** War of the RosesWar of the Roses
+*** Wasteland 1 - The Original Classic
+*** Wasteland 2
+*** Wasteland 2: Director's Cut
+*** Wayward Manor
+*** We Happy Few
+*** Weird Worlds: Return to Infinite Space
+*** Wildlife Park 3
+*** Windforge
+*** Windosill
+*** Wishlist
+*** World of Goo
+*** Worms Armageddon
+*** Worms Blast
+*** Worms Crazy Golf
+*** Worms Pinball
+*** Worms Reloaded
+*** Worms Revolution
+*** Worms Ultimate Mayhem
+*** X2: The Threat
+*** X3: Albion Prelude
+*** X3: Reunion
+*** X3: Terran Conflict
+*** X: Beyond the Frontier
+*** XCOM 2
+*** X-COM: Apocalypse
+*** XCOM: Enemy Unknown
+*** X-COM: Enforcer
+*** X-COM: Interceptor
+*** X-COM: Terror from the Deep
+*** X-COM: UFO Defense
+*** XenoBloom
+*** X Rebirth
+*** X-Tension
+*** Year Walk
+*** ZACH-LIKE
+*** Zeno Clash
+*** Zeno Clash 2
+*** Zuma's Revenge
+* Humble
