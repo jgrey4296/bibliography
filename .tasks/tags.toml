@@ -40,7 +40,7 @@ depends_on   = [
 actions   = [
     # walk and read all sub files
     {do="job.walk",   update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="read_sub_actions"},
+    {do="job.expand", from_="files", update_="tasks", inject={now=["fpath"]}, template_="read_sub_actions"},
     {do="job.queue",  from_="tasks"}, # queue
 ]
 read_sub_actions              = [
@@ -58,16 +58,16 @@ head_actions = [
 ]
 
 [[tasks.tags]]
-name      = "_.calculate.update"
-version   = "0.1"
-doc       = ["Calculate the difference between known tags and new tags"]
-inject    = ["fpath"]
-ctor      = "task"
-roots     = ["{substitutions!p}/general"]
-exts      = [".sub"]
-recursive = false
-depends_on = ["tags::_.build.total"]
-actions = [
+name           = "_.calculate.update"
+version        = "0.1"
+doc            = ["Calculate the difference between known tags and new tags"]
+must_inject    = ["fpath"]
+ctor           = "task"
+roots          = ["{substitutions!p}/general"]
+exts           = [".sub"]
+recursive      = false
+depends_on     = ["tags::_.build.total"]
+actions        = [
     { do="log", msg="Calculating Tags Update" },
     # Get existing totals
     { do="taskcode.tags:read_tags", from="{canon_tag_file!p}", update_="total_tags" },

@@ -5,15 +5,15 @@ orphans = "{temp}/orphans"
 
 
 [[tasks.orphans]]
-name    = "_.report.missing"
-inject  = ["fpath", "postbox"]
-setup   = [
+name         = "_.report.missing"
+must_inject  = ["fpath", "postbox"]
+setup        = [
     {do="exists?", args=["{fpath!p}"], fail=true},
     # TODO calc lib subpath
     {do="path.elements",   from_="fpath", roots=["{bib!p}"]},
 ]
 depends_on = [
-    # {task="orphans::_.filesystem", inject={fpath="lib_sub", fstem="fstem"} },
+    # {task="orphans::_.filesystem", inject={now={fpath="lib_sub", fstem="fstem"}} },
 ]
 actions = [
         #

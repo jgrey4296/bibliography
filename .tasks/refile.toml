@@ -11,14 +11,14 @@ doc     = [
 version = "0.1"
 ctor    = "job"
 cli     = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-inject           = ["fpath"]
+must_inject = ["fpath"]
 roots            = ["{bib!p}"]
 depends_on       = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"], fail=true},
-    { task="format::_.by.year", inject={fpath="fpath"} },
+    { task="format::_.by.year", inject={now=["fpath"]} },
 ]
 setup            = [
     # build the parse and export stacks, and the db
@@ -40,12 +40,12 @@ actions          = [
 ]
 
 [[tasks.refile]]
-name = "_.single.entry"
-doc = ["Targets: pre20th, 20th_a, 20th_b, 21st_a, 21st_b"]
-inject = ["entry"]
-ctor = "task"
-roots = ["{pdf_source!p}"]
-actions = [
+name        = "_.single.entry"
+doc         = ["Targets: pre20th, 20th_a, 20th_b, 21st_a, 21st_b"]
+must_inject = ["entry"]
+ctor        = "task"
+roots       = ["{pdf_source!p}"]
+actions     = [
     {do="taskcode.bibtex:log_entry_name"},
     # --
     # Get files

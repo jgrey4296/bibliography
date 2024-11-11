@@ -11,12 +11,14 @@ doc_out = ".site"
 
 [[tasks.docs]]
 name       = "export"
-depends_on = [{task="docs::build", inject={warn=false}}]
+warn       = false
+depends_on = [{task="docs::build", inject={now=["warn"]}}]
 
 [[tasks.docs]]
 name        = "build"
 doc         = ["build sphinx"]
 cli         = [{name="warn", type="bool", default=true},]
+must_inject = ["warn"]
 ctor        = "task"
 doc_builder = "html"
 env_name    = "default"

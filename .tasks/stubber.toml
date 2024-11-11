@@ -7,19 +7,19 @@ downloads  = "~/Downloads"
 todo_pdfs  = "/media/john/data/todo/pdfs"
 
 [[tasks.stub]]
-name                 = "files"
-version              = "0.1"                                 # <str>
-doc                  = ["Move pdfs and epubs into working directory, create stub entry for each one"]
-ctor                 = "job"                                # <str>
-queue_behaviour      = "default"                             # <str>                default | auto | reactive
-exts                 = [".pdf", ".epub"]                     # <list[str]>
-roots                = ["{dropbox!p}"]                         # <list[str|pl.Path]>  Places the Walker will start
-recursive            = false                                 # <bool>
+name                     = "files"
+version                  = "0.1"                                 # <str>
+doc                      = ["Move pdfs and epubs into working directory, create stub entry for each one"]
+ctor                     = "job"                                # <str>
+queue_behaviour          = "default"                             # <str>                default | auto | reactive
+exts                     = [".pdf", ".epub"]                     # <list[str]>
+roots                    = ["{dropbox!p}"]                         # <list[str|pl.Path]>  Places the Walker will start
+recursive                = false                                 # <bool>
 out_target               = "{todo_pdfs!p}/stubbed/{fname}"
-accept_fn            = "taskcode.stubber:not_copied"
-actions              = [
+accept_fn                = "taskcode.stubber:not_copied"
+actions                  = [
         {do="job.walk", update_="files", fn_="accept_fn"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"], copy=["out_target"]}, template_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={now=["fpath"], delay=["out_target"]}, template_="sub_actions"},
         {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"}, # queue
 ]
@@ -48,7 +48,7 @@ recursive   = false
 actions     = [
             {do="log", msg="Queuing Cleanup of old files"},
             {do="job.walk",   update_="files", fn_="accept_fn"}, # walk,
-            {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
+            {do="job.expand", from_="files", update_="tasks", inject={now=["fpath"]}, template_="sub_actions"},
             {do="job.queue",  from_="tasks"}, # queue
 ]
 sub_actions = [
