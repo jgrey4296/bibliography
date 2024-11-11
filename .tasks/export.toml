@@ -4,7 +4,7 @@ bib_export    = "{export}/bib"
 rst_export    = "{export}/rst"
 
 [[tasks.export]]
-name             = "_.one.bib"
+name             = "_.clean.bib"
 doc              = ["export a bibtex, with latex encoding"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib!p}"]
@@ -41,8 +41,8 @@ depends_on = [
 
 ]
 setup           = [
-        { do="dootle.bibtex:BibtexInitAction",             update_="bib_db"},
-        { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
+        { do="dootle.bibtex:BibtexInitAction",                 update_="bib_db"},
+        { do="taskcode.bibtex:build_working_parse_stack",      update_="parse_stack"},
         { do="taskcode.export:build_export_rst_write_stack",   update_="export_stack" },
 ]
 actions              = [
@@ -54,4 +54,39 @@ actions              = [
 cleanup = [
         {do="exists?", args=["{rst_export!p}/{fstem}.rst"], fail=true},
         {do="log",   msg="Compiled {fname} to {rst_export}"},
+]
+
+[[tasks.export]]
+name    = "_.to.calendar"
+version = "0.1"
+ctor    = "job"
+doc     = ["create a calendar of when entries were added to the db"]
+setup   = []
+actions = []
+cleanup = []
+
+[[tasks.export]]
+name             = "_.to.tex"
+ctor             = "task"
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+must_inject      = ["fpath"]
+author           = "jg"
+depends_on       = [
+    {task="export::_.clean.bib", inject={now=["fpath"]}},
+    {task="compile::_.gen.template", inject={now=["fpath"]}},
+    {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
+    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+    # skip if the exported bib exists and is recent
+    {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
+]
+setup            = [
+    # Load template
+    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+    {do="read",          from="{tex_template!p}", update_="template"},
+]
+actions =[
+    # expand the template
+    {do="dootle.utils.template_expansion:TemplateExpansion", template_="template", title="{fstem}", target="./{fstem}.bib", update_="tex"},
+    # Write it to a temp file
+    {do="write!", from_="tex", to="{tex_export!p}/{fstem}.tex"},
 ]

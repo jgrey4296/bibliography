@@ -21,7 +21,7 @@ cli           = [{ name="files",   type="list", default=[], positional=true }]
 depends_on    = []
 actions       = [
    {do="log", msg="Precommit for : {files}"},
-   # {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={replace=["fpath"]}, template="format::_.by.year"},
+   # {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={now=["fpath"]}, template="format::_.by.year"},
    # {do="job.queue", from_=["format_tasks"]},
 ]
 cleanup       = [
@@ -46,7 +46,7 @@ actions    = [
    {do="log", msg="Available changed files: {changed}"},
    {do="job.limit", count_="choose", from_="changed"},
    # Queue metadata update
-   {do="job.expand", from_="changed", inject={replace=["fpath"]}, template="changed::_.one.bib", update_="bib_files", prefix="git.cached"},
+   {do="job.expand", from_="changed", inject={now=["fpath"]}, template="changed::_.one.bib", update_="bib_files", prefix="git.cached"},
    {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [

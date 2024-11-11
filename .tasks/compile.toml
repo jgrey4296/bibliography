@@ -13,10 +13,11 @@ name             = "_.to.pdf"
 ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
-    {task="export::_.one.bib", inject={fpath="fpath"}},
-    {task="compile::_.gen.template", inject={fpath="fpath"}},
+    {task="export::_.clean.bib", inject={now=["fpath"]}},
+    {task="export::_.to.tex", inject={now=["fpath"]}},
     {do="installed?", args=["pdftex", "bibtex"] },
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath", roots=["{bib!p}"]},
@@ -29,7 +30,6 @@ setup            = [
 ]
 actions =[
     {do="log", msg="Compiling to pdf: {fname}"},
-
     # compile tex
     {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
     {do="exists?", args=["{tex_export!p}/{fstem}.pdf"], fail=true },
@@ -51,101 +51,4 @@ cleanup = [
     {do="exists?", args=["{out!p}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
     {do="move", from="{tex_export!p}/{fstem}.pdf", to="{pdf_export!p}/{fstem}.pdf", force=true},
-]
-
-[[tasks.compile]]
-name             = "_.gen.template"
-ctor             = "task"
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-author           = "jg"
-setup            = [
-    # Load template
-    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
-    {do="read",          from="{tex_template!p}", update_="template"},
-]
-actions =[
-    # expand the template
-    {do="dootle.utils.template_expansion:TemplateExpansion", template_="template", title="{fstem}", target="./{fstem}.bib", update_="tex"},
-    # Write it to a temp file
-    {do="write!", from_="tex", to="{tex_export!p}/{fstem}.tex"},
-]
-
-[[tasks.compile]]
-name                 = "_.to.html"
-version              = "0.1"
-ctor                 = "task"
-cli                  = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false }]
-depends_on           = [
-        {task="export::_.one.bib", inject={fpath="fpath"}},
-        {do="installed?", args=["bibtex2html"]},
-        {do="relative?",  args=["{fpath!p}"], bases=["{bib!p}"]},
-        {do="path.elements", from_="fpath", roots=["{bib!p}"]},
-        {do="exists?", args=["{bib_export!p}/{fname}"], fail=true},
-        # skip if the exported bib exists and is recent
-        {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{html_export!p}/{fstem}.html" },
-
-]
-actions              = [
-        {do="log", msg="Converting {fname} to html"},
-        # Run bibtex2html
-        {do="shell", args=["bibtex2html",
-                    "-i", # ignore error
-                    "-dl", # as a dl table
-                    "-a", # Sort by author
-                     "-nodoc", # not a full html doc
-                     "-nobibsource", # just the html
-                     "-noheader",
-                     "-nofooter",
-                     "-o", "{html_export!p}/{fstem}",
-                     "{bib_export!p}/{fname}",
-                     ]},
-]
-cleanup = [
-        {do="exists?", args=["{html_export!p}/{fstem}.html"], fail=true},
-        {do="log",   msg="Compiled {fname} to {html_export}"},
-]
-
-[[tasks.compile]]
-name                 = "missing"
-version              = "0.1"                                    # <str>
-doc                  = ["list any bibs that don't have an exported bib, or a built pdf"]
-ctor                 = "job"                                   # <str>
-queue_behaviour      = "default"                                # <str>                default | auto | reactive
-exts                 = [".bib"]                                 # <list[str]>
-roots                = ["{bib!p}"]                                # <list[str|pl.Path]>  Places the Walker will start
-actions = [
-        {do="job.walk",   update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template_="sub_actions"},
-        {do="job.queue",  from_="tasks"}, # queue
-]
-sub_actions          = [
-    # calc path parts
-    {do="path.elements", from_="fpath" },
-    {do="exists?", args=["{bib_export!p}/{fstem}.bib", "{pdf_export!p}/{fstem}.pdf"], not=true},
-    {do="post.put", "compile::missing..files"="{fstem}"},
-]
-head_actions = [
-    {do="post.get", missing="compile::missing..files"},
-    {do="log", msg="These are missing:"},
-    {do="log", msg="{missing}"},
-]
-
-[[tasks.compile]]
-name    = "_.to.calendar"
-version = "0.1"
-ctor    = "job"
-doc     = ["create a calendar of when entries were added to the db"]
-setup   = []
-actions = []
-cleanup = []
-
-[[tasks.compile]]
-name                 = "_.all.html"
-ctor                 = "job"
-exts                 = [".bib"]                                 # <list[str]>
-roots                = ["{bib!p}"]                                # <list[str|pl.Path]>  Places the Walker will start
-actions              = [
-        {do="job.walk",   update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={replace=["fpath"]}, template="compile::_.to.html"},
-        {do="job.queue",  from_="tasks"}, # queue
 ]
