@@ -280,7 +280,10 @@ class TagIndex(Index):
         collapse = True
         entries = self.domain.data['entries']
 
-        for tag, sigs in self.domain.data['tags'].items():
+        for tag in sorted(self.domain.data['tags'].keys()):
+            sigs = sorted(self.domain.data['tags'][tag])
+            if not bool(sigs):
+                continue
             letter = tag[0].upper()
             content[letter].append(IndexEntry(tag, 1, "",  "", "", "", ""))
             for sig in sigs:
@@ -289,6 +292,7 @@ class TagIndex(Index):
                 obj = entries[sig]
                 name = obj[0].removeprefix(f"{DOMAIN_NAME}.")
                 content[letter].append(IndexEntry(name, 2, obj[2], obj[3], '', '', ''))
+
 
         return sorted(content.items()), collapse
 
@@ -305,7 +309,8 @@ class AuthorIndex(Index):
         collapse = True
         entries = self.domain.data['entries']
 
-        for author, sigs in self.domain.data['authors'].items():
+        for author, sigs in sorted(self.domain.data['authors'].items()):
+            sigs = sorted(sigs)
             letter = author[0].upper()
             content[letter].append(IndexEntry(author, 1, "",  "", "", "", ""))
             for sig in sigs:
@@ -330,7 +335,8 @@ class PublisherIndex(Index):
         collapse = True
         entries = self.domain.data['entries']
 
-        for pub, sigs in self.domain.data['publishers'].items():
+        for pub, sigs in sorted(self.domain.data['publishers'].items()):
+            sigs = sorted(sigs)
             letter = pub[0].upper()
             content[letter].append(IndexEntry(pub, 1, "",  "", "", "", ""))
             for sig in sigs:
@@ -355,7 +361,8 @@ class JournalIndex(Index):
         collapse = True
         entries = self.domain.data['entries']
 
-        for journal, sigs in self.domain.data['journals'].items():
+        for journal, sigs in sorted(self.domain.data['journals'].items()):
+            sigs = sorted(sigs)
             letter = journal[0].upper()
             content[letter].append(IndexEntry(journal, 1, "",  "", "", "", ""))
             for sig in sigs:
@@ -380,7 +387,8 @@ class InstitutionIndex(Index):
         collapse = True
         entries = self.domain.data['entries']
 
-        for institution, sigs in self.domain.data['institutions'].items():
+        for institution, sigs in sorted(self.domain.data['institutions'].items()):
+            sigs = sorted(sigs)
             letter = institution[0].upper()
             content[letter].append(IndexEntry(institution, 1, "",  "", "", "", ""))
             for sig in sigs:
@@ -405,7 +413,8 @@ class SeriesIndex(Index):
         collapse = True
         entries = self.domain.data['entries']
 
-        for series, sigs in self.domain.data['series'].items():
+        for series, sigs in sorted(self.domain.data['series'].items()):
+            sigs = sorted(sigs)
             letter = series[0].upper()
             content[letter].append(IndexEntry(series, 1, "",  "", "", "", ""))
             for sig in sigs:
