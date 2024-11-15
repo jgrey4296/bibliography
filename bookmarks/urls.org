@@ -2423,6 +2423,83 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
+** Standards
+https://www.w3.org/TR/?status%5B0%5D=standard
+
+statecharts - https://www.w3.org/TR/scxml/
+epub - https://www.w3.org/TR/epub-33/
+
+rdf - https://www.w3.org/TR/rdf11-concepts/
+https://www.w3.org/TR/n-quads/
+https://www.w3.org/TR/n-triples/
+https://www.w3.org/TR/rdf11-mt/
+https://www.w3.org/TR/rdf-syntax-grammar/
+https://www.w3.org/TR/rdf-schema/
+https://www.w3.org/TR/rdf-primer/
+https://www.w3.org/TR/rdf-mt/
+https://www.w3.org/TR/rdf-concepts/
+https://www.w3.org/TR/rdfa-core/
+
+turtle - https://www.w3.org/TR/turtle/
+
+timed text markup - https://www.w3.org/TR/ttml1/
+https://www.w3.org/TR/ttml2/
+
+xml - https://www.w3.org/TR/xml-entity-names/
+https://www.w3.org/TR/xmlbase/
+
+xpath - https://www.w3.org/TR/xpath-31/
+https://www.w3.org/TR/xpath-functions-31/
+https://www.w3.org/TR/xpath-30/
+https://www.w3.org/TR/xpath-functions-30/
+
+xquery - https://www.w3.org/TR/xquery-31/
+
+audiobooks - https://www.w3.org/TR/audiobooks/
+
+pub-manifest - https://www.w3.org/TR/pub-manifest/
+activitypub - https://www.w3.org/TR/activitypub/
+micropub - https://www.w3.org/TR/micropub/
+
+data on the web best practices - https://www.w3.org/TR/dwbp/
+subresource integrity - https://www.w3.org/TR/SRI/
+
+emotion markup - https://www.w3.org/TR/emotionml/
+
+organisation ontology - https://www.w3.org/TR/vocab-org/
+data cube ontology - https://www.w3.org/TR/vocab-data-cube/
+
+PROV provenance - https://www.w3.org/TR/prov-constraints/
+https://www.w3.org/TR/prov-dm/
+https://www.w3.org/TR/prov-n/
+https://www.w3.org/TR/prov-o/
+
+rule interchange logic dialect - https://www.w3.org/TR/rif-bld/
+https://www.w3.org/2005/rules/wiki/RIF_Working_Group
+https://www.w3.org/TR/rif-core/
+https://www.w3.org/TR/rif-dtb/
+https://www.w3.org/TR/rif-fld/
+https://www.w3.org/TR/rif-prd/
+
+OWL - https://www.w3.org/TR/owl2-conformance/
+https://www.w3.org/TR/owl2-direct-semantics/
+https://www.w3.org/TR/owl2-overview/
+https://www.w3.org/TR/owl2-primer/
+https://www.w3.org/TR/owl-guide/
+
+xml schema - https://www.w3.org/TR/xmlschema11-1/
+https://www.w3.org/TR/xmlschema11-2/
+
+SVG - https://www.w3.org/TR/SVG11/
+
+xml pipeline - https://www.w3.org/TR/xproc/
+
+linking - https://www.w3.org/TR/xlink11/
+
+XSL - https://www.w3.org/TR/xsl11/
+
+PNG - https://www.w3.org/TR/png/
+
 * Digital Collections
 https://www.cali.org/the-elangdell-bookstore
 https://opendomesday.org/name/
