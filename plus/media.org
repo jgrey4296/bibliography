@@ -189,8 +189,8 @@
 *** The West Wing
 *** The Young Pope
 *** Treme
-*** True Blood
-*** Upstairs Downstairs
+*** [∅] True Blood
+*** [∅] Upstairs Downstairs
 *** Wallace & Gromit
 *** Warehouse 13
 *** Watchmen
@@ -527,19 +527,19 @@
 *** American Beauty
 *** American Psycho
 *** American History X
-*** Amelie
+*** [∅] Amelie
 *** Apocalypse Now
 *** A Series of Unfortunate Events
 *** Batman Begins
 *** Babel
 *** Beetlejuice
 *** Be Kind Rewind
-*** Being John Malcovich
+*** [∅] Being John Malcovich
 *** Bill Bailey Cosmic Jam
 *** Bladerunner
 *** Burn After Reading
-*** Brazil
-*** Big Fish
+*** [∅] Brazil
+*** [∅] Big Fish
 *** Bill Bailey Bewilderness
 *** Black Snake Moan
 *** Hannibal Rising
@@ -566,7 +566,7 @@
 *** Der Ring Des Nibelungen Die Walkure
 *** Der Ring Des Nibelungen Das Rheingold
 *** Deceived
-*** District 9
+*** [∅] District 9
 *** Downfall
 *** Dreamcatcher
 *** Donny Darko
@@ -575,7 +575,7 @@
 *** Dr. Strange Love
 *** Ed Wood
 *** Eden Log
-*** Event Horizon
+*** [∅] Event Horizon
 *** Eraserhead
 *** Existenz
 *** Eternal Sunshine of the Spotless Mind
@@ -587,8 +587,8 @@
 *** Firefly
 *** G3 Live in Denver
 *** Good Night and Good Luck
-*** Gosford Park
-*** Groundhog Day
+*** [∅] Gosford Park
+*** [∅] Groundhog Day
 *** Girl with the Pearl Earring
 *** Gladiator
 *** Ghost in the Shell
@@ -597,7 +597,6 @@
 *** Hancock
 *** Hogfather
 *** Hot Fuzz
-*** Hitchhiker’s Guide to the Galaxy
 *** It’s All Gone Pete Tong
 *** Ironman 1, 2
 *** I want Candy
@@ -607,7 +606,6 @@
 *** It
 *** I am Legend
 *** Jarhead
-*** Jekyll
 *** Koyaanisqatsi
 *** Kill Bill vol. 1, 2
 *** King Kong
@@ -617,16 +615,16 @@
 *** Life of Brian
 *** Lord of War
 *** Love Actually
-*** Like Totally Dylan Moran
+*** [∅] Like Totally Dylan Moran
 *** Man on the Moon
 *** Mars Attacks
-*** Mad Men
 *** Man hunter
-*** Matrix Revolutions and Reloaded
+*** Matrix Revolutions
+*** Matrix Reloaded
 *** Mansfield Park
 *** Mrs. Henderson Presents
 *** Memento
-*** Monty Python And Now for Something Completely Different
+*** [∅] Monty Python And Now for Something Completely Different
 *** Midnight Cowboy
 *** Moon
 *** Michael Clayton
@@ -641,7 +639,7 @@
 *** Planet Earth
 *** Pan’s Labyrinth
 *** PI
-*** Persepolis
+*** [∅] Persepolis
 *** Pulp Fiction
 *** Quantum of Solace
 *** Rango
@@ -653,8 +651,8 @@
 *** Run Fat Boy Run
 *** Resident Evil Extinction; Apocalypse
 *** Robin Hood Prince of Thieves
-*** Snatch
-*** Solaris
+*** [∅] Snatch
+*** [∅] Solaris
 *** Sexy
 *** Sphere
 *** Sunshine
@@ -672,17 +670,17 @@
 *** Sympathy for Mr. Vengeance
 *** Sympathy for Lady Vengeance
 *** Taxi Driver
-*** Thirst
+*** [∅] Thirst
 *** THX1138
 *** The Trial
 *** The Terminal
-*** The Cat’s Meow
+*** [∅] The Cat’s Meow
 *** The Witches of Eastwick
 *** The Weatherman
 *** The Bicentennial Man
 *** The Golden Compass
 *** The Hitch Hiker’s Guide to the Galaxy
-*** The Full Monty
+*** [∅] The Full Monty
 *** The Fountain
 *** The Day the Earth Stood Still
 *** The Altogether
@@ -690,15 +688,14 @@
 *** The Men Who Stare at Goats
 *** The Darjeeling Limited
 *** The Passion of Ayn Rana
-*** The Little Shop of Horrors
-*** The Iron Giant
-*** The Meaning of Life
+*** [∅] The Little Shop of Horrors
+*** [∅] The Iron Giant
+*** [∅] The Meaning of Life
 *** The Color of Magic
 *** The Conversation
 *** The imaginarium of Doctor Parnassus
 *** The Hurt Locker
 *** The Brothers Grimm
-*** The Return of the King
 *** The Devil’s Backbone
 *** The Rocky Horror Picture Show
 *** The Man Who Fell to Earth
@@ -710,20 +707,17 @@
 *** The Merchant of Venice
 *** The Ruby in the Smoke
 *** The Shadow in the North
-*** The Trap Door
 *** Tube Tales
-*** That Mitchell and Webb Look
 *** The Dark Knight
-*** The Lord of the Rings The Two Towers; Fellowship of the Ring
 *** The Simpsons Movie
 *** The Red Violin
 *** Two Tower
 *** The Girl with the Dragon Tattoo
-*** V for Vendetta
+*** [∅] V for Vendetta
 *** Wallace and Gromit
 *** Walk the Line
 *** Wall-E
-*** Watchmen
+*** [∅] Watchmen
 *** Who Framed Roger Rabbit?
 *** Wild Hogs
 *** Zodiac
@@ -748,42 +742,41 @@
 **** Saboteur
 ** Shows
 *** A bit of Fry and Laurie
-*** Battlestar Galactica, season 1, 2, 3, 4; Razor
+*** [∅] Battlestar Galactica, season 1, 2, 3, 4; Razor
 *** Black Adder season 1, 2, 3, 4
-*** Bleak House
 *** Black Books season 1, 2, 3
+*** Bleak House
 *** Breaking Bad season 1
 *** Californication season 1, 2
 *** Chuck season 1, 2
-*** Count Duckula
+*** [∅] Count Duckula
 *** CSI season 1, 2
 *** Death Note 2
 *** Desperate HouseWives season 4
-*** Dollhouse season 1
-*** Doctor Who season 1,2, 4
 *** Dexter season 1, 2, 3,
+*** Doctor Who season 1,2, 4
+*** Dollhouse season 1
 *** Eureka season 1, 2, 3
 *** Fringe season 1
 *** Futurama: The Beast with a Billion Backs; Bender's Game; Into the Wild Green Yonder; Bender’s Big Score; season 1/2/3
-*** House season 1, 2,  3, 4
 *** Heroes season 1, 2, 3
+*** House season 1, 2,  3, 4
+*** Jekyll
 *** Jonathan Creek season 1, 2, 3, 4
 *** Life on Mars season 1, 2
 *** Little Dorrit
 *** Nip Tuck season 1, 2, 3, 4
 *** PeepShow season 1, 2, 3
-*** Pushing Daisies season 1, 2
 *** Primeval season 1, 2
-*** Red Dwarf season 1, 2, 3, 4, 5, 6, 7, 8
+*** Pushing Daisies season 1, 2
+*** [∅] Red Dwarf season 1, 2, 3, 4, 5, 6, 7, 8
 *** Secret Diary of a Call Girl Season 1
 *** Shark season 1
-*** Star Trek; Voyager season 1, 2, 3, 4
+*** [∅] Star Trek; Voyager season 1, 2, 3, 4
+*** [∅] Teachers season 1, 2, 3, 4
+*** The 4400 season 1, 2
 *** The Big Bang Theory season 1, 2
 *** The West Wing season 1, 2, 3, 4, 5, 6, 7
-*** The 4400 season 1, 2
-*** TorchWood season 1, 2
-*** Teachers season 1, 2, 3, 4
-*** X-Files season 1, 2, 3, 4, 5
 *** TinTin
 **** Destination Moon
 **** Explorers on the Moon
@@ -804,6 +797,11 @@
 **** The Picaros
 **** The Blue Lotus
 **** The Broken Ear
+*** TorchWood season 1, 2
+*** X-Files season 1, 2, 3, 4, 5
+*** Mad Men
+*** The Trap Door
+*** That Mitchell and Webb Look
 ** Audiobooks
 *** Altered Carbon
 *** Broken Angels
@@ -853,107 +851,107 @@
 ** Music
 ** Games
 *** Xbox
-halo wars
-overlord 1, 2
-doom 3
-fable 1 2 3
-forza motorsport 4
-castlevania
-L.A. Noire
-Dragon Age
-dark sector
-prototype
-singularity
-wet
-resident evil 5
-gears of war 1, 2, 3
-far cry 2
-call of duty 4
-call of duty mw2
-call of duty wow
-call of duty black ops
-alpha protocol
-bionic commando
-fear 2
-devil may cry 4
-assassins creed 1, 2
-enslaved
-soul calibur 4
-red faction guerilla
-dead rising 1, 2
-shadowrun
-prey
-crackdown 1, 2
-saints row 2
-quae 4
-tomb raider underworld
-darksiders
-lsot odyssey
-bayonetta
-final fantasy 13
-eternal sonata
-prince of persia
-lost planet 1, 2
-army of two
-legao star wars 2
-red alert 3
-ninja gaiden 2
-left 4 dead 1, 2
-viva pinata 1, 2
-halo 1, 2, 3, odst
-just cause 2
-condemned 1, 2
-damnation
-fallout 3
-fallout new vegas
-splinter cell conviction
-medal of honor
-aliens versus predator
-battlefield bad company 2
-morrowind
-psychonauts
-dead space 1, 2
-mass effect 1, 2, 3
-the simpsons game
-chronicles of riddick
-time shift
-red dead redemption
-alan wake
-mirros edge
-bioshock 1, 2
-too human
-dead island
-star wars the force unleashed 1, 2
-GTA 4
+**** halo wars
+**** overlord 1, 2
+**** doom 3
+**** fable 1 2 3
+**** forza motorsport 4
+**** castlevania
+**** L.A. Noire
+**** Dragon Age
+**** dark sector
+**** prototype
+**** singularity
+**** wet
+**** resident evil 5
+**** gears of war 1, 2, 3
+**** far cry 2
+**** call of duty 4
+**** call of duty mw2
+**** call of duty wow
+**** call of duty black ops
+**** alpha protocol
+**** bionic commando
+**** fear 2
+**** devil may cry 4
+**** assassins creed 1, 2
+**** enslaved
+**** soul calibur 4
+**** red faction guerilla
+**** dead rising 1, 2
+**** shadowrun
+**** prey
+**** crackdown 1, 2
+**** saints row 2
+**** quae 4
+**** tomb raider underworld
+**** darksiders
+**** lsot odyssey
+**** bayonetta
+**** final fantasy 13
+**** eternal sonata
+**** prince of persia
+**** lost planet 1, 2
+**** army of two
+**** legao star wars 2
+**** red alert 3
+**** ninja gaiden 2
+**** left 4 dead 1, 2
+**** viva pinata 1, 2
+**** halo 1, 2, 3, odst
+**** just cause 2
+**** condemned 1, 2
+**** damnation
+**** fallout 3
+**** fallout new vegas
+**** splinter cell conviction
+**** medal of honor
+**** aliens versus predator
+**** battlefield bad company 2
+**** morrowind
+**** psychonauts
+**** dead space 1, 2
+**** mass effect 1, 2, 3
+**** the simpsons game
+**** chronicles of riddick
+**** time shift
+**** red dead redemption
+**** alan wake
+**** mirros edge
+**** bioshock 1, 2
+**** too human
+**** dead island
+**** star wars the force unleashed 1, 2
+**** GTA 4
 
 *** Playstation
-folklore
-rachet and clank a crack in time
-devil may cry
-final fantasy X
-metal gear solid 2, 3, 4
-soul calibur 2
-resistance fall of man
-street fighter 4
-beyond two souls
-killzone 2
-little big planet 1, 2
-infamous 1, 2
-heavy rain
-god of war 3
-uncharted 1, 2
+**** folklore
+**** rachet and clank a crack in time
+**** devil may cry
+**** final fantasy X
+**** metal gear solid 2, 3, 4
+**** soul calibur 2
+**** resistance fall of man
+**** street fighter 4
+**** beyond two souls
+**** killzone 2
+**** little big planet 1, 2
+**** infamous 1, 2
+**** heavy rain
+**** god of war 3
+**** uncharted 1, 2
 
 *** Nintendo
-metroid prime 2, 3
-resident evil 4
-warioland shake dimension
-super paper mario
-zelda twilight princess
-zelda collectors edition
+**** metroid prime 2, 3
+**** resident evil 4
+**** warioland shake dimension
+**** super paper mario
+**** zelda twilight princess
+**** zelda collectors edition
 
 *** PC
-planescape tormet
-spore
+**** planescape tormet
+**** spore
 * Steam
 *** 3079 -- Block Action RPG
 *** 7 Grand Steps, Step 1: What Ancients Begat

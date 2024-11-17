@@ -2,14 +2,14 @@ c_and_c                                 : 1
 c_lang                                  : 46
 c_plus                                  : 14
 c_plus_plus                             : 114
-c_plusplus                              : 2   : c_plus_plus
+c_plusplus                              : 2 : c_plus_plus
 c_sharp                                 : 56
 cabinet                                 : 1
 cable                                   : 6
 cables                                  : 1 : cable
 cache                                   : 5
 cactus                                  : 1
-caculus                                 : 1   : calculus
+caculus                                 : 1 : calculus
 cadaver                                 : 1
 cadillac                                : 2
 caesarean                               : 1
@@ -17,7 +17,7 @@ cafc                                    : 3
 cafe                                    : 1
 caffe                                   : 3
 cagot                                   : 1
-Cagot                                   : 2   : cagot
+Cagot                                   : 2 : cagot
 cairo                                   : 10
 cake                                    : 1
 Cake                                    : 1 : cake
@@ -49,8 +49,8 @@ cambridge_chronicle                     : 1
 cambridge_core                          : 2
 cameo                                   : 1
 camera                                  : 3
-cameras                                 : 1   : camera
-cameron                                 : 1   : david_cameron
+cameras                                 : 1 : camera
+cameron                                 : 1 : david_cameron
 cameroon                                : 2
 camgirls                                : 1
 camp_fire                               : 1
@@ -67,7 +67,7 @@ cancer                                  : 12
 candea                                  : 1
 candor                                  : 2
 cane_adventures                         : 1
-caneadventures                          : 1   : cane_adventures
+caneadventures                          : 1 : cane_adventures
 cannabis                                : 32
 cannes                                  : 1
 cannibal_baby                           : 1
@@ -83,16 +83,16 @@ capes                                   : 1
 capital                                 : 49
 capital_income                          : 1
 capital_punishment                      : 7
-capitalim                               : 1   : capitalism
-capitalis                               : 1   : capitalism
+capitalim                               : 1 : capitalism
+capitalis                               : 1 : capitalism
 capitalism                              : 143
 capitalized_noun_gravitas_syndrome      : 1
 capitals                                : 1
-capitalsm                               : 1   : capitalism
+capitalsm                               : 1 : capitalism
 capitol                                 : 1
 capitvating_algorithms                  : 1
 captability_masking                     : 1
-captialism                              : 3   : capitalism
+captialism                              : 3 : capitalism
 captions                                : 1
 captivation_metrics                     : 1
 capture_avoidance                       : 1
@@ -114,7 +114,7 @@ carceral_progressivism                  : 1
 carceral_state                          : 1
 card_deck                               : 1
 card_game                               : 9
-card_games                              : 4   : card_game
+card_games                              : 4 : card_game
 card_index                              : 1
 cardinal                                : 2
 cardinality                             : 1
@@ -141,7 +141,7 @@ carte_blanche                           : 1
 cartels                                 : 3
 cartography                             : 27
 cartoon                                 : 9
-cartoons                                : 1   : cartoon
+cartoons                                : 1 : cartoon
 carving                                 : 1
 cascade_control                         : 1
 cascades                                : 1
@@ -149,24 +149,24 @@ cascadeur                               : 1
 case-study                              : 1 : case_study
 case_based_reasoning                    : 12
 case_selection                          : 1
-case_studies                            : 10  : case_study
+case_studies                            : 10 : case_study
 case_study                              : 34
 caselaw                                 : 1
 cash                                    : 2
 cash_bail                               : 2
 cash_transfer                           : 1
-cash_transfers                          : 1   : cash_transfer
-cashless                                : 1   : cashless_systems
+cash_transfers                          : 1 : cash_transfer
+cashless                                : 1 : cashless_systems
 cashless_systems                        : 2
 casinos                                 : 1
 cassini                                 : 1
 cast_iron                               : 1
 casta                                   : 1
-caste                                   : 3   : caste_system
+caste                                   : 3 : caste_system
 caste_control                           : 1
 caste_system                            : 7
 castells                                : 1
-castes                                  : 2   : caste_system
+castes                                  : 2 : caste_system
 casting                                 : 2
 castle                                  : 1
 castle_wolfenstein                      : 1
@@ -190,14 +190,14 @@ cat_like_coding                         : 4
 cat_tree                                : 1
 catacalypto                             : 1
 catalog                                 : 2
-catalogue                               : 1   : catalog
+catalogue                               : 1 : catalog
 catalyst                                : 1
-catalysts                               : 1   : catalyst
+catalysts                               : 1 : catalyst
 catamorphism                            : 1
 catan                                   : 2
 catastrophe                             : 1
 catastrophe_theory                      : 1
-catch_22                                : 1
+catch_22 : 1
 categorical_data_analysis               : 1
 categorical_imperative                  : 4
 categorical_logic                       : 1
@@ -215,7 +215,7 @@ cathedral                               : 10
 catholic                                : 10
 catholic_church                         : 2
 catholicism                             : 1 : catholic
-catholics                               : 1   : catholic
+catholics                               : 1 : catholic
 catlikecoding                           : 1
 catmull_clark                           : 1
 cats                                    : 35
@@ -230,8 +230,8 @@ causal_influence                        : 1
 causal_link                             : 1
 causal_loop                             : 1
 causal_model                            : 1
-causal_modelling                        : 1   : causal_model
-causal_models                           : 3   : causal_model
+causal_modelling                        : 1 : causal_model
+causal_models                           : 3 : causal_model
 causal_reasoning                        : 2
 causal_reductionism                     : 1
 causal_structure                        : 1
@@ -249,14 +249,14 @@ cavity                                  : 1
 cayman_islands                          : 1
 cbail                                   : 1
 cbinsights                              : 1
-cbp dolly_lucio_sevier                  : 1   : CBP : dolly_lucio_sevier
+cbp dolly_lucio_sevier                  : 1 : CBP : dolly_lucio_sevier
 ccalc                                   : 14
 cd                                      : 1
 cd_projekt_red                          : 1
-cdprojekt_red                           : 1   : cd_projekt_red
-ceas_and_desist                         : 1   : cease_and_desist
+cdprojekt_red                           : 1 : cd_projekt_red
+ceas_and_desist                         : 1 : cease_and_desist
 cease_and_desist                        : 1
-cel_damage                              : 1   : cell_damage
+cel_damage                              : 1 : cell_damage
 celebrity                               : 3
 celeste                                 : 1
 celestial_city                          : 1
@@ -271,7 +271,7 @@ CellBranch                              : 1
 cello                                   : 1
 cellphones                              : 1
 cells                                   : 2
-cellular automata                       : 1   : cellular_automata
+cellular automata                       : 1 : cellular_automata
 cellular_automata                       : 17
 cellular_autonoma                       : 3
 cellular_development                    : 1
@@ -286,21 +286,21 @@ census                                  : 3
 centering_theory                        : 2
 central_african_republic                : 1
 central_america                         : 3
-central_amrica                          : 1   : central_america
+central_amrica                          : 1 : central_america
 central_andes                           : 1
 central_park                            : 2
 centre_for_policy_research              : 1
 centre_for_strategic_studies            : 1
 centrism                                : 4
-centrists                               : 1   : centrism
+centrists                               : 1 : centrism
 cephalopod                              : 2
 ceptre                                  : 3
-Ceptre                                  : 3   : ceptre
+Ceptre                                  : 3 : ceptre
 ceramics                                : 1
 cereal_mascot                           : 1
 ceremony                                : 20
 ceremony_is_at_hand                     : 1
-cermaics                                : 1   : ceramics
+cermaics                                : 1 : ceramics
 certeau                                 : 1
 certification                           : 2
 CertiKOS                                : 1
@@ -309,18 +309,18 @@ chad                                    : 1
 chagos                                  : 4
 chai                                    : 2
 chain_gang                              : 2
-chain_gangs                             : 1   : chain_gang
+chain_gangs                             : 1 : chain_gang
 chains                                  : 2
 chainsaws                               : 1
 chairs                                  : 2
 challenge                               : 8
 challenger                              : 1
-challengers                             : 1   : challengers
-challenges                              : 3   : challenge
+challengers                             : 1 : challengers
+challenges                              : 3 : challenge
 chameleonia                             : 1
-Chameleonia                             : 1   : chameleonia
+Chameleonia                             : 1 : chameleonia
 chance                                  : 3
-chanel3000                              : 1
+chanel3000 : 1
 change                                  : 28
 change_awareness                        : 1
 change_my_view                          : 1
@@ -334,7 +334,7 @@ channel_zero                            : 1
 chaos                                   : 11
 character                               : 27
 character_creation                      : 3
-character_creator                       : 1   : character_creation
+character_creator                       : 1 : character_creation
 character_design                        : 4
 character_modelling                     : 1 : charater_modeling
 character_recognition                   : 1
@@ -344,18 +344,18 @@ Charbitat                               : 1
 charging_station                        : 1
 charisma                                : 4
 charismatic_authority                   : 1
-charities                               : 1   : charity
+charities                               : 1 : charity
 charity                                 : 24
 charleston                              : 1
 charlotte_observer                      : 1
 charlottesville                         : 14
-charlston                               : 1   : charleston
+charlston                               : 1 : charleston
 chart                                   : 4
 charters                                : 1
-charts                                  : 9   : chart
+charts                                  : 9 : chart
 chase_bank                              : 1
 chatbot                                 : 8
-chatterbots                             : 1   : chatbot
+chatterbots                             : 1 : chatbot
 chaucer                                 : 1
 chauncery                               : 1
 chavs                                   : 1
@@ -363,11 +363,11 @@ chbdo_logic                             : 1
 cheap_bots_done_quick                   : 1
 cheap_talk                              : 1
 cheat_sheet                             : 4
-cheat_sheets                            : 3   : cheat_sheet
+cheat_sheets                            : 3 : cheat_sheet
 cheating                                : 6
 cheating_scandal                        : 2
-cheatsheat                              : 1   : cheat_sheet
-cheatsheet                              : 25  : cheat_sheet
+cheatsheat                              : 1 : cheat_sheet
+cheatsheet                              : 25 : cheat_sheet
 checklist                               : 4
 checklists                              : 1 : checklist
 cheescake_factory                       : 1
@@ -385,7 +385,7 @@ cherry_hill                             : 1
 cherry_picking                          : 1
 chess                                   : 9
 chi_squared                             : 1
-chiacgo                                 : 1   : chicago
+chiacgo                                 : 1 : chicago
 chicago                                 : 35
 chicago_conference                      : 1
 chicago_pd                              : 2
@@ -395,11 +395,11 @@ chicagoland                             : 1
 chick_fil_a                             : 3
 chicken                                 : 1
 chieftaincy                             : 1
-Child                                   : 1   : child
+Child                                   : 1 : child
 child                                   : 46
-Child Development                       : 37  : child_development
+Child Development                       : 37 : child_development
 child_abuse                             : 44
-child_abuseplay                         : 1   : child_abuse
+child_abuseplay                         : 1 : child_abuse
 child_care                              : 3
 child_development                       : 1
 child_porn_data                         : 1 : CSAM
@@ -423,10 +423,10 @@ chile                                   : 12
 chime                                   : 1
 chimeras                                : 1
 chimeria                                : 1
-Chimeria                                : 1   : chimeria
-chimpanze                               : 1   : chimpanzee
+Chimeria                                : 1 : chimeria
+chimpanze                               : 1 : chimpanzee
 chimpanzee                              : 2
-chimpanzees                             : 1   : chimpanzee
+chimpanzees                             : 1 : chimpanzee
 china                                   : 65
 chinese                                 : 5
 chinese_food                            : 1
@@ -436,9 +436,9 @@ chinese_restaurants                     : 1
 chinese_room                            : 3
 chinese_television                      : 1
 chip_design                             : 1
-chistianity                             : 1   : christianity
+chistianity                             : 1 : christianity
 chitwan                                 : 1
-chldren                                 : 1   : children
+chldren                                 : 1 : children
 chmod                                   : 1
 choba                                   : 1
 chocolate                               : 4
@@ -462,18 +462,18 @@ choreography                            : 2
 chores                                  : 1
 chorographer                            : 1
 chotiner                                : 1
-chrisitanity                            : 1   : christianity
-christ_fascism                          : 1   : christian_fascism
+chrisitanity                            : 1 : christianity
+christ_fascism                          : 1 : christian_fascism
 christchurch_shooting                   : 1
-christian                               : 11  : christianity
+christian                               : 11 : christianity
 christian_counseling                    : 1
 christian_dominionists                  : 1
 christian_isis                          : 1
 christian_privilege                     : 1
 christian_right                         : 1
 christian_zionism                       : 2
-christianity                            : 21  : christianity
-christians                              : 1   : christianity
+christianity                            : 21 : christianity
+christians                              : 1 : christianity
 christmas                               : 1
 Christmas                               : 1 : christmas
 christmas_island                        : 1
@@ -491,7 +491,7 @@ chrono_cross                            : 1
 chrono_trigger                          : 1
 chronology                              : 1
 chuas_oscillator                        : 1
-chucK                                   : 3   : ChucK
+chucK                                   : 3 : ChucK
 ChucK                                   : 4
 chuck_sims_africa                       : 1
 chucklefish                             : 1
@@ -500,10 +500,10 @@ church                                  : 8
 church_of_england                       : 1
 church_of_the_holy_sepulchre            : 1
 church_rules                            : 1
-churches                                : 3   : church
+churches                                : 3 : church
 chyron                                  : 1
 cider                                   : 1
-cig2017                                 : 1
+cig2017 : 1
 cigarettes                              : 1
 cincinnati                              : 2
 cinderella                              : 2
@@ -514,7 +514,7 @@ cipher                                  : 1
 circadian_rhythm_disorder               : 1
 circle                                  : 5
 circuit                                 : 1
-circuit-bending                         : 1   : circuit_bending
+circuit-bending                         : 1 : circuit_bending
 circuit_bending                         : 1
 circular                                : 1
 circular_menu                           : 1
@@ -529,7 +529,7 @@ citation_analysis                       : 8
 citation_guide                          : 1
 citation_patterns                       : 1
 citation_structure                      : 1
-citations                               : 17  : citation
+citations                               : 17 : citation
 Cite_Tweet                              : 1
 cities                                  : 40
 cities_skylines                         : 1
@@ -543,7 +543,7 @@ citizens_for_constitutional_freedom     : 1
 citizenship                             : 19
 citizenship_laws                        : 1
 city                                    : 45
-city_17                                 : 1
+city_17 : 1
 city_builder                            : 1
 city_craft                              : 2
 city_gen                                : 12
@@ -554,10 +554,10 @@ city_planning                           : 1
 city_scape                              : 2
 city_size                               : 1
 city_state                              : 1
-citycraft                               : 2   : city_craft
-citylab                                 : 5   : city_lab
-citymetric                              : 1   : city_metric
-cityscape                               : 2   : city_scape
+citycraft                               : 2 : city_craft
+citylab                                 : 5 : city_lab
+citymetric                              : 1 : city_metric
+cityscape                               : 2 : city_scape
 civic_confidence                        : 1
 civic_cooperation                       : 1
 civic_engagement                        : 1
@@ -568,7 +568,7 @@ civic_ritual                            : 1
 civic_space                             : 1
 civic_tradition                         : 1
 civics                                  : 1
-civiians                                : 1   : civilian
+civiians                                : 1 : civilian
 civil_asset_forfeiture                  : 1
 civil_conflict                          : 2
 civil_contingencies_act                 : 1
@@ -586,25 +586,25 @@ civil_rights_act                        : 1
 civil_service                           : 1
 civil_society                           : 3
 civil_war                               : 19
-civil_wars                              : 1   : civil_war
-civilar                                 : 1   : civilian
+civil_wars                              : 1 : civil_war
+civilar                                 : 1 : civilian
 civilian                                : 6
-civilian_casualaties                    : 1   : civilian_casualties
+civilian_casualaties                    : 1 : civilian_casualties
 civilian_casualties                     : 1
-civilians                               : 3   : civilian
+civilians                               : 3 : civilian
 civilisation                            : 7
 civility                                : 10
-civilization                            : 1   : civilisation
+civilization                            : 1 : civilisation
 civilizational_obsessions               : 1
 civilizing_mission                      : 1
 CivilServant                            : 1
-civlian                                 : 1   : civilian
+civlian                                 : 1 : civilian
 cladogram                               : 1
 clams                                   : 1
 clang                                   : 2
 clans                                   : 1
 clarkesworld                            : 1
-clasification                           : 1   : classification
+clasification                           : 1 : classification
 class                                   : 15
 class_analysis                          : 2
 class_conflict                          : 1
@@ -619,11 +619,11 @@ classical                               : 1
 classical_art                           : 1
 classical_music                         : 1
 classics                                : 1
-classifiation                           : 2   : classification
+classifiation                           : 2 : classification
 classification                          : 68
 classification_systems                  : 1 : classification
 classifier                              : 1
-classifying                             : 1   : classification
+classifying                             : 1 : classification
 classism                                : 1
 classroom_culture                       : 1
 classy                                  : 1
@@ -651,10 +651,10 @@ climate_science                         : 4
 climate_skepticism                      : 1
 climate_strike                          : 1
 clinate_change                          : 1
-Clingo                                  : 2   : clingo
+Clingo                                  : 2 : clingo
 clingo                                  : 7
 clinic_escort                           : 1
-clinic_escourt                          : 1   : clinic_escort
+clinic_escourt                          : 1 : clinic_escort
 clinicians                              : 1
 clint                                   : 2
 clinton_administration                  : 1
@@ -663,7 +663,8 @@ clippings                               : 1
 clique                                  : 1
 clique_percolation                      : 1
 clitoris                                : 1
-clmate_change                           : 1   : climate_change
+cli                                     : 1 : command_line
+clmate_change                           : 1 : climate_change
 clock_time                              : 1
 clocks                                  : 4
 clockwork                               : 2
@@ -672,8 +673,8 @@ clones                                  : 1
 cloning                                 : 1
 close_reading                           : 1
 closure                                 : 5
-Clothes                                 : 1   : clothing
-clothin                                 : 1   : clothing
+Clothes                                 : 1 : clothing
+clothin                                 : 1 : clothing
 clothing                                : 34
 cloud                                   : 1
 cloud_atlas                             : 1
@@ -684,8 +685,8 @@ clowns                                  : 1
 cluster_analysis                        : 1
 clustering                              : 16
 clusters                                : 1
-co-op                                   : 2   : co_op
-co2_emmissions                          : 1   : CO2_emmissions
+co-op                                   : 2 : co_op
+co2_emmissions                          : 1 : CO2_emmissions
 co_citation                             : 1
 co_limits                               : 1
 coach                                   : 1
@@ -703,7 +704,7 @@ coasts                                  : 1
 coat_of_arms                            : 1
 cobalt                                  : 1
 cobol                                   : 2
-cocain                                  : 1   : cocaine
+cocain                                  : 1 : cocaine
 cocaine                                 : 5
 cocaktiel                               : 1
 cochlear_implant                        : 1
@@ -734,8 +735,8 @@ code_switching                          : 1
 codelesscode                            : 2
 codepen                                 : 3
 coderbyheart                            : 1
-codes                                   : 1   : code
-codes_of_conduct                        : 1   : code_of_conduct
+codes                                   : 1 : code
+codes_of_conduct                        : 1 : code_of_conduct
 codex                                   : 1
 codex_seraphinias                       : 2
 codification                            : 2
@@ -753,11 +754,11 @@ coffeescript                            : 1
 coffeyville                             : 2
 cogmind                                 : 2
 cognitiion                              : 1
-Cognition                               : 1   : cognition
+Cognition                               : 1 : cognition
 cognition                               : 11
-cognitiv                                : 1   : cognitive
+cognitiv                                : 1 : cognitive
 cognitive                               : 54
-Cognitive Agents                        : 1   : cognitive_agents
+Cognitive Agents                        : 1 : cognitive_agents
 cognitive_agents                        : 1
 cognitive_architecture                  : 4
 cognitive_artefacts                     : 1 : cognitive_artifacts
@@ -774,16 +775,16 @@ cognitive_scarcity                      : 1
 cognitive_science                       : 8
 cognitive_tempo                         : 1
 cognitive_walkthrough                   : 1
-cogsci                                  : 2   : cognitive_science
+cogsci                                  : 2 : cognitive_science
 cohen                                   : 1
-cohension                               : 1   : cohesion
+cohension                               : 1 : cohesion
 coherence                               : 14
 coherent_knowledge                      : 1
 cohesion                                : 1
 cohort                                  : 1
 coin                                    : 1
 coin_trees                              : 1
-coins                                   : 1   : coin
+coins                                   : 1 : coin
 Coir                                    : 1
 cokaygne                                : 1
 coke                                    : 1
@@ -791,23 +792,23 @@ cold_war                                : 5
 coldplay                                : 1
 coleridge                               : 1
 colibri_center                          : 1
-Collaboration                           : 1   : collaboration
+Collaboration                           : 1 : collaboration
 collaboration                           : 41
-collaborative                           : 1   : collaboration
-collaborative environments              : 1   : collaborative_environments
+collaborative                           : 1 : collaboration
+collaborative environments              : 1 : collaborative_environments
 collaborative_environments              : 1
 collaborative_intelligence              : 1
 collaborative_learning                  : 1
 collaborator                            : 1
-collabortion                            : 2   : collaboration
+collabortion                            : 2 : collaboration
 collapse_os                             : 1
-collboaration                           : 1   : collaboration
+collboaration                           : 1 : collaboration
 colleague                               : 1
 collectables                            : 1
 collected_works                         : 1
 collection                              : 2
 collection_societies                    : 1
-collections                             : 1   : collection
+collections                             : 1 : collection
 Collective Action                       : 1 : collective_action
 collective_acceptance                   : 1
 Collective_Action                       : 1 : collective_action
@@ -830,7 +831,7 @@ college_cheating_scandal                : 2
 college_football                        : 1
 college_humour                          : 1
 college_of_william_and_mary             : 1
-collegehumour                           : 1   : college_humour
+collegehumour                           : 1 : college_humour
 collision                               : 1
 colloquial_arabic                       : 1
 collusion                               : 4
@@ -876,19 +877,19 @@ combinatoriality                        : 1
 combinators                             : 1
 combinatory_logic                       : 1
 comcast                                 : 2
-comedians                               : 1   : comedy
+comedians                               : 1 : comedy
 comedy                                  : 21
 comfort                                 : 1
 comic                                   : 123
 comic_book_studies                      : 1
-comics                                  : 2   : comic
+comics                                  : 2 : comic
 coming_of_age                           : 1
 command_and_conquer                     : 1
 command_line                            : 9
 command_posts                           : 1
 commander_keen                          : 2
 commands                                : 1
-comme_il_faut                           : 9   : CiF
+comme_il_faut                           : 9 : CiF
 commensuration                          : 2
 commentary                              : 11
 comments                                : 11
@@ -901,12 +902,12 @@ commercialization                       : 1
 commit                                  : 1
 commit_messages                         : 1
 commitment                              : 14
-commitments                             : 3   : commitment
+commitments                             : 3 : commitment
 commits                                 : 1
 committee                               : 2
-committment                             : 1   : commitment
+committment                             : 1 : commitment
 commodification                         : 2
-commodities                             : 2   : commodity
+commodities                             : 2 : commodity
 commodity                               : 9
 commodity_chain                         : 1
 commodore                               : 1
@@ -924,7 +925,7 @@ communalism                             : 1
 commune_mag                             : 1
 communicating_sequential_processes      : 3
 communication                           : 83
-communications                          : 1   : communication
+communications                          : 1 : communication
 communications_network                  : 1
 communicative_action                    : 1
 communicative_AI                        : 1
@@ -932,7 +933,7 @@ communicative_constitution              : 1
 communism                               : 18
 communist_party                         : 1
 communitarianism                        : 1
-communities                             : 1   : community
+communities                             : 1 : community
 communities_of_play                     : 1
 communities_of_practice                 : 1
 community                               : 20
@@ -944,14 +945,14 @@ community_service                       : 1
 community_solutions                     : 1
 commutation                             : 1
 commutative_diagram_editor              : 1
-commute                                 : 1   : commuting
+commute                                 : 1 : commuting
 commute_em_up                           : 1
 commuting                               : 1
 comonad                                 : 3
 comonads                                : 1
 companion                               : 1
 companion_modeling                      : 1
-Companion_Modeling                      : 1   : companion_modeling
+Companion_Modeling                      : 1 : companion_modeling
 companionship                           : 1
 company                                 : 3
 company_myths                           : 1
@@ -974,48 +975,48 @@ competition                             : 6
 competitive_programming                 : 1
 compile_time                            : 1
 compiler                                : 24
-compilers                               : 8   : compiler
+compilers                               : 8 : compiler
 complaints                              : 2
 complete_institutions                   : 1
 complex                                 : 1
-Complex Networks                        : 1   : complex_systems
+Complex Networks                        : 1 : complex_systems
 complex_adaptive_systems                : 1
 complex_agents                          : 1
 complex_courseware                      : 1
 complex_events                          : 1
 complex_networks                        : 7
 complex_schema                          : 1
-complex_system                          : 1   : complex_systems
+complex_system                          : 1 : complex_systems
 complex_systems                         : 96
-complex_systms                          : 1   : complex_systems
+complex_systms                          : 1 : complex_systems
 complexitatis                           : 1
 complexity                              : 59
 complexity_bias                         : 1
 compliance                              : 7
 complicated_narratives                  : 2
 complicated_systems                     : 1
-complxity                               : 1   : complexity
+complxity                               : 1 : complexity
 component_based_modeling                : 1
 components                              : 21
 components_ai                           : 1
 composable_interfaces                   : 1
 composers                               : 1
 composition                             : 30
-compositional_langauge                  : 1   : compositional_language
+compositional_langauge                  : 1 : compositional_language
 compositional_language                  : 1
 compositionality                        : 1
-compostiion                             : 1   : composition
+compostiion                             : 1 : composition
 comprehension                           : 1
 compression                             : 1
 compression_steps                       : 1
-compte                                  : 1   : auguste_comte
+compte                                  : 1 : auguste_comte
 compulsion                              : 1
-compulsions                             : 1   : compulsion
+compulsions                             : 1 : compulsion
 compulsory_attendance                   : 1
 computation                             : 45
-Computational Economics                 : 1   : computational_economics
-computational social science            : 1   : computational_social_science
-computational social sciences           : 1   : computational_social_science
+Computational Economics                 : 1 : computational_economics
+computational social science            : 1 : computational_social_science
+computational social sciences           : 1 : computational_social_science
 computational_aesthetics                : 1
 computational_analysis                  : 1
 computational_anthropology              : 1
@@ -1029,10 +1030,10 @@ computational_expense                   : 1
 computational_game_balancing            : 1
 computational_geometry                  : 9
 computational_humanities                : 1
-Computational_Humanities                : 1   : computational_humanities
+Computational_Humanities                : 1 : computational_humanities
 computational_humour                    : 1
 computational_improvisation             : 1
-Computational_Intelligence              : 1   : computational_intelligence
+Computational_Intelligence              : 1 : computational_intelligence
 computational_intelligence              : 6
 computational_justice                   : 1
 computational_law                       : 2
@@ -1056,9 +1057,9 @@ computational_turn                      : 1
 computational_understanding             : 1
 compute                                 : 1
 computer                                : 1
-computer games                          : 1   : computer_games
-Computer Science - Machine Learning     : 1   : computer_science : machine_learning
-Computer_Science_-_Machine_Learning     : 1   : comptuer_science : machine_learning
+computer games                          : 1 : computer_games
+Computer Science - Machine Learning     : 1 : computer_science : machine_learning
+Computer_Science_-_Machine_Learning     : 1 : comptuer_science : machine_learning
 computer_art                            : 1
 computer_as_audience                    : 1
 computer_assisted_authoring             : 1
@@ -1068,22 +1069,22 @@ computer_graphics                       : 1
 computer_hardware                       : 1
 computer_mediated_communication         : 3
 computer_music                          : 1
-Computer_music                          : 1   : computer_music
-computer_sciece                         : 1   : computer_science
-Computer_Science                        : 1   : computer_science
+Computer_music                          : 1 : computer_music
+computer_sciece                         : 1 : computer_science
+Computer_Science                        : 1 : computer_science
 computer_science                        : 97
 computer_simulation                     : 1
-Computer_Simulation                     : 1   : computer_simulation
+Computer_Simulation                     : 1 : computer_simulation
 computer_vision                         : 2
-computers                               : 2   : computer
+computers                               : 2 : computer
 computers_are_made_of_rocks             : 2
-computing                               : 8   : computation
+computing                               : 8 : computation
 computing_history                       : 2
-comte                                   : 1   : auguste_comte
+comte                                   : 1 : auguste_comte
 comtemporary_sociology                  : 1
 conatus                                 : 1
 concealment                             : 1
-concensus                               : 1   : consensus
+concensus                               : 1 : consensus
 concentration                           : 2
 concentration_camp                      : 2
 concentration_camps                     : 14 : concentration_camp
@@ -1096,13 +1097,13 @@ concept_map                             : 1
 concept_model                           : 2
 concept_net                             : 4
 concept_space                           : 1
-conceptnet                              : 4   : concept_net
-concepts                                : 5   : concept
+conceptnet                              : 4 : concept_net
+concepts                                : 5 : concept
 conceptual_blending                     : 2
 conceptual_design                       : 1
 conceptual_expansion                    : 1
 conceptual_framework                    : 1
-conceptual_frameworks                   : 1   : conceptual_framework
+conceptual_frameworks                   : 1 : conceptual_framework
 conceptual_maps                         : 1
 conceptual_modeling                     : 1
 conceptual_modelling                    : 1 : conceptual_modeling
@@ -1117,7 +1118,7 @@ concrete_abstractions                   : 1
 concurrence                             : 1
 concurrency                             : 20
 concurrency_control                     : 1
-concurrent                              : 3   : concurrency
+concurrent                              : 3 : concurrency
 concurrent_layer_calculus               : 1
 concussion                              : 1
 conda                                   : 1
@@ -1148,7 +1149,7 @@ conflict                                : 26
 conflict_representation                 : 1
 conflict_resolution                     : 6
 conflict_rooted_synthesis               : 1
-conflicts                               : 5   : conflict
+conflicts                               : 5 : conflict
 conformal_mappings                      : 1
 conforming                              : 1
 Conformity                              : 1 : conformity
@@ -1174,31 +1175,31 @@ conomic_policy                          : 1
 conquest                                : 1
 consciousness                           : 8
 consciousness_raising                   : 1
-consciousnss                            : 2   : consciousness
+consciousnss                            : 2 : consciousness
 consensus                               : 9
-Consent                                 : 1   : consent
+Consent                                 : 1 : consent
 consent                                 : 21
 consent_as_tool                         : 1
 consent_culture                         : 1
 consent_judgement                       : 1
 consent_systems                         : 1
 consequence                             : 1
-consequences                            : 4   : consequence
+consequences                            : 4 : consequence
 consequentialism                        : 1
 conservation                            : 2
-conservatism                            : 11  : conservative
+conservatism                            : 11 : conservative
 conservative                            : 19
 conservative_media                      : 2
 conservatives                           : 144 : conservative
-conservativism                          : 1   : conservative
+conservativism                          : 1 : conservative
 consistency                             : 6
 consistency_restoring_rules             : 1
-consistncy                              : 1   : consistency
+consistncy                              : 1 : consistency
 console                                 : 2
 consolidation                           : 1
 conspiracies                            : 1 : conspiracy_theories
 conspiracy                              : 7
-conspiracy_theorie                      : 1   : conspiracy_theories
+conspiracy_theorie                      : 1 : conspiracy_theories
 conspiracy_theories                     : 6
 const                                   : 1
 constantinople                          : 2
@@ -1211,12 +1212,12 @@ constitutional_democracy                : 1
 constitutional_law                      : 2
 constitutional_rights                   : 1
 constitutionalism                       : 1
-constitutions                           : 1   : constitution
-constitutive                            : 2   : constitutive_rules
+constitutions                           : 1 : constitution
+constitutive                            : 2 : constitutive_rules
 constitutive_rules                      : 1
-constraining                            : 2   : constraints
-constrains                              : 1   : constraints
-constraint                              : 1   : constraints
+constraining                            : 2 : constraints
+constrains                              : 1 : constraints
+constraint                              : 1 : constraints
 constraint_programming                  : 2
 constraint_ranking                      : 1
 constraint_satisfaction                 : 1
@@ -1230,9 +1231,9 @@ constructionism                         : 1
 constructive_narrative                  : 1
 constructive_possession                 : 1
 constructivism                          : 3
-constructivist                          : 3   : constructivism
+constructivist                          : 3 : constructivism
 consulate                               : 1
-consulates                              : 1   : consulate
+consulates                              : 1 : consulate
 consultation                            : 1
 Consumat                                : 1
 consumer                                : 2
@@ -1245,7 +1246,7 @@ consumption                             : 13
 consumption_practices                   : 1
 contact_tracing                         : 2
 contagion                               : 5
-contaminants                            : 1   : contamination
+contaminants                            : 1 : contamination
 contamination                           : 1
 contemporary                            : 1
 contempt                                : 1
@@ -1260,9 +1261,9 @@ content_planning                        : 1
 content_selection                       : 1
 content_system                          : 1
 content_warning                         : 1
-content_warnings                        : 2   : content_warning
-contentfraud                            : 1   : content_fraud
-contentId                               : 5   : content_id
+content_warnings                        : 2 : content_warning
+contentfraud                            : 1 : content_fraud
+contentId                               : 5 : content_id
 contention                              : 1
 contentious_spaces                      : 1
 contest                                 : 1
@@ -1288,55 +1289,55 @@ continuation_passing                    : 1
 continuity                              : 1
 continuous_data                         : 1
 continuous_domain                       : 1
-contnuations                            : 1   : continuation
+contnuations                            : 1 : continuation
 contraception                           : 11
 contract                                : 12
-contract net                            : 1   : contract_net
+contract net                            : 1 : contract_net
 contract_net                            : 2
-contract_nets                           : 1   : contract_net
+contract_nets                           : 1 : contract_net
 contraction                             : 1
 contractors                             : 1
-Contractors                             : 1   : contractors
-contracts                               : 18  : contract
+Contractors                             : 1 : contractors
+contracts                               : 18 : contract
 contractual_trust                       : 1
 contractualism                          : 1
 contradiction                           : 2
 contrast                                : 2
 contravariance                          : 1
 contribution                            : 2
-contributions                           : 1   : contribution
+contributions                           : 1 : contribution
 contributor_guide                       : 1
 control                                 : 25
 control_and_coordination                : 1
 control_architecture                    : 1
 control_flow                            : 5
 control_panel                           : 1
-control_panels                          : 1   : control_panel
+control_panels                          : 1 : control_panel
 control_structure                       : 1
 control_structure_diagram               : 1
 control_structures                      : 1 : control_structure
 control_systems                         : 8
 control_techniques                      : 1
 controllability                         : 1
-contst                                  : 1   : const
-contxt                                  : 1   : context
+contst                                  : 1 : const
+contxt                                  : 1 : context
 conv_lstm                               : 1
 convention                              : 3
-conventions                             : 3   : convention
+conventions                             : 3 : convention
 converge                                : 1
-Converge                                : 2   : converge
-convergence                             : 2   : converge
+Converge                                : 2 : converge
+convergence                             : 2 : converge
 conversation                            : 60
 conversation_analysis                   : 1
 conversation_strategies                 : 2
-conversational                          : 1   : conversation
+conversational                          : 1 : conversation
 conversational_agent                    : 1
-conversations                           : 1   : conversation
+conversations                           : 1 : conversation
 conversion                              : 1
 conversion_therapy                      : 5
 convex_hull                             : 1
 conviction                              : 1
-convictions                             : 1   : conviction
+convictions                             : 1 : conviction
 convicts                                : 1
 convolution                             : 4
 convoy                                  : 1
@@ -1345,23 +1346,23 @@ cookbook                                : 9
 cookies                                 : 1
 cooking                                 : 88
 cooperation                             : 44
-cooperative                             : 2   : cooperation
-cooperativity                           : 1   : cooperation
-coopration                              : 1   : cooperation
+cooperative                             : 2 : cooperation
+cooperativity                           : 1 : cooperation
+coopration                              : 1 : cooperation
 coordinated_harassment                  : 1
 coordinates                             : 1
 coordination                            : 41
 coordination_failures                   : 1
-coordniation                            : 1   : coordination
+coordniation                            : 1 : coordination
 cop                                     : 1
 copenhagen                              : 3
 coping                                  : 1
 coping_strategy                         : 1
 coporatism                              : 1 : corporatism
 coproducts                              : 1
-cops                                    : 7   : cop
+cops                                    : 7 : cop
 copy_paste                              : 1
-Copycat                                 : 1   : copycat
+Copycat                                 : 1 : copycat
 copycat                                 : 2
 copying                                 : 1
 copyright                               : 199
@@ -1373,13 +1374,13 @@ core_periphery                          : 1
 coreaudio                               : 1
 coreference                             : 1
 coreference_resolution                  : 2
-corefernce                              : 1   : coreference
+corefernce                              : 1 : coreference
 corn                                    : 1
 cornell                                 : 4
 corner_stores                           : 1
 corners                                 : 1
-coronation                              : 1   : coronation
-coronations                             : 1   : coronation
+coronation                              : 1 : coronation
+coronations                             : 1 : coronation
 coronavirus                             : 1
 coroner                                 : 2
 corpora                                 : 5
@@ -1400,14 +1401,14 @@ corporate_servitude                     : 1
 corporate_state                         : 1
 corporate_strategies                    : 1
 corporate_tools                         : 1
-corporation                             : 1   : corporations
+corporation                             : 1 : corporations
 corporations                            : 34
 corporatism                             : 1
 corporeality                            : 1
 corpus                                  : 9
 corpus_linguistics                      : 1
 correction                              : 1
-corrections                             : 1   : correction
+corrections                             : 1 : correction
 corrections_department                  : 1
 corrective_rape                         : 1
 correctness                             : 2
@@ -1431,9 +1432,9 @@ cosmic_symphonies                       : 1
 cosmology                               : 1
 cosmonaut                               : 1
 cosmopolitan                            : 1
-cosmopolitanism                         : 3   : cosmopolitan
+cosmopolitanism                         : 3 : cosmopolitan
 cosmopolitics                           : 1
-Cosmopolitics                           : 1   : cosmopolitics
+Cosmopolitics                           : 1 : cosmopolitics
 cosplay                                 : 1
 cost                                    : 13
 cost_benefit                            : 2
@@ -1448,28 +1449,28 @@ cotton                                  : 1
 could_be_worse                          : 1
 could_have_been_done_otherwise          : 1
 counseling                              : 1
-counselling                             : 1   : counseling
+counselling                             : 1 : counseling
 count_as                                : 2
 count_of_monte_cristo                   : 2
 counter_culture                         : 1
 counter_extremism                       : 1
 counter_factual                         : 18
-counter_factuals                        : 1   : counter_factual
+counter_factuals                        : 1 : counter_factual
 counter_insurgency                      : 1
 counter_radicalisation                  : 1
 counter_strike                          : 3
 counter_terrorism                       : 1
 counterbalancing                        : 1
 counterculture                          : 1
-counterfactual                          : 16  : counter_factual
-counterfactuals                         : 1   : counter_factual
+counterfactual                          : 16 : counter_factual
+counterfactuals                         : 1 : counter_factual
 counterfeit                             : 1
 counterplay                             : 2
 counterpoint                            : 1
 counterproductive                       : 1
 counterstrike                           : 1
 counterterrorism                        : 2
-counties                                : 1   : county
+counties                                : 1 : county
 counting                                : 1
 country                                 : 2
 country_music                           : 3
@@ -1477,15 +1478,15 @@ counts_as                               : 13
 county                                  : 2
 county_clerk                            : 1
 coup                                    : 6
-coup_detat                              : 1   : coup
+coup_detat                              : 1 : coup
 coup_prevention                         : 1
 coupled_empowerment_maximisation        : 1
 couples_therapy                         : 1
 coupling                                : 1
-coups                                   : 1   : coup
+coups                                   : 1 : coup
 courage                                 : 1
 course                                  : 7
-courses                                 : 2   : course
+courses                                 : 2 : course
 court                                   : 13
 court_of_appeals                        : 1
 court_packing                           : 1
@@ -1493,7 +1494,7 @@ court_society                           : 1
 courtier                                : 1
 courts                                  : 2
 courtship                               : 1
-cov_19                                  : 1
+cov_19 : 1
 covariance                              : 1
 covariance_matrix                       : 1
 covariate_shift                         : 1
@@ -1501,26 +1502,26 @@ cover                                   : 1
 cover_letter                            : 1
 cover_up                                : 1
 coverage                                : 1
-covers                                  : 1   : cover
-coversation                             : 1   : conversation
+covers                                  : 1 : cover
+coversation                             : 1 : conversation
 covert_code                             : 1
 covert_signaling                        : 1
-covert_signalling                       : 1   : covert_signaling
+covert_signalling                       : 1 : covert_signaling
 coverup                                 : 1
-covid19                                 : 13  : covid_19
-covid_1                                 : 2   : covid_19
-covid_19                                : 465
+covid19 : 13  : covid_19
+covid_1 : 2   : covid_19
+covid_19 : 465
 covid_testing                           : 1
 cow                                     : 2
 cowardice                               : 1
 cowboy_bebop                            : 1
 cowboys                                 : 1
-cows                                    : 2   : cow
+cows                                    : 2 : cow
 coyotes                                 : 1
 coyotespike                             : 1
 coziness                                : 1
 cpan                                    : 11
-cpr                                     : 1   : CPR
+cpr                                     : 1 : CPR
 crabs                                   : 2
 crack_cocaine                           : 2
 crack_magazine                          : 1
@@ -1528,7 +1529,7 @@ craft                                   : 1
 crafting                                : 1
 crafting_selves                         : 1
 crafting_table                          : 1
-crafts                                  : 1   : craft
+crafts                                  : 1 : craft
 craftsmen                               : 1
 Crafty                                  : 1
 cragne_manor                            : 1
@@ -1536,7 +1537,7 @@ craigslist                              : 2
 crane_wife                              : 1
 crapo                                   : 1
 crash                                   : 3
-crashes                                 : 1   : crash
+crashes                                 : 1 : crash
 crawler                                 : 1
 creaking                                : 1
 creation                                : 1
@@ -1571,10 +1572,10 @@ crepes                                  : 1
 cricitism                               : 1 : criticism
 cricket_egg                             : 1
 crime                                   : 147
-crime_bill_of_1994                      : 1
+crime_bill_of_1994 : 1
 crime_infested                          : 1
 crime_shows                             : 1
-CrimeInfested                           : 1   : crime_infested
+CrimeInfested                           : 1 : crime_infested
 criminal                                : 1
 criminal_court                          : 1
 criminal_defense                        : 1
@@ -1585,11 +1586,11 @@ criminal_legal_system                   : 1
 criminal_system                         : 5
 criminal_victimisation                  : 1
 criminalisation                         : 1
-criminalization                         : 2   : criminalisation
+criminalization                         : 2 : criminalisation
 criminology                             : 3
 crimson                                 : 1
 crisco                                  : 1
-crises                                  : 1   : crisis
+crises                                  : 1 : crisis
 crisis                                  : 3
 crisis_epistemology                     : 1
 crisis_management                       : 1
@@ -1598,7 +1599,7 @@ crisis_system                           : 1
 criteria                                : 2
 critic                                  : 1
 critical                                : 3
-critical theory                         : 1   : critical_theory
+critical theory                         : 1 : critical_theory
 critical_ai                             : 1
 critical_algorithm_studies              : 1
 critical_cartography                    : 1
@@ -1620,7 +1621,7 @@ critical_technical_practice             : 1
 critical_theory                         : 5
 critical_thinking                       : 18
 criticism                               : 169
-critics                                 : 1   : critic
+critics                                 : 1 : critic
 critique                                : 25
 crme                                    : 1
 cro_magnon                              : 1
@@ -1643,13 +1644,13 @@ crowd                                   : 6
 crowd_funding                           : 4
 crowd_simulation                        : 1
 crowd_source                            : 1
-crowd_sourcing                          : 5   : crowd_source
+crowd_sourcing                          : 5 : crowd_source
 crowd_wisdom                            : 1
 CrowdCode                               : 1
 crowdfunding                            : 1
 crowds                                  : 11
-crowdsourcing                           : 4   : crowd_source
-crtique                                 : 1   : critique
+crowdsourcing                           : 4 : crowd_source
+crtique                                 : 1 : critique
 cruel_optimism                          : 1
 cruelty                                 : 8
 crumple_zones                           : 1
@@ -1669,7 +1670,7 @@ crystal_thomas                          : 1
 crystals                                : 1
 csharp                                  : 1 : c_sharp
 cso_online                              : 1
-csoonline                               : 1   : cso_online
+csoonline                               : 1 : cso_online
 csound                                  : 2
 csv                                     : 1
 cthulu                                  : 2
@@ -1746,7 +1747,7 @@ culture_industry                        : 1
 culture_series                          : 2
 culture_specific                        : 1
 culture_war                             : 1
-cultures                                : 2   : culture
+cultures                                : 2 : culture
 cunt                                    : 3
 cuomo                                   : 1
 cupcake                                 : 2
@@ -1762,19 +1763,19 @@ curl                                    : 1
 currency                                : 7
 current                                 : 1
 current_affairs                         : 2
-curricula                               : 2   : curriculum
+curricula                               : 2 : curriculum
 curriculum                              : 3
 curry                                   : 1
 curry_howard                            : 2
 curse                                   : 3
 curse_of_dimensionality                 : 1
-curses                                  : 4   : curse
-cursing                                 : 1   : curse
+curses                                  : 4 : curse
+cursing                                 : 1 : curse
 cursive                                 : 1
 curtis_roads                            : 1
 curve                                   : 3
 curve_circuits                          : 1
-curves                                  : 2   : curve
+curves                                  : 2 : curve
 Curveship                               : 1
 cussing                                 : 1
 custody                                 : 1
@@ -1787,7 +1788,7 @@ cut                                     : 1
 cute                                    : 2
 cutlery                                 : 2
 cutouts                                 : 1
-cutter laboratories                     : 1   : cutter_laboratories
+cutter laboratories                     : 1 : cutter_laboratories
 cutter_laboratories                     : 1
 cuyahoga                                : 1
 cyangmou                                : 1
@@ -1805,7 +1806,7 @@ cybernetics                             : 8
 cyberpapacy                             : 1
 cyberpsychology                         : 1
 cyberpunk                               : 10
-cyberpunk_2077                          : 1
+cyberpunk_2077 : 1
 cybersecurity                           : 4
 cybersex                                : 1
 cyberspace                              : 8
@@ -1813,12 +1814,12 @@ cybertext                               : 1
 cyberwarfare                            : 3
 cybord_manifesto                        : 1
 cyborg                                  : 2
-cyborgs                                 : 2   : cyborg
+cyborgs                                 : 2 : cyborg
 cyborgs_at_the_frontiers                : 1
 cyborks                                 : 1
 cyc_project                             : 2
 cycle                                   : 2
-cycles                                  : 5   : cycle
+cycles                                  : 5 : cycle
 cycles_of_oppression                    : 1
 cycles_of_protest                       : 1
 cyclic_generation                       : 1
@@ -1830,7 +1831,7 @@ cyclone                                 : 4
 cygwin                                  : 1
 cymatics                                : 1
 cynicism                                : 1
-cyoa                                    : 3   : CYOA
+cyoa                                    : 3 : CYOA
 cypher                                  : 1
 cypherpunk                              : 1
 cython                                  : 4
