@@ -1,0 +1,82 @@
+.. -*- mode: ReST -*-
+.. _1950:
+
+====
+1950
+====
+
+.. contents:: Entries:
+   :class: bib_entries
+   :local:
+
+For the raw bibtex, see `the file`_.
+
+.. _`the file`: https://github.com/jgrey4296/bibliography/blob/main/main/1950.bib
+
+
+.. bibtex:entry:: simmel50:_metrop_mental_life
+   :title: The Metropolis and Mental Life
+   :tags: psychology,sociology,urban_design
+   :author: Simmel, Georg
+   :year: 1950
+   :booktitle: The Sociology of Georg Simmell
+   :publisher: Free Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: innis50_empir_commun
+   :title: Empire and Communications
+   :tags: analysis,communication,empire,john_brunner,marshall_mcluhan,media
+   :author: Innis, Harold A.
+   :year: 1950
+   :isbn: 978-1-55002-662-7
+   :publisher: Dundurn Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: parmenter50:_elemen_text_gregg_short_colleg_studen
+   :title: An Elementary Text in Gregg Shorthand for College Students
+   :tags: gregg_shorthand,history,shorthand,writing
+   :author: Parmenter, Olive
+   :year: 1950
+   :url: https://www.proquest.com/openview/c15ffcd394576d8998d8f3da6ba7a296/1
+   :institution: New York University
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, type, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: turing50_comput_machin_intel_LIX
+   :title: Computing Machinery and Intelligence
+   :tags: computer_science,history,imitation_game,quote
+   :author: Turing, Alan M.
+   :year: 1950
+   :journal: Mind
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, number, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+

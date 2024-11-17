@@ -1,0 +1,37 @@
+.. -*- mode: ReST -*-
+
+.. _1787:
+
+====
+1787
+====
+
+.. contents:: Entries:
+   :class: bib_entries
+   :local:
+
+For the raw bibtex, see `the file`_.
+`text <url>`_
+
+
+.. bibtex:entry:: hamilton87
+   :title: The Federalist Papers
+   :author: Hamilton, Alexander and Madison, James and Jay, John
+   :series: A Test Series
+   :year: 1787
+   :edition: 2008
+   :isbn: 9780192805928
+   :tags: USA,government,law,politics,theory
+   :publisher: Oxford University Press
+
+
+.. bibtex:entry:: kant_critique
+   :title: Critique of Pure Reason
+   :author: Kant, Immanuel
+   :year: 1787
+   :edition: 1996
+   :publisher: Hackett
+   :tags: logic, philosophy, government
+
+
+.. _`the file`: https://github.com/jgrey4296/bibliography/blob/main/main/1787.bib

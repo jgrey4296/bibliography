@@ -1,0 +1,65 @@
+.. -*- mode: ReST -*-
+.. _1920:
+
+====
+1920
+====
+
+.. contents:: Entries:
+   :class: bib_entries
+   :local:
+
+For the raw bibtex, see `the file`_.
+
+.. _`the file`: https://github.com/jgrey4296/bibliography/blob/main/main/1920.bib
+
+
+.. bibtex:entry:: capek20_r_
+   :title: R.U.R
+   :tags: androids,artificial_people,play,robots,science_fiction
+   :author: Capek, Karel
+   :year: 1920
+
+
+..
+    Fields:
+    author, title, year, tags, annote, file, file2, howpublished
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: rogers20_census_united_states_volum_v_
+   :title: 14th Census of the United States : Agriculture, Farm Statistics by Color and Tenure of Farmer
+   :tags: USDA,agriculture,census,farming,history,race,statistics
+   :author: Rogers, Sam L. and Steuart, W. M
+   :year: 1920
+   :url: https://www.census.gov/library/publications/1923/dec/abstract.html
+   :institution: US Department of Commerce, Bureau of the Census
+
+
+..
+    Fields:
+    author, chapter, volume, title, subtitle, year, institution, tags, file, url, url2
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: russell20_introd_to_mathem_philos_10
+   :title: Introduction To Mathematical Philosophy
+   :tags: book,logic,math,philosophy
+   :author: Russell, Bertrand
+   :year: 1920
+   :journal: The Mathematical Gazette
+   :url: http://www.jstor.org/stable/3603237?origin=crossref
+   :isbn: 0-04-510020-9
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, isbn, issn, pages, pmid, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
