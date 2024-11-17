@@ -24,3 +24,4 @@
 :tags        : tags/substitutions/general
 :aisb        : plus/conferences_primary/aisb_
 :site        : .site
+:sphinx      : conf.py

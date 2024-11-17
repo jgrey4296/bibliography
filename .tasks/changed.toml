@@ -4,7 +4,12 @@
 ##
 ##
 [[locations]]
-processed = {loc="{temp}/processed"}
+processed    = {loc="{temp}/processed"}
+data_drive   = "/media/john/data"
+backup_1     = "/media/john/big_ex"
+backup_2     = "/media/john/BackupSD"
+pdf_source   = "{data_drive}/library/pdfs"
+backup_cache = {file="{temp}/backup.commit_cache"}
 
 [[tasks.changed]]
 name       = "report"
@@ -19,19 +24,19 @@ actions    = [
 ]
 
 [[tasks.changed]]
-name             = "_.one.bib"
-doc              = ["run updates for a changed bibtex"]
-version          = "0.1"
-ctor             = "job"
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
-inject           = ["fpath"]
-roots            = ["{bib!p}"]
-depends_on       = [
+name                  = "_.one.bib"
+doc                   = ["run updates for a changed bibtex"]
+version               = "0.1"
+ctor                  = "job"
+cli                   = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+must_inject           = ["fpath"]
+roots                 = ["{bib!p}"]
+depends_on            = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"], fail=true},
-    { task="format::_.by.year", inject={fpath="fpath"} },
+    { task="format::_.by.year", inject={now=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
@@ -49,17 +54,17 @@ actions          = [
     { do="job.queue", from_="entry_tasks" },
 ]
 head_actions = [
-    { task="export::_.one.bib",   inject={fpath="fpath"} }, # Export
-    { task="compile::_.to.html",  inject={fpath="fpath"} }, # Compile html
-    { task="compile::_.to.pdf" ,  inject={fpath="fpath"} }, # Compile pdf
+    { task="export::_.clean.bib",   inject={now=["fpath"]} }, # Export
+    { task="export::_.to.rst",      inject={now=["fpath"]} }, # rst for html generation
+    { task="compile::_.to.pdf",     inject={now=["fpath"]} }, # Compile pdf
     # Update Tags:
-    { task="tags::_.calculate.update", inject={fpath="fpath"}},
+    { task="tags::_.calculate.update", inject={now=["fpath"]}},
     # Report broken urls:
-    # { task="online::_.report.broken", inject={postbox="bibtex::entries..urls"}},
+    # { task="online::_.report.broken", inject={copy={postbox="bibtex::entries..urls"}}},
     # Report orphan files
-    # { task="orphans::_.report.missing", inject={fpath="fpath"} },
+    # { task="orphans::_.report.missing", inject={now=["fpath"]}},
     # TODO Summarise
-    # { task="bibtex:_.summarise", inject={fpath="fpath"} },
+    # { task="bibtex:_.summarise", inject={now=["fpath"]} },
     {do="path.elements", from_="fpath" },
     {do="say", args=["Finished handling changes for: {fstem}"]},
     {do="touch", args=["{processed!p}/{fstem}"]}
@@ -67,14 +72,14 @@ head_actions = [
 cleanup = []
 
 [[tasks.changed]]
-name               = "_.single.entry.update"
-doc                = ["Entry tasks that do not modify the entry itself"]
-inject             = ["entry"]
-ctor               = "task"
-roots              = ["{pdf_source!p}"]
-shadow_roots       = ["{backup_1!p}/library/pdfs", "{backup_2!p}/library/pdfs"]
-setup              = []
-actions            = [
+name                    = "_.single.entry.update"
+doc                     = ["Entry tasks that do not modify the entry itself"]
+must_inject             = ["entry"]
+ctor                    = "task"
+roots                   = ["{pdf_source!p}"]
+shadow_roots            = ["{backup_1!p}/library/pdfs", "{backup_2!p}/library/pdfs"]
+setup                   = []
+actions                 = [
     {do="taskcode.bibtex:log_entry_name"},
     # ---
     {do="log", msg="... Extracting Tags"},
