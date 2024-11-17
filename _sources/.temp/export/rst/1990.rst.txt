@@ -1,0 +1,897 @@
+.. -*- mode: ReST -*-
+.. _1990:
+
+====
+1990
+====
+
+.. contents:: Entries:
+   :class: bib_entries
+   :local:
+
+For the raw bibtex, see `the file`_.
+
+.. _`the file`: https://github.com/jgrey4296/bibliography/blob/main/main/1990.bib
+
+
+.. bibtex:entry:: agre90_what_plans
+   :title: What are Plans for?
+   :tags: NLP,ai,communication,planning
+   :author: Agre, Philip E. and Chapman, David
+   :year: 1990
+   :booktitle: Robotics and autonomous systems
+   :url: http://www.sciencedirect.com/science/article/pii/S0921889005800260
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: balci90_guidel
+   :title: Guidelines for successful simulation studies
+   :tags: simulation
+   :author: Balci, Osman
+   :year: 1990
+   :booktitle: 1990 Winter Simulation Conference Proceedings
+   :doi: 10.1109/wsc.1990.129482
+   :url: http://dx.doi.org/10.1109/WSC.1990.129482
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: banks90_use_weapon_4
+   :title: Use of Weapons
+   :tags: science_fiction
+   :author: Banks, Iain M
+   :year: 1990
+   :series: The Culture
+   :isbn: 978-1-85723-135-9
+   :publisher: Time Warner Books
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, series, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bond90
+   :title: A computational model for organizations of cooperating intelligent agents
+   :tags: MAS,agents,anselm_strauss,commitment,cooperation,distributed_systems,elihu_gerson,symbolic_interaction
+   :author: Bond, Alan. H.
+   :year: 1990
+   :booktitle: Office Information Systems, COCS
+   :doi: 10.1145/91474.91483
+   :url: http://dx.doi.org/10.1145/91474.91483
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: brooks90_behav_languag
+   :title: The Behavior Language : User's Guide
+   :tags: language,lisp,message_passing,norm,production_system,programming,robotics,rule,schema,subsumption
+   :author: Brooks, Rodney A.
+   :year: 1990
+   :institution: Massachusetts Institute of Technology
+
+
+..
+    Fields:
+    author, title, subtitle, year, institution, tags, file, pages
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cardelli90
+   :title: A semantic basis for quest
+   :tags: design,language,programming,type_theory
+   :author: Cardelli, Luca and Longo, Giuseppe
+   :year: 1990
+   :booktitle: ACM conference on LISP and functional programming
+   :doi: 10.1145/91556.91586
+   :url: http://portal.acm.org/citation.cfm?doid=91556.91586
+   :isbn: 0-89791-368-X
+   :publisher: ACM Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, address, doi, file, isbn, pages, publisher, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: chapman90_vision
+   :title: Vision, instruction and action
+   :tags: MACNET,Sonja,ai,deictic_representation,phenomenology,routine,situatedness
+   :author: Chapman, David
+   :year: 1990
+   :institution: MASSACHUSETTS INST OF TECH CAMBRIDGE ARTIFICIAL INTELLIGENCE LAB
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cicero90_murder_trial
+   :title: Murder Trials
+   :tags: history,philosophy,rome
+   :author: Cicero, Marcus Tullius
+   :year: 1990
+   :isbn: 978-0-14-044288-5
+   :publisher: Penguin Books
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: clark90:_fiction_encyc
+   :title: The Fictional Encyclopaedia : Joyce, Pound, Sollers
+   :tags: encyclopedia,ezra_pound,fiction,finnegans_wake,james_joyce,literature,paradis,the_cantos
+   :author: Clark, Hilary
+   :year: 1990
+   :isbn: 978-0-203-80479-7
+   :publisher: Routledge
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cohen90_inten_is_choic_with_commit_42
+   :title: Intention Is Choice With Commitment
+   :tags: BDI,intention,little_nell_problem,semantics
+   :author: Cohen, Philip R. and Levesque, Hector J.
+   :year: 1990
+   :journal: Artificial Intelligence
+   :doi: 10.1016/0004-3702(90)90055-5
+   :url: http://dx.doi.org/10.1016/0004-3702(90)90055-5
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cohen90_perfor_ration_based_speec_act_theor
+   :title: Performatives in a Rationally Based Speech Act Theory
+   :tags: performance,request,speech_act
+   :author: Cohen, Philip R.
+   :year: 1990
+   :booktitle: Proceedings of the 28th annual meeting on Association for Computational Linguistics.
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pages
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: corbin90_groun_theor_resear_19
+   :title: Grounded Theory Research : Procedures, Canons and Evaluative Criteria
+   :tags: __printed,evaluation,grounded_theory,methods,qualitative,sociology
+   :author: Corbin, Juliet and Strauss, Anselm
+   :year: 1990
+   :journal: Zeitschrift fur Soziologie
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: elliott90:_exten_applic_higher_unific
+   :title: Extensions and Applications of Higher-order Unification
+   :tags: higher_ordered_logic,language_encoding,logical_framework,program_transformation,unification
+   :author: Elliott, Conal M.
+   :year: 1990
+   :url: http://www.cs.cmu.edu/~fp/elf-papers/elliott90.ps.gz
+   :institution: Carnegie Mellon University
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, number, type, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fukunaga90_introd_statis_patter_recog
+   :title: Introduction to Statistical Pattern Recognition
+   :tags: math,patterns,statistics,text_book
+   :author: Fukunaga, Keinosuke
+   :year: 1990
+   :publisher: Morgan Kaufmann
+
+
+..
+    Fields:
+    author, title, year, tags, file, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: giddens90_conseq_moder
+   :title: The Consequences of Modernity
+   :tags: __important,abstract_systems,globalisation,institution,modernity,ontology,sociology,structuration
+   :author: Giddens, Anthony
+   :year: 1990
+   :isbn: 0-7456-0923-6
+   :publisher: Polity
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: girard90_proof_types
+   :title: Proofs and Types
+   :tags: curry_howard,lambda_calculus,logic,math,type_theory,types
+   :author: Girard, Jean-Yves and Taylor, Paul and Lafont, Yves
+   :year: 1990
+   :doi: 10.1016/0378-4754(90)90067-S
+   :url: http://www.jstor.org/stable/2274726?origin=crossref
+   :isbn: 0-521-37181-3
+   :publisher: Cambridge University Press
+
+
+..
+    Fields:
+    author, title, year, tags, abstract, doi, file, isbn, publisher, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: holub90_compil_desig_c
+   :title: Compiler Design in C
+   :tags: c_lang,compiler,design,parser,programming,text_book
+   :author: Holub, Allen I.
+   :year: 1990
+   :isbn: 0-13-155045-4
+   :publisher: Prentice Hall
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, pages, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: latour90_techn_is_societ_made_durab_38
+   :title: Technology Is Society Made Durable
+   :tags: institution,sociology,technology
+   :author: Latour, Bruno
+   :year: 1990
+   :journal: The Sociological Review
+   :publisher: Sage Publications Sage UK: London, England
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, number, pages, publisher, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: le90:_tehan
+   :title: Tehanu
+   :tags: earthsea,fantasy,feminism,magic
+   :author: Le Guin, Ursula
+   :year: 1990
+   :series: Earthsea
+   :booktitle: The Books of Earthsea: The Complete Illustrated Edition
+   :isbn: 978-1-4814-6558-8
+   :publisher: Gallery Books
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, isbn, look_in, publisher, series
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lewis90_testin
+   :title: Testing a walkthrough methodology for theory-based design of walk-up-and-use interfaces
+   :tags: HCI,UI,design_methodology,evaluation,formal_model,human_computer_interaction,rule,theory,walk_up_and_use_systems
+   :author: Lewis, Clayton and Polson, Peter G. and Wharton, Cathleen and Rieman, John
+   :year: 1990
+   :booktitle: Human factors in computing systems
+   :doi: 10.1145/97243.97279
+   :url: http://portal.acm.org/citation.cfm?doid=97243.97279
+   :isbn: 0-201-50932-6
+   :publisher: ACM Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, address, doi, file, isbn, pages, publisher, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: mackenzie90:_four_49
+   :title: Four dialogue systems
+   :tags: begging_the_question,dialogue_systems,fallacy,lewis_carroll,logic
+   :author: Mackenzie, Jim
+   :year: 1990
+   :journal: Studia Logica
+   :doi: 10.1007/bf00370166
+   :url: http://dx.doi.org/10.1007/BF00370166
+
+
+..
+    Fields:
+    author, title, year, journal, tags, date_added, doi, file, number, pages, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: mairson90:_decid_ml
+   :title: Deciding ML typability is complete for deterministic exponential time
+   :tags: ML,type_inference
+   :author: Mairson, Harry G.
+   :year: 1990
+   :booktitle: Proceedings of the 17th ACM SIGPLAN-SIGACT symposium on Principles of programming languages  - POPL '90
+   :doi: 10.1145/96709.96748
+   :url: http://dx.doi.org/10.1145/96709.96748
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, date_added, doi, file, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: malcolm90_malcol_x
+   :title: Malcolm X speaks : Selected speeches and statements
+   :tags: black_panthers,black_power,civil_rights,history,politics,speech,white_supremacy
+   :author: Malcolm, X
+   :year: 1990
+   :publisher: Grove Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: marradi90_class_typol_taxon_24
+   :title: Classification, Typology, Taxonomy
+   :tags: classification,sociology,taxonomy,typology
+   :author: Marradi, Alberto
+   :year: 1990
+   :journal: Quality and Quantity
+   :doi: 10.1007/BF00209548
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, issn, number, pages, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: mcdonald90_state_of_art_devel_exper_1
+   :title: State-Of-The-Art Developments in Expert Systems and Strategic Marketing Planning
+   :tags: EXMAR,expert_system,production_rules,strategic_management
+   :author: McDonald, Malcolm and Wilson, Hugh
+   :year: 1990
+   :journal: British Journal of Management
+   :doi: 10.1111/j.1467-8551.1990.tb00004.x
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: merritt90_build_exper_system_prolog
+   :title: Building Expert Systems in Prolog
+   :tags: expert_system,prolog,text_book
+   :author: Merritt, Dennis
+   :year: 1990
+   :series: Springer Compass International
+   :doi: 10.1016/0950-7051(90)90009-7
+   :url: http://www.springerlink.com/index/10.1007/978-1-4613-8911-8
+   :isbn: 0-387-97016-9
+   :publisher: Springer
+
+
+..
+    Fields:
+    author, title, year, tags, abstract, doi, file, isbn, publisher, series, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: miller90_tempor_order_perceiv_mutab_event_59
+   :title: Temporal Order and the Perceived Mutability of Events : Implications for Blame Assignment.
+   :tags: blame_assignment,credit_assignment,mutability,psychology,sequence,temporal
+   :author: Miller, Dale T. and Gunasegaram, Saku
+   :year: 1990
+   :journal: Journal of Personality and Social Psychology
+   :doi: 10.1037//0022-3514.59.6.1111
+   :url: http://doi.apa.org/getdoi.cfm?doi=10.1037/0022-3514.59.6.1111
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, issn, number, pages, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: miranker90_treat
+   :title: TREAT : A new and efficient match algorithm for AI production system
+   :tags: RETE,TREAT,production_system,rule
+   :author: Miranker, Daniel P
+   :year: 1990
+   :isbn: 0-273-08793-2
+   :publisher: Morgan Kaufmann
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: mokhtar90_unesc_gener_histor_afric_vol
+   :title: UNESCO General History of Africa, Vol. II, Abridged Edition : Ancient Africa
+   :tags: africa,history
+   :author: Mokhtar, G
+   :year: 1990
+   :isbn: 0-520-03913-0
+   :publisher: University of California Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: nielsen90_heuris_evaluat_user_inter
+   :title: Heuristic Evaluation of User Interfaces
+   :tags: HCI,UI,evaluation,heuristics,methods,usability
+   :author: Nielsen, Jakob and Molich, Rolf
+   :year: 1990
+   :booktitle: CHI
+   :doi: 10.1145/97243.97281
+   :isbn: 0-201-50932-6
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, abstract, doi, file, isbn, issn, number, pages, pmid
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: north90_instit_instit_chang_econom_perfor
+   :title: Institutions, Institutional Change and Economic Performance
+   :tags: economics,institution,institutional_change,performance,transaction_costs
+   :author: North, Douglass C.
+   :year: 1990
+   :isbn: 0-521-39734-0
+   :publisher: Cambridge University Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ostrom90_gover
+   :title: Governing the commons : The evolution of institutions for collective action
+   :tags: commons,governance,institution
+   :author: Ostrom, Elinor
+   :year: 1990
+   :isbn: 978-1-107-56978-2
+   :publisher: Cambridge university press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ourston90_chang_90
+   :title: Changing the rules : A comprehensive approach to theory refinement.
+   :tags: design,induction,logic,meta,refinement,rule,theory_revision
+   :author: Ourston, Dirk and Mooney, Raymond J
+   :year: 1990
+   :booktitle: AAAI
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pages, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pointton90:_bbc_pronoun_diction_britis_names
+   :title: BBC Pronouncing Dictionary of British Names
+   :tags: UK,dialect,honourifics,language,linguistics,names,pronunciation,welsh
+   :editor: Pointton, G.E
+   :year: 1990
+   :isbn: 0-19-282745-6
+   :publisher: Oxford University Press
+
+
+..
+    Fields:
+    editor, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pratchett90_eric
+   :title: Eric
+   :tags: discworld,fantasy,faust,iliad,inferno,trojan_war
+   :author: Pratchett, Terry
+   :year: 1990
+   :isbn: 0-575-04636-8
+   :publisher: Victor Gollancz
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pratchett90_movin_pictur
+   :title: Moving Pictures
+   :tags: atlantis,cthulu,discworld,fantasy,hollywood,movie
+   :author: Pratchett, Terry
+   :year: 1990
+   :isbn: 0-575-04763-1
+   :publisher: Victor Gollancz
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: priestley90_realm_chaos_lost_damned
+   :title: Realm of Chaos: The Lost and the Damned
+   :tags: chaos,game_design,history,rule_book,warhammer
+   :author: Priestley, Rick and Ansell, Bryan
+   :year: 1990
+   :isbn: 1-869893-52-2
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: rousseau90_dialog_1
+   :title: Dialogues : The Collected Writings
+   :tags: philosophy
+   :author: Rousseau, Jean-Jacques and Masters, Roger D. and Kelly, Christopher
+   :year: 1990
+   :isbn: 0-87451-495-9
+   :publisher: University Press of New England
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: saab90_hierar_multi_level_fault_simul_large_system_1
+   :title: Hierarchical Multi-Level Fault Simulation of Large Systems
+   :tags: VLSI,complex_systems,design,fault,faults,large_scale,layers,multi_level,simulation,testing
+   :author: Saab, Daniel G and Mueller-Thuns, Robert B. and Blaauw, David and Rahmeh, Joseph T and Abraham, Jacob A
+   :year: 1990
+   :journal: Journal of Electronic Testing
+   :doi: 10.1007/BF00137390
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, issn, number, pages, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: schlager90:_model_specif_polic_analy
+   :title: Model Specification and Policy Analysis : The Governance of Coastal Fisheries
+   :tags: economics,elinor_ostrom,fishery,governance,institution,model_specification,policy
+   :author: Schlager, Edella
+   :year: 1990
+   :url: https://hdl.handle.net/10535/3558
+   :institution: Indiana University
+
+
+..
+    Fields:
+    author, title, subtitle, year, institution, tags, file, type, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: software90:_simear
+   :title: SimEarth : The Living Planet Instruction Booklet
+   :tags: SNES,gaia_theory,game_manuals,james_lovelock,simulation
+   :author: {Maxis Software}
+   :year: 1990
+   :url: https://archive.org/details/sim-earth-the-living-planet-usa
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, url
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: star90_power_techn_phenom_conven_38
+   :title: Power, Technology and the Phenomenology of Conventions : On Being Allergic To Onions
+   :tags: actor_network,phenomenology,power,sociology,standardization,technology
+   :author: Star, Susan Leigh
+   :year: 1990
+   :journal: The Sociological Review
+   :publisher: SAGE Publications Sage UK: London, England
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, publisher, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: sutton90_integ_archit_learn_plann_react_02254
+   :title: Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming.
+   :tags: ai,dynamic_programming,evaluation,q_learning,reinforcement_learning
+   :author: Sutton, Richard S.
+   :year: 1990
+   :booktitle: ML
+   :url: http://papersdb.cs.ualberta.ca/~papersdb/uploaded_files/505/paper_sutton-90.pdf
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, number, pages, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: touretzky90_common_lisp_1
+   :title: COMMON LISP : A Gentle Introduction to Symbolic Computation
+   :tags: common_lisp,lisp,symbolic_computation,text_book
+   :author: Touretzky, D.S.
+   :year: 1990
+   :booktitle: New York
+   :url: http://www.mendeley.com/research/common-lisp-a-gentle-introduction-to-symbolic-computation-1/
+   :isbn: 0-8053-0492-4
+   :publisher: Benjamin/Cummings
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, abstract, file, isbn, pages, publisher, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: tracy90_rise_of_merch_empir_long
+   :title: The Rise Of Merchant Empires Long-Distance Trade In The Early Modern World, 1350-1750
+   :tags: 1350,1750,18th_century,Iberian_empire,bullion,dutch_republic,economics,empire,english_empire,europe,history,india,merchants,slavery,trade
+   :editor: Tracy, James D.
+   :year: 1990
+   :isbn: 978-0-521-38210-6
+   :publisher: Cambridge University Press
+
+
+..
+    Fields:
+    editor, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: tufte90_envis_infor
+   :title: Envisioning Information
+   :tags: HCI,data_visualisation,design,graphics,infographic
+   :author: Tufte, Edward R.
+   :year: 1990
+   :isbn: 978-1-930824-14-0
+   :publisher: Graphics Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: woodward90_makin_saint
+   :title: Making Saints : How the Catholic Church Determines Who Becomes a Saint, Who Doesn't, and Why
+   :tags: canonization,catholic_church,politics,process,religion,saints
+   :author: Woodward, Kenneth L.
+   :year: 1990
+   :isbn: 0-671-74743-6
+   :publisher: Touchstone
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: stillman90:_waaar_orks
+   :title: Waaargh Orks
+   :tags: 40k,codex,rule_book
+   :author: Stillman, Nigel and Ansell, Bryan
+   :year: 1990
+   :isbn: 1-872372-15-5
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, tags, file, title, year, publisher, isbn
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: card90:_impac_mariel_boatl_miami_labor_market_43
+   :title: The Impact of the Mariel Boatlift on the Miami Labor Market
+   :tags: economics,immigration,labour,mariel_boatlift,miami
+   :author: Card, David
+   :year: 1990
+   :journal: Industrial and Labor Relations Review
+   :doi: 10.1177/001979399004300205
+   :url: http://dx.doi.org/10.1177/001979399004300205
+
+
+..
+    Fields:
+    author, url, pages, file, title, tags, doi, year, journal, volume, number
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: suber90:_parad_of_self_amend_
+   :title: The Paradox Of Self-Amendment : A Study Of Law, Logic, Omnipotence, and Change
+   :tags: law,logic,nomic,philosophy
+   :author: Suber, Peter
+   :year: 1990
+   :url: http://legacy.earlham.edu/~peters/writing/psa/index.htm
+   :isbn: 0-8204-1212-0
+
+
+..
+    Fields:
+    author, tags, url, subtitle, title, year, isbn
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: 90:_appen_nomic
+   :title: Appendix 3: Nomic: A Game Of Self-Amendment
+   :tags: law,logic,nomic,philosophy
+   :author: Suber, Peter
+   :year: 1990
+   :url: http://legacy.earlham.edu/~peters/writing/nomic.htm
+
+
+..
+    Fields:
+    year, author, tags, url, crossref, title
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+

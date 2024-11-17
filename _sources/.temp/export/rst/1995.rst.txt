@@ -164,7 +164,7 @@ For the raw bibtex, see `the file`_.
 
 ..
     Fields:
-    author, title, year, tags, file, isbn, publisher, edition, pdf_locked
+    author, title, year, tags, file, isbn, publisher, edition_year, pdf_locked
 
     Object Keys:
     _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
@@ -414,7 +414,7 @@ For the raw bibtex, see `the file`_.
    :tags: ai,hypothesis_testing,methods,research,statistics,text_book
    :author: Cohen, Paul R
    :year: 1995
-   :publisher: MIT press Cambridge, MA
+   :publisher: MIT Press
 
 
 ..
@@ -742,7 +742,7 @@ For the raw bibtex, see `the file`_.
    :tags: cohort,identity,psychology,women
    :author: Helson, R. and Stewart, A. J. and Ostrove, J.
    :year: 1995
-   :journal: Journal of personality and social psychology
+   :journal: Journal Of Personality and Social Psychology
    :doi: 10.1037/0022-3514.69.3.544
    :url: http://www.ncbi.nlm.nih.gov/pubmed/7562394
 
@@ -833,7 +833,7 @@ For the raw bibtex, see `the file`_.
    :doi: 10.1109/ICEC.1995.487474
    :url: http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=487474
    :isbn: 0-7803-2759-4
-   :publisher: Ieee
+   :publisher: IEEE
 
 
 ..
@@ -914,7 +914,7 @@ For the raw bibtex, see `the file`_.
 
 
 .. bibtex:entry:: lamport95_tla_pictur_21
-   :title: Tla in Pictures
+   :title: TLA in Pictures
    :tags: TLA,concurrency,diagram,predicate_action_diagrams,specification,temporal_logic
    :author: Lamport, Leslie
    :year: 1995
