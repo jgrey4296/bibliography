@@ -6,24 +6,6 @@ canon_tag_file = {file="{temp}/tags/canon.tags"}
 bkmk_tag_file  = {file="{temp}/tags/bkmks.tags"}
 
 [[tasks.tags]]
-name    = "_.build.bkmk.tags"
-version = "0.1"
-ctor    = "task"
-depends_on = [
-           # skip if bkmk.tags was touched today
-           {do="dootle.utils.recency_test:stale_test", source="{bookmarks!p}", dest="{bkmk_tag_file!p}"},
-]
-actions = [
-        {do="log", msg="Building Tags Summary from Bookmarks"},
-        # read {bookmarks}
-        { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks!p}", update_="total_bkmks" },
-        # extract tags
-        { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
-        # write
-        {do="write!", from_="tags", to="{bkmk_tag_file!p}"}
-]
-
-[[tasks.tags]]
 name         = "_.build.total"
 doc          = ["build the totals.tags file from individual tag substitution files"]
 version      = "0.1"
@@ -55,6 +37,24 @@ head_actions = [
     # TODO merge bkmk_tags into total
     { do="write!",  from_="known_tags", to="{known_tag_file!p}" },
     { do="write!",  from_="canon_tags", to="{canon_tag_file!p}" },
+]
+
+[[tasks.tags]]
+name    = "_.build.bkmk.tags"
+version = "0.1"
+ctor    = "task"
+depends_on = [
+           # skip if bkmk.tags was touched today
+           {do="dootle.utils.recency_test:stale_test", source="{bookmarks!p}", dest="{bkmk_tag_file!p}"},
+]
+actions = [
+        {do="log", msg="Building Tags Summary from Bookmarks"},
+        # read {bookmarks}
+        { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks!p}", update_="total_bkmks" },
+        # extract tags
+        { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
+        # write
+        {do="write!", from_="tags", to="{bkmk_tag_file!p}"}
 ]
 
 [[tasks.tags]]
