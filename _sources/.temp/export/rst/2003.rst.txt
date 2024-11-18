@@ -1,0 +1,3824 @@
+.. -*- mode: ReST -*-
+.. _2003:
+
+====
+2003
+====
+
+.. contents:: Entries:
+   :class: bib_entries
+   :local:
+
+For the raw bibtex, see `the file`_.
+
+.. _`the file`: https://github.com/jgrey4296/bibliography/blob/main/main/2003.bib
+
+
+.. bibtex:entry:: aarseth03_playin_resear
+   :title: Playing Research : Methodological approaches to game analysis
+   :tags: aesthetics,games,hermeneutics,methods,morrowind,research,typology
+   :author: Aarseth, Espen
+   :year: 2003
+   :booktitle: Digital Arts and Culture Conference
+   :url: http://www.cs.uu.nl/docs/vakken/vw/literature/02.GameApproaches2.pdf
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: abecker03_agent_techn_2
+   :title: Agent Technology for distributed organizational memories
+   :tags: MAS,agents,distributed,frodo_project,memory,organisation,social_agent
+   :author: Abecker, Andreas and Bernardi, Ansgar and van Elst, Ludger and Elst, Ludger Van
+   :year: 2003
+   :booktitle: Enterprise Information Systems
+   :url: http://www.dfki.uni-kl.de/~elst/papers/003_C2_650_Abecker.pdf
+   :isbn: 972-98816-1-8
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, abstract, file, isbn, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: abnett03:_sabbat_marty
+   :title: Sabbat Martyr
+   :tags: 40k,military,science_fiction,warhammer
+   :author: Abnett, Dan
+   :year: 2003
+   :series: Gaunt's Ghosts
+   :isbn: 0-7434-4360-8
+   :publisher: The Black Library
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, series
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: abnett03_honour_guard
+   :title: Honour Guard
+   :tags: science_fiction,warhammer
+   :author: Abnett, Dan
+   :year: 2003
+   :series: Gaunt's Ghosts
+   :isbn: 978-1-84416-007-5
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, series
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: agar03_gover_machin
+   :title: The Government Machine : A Revolutionary History of the Computer
+   :tags: bureaucracy,computation,government,history,information_society,technology,total_knowledge
+   :author: Agar, Jon
+   :year: 2003
+   :isbn: 0-262-01202-2
+   :publisher: MIT Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: agar03_my_kingd_funct_6
+   :title: My Kingdom for a Function : Modeling Misadventures of the Innumerate
+   :tags: ABM,drugs,epidemiology,ethnography,netlogo
+   :author: Agar, Michael
+   :year: 2003
+   :journal: Journal of Artificial Societies and Social Simulation, JASSS
+   :url: http://jasss.soc.surrey.ac.uk/6/3/8.html
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, journal, abstract, number, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: agrawal03_end_to_end_domain_driven
+   :title: An End-To-End Domain-Driven Software Development Framework
+   :tags: UML,graph,model_driven_development,patterns,prototype,software_development,transformation
+   :author: Agrawal, Aditya and Karsai, Gabor and Ledeczi, Akos
+   :year: 2003
+   :booktitle: Companion of the 18th Annual ACM SIGPLAN Conference on Object-oriented Programming, Systems, Languages, and Applications
+   :doi: 10.1145/949344.949347
+   :url: http://doi.acm.org/10.1145/949344.949347
+   :isbn: 1-58113-751-6
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, abstract, doi, file, isbn, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: agrawal03_graph_trans_domain_specif_model
+   :title: Graph Transformations on Domain-Specific Models
+   :tags: UML,__printed,grammar,graph,pattern_matching,prototype,rewriting,transformation
+   :author: Agrawal, Aditya and Karsai, Gabor and Shi, Feng
+   :year: 2003
+   :journal: Under consideration for publication in the Journal on Software and Systems Modeling
+   :url: http://www.sciences.univ-nantes.fr/lina/atl/www/papers/ext/Agrawal_A_11_0_2003_Graph_Tran.pdf
+   :isbn: 1-212-68414-1
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, isbn, number, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: agre03_infor
+   :title: Information and institutional change : The case of digital libraries
+   :tags: __printed,digital_libraries,institutional_change
+   :author: Agre, Philip E.
+   :year: 2003
+   :url: https://pages.gseis.ucla.edu/faculty/agre/change.html
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, chapter, crossref, file, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: agre03_infor_societ
+   :title: Information in Society
+   :tags: design,information,society,syllabus
+   :author: Agre, Philip E.
+   :year: 2003
+   :url: https://pages.gseis.ucla.edu/faculty/agre/is200.html
+
+
+..
+    Fields:
+    author, title, year, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: annamalai03_guidel_const_reusab_domain_ontol
+   :title: Guidelines for Constructing Reusable Domain Ontologies
+   :tags: abstraction,guidelines,ontology,reusable
+   :author: Annamalai, Muthukkaruppan and Sterling, Leon
+   :year: 2003
+   :booktitle: Proceedings of Ontologies in Agent Systems at AAMAS'03
+   :url: https://publications.csee.umbc.edu/publications/246
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: annas03_plato_
+   :title: Plato : A Very Short Introduction
+   :tags: drama,fiction,history,introduction,metaphysics,philosophy,plato,virtue
+   :author: Annas, Julia
+   :year: 2003
+   :series: Very Short Introductions
+   :isbn: 0-19-280216-X
+   :publisher: Oxford University Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, series, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: arbib03_
+   :title: The handbook of brain theory and neural networks
+   :tags: brain,machine_learning,neural_network,text_book
+   :author: Arbib, Michael A.
+   :year: 2003
+   :doi: 10.1016/S0925-2312(97)00036-2
+   :isbn: 
+   :publisher: MIT Press
+
+
+..
+    Fields:
+    author, title, year, tags, abstract, doi, file, isbn, issn, pmid, publisher, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: archives03_isaar_cpf_
+   :title: ISAAR(CPF) : International Standard Archival Authority Record for Corporate Bodies, Persons and Families
+   :tags: ISAAR,corporations,data,family,person,standards
+   :author: {International Council on Archives}
+   :year: 2003
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: arendt03_person_respon_under_dictat_
+   :title: Personal Responsibility Under Dictatorship
+   :tags: dictator,ethics,history,politics,responsibility
+   :author: Arendt, Hannah
+   :year: 2003
+   :journal: Responsibility and Judgment
+   :isbn: 978-85-7811-079-6
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, isbn, issn, pages, pmid, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: armstrong03_makin_
+   :title: Making reliable distributed systems in the presence of software errors
+   :tags: OTP,concurrency,distributed_programming,erlang,errors,fault_tolerance
+   :author: Armstrong, Joe
+   :year: 2003
+   :url: http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-3658
+   :institution: Mikroelektronik och informationsteknik
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, type, url, urn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: artikis03:_execut
+   :title: Executable specification of open norm-governed computational systems
+   :tags: MAS,agents,c_plus,dissertation,framework,institution,norms,open_systems,power
+   :author: Artikis, Alexander
+   :year: 2003
+   :url: https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.411598
+   :institution: Imperial College London
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, type, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: artikis03_specif_elect_societ_with_causal_calcul_44
+   :title: Specifying Electronic Societies With the Causal Calculator
+   :tags: c_plus,causal_calculator,event_calculus,institution,logic,open_systems
+   :author: Artikis, Alexander and Sergot, Marek J. and Pitt, Jeremy
+   :year: 2003
+   :journal: Aose 2002
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, issn, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: arts03:_simcit
+   :title: SimCity 4 : Deluxe Edition Manual
+   :tags: game_manuals,sim_city,simulation,urban_design
+   :author: Arts, Electronic
+   :year: 2003
+   :url: https://archive.org/details/SIMCITY_4_DELUXE_EDITION
+   :publisher: Electronic Arts
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, number, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ashcroft03_
+   :title: The post-colonial studies reader
+   :tags: colonialism,ethnicity,feminism,history,nationalism,philosophy,politics,text_book
+   :author: Ashcroft, Bill and Griffiths, Gareth and Tiffin, Helen
+   :year: 2003
+   :isbn: 0-415-34565-0
+   :publisher: Routledge
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: auerbach03_mimes
+   :title: Mimesis : The Representation of Reality in Western Literature
+   :tags: literature,mimesis,representation,western_culture
+   :author: Auerbach, Erich
+   :year: 2003
+   :isbn: 978-0-691-16022-1
+   :publisher: Princeton Classics
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: azuma03:_how_bloom
+   :title: How to apply the Bloom taxonomy to software engineering
+   :tags: education,pedagogy,software_engineering,taxonomy
+   :author: Azuma, M. and Coallier, F. and Garbajosa, J.
+   :year: 2003
+   :journal: Eleventh Annual International Workshop on Software Technology and Engineering Practice
+   :booktitle: Eleventh Annual International Workshop on Software Technology and Engineering Practice
+   :doi: 10.1109/step.2003.13
+   :url: http://dx.doi.org/10.1109/step.2003.13
+
+
+..
+    Fields:
+    author, title, year, journal, booktitle, tags, date_added, doi, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: baddeley03_workin_memor_languag_36
+   :title: Working Memory and Language : An Overview
+   :tags: phonological_loop,psychology,review,visuospatial_sketchpad,working_memory
+   :author: Baddeley, Alan
+   :year: 2003
+   :journal: Journal of Communication Disorders
+   :doi: 10.1016/S0021-9924(03)00019-4
+   :url: http://linkinghub.elsevier.com/retrieve/pii/S0021992403000194
+   :isbn: 4-411-79288-5
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, isbn, issn, month, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bailey03_are_infor_tools_better_
+   :title: Are Informal Tools Better? Comparing DEMAIS, Pencil and Paper, and Authorware for Early Multimedia Design
+   :tags: DEMAIS,HCI,design,informal_tools,pen_and_paper,prototype,research,story_board
+   :author: Bailey, Brian P and Konstan, Joseph A
+   :year: 2003
+   :booktitle: CHI
+   :isbn: 1-58113-630-7
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, isbn, number, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: baral03_knowl_repres_reason_declar_probl_solvin
+   :title: Knowledge Representation, Reasoning and Declarative Problem Solving
+   :tags: ansprolog,answer_set,knowledge,logic,prolog,reasoning,text_book
+   :author: Baral, Chitta
+   :year: 2003
+   :doi: 10.1017/CBO9780511543357
+   :url: http://www.cambridge.org/gb/knowledge/isbn/item1170108/
+   :isbn: 978-0-521-81802-5
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, isbn, issn, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: barreteau03_role_playin_games_model_negot_proces_6
+   :title: Role-Playing Games, Models and Negotiation Processes
+   :tags: artificial_society,companion_modeling,participatory_simulation,role_playing_game
+   :author: Barreteau, Olivier and Le Page, Christophe and D'aquino, Patrick
+   :year: 2003
+   :journal: Journal of Artificial Societies and Social Simulation, JASSS
+   :url: http://jasss.soc.surrey.ac.uk/6/2/10.html
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, number, url, volume
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bartle03_desig_virtual_world_
+   :title: Designing Virtual Worlds
+   :tags: MUD,game_design,text_book,virtual_world
+   :author: Bartle, Richard A.
+   :year: 2003
+   :url: https://mud.co.uk/richard/
+   :isbn: 978-0-13-101816-7
+   :publisher: Pearson
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, url, url2, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bartlett03_progr_from_groun_up_
+   :title: Programming From the Ground Up
+   :tags: linux,programming,text_book,unix
+   :author: Bartlett, Jonathan
+   :year: 2003
+   :journal: Assembly
+   :isbn: 978-0-9752838-4-4
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, isbn, issn, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bechky03_sharin_meanin_acros_occup_commun_14
+   :title: Sharing Meaning Across Occupational Communities : The Transformation of Understanding on a Production Floor
+   :tags: collaboration,coordination,industry,jobs,knowledge_sharing,occupation,work
+   :author: Bechky, Beth A.
+   :year: 2003
+   :journal: Organization Science
+   :doi: 10.1287/orsc.14.3.312.15162
+   :url: http://dx.doi.org/10.1287/orsc.14.3.312.15162
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bishop03_digit_
+   :title: Digital library use
+   :tags: __important,digital,library,social_practice,socio_technical
+   :author: Bishop, Ann P. and House, Nancy A. Van and Buttenfield, Barbara Pfeil
+   :year: 2003
+   :isbn: 0-262-02544-2
+   :publisher: MIT Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: blaylock03_corpus_statis_goal_recog_
+   :title: Corpus-based, Statistical Goal Recognition
+   :tags: dialogue_systems,goal_recognition,plan_corpus,planning
+   :author: Blaylock, Nate and Allen, James F.
+   :year: 2003
+   :booktitle: international joint conference on artificial intelligence, IJCAI
+   :url: http://ijcai.org/Proceedings/03/Papers/186.pdf
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, file2, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: blaze03:_right_amplif_master_keyed_mechan_locks_1
+   :title: Rights Amplification in Master-Keyed Mechanical Locks
+   :tags: cryptography,locks,rights_amplification,security
+   :author: Blaze, Matt
+   :year: 2003
+   :journal: IEEE Security & Privacy
+   :doi: 10.1109/msecp.2003.1193208
+   :url: http://dx.doi.org/10.1109/MSECP.2003.1193208
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, url, url2, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: blum03_imagin_struc_city_
+   :title: The Imaginative Structure of the City
+   :tags: architecture,philosophy,semiotics,social_control,urban_design
+   :author: Blum, Alan
+   :year: 2003
+   :isbn: 0-7735-2539-4
+   :publisher: McGill-Queen's University Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: boella03_oblig_permis_mental_entit_
+   :title: Obligations and Permissions as Mental Entities
+   :tags: BDI,agents,behaviour,cognitive,logic,norms,permission,sanctions,theory_of_mind,violation
+   :author: Boella, Guido and Van Der Torre, Leendert
+   :year: 2003
+   :booktitle: IJCAI Workshop on Cognitive Modeling of Agents and Multi-Agent Interactions
+   :url: http://icr.uni.lu/leonvandertorre/papers/cma03.pdf
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: boella03_permis_oblig_hierar_normat_system_
+   :title: Permissions and Obligations in Hierarchical Normative Systems
+   :tags: __printed,authority,deontic,deontic_logic,dynamic,meta,norms,obligations,permission,static
+   :author: Boella, Guido and Van Der Torre, Leendert
+   :year: 2003
+   :booktitle: Proceedings of ICAIL'03
+   :doi: 10.1145/1047788.1047818
+   :isbn: 1-58113-747-8
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, isbn, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: boissin03_
+   :title: The impact of boundary organizations on decision-making under uncertainty : A multi-agent simulation
+   :tags: ABM,BORG,MAS,agents,boundary_organization,decisions,opinion,organisation,simulation
+   :author: Boissin, Denis
+   :year: 2003
+   :booktitle: Applied Studies in Agribusiness and Commerce
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: boroditsky03_sex_syntax_seman_
+   :title: Sex, Syntax and Semantics
+   :tags: culture,gender,language,semantics,sex,syntax,thought
+   :author: Boroditsky, Lera and Schmidt, Lauren A. and Philips, Webb
+   :year: 2003
+   :journal: Language in mind: Advances in the study of language and thought
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: borradori03_philos_time_terror_
+   :title: Philosophy in a Time of Terror : Dialogues with Jurgen Habermas and Jacques Derrida
+   :tags: 9_11,deconstruction,fundamentalism,philosophy,politics,suicide,terrorism
+   :author: Borradori, Giovanna
+   :year: 2003
+   :isbn: 0-226-06664-9
+   :publisher: University of Chicago Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bos03_dipper_
+   :title: DIPPER : Description and Formalisation of an Information-State Update Dialogue System Architecture
+   :tags: DIPPER,MAS,dialogue_management,open_agent_society,semantics
+   :author: Bos, Johan and Klein, Ewan and Lemon, Oliver and Oka, Tetsushi
+   :year: 2003
+   :booktitle: Proceedings of the 4th SIGdial Workshop on Discourse and Dialogue
+   :url: http://fife.speech.cs.cmu.edu/sigdial2003/proceedings/11_SHORT_bos_dipper.pdf
+   :publisher: Association for Computational Linguistics
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, month, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bozzano03_model_check_linear_logic_specif
+   :title: Model Checking Linear Logic Specifications
+   :tags: LO,bottom_up,fixpoint_semantics,linear_logic,logic_programming,model_checking
+   :author: Bozzano, Marco and Delzanno, Giorgio and Martelli, Maurizio
+   :year: 2003
+   :doi: 10.48550/ARXIV.CS/0309003
+   :url: https://arxiv.org/abs/cs/0309003
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: brenner03:_multiag_plann_languag
+   :title: A Multiagent Planning Language
+   :tags: DSL,MAPL,MAS,PDDL,planning
+   :author: Brenner, Michael
+   :year: 2003
+
+
+..
+    Fields:
+    author, title, year, tags, crossref, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bryson03_action_selec_indiv_agent_based_
+   :title: Action Selection and Individuation in Agent Based Modelling Much of the research which exploits ABM examines the patterns that emerge
+   :tags: ABM,I_ABM,POSH,action_selection,agents,ai,behaviour,individuation,personality
+   :author: Bryson, Joanna J.
+   :year: 2003
+   :booktitle: Proceedings of Agent 2003: Challenges in Social Simulation
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bărbat03_affor_affec_avatar
+   :title: Affordable Affective Avatars. Persuasion, Emotions and Language(s)
+   :tags: affective_computing,artificial_intelligence,emotion,persuasion
+   :author: Bărbat, Boldur E. and Cretulscu, Radu
+   :year: 2003
+   :booktitle: Proceedings of the 1st Balkan Conference in Informatics, BCI'2003
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: canfield03_routl_histor_philos_volum_10
+   :title: Routledge History of Philosophy - Volume 10 : Philosophy of Meaning, Knowledge and Value in the Twentieth Century
+   :tags: aesthetics,ethics,feminism,language,law,metaphysics,philosophy,text_book
+   :editor: Canfield, John V.
+   :year: 2003
+   :isbn: 0-203-03068-0
+   :publisher: Routledge
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, abstract, file, isbn, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: carroll03_notif_awaren_58
+   :title: Notification and Awareness : Synchronizing Task-Oriented Collaborative Activity
+   :tags: CSCL,CSCW,HCI,activity,awareness,collaboration,learning,notification,prototype,psychology
+   :author: Carroll, John M. and Neale, Dennis C. and Isenhour, Philip L. and Rosson, Mary Beth and McCrickard, D.Scott
+   :year: 2003
+   :journal: International Journal of Human-Computer Studies
+   :doi: 10.1016/S1071-5819(03)00024-7
+   :url: http://linkinghub.elsevier.com/retrieve/pii/S1071581903000247
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, issn, month, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: castelfranchi03_from_autom_to_auton_
+   :title: From Automaticity To Autonomy : The Frontier of Artificial Agents
+   :tags: agents,ai,automaticity,autonomy,cooperation,delegation,taxonomy
+   :author: Castelfranchi, Cristiano and Falcone, Rino
+   :year: 2003
+   :journal: Agent Autonomy
+   :doi: 10.1007/978-1-4419-9198-0
+   :isbn: 978-1-4020-7402-8
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, isbn, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: castelfranchi03_presc_destin_predic_attit_
+   :title: The Prescriptive Destiny of Predictive Attitudes : From Expectations To Norms Via Conventions.
+   :tags: convention,norms,prediction,psychology,transition
+   :author: Castelfranchi, Cristiano and Giardini, Francesca and Lorini, Emiliano and Tummolini, Luca
+   :year: 2003
+   :booktitle: XV Annual Conference of the Cognitive Science Society
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, abstract, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: charland03_const_rhetor_tradit_36
+   :title: The Constitution of Rhetoric's Tradition
+   :tags: philosophy,pragmatics,rhetoric,tradition
+   :author: Charland, Maurice Rene
+   :year: 2003
+   :journal: Philosophy and Rhetoric
+   :doi: 10.1353/par.2003.0018
+   :url: http://dx.doi.org/10.1353/par.2003.0018
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: charles03_plann_formal_author_inter_story_
+   :title: Planning Formalisms and Authoring in Interactive Storytelling
+   :tags: authoring,formalism,interactive_fiction,planning
+   :author: Charles, Fred and Lozano, Miguel and Mead, Steven J. and Bisquerra, Alicia Fornes and Cavazza, Marc
+   :year: 2003
+   :booktitle: Technologies for Interactive Digital Storytelling and Entertainment Third International Conference, TIDSE 2003
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cheng03_jazzin_eclip_collab_tools_key_
+   :title: Jazzing up Eclipse with Collaborative Tools 4 Key Features 3 Jazz Metaphor
+   :tags: CSCW,collaboration,design,eclipse,java,prototype,software_development
+   :author: Cheng, Li-te and Hupfer, Susanne and Ross, Steven and Patterson, John
+   :year: 2003
+   :booktitle: OOPSLA
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: chou03_patter_recog_speec_languag_proces_
+   :title: Pattern Recognition in Speech and Language Processing
+   :tags: language,machine_learning,pattern_recognition,speech,text_book
+   :editor: Chou, W U and Juang, Biing Hwang
+   :year: 2003
+   :doi: 10.1201/9780203010525
+   :url: http://www.crcnetbase.com/doi/book/10.1201/9780203010525
+   :isbn: 
+   :publisher: CRC Press
+
+
+..
+    Fields:
+    editor, title, year, tags, doi, file, isbn, publisher, url, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cranefield03_works_ontol_agent_system_
+   :title: 3rd Workshop on Ontologies in Agent Systems
+   :tags: HARMONIA,OWL,UML,ontology
+   :author: Cranefield, Stephen and Finin, Tim and Tamma, Valentina and Willmott, Steven and Dickinson, Ian
+   :year: 2003
+   :booktitle: 3rd Workshop on Ontologies in Agent Systems
+   :url: https://ebiquity.umbc.edu/paper/html/id/246
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, number, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: crowley03_commun_histor_
+   :title: Communication in History : Technology, Culture, Society
+   :tags: alphabet,communication,history,libraries,literacy,medieval_history,photography,printing,radio,rosetta_stone,society,telegraph,television,writing
+   :author: Crowley, David and Heyer, Paul
+   :year: 2003
+   :isbn: 0-321-08805-0
+   :publisher: Pearson
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cutler03_partn_bdsm_
+   :title: Partner selection, power dynamics, and sexual bargaining in self-defined BDSM couples
+   :tags: BDSM,dissertation,power,psychology
+   :author: Cutler, Bert
+   :year: 2003
+   :url: https://en.wikipedia.org/wiki/Institute_for_Advanced_Study_of_Human_Sexuality
+   :institution: Institute for Advanced Study of Human Sexuality
+
+
+..
+    Fields:
+    author, title, year, institution, tags, abstract, file, type, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: czarnecki03_class_model_trans_approac_
+   :title: Classification of Model Transformation Approaches
+   :tags: MDA,__printed,classification,model,model_transformation,rule,transform
+   :author: Czarnecki, Krzysztof and Helson, Simon
+   :year: 2003
+   :booktitle: OOPSLA'03 Workshop on Generative Techniques in the Context of Model-Driven Architecture Classification
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: dastani03_role_
+   :title: Role-assignment in open agent societies
+   :tags: 3APL,MAS,agents,ai,roles
+   :author: Dastani, Mehdi and Dignum, Virginia and Dignum, Frank
+   :year: 2003
+   :booktitle: Proceedings of the second international joint conference on Autonomous agents and multiagent systems
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: davis03_are_prison_obsol_
+   :title: Are Prisons Obsolete?
+   :tags: abolition,civil_rights,feminism,gender,prison,prison_industrial_complex,racism,slavery
+   :author: Davis, Angela Y.
+   :year: 2003
+   :isbn: 978-1-58322-581-3
+   :publisher: Seven Stories Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: dix03_combin_agent_asp_plann_
+   :title: Combining Agents , Asp and Planning
+   :tags: ASP,agents,ai,ansprolog,planning,presentation,review,taxonomy
+   :author: Dix, J.
+   :year: 2003
+   :journal: NICTA
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: doctorow03_down_out_magic_kingd_
+   :title: Down and Out in the Magic Kingdom
+   :tags: fiction,sci_fi
+   :author: Doctorow, Cory
+   :year: 2003
+   :url: http://books.google.com/books?hl=en&lr=&id=gfg13CM_kU8C&oi=fnd&pg=PA7&dq=Down+and+Out+in+the+Magic+Kingdom&ots=qLCHryywEu&sig=gMqGefvuTIru039SCm27XIlbcew
+   :publisher: Tor Books
+
+
+..
+    Fields:
+    author, title, year, tags, file, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: drucker02_funct_societ_
+   :title: A Functioning Society
+   :tags: corporations,government,hitler,institution,jean_jacques_rousseau,knowledge_society,management,philosophy,pluralism,totalitarianism
+   :author: Drucker, Peter F.
+   :year: 2003
+   :isbn: 0-7658-0159-0
+   :publisher: Transaction
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: dudziak03_septem_histor_
+   :title: September 11 in History
+   :tags: 9_11,civil_liberties,fundamentalism,history,international_law,islam,islamophobia
+   :editor: Dudziak, Mary L.
+   :year: 2003
+   :doi: 10.1215/9780822384939
+   :isbn: 978-0-8223-8493-9
+   :publisher: Duke University Press
+
+
+..
+    Fields:
+    editor, title, year, tags, doi, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: dumais03_stuff_ive_
+   :title: Stuff I've seen : A system for personal information retrieval and re-use
+   :tags: HCI,PIM,UI,information_management,user_study
+   :author: Dumais, Susan and Cutrell, Edward and Cadiz, Jonathan J and Jancke, Gavin and Sarin, Raman and Robbins, Daniel C
+   :year: 2003
+   :booktitle: Proceedings of the 26th annual international ACM SIGIR conference on Research and development in informaion retrieval
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: dunleavy03_author_phd_
+   :title: Authoring a PhD
+   :tags: authoring,phd,research,writing
+   :author: Dunleavy, Patrick
+   :year: 2003
+   :doi: 10.1007/978-0-230-80208-7
+   :isbn: 1-4039-1191-6
+   :publisher: Palgrave MacMillan
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: eckert03_charis_direc_action_
+   :title: The Charisma of Direct Action : Power, Politics and the Shiv Sena
+   :tags: TO_CHECK,action,authoritarianism,charisma,direct_action,hindu_nationalism,india,politics,shakha,shiv_sena
+   :author: Eckert, Julia M.
+   :year: 2003
+   :isbn: 0-19-566044-7
+   :publisher: Oxford University Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: eng03_loss_
+   :title: Loss : The Politics of Mourning
+   :tags: culture,loss,mourning,politics,remains,trauma
+   :author: Eng, David L. and Kazanjian, David
+   :year: 2003
+   :isbn: 0-520-23235-6
+   :publisher: University of California Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: f.03_why_7
+   :title: Why visual attention and awareness are different.
+   :tags: attention,awareness,memory,psychology,vision
+   :author: Lamme, Victor A.F.
+   :year: 2003
+   :booktitle: Trends in cognitive sciences
+   :url: http://www.ncbi.nlm.nih.gov/pubmed/12517353
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, abstract, file, issn, month, number, pages, pmid, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fall03_asymp_growt_funct_
+   :title: Asymptotic Growth of Functions
+   :tags: algorithm,math
+   :author: Fall, Algorithms and Let, Definition
+   :year: 2003
+   :journal: Omega
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fallman03_desig_
+   :title: Design-oriented human-computer interaction
+   :tags: HCI,design,methods,prototype,research
+   :author: Fallman, Daniel
+   :year: 2003
+   :booktitle: CHI '03: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+   :doi: 10.1145/642651.642652
+   :url: http://portal.acm.org/citation.cfm?doid=642611.642652
+   :isbn: 1-58113-630-7
+   :publisher: ACM Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, address, doi, file, isbn, number, pages, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: feferman03_kurt_goedel_4
+   :title: Kurt Gödel : Collected Works
+   :tags: alonzo_church,correspondance,logic,philosophy
+   :editor: Feferman, Solomon and Dawson, Jr, John W. and Goldfarb, Warren and Parsons, Charles and Sieg, Wilfried
+   :year: 2003
+   :isbn: 978-0-19-850073-5
+   :publisher: Clarendon Press
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, isbn, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: feferman03_kurt_goedel_5
+   :title: Kurt Gödel : Collected Works
+   :tags: alfred_tarski,correspondance,john_von_neumann,logic,philosophy
+   :editor: Feferman, Solmon and jr, John W. Dawson and Goldfarb, Warren and Parsons, Charles and Sieg, Wilfried
+   :year: 2003
+   :isbn: 978-0-19-850075-9
+   :publisher: Clarendon Press
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, isbn, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fetter03_princ_econom_with_applic_to_pract_probl_22
+   :title: The Principles of Economics, With Applications To Practical Problems.
+   :tags: economics,goods,politics,rent,text_book,wealth
+   :author: Fetter, Frank A.
+   :year: 2003
+   :doi: 10.2307/2140929
+   :publisher: The Ludwig Von Mises Institute
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fipa03_pc00095a_
+
+
+..
+    Fields:
+    author, title, subtitle, year, institution, tags, file, identifier, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fipa03_pc00096a_
+
+
+..
+    Fields:
+    author, title, subtitle, year, institution, tags, file, identifier, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fipa03_xc00010c_
+
+
+..
+    Fields:
+    author, title, subtitle, year, institution, tags, file, identifier, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: fox03:_pddl2_20
+   :title: PDDL2.1 : An Extension to PDDL for Expressing Temporal Planning Domains
+   :tags: PDDL,planning,temporal
+   :author: Fox, M. and Long, D.
+   :year: 2003
+   :journal: Journal of Artificial Intelligence Research
+   :doi: 10.1613/jair.1129
+   :url: http://dx.doi.org/10.1613/jair.1129
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: friendly03:_effec_order_data_displ_43
+   :title: Effect Ordering for Data Displays
+   :tags: effect_ordering,visualisation
+   :author: Friendly, Michael and Kwan, Ernest
+   :year: 2003
+   :journal: Computational Statistics & Data Analysis
+   :doi: 10.1016/s0167-9473(02)00290-6
+   :url: http://dx.doi.org/10.1016/S0167-9473(02)00290-6
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: gadanho03_learning_4
+   :title: Learning Behavior-Selection By Emotions and Cognition in a Multi-Goal Robot Task
+   :tags: ALEC,cognitive,emotion,learning,robotics
+   :author: Gadanho, Sandra Clara
+   :year: 2003
+   :journal: Journal of Machine Learning Research
+   :url: http://dl.acm.org/citation.cfm?id=945365.945377
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, issn, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: gee03_what_
+   :title: What video games have to teach us
+   :tags: culture,education,games,literacy,semiotics,text_book
+   :author: Gee, James Paul
+   :year: 2003
+   :doi: 10.1145/950566.950595
+   :isbn: 1-4039-6538-2
+   :publisher: Palgrave MacMillan
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: giorgini03_agent_orien_softw_engin_iv_
+   :title: Agent-Oriented Software Engineering IV
+   :tags: MAS,ROADMAP,UML,agents,delegation,design,large_scale,taxonomy,text_book
+   :editor: Giorgini, Paolo and Müller, Jörg and Odell, James
+   :year: 2003
+   :journal: Lecture Notes in Computer Science
+   :doi: 10.1007/b95187
+   :url: http://dx.doi.org/10.1007/b95187
+   :isbn: 3-540-20826-7
+
+
+..
+    Fields:
+    editor, title, year, journal, tags, doi, file, isbn, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: glover03:_handb_metah
+   :title: Handbook of Metaheuristics
+   :tags: ant_colony,constraint_satisfaction,genetic_algorithm,guided_local_search,handbook,hyper_heuristics,memetic_algorithms,metaheuristics,multi_start_methods,path_relinking,scatter_search,simulated_annealing,tabu_search
+   :author: Glover, Fred and Laguna, Manual and Marti, Rafael
+   :year: 2003
+   :series: International Series in Operations Research and Management Science
+   :journal: International Series in Operations Research & Management Science
+   :doi: 10.1007/b101874
+   :url: http://dx.doi.org/10.1007/b101874
+   :publisher: Kluwer Academic
+
+
+..
+    Fields:
+    author, publisher, title, year, journal, tags, doi, file, series, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: greuter03_real_proced_gener_pseud_infin_cities_
+   :title: Real-time Procedural Generation of 'Pseudo Infinite' Cities
+   :tags: algorithm,architecture,cities,floor_plan,procedural_content,real_time,urban_design
+   :author: Greuter, Stefan and Parker, Jeremy and Stewart, Nigel and Leach, Geoff
+   :year: 2003
+   :booktitle: Proceedings of the 1st international conference on Computer graphics and interactive techniques in Australasia and South East Asia
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: griffiths03:_break_stereot_6
+   :title: Breaking the Stereotype : The Case of Online Gaming
+   :tags: demographics,games,multi_player,online,stereotype
+   :author: Griffiths, Mark D. and Davies, Mark N. O. and Chappell, Darren
+   :year: 2003
+   :journal: CyberPsychology & Behavior
+   :doi: 10.1089/109493103321167992
+   :url: http://www.ncbi.nlm.nih.gov/pubmed/12650566
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, abstract, doi, file, isbn, issn, month, number, pages, pmid, url, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: gupta03_static_dynam_neural_networ_
+   :title: Static and Dynamic Neural Networks : From Fundamentals to Advanced Theory
+   :tags: machine_learning,math,neural_network,text_book
+   :author: Gupta, Madan M. and Homma, Noriyasu and Jin, Liang and Homma, Noriyasu
+   :year: 2003
+   :booktitle: Vasa
+   :doi: 10.1002/0471427950
+   :url: http://medcontent.metapress.com/index/A65RM03P4874243N.pdf
+   :isbn: 3-17-572399-3
+   :publisher: Wiley
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, abstract, doi, file, isbn, pages, pmid, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: halloran03_from_text_talk_
+   :title: From Text to Talk : Multiplayer Games and Voiceover IP
+   :tags: FFIPS,VoIP,communication,framework,games,protocol,xbox_live
+   :author: Halloran, John and Rogers, Yvonne and Fitzpatrick, Geraldine
+   :year: 2003
+   :booktitle: Level Up
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: hart03_proced_synth_geomet_
+   :title: Procedural Synthesis of Geometry
+   :tags: l_system,math,procedural_content
+   :author: Hart, John C.
+   :year: 2003
+   :booktitle: Texturing & Modeling: A Procedural Approach
+   :doi: 10.1016/B978-155860848-1/50040-1
+   :isbn: 1-55860-848-6
+   :publisher: Morgan Kaufmann
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, chapter, doi, file, isbn, pages, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: harvey03:_paris_capit_moder
+   :title: Paris, Capital of Modernity
+   :tags: architecture,french_revolution,government,history,modernity,organisation,paris,revolution,sewage,urban_design
+   :author: Harvey, David
+   :year: 2003
+   :isbn: 0-415-94421-X
+   :publisher: Routledge
+
+
+..
+    Fields:
+    author, publisher, title, year, tags, edition, file, isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: herrero03_introd_
+   :title: Introducing human-like hearing perception in intelligent virtual agents
+   :tags: CSCW,agents,audio,design,knowledge,perception,sound
+   :author: Herrero, Pilar and de Antonio, Angélica
+   :year: 2003
+   :booktitle: Autonomous agents and multiagent systems
+   :doi: 10.1145/860690.860693
+   :url: http://portal.acm.org/citation.cfm?doid=860575.860693
+   :isbn: 1-58113-683-8
+   :publisher: ACM Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, address, doi, file, isbn, pages, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: hitchcock03_explanator_37
+   :title: Explanatory Generalizations, Part II : Plumbing Explanatory Depth
+   :tags: explanation,generalisation,logic,scientific_method
+   :author: Hitchcock, Christopher and Woodward, James
+   :year: 2003
+   :url: https://www.jstor.org/stable/3506081
+   :publisher: Wiley
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, number, publisher, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: hotchkiss03_still_game_
+   :title: “Still in the Game” : Cybertransformations of the “New Flesh” in David Cronenberg's
+   :tags: cyberculture,cyberspace,film,games,sci_fi
+   :author: Hotchkiss, Lia M.
+   :year: 2003
+   :journal: The Velvet Light Trap
+   :doi: 10.1353/vlt.2003.0018
+   :publisher: University of Texas Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, number, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: huber03_white_coat_cerem_29
+   :title: The White Coat Ceremony : A Contemporary Medical Ritual
+   :tags: anthropology,doctors,medicine,ritual,white_coat
+   :author: Huber, Samuel J
+   :year: 2003
+   :journal: Journal of medical ethics
+   :publisher: Institute of Medical Ethics
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: jenkins03_game_desig_as_narrat_archit_44
+   :title: Game Design As Narrative Architecture
+   :tags: HCI,design,embeddedness,emergence,game_design,narrative
+   :author: Jenkins, Henry
+   :year: 2003
+   :journal: Computer
+   :isbn: 0-262-23232-4
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, isbn, issn, number, pages, pmid, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: jimenez03_space_as_capac_9
+   :title: On Space As Capacity
+   :tags: Antofagasta,agency,anthropology,capacity,chile,relationship,social,space
+   :author: Jimènez, A C
+   :year: 2003
+   :journal: Journal of the Royal Anthropological Institute
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: johnson03_beyon_
+   :title: Beyond the personal software process : Metrics collection and analysis for the differently disciplined
+   :tags: LEAP,design,metrics,pedagogy,personal_software,process,software_engineering
+   :author: Johnson, Philip M. and Kou, Hongbing and Agustin, Joy and Chan, Christopher and Moore, Carleton and Miglani, Jitender and Zhen, Shenyan and Doane, William E. J.
+   :year: 2003
+   :booktitle: 25th International Conference on Software Engineering, 2003. Proceedings.
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, organization, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: jouvin03_role_deleg_dynam_archit_conver_
+   :title: Role Delegation and Dynamic Architectures in Conversational Multi-Agent Systems
+   :tags: ACL,MAS,agents,ai,communication,conversation,dissertation,protocol
+   :author: Jouvin, Denis
+   :year: 2003
+   :institution: University Lyon I - Claude Bernard
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, type, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kaiser03_growt_rates_closed_permut_class_9
+   :title: On Growth Rates of Closed Permutation Classes
+   :tags: math,permutations,sets
+   :author: Kaiser, Tomáŝ and Klazar, Martin
+   :year: 2003
+   :journal: Electronic Journal of Combinatorics
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, issn, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kaminski03_games_prison_play_15
+   :title: Games Prisoners Play : Allocation of Social Roles in a Total Institution
+   :tags: games,incarceration,prison,ritual,social_roles,total_institution
+   :author: Kaminski, Marek M
+   :year: 2003
+   :journal: Rationality and Society
+   :publisher: SAGE
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kapur03_psych_as_state_aberr_salien_160
+   :title: Psychosis As a State of Aberrant Salience : A Framework Linking Biology, Phenomenology, and Pharmacology in Schizophrenia
+   :tags: alience,dopamine,drugs,mental_health,neuro_science,phenomenology,psychosis
+   :author: Kapur, Shitij
+   :year: 2003
+   :journal: American Journal of Psychiatry
+   :doi: 10.1176/appi.ajp.160.1.13
+   :url: http://dx.doi.org/10.1176/appi.ajp.160.1.13
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, isbn, issn, number, pages, pmid, url, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kennedy03_lawren_texas_
+
+
+..
+    Fields:
+    author, title, year, tags, dissenting, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: khasnabish03_jouis_anand_
+   :title: Jouissance as Ananda : Indian Philosophy, Feminist Theory, and Literature
+   :tags: feminism,history,india,literature,philosophy
+   :author: Khasnabish, Ashmita
+   :year: 2003
+   :publisher: Lexington Books
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kiczales03_aspec_orien_
+   :title: Aspect Oriented programming
+   :tags: ASP,AspectJ,DARPA,aspect,dissertation,java
+   :author: Kiczales, Gregor and Hugunin, James and Hilsdale, Erik and Kersten, Mik and Palm, Jeff and Lopes, Crista and Griswold, Bill and Isberg, Wes
+   :year: 2003
+   :url: https://apps.dtic.mil/dtic/tr/fulltext/u2/a417906.pdf
+   :institution: Palo Alto Research Center
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kissinger03_crisis_
+   :title: Crisis : The Anatomy of Two Major Foreign Policy Crises
+   :tags: cold_war,henry_kissinger,international_relations,politics
+   :author: Kissinger, Henry
+   :year: 2003
+   :publisher: Simon & Schuster
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: koller03_multi_45
+   :title: Multi-agent influence diagrams for representing and solving games
+   :tags: MAID,MAS,bayesian_network,diagram,game_theory,graph,influence,relevance_graph,strategy
+   :author: Koller, Daphne and Milch, Brian
+   :year: 2003
+   :booktitle: Games and Economic Behavior
+   :doi: 10.1016/S0899-8256(02)00544-4
+   :url: http://linkinghub.elsevier.com/retrieve/pii/S0899825602005444
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, issn, month, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: krishnamurthi03_progr_languag_
+   :title: Programming Languages : Application and Interpretation
+   :tags: DSL,design,implementation,language,meta,programming,prolog,review,semantics,text_book,type_checking,types
+   :author: Krishnamurthi, Shriram
+   :year: 2003
+   :url: https://www.plai.org/
+
+
+..
+    Fields:
+    author, url, title, subtitle, year, tags, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kushner03_master_doom_
+   :title: Masters of Doom
+   :tags: doom,game_development,games,history,pop_culture
+   :author: Kushner, David
+   :year: 2003
+   :isbn: 1-58836-289-2
+   :publisher: Random House
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lakhani03_sacred_found_justic_islam_
+   :title: The Sacred Foundations of Justice in Islam : The Teachings of 'Ali ibn Abi Talib
+   :tags: ethics,history,islam,islamic_law,justice
+   :author: Lakhani, M. Ali and Shah-Kazemi, Reza and Lewisohn, Leonard
+   :year: 2003
+   :isbn: 978-1-933316-26-0
+   :publisher: World Wisom and Sacred Web
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lambert03_plural_ignor_hookin_up_40
+   :title: Pluralistic Ignorance and Hooking Up
+   :tags: hooking_up,pluralistic_ignorance,psychology,relationship,sex
+   :author: Lambert, Tracy A. and Kahn, Arnold S. and Apple, Kevin J.
+   :year: 2003
+   :journal: Journal of Sex Research
+   :doi: 10.1080/00224490309552174
+   :url: http://www.ncbi.nlm.nih.gov/pubmed/22947808
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, isbn, issn, month, number, pages, pmid, url, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: leary03_build_societ_mind_
+   :title: Building a hybrid Society of Mind using components from ten different authors
+   :tags: ai,components,large_scale,modularity,protocol,society_of_mind
+   :author: Leary, Ciarán O and Humphrys, Mark
+   :year: 2003
+   :booktitle: Advances in Artificial Life
+   :doi: 10.1007/978-3-540-39432-7_90
+   :publisher: Springer
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lee03_descr_
+   :title: Describing additive fluents in action language C+
+   :tags: action_language,additive_fluents,c_plus
+   :author: Lee, Joohyung and Lifschitz, Vladimir
+   :year: 2003
+   :booktitle: Proc. of IJCAI 2003
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lefebvre03_key_writin_edited_by_stuar_
+   :title: Key Writings, Edited By Stuart Elden, Elizabeth Lebas, and Eleonore Kofman
+   :tags: everyday_life,marxism,philosophy,politics,review,time,urban_design
+   :author: Lefebvre, Henri
+   :year: 2003
+   :journal: London: Continuum
+   :isbn: 978-0-8264-9246-3
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: leijen03_abroad_
+   :title: The λ Abroad : A Functional Approach to Software Components
+   :tags: COM,DSL,FFI,IDL,agents,animation,components,dissertation,haskell,interface,interface_definition_language,lambda_calculus,marshalling,protocol,software_engineering
+   :author: Leijen, Johannes Daniel Pieter
+   :year: 2003
+   :doi: 10.1.1.5.5455
+   :url: https://www.microsoft.com/en-us/research/publication/the-%ce%bb-abroad-a-functional-approach-to-software-components/
+   :isbn: 90-90-17528-8
+   :institution: Institute for Programming Research and Algorithmics
+
+
+..
+    Fields:
+    author, title, subtitle, year, institution, tags, doi, file, isbn, type, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: leite04_declar_agent_languag_techn_
+   :title: Declarative Agent Languages and Technologies : First International Workshop, DALT 2003
+   :tags: Coo_BDI,MAS,agents,cooperation,deliberation,expectation,framework,ignorance_logic,institution,linear_logic,logic,observation,operational_semantics,reconfiguration,restricted_entailment,social_integrity_constraints,speech_act,text_book
+   :editor: Leite, Joao and Omicini, Andrea and Sterling, Leon and Torroni, Paolo
+   :year: 2003
+   :doi: 10.1007/b97923
+   :url: http://dx.doi.org/10.1007/b97923
+   :isbn: 3-540-40579-8
+   :publisher: Springer
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, doi, file, isbn, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lewisohn03_herit_sufis_volum_
+   :title: The Heritage of Sufism, Volume 2 : The Legacy of Medieval Persian Sufism (1150-1500)
+   :tags: hagiography,history,methodology,poetics,religion,sufism,symbolism
+   :editor: Lewisohn, Leonard
+   :year: 2003
+   :isbn: 1-85168-189-2
+   :publisher: One World
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lipstadt03_can_profes_be_bourd_field_cultur_produc_17
+   :title: Can 'art Professions' Be Bourdieuean Fields of Cultural Production? the Case of the Architecture Competition
+   :tags: architecture,art,culture,field,pierre_bourdieu,profession
+   :author: Lipstadt, Hélène
+   :year: 2003
+   :journal: Cultural Studies
+   :doi: 10.1080/0950238032000083872
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, isbn, issn, number, pages, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: loftus03_scien_under_legal_assaul_132
+   :title: On Science Under Legal Assault
+   :tags: USA,law,philosophy,research,science
+   :author: Loftus, Elizabeth F.
+   :year: 2003
+   :journal: Daedalus
+   :doi: 10.1162/001152603771338823
+   :url: http://dx.doi.org/10.1162/001152603771338823
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lomuscio03_deont_inter_system_75
+   :title: Deontic Interpreted Systems
+   :tags: KD45,deontic_logic,interpreted_system,saul_kripke
+   :author: Lomuscio, Alessio and Sergot, Marek J.
+   :year: 2003
+   :journal: Stud Logica
+   :doi: 10.1023/A:1026176900459
+   :url: https://doi.org/10.1023/A:1026176900459
+
+
+..
+    Fields:
+    author, title, year, journal, tags, bibsource, biburl, doi, file, number, pages, timestamp, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: long03:_pddl2_20
+   :title: Pddl2.1 : An Extension To Pddl for Ex- Pressing Temporal Planning Domains.
+   :tags: ACL,PDDL,agents,concurrency,planning,semantics,temporal,time
+   :author: Long, Derek and Fox, Maria
+   :year: 2003
+   :journal: Journal of Artificial Intelligence Research
+   :doi: 10.1613/jair.1129
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, arxivid, doi, file, isbn, issn, pages, pmid, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: long03_
+   :title: International Workshop on PDDL
+   :tags: DSL,MAS,PDDL,ai,hierarchical_planning,language_design,planning
+   :editor: Long, Derek and McDermott, Drew and Thiébaux, Sylvie
+   :year: 2003
+   :series: ICAPS 2003
+   :url: https://web.archive.org/web/20040606084320/http://csl.anu.edu.au/~thiebaux/workshops/ICAPS03/
+
+
+..
+    Fields:
+    editor, year, title, tags, file, series, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lowe03_
+   :title: The statistics of text : New methods for content analysis
+   :tags: CCA,NLP,contextual_similarity,dendrogram,statistics,text
+   :author: Lowe, Will
+   :year: 2003
+   :booktitle: Midwest Conference
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, organization, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: lutz03_descr_logic_concr_domain_survey
+   :title: Description Logics with Concrete Domains - A Survey
+   :tags: __important,description_logic,literature_review,modal_logic,survey
+   :author: Lutz, Carsten
+   :year: 2003
+   :booktitle: Advances in Modal Logic
+   :url: http://www.aiml.net/volumes/volume4/
+   :isbn: 0-9543006-2-9
+   :publisher: King's College Publications
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, isbn, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: malone03:_inven_organ_centur
+   :title: Inventing the Organizations of the 21st Century
+   :tags: economics,information_technology,organisation,supply_chain,technology
+   :editor: Malone, Thomas W. and Laubacher, Robert and Morton, Michael S. Scott
+   :year: 2003
+   :isbn: 0-262-13431-4
+   :publisher: MIT Press
+
+
+..
+    Fields:
+    editor, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: malone03:_organ_busin_knowl
+   :title: Organizing Business Knowledge : The MIT Process Handbook
+   :tags: __important,division_of_labour,grammar,organisation,process,specialisation,taxonomy,text_book
+   :editor: Malone, Thomas W. and Crowston, Kevin and Herman, George A.
+   :year: 2003
+   :isbn: 0-262-13429-2
+   :publisher: MIT Press
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: marshall03_goodr_depar_public_healt_
+
+
+..
+    Fields:
+    author, title, year, tags, dissenting, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: martin03:_what_is_field_theor_109
+   :title: What Is Field Theory ?
+   :tags: field,review,sociology
+   :author: Martin, John Levi
+   :year: 2003
+   :journal: American Journal of Sociology
+   :doi: 10.1086/375201
+   :url: http://www.jstor.org/stable/10.1086/375201
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, isbn, issn, number, pages, url, url2, url3, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: mateas03_narrat_intel_46
+   :title: Narrative Intelligence
+   :tags: ai,narrative,stories
+   :author: Mateas, Michael and Sengers, Phoebe
+   :editor: Mateas, Michael and Sengers, Phoebe
+   :year: 2003
+   :series: Advances in Consciousness Research
+   :booktitle: AAAI Narrative Intelligence
+   :doi: 10.1075/aicr.46
+   :url: http://www.jbe-platform.com/content/books/9789027297068
+   :isbn: 978-90-272-5171-8
+   :publisher: John Benjamins Publishing Company
+
+
+..
+    Fields:
+    author, editor, title, year, booktitle, tags, address, doi, file, isbn, month, publisher, series, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: matravers03_debat_contem_polit_philos_
+   :title: Debates in Contemporary Political Philosophy
+   :tags: citizenship,communitarianism,democracy,distributive_justice,equality,individualism,liberalism,marxism,morality,nationalism,philosophy,politics,punishment,sanction
+   :editor: Matravers, Derek and Pike, Jon
+   :year: 2003
+   :isbn: 0-415-30210-2
+   :publisher: Routledge
+
+
+..
+    Fields:
+    editor, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: maynard-moody03_cops
+   :title: Cops, Teachers, Counselors : Stories from the Front Lines of Public Service
+   :tags: __important,bureaucracy,counselors,normative_decision_making,police,public_service,street_level_bureaucracy,teachers
+   :author: Maynard-Moody, Steven and Musheno, Michael
+   :year: 2003
+   :isbn: 978-0-472-02387-5
+   :publisher: University of Michigan Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: mbembe03_necrop_15
+   :title: Necropolitics
+   :tags: biopower,colonialism,death,necopower,politics,sovereignty,war
+   :author: Mbembé, J-A and Meintjes, Libby
+   :year: 2003
+   :journal: Public culture
+   :publisher: Duke University Press
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, number, pages, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: michalski03_learn_to_match_schem_data_sourc_50
+   :title: Learning To Match the Schemas of Data Sources : A Multistrategy Approach
+   :tags: LSD,machine_learning,query,schema,semantic_mapping,strategy
+   :author: Michalski, Ryszard S and Brazdil, Pavel
+   :year: 2003
+   :journal: Machine Learning
+   :doi: 10.1023/A:1021765902788
+   :publisher: Kluwer
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, pages, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: miller03_polit_philos_
+   :title: Political Philosophy : A Very Short Introduction
+   :tags: authority,democracy,feminism,freedom,introduction,justice,multi_culturalism,philosophy,political_philosophy,politics
+   :author: Miller, David
+   :year: 2003
+   :series: Very Short Introductions
+   :isbn: 978-0-19-280395-5
+   :publisher: Oxford University Press
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher, series, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: monk03_common_
+   :title: Common ground in electronically mediated communication : Clark's theory of language use
+   :tags: HCI,common_ground,communication,language
+   :author: Monk, Andrew
+   :year: 2003
+   :booktitle: HCI models, theories, and frameworks: Toward a multidisciplinary science of human-computer interaction
+   :url: http://books.google.com/books?hl=en&lr=&id=gGyEOjkdpbYC&oi=fnd&pg=PA265&dq=Common+ground+in+electronically+mediated+communication+:+Clark%27s+theory+of+language+use&ots=6xwmApmSj-&sig=pzPv_KcWnJ8zjjiu6CpEyH0QXA8
+   :publisher: Morgan Kaufmann
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pages, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: montfort03_
+   :title: The new media reader
+   :tags: douglas_englebart,new_media,norbert_wiener,ted_nelson,vannevar_bush
+   :author: Montfort, Nick and Wardrip-Fruin, Noah
+   :year: 2003
+   :publisher: MIT Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: murray03_overv_intel_tutor_system_author_tools_
+   :title: An Overview of Intelligent Tutoring System Authoring Tools : Updated Analysis of the State of the Art
+   :tags: CSCW,HCI,authoring,prototype,review,taxonomy
+   :author: Murray, T
+   :year: 2003
+   :journal: Authoring Tools for Advanced Technology Learning Environments
+   :doi: 10.1007/978-94-017-0819-7_17
+   :url: http://link.springer.com/chapter/10.1007/978-94-017-0819-7_17
+   :isbn: 978-1-4020-1772-8
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, isbn, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: nemani03_agent_
+   :title: Agents and the algebra of emotion
+   :tags: NAMS,affect,agents,algebra,emotion
+   :author: Nemani, S S. and Allan, V. H.
+   :year: 2003
+   :booktitle: Autonomous agents and multiagent systems
+   :doi: 10.1145/860722.860803
+   :url: http://portal.acm.org/citation.cfm?doid=860575.860803
+   :isbn: 1-58113-683-8
+   :publisher: ACM Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, address, doi, file, isbn, pages, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: neville03_
+   :title: A computational framework for social agents in agent mediated e-commerce
+   :tags: MAS,agents,framework,institution,social
+   :author: Neville, Brendan and Pitt, Jeremy
+   :year: 2003
+   :booktitle: International Workshop on Engineering Societies in the Agents World
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, organization, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: nierstrasz03_calcul_model_softw_compon_
+   :title: A Calculus for Modeling Software Components
+   :tags: components,composable_interfaces,explicit_namespaces,pi_calculus,piccola,software_engineering
+   :author: Nierstrasz, Oscar and Achermann, Franz
+   :year: 2003
+   :booktitle: Formal Methods for Components and Objects First International Symposium, FMCO 2002
+   :doi: 10.1007/b14033
+   :url: http://www.springerlink.com/index/l9clhqnnw7hc1mtt.pdf
+   :isbn: 978-3-540-20303-2
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, isbn, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: nowak03_effec_agenc_anthr_users_sense_12
+   :title: The Effect of the Agency and Anthropomorphism on Users' Sense of Telepresence, Copresence, and Social Presence in Virtual Environments
+   :tags: HCI,agency,anthropomorphism,avatar,perception,psychology
+   :author: Nowak, Kristine L. and Biocca, Frank
+   :year: 2003
+   :journal: Presence: Teleoperators and Virtual Environments
+   :doi: 10.1162/105474603322761289
+   :url: http://www.mitpressjournals.org/doi/10.1162/105474603322761289
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, isbn, issn, number, pages, pmid, url, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: oday03_ecolog_persp_digit_librar_
+   :title: An Ecological Perspective on Digital Libraries
+   :tags: digital_libraries,ecology
+   :author: O'Day, Vicki L. and Nardi, Bonnie A.
+   :year: 2003
+
+
+..
+    Fields:
+    author, title, year, tags, chapter, crossref
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: olson03_critic_acclaim_hci_model_theor_framew_
+   :title: Critical Acclaim for Hci Models, Theories, and Frameworks
+   :tags: HCI,activity_theory,common_ground,design,distributed_cognition,formal,formalism,framework,mental_models,notation,text_book
+   :author: Olson, Judith and Grudin, Jonathan and Moran, Tom
+   :year: 2003
+   :journal: HCI Models, Theories, and Frameworks
+   :doi: 10.1016/B978-1-55860-808-5.50020-4
+   :url: http://linkinghub.elsevier.com/retrieve/pii/B9781558608085500204
+   :isbn: 978-1-55860-808-5
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, isbn, issn, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: park03_level_playin_field_36
+   :title: Levelling the Playing Field : Towards Best Practice in the Doctoral Viva
+   :tags: pedagogy,phd,viva
+   :author: Park, Chris
+   :year: 2003
+   :journal: Higher Education Review
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: parunak03_chang_roles_2
+   :title: Changing Roles : Dynamic Role Assignment
+   :tags: MAS,agent,dynamics,norms,role_change,roles
+   :author: Parunak, H Van Dyke and Brueckner, Sven and Sauter, John
+   :year: 2003
+   :journal: Journal of Object Technology
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pastor03_towar_harmon_
+   :title: Towards Harmonia : Automatic Generation of E-Organisations From Institution Specifications
+   :tags: DAML,HARMONIA,fish_market,institution,organisation
+   :author: Pastor, Daniel Jiménez and Padget, Julian
+   :year: 2003
+   :booktitle: Proceedings of Ontologies in Agent Systems at AAMAS'03
+   :url: https://researchportal.bath.ac.uk/en/publications/towards-harmonia-automatic-generation-of-e-organisations-from-ins
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: penczek03_verif_epist_proper_multi_agent
+   :title: Verifying Epistemic Properties of Multi-Agent Systems Via Bounded Model Checking
+   :tags: CTL,CTLK,MAS,bounded_semantics,computation_tree_logic,computation_tree_logic_of_knowledge,coordination,epistemic_logic,multi_agent_systems,semantics,temporal_logic,verification
+   :author: Penczek, Woljciech and Lomuscio, Alessio
+   :year: 2003
+   :booktitle: Autonomous Agents And Multiagent Systems (AAMAS)
+   :doi: 10.1145/860575.860609
+   :url: http://dx.doi.org/10.1145/860575.860609
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pias03_cyber_
+   :title: Cybernetics : The Macy Conferences 1946-1953
+   :tags: communication,cybernetics,memory,perception,psychology,redundancy,speech
+   :editor: Pias, Claus
+   :year: 2003
+   :isbn: 978-3-03734-598-6
+   :publisher: Diaphanes
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pinelle03_task_analy_group_usabil_evaluat_10
+   :title: Task Analysis for Groupware Usability Evaluation : Modeling Shared-Workspace Tasks With the Mechanics of Collaboration
+   :tags: CSCW,HCI,collaboration,groupware,mechanics_of_collaboration,prototype,task_analysis,usability
+   :author: Pinelle, David and Gutwin, Carl and Greenberg, Saul
+   :year: 2003
+   :journal: ACM Transactions on Computer-Human Interaction (TOCHI'03)
+   :doi: 10.1145/966930.966932
+   :url: http://doi.acm.org/10.1145/966930.966932
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, abstract, arxivid, doi, file, isbn, issn, number, pages, pmid, url, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pirolli03_snif_act_
+   :title: Snif-Act : A Model of Information Foraging on the World Wide Web
+   :tags: HCI,SNIF_ACT,information,information_foraging,scent,web
+   :author: Pirolli, Peter and Fu, Wai-Tat
+   :year: 2003
+   :booktitle: International Conference on User Modeling, UM
+   :doi: 10.1007/3-540-44963-9_8
+   :url: http://dx.doi.org/10.1007/3-540-44963-9_8
+   :isbn: 978-3-540-40381-4
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, abstract, doi, file, isbn, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pirolli03_visual_infor_forag_focus_contex_visual_
+   :title: Visual Information Foraging in a Focus + Context Visualization
+   :tags: CODE,attention,foxus_context,information_foraging,search,tree,web
+   :author: Pirolli, Peter and Card, Stuart K. and Van Der Wege, Mija M.
+   :year: 2003
+   :booktitle: CHI '01: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+   :doi: 10.1145/365024.365337
+   :isbn: 1-58113-327-8
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, abstract, doi, file, isbn, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: plato03_parmen_
+   :title: Parmenides
+   :tags: greece,ontology,parmenides,philosophy,plato,socrates,zeno
+   :author: Plato
+   :year: 2003
+   :isbn: 0-520-22403-5
+   :publisher: University of California Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, translator, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: porter03:_moder_social_scien_7
+   :title: The Modern Social Sciences
+   :tags: africa,anthropology,china,economics,egypt,ethnography,geology,history,japan,karl_marx,political_science,psychology,review,russia,science,social_science,sociology,utopian_socialism
+   :editor: Porter, Theodore M. and Ross, Dorothy
+   :year: 2003
+   :series: The Cambridge History of Science
+   :doi: 10.1017/CHOL9780521594424
+   :isbn: 0-521-59442-1
+   :publisher: Cambridge University Press
+
+
+..
+    Fields:
+    editor, title, year, tags, doi, file, isbn, publisher, series, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: porter03_eight_centur_scien_
+   :title: Eighteenth-Century Science
+   :tags: 18th_century,classification,history,history_of_science,science,scientific_revolution,university
+   :editor: Porter, Roy
+   :year: 2003
+   :series: The Cambridge History of Science
+   :doi: 10.1017/CHOL9780521572439
+   :isbn: 
+   :publisher: Cambridge University Press
+
+
+..
+    Fields:
+    editor, title, year, tags, doi, file, isbn, publisher, series, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: power03_brief_histor_of_decis_suppor_system
+   :title: A Brief History Of Decision Support Systems
+   :tags: DSS,OLAP,decision_support,executive_information_systems,history
+   :author: Power, D.J.
+   :year: 2003
+   :url: http://DSSResources.COM/history/dsshistory.html
+
+
+..
+    Fields:
+    author, title, year, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pratchett03_monst_regim_
+   :title: Monstrous Regiment
+   :tags: crossdressing,discworld,fantasy,feminism,military,war,women
+   :author: Pratchett, Terry
+   :year: 2003
+   :isbn: 0-385-60340-1
+   :publisher: Doubleday
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pratchett03_wee_free_men_
+   :title: The Wee Free Men
+   :tags: discworld,fantasy,fiction
+   :author: Pratchett, Terry
+   :year: 2003
+   :isbn: 0-385-60533-1
+   :publisher: Doubleday
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: pynadath03_autom_teamw_infras_heter_softw_agent_human_7
+   :title: An Automated Teamwork Infrastructure for Heterogeneous Software Agents and Humans.
+   :tags: KARMA,MAS,agent_architecture,integration,knowledge_management,resource_management
+   :author: Pynadath, David V. and Tambe, Milind
+   :year: 2003
+   :journal: Autonomous Agents and Multi-Agent Systems
+   :doi: 10.1023/a:1024176820874
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: radloff03_cooles_mud_ever_
+   :title: Coolest Mud Ever
+   :tags: MUD,design,game_design,ruby
+   :author: Radloff, Kevin
+   :year: 2003
+   :url: https://digitalcommons.colby.edu/honorstheses/203
+   :institution: Colby University
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: raja03_meta_level_contr_multi_agent_system_
+   :title: Meta-Level Control in Multi-Agent Systems
+   :tags: MAS,architecture,control,coordination,heuristics,meta,reinforcement_learning,resource_bounded,scheduling
+   :author: Raja, Anita
+   :year: 2003
+   :url: https://engfac.cooper.edu/pages/araja/uploads/MAS-2003.pdf
+   :institution: University of Massachusetts Amherst
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, type, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ralphs03_imper_infan_uplif_primer_
+   :title: The Imperial Infantryman's Uplifting Primer
+   :tags: 40k,fiction,lived_experience,science_fiction,warhammer
+   :author: Ralphs, Matt
+   :year: 2003
+   :isbn: 1-84416-083-1
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ramazanoglu03_up_foucaul_
+   :title: Up against Foucault : Explorations of Some Tensions between Foucault and Feminism
+   :tags: feminism,knowledge,michel_foucault,power
+   :editor: Ramazanoglu, Caroline
+   :year: 2003
+   :isbn: 0-203-71692-2
+   :publisher: Routledge
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ramos03_co3l_
+   :title: Co3l : Compact O3f Language
+   :tags: CO3L,O3F,language,logic,ontology
+   :author: Ramos, Pedro and Botelho, Luis
+   :year: 2003
+   :booktitle: Proceedings of Ontologies in Agent Systems at AAMAS
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: rao03:_instit_chang_toque_ville_108
+   :title: Institutional Change in Toque Ville : Nouvelle Cuisine as an Identity Movement in French Gastronomy
+   :tags: __important,france,gastronomy,identity,institutional_change,institutional_logic,nouvelle_cuisine
+   :author: Rao, Hayagreeva and Monin, Philippe and Durand, Rodolphe
+   :year: 2003
+   :journal: American Journal of Sociology
+   :doi: 10.1086/367917
+   :url: http://dx.doi.org/10.1086/367917
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, doi, file, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: rege03_sociol_gender_1
+   :title: Sociology of Gender : The Challenge of Feminism Sociological Knowledge
+   :tags: economics,feminism,gender,indian_sociology,institution,sociology,sociology_of_gender
+   :editor: Rege, Sharmila
+   :year: 2003
+   :series: Themes in Indian Sociology
+   :publisher: SAGE
+
+
+..
+    Fields:
+    editor, title, subtitle, year, tags, file, publisher, series, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: rehak03_playin_
+   :title: Playing at being : Psychoanalysis and the avatar
+   :tags: avatar,games,identity,psychology
+   :author: Rehak, Bob
+   :year: 2003
+   :booktitle: The video game theory reader
+   :isbn: 978-1-137-00632-5
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, abstract, file, isbn, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: reynolds03:_discur_climat_singl_13
+   :title: The Discursive Climate of Singleness : The Consequences for Women's Negotiation of a Single Identity
+   :tags: discourse,discursive_psychology,identity,interpretative_repertoire,psychology,singleness,social_categorization,social_construction,women
+   :author: Reynolds, Jill and Wetherell, Margaret
+   :year: 2003
+   :journal: Feminism & Psychology
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: riedl03_manag_
+   :title: Managing interaction between users and agents in a multi-agent storytelling environment
+   :tags: MAS,agent,ai,computer_games,embodied_agents,game,interactive_narrative,planning,theory
+   :author: Riedl, Mark O. and Saretto, C. J. and Young, R. Michael
+   :year: 2003
+   :booktitle: Proceedings of the second international joint conference on Autonomous agents and multiagent systems - AAMAS '03
+   :doi: 10.1145/860575.860694
+   :url: http://dx.doi.org/10.1145/860575.860694
+   :isbn: 1-58113-683-8
+
+
+..
+    Fields:
+    author, booktitle, title, year, tags, doi, file, isbn, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ritzer03:_black_1
+   :title: The Blackwell companion to major classical social theorists
+   :tags: alfred_schutz,auguste_comte,emile_durkheim,georg_simmel,harriet_martineau,karl_marx,mead,perkins_gilman,spencer,talcot_parsons,w_e_b_du_bois,weber
+   :author: Ritzer, George
+   :year: 2003
+   :isbn: 1-4051-0594-1
+   :publisher: John Wiley & Sons
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: ritzer03:_black_2
+   :title: The Blackwell companion to major classical social theorists
+   :tags: anthony_giddens,bell,butler,emerson,erving_goffman,harold_garfinkel,jean_baudrillard,jenna_coleman,jurgen_habermas,michel_foucault,norbert_elias,pierre_bourdieu,robert_merton
+   :author: Ritzer, George
+   :year: 2003
+   :isbn: 1-4051-0595-X
+   :publisher: John Wiley & Sons
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: robillard03_repres_
+   :title: Representing concerns in source code
+   :tags: code_analysis,dissertation,relational_algebra,research,software_development
+   :author: Robillard, Martin P.
+   :year: 2003
+   :series: Retrospective Theses and Dissertations, 1919-2007
+   :doi: 10.14288/1.0051530
+   :url: https://open.library.ubc.ca/collections/ubctheses/831/items/1.0051530
+   :institution: University of British Columbia
+
+
+..
+    Fields:
+    author, title, year, institution, tags, collection, doi, file, series, type, url, url2, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: robins03_learn_teach_prgram_13
+   :title: Learning and Teaching Prgramming : A Review and Discussion
+   :tags: education,framework,programming,review
+   :author: Robins, Anthony and Rountree, Janet and Rountree, Nathan
+   :year: 2003
+   :journal: Computer Science Education
+   :doi: 10.1076/csed.13.2.137.14200
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, abstract, doi, file, isbn, issn, number, pages, pmid, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: robinson03_years_rice_salt_
+   :title: The Years of Rice and Salt : A Novel
+   :tags: alternate_history,fiction,plague
+   :author: Robinson, Kim Stanley
+   :year: 2003
+   :isbn: 978-0-553-10920-7
+   :publisher: Spectra
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: schaerli03:_trait
+   :title: Traits : Composable Units of Behaviour
+   :tags: inheritance,mixins,programming_language_design,reuse,rust,smalltalk,software_development,traits
+   :author: Schärli, Nathanael and Ducasse, Stéphane and Nierstrasz, Oscar and Black, Andrew P.
+   :year: 2003
+   :booktitle: ECOOP 2003 - Object-Oriented Programming
+   :doi: 10.1007/978-3-540-45070-2_12
+   :url: http://dx.doi.org/10.1007/978-3-540-45070-2_12
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, doi, file, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: schechner03_perfor_theor_
+   :title: Performance Theory
+   :tags: cambridge_anthropologists,diagram,drama,event_time,performance,poetics,ritual,script,set_time,shamanism,symbolic_time,theatre,time
+   :author: Schechner, Richard
+   :year: 2003
+   :isbn: 0-203-42663-0
+   :publisher: Routledge
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, orig_published, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: schmidt03_combin_dynam_logic_with_doxas_modal_logic
+   :title: Combining Dynamic Logic With Doxastic Modal Logics
+   :tags: doxastic_logic,modal_logic,propositional_dynamic_logic,temporal_logic
+   :author: Schmidt, Renate A. and Tishkovsky, Dmitry
+   :year: 2003
+   :booktitle: Advances in Modal Logic
+   :url: http://www.aiml.net/volumes/volume4/
+   :isbn: 0-9543006-2-9
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, isbn, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: schudson03_sociol_news_contem_societ_
+   :title: The Sociology of News, Contemporary Societies
+   :tags: artifacts,history,journalism,news,newspaper,society,sociology
+   :author: Schudson, Michael
+   :year: 2003
+   :isbn: 0-393-97513-4
+   :publisher: W. W. Norton & Company
+
+
+..
+    Fields:
+    author, isbn, publisher, title, year, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: shanker03_philos_9
+   :title: Philosophy of science, logic and mathematics in the twentieth century
+   :tags: cybernetics,gottlob_frege,logic,ludwig_wittgenstein,philosophy,positivism
+   :author: Shanker, S
+   :year: 2003
+   :series: Routledge History of Philosophy
+   :doi: 10.4324/9780203029473
+   :isbn: 0-203-02947-X
+   :publisher: Routledge
+
+
+..
+    Fields:
+    author, title, year, tags, abstract, doi, file, isbn, pages, publisher, series, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: sitton03_haber_contem_societ_
+   :title: Habermas and Contemporary Society
+   :tags: communicative_action,jurgen_habermas,life_world,modernity,rationality,social_conflict,sociology,weber
+   :author: Sitton, John
+   :year: 2003
+   :doi: 10.1057/9781403981493
+   :isbn: 978-1-4039-6193-8
+   :publisher: Palgrave MacMillan
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, isbn, publisher
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: smith03:_introd_to_formal_logic
+   :title: An Introduction To Formal Logic
+   :tags: logic,textbook
+   :author: Smith, Peter
+   :year: 2003
+   :url: https://www.logicmatters.net/books/
+   :isbn: 979-8-675-80394-1
+   :publisher: Logic Matters
+
+
+..
+    Fields:
+    author, title, year, tags, edition, file, isbn, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: soman03_towar_autom_approac_to_desig_17
+   :title: Toward an Automated Approach To the Design of Sheet Metal Components
+   :tags: design,grammar,shape_grammar,sheet_metal,typology
+   :author: Soman, A. and Padhye, S. and Campbell, M.I.
+   :year: 2003
+   :journal: Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM
+   :doi: 10.1017/S0890060403173039
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, issn, number, pages, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: steinmueller03_
+   :title: The role of technical standards in coordinating the division of labour in complex system industries
+   :tags: complex_systems,coordination,division_of_labour,industry,institution,technical_standards
+   :author: Steinmueller, W Edward
+   :year: 2003
+   :booktitle: The business of systems integration
+   :publisher: Oxford University Press Oxford, UK
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, pages, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: stroud03_advan_
+   :title: Advanced engineering mathematics
+   :tags: math,text_book
+   :author: Stroud, Kenneth Arthur and Booth, Dexter J
+   :year: 2003
+   :publisher: Palgrave
+
+
+..
+    Fields:
+    author, title, year, tags, file, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: suri03_towar_daml_based_polic_enfor_2
+   :title: Toward Daml-Based Policy Enforcement for Semantic Data Transformation and Filtering in Multi-Agent Systems
+   :tags: CoAX,DAML,DARPA,KAoS,military,policy,runtime,semantic_filtering,transformation
+   :author: Suri, Niranjan and Bradshaw, Jeffrey and Burstein, Mark and Uszok, Andrzej and Benyo, Brett and Breedy, Maggie and Carvalho, Marco and Diller, David E and Groth, Paul and Jeffers, Renia and Johnson, Matt and Kulkarni, Shri and Lott, James
+   :year: 2003
+   :booktitle: Multi-Agent Systems and Applications III. CEEMAS 2003.
+   :doi: 10.1007/3-540-45023-8_13
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, abstract, doi, file, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: szilas03_author_
+   :title: Authoring highly generative interactive drama
+   :tags: IDtension,authoring,narrative,non_linear,prototype
+   :author: Szilas, Nicolas and Marty, Olivier and Réty, Jean-Hugues
+   :year: 2003
+   :booktitle: Virtual Storytelling. Using Virtual Reality Technologies for Storytelling
+   :doi: 10.1007/978-3-540-40014-1_5
+   :url: http://link.springer.com/chapter/10.1007/978-3-540-40014-1_5
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: takeuti03_system_logic_neces_sequen_calcul_proof_theor_1301
+   :title: Systems of Logic for Necessity (Sequent Calculi and Proof Theory)
+   :tags: cut_elimination,gentzen,modal_logic,possible_worlds,predicate_logic,proof_theory,sequent_calculus
+   :author: Takeuti, Izumi
+   :year: 2003
+   :journal: Notes on the Institute of Mathematical Analysis
+   :url: https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/42732
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: tang03_agric_
+   :title: Agriculture : The Relationship Between Aboriginal and Non-Aboriginal Farmers
+   :tags: aboriginal,agriculture,canada,farming
+   :author: Tang, E
+   :year: 2003
+   :journal: Western Development Museum/Saskatchewan Indian Cultural Centre Partnership Project
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: thieme03_mathem_popul_biolog_
+   :title: Mathematics in Population Biology
+   :tags: demographics,ecology,epidemiology,host_parasite_population_growth,mathematics,population_growth
+   :author: Thieme, Horst R.
+   :year: 2003
+   :isbn: 0-691-09291-5
+   :publisher: Princeton University Press
+
+
+..
+    Fields:
+    author, title, year, tags, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: tolk03_level_concep_inter_model_7
+   :title: The Levels of Conceptual Interoperability Model
+   :tags: design,federation,implementation,integration,interoperability,taxonomy
+   :author: Tolk, Andreas and Muguira, James A.
+   :year: 2003
+   :booktitle: Fall Simulation Interoperability Workshop
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, file, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: trafford03_quest_doctor_vivas_11
+   :title: Questions in Doctoral Vivas : Views From the Inside
+   :tags: pedagogy,phd,viva
+   :author: Trafford, Vernon
+   :year: 2003
+   :journal: Quality assurance in education
+   :publisher: MCB UP Ltd
+
+
+..
+    Fields:
+    author, title, subtitle, year, journal, tags, file, number, pages, publisher, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: valian03_learn_to_work_23
+   :title: Learning To Work
+   :tags: anxiety,labour,time,work
+   :author: Valian, Virginia
+   :year: 2003
+   :journal: Working It Out
+   :url: http://maxweber.hunter.cuny.edu/psych/faculty/valian/docs/1977workingItOut.pdf
+   :publisher: Pantheon
+
+
+..
+    Fields:
+    author, title, year, journal, tags, file, number, pages, publisher, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: vazquez-salceda03:_role_norms_elect_instit_multi_16
+   :title: The Role of Norms and Electronic Institutions in Multi-Agent Systems Applied To Complex Domains. the Harmonia Framework
+   :tags: MAS,agent,authority,delegation,deliberative_normative_agents,deontic,dissertation,electronic_institutions,framework,game,institution,meta,norm,norms,rule,sanction,theory
+   :author: Vázquez-Salceda, Javier
+   :year: 2003
+   :journal: Ai Communications
+   :isbn: 
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, file, isbn, issn, number, pages, volume, invalid_isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: vorderer03_explain_
+   :title: Explaining the enjoyment of playing video games : The role of competition
+   :tags: competition,entertainment,games,psychology
+   :author: Vorderer, Peter and Hartmann, Tilo and Klimmt, Christoph
+   :year: 2003
+   :booktitle: Entertainment Computing
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, abstract, file, pages, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: vu03_monad_
+   :title: MONAD : A flexible architecture for multi-agent control
+   :tags: MAS,MONAD,agent,arbitration,behaviour_based_control,collaboration,game,language,robot_teams,team_oriented_programming,teamwork,theory
+   :author: Vu, Thuc and Go, Jared and Kaminka, Gal A. and Veloso, Manuela and Browning, Brett
+   :year: 2003
+   :booktitle: AAMAS '03: Proceedings of the second international joint conference on Autonomous agents and multiagent systems
+   :doi: 10.1145/860575.860647
+   :url: http://dx.doi.org/10.1145/860575.860647
+   :isbn: 1-58113-683-8
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, doi, file, isbn, pages, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: wallace03_valid_compl_agent_behav_
+   :title: Validating Complex Agent Behavior
+   :tags: SOAR,agents,behaviour_bounding,complex_agents,methodology,validation
+   :author: Wallace, Scott A.
+   :year: 2003
+   :url: http://hdl.handle.net/2027.42/123738
+   :institution: University of Michigan
+
+
+..
+    Fields:
+    author, title, year, institution, tags, file, type, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: webber03_anaph_discour_struc_29
+   :title: Anaphora and Discourse Structure
+   :tags: NLP,adverbs,anaphora,discourse,language
+   :author: Webber, Bonnie and Stone, Matthew and Joshi, Aravind and Knott, Alistair
+   :year: 2003
+   :booktitle: Computational Linguistics
+   :doi: 10.1162/089120103322753347
+   :url: http://www.mitpressjournals.org/doi/abs/10.1162/089120103322753347
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, doi, file, issn, month, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: weiss03_critic_discour_analy_
+   :title: Critical Discourse Analysis
+   :tags: analysis,discourse,methods,practice,psychology,text_book
+   :author: Weiss, Gilbert and Wodak, Ruth
+   :year: 2003
+   :doi: 10.1057/9780230288423
+   :isbn: 978-0-230-55514-3
+   :publisher: Palgrave MacMillan
+
+
+..
+    Fields:
+    author, title, year, tags, doi, file, isbn, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: wonka03_instan_archit_22
+   :title: Instant Architecture
+   :tags: architecture,building_design,grammar,modeling,rule,theory
+   :author: Wonka, Peter and Wimmer, Michael and Sillion, François and Ribarsky, William
+   :year: 2003
+   :journal: ACM Transactions on Graphics
+   :doi: 10.1145/882262.882324
+   :url: http://dl.acm.org/citation.cfm?id=882324
+   :isbn: 1-58113-709-5
+
+
+..
+    Fields:
+    author, title, year, journal, tags, abstract, doi, file, isbn, issn, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: wood03:_conseq_truth_in_senten_5
+   :title: Consequences of Truth-In-Sentencing
+   :tags: criminology,incarceration,judicial_decision_making,mississippi,sentencing,truth_in_sentencing
+   :author: Wood, Peter B. and Dunaway, R. Gregory
+   :year: 2003
+   :journal: Punishment & Society
+   :doi: 10.1177/146247450352001
+   :url: http://dx.doi.org/10.1177/146247450352001
+
+
+..
+    Fields:
+    author, title, year, journal, tags, doi, file, number, pages, url, volume, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: woodward03_explanator
+   :title: Explanatory Generalizations, Part I : A Counterfactual Account
+   :tags: counter_factual,explanation,logic,scientific_method
+   :author: Woodward, James and Hitchcock, Christopher
+   :year: 2003
+   :url: https://www.jstor.org/stable/3506202
+   :publisher: Wiley
+
+
+..
+    Fields:
+    author, title, subtitle, year, tags, file, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: yamamoto03_art_shta_
+   :title: ART-SHTA : A Sculptural Hypertext Authoring Tool for Scholarly Work
+   :tags: ART_SHTA,HCI,authoring,design,hypertext
+   :author: Yamamoto, Yasuhiro and Nakakoji, Kumiyo and Aoki, Atsushi
+   :year: 2003
+   :booktitle: Proceedings of the 1st Workshop on Scholarly Hypertext (Hypertext 2003) Nottingham, UK (August)
+
+
+..
+    Fields:
+    author, title, subtitle, year, booktitle, tags, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: young03_towar_
+   :title: Towards an architecture for intelligent control of narrative in interactive virtual worlds
+   :tags: agent,embodied_agents,games,interactive_narrative,mimesis,planning
+   :author: Young, R. Michael and Riedl, Mark O.
+   :year: 2003
+   :booktitle: IUI '03: Proceedings of the 8th international conference on Intelligent user interfaces
+   :doi: 10.1145/604079.604108
+   :url: http://portal.acm.org/citation.cfm?doid=604045.604108
+   :isbn: 1-58113-586-6
+   :publisher: ACM Press
+
+
+..
+    Fields:
+    author, title, year, booktitle, tags, address, doi, file, isbn, pages, publisher, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: verbrugge03:_struc_moder_comput_narrat
+   :title: A Structure for Modern Computer Narratives
+   :tags: DAGs,hypergraph,narrative,narrative_flow,petri_nets,representation,symbolic_ai
+   :author: Verbrugge, Clark
+   :year: 2003
+   :booktitle: Computers and Games
+   :doi: 10.1007/978-3-540-40031-8_21
+   :url: http://dx.doi.org/10.1007/978-3-540-40031-8_21
+
+
+..
+    Fields:
+    author, booktitle, pages, doi, file, title, year, url, tags, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: kingsbery03:_econom_artif_intel
+
+
+..
+    Fields:
+    author, file, title, year, url, tags, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: gustavson03
+   :title: An efficient circle drawing algorithm
+   :tags: computational_geometry,geometry
+   :author: Gustavson, Stefan
+   :year: 2003
+
+
+..
+    Fields:
+    author, tags, title, year, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: sandfort03:_explor_struc_of_techn_within_34
+   :title: Exploring The Structuration Of Technology Within Human Service Organizations
+   :tags: human_services,open_systems,organisation,structuration,technology
+   :author: Sandfort, Jodi R.
+   :year: 2003
+   :journal: Administration & Society
+   :doi: 10.1177/0095399702239167
+   :url: http://dx.doi.org/10.1177/0095399702239167
+
+
+..
+    Fields:
+    author, tags, file, DATE_ADDED, title, journal, year, volume, number, pages, doi, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: boo03:_marriag_cure
+
+
+..
+    Fields:
+    author, file, title, year, url, tags, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: thorpe03:_beast_chaos
+   :title: Beasts of Chaos
+   :tags: rule_book,tabletop_game,warhammer
+   :author: Thorpe, Gav and Reynolds, Anthony and Pritchard, Steve and Cumiskey, Steve
+   :year: 2003
+   :series: Warhammer Fantasy Battle
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    file, tags, edition, series, publisher, year, author, title, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: chambers03:_chapt_approv
+   :title: Chapter Approved 2003
+   :tags: 40k,rule_book
+   :author: Chambers, Andy and Haines, Pete and Hoare, Andy and Kelly, Phil and Thorpe, Gav
+   :year: 2003
+   :isbn: 1-84154-317-9
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, tags, isbn, file, title, year, publisher, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: chambers03:_codex_daemon
+   :title: Codex Daemonhunters
+   :tags: 40k,codex,rule_book
+   :author: Chambers, Andy and Kelly, Phil and Mcneill, Graham
+   :year: 2003
+   :isbn: 1-84154-361-6
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, tags, edition, file, title, year, publisher, isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: chambers2:_codex_eye_terror
+   :title: Codex Eye of Terror
+   :tags: 40k,codex,rule_book
+   :author: Chambers, Andy and Haines, Pete and Hoare, Andy and Kelly, Phil and Mcneill, Graham
+   :year: 2003
+   :isbn: 1-84154-398-5
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, tags, edition, file, title, year, publisher, isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: workshop03:_codex_imper_guard
+   :title: Codex Imperial Guard
+   :tags: 40k,codex,rule_book
+   :author: {Games Workshop}
+   :year: 2003
+   :isbn: 1-84154-410-8
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, tags, edition, file, title, year, publisher, isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: hoare03:_codex_witch_hunter
+   :title: Codex Witch Hunters
+   :tags: 40k,codex,rule_book
+   :author: Hoare, Andy and Mcneill, Graham
+   :year: 2003
+   :isbn: 1-84154-485-X
+   :publisher: Games Workshop
+
+
+..
+    Fields:
+    author, tags, edition, file, title, year, publisher, isbn, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: harel03:_come_lets_play
+   :title: Come, Let's Play : Scenario-Based Programming Using LSCs and the Play-Engine
+   :tags: inter_object,interaction,intra_object,live_sequence_charts,play_engine,play_in,play_out,reactive_systems,scenario
+   :author: Harel, David and Marelly, Rami
+   :year: 2003
+   :doi: 10.1007/978-3-642-19029-2
+   :url: http://dx.doi.org/10.1007/978-3-642-19029-2
+   :isbn: 3-540-00787-3
+   :publisher: Springer Berlin Heidelberg
+
+
+..
+    Fields:
+    author, tags, isbn, file, subtitle, DATE_ADDED, title, publisher, year, doi, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: conf_atal_2002lncs_
+   :title: Trust, Reputation, and Security: Theories and Practice, AAMAS 2002 International Workshop, Bologna, Italy, July 15, 2002, Selected and Invited Papers
+   :tags: MAS,agents,contract,privacy,reputation,trust
+   :editor: Falcone, Rino and Barber, K. Suzanne and Korba, Larry and Singh, Munindar P.
+   :year: 2003
+   :series: Lecture Notes in Computer Science
+   :booktitle: Trust, Reputation, and Security
+   :doi: 10.1007/3-540-36609-1
+   :isbn: 3-540-00988-4
+   :publisher: Springer
+
+
+..
+    Fields:
+    title, tags, booktitle, series, volume, publisher, year, isbn, doi, editor, biburl, bibsource, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: bazerman03:_system_of_genres_enact_of_social_inten
+   :title: Systems Of Genres and The Enactment Of Social Intentions
+   :tags: genre,genre_studies,rhetoric,social_intention
+   :author: Bazerman, Charles
+   :year: 2003
+
+
+..
+    Fields:
+    year, tags, chapter, pages, crossref, title, author
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: nostrand03:_genre_map_of_r_d
+   :title: A Genre Map Of R&D Knowledge Production For The US Department Of Defense
+   :tags: USA,department_of_defense,genre,genre_studies,knowledge_production,r_and_d,research_and_development,rhetoric,social_intention
+   :author: Nostrand, A. D. Van
+   :year: 2003
+
+
+..
+    Fields:
+    year, tags, chapter, pages, crossref, title, author
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: freadman03:_anyon_for_tennis
+   :title: Anyone For Tennis?
+   :tags: __important,genre,genre_studies,metaphor,rhetoric,rules_for_play,searle,social_intention,speech_acts
+   :author: Freadman, Anne
+   :year: 2003
+
+
+..
+    Fields:
+    year, tags, chapter, crossref, title, author
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: freedman03:_genre_in_new_rhetor_
+   :title: Genre In The New Rhetoric
+   :tags: genre,genre_studies,rhetoric,social_intention
+   :editor: Freedman, Aviva and Medway, Peter
+   :year: 2003
+   :isbn: 978-0-203-39327-7
+   :publisher: Taylor & Francis
+
+
+..
+    Fields:
+    editor, tags, file, publisher, year, isbn, title, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: nutt03:_sims_6
+   :title: The Sims: Real Life as Genre
+   :tags: ai,genre,social_simulation,the_sims
+   :author: Nutt, Diane and Railton, Diane
+   :year: 2003
+   :journal: Information, Communication & Society
+   :doi: 10.1080/1369118032000163268
+   :url: http://dx.doi.org/10.1080/1369118032000163268
+   :publisher: Informa UK Limited
+
+
+..
+    Fields:
+    author, tags, file, url, journal, volume, pages, number, publisher, doi, title, year, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: conf_digra_Jarvinen03_
+   :title: Making and breaking games: a typology of rules.
+   :tags: game_mechanics,game_studies,rules,taxonomy
+   :author: J\"arvinen, Aki
+   :year: 2003
+   :booktitle: Digital Games Research Conference, DiGRA 2003, 4-6 November 2003, University of Utrecht, The Netherlands
+   :url: http://www.digra.org/digital-library/publications/making-and-breaking-games-a-typology-of-rules/
+
+
+..
+    Fields:
+    title, tags, booktitle, file, year, url, author, biburl, bibsource, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: spivak03:_death_discip
+   :title: Death of a Discipline
+   :tags: comparative_literature_studies,multi_culturalism
+   :author: Spivak, Gayatri Chakravorty
+   :year: 2003
+   :series: The Wellek Library Lectures
+   :isbn: 978-0-231-55687-3
+   :publisher: Columbia University Press
+
+
+..
+    Fields:
+    DOI, tags, series, year, edition_year, isbn, publisher, file, title, author, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: schafter24:_order_of_ornam_struc_of_style
+   :title: The Order Of Ornament, The Structure Of Style: Theoretical Foundations Of Modern Art and Architecture
+   :tags: alois_riegl,architecture,gottfried_semper,john_ruskin,modern_art,ornamentation,owen_jones,style,urban_design
+   :author: Schafter, Debra
+   :year: 2003
+   :isbn: 0-521-79114-6
+   :publisher: Cambridge University Press
+
+
+..
+    Fields:
+    title, tags, isbn, publisher, author, year, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: rooij03:_tract_cognit
+   :title: Tractable Cognition : Complexity Theory In Cognitive Psychology
+   :tags: cognitive_psychology,complexity,tractable_cognition
+   :author: Rooij, Iris Van
+   :year: 2003
+   :url: http://hdl.handle.net/1828/8006
+
+
+..
+    Fields:
+    author, tags, type, file, url, title, year, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: cook03:_compl_axiom_block_world_13
+   :title: A Complete Axiomatization for Blocks World
+   :tags: ai,axiomatic_semantics,blocks_world,complexity,definable_predicates,finite_axiomatization
+   :author: Cook, S. A.
+   :year: 2003
+   :journal: Journal of Logic and Computation
+   :doi: 10.1093/logcom/13.4.581
+   :url: http://dx.doi.org/10.1093/logcom/13.4.581
+
+
+..
+    Fields:
+    author, tags, file, DATE_ADDED, title, journal, year, volume, number, pages, doi, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: wright03:_sims_delux_edition_manual
+   :title: The Sims Deluxe Edition Manual
+   :tags: the_sims
+   :author: Wright, Will
+   :year: 2003
+   :url: https://oldgamesdownload.com/wp-content/uploads/The_Sims_Deluxe_Edition_Manual_EN.pdf
+
+
+..
+    Fields:
+    author, tags, file, title, year, url, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
+
+.. bibtex:entry:: jameson03:_end_tempor_29
+   :title: The End of Temporality
+   :tags: critical_theory,phenomenology,temporality,time
+   :author: Jameson, Fredric
+   :year: 2003
+   :journal: Critical Inquiry
+   :doi: 10.1086/377726
+   :url: http://dx.doi.org/10.1086/377726
+   :publisher: University of Chicago Press
+
+
+..
+    Fields:
+    title, tags, url, journal, volume, pages, number, publisher, doi, author, year, file, pdf_locked
+
+    Object Keys:
+    _abc_impl, _entry_type, _fields, _key, _parser_metadata, _raw, _start_line_in_file, entry_type, fields, fields_dict, get, get_parser_metadata, items, key, parser_metadata, pop, raw, set_field, set_parser_metadata, start_line
+
