@@ -36,7 +36,7 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-          inclue-hidden-files: true
+          include-hidden-files: true
         overwrite: true
       - name: Deploy to GitHub Pages
         id: deployment
