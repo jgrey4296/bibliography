@@ -36,11 +36,11 @@ from taskcode.rst import Bib2RstEntryTransformer
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
-
 @DKeyed.paths("lib-root")
+@DKeyed.types("total_subs")
 @DKeyed.redirects("update_")
-def build_general_stack(spec, state, _libroot, _update):
-    """ Doesn't encode into latex,
+def build_general_stack(spec, state, _libroot, _totalsubs, _update):
+    """ Doesn't encode into latex,'
     Expects split author names.
     joins authors, formats isbns, checks files, joins tags,
     encloses with braces
@@ -49,6 +49,7 @@ def build_general_stack(spec, state, _libroot, _update):
         BM.people.NameWriter(),
         ms.MergeCoAuthors(allow_inplace_modification=False),
         BM.metadata.IsbnWriter(),
+        BM.fields.FieldSubstitutor("tags", subs=_totalsubs),
         BM.metadata.TagsWriter(),
         BM.metadata.FileCheck(),
         BM.files.PathWriter(lib_root=_libroot),

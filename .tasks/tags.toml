@@ -13,7 +13,7 @@ ctor         = "job"
 roots        = ["{substitutions!p}/general"]
 exts         = [".sub"]
 recursive    = false
-required_for = [{path="{known_tag_file}"}, {path="{canon_tag_file}"}]
+required_for = [{path="{known_tag_file}"}, {path="{canon_tag_file}"}, {path="{total_subs_file}"}]
 depends_on   = [
     "tags::_.build.bkmk.tags",
     # Skip if totals.tags was modified today

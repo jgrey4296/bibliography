@@ -9,11 +9,12 @@ export_bases     = ["{bib!p}"]
 depends_on       = [
         {do="exists?", args=["{fpath!p}"], fail=true },
         {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
-        {path="{total_subs_file!p}"}
+        {path="{total_subs_file}"}
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
         { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
+        { do="taskcode.tags:read_subs", from="{total_subs_file!p}", update_="total_subs"},
         { do="taskcode.parse_stacks:build_general_stack",  update_="parse_stack"},
         { do="taskcode.write_stacks:build_general_stack",  update_="write_stack" },
 ]
