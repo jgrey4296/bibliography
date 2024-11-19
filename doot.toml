@@ -38,6 +38,6 @@ temp          = ".temp"
 logs          = "{temp}/logs"
 export        = "{temp}/export"
 bib           = "main"
-bookmarks     = {file="bookmarks/total.bookmarks"}
+bookmarks     = {path="bookmarks/total.bookmarks", file=true}
 substitutions = "tags/substitutions"
 lib-root      = "/media/john/data/library/pdfs/"
