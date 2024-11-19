@@ -4,24 +4,13 @@
 ##
 ##
 [[locations]]
-processed    = {loc="{temp}/processed"}
+processed    = {path="{temp}/processed"}
 data_drive   = "/media/john/data"
 backup_1     = "/media/john/big_ex"
 backup_2     = "/media/john/BackupSD"
 pdf_source   = "{data_drive}/library/pdfs"
-backup_cache = {file="{temp}/backup.commit_cache"}
+backup_cache = {path="{temp}/backup.commit_cache", file=true}
 
-[[tasks.changed]]
-name       = "report"
-doc        = ["List the files that have changed since the cached commit"]
-roots      = ["{bib!p}"]
-exts       = [".bib"]
-cache      = "{temp}/precommit::post.commit_cache"
-head_count = 2
-actions    = [
-   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
-   {do="taskcode.precommit:print_changed"},
-]
 
 [[tasks.changed]]
 name                  = "_.one.bib"
@@ -31,34 +20,35 @@ ctor                  = "job"
 cli                   = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 must_inject           = ["fpath"]
 roots                 = ["{bib!p}"]
+sub_task              = "changed::_.single.entry.update"
 depends_on            = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"], fail=true},
-    { task="format::_.by.year", inject={now=["fpath"]}},
+    { task="format::_.single.file", inject={now=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
+    { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
     # Read the file
     { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # Queue Entry Subtasks:
-    { do="taskcode.metadata:GenBibEntryTask", template="changed::_.single.entry.update", from_="bib_db", update_="entry_tasks"},
+    { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
     # { do="taskcode.metadata:GenBibEntryTask", template="extract::_.entry", from_="bib_db", update_="extract_tasks" },
     { do="job.queue", from_="entry_tasks" },
 ]
 head_actions = [
-    { task="export::_.clean.bib",   inject={now=["fpath"]} }, # Export
-    { task="export::_.to.rst",      inject={now=["fpath"]} }, # rst for html generation
-    { task="compile::_.to.pdf",     inject={now=["fpath"]} }, # Compile pdf
+    { task="export::_.latex.encoded.bib",   inject={now=["fpath"]} }, # Export
+    { task="export::_.to.rst",              inject={now=["fpath"]} }, # rst for html generation
+    { task="compile::_.to.pdf",             inject={now=["fpath"]} }, # Compile pdf
     # Update Tags:
-    { task="tags::_.calculate.update", inject={now=["fpath"]}},
+    { task="tags::_.calculate.update",      inject={now=["fpath"]}},
     # Report broken urls:
     # { task="online::_.report.broken", inject={copy={postbox="bibtex::entries..urls"}}},
     # Report orphan files

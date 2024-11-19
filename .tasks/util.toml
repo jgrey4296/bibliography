@@ -14,7 +14,7 @@ exts                 = [".bib"]                                 # <list[str]>
 roots                = ["{bib!p}"]                                # <list[str|pl.Path]>  Places the Walker will start
 actions = [
         {do="job.walk",   update_="files"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={now=["fpath"]}, template_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={insert=["fpath"]}, template_="sub_actions"},
         {do="job.queue",  from_="tasks"}, # queue
 ]
 sub_actions          = [
@@ -47,7 +47,7 @@ actions          = [
 ]
 sub_actions = [
     { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.bibtex:build_minimal_parse_stack",   update_="parse_stack"},
+    { do="taskcode.parse_stacks:build_minimal_stack",   update_="parse_stack"},
     { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
     # convert to n * target_bib_size libraries
     { do="taskcode.chunking:split_library", from_="bib_db", update_="split_libs" },
@@ -61,7 +61,7 @@ cleanup = ["util::_.chunks.to.files"]
 name = "_.chunks.to.files"
 ctor = "job"
 setup = [
-    {  do="taskcode.bibtex:build_working_write_stack", update_="write_stack" },
+    {  do="taskcode.write_stacks:build_general_stack", update_="write_stack" },
     ]
 actions = [
     {do="post.get",   data="chunk::dir..-"}, # Get from postbox
@@ -72,4 +72,16 @@ sub_actions = [
     { do="taskcode.chunking:generate_stem", from_="data", update_="fstem"},
     { do="dootle.bibtex.v2:BibtexToStrAction",  from_="data", update_="bib_text", write_stack_="write_stack" },
     { do="write!", from_="bib_text", to="{chunked!p}/{fstem}.bib"},
+]
+
+[[tasks.util]]
+name       = "report.changed"
+doc        = ["List the files that have changed since the cached commit"]
+roots      = ["{bib!p}"]
+exts       = [".bib"]
+cache      = "{temp}/precommit::post.commit_cache"
+head_count = 2
+actions    = [
+   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   {do="taskcode.precommit:print_changed"},
 ]

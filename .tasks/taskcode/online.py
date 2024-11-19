@@ -62,29 +62,6 @@ import bib_middleware as BM
 def shutdown_firefox(spec, state):
     BM.files.OnlineDownloader.close_firefox()
 
-@DKeyed.paths("lib-root", "online_saves")
-@DKeyed.redirects("update_")
-def build_online_downloader_parse_stack(spec, state, _libroot, _dltarget, _update):
-    """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
-    read_mids = [
-        BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(),
-        ms.RemoveEnclosingMiddleware(),
-        BM.files.PathReader(lib_root=_libroot),
-        BM.files.OnlineDownloader(target=_dltarget),
-    ]
-    return { _update : read_mids}
-
-@DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_online_downloader_write_stack(spec, state, _libroot, _update):
-    """ Doesn't encode into latex """
-    write_mids = [
-        BM.files.PathWriter(lib_root=_libroot),
-        ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
-    ]
-    return { _update : write_mids}
-
 @DKeyed.types("entry")
 @DKeyed.formats("box")
 def link_check(spec, state, entry, box):

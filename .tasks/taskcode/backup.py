@@ -45,21 +45,6 @@ import doot.errors
 from doot.structs import DKey, DKeyed
 import bib_middleware as BM
 
-
-
-@DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_backup_parse_stack(spec, state, _libroot, _update):
-    """ read and clean the file's entries, without handling latex encoding """
-    read_mids = [
-        BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
-        ms.RemoveEnclosingMiddleware(True),
-        BM.files.PathReader(lib_root=_libroot),
-    ]
-    return { _update : read_mids }
-
-
 @DKeyed.types("from", check=BTP.Library)
 @DKeyed.redirects("update_")
 def get_files(spec, state, _lib, _update):

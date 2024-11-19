@@ -4,7 +4,7 @@ bib_export    = "{export}/bib"
 rst_export    = "{export}/rst"
 
 [[tasks.export]]
-name             = "_.clean.bib"
+name             = "_.latex.encoded.bib"
 doc              = ["export a bibtex, with latex encoding"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib!p}"]
@@ -16,13 +16,13 @@ depends_on       = [
 ]
 setup           = [
         { do="dootle.bibtex:BibtexInitAction",             update_="bib_db"},
-        { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-        { do="taskcode.export:build_export_write_stack",   update_="export_stack" },
+        { do="taskcode.parse_stacks:build_general_stack",  update_="parse_stack"},
+        { do="taskcode.write_stacks:build_export_latex_stack",   update_="export_stack" },
 ]
 actions = [
         { do="log", msg="Exporting: {fname}" },
-        { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
-        { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
+        { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",  update_="bib_db",   parse_stack_="parse_stack" },
+        { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db", update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{bib_export!p}/{fname}"},
 ]
 cleanup = [
@@ -42,8 +42,8 @@ depends_on = [
 ]
 setup           = [
         { do="dootle.bibtex:BibtexInitAction",                 update_="bib_db"},
-        { do="taskcode.bibtex:build_working_parse_stack",      update_="parse_stack"},
-        { do="taskcode.export:build_export_rst_write_stack",   update_="export_stack" },
+        { do="taskcode.parse_stacks:build_general_stack",      update_="parse_stack"},
+        { do="taskcode.write_stacks:build_export_rst_stack",   update_="export_stack" },
 ]
 actions              = [
         {do="log", msg="Exporting {fname} to rst"},
@@ -72,7 +72,7 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 must_inject      = ["fpath"]
 author           = "jg"
 depends_on       = [
-    {task="export::_.clean.bib", inject={now=["fpath"]}},
+    {task="export::_.latex.encoded.bib", inject={now=["fpath"]}},
     {task="compile::_.gen.template", inject={now=["fpath"]}},
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath", roots=["{bib!p}"]},

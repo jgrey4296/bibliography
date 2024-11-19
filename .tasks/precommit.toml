@@ -19,18 +19,22 @@ doc           = ["Is passed a cli list of files changed, which are used to queue
 ctor          = "job"
 cli           = [{ name="files",   type="list", default=[], positional=true }]
 depends_on    = []
+sub_task      = "format::_.single.file"
 actions       = [
    {do="log", msg="Precommit for : {files}"},
-   # {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={now=["fpath"]}, template="format::_.by.year"},
+   # {do="job.expand", prefix="format", from_="files", update_="format_tasks", inject={insert=["fpath"]}, template_="sub_task"},
    # {do="job.queue", from_=["format_tasks"]},
 ]
 cleanup       = [
-   {do="log", msg="Finished"}
+   {do="log", msg="Finished Pre-Commit Formatting"},
+   {do="shell", args=["notify-send",
+                     "--expire-time=1000",
+                     "--transient",
+                     "Finished Pre-Commit Formatting"]},
 ]
 
 [[tasks.precommit]]
 name       = "post"
-doc        = []
 ctor       = "job"
 cli        = [
            {name="files", type="list", default=[], positional=true},
@@ -46,7 +50,7 @@ actions    = [
    {do="log", msg="Available changed files: {changed}"},
    {do="job.limit", count_="choose", from_="changed"},
    # Queue metadata update
-   {do="job.expand", from_="changed", inject={now=["fpath"]}, template="changed::_.one.bib", update_="bib_files", prefix="git.cached"},
+   {do="job.expand", from_="changed", inject={insert=["fpath"]}, template="changed::_.one.bib", update_="bib_files", prefix="git.cached"},
    {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [
@@ -55,7 +59,7 @@ cleanup = [
    # TODO cache head commit hash
    {do="log", msg="Finished Post Commit Process"},
    {do="shell", args=["notify-send",
-                        "--expire-time=1000",
-                        "--transient",
-                       "Finished Bib Cleanup"]},
+                     "--expire-time=1000",
+                     "--transient",
+                     "Finished Bib Cleanup"]},
 ]

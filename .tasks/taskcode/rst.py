@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 """
 
-See EOF for license/metadata/notes as applicable
 """
 
-##-- builtin imports
 from __future__ import annotations
 
-# import abc
 import datetime
 import enum
 import functools as ftz
@@ -18,25 +15,12 @@ import re
 import time
 import types
 import weakref
-# from copy import deepcopy
-# from dataclasses import InitVar, dataclass, field
-from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generic,
-                    Iterable, Iterator, Mapping, Match, MutableMapping,
-                    Protocol, Sequence, Tuple, TypeAlias, TypeGuard, TypeVar,
-                    cast, final, overload, runtime_checkable, Generator)
+from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generator,
+                    Generic, Iterable, Iterator, Mapping, Match,
+                    MutableMapping, Protocol, Sequence, Tuple, TypeAlias,
+                    TypeGuard, TypeVar, cast, final, overload,
+                    runtime_checkable)
 from uuid import UUID, uuid1
-
-##-- end builtin imports
-
-##-- lib imports
-# import more_itertools as mitz
-# from boltons import
-##-- end lib imports
-
-##-- logging
-logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
-##-- end logging
 
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
@@ -48,35 +32,9 @@ import doot.errors
 from doot.structs import DKey, DKeyed
 import bib_middleware as BM
 
-@DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_export_write_stack(spec,state, _libroot, _update):
-    """ encodes into latex for compilation """
-    write_mids = [
-        BM.people.NameWriter(),
-        ms.MergeCoAuthors(),
-        BM.latex.LatexWriter(),
-        BM.metadata.IsbnWriter(),
-        BM.metadata.TagsWriter(to_keywords=True),
-        BM.files.PathWriter(lib_root=_libroot),
-        ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
-    ]
-    return { _update : write_mids }
-
-@DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_export_rst_write_stack(spec,state, _libroot, _update):
-    """ encodes into rst for compilation """
-    write_mids = [
-        BM.people.NameWriter(),
-        ms.MergeCoAuthors(),
-        BM.metadata.IsbnWriter(),
-        BM.metadata.TagsWriter(),
-        Bib2RstEntryTransformer()
-    ]
-    return { _update : write_mids }
-
-# name.encode('ascii', 'xmlcharrefreplace')
+##-- logging
+logging = logmod.getLogger(__name__)
+##-- end logging
 
 @DKeyed.formats("title")
 @DKeyed.types("from")
@@ -135,7 +93,6 @@ class Bib2RstEntryTransformer(BlockMiddleware):
                 self._can_add("journal", "booktitle", "doi", "url", "isbn", "publisher")
                 self._can_add("incollection", "institution")
                 # TODO volume, number, pages, chapter
-
 
         if bool(self._curr):
             self._curr += ["", "", "..",

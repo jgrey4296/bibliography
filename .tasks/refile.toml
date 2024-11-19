@@ -17,15 +17,15 @@ depends_on       = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
-    { do="exists?", args=["{fpath!p}"], fail=true},
-    { task="format::_.by.year", inject={now=["fpath"]} },
+    { do="exists?", args=["{fpath!p}"],   fail=true},
+    { task="format::_.single.file",       inject={now=["fpath"]} },
 ]
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
-    { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
+    { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
+    { do="taskcode.write_stacks:build_general_stack",  update_="write_stack" },
 ]
 actions          = [
     { do="log", msg="Refiling Entries in: {fpath}", level="WARN"},
