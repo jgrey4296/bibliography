@@ -49,21 +49,6 @@ import doot.errors
 from doot.structs import DKey, TaskSpec, DKeyed
 import bib_middleware as BM
 
-@DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_metadata_parse_stack(spec, state, _libroot, _update):
-    """ read and clean the file's entries, without handling latex encoding """
-    read_mids = [
-        BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
-        ms.RemoveEnclosingMiddleware(True),
-        BM.files.PathReader(lib_root=_libroot),
-        BM.metadata.IsbnValidator(True),
-        BM.metadata.TagsReader(),
-        BM.fields.TitleReader()
-    ]
-    return { _update : read_mids }
-
 @DKeyed.types("tasks")
 def report_chosen_files(spec, state, tasks):
     printer.info("Chosen Files:")

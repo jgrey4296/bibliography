@@ -1,6 +1,6 @@
 
 [[locations]]
-online_todo   = {file="~/github/bibliography/in_progress/online.bib"}
+online_todo   = {path="~/github/bibliography/in_progress/online.bib", file=true}
 online_saves  = "/media/john/data/todo/pdfs/online"
 
 [[tasks.online]]
@@ -16,8 +16,8 @@ depends_on       = [
 setup            = [
       { do="path.elements", from_="fpath" },
       { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-      { do="taskcode.online:build_online_downloader_parse_stack",  update_="parse_stack"},
-      { do="taskcode.online:build_online_downloader_write_stack",  update_="write_stack" },
+      { do="taskcode.parse_stacks:build_online_download_stack",  update_="parse_stack"},
+      { do="taskcode.write_stacks:build_online_download_stack",  update_="write_stack" },
 ]
 actions          = [
     { do="log", msg="Downloading Entries" },

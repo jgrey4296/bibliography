@@ -77,7 +77,7 @@ def merge_subfiles_to_known_and_canon(spec, state, args):
     """ merge keys from args together,
       handling tagfiles, and lists of tag files
     """
-    keys = [DKey(x, mark=DKey.mark.FREE) for x in args]
+    keys = [DKey(x, mark=DKey.mark.FREE, implicit=True) for x in args]
     merged = SubstitutionFile()
     for key in keys:
         match key.expand(spec, state):
@@ -89,7 +89,7 @@ def merge_subfiles_to_known_and_canon(spec, state, args):
 
     canon_tags = merged.canonical()
     known_tags = merged.known()
-    return { "known_tags": known_tags, "canon_tags": canon_tags }
+    return { "known_tags": known_tags, "canon_tags": canon_tags, "total_subs": merged }
 
 @DKeyed.redirects("update_")
 def tags_from_middleware_to_state(spec, state, _update):

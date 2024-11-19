@@ -1,11 +1,11 @@
 ## compile.toml -*- mode: conf-toml -*-
 
 [[locations]]
-tex_template = {file="~/github/_templates/tex-config/tex/export_template_py.tex"}
-tex_export   = "{export}/tex"
-tex_fail     = "{export}/tex/failed"
-pdf_export   = "{export}/pdfs"
-html_export  = "{export}/html"
+tex_template  = {path="~/github/_templates/tex-config/tex/export_template_py.tex", file=true}
+tex_export    = "{export}/tex"
+tex_fail      = "{export}/tex/failed"
+pdf_export    = "{export}/pdfs"
+html_export   = "{export}/html"
 cal_export    = "{export}/calendar"
 
 [[tasks.compile]]
@@ -16,7 +16,7 @@ cli              = [{ name="fpath", type="str", prefix="-", default="", desc="",
 must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
-    {task="export::_.clean.bib", inject={now=["fpath"]}},
+    {task="export::_.latex.encoded.bib", inject={now=["fpath"]}},
     {task="export::_.to.tex", inject={now=["fpath"]}},
     {do="installed?", args=["pdftex", "bibtex"] },
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},

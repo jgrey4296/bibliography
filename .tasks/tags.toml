@@ -1,28 +1,29 @@
 ## tags.toml -*- mode: conf-toml -*-
 
 [[locations]]
-known_tag_file = {file="{temp}/tags/known.tags"}
-canon_tag_file = {file="{temp}/tags/canon.tags"}
-bkmk_tag_file  = {file="{temp}/tags/bkmks.tags"}
+known_tag_file   = {path="{temp}/tags/known.tags", file=true}
+canon_tag_file   = {path="{temp}/tags/canon.tags", file=true}
+bkmk_tag_file    = {path="{temp}/tags/bkmks.tags", file=true}
+total_subs_file  = {path="{temp}/tags/total.subs", file=true}
 
 [[tasks.tags]]
 name         = "_.build.total"
 doc          = ["build the totals.tags file from individual tag substitution files"]
-version      = "0.1"
 ctor         = "job"
 roots        = ["{substitutions!p}/general"]
 exts         = [".sub"]
 recursive    = false
-required_for = [{file="known_tag_file"}, {file="canon_tag_file"}]
+required_for = [{path="{known_tag_file}"}, {path="{canon_tag_file}"}, {path="{total_subs_file}"}]
 depends_on   = [
     "tags::_.build.bkmk.tags",
     # Skip if totals.tags was modified today
     {do="dootle.utils.recency_test:recency_test", target="{canon_tag_file!p}"},
+    # TODO use stale test against subs diretory
 ]
 actions   = [
     # walk and read all sub files
     {do="job.walk",   update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={now=["fpath"]}, template_="read_sub_actions"},
+    {do="job.expand", from_="files", update_="tasks", inject={insert=["fpath"]}, template_="read_sub_actions"},
     {do="job.queue",  from_="tasks"}, # queue
 ]
 read_sub_actions              = [
@@ -34,14 +35,15 @@ head_actions = [
     { do="post.get", sub_objs="tags::read..allsubs" },
     { do="taskcode.tags:read_tags", from="{bkmk_tag_file!p}", update_="bkmk_tags" },
     { do="taskcode.tags:merge_subfiles_to_known_and_canon", args=["sub_objs", "bkmk_tags"] },
-    # TODO merge bkmk_tags into total
+    # Write out to temp files
     { do="write!",  from_="known_tags", to="{known_tag_file!p}" },
     { do="write!",  from_="canon_tags", to="{canon_tag_file!p}" },
+    { do="write!",  from_="total_subs", to="{total_subs_file!p}" }
 ]
 
 [[tasks.tags]]
 name    = "_.build.bkmk.tags"
-version = "0.1"
+docs    = ["Read the boomarks file, extract tags from it, write to bkmk_tag_file"]
 ctor    = "task"
 depends_on = [
            # skip if bkmk.tags was touched today
@@ -59,7 +61,6 @@ actions = [
 
 [[tasks.tags]]
 name           = "_.calculate.update"
-version        = "0.1"
 doc            = ["Calculate the difference between known tags and new tags"]
 must_inject    = ["fpath"]
 ctor           = "task"
@@ -70,14 +71,14 @@ depends_on     = ["tags::_.build.total"]
 actions        = [
     { do="log", msg="Calculating Tags Update" },
     # Get existing totals
-    { do="taskcode.tags:read_tags", from="{canon_tag_file!p}", update_="total_tags" },
+    { do="taskcode.tags:read_tags",      from="{canon_tag_file!p}", update_="total_tags" },
     # Get tags from accumulator
     { do="taskcode.tags:TagAccumulator", update_="file_tags"},
     # Calc update
-    { do="taskcode.tags:TagCalculator", raw_="file_tags", totals_="total_tags"},
+    { do="taskcode.tags:TagCalculator",  raw_="file_tags", totals_="total_tags"},
     # Then write them
     { do="path.elements", from_="fpath", roots=["{bib!p}"] },
-    { do="write!", from_="new_tags", to="{temp!p}/tags/{fstem}_new.tags"},
+    { do="write!",        from_="new_tags", to="{temp!p}/tags/{fstem}_new.tags"},
     # Clear the tag record
     { do="taskcode.tags:TagAccumulator", clear=true},
 ]

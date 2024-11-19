@@ -1,12 +1,12 @@
 ## metadata.toml -*- mode: conf-toml -*-
 
 [[locations]]
-meta_backup = {loc="{logs}/meta_backup.jsonl", file=true}
-fail_log    = {file="{logs}/meta_failures.txt"}
-meta_cache  = {file="{temp}/metadata.commit_cache"}
+meta_backup = {path="{logs}/meta_backup.jsonl", file=true}
+fail_log    = {path="{logs}/meta_failures.txt", file=true}
+meta_cache  = {path="{temp}/metadata.commit_cache", file=true}
 
 [[tasks.meta]]
-name             = "_.by.year"
+name             = "_.single.file"
 doc              = ["update the file metadata for all entries in a single bib file"]
 version          = "0.1"
 ctor             = "task"
@@ -19,7 +19,7 @@ depends_on       = [
 setup            = [
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.metadata:build_metadata_parse_stack",  update_="parse_stack"},
+    { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
 ]
 actions          = [
     { do="log", msg="Metadata Update For Year: {fpath}", level="WARN"},

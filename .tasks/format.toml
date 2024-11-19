@@ -2,27 +2,26 @@
 
 
 [[tasks.format]]
-name             = "_.by.year"
+name             = "_.single.file"
 doc              = ["Format a single bib file"]
-ctor             = "task"
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib!p}"]
 depends_on       = [
         {do="exists?", args=["{fpath!p}"], fail=true },
         {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
+        {path="{total_subs_file}"}
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
         { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-        { do="taskcode.bibtex:build_working_parse_stack",  update_="parse_stack"},
-        # TODO : write-stack with tag substitution after loading sub files
-        { do="taskcode.bibtex:build_working_write_stack",  update_="write_stack" },
+        { do="taskcode.tags:read_subs", from="{total_subs_file!p}", update_="total_subs"},
+        { do="taskcode.parse_stacks:build_general_stack",  update_="parse_stack"},
+        { do="taskcode.write_stacks:build_general_stack",  update_="write_stack" },
 ]
 actions          = [
         {do="log", msg="Formatting: {fpath!p}"},
         # Load
         { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
-        # TODO clean Tags
         # --
         # Write formatted out
         { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
@@ -31,5 +30,5 @@ actions          = [
         { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp!p}/failed_{fstem}.bib" },
         # Extract tags and add to postbox:
         { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
-        { do="post.put", "format::_.by.year..tags"=["{tags}"] },
+        { do="post.put", "format::_.single.file..tags"=["{tags}"] },
 ]
