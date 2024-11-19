@@ -85,3 +85,21 @@ actions    = [
    {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
    {do="taskcode.precommit:print_changed"},
 ]
+
+[[tasks.util]]
+name = "run.on.selection"
+ctor = "job"
+cli        = [
+           # {name="files", type="list", default=[], positional=true},
+           {name="choose", type="int", default=1},
+           {name="subtask", type="str", default="format::_.single.file"},
+           ]
+roots      = ["{bib!p}"]
+exts       = [".bib"]
+actions    = [
+   {do="job.walk", update_="files"},
+   {do="job.limit", count_="choose", from_="files"},
+   {do="log", msg="Chosen Files: {files}"},
+   {do="job.expand", from_="files", inject={insert=["fpath"]}, template_="subtask", update_="sub_queue"},
+   {do="job.queue", from_=["sub_queue"]},
+]

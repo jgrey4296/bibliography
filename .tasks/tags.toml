@@ -18,6 +18,7 @@ depends_on   = [
     "tags::_.build.bkmk.tags",
     # Skip if totals.tags was modified today
     {do="dootle.utils.recency_test:recency_test", target="{canon_tag_file!p}"},
+    # TODO use stale test against subs diretory
 ]
 actions   = [
     # walk and read all sub files
