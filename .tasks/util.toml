@@ -61,7 +61,7 @@ cleanup = ["util::_.chunks.to.files"]
 name = "_.chunks.to.files"
 ctor = "job"
 setup = [
-    {  do="taskcode.write_stacks:build_general_stack", update_="write_stack" },
+    {  do="taskcode.write_stacks:build_format_stack", update_="write_stack" },
     ]
 actions = [
     {do="post.get",   data="chunk::dir..-"}, # Get from postbox

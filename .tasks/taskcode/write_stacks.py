@@ -37,22 +37,31 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 @DKeyed.paths("lib-root")
-@DKeyed.types("total_subs")
+@DKeyed.types("tag_subs", "other_subs", "name_subs", fallback=None)
 @DKeyed.redirects("update_")
-def build_general_stack(spec, state, _libroot, _totalsubs, _update):
+def build_format_stack(spec, state, _libroot, _tagsubs, _othersubs, _namesubs, _update):
     """ Doesn't encode into latex,'
     Expects split author names.
     joins authors, formats isbns, checks files, joins tags,
     encloses with braces
     """
-    write_mids = [
+    sort_firsts = ["title", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
+    sort_lasts  = ["isbn", "doi", "url", "file", "crossref"]
+
+    write_mids  = [
         BM.people.NameWriter(),
+        BM.people.NameSubstitutor(_namesubs),
         ms.MergeCoAuthors(allow_inplace_modification=False),
         BM.metadata.IsbnWriter(),
-        BM.fields.FieldSubstitutor("tags", subs=_totalsubs),
+        BM.fields.FieldSubstitutor("tags",           subs=_totalsubs),
+        BM.fields.FieldSubstitutor("publisher",      subs=_othersubs),
+        BM.fields.FieldSubstitutor("journal",        subs=_othersubs),
+        BM.fields.FieldSubstitutor("series",         subs=_othersubs),
+        BM.fields.FieldSubstitutor("institution",    subs=_othersubs),
         BM.metadata.TagsWriter(),
         BM.metadata.FileCheck(),
         BM.files.PathWriter(lib_root=_libroot),
+        BM.fields.FieldSorter(sort_firsts, sort_lasts),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
     return { _update : write_mids }

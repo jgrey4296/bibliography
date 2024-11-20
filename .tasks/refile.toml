@@ -25,7 +25,7 @@ setup            = [
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
     { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
-    { do="taskcode.write_stacks:build_general_stack",  update_="write_stack" },
+    { do="taskcode.write_stacks:build_format_stack",  update_="write_stack" },
 ]
 actions          = [
     { do="log", msg="Refiling Entries in: {fpath}", level="WARN"},
