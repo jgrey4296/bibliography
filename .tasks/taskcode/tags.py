@@ -50,12 +50,6 @@ def read_tags(spec, state, _from, _update):
     tags = TagFile.read(_from)
     return { _update : tags }
 
-@DKeyed.paths("from")
-@DKeyed.redirects("update_")
-def read_subs(spec, state, _target, _update):
-    target_subs = SubstitutionFile.read(_target)
-    return { _update : target_subs }
-
 @DKeyed.types("from", check=TagFile)
 @DKeyed.redirects("update_")
 def write_tag_set(spec, state, _from, _update):
@@ -71,25 +65,6 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
         merged += tf
 
     return { _update : merged }
-
-@DKeyed.args
-def merge_subfiles_to_known_and_canon(spec, state, args):
-    """ merge keys from args together,
-      handling tagfiles, and lists of tag files
-    """
-    keys = [DKey(x, mark=DKey.mark.FREE, implicit=True) for x in args]
-    merged = SubstitutionFile()
-    for key in keys:
-        match key.expand(spec, state):
-            case TagFile() as tf:
-                merged += tf
-            case list() as lst:
-                for tf in lst:
-                    merged += tf
-
-    canon_tags = merged.canonical()
-    known_tags = merged.known()
-    return { "known_tags": known_tags, "canon_tags": canon_tags, "total_subs": merged }
 
 @DKeyed.redirects("update_")
 def tags_from_middleware_to_state(spec, state, _update):

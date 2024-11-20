@@ -6,6 +6,7 @@ canon_tag_file   = {path="{temp}/tags/canon.tags", file=true}
 bkmk_tag_file    = {path="{temp}/tags/bkmks.tags", file=true}
 total_subs_file  = {path="{temp}/tags/total.subs", file=true}
 
+
 [[tasks.tags]]
 name         = "_.build.total"
 doc          = ["build the totals.tags file from individual tag substitution files"]
@@ -27,14 +28,14 @@ actions   = [
     {do="job.queue",  from_="tasks"}, # queue
 ]
 read_sub_actions              = [
-    { do="taskcode.tags:read_subs", from="{fpath!p}", update_="subs" },
+    { do="taskcode.subs:read_subs", from="{fpath!p}", update_="subs" },
     { do="post.put", "tags::read..allsubs"=["{subs}"] },
 ]
 head_actions = [
     { do="log", msg="Building Canon Tags"},
     { do="post.get", sub_objs="tags::read..allsubs" },
     { do="taskcode.tags:read_tags", from="{bkmk_tag_file!p}", update_="bkmk_tags" },
-    { do="taskcode.tags:merge_subfiles_to_known_and_canon", args=["sub_objs", "bkmk_tags"] },
+    { do="taskcode.subs:aggregate_subs", args=["sub_objs", "bkmk_tags"] },
     # Write out to temp files
     { do="write!",  from_="known_tags", to="{known_tag_file!p}" },
     { do="write!",  from_="canon_tags", to="{canon_tag_file!p}" },

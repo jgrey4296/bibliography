@@ -37,7 +37,7 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 @DKeyed.paths("lib-root")
-@DKeyed.types("tag_subs", "other_subs", "name_subs", fallback=None)
+@DKeyed.types("tag_subs", "other_subs", "people_subs", fallback=None)
 @DKeyed.redirects("update_")
 def build_format_stack(spec, state, _libroot, _tagsubs, _othersubs, _namesubs, _update):
     """ Doesn't encode into latex,'
@@ -47,17 +47,15 @@ def build_format_stack(spec, state, _libroot, _tagsubs, _othersubs, _namesubs, _
     """
     sort_firsts = ["title", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
     sort_lasts  = ["isbn", "doi", "url", "file", "crossref"]
+    sub_fields  = ["publisher", "journal", "series", "institution"]
 
     write_mids  = [
         BM.people.NameWriter(),
         BM.people.NameSubstitutor(_namesubs),
         ms.MergeCoAuthors(allow_inplace_modification=False),
         BM.metadata.IsbnWriter(),
-        BM.fields.FieldSubstitutor("tags",           subs=_totalsubs),
-        BM.fields.FieldSubstitutor("publisher",      subs=_othersubs),
-        BM.fields.FieldSubstitutor("journal",        subs=_othersubs),
-        BM.fields.FieldSubstitutor("series",         subs=_othersubs),
-        BM.fields.FieldSubstitutor("institution",    subs=_othersubs),
+        BM.fields.FieldSubstitutor("tags",           subs=_tagsubs),
+        BM.fields.FieldSubstitutor(sub_fields,       subs=_othersubs, force_single_value=True),
         BM.metadata.TagsWriter(),
         BM.metadata.FileCheck(),
         BM.files.PathWriter(lib_root=_libroot),
