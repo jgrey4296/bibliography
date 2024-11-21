@@ -43,7 +43,6 @@ def build_general_stack(spec, state, _libroot, _update):
     """
     read_mids = [
         BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(),
         ms.RemoveEnclosingMiddleware(),
         BM.files.PathReader(lib_root=_libroot),
         BM.metadata.IsbnValidator(),
@@ -64,12 +63,18 @@ def build_meta_stack(spec, state, _libroot, _update):
     """
     read_mids = [
         BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
+        ms.SeparateCoAuthors(),
         BM.files.PathReader(lib_root=_libroot),
         BM.metadata.IsbnValidator(True),
         BM.metadata.TagsReader(),
-        BM.fields.TitleReader()
+        BM.fields.TitleReader(),
+
+        BM.fields.FieldAccumulator("all-tags",     ["tags"]),
+        BM.fields.FieldAccumulator("all-pubs",     ["publisher"]),
+        BM.fields.FieldAccumulator("all-series",   ["series"]),
+        BM.fields.FieldAccumulator("all-journals", ["journal"]),
+        BM.fields.FieldAccumulator("all-people",   ["author", "editor"]),
     ]
     return { _update : read_mids }
 
