@@ -66,41 +66,6 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
 
     return { _update : merged }
 
-@DKeyed.redirects("update_")
-def tags_from_middleware_to_state(spec, state, _update):
-    """ Get the TagFile of tags read from the current lib, and insert it into state """
-
-    return { _update : TagsReader._all_tags }
-
-class TagAccumulator:
-    """
-      Accumulate a set of all tags,
-      with the ability to clear it,
-      or get the set
-    """
-    all_tags = set()
-
-    @DKeyed.types("entry", fallback=None)
-    @DKeyed.types("clear", check=bool, fallback=False)
-    @DKeyed.redirects("update_", fallback=None)
-    def __call__(self, spec, state, entry, clear, update_):
-        if clear:
-            printer.info("Clearing Tags")
-            TagAccumulator.all_tags.clear()
-            return
-        elif update_ not in [None, "update"]:
-            printer.info("Getting Tags")
-            return { update_ : TagAccumulator.all_tags }
-        elif entry is None:
-            return
-
-        printer.info("Accumulating Tags")
-        match entry.fields_dict.get("tags", None):
-            case None:
-                return
-            case val:
-                xs = val.value
-                TagAccumulator.all_tags.update(xs)
 
 class TagCalculator:
     """

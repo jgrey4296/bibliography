@@ -18,12 +18,12 @@ depends_on       = [
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
-        { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-        { do="taskcode.subs:read_subs", from="{total_subs_file!p}", update_="tag_subs"},
-        { do="taskcode.subs:read_subs", from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" "},
-        { do="taskcode.subs:read_subs", from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" "},
-        { do="taskcode.parse_stacks:build_general_stack",  update_="parse_stack"},
-        { do="taskcode.write_stacks:build_format_stack",  update_="write_stack" },
+        { do="dootle.bibtex:BibtexInitAction",                       update_="bib_db"},
+        { do="taskcode.subs:read_subs", from="{total_subs_file!p}",  update_="tag_subs"},
+        { do="taskcode.subs:read_subs", from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" ", sub_sep="::"},
+        { do="taskcode.subs:read_subs", from_all_="general_subs",    update_="other_subs",  sub_norm_replace=" ", sup_sep="::"},
+        { do="taskcode.parse_stacks:build_general_stack",            update_="parse_stack"},
+        { do="taskcode.write_stacks:build_format_stack",             update_="write_stack" },
 ]
 actions          = [
         {do="log", msg="Formatting: {fpath!p}"},
@@ -35,7 +35,4 @@ actions          = [
         { do="write!", from_="bib_text", to="{fpath!p}"},
         # Write any failed blocks
         { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp!p}/failed_{fstem}.bib" },
-        # Extract tags and add to postbox:
-        { do="taskcode.tags:tags_from_middleware_to_state", update_="tags" },
-        { do="post.put", "format::_.single.file..tags"=["{tags}"] },
 ]

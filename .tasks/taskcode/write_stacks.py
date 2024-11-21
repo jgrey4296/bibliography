@@ -37,9 +37,9 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 @DKeyed.paths("lib-root")
-@DKeyed.types("tag_subs", "other_subs", "people_subs", fallback=None)
+@DKeyed.types("tag_subs", "people_subs", "other_subs", fallback=None)
 @DKeyed.redirects("update_")
-def build_format_stack(spec, state, _libroot, _tagsubs, _othersubs, _namesubs, _update):
+def build_format_stack(spec, state, _libroot, _tagsubs, _namesubs, _othersubs, _update):
     """ Doesn't encode into latex,'
     Expects split author names.
     joins authors, formats isbns, checks files, joins tags,

@@ -10,7 +10,6 @@ total_subs_file  = {path="{temp}/tags/total.subs", file=true}
 [[tasks.tags]]
 name         = "_.build.total"
 doc          = ["build the totals.tags file from individual tag substitution files"]
-ctor         = "job"
 roots        = ["{substitutions!p}/general"]
 exts         = [".sub"]
 recursive    = false

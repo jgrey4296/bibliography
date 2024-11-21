@@ -63,3 +63,11 @@ def get_entry_file(spec, state, entry, _update):
             return
         case x:
             return { _update : x.value }
+
+@DKeyed.types("bib_db")
+@DKeyed.formats("key")
+@DKeyed.redirects("update_")
+def get_kv_from_library(spec, state, _db, key, _update):
+    """ Get the TagFile of tags read from the current lib, and insert it into state """
+    value = _db.get_meta_value(key)
+    return { _update : value }

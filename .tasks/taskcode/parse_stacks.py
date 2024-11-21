@@ -50,7 +50,7 @@ def build_general_stack(spec, state, _libroot, _update):
         BM.metadata.TagsReader(),
         ms.SeparateCoAuthors(),
         BM.people.NameReader(),
-        BM.fields.SubTitleReader()
+        BM.fields.SubTitleReader(),
     ]
     return { _update : read_mids }
 
@@ -79,7 +79,6 @@ def build_backup_stack(spec, state, _libroot, _update):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
         BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
         BM.files.PathReader(lib_root=_libroot),
     ]
@@ -90,7 +89,6 @@ def build_minimal_stack(spec, state, _update):
     """ a minimal reader for moving entries around """
     read_mids = [
         BM.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
     ]
     return { _update : read_mids}
@@ -101,7 +99,6 @@ def build_online_download_stack(spec, state, _libroot, _dltarget, _update):
     """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
     read_mids = [
         BM.metadata.DuplicateHandler(),
-        ms.ResolveStringReferencesMiddleware(),
         ms.RemoveEnclosingMiddleware(),
         BM.files.PathReader(lib_root=_libroot),
         BM.files.OnlineDownloader(target=_dltarget),
