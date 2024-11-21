@@ -48,7 +48,7 @@ setup           = [
 actions              = [
         {do="log", msg="Exporting {fname} to rst"},
         { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
-        { do="taskcode.export:lib2rst",  title_="fstem", from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
+        { do="taskcode.rst:lib2rst",  title_="fstem", from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
         { do="write!", from_="bib_text", to="{rst_export!p}/{fstem}.rst"},
 ]
 cleanup = [
