@@ -42,7 +42,7 @@ cli        = [
            ]
 roots      = ["{bib!p}"]
 exts       = [".bib"]
-sub_target = "changed::_.one.bib"
+sub_target = "changed::_.one.file"
 actions    = [
    {do="log", msg="Starting Post Commit Process : {files}"},
    # if No cache, so just process the head changes:
@@ -50,7 +50,7 @@ actions    = [
    {do="log", msg="Available changed files: {changed}"},
    {do="job.limit", count_="choose", from_="changed"},
    # Queue metadata update
-   {do="job.expand", from_="changed", inject={insert=["fpath"]}, template="changed::_.one.bib", update_="bib_files", prefix="git.cached"},
+   {do="job.expand", from_="changed", inject={insert=["fpath"]}, template="changed::_.one.file", update_="bib_files", prefix="git.cached"},
    {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [

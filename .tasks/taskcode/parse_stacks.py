@@ -27,15 +27,14 @@ from bibtexparser import middlewares as ms
 import doot
 import doot.errors
 from doot.structs import DKey, TaskSpec, DKeyed
-import bib_middleware as BM
+import bibble as BM
 
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_general_stack(spec, state, _libroot, _update):
+def build_general_stack(spec, state, _libroot) -> list:
     """ read and clean the file's entries. no latex decoding
     handles file paths,
     splits tags,
@@ -51,11 +50,10 @@ def build_general_stack(spec, state, _libroot, _update):
         BM.people.NameReader(),
         BM.fields.SubTitleReader(),
     ]
-    return { _update : read_mids }
+    return read_mids
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_meta_stack(spec, state, _libroot, _update):
+def build_meta_stack(spec, state, _libroot) -> list:
     """ read and clean the file's entries, without decoding latex
     pre-processes file paths,
     validates isbn's,
@@ -76,31 +74,28 @@ def build_meta_stack(spec, state, _libroot, _update):
         BM.fields.FieldAccumulator("all-journals", ["journal"]),
         BM.fields.FieldAccumulator("all-people",   ["author", "editor"]),
     ]
-    return { _update : read_mids }
+    return read_mids
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_backup_stack(spec, state, _libroot, _update):
+def build_backup_stack(spec, state, _libroot):
     """ read and clean the file's entries, without handling latex encoding """
     read_mids = [
         BM.metadata.DuplicateHandler(),
         ms.RemoveEnclosingMiddleware(True),
         BM.files.PathReader(lib_root=_libroot),
     ]
-    return { _update : read_mids }
+    return read_mids
 
-@DKeyed.redirects("update_")
-def build_minimal_stack(spec, state, _update):
+def build_minimal_stack(spec, state):
     """ a minimal reader for moving entries around """
     read_mids = [
         BM.DuplicateHandler(),
         ms.RemoveEnclosingMiddleware(True),
     ]
-    return { _update : read_mids}
+    return read_mids
 
 @DKeyed.paths("lib-root", "online_saves")
-@DKeyed.redirects("update_")
-def build_online_download_stack(spec, state, _libroot, _dltarget, _update):
+def build_online_download_stack(spec, state, _libroot, _dltarget):
     """ downloads urls as pdfs if entry is 'online' and it doesn't have a file associated already """
     read_mids = [
         BM.metadata.DuplicateHandler(),
@@ -108,4 +103,4 @@ def build_online_download_stack(spec, state, _libroot, _dltarget, _update):
         BM.files.PathReader(lib_root=_libroot),
         BM.files.OnlineDownloader(target=_dltarget),
     ]
-    return { _update : read_mids}
+    return read_mids

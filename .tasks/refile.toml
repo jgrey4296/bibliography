@@ -3,7 +3,7 @@
 structlib = "{data_drive}/library/pdfs_structured"
 
 [[tasks.refile]]
-name    = "_.one.bib"
+name    = "_.one.file"
 doc     = [
     "refile each file in each bibtex entry",
     "retargets files into groups based on century"

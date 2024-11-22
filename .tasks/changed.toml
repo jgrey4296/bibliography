@@ -13,7 +13,7 @@ backup_cache = {path="{temp}/backup.commit_cache", file=true}
 
 
 [[tasks.changed]]
-name                  = "_.one.bib"
+name                  = "_.one.file"
 doc                   = ["run updates for a changed bibtex"]
 version               = "0.1"
 ctor                  = "job"

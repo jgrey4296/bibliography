@@ -40,7 +40,7 @@ from bibtexparser import middlewares as ms
 import doot
 import doot.errors
 from doot.structs import DKey, DKeyed
-import bib_middleware as BM
+import bibble as BM
 
 ##-- logging
 logging = logmod.getLogger(__name__)

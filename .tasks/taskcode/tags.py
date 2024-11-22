@@ -41,7 +41,7 @@ import doot
 import doot.errors
 from doot.structs import DKey, DKeyed, TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
-from bib_middleware.metadata import TagsReader
+from bibble.metadata import TagsReader
 from doot.actions.postbox import _DootPostBox
 
 @DKeyed.paths("from")

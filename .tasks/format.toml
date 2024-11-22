@@ -6,7 +6,7 @@ subloc          = "{substitutions}"
 
 
 [[tasks.format]]
-name             = "_.single.file"
+name             = "_.one.file"
 doc              = ["Format a single bib file"]
 cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
 export_bases     = ["{bib!p}"]
@@ -22,8 +22,9 @@ setup = [
         { do="taskcode.subs:read_subs",  from="{total_subs_file!p}",  update_="tag_subs"},
         { do="taskcode.subs:read_subs",  from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" ", sub_sep="::"},
         { do="taskcode.subs:read_subs",  from_all_="general_subs",    update_="other_subs",  sub_norm_replace=" ", sup_sep="::"},
-        { do="dootle.bibtex:LoadReader", update_="bib_reader",        stack="taskcode.parse_stacks:build_general_stack"},
-        { do="dootle.bibtex:LoadWriter", update_="bib_writer",        stack="taskcode.write_stacks:build_format_stack"},
+
+        { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_general_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_format_stack"},
 ]
 actions          = [
         {do="log", msg="Formatting: {fpath!p}"},

@@ -47,7 +47,7 @@ from bibtexparser import middlewares as ms
 import doot
 import doot.errors
 from doot.structs import DKey, TaskSpec, DKeyed
-import bib_middleware as BM
+import bibble as BM
 
 @DKeyed.types("tasks")
 def report_chosen_files(spec, state, tasks):

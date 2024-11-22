@@ -20,7 +20,7 @@ doc     = ["TODO"]
 actions = []
 
 [[tasks.summary]]
-name = "_.one.bib"
+name = "_.one.file"
 
 [[tasks.summary]]
 name = "_.file.count"

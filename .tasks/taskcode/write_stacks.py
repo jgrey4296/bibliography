@@ -29,8 +29,7 @@ from bibtexparser import middlewares as ms
 import doot
 import doot.errors
 from doot.structs import DKey, TaskSpec, DKeyed
-import bib_middleware as BM
-from taskcode.rst import Bib2RstEntryTransformer
+import bibble as BM
 
 ##-- logging
 logging = logmod.getLogger(__name__)
@@ -38,8 +37,7 @@ logging = logmod.getLogger(__name__)
 
 @DKeyed.paths("lib-root")
 @DKeyed.types("tag_subs", "people_subs", "other_subs", fallback=None)
-@DKeyed.redirects("update_")
-def build_format_stack(spec, state, _libroot, _tagsubs, _namesubs, _othersubs, _update):
+def build_format_stack(spec, state, _libroot, _tagsubs, _namesubs, _othersubs):
     """ Doesn't encode into latex,'
     Expects split author names.
     joins authors, formats isbns, checks files, joins tags,
@@ -62,12 +60,11 @@ def build_format_stack(spec, state, _libroot, _tagsubs, _namesubs, _othersubs, _
         BM.fields.FieldSorter(sort_firsts, sort_lasts),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
-    return { _update : write_mids }
+    return write_mids
 
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_export_latex_stack(spec,state, _libroot, _update):
+def build_export_latex_stack(spec,state, _libroot):
     """ encodes into latex for compilation """
     write_mids = [
         BM.people.NameWriter(),
@@ -78,11 +75,10 @@ def build_export_latex_stack(spec,state, _libroot, _update):
         BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
-    return { _update : write_mids }
+    return write_mids
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_export_rst_stack(spec,state, _libroot, _update):
+def build_export_rst_stack(spec,state, _libroot):
     """ encodes into rst for compilation by sphinx """
     write_mids = [
         BM.people.NameWriter(),
@@ -90,15 +86,14 @@ def build_export_rst_stack(spec,state, _libroot, _update):
         BM.metadata.IsbnWriter(),
         BM.metadata.TagsWriter(),
     ]
-    return { _update : write_mids }
+    return write_mids
 
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_online_download_stack(spec, state, _libroot, _update):
+def build_online_download_stack(spec, state, _libroot):
     """ just writes paths appropriately, does no other processing """
     write_mids = [
         BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
-    return { _update : write_mids}
+    return write_mids

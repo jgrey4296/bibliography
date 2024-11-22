@@ -16,7 +16,7 @@ depends_on       = [
 ]
 setup           = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
-        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack="taskcode.parse_stacks:build_general_stack",  },
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack="taskcode.parse_stacks:build_general_stack" },
         { do="dootle.bibtex:BuildWriter", update_="bib_writer",   stack="taskcode.write_stacks:build_export_latex_stack" },
 ]
 actions = [
@@ -43,7 +43,7 @@ depends_on = [
 setup           = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
         { do="dootle.bibtex:BuildReader", update_="bib_reader",  stack="taskcode.parse_stacks:build_general_stack"},
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  class="bib_middleware.io.RstWriter", stack="taskcode.write_stacks:build_export_rst_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  class="bibble.io.RstWriter", stack="taskcode.write_stacks:build_export_rst_stack"},
 ]
 actions              = [
         {do="log", msg="Exporting {fname} to rst"},
