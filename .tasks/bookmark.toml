@@ -12,7 +12,7 @@ cli                  = [{ name="files",   type="list", default=[], positional=tr
 db_name              = "places.sqlite"
 log_file             = "{temp!p}/logs/bookmark_update.log"
 depends-on           = [
-   { do="dootle.utils.recency_test:recency_test", target="{bookmarks!p}"},
+   { do="dootle.utils:skip_if_recent", target="{bookmarks!p}"},
    "bookmark::_.firefox",
    "bookmark::_.archived"
 ]
@@ -21,11 +21,11 @@ setup = [
 ]
 actions              = [
    { do="post.get", head_firefox_bkmks="bookmark::_.firefox..-", head_archived_bkmks="bookmark::_.archived..-" },
-   { do="dootle.bookmarks.actions:BookmarksMerge", from_=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
-   { do="dootle.bookmarks.actions:BookmarksRemoveDuplicates", from_="total_bkmks" },
+   { do="dootle.bookmarks:Merge", from_=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
+   { do="dootle.bookmarks:RemoveDuplicates", from_="total_bkmks" },
    # TODO Clean Tags
-   { do="dootle.bookmarks.actions:BookmarksToStr", from_="total_bkmks", update_="bkmks_str" },
-   { do="doot.actions.io:AppendAction", args=["* {_date}", "{bkmks_str}"], to="{log_file!p}" },
+   { do="dootle.bookmarks:ToStr", from_="total_bkmks", update_="bkmks_str" },
+   { do="append!", args=["* {_date}", "{bkmks_str}"], to="{log_file!p}" },
    { do="write!", from_="bkmks_str", to="{temp!p}/merged.bookmarks" },
    { do="write!", from_="bkmks_str", to="{bookmarks!p}" },
 ]                                                                                                        # <list[Any]>
@@ -44,7 +44,7 @@ setup                = [
 ]
 actions              = [
    { do="copy", from_="db_locs", to="{temp!p}/" }, # copy the db from {firefox}/../{db_name} -> {temp}
-   { do="dootle.bookmarks.actions:BookmarksPonyExtraction", from="{temp!p}/{db_name}", update_="firefox_bkmks" }, # extract
+   { do="dootle.bookmarks:Extract", from="{temp!p}/{db_name}", update_="firefox_bkmks" }, # extract
    { do="post.put", args=["{firefox_bkmks}"] },
 ]
 
@@ -55,6 +55,6 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 depends_on           = ["file:>{bookmarks}"]                   # <list[DootTaskArtifact]>
 actions              = [
-   { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks!p}", update_="total_bkmks" },
+   { do="dootle.bookmarks:Load", from="{bookmarks!p}", update_="total_bkmks" },
    { do="post.put", args=["{total_bkmks}"] },
 ]

@@ -46,14 +46,14 @@ actions          = [
     {do="job.queue",  from_="tasks"},
 ]
 sub_actions = [
-    { do="dootle.bibtex.v2:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.parse_stacks:build_minimal_stack",   update_="parse_stack"},
-    { do="dootle.bibtex.v2:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:InitDb",       update_="bib_db"},
+    { do="dootle.bibtex:BuildReader",  update_="bib_reader", stack="taskcode.parse_stacks:build_minimal_stack"},
+    { do="dootle.bibtex:DoLoad",       update_="bib_db",     from_="fpath", reader_="bib_reader"},
     # convert to n * target_bib_size libraries
     { do="taskcode.chunking:split_library", from_="bib_db", update_="split_libs" },
     # add to postbox
     { do="post.put", args=["split_libs"] },
-    { do="dootle.bibtex.v2:BibtexFailedBlocksWriteAction", target="{chunk_failed!p}/{fstem}.bib" },
+    # TODO write failed blocks
 ]
 cleanup = ["util::_.chunks.to.files"]
 
@@ -61,7 +61,7 @@ cleanup = ["util::_.chunks.to.files"]
 name = "_.chunks.to.files"
 ctor = "job"
 setup = [
-    {  do="taskcode.write_stacks:build_format_stack", update_="write_stack" },
+    {  do="dootle.bibtex:BuildWriter", update_="write_stack", stack="taskcode.write_stacks:build_format_stack"},
     ]
 actions = [
     {do="post.get",   data="chunk::dir..-"}, # Get from postbox
@@ -70,7 +70,7 @@ actions = [
 ]
 sub_actions = [
     { do="taskcode.chunking:generate_stem", from_="data", update_="fstem"},
-    { do="dootle.bibtex.v2:BibtexToStrAction",  from_="data", update_="bib_text", write_stack_="write_stack" },
+    { do="dootle.bibtex:ToStr",  from_="data", update_="bib_text", writer_="bib_writer"},
     { do="write!", from_="bib_text", to="{chunked!p}/{fstem}.bib"},
 ]
 
@@ -82,7 +82,7 @@ exts       = [".bib"]
 cache      = "{temp}/precommit::post.commit_cache"
 head_count = 2
 actions    = [
-   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed" },
+   {do="dootle.utils:GetChangedFilesByCommit", update_="changed" },
    {do="taskcode.precommit:print_changed"},
 ]
 

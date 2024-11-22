@@ -46,7 +46,7 @@ sub_target = "changed::_.one.bib"
 actions    = [
    {do="log", msg="Starting Post Commit Process : {files}"},
    # if No cache, so just process the head changes:
-   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed"},
+   {do="dootle.utils.:GetChangedFilesByCommit", update_="changed"},
    {do="log", msg="Available changed files: {changed}"},
    {do="job.limit", count_="choose", from_="changed"},
    # Queue metadata update

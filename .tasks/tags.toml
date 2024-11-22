@@ -17,17 +17,11 @@ required_for = [{path="{known_tag_file}"}, {path="{canon_tag_file}"}, {path="{to
 depends_on   = [
     "tags::_.build.bkmk.tags",
     # Skip if totals.tags was modified today
-    {do="dootle.utils.recency_test:recency_test", target="{canon_tag_file!p}"},
+    {do="dootle.utils:skip_if_recent", target="{canon_tag_file!p}"},
     # TODO use stale test against subs diretory
 ]
 actions   = [
-    # walk and read all sub files
-    {do="job.walk",   update_="files"}, # walk,
-    {do="job.expand", from_="files", update_="tasks", inject={insert=["fpath"]}, template_="read_sub_actions"},
-    {do="job.queue",  from_="tasks"}, # queue
-]
-read_sub_actions              = [
-    { do="taskcode.subs:read_subs", from="{fpath!p}", update_="subs" },
+    { do="taskcode.subs:read_subs", from_all_="files", update_="subs" },
     { do="post.put", "tags::read..allsubs"=["{subs}"] },
 ]
 head_actions = [
@@ -47,12 +41,12 @@ docs    = ["Read the boomarks file, extract tags from it, write to bkmk_tag_file
 ctor    = "task"
 depends_on = [
            # skip if bkmk.tags was touched today
-           {do="dootle.utils.recency_test:stale_test", source="{bookmarks!p}", dest="{bkmk_tag_file!p}"},
+           {do="dootle.utils:skip_if_stale", source="{bookmarks!p}", dest="{bkmk_tag_file!p}"},
 ]
 actions = [
         {do="log", msg="Building Tags Summary from Bookmarks"},
         # read {bookmarks}
-        { do="dootle.bookmarks.actions:BookmarksLoad", from="{bookmarks!p}", update_="total_bkmks" },
+        { do="dootle.bookmarks:BookmarksLoad", from="{bookmarks!p}", update_="total_bkmks" },
         # extract tags
         { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
         # write
@@ -71,14 +65,33 @@ depends_on     = ["tags::_.build.total"]
 actions        = [
     { do="log", msg="Calculating Tags Update" },
     # Get existing totals
-    { do="taskcode.tags:read_tags",      from="{canon_tag_file!p}", update_="total_tags" },
-    # Get tags from accumulator
-    { do="taskcode.tags:TagAccumulator", update_="file_tags"},
+    { do="taskcode.tags:read_tags",      from="{known_tag_file!p}", update_="total_tags" },
     # Calc update
     { do="taskcode.tags:TagCalculator",  raw_="file_tags", totals_="total_tags"},
     # Then write them
     { do="path.elements", from_="fpath", roots=["{bib!p}"] },
     { do="write!",        from_="new_tags", to="{temp!p}/tags/{fstem}_new.tags"},
-    # Clear the tag record
-    { do="taskcode.tags:TagAccumulator", clear=true},
+]
+
+
+
+[[tasks.tags]]
+name         = "_.update.subs"
+docs         = ["Get kv sets from the bib library, diff to known sub files, write the results"]
+must_inject  = ["bib_db"]
+required_for = []
+sub_mapping  = {publishers="{temp!p}/tags/new_publishers.sub"}
+general_subs = ["{subloc!p}/publisher.sub", "{subloc!p}/series.sub", "{subloc!p}/journals.sub", "{subloc!p}/institution.sub"]
+setup = [
+    { do="taskcode.subs:read_subs", from_all_="general_subs",      update_="subs",       sub_norm_replace=" "},
+    { do="taskcode.bibtex:get_kv_from_libary", key="all-tags",     update_="all-tags"},
+    { do="taskcode.bibtex:get_kv_from_libary", key="all-pubs",     update_="all-pubs"},
+    { do="taskcode.bibtex:get_kv_from_libary", key="all-series",   update_="all-series"},
+    { do="taskcode.bibtex:get_kv_from_libary", key="all-journals", update_="all-journals"},
+    { do="taskcode.bibtex:get_kv_from_libary", key="all-people",   update_="all-people"},
+]
+actions      = [
+    {do="break!"},
+    # Diff: newvals = [x for x in kvSet if x not in subs]
+    # Write each mapping to temp/tags/new_{}.tags
 ]

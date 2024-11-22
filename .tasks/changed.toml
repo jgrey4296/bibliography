@@ -31,30 +31,34 @@ depends_on            = [
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
-    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
+    { do="dootle.bibtex:InitDb",   update_="bib_db"},
+    { do="dootle.bibtex:BuildReader", stack="taskcode.parse_stacks:build_meta_stack",  update_="bib_reader"},
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
+
+    {do="break!"},
     # Read the file
-    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:DoLoad",   from_="fpath",     update_="bib_db",   reader_="bib_reader"}
+
     # Queue Entry Subtasks:
-    { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
-    # { do="taskcode.metadata:GenBibEntryTask", template="extract::_.entry", from_="bib_db", update_="extract_tasks" },
-    { do="job.queue", from_="entry_tasks" },
+    # { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
+    # { do="job.queue", from_="entry_tasks" },
 ]
 head_actions = [
-    { task="export::_.latex.encoded.bib",   inject={now=["fpath"]} }, # Export
-    { task="export::_.to.rst",              inject={now=["fpath"]} }, # rst for html generation
-    { task="compile::_.to.pdf",             inject={now=["fpath"]} }, # Compile pdf
-    # Update Tags:
-    { task="tags::_.calculate.update",      inject={now=["fpath"]}},
+    # { task="export::_.latex.encoded.bib",   inject={now=["fpath"]} }, # Export
+    # { task="export::_.to.rst",              inject={now=["fpath"]} }, # rst for html generation
+    # { task="compile::_.to.pdf",             inject={now=["fpath"]} }, # Compile pdf
+
+    # Extract sets from lib
+    # { task="tags::_.update.subs"}, # inject={now=["bib_db"]} },
     # Report broken urls:
-    # { task="online::_.report.broken", inject={copy={postbox="bibtex::entries..urls"}}},
+    # { task="online::_.report.broken", inject={now={postbox="bibtex::entries..urls"}}},
     # Report orphan files
     # { task="orphans::_.report.missing", inject={now=["fpath"]}},
     # TODO Summarise
     # { task="bibtex:_.summarise", inject={now=["fpath"]} },
+
     {do="path.elements", from_="fpath" },
     {do="say", args=["Finished handling changes for: {fstem}"]},
     {do="touch", args=["{processed!p}/{fstem}"]}
@@ -73,7 +77,6 @@ actions                 = [
     {do="taskcode.bibtex:log_entry_name"},
     # ---
     {do="log", msg="... Extracting Tags"},
-    {do="taskcode.tags:TagAccumulator"}, # Extract Tags
     # ---
     {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
     # ---

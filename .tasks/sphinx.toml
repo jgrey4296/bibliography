@@ -24,7 +24,7 @@ doc_builder = "html"
 env_name    = "default"
 depends_on  = []
 setup       = [
-    { do="dootle.python.mamba:MambaEnv", env_="env_name", update_="env"},
+    { do="dootle.python:MambaEnv", env_="env_name", update_="env"},
     { do="installed?", args=["sphinx-build"], env_="env"},
     { do="exists?", args=["{doc_src!p}/conf.py"] },
 ]
@@ -56,7 +56,7 @@ ctor        = "task"
 doc_builder = "html"
 env_name    = "default"
 setup       = [
-    { do="dootle.python.mamba:MambaEnv", env_="env_name", update_="env"},
+    { do="dootle.python:MambaEnv", env_="env_name", update_="env"},
     { do="installed?", args=["sphinx-build"], env_="env"},
     { do="exists?", args=["{doc_src!p}/conf.py"] },
 ]

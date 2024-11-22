@@ -89,7 +89,6 @@ def build_export_rst_stack(spec,state, _libroot, _update):
         ms.MergeCoAuthors(),
         BM.metadata.IsbnWriter(),
         BM.metadata.TagsWriter(),
-        Bib2RstEntryTransformer()
     ]
     return { _update : write_mids }
 

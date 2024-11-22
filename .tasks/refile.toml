@@ -23,17 +23,16 @@ depends_on       = [
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
-    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
-    { do="taskcode.write_stacks:build_format_stack",  update_="write_stack" },
+    { do="dootle.bibtex:InitDb",      update_="bib_db"},
+    { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_meta_stack"},
+    { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_format_stack"},
 ]
 actions          = [
     { do="log", msg="Refiling Entries in: {fpath}", level="WARN"},
     # Read the file
-    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:DoLoad", from_="fpath", update_="bib_db", reader_="bib_reader"},
     # TODO transform entries
-    { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
-    { do="write!", from_="bib_text", to="{fpath!p}"},
+    { do="dootle.bibtex:ToStr",  from_="bib_db",    update_="bib_text", writer_="bib_writer", to="{fpath!p}" },
     # Queue Entry Subtasks:
     { do="taskcode.metadata:GenBibEntryTask", template="refile::_.single.entry", from_="bib_db", update_="entry_tasks"},
     { do="job.queue", from_="entry_tasks" },
