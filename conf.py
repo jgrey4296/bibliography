@@ -14,7 +14,7 @@ import datetime
 #
 sys.path.insert(0, str(pl.Path('.tasks/sphinxcode').resolve()))
 
-import bib_domain
+import sphinx_bib_domain
 
 
 # -- Project information -----------------------------------------------------
@@ -72,7 +72,7 @@ include_patterns = ["**"]
 
 def setup(app):
     app.events.connect("builder-inited", add_jinja_ext, 0)
-    bib_domain.setup(app)
+    sphinx_bib_domain.setup(app)
 
 def add_jinja_ext(app):
     app.builder.templates.environment.add_extension('jinja2.ext.debug')
