@@ -519,212 +519,12 @@
 *** Trapdoor
 * Physical
 ** Films
-*** About Schmidt
-*** Alien
-*** Aliens
-*** AI Artificial Intelligence
-*** Anchorman
-*** American Beauty
-*** American Psycho
-*** American History X
-*** [∅] Amelie
-*** Apocalypse Now
-*** A Series of Unfortunate Events
-*** Batman Begins
-*** Babel
-*** Beetlejuice
-*** Be Kind Rewind
-*** [∅] Being John Malcovich
-*** Bill Bailey Cosmic Jam
-*** Bladerunner
-*** Burn After Reading
-*** [∅] Brazil
-*** [∅] Big Fish
-*** Bill Bailey Bewilderness
-*** Black Snake Moan
-*** Hannibal Rising
-*** Castaway
-*** Casshern
-*** Capote
-*** Casanova
-*** Casino Royale
-*** Che
-*** Choke
-*** Chrysalis
-*** Children of Men
-*** Citizen Kane
-*** Cirque Du Soleil
-*** Cloverfield
-*** Clockwork Orange
-*** Close Encounters of the Third Kind
-*** Cronos
-*** Dawn of the Dead/ Director’s Cut
-*** Dark City
-*** Danto 01
-*** Day Watch
-*** Despicable Me
-*** Der Ring Des Nibelungen Die Walkure
-*** Der Ring Des Nibelungen Das Rheingold
-*** Deceived
-*** [∅] District 9
-*** Downfall
-*** Dreamcatcher
-*** Donny Darko
-*** Dracula
-*** Dr. Horrible
-*** Dr. Strange Love
-*** Ed Wood
-*** Eden Log
-*** [∅] Event Horizon
-*** Eraserhead
-*** Existenz
-*** Eternal Sunshine of the Spotless Mind
-*** Enchanted
-*** Fantasia
-*** Fight Club
-*** Full Metal Jacket
-*** Frost/Nixon
-*** Firefly
-*** G3 Live in Denver
-*** Good Night and Good Luck
-*** [∅] Gosford Park
-*** [∅] Groundhog Day
-*** Girl with the Pearl Earring
-*** Gladiator
-*** Ghost in the Shell
-*** Good Morning Vietnam
-*** Hamlet
-*** Hancock
-*** Hogfather
-*** Hot Fuzz
-*** It’s All Gone Pete Tong
-*** Ironman 1, 2
-*** I want Candy
-*** Inception
-*** I’m not there
-*** I’m a Cyborg
-*** It
-*** I am Legend
-*** Jarhead
-*** Koyaanisqatsi
-*** Kill Bill vol. 1, 2
-*** King Kong
-*** Land of the Dead
-*** Leaving Los Vegas
-*** Limitless
-*** Life of Brian
-*** Lord of War
-*** Love Actually
-*** [∅] Like Totally Dylan Moran
-*** Man on the Moon
-*** Mars Attacks
-*** Man hunter
-*** Matrix Revolutions
-*** Matrix Reloaded
-*** Mansfield Park
-*** Mrs. Henderson Presents
-*** Memento
-*** [∅] Monty Python And Now for Something Completely Different
-*** Midnight Cowboy
-*** Moon
-*** Michael Clayton
-*** Much Ado About Nothing
-*** Midsummer Night’s Dream
-*** Natural Born Killers
-*** Night Watch
-*** O Brother Where Art Thou
-*** Old Boy
-*** One Flew Over the CooCoo’s Nest
-*** Paul
-*** Planet Earth
-*** Pan’s Labyrinth
-*** PI
-*** [∅] Persepolis
-*** Pulp Fiction
-*** Quantum of Solace
-*** Rango
-*** Requiem for a Dream
-*** Robots
-*** Repo men
-*** Resident Evil
-*** Rome
-*** Run Fat Boy Run
-*** Resident Evil Extinction; Apocalypse
-*** Robin Hood Prince of Thieves
-*** [∅] Snatch
-*** [∅] Solaris
-*** Sexy
-*** Sphere
-*** Sunshine
-*** Sherlock Holms
-*** Shutter Island
-*** Sin City
-*** Severance
-*** Shaun of the Dead
-*** Shrek 1, 2, 3, Forever After
-*** Strumpet
-*** Star Wars Revenge of the Sith
-*** Sherlock Holms
-*** Spiderman 1, 2 , 3
-*** Steve Vai: Live at the Astoria
-*** Sympathy for Mr. Vengeance
-*** Sympathy for Lady Vengeance
-*** Taxi Driver
-*** [∅] Thirst
-*** THX1138
-*** The Trial
-*** The Terminal
-*** [∅] The Cat’s Meow
-*** The Witches of Eastwick
-*** The Weatherman
-*** The Bicentennial Man
-*** The Golden Compass
-*** The Hitch Hiker’s Guide to the Galaxy
-*** [∅] The Full Monty
-*** The Fountain
-*** The Day the Earth Stood Still
-*** The Altogether
-*** The Life Aquatic
-*** The Men Who Stare at Goats
-*** The Darjeeling Limited
-*** The Passion of Ayn Rana
-*** [∅] The Little Shop of Horrors
-*** [∅] The Iron Giant
-*** [∅] The Meaning of Life
-*** The Color of Magic
-*** The Conversation
-*** The imaginarium of Doctor Parnassus
-*** The Hurt Locker
-*** The Brothers Grimm
-*** The Devil’s Backbone
-*** The Rocky Horror Picture Show
-*** The Man Who Fell to Earth
-*** The Boat that Rocked
-*** The Langoliers
-*** The Jacket
-*** The Matrix
-*** The Shawshank Redemption
-*** The Merchant of Venice
-*** The Ruby in the Smoke
-*** The Shadow in the North
-*** Tube Tales
-*** The Dark Knight
-*** The Simpsons Movie
-*** The Red Violin
-*** Two Tower
-*** The Girl with the Dragon Tattoo
-*** [∅] V for Vendetta
-*** Wallace and Gromit
-*** Walk the Line
-*** Wall-E
-*** [∅] Watchmen
-*** Who Framed Roger Rabbit?
-*** Wild Hogs
-*** Zodiac
-*** 2001
-*** 300
-*** 28 Days Later
 *** 1984
+*** 2001
+*** 28 Days Later
+*** 300
+*** About Schmidt
+*** AI Artificial Intelligence
 *** Alfred Hitchcock
 **** Marnie
 **** The Trouble with Harry
@@ -740,16 +540,219 @@
 **** Topaz
 **** Vertigo
 **** Saboteur
+*** Alien
+*** Aliens
+*** [∅] Amelie
+*** American Beauty
+*** American History X
+*** American Psycho
+*** Anchorman
+*** Apocalypse Now
+*** A Series of Unfortunate Events
+*** Babel
+*** Batman Begins
+*** Beetlejuice
+*** [∅] Being John Malcovich
+*** Be Kind Rewind
+*** [∅] Big Fish
+*** Bill Bailey Bewilderness
+*** Bill Bailey Cosmic Jam
+*** Black Snake Moan
+*** Bladerunner
+*** [∅] Brazil
+*** Burn After Reading
+*** Capote
+*** Casanova
+*** Casino Royale
+*** Casshern
+*** Castaway
+*** Che
+*** Children of Men
+*** Choke
+*** Chrysalis
+*** Cirque Du Soleil
+*** Citizen Kane
+*** Clockwork Orange
+*** Close Encounters of the Third Kind
+*** Cloverfield
+*** Cronos
+*** Danto 01
+*** Dark City
+*** Dawn of the Dead/ Director’s Cut
+*** Day Watch
+*** Deceived
+*** Der Ring Des Nibelungen Das Rheingold
+*** Der Ring Des Nibelungen Die Walkure
+*** Despicable Me
+*** [∅] District 9
+*** Donny Darko
+*** Downfall
+*** Dracula
+*** Dreamcatcher
+*** Dr. Horrible
+*** Dr. Strange Love
+*** Eden Log
+*** Ed Wood
+*** Enchanted
+*** Eraserhead
+*** Eternal Sunshine of the Spotless Mind
+*** [∅] Event Horizon
+*** Existenz
+*** Fantasia
+*** Fight Club
+*** Firefly
+*** Frost/Nixon
+*** Full Metal Jacket
+*** G3 Live in Denver
+*** Ghost in the Shell
+*** Girl with the Pearl Earring
+*** Gladiator
+*** Good Morning Vietnam
+*** Good Night and Good Luck
+*** [∅] Gosford Park
+*** [∅] Groundhog Day
+*** Hamlet
+*** Hancock
+*** Hannibal Rising
+*** Hogfather
+*** Hot Fuzz
+*** I am Legend
+*** I’m a Cyborg
+*** I’m not there
+*** Inception
+*** Ironman 1, 2
+*** It
+*** It’s All Gone Pete Tong
+*** I want Candy
+*** Jarhead
+*** Kill Bill vol. 1, 2
+*** King Kong
+*** Koyaanisqatsi
+*** Land of the Dead
+*** Leaving Los Vegas
+*** Life of Brian
+*** Like Totally Dylan Moran
+*** Limitless
+*** Lord of War
+*** Love Actually
+*** Man hunter
+*** Man on the Moon
+*** Mansfield Park
+*** Mars Attacks
+*** Matrix Reloaded
+*** Matrix Revolutions
+*** Memento
+*** Michael Clayton
+*** Midnight Cowboy
+*** Midsummer Night’s Dream
+*** [∅] Monty Python And Now for Something Completely Different
+*** Moon
+*** Mrs. Henderson Presents
+*** Much Ado About Nothing
+*** Natural Born Killers
+*** Night Watch
+*** O Brother Where Art Thou
+*** Old Boy
+*** One Flew Over the CooCoo’s Nest
+*** Pan’s Labyrinth
+*** Paul
+*** [∅] Persepolis
+*** PI
+*** Planet Earth
+*** Pulp Fiction
+*** Quantum of Solace
+*** Rango
+*** Repo men
+*** Requiem for a Dream
+*** Resident Evil
+*** Resident Evil Extinction; Apocalypse
+*** Robin Hood Prince of Thieves
+*** Robots
+*** Rome
+*** Run Fat Boy Run
+*** Severance
+*** Sexy
+*** Shaun of the Dead
+*** Sherlock Holms
+*** Sherlock Holms
+*** Shrek 1, 2, 3, Forever After
+*** Shutter Island
+*** Sin City
+*** [∅] Snatch
+*** [∅] Solaris
+*** Sphere
+*** Spiderman 1, 2 , 3
+*** Star Wars Revenge of the Sith
+*** Steve Vai: Live at the Astoria
+*** Strumpet
+*** Sunshine
+*** Sympathy for Lady Vengeance
+*** Sympathy for Mr. Vengeance
+*** Taxi Driver
+*** The Altogether
+*** The Bicentennial Man
+*** The Boat that Rocked
+*** The Brothers Grimm
+*** [∅] The Cat’s Meow
+*** The Color of Magic
+*** The Conversation
+*** The Darjeeling Limited
+*** The Dark Knight
+*** The Day the Earth Stood Still
+*** The Devil’s Backbone
+*** The Fountain
+*** [∅] The Full Monty
+*** The Girl with the Dragon Tattoo
+*** The Golden Compass
+*** The Hitch Hiker’s Guide to the Galaxy
+*** The Hurt Locker
+*** The imaginarium of Doctor Parnassus
+*** [∅] The Iron Giant
+*** The Jacket
+*** The Langoliers
+*** The Life Aquatic
+*** [∅] The Little Shop of Horrors
+*** The Man Who Fell to Earth
+*** The Matrix
+*** [∅] The Meaning of Life
+*** The Men Who Stare at Goats
+*** The Merchant of Venice
+*** The Passion of Ayn Rana
+*** The Red Violin
+*** The Rocky Horror Picture Show
+*** The Ruby in the Smoke
+*** The Shadow in the North
+*** The Shawshank Redemption
+*** The Simpsons Movie
+*** The Terminal
+*** The Trial
+*** The Weatherman
+*** The Witches of Eastwick
+*** [∅] Thirst
+*** THX1138
+*** Tube Tales
+*** Two Tower
+*** [∅] V for Vendetta
+*** Walk the Line
+*** Wallace and Gromit
+*** Wall-E
+*** [∅] Watchmen
+*** Who Framed Roger Rabbit?
+*** Wild Hogs
+*** Zodiac
 ** Shows
-*** A bit of Fry and Laurie
 *** [∅] Battlestar Galactica, season 1, 2, 3, 4; Razor
+*** [∅] Count Duckula
+*** [∅] Red Dwarf season 1, 2, 3, 4, 5, 6, 7, 8
+*** [∅] Star Trek; Voyager season 1, 2, 3, 4
+*** [∅] Teachers season 1, 2, 3, 4
+*** A bit of Fry and Laurie
 *** Black Adder season 1, 2, 3, 4
 *** Black Books season 1, 2, 3
 *** Bleak House
 *** Breaking Bad season 1
 *** Californication season 1, 2
 *** Chuck season 1, 2
-*** [∅] Count Duckula
 *** CSI season 1, 2
 *** Death Note 2
 *** Desperate HouseWives season 4
@@ -769,11 +772,8 @@
 *** PeepShow season 1, 2, 3
 *** Primeval season 1, 2
 *** Pushing Daisies season 1, 2
-*** [∅] Red Dwarf season 1, 2, 3, 4, 5, 6, 7, 8
 *** Secret Diary of a Call Girl Season 1
 *** Shark season 1
-*** [∅] Star Trek; Voyager season 1, 2, 3, 4
-*** [∅] Teachers season 1, 2, 3, 4
 *** The 4400 season 1, 2
 *** The Big Bang Theory season 1, 2
 *** The West Wing season 1, 2, 3, 4, 5, 6, 7

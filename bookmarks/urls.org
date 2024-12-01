@@ -701,6 +701,8 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/The_Troubles
+https://en.m.wikipedia.org/wiki/Pasteurization
 https://en.m.wikipedia.org/wiki/List_of_BBC_children%27s_television_programmes
 https://en.m.wikipedia.org/wiki/List_of_textile_fibres
 https://en.m.wikipedia.org/wiki/J._G._Ballard
@@ -1735,6 +1737,7 @@ https://www.wired.com/story/the-world-might-actually-run-out-of-people
 https://www.zinnedproject.org/news/tdih/amistad-mutiny/
 https://zora.medium.com/why-i-never-use-stock-photos-of-white-people-e069868160ba
 ** Reference
+https://webaim.org/ : web accessibility
 https://www.mcmaster.com/
 https://refugeecouncil.org.uk/resource-category/guides-for-refugees/                                           :  Guides for Refugees
 https://reference.pictures/                                                                                    :  Reference Photos
