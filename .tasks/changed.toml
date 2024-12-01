@@ -26,7 +26,7 @@ depends_on            = [
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"], fail=true},
-    { task="format::_.single.file", inject={now=["fpath"]}},
+    { task="format::_.one.file", inject={now=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
@@ -37,13 +37,13 @@ setup            = [
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
 
-    {do="break!"},
     # Read the file
-    { do="dootle.bibtex:DoLoad",   from_="fpath",     update_="bib_db",   reader_="bib_reader"}
+    { do="dootle.bibtex:DoLoad",   from_="fpath",     update_="bib_db",   reader_="bib_reader"},
 
     # Queue Entry Subtasks:
     # { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
     # { do="job.queue", from_="entry_tasks" },
+    # { do="post.put",  }
 ]
 head_actions = [
     # { task="export::_.latex.encoded.bib",   inject={now=["fpath"]} }, # Export
@@ -51,13 +51,14 @@ head_actions = [
     # { task="compile::_.to.pdf",             inject={now=["fpath"]} }, # Compile pdf
 
     # Extract sets from lib
-    # { task="tags::_.update.subs"}, # inject={now=["bib_db"]} },
+    # TODO can't inject bib_db at network build time
+    { task="tags::_.update.subs", inject={now=["postbox"]} },
     # Report broken urls:
-    # { task="online::_.report.broken", inject={now={postbox="bibtex::entries..urls"}}},
+    { task="util::_.report.broken.urls", inject={now={postbox="bibtex::entries..urls"}}},
     # Report orphan files
-    # { task="orphans::_.report.missing", inject={now=["fpath"]}},
+    { task="orphans::_.report.missing", inject={now=["fpath"]}},
     # TODO Summarise
-    # { task="bibtex:_.summarise", inject={now=["fpath"]} },
+    { task="bibtex::_.summarise", inject={now=["fpath"]} },
 
     {do="path.elements", from_="fpath" },
     {do="say", args=["Finished handling changes for: {fstem}"]},

@@ -78,11 +78,12 @@ actions        = [
 [[tasks.tags]]
 name         = "_.update.subs"
 docs         = ["Get kv sets from the bib library, diff to known sub files, write the results"]
-must_inject  = ["bib_db"]
+must_inject  = ["postbox"]
 required_for = []
 sub_mapping  = {publishers="{temp!p}/tags/new_publishers.sub"}
 general_subs = ["{subloc!p}/publisher.sub", "{subloc!p}/series.sub", "{subloc!p}/journals.sub", "{subloc!p}/institution.sub"]
 setup = [
+    { do="post.get", bib_db="{postbox}" },
     { do="taskcode.subs:read_subs", from_all_="general_subs",      update_="subs",       sub_norm_replace=" "},
     { do="taskcode.bibtex:get_kv_from_libary", key="all-tags",     update_="all-tags"},
     { do="taskcode.bibtex:get_kv_from_libary", key="all-pubs",     update_="all-pubs"},
