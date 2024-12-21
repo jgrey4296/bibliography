@@ -2504,6 +2504,9 @@ XSL - https://www.w3.org/TR/xsl11/
 PNG - https://www.w3.org/TR/png/
 
 * Digital Collections
+https://www.gov.uk/government/publications/pace-code-b-2023
+https://www.cms.gov/data-research
+https://npshistory.com/
 https://www.cali.org/the-elangdell-bookstore
 https://opendomesday.org/name/
 https://www.khm.at/en/objectdb/
