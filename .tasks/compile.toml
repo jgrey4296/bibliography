@@ -1,7 +1,7 @@
 ## compile.toml -*- mode: conf-toml -*-
 
 [[locations]]
-tex_template  = {path="~/github/_templates/tex-config/tex/export_template_py.tex", file=true}
+tex_template  = "file::~/github/_templates/tex-config/tex/export_template_py.tex"
 tex_export    = "{export}/tex"
 tex_fail      = "{export}/tex/failed"
 pdf_export    = "{export}/pdfs"

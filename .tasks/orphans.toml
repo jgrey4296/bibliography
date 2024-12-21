@@ -36,7 +36,7 @@ cli                = [{ name="fpath", type="str", prefix="-", default="{lib-root
 fpath              = "{lib-root!p}"
 ctor               = "task"
 version            = "0.1"
-# required_for       = [{path="{orphans}/{fstem}.fs.files", file=true}]
+# required_for       = ["file::{orphans}/{fstem}.fs.files"]
 roots              = ["{lib-root!p}/{fstem}"]
 exts               = [".pdf", ".epub"]
 recursive          = true

@@ -1,7 +1,7 @@
 ## format.toml -*- mode: conf-toml -*-
 
 [[locations]]
-people_subs_file = {path="{substitutions}/people.sub", file=true}
+people_subs_file = "file::{substitutions}/people.sub"
 subloc          = "{substitutions}"
 
 

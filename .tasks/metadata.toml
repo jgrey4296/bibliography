@@ -1,9 +1,9 @@
 ## metadata.toml -*- mode: conf-toml -*-
 
 [[locations]]
-meta_backup = {path="{logs}/meta_backup.jsonl", file=true}
-fail_log    = {path="{logs}/meta_failures.txt", file=true}
-meta_cache  = {path="{temp}/metadata.commit_cache", file=true}
+meta_backup = "file::{logs}/meta_backup.jsonl"
+fail_log    = "file::{logs}/meta_failures.txt"
+meta_cache  = "file::{temp}/metadata.commit_cache"
 
 [[tasks.meta]]
 name             = "_.single.file"

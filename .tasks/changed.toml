@@ -4,12 +4,12 @@
 ##
 ##
 [[locations]]
-processed    = {path="{temp}/processed"}
+processed    = "{temp}/processed"
 data_drive   = "/media/john/data"
 backup_1     = "/media/john/big_ex"
 backup_2     = "/media/john/BackupSD"
 pdf_source   = "{data_drive}/library/pdfs"
-backup_cache = {path="{temp}/backup.commit_cache", file=true}
+backup_cache = "file::{temp}/backup.commit_cache"
 
 
 [[tasks.changed]]

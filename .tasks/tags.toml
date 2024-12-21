@@ -1,10 +1,10 @@
 ## tags.toml -*- mode: conf-toml -*-
 
 [[locations]]
-known_tag_file   = {path="{temp}/tags/known.tags", file=true}
-canon_tag_file   = {path="{temp}/tags/canon.tags", file=true}
-bkmk_tag_file    = {path="{temp}/tags/bkmks.tags", file=true}
-total_subs_file  = {path="{temp}/tags/total.subs", file=true}
+known_tag_file   = "file::{temp}/tags/known.tags"
+canon_tag_file   = "file::{temp}/tags/canon.tags"
+bkmk_tag_file    = "file::{temp}/tags/bkmks.tags"
+total_subs_file  = "file::{temp}/tags/total.subs"
 
 
 [[tasks.tags]]

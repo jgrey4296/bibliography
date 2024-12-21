@@ -1,7 +1,7 @@
 ## stubber.toml -*- mode: conf-toml -*-
 
 [[locations]]
-todo_bib   = {path="~/github/bibliography/in_progress/todo.bib", file=true}
+todo_bib   = "file::~/github/bibliography/in_progress/todo.bib"
 dropbox    = "~/Dropbox/docs"
 downloads  = "~/Downloads"
 todo_pdfs  = "/media/john/data/todo/pdfs"
