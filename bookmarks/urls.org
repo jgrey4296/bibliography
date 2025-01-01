@@ -2692,6 +2692,7 @@ http://realitycommons.media.mit.edu/realitymining1.html
 http://realitycommons.media.mit.edu/socialevolution.html
 http://realitycommons.media.mit.edu/socialevolution1.html
 ** Regulation / safety
+https://everytownresearch.org/rankings/
 https://www.congress.gov/bill/115th-congress/house-bill/1735/all-actions?overview=closed
 https://www.senate.gov/legislative/bills_acts_laws.htm
 http://safetydata.fra.dot.gov/officeofsafety/default.aspx
