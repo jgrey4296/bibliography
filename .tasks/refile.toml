@@ -1,3 +1,5 @@
+## refile.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
 structlib = "{data_drive}/library/pdfs_structured"

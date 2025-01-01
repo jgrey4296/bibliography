@@ -1,4 +1,5 @@
 ## changed.toml -*- mode: conf-toml -*-
+doot-version = "0.13"
 
 ## Collected tasks for processing changed files after they have been committed
 ##

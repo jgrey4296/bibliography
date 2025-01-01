@@ -1,3 +1,5 @@
+## export.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
 bib_export    = "{export}/bib"

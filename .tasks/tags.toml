@@ -1,4 +1,5 @@
-## tags.toml -*- mode: conf-toml -*-
+## tags.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
 known_tag_file   = "file::{temp}/tags/known.tags"
