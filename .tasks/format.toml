@@ -1,4 +1,4 @@
-## format.toml -*- mode: conf-toml -*-
+## format.toml -*- mode: toml -*-
 doot-version = "0.13"
 
 [[locations]]
@@ -9,7 +9,7 @@ subloc          = "{substitutions}"
 [[tasks.format]]
 name             = "_.one.file"
 doc              = ["Format a single bib file"]
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
 export_bases     = ["{bib!p}"]
 general_subs     = ["{subloc!p}/publisher.sub", "{subloc!p}/series.sub", "{subloc!p}/journals.sub", "{subloc!p}/institution.sub"]
 depends_on       = [

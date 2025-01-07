@@ -1,4 +1,4 @@
-## precommit.toml -*- mode: conf-toml -*-
+## precommit.toml -*- mode: toml -*-
 doot-version = "0.13"
 
 [[locations]]
@@ -7,7 +7,7 @@ doot-version = "0.13"
 name     = "validate"
 version  = "0.1"                # <str>
 doc      = ["Validate a commit message"]
-cli      = [{ name="msgfile",   default="", type="str", positional=true }]
+cli      = [{ name="msgfile",   default="", type="str"}]
 ctor     = "task"               # <str>
 actions  = [
          {do="read", from_="msgfile", update_="text"},
@@ -18,7 +18,7 @@ actions  = [
 name          = "pre"
 doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
-cli           = [{ name="files",   type="list", default=[], positional=true }]
+cli           = [{ name="files",   type="list", default=[]}]
 depends_on    = []
 sub_task      = "format::_.single.file"
 actions       = [
@@ -38,7 +38,7 @@ cleanup       = [
 name       = "post"
 ctor       = "job"
 cli        = [
-           {name="files", type="list", default=[], positional=true},
+           {name="files", type="list", default=[]},
            {name="choose", type="int", default=1},
            ]
 roots      = ["{bib!p}"]

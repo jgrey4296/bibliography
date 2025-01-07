@@ -12,7 +12,7 @@ doc     = [
 ]
 version = "0.1"
 ctor    = "job"
-cli     = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli     = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
 must_inject = ["fpath"]
 roots            = ["{bib!p}"]
 depends_on       = [

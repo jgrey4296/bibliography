@@ -52,7 +52,7 @@ cleanup = []
 [[tasks.docs]]
 name        = "build.file"
 doc         = ["build sphinx project documentation"]
-cli         = [{name="fpath", type="str", default="", positional=true}]
+cli         = [{name="fpath", type="str", default=""}]
 ctor        = "task"
 doc_builder = "html"
 env_name    = "default"

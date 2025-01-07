@@ -17,7 +17,7 @@ exts                     = [".pdf", ".epub"]                     # <list[str]>
 roots                    = ["{dropbox!p}", "{downloads!p}"]                         # <list[str|pl.Path]>  Places the Walker will start
 recursive                = false                                 # <bool>
 out_target               = "{todo_pdfs!p}/stubbed/{fname}"
-accept_fn                = "taskcode.stubber:not_copied"
+accept_fn                = "fn::taskcode.stubber:not_copied"
 actions                  = [
         {do="job.walk",   update_="files", fn_="accept_fn"}, # walk,
         {do="job.expand", from_="files", update_="tasks", inject={insert=["fpath"], delay=["out_target"]}, template_="sub_actions"},
@@ -28,13 +28,13 @@ sub_actions = [
         {do="log", msg="Stubbing: {fpath} to {out_target}"},
         {do="exists?", args=["{out_target!p}"], not=true},
         {do="copy", from_="fpath", to_="out_target"},
-        {do="taskcode.stubber:gen_stub", update_="stubtext", to_="out_target"},
+        {do="fn::taskcode.stubber:gen_stub", update_="stubtext", to_="out_target"},
         {do="post.put", "stub::files..-"=["{stubtext}"]},
         {do="delete!", args=["{fpath!p}"]},
 ]
 cleanup = [
         {do="post.get", stubs="stub::files..-"},
-        {do="taskcode.stubber:join_stubs", from_="stubs", update_="text"},
+        {do="fn::taskcode.stubber:join_stubs", from_="stubs", update_="text"},
         {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib!p}"},
 ]
 

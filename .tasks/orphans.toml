@@ -1,4 +1,4 @@
-## orphans.toml -*- mode: conf-toml -*-
+## orphans.toml -*- mode: toml -*-
 doot-version = "0.13"
 
 [[locations]]
@@ -33,7 +33,7 @@ cleanup = [
 [[tasks.orphans]]
 name               = "_.filesystem"
 doc                = ["walk the library filesystem, summarising all existing files"]
-cli                = [{ name="fpath", type="str", prefix="-", default="{lib-root}", desc="", positional=false  }]
+cli                = [{ name="fpath", type="str", prefix="-", default="{lib-root}", desc=""}]
 fpath              = "{lib-root!p}"
 ctor               = "task"
 version            = "0.1"

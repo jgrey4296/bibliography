@@ -35,7 +35,7 @@ disabled         = true
 name             = "chunk.dir"
 doc              = ["Split a directory of bibtex into chunks of a limited number of entries"]
 ctor             = "job"
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
 roots            = ["{fpath!p}"]
 exts             = [".bib"]
 recursive        = false
@@ -91,7 +91,7 @@ actions    = [
 name = "run.on.selection"
 ctor = "job"
 cli        = [
-           # {name="files", type="list", default=[], positional=true},
+           # {name="files", prefix=1, type="list", default=[]},
            {name="choose", type="int", default=1},
            {name="subtask", type="str", default="format::_.single.file"},
            ]

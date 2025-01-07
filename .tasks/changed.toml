@@ -1,4 +1,4 @@
-## changed.toml -*- mode: conf-toml -*-
+## changed.toml -*- mode: toml -*-
 doot-version = "0.13"
 
 ## Collected tasks for processing changed files after they have been committed
@@ -18,7 +18,7 @@ name                  = "_.one.file"
 doc                   = ["run updates for a changed bibtex"]
 version               = "0.1"
 ctor                  = "job"
-cli                   = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli                   = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
 must_inject           = ["fpath"]
 roots                 = ["{bib!p}"]
 sub_task              = "changed::_.single.entry.update"

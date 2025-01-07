@@ -1,4 +1,4 @@
-## compile.toml -*- mode: conf-toml -*-
+## compile.toml -*- mode: toml -*-
 doot-version = "0.13"
 
 [[locations]]
@@ -13,7 +13,7 @@ cal_export    = "{export}/calendar"
 name             = "_.to.pdf"
 ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
