@@ -40,7 +40,7 @@ logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 
 from waybackpy import WaybackMachineSaveAPI
-import bib_middleware as BM
+import bibble as BM
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 
@@ -57,7 +57,7 @@ READER_PREFIX      = "about:reader?url="
 LOAD_TIMEOUT       = 2
 WAYBACK_USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:40.0) Gecko/20100101 Firefox/40.0"
 
-import bib_middleware as BM
+import bibble as BM
 
 def shutdown_firefox(spec, state):
     BM.files.OnlineDownloader.close_firefox()

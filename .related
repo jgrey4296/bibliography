@@ -22,6 +22,7 @@
 :todo        : in_progress
 :wiki        : wiki_
 :tags        : tags/substitutions/general
+:subs        : tags/substitutions
 :aisb        : plus/conferences_primary/aisb_
 :site        : .site
 :sphinx      : conf.py

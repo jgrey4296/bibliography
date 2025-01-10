@@ -1,4 +1,6 @@
 ## extract.toml -*- mode: Toml -*-
+doot-version = "0.13"
+
 #### Extract data from bibtex entries
 #### ie: publisher, names,
 

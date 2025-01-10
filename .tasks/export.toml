@@ -1,3 +1,5 @@
+## export.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
 bib_export    = "{export}/bib"
@@ -6,23 +8,23 @@ rst_export    = "{export}/rst"
 [[tasks.export]]
 name             = "_.latex.encoded.bib"
 doc              = ["export a bibtex, with latex encoding"]
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
 export_bases     = ["{bib!p}"]
 depends_on       = [
         { do="relative?", args=["{fpath!p}"], bases_="export_bases" },
         { do="path.elements", from_="fpath", roots=["."]},
         # skip if the exported bib exists and is recent
-        { do="dootle.utils.recency_test:stale_test", source="{fpath!p}", dest="{bib_export!p}/{fname}" },
+        { do="dootle.utils:skip_if_stale", source="{fpath!p}", dest="{bib_export!p}/{fname}" },
 ]
 setup           = [
-        { do="dootle.bibtex:BibtexInitAction",             update_="bib_db"},
-        { do="taskcode.parse_stacks:build_general_stack",  update_="parse_stack"},
-        { do="taskcode.write_stacks:build_export_latex_stack",   update_="export_stack" },
+        { do="dootle.bibtex:InitDb",      update_="bib_db"},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack="taskcode.parse_stacks:build_general_stack" },
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",   stack="taskcode.write_stacks:build_export_latex_stack" },
 ]
 actions = [
         { do="log", msg="Exporting: {fname}" },
-        { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",  update_="bib_db",   parse_stack_="parse_stack" },
-        { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db", update_="bib_text", write_stack_="export_stack" },
+        { do="dootle.bibtex:DoLoad", from_="fpath",  update_="bib_db",   reader_="bib_reader"},
+        { do="dootle.bibtex:ToStr",  from_="bib_db", update_="bib_text", writer_="bib_writer"},
         { do="write!", from_="bib_text", to="{bib_export!p}/{fname}"},
 ]
 cleanup = [
@@ -32,7 +34,7 @@ cleanup = [
 
 [[tasks.export]]
 name       = "_.to.rst"
-cli        = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false }]
+cli        = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
 depends_on = [
         {do="relative?",  args=["{fpath!p}"], bases=["{bib!p}"]},
         {do="path.elements", from_="fpath", roots=["{bib!p}"]},
@@ -41,15 +43,14 @@ depends_on = [
 
 ]
 setup           = [
-        { do="dootle.bibtex:BibtexInitAction",                 update_="bib_db"},
-        { do="taskcode.parse_stacks:build_general_stack",      update_="parse_stack"},
-        { do="taskcode.write_stacks:build_export_rst_stack",   update_="export_stack" },
+        { do="dootle.bibtex:InitDb",      update_="bib_db"},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",  stack="taskcode.parse_stacks:build_general_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  class="bibble.io.RstWriter", stack="taskcode.write_stacks:build_export_rst_stack"},
 ]
 actions              = [
         {do="log", msg="Exporting {fname} to rst"},
-        { do="dootle.bibtex:BibtexLoadAction", from_="fpath", update_="bib_db", parse_stack_="parse_stack" },
-        { do="taskcode.export:lib2rst",  title_="fstem", from_="bib_db",    update_="bib_text", write_stack_="export_stack" },
-        { do="write!", from_="bib_text", to="{rst_export!p}/{fstem}.rst"},
+        { do="dootle.bibtex:DoLoad",  from_="fpath",  update_="bib_db",   reader-="bib_reader"},
+        { do="dootle.bibtex:ToStr",   from_="bib_db", update_="bib_text", writer_="bib_writer", to="{rst_export!p}/{fstem}.rst"},
 ]
 cleanup = [
         {do="exists?", args=["{rst_export!p}/{fstem}.rst"], fail=true},
@@ -68,7 +69,7 @@ cleanup = []
 [[tasks.export]]
 name             = "_.to.tex"
 ctor             = "task"
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
 must_inject      = ["fpath"]
 author           = "jg"
 depends_on       = [
@@ -77,7 +78,7 @@ depends_on       = [
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath", roots=["{bib!p}"]},
     # skip if the exported bib exists and is recent
-    {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
+    {do="dootle.utils:skip_if_stale", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
 ]
 setup            = [
     # Load template
@@ -86,7 +87,7 @@ setup            = [
 ]
 actions =[
     # expand the template
-    {do="dootle.utils.template_expansion:TemplateExpansion", template_="template", title="{fstem}", target="./{fstem}.bib", update_="tex"},
+    {do="dootle.utils:ExpandTemplate", template_="template", title="{fstem}", target="./{fstem}.bib", update_="tex"},
     # Write it to a temp file
     {do="write!", from_="tex", to="{tex_export!p}/{fstem}.tex"},
 ]

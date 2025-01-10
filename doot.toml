@@ -1,15 +1,15 @@
 # -*- mode:conf-toml; -*-
 
-[settings.general]
-notify                   = { say-on-exit = false }
-loaders                  = { commands="default", task="default", parser="default"}
-location_check           = { make_missing = true }
-max_steps                = 100_000
+[startup]
+doot_version     = "0.13"
+loaders          = { commands="default", task="default", parser="default"}
+location_check   = { make_missing=true }
+max_steps        = 100_000
+sources          = {tasks=[".tasks", "/media/john/data/github/_templates/doot/android_tasks"], code=[]}
+sleep            = { task=0.2, subtask=1, batch=1 }
 
-[settings.tasks]
-sources = [".tasks", "/media/john/data/github/_templates/doot/android_tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
-code    = []         # Directories where task specific code can be imported from, expanded according to [[locations]] keys
-sleep   = { task=0.2, subtask=1, batch=1 }
+[shutdown]
+notify = { speak=false }
 
 [settings.commands]
 run = { tracker = "default", runner = "default", reporter= "default", report-line = []}
@@ -38,6 +38,6 @@ temp          = ".temp"
 logs          = "{temp}/logs"
 export        = "{temp}/export"
 bib           = "main"
-bookmarks     = {path="bookmarks/total.bookmarks", file=true}
+bookmarks     = "file::bookmarks/total.bookmarks"
 substitutions = "tags/substitutions"
 lib-root      = "/media/john/data/library/pdfs/"

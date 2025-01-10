@@ -1,4 +1,5 @@
-## precommit.toml -*- mode: conf-toml -*-
+## precommit.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
 
@@ -6,7 +7,7 @@
 name     = "validate"
 version  = "0.1"                # <str>
 doc      = ["Validate a commit message"]
-cli      = [{ name="msgfile",   default="", type="str", positional=true }]
+cli      = [{ name="msgfile",   default="", type="str"}]
 ctor     = "task"               # <str>
 actions  = [
          {do="read", from_="msgfile", update_="text"},
@@ -17,7 +18,7 @@ actions  = [
 name          = "pre"
 doc           = ["Is passed a cli list of files changed, which are used to queue subtasks"]
 ctor          = "job"
-cli           = [{ name="files",   type="list", default=[], positional=true }]
+cli           = [{ name="files",   type="list", default=[]}]
 depends_on    = []
 sub_task      = "format::_.single.file"
 actions       = [
@@ -37,20 +38,20 @@ cleanup       = [
 name       = "post"
 ctor       = "job"
 cli        = [
-           {name="files", type="list", default=[], positional=true},
+           {name="files", type="list", default=[]},
            {name="choose", type="int", default=1},
            ]
 roots      = ["{bib!p}"]
 exts       = [".bib"]
-sub_target = "changed::_.one.bib"
+sub_target = "changed::_.one.file"
 actions    = [
    {do="log", msg="Starting Post Commit Process : {files}"},
    # if No cache, so just process the head changes:
-   {do="dootle.utils.commit_caching:GetChangedFilesByCommit", update_="changed"},
+   {do="dootle.utils.:GetChangedFilesByCommit", update_="changed"},
    {do="log", msg="Available changed files: {changed}"},
    {do="job.limit", count_="choose", from_="changed"},
    # Queue metadata update
-   {do="job.expand", from_="changed", inject={insert=["fpath"]}, template="changed::_.one.bib", update_="bib_files", prefix="git.cached"},
+   {do="job.expand", from_="changed", inject={insert=["fpath"]}, template="changed::_.one.file", update_="bib_files", prefix="git.cached"},
    {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [

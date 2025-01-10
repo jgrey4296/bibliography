@@ -41,7 +41,7 @@ import doot
 import doot.errors
 from doot.structs import DKey, DKeyed, TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
-from bib_middleware.metadata import TagsReader
+from bibble.metadata import TagsReader
 from doot.actions.postbox import _DootPostBox
 
 @DKeyed.paths("from")
@@ -49,12 +49,6 @@ from doot.actions.postbox import _DootPostBox
 def read_tags(spec, state, _from, _update):
     tags = TagFile.read(_from)
     return { _update : tags }
-
-@DKeyed.paths("from")
-@DKeyed.redirects("update_")
-def read_subs(spec, state, _target, _update):
-    target_subs = SubstitutionFile.read(_target)
-    return { _update : target_subs }
 
 @DKeyed.types("from", check=TagFile)
 @DKeyed.redirects("update_")
@@ -72,60 +66,6 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
 
     return { _update : merged }
 
-@DKeyed.args
-def merge_subfiles_to_known_and_canon(spec, state, args):
-    """ merge keys from args together,
-      handling tagfiles, and lists of tag files
-    """
-    keys = [DKey(x, mark=DKey.mark.FREE, implicit=True) for x in args]
-    merged = SubstitutionFile()
-    for key in keys:
-        match key.expand(spec, state):
-            case TagFile() as tf:
-                merged += tf
-            case list() as lst:
-                for tf in lst:
-                    merged += tf
-
-    canon_tags = merged.canonical()
-    known_tags = merged.known()
-    return { "known_tags": known_tags, "canon_tags": canon_tags, "total_subs": merged }
-
-@DKeyed.redirects("update_")
-def tags_from_middleware_to_state(spec, state, _update):
-    """ Get the TagFile of tags read from the current lib, and insert it into state """
-
-    return { _update : TagsReader._all_tags }
-
-class TagAccumulator:
-    """
-      Accumulate a set of all tags,
-      with the ability to clear it,
-      or get the set
-    """
-    all_tags = set()
-
-    @DKeyed.types("entry", fallback=None)
-    @DKeyed.types("clear", check=bool, fallback=False)
-    @DKeyed.redirects("update_", fallback=None)
-    def __call__(self, spec, state, entry, clear, update_):
-        if clear:
-            printer.info("Clearing Tags")
-            TagAccumulator.all_tags.clear()
-            return
-        elif update_ not in [None, "update"]:
-            printer.info("Getting Tags")
-            return { update_ : TagAccumulator.all_tags }
-        elif entry is None:
-            return
-
-        printer.info("Accumulating Tags")
-        match entry.fields_dict.get("tags", None):
-            case None:
-                return
-            case val:
-                xs = val.value
-                TagAccumulator.all_tags.update(xs)
 
 class TagCalculator:
     """

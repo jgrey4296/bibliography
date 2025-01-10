@@ -1,6 +1,8 @@
+## online.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
-online_todo   = {path="~/github/bibliography/in_progress/online.bib", file=true}
+online_todo   = "file::~/github/bibliography/in_progress/online.bib"
 online_saves  = "/media/john/data/todo/pdfs/online"
 
 [[tasks.online]]
@@ -14,33 +16,21 @@ depends_on       = [
     { do="ext?", args=["{fpath!p}"], exts=[".bib"] },
 ]
 setup            = [
-      { do="path.elements", from_="fpath" },
-      { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-      { do="taskcode.parse_stacks:build_online_download_stack",  update_="parse_stack"},
-      { do="taskcode.write_stacks:build_online_download_stack",  update_="write_stack" },
+      { do="path.elements",             from_="fpath" },
+      { do="dootle.bibtex:InitDb",      update_="bib_db"},
+      { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_online_download_stack"},
+      { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_online_download_stack" },
 ]
 actions          = [
     { do="log", msg="Downloading Entries" },
     # Load
-    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:DoLoad", from_="fpath", update_="bib_db", reader_="bib_reader"},
     # Write
     # TODO: add a transform action here instead of middleware transform?
-    { do="dootle.bibtex:BibtexToStrAction",  from_="bib_db",    update_="bib_text", write_stack_="write_stack" },
+    { do="dootle.bibtex:ToStr", from_="bib_db",  update_="bib_text", writer_="bib_writer"},
     { do="write!", from_="bib_text", to="{temp!p}/{fstem}_saved.bib"},
-
 ]
 cleanup          = [
     { do="taskcode.online:shutdown_firefox" },
-    { do="dootle.bibtex:BibtexFailedBlocksWriteAction", target="{temp!p}/failed_{fstem}.bib" },
-]
-
-[[tasks.online]]
-name     = "_.report.broken"
-version  = "0.1"
-inject   = ["postbox"]
-actions  = [
-        # Get reported broken urls
-        {do="post.get", broken_urls="{postbox}" },
-        # write out
-        { do="write!", from_="broken_urls", to="{temp!p}/broken.urls"},
+    # TODO write failed blocks
 ]

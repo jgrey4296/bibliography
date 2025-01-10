@@ -23,7 +23,7 @@ from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generator,
                     runtime_checkable)
 from uuid import UUID, uuid1
 
-import bib_middleware as BM
+import bibble as BM
 import bibtexparser as BTP
 import doot
 import doot.errors

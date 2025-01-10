@@ -1,23 +1,24 @@
-## changed.toml -*- mode: conf-toml -*-
+## changed.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 ## Collected tasks for processing changed files after they have been committed
 ##
 ##
 [[locations]]
-processed    = {path="{temp}/processed"}
+processed    = "{temp}/processed"
 data_drive   = "/media/john/data"
 backup_1     = "/media/john/big_ex"
 backup_2     = "/media/john/BackupSD"
 pdf_source   = "{data_drive}/library/pdfs"
-backup_cache = {path="{temp}/backup.commit_cache", file=true}
+backup_cache = "file::{temp}/backup.commit_cache"
 
 
 [[tasks.changed]]
-name                  = "_.one.bib"
+name                  = "_.one.file"
 doc                   = ["run updates for a changed bibtex"]
 version               = "0.1"
 ctor                  = "job"
-cli                   = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli                   = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
 must_inject           = ["fpath"]
 roots                 = ["{bib!p}"]
 sub_task              = "changed::_.single.entry.update"
@@ -26,35 +27,40 @@ depends_on            = [
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"], fail=true},
-    { task="format::_.single.file", inject={now=["fpath"]}},
+    { task="format::_.one.file", inject={now=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
-    { do="dootle.bibtex:BibtexInitAction",   update_="bib_db"},
-    { do="taskcode.parse_stacks:build_meta_stack",  update_="parse_stack"},
+    { do="dootle.bibtex:InitDb",   update_="bib_db"},
+    { do="dootle.bibtex:BuildReader", stack="taskcode.parse_stacks:build_meta_stack",  update_="bib_reader"},
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
+
     # Read the file
-    { do="dootle.bibtex:BibtexLoadAction",   from_="fpath",     update_="bib_db",   parse_stack_="parse_stack" },
+    { do="dootle.bibtex:DoLoad",   from_="fpath",     update_="bib_db",   reader_="bib_reader"},
+
     # Queue Entry Subtasks:
-    { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
-    # { do="taskcode.metadata:GenBibEntryTask", template="extract::_.entry", from_="bib_db", update_="extract_tasks" },
-    { do="job.queue", from_="entry_tasks" },
+    # { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
+    # { do="job.queue", from_="entry_tasks" },
+    # { do="post.put",  }
 ]
 head_actions = [
-    { task="export::_.latex.encoded.bib",   inject={now=["fpath"]} }, # Export
-    { task="export::_.to.rst",              inject={now=["fpath"]} }, # rst for html generation
-    { task="compile::_.to.pdf",             inject={now=["fpath"]} }, # Compile pdf
-    # Update Tags:
-    { task="tags::_.calculate.update",      inject={now=["fpath"]}},
+    # { task="export::_.latex.encoded.bib",   inject={now=["fpath"]} }, # Export
+    # { task="export::_.to.rst",              inject={now=["fpath"]} }, # rst for html generation
+    # { task="compile::_.to.pdf",             inject={now=["fpath"]} }, # Compile pdf
+
+    # Extract sets from lib
+    # TODO can't inject bib_db at network build time
+    { task="tags::_.update.subs", inject={now=["postbox"]} },
     # Report broken urls:
-    # { task="online::_.report.broken", inject={copy={postbox="bibtex::entries..urls"}}},
+    { task="util::_.report.broken.urls", inject={now={postbox="bibtex::entries..urls"}}},
     # Report orphan files
-    # { task="orphans::_.report.missing", inject={now=["fpath"]}},
+    { task="orphans::_.report.missing", inject={now=["fpath"]}},
     # TODO Summarise
-    # { task="bibtex:_.summarise", inject={now=["fpath"]} },
+    { task="bibtex::_.summarise", inject={now=["fpath"]} },
+
     {do="path.elements", from_="fpath" },
     {do="say", args=["Finished handling changes for: {fstem}"]},
     {do="touch", args=["{processed!p}/{fstem}"]}
@@ -73,7 +79,6 @@ actions                 = [
     {do="taskcode.bibtex:log_entry_name"},
     # ---
     {do="log", msg="... Extracting Tags"},
-    {do="taskcode.tags:TagAccumulator"}, # Extract Tags
     # ---
     {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
     # ---

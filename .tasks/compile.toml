@@ -1,7 +1,8 @@
-## compile.toml -*- mode: conf-toml -*-
+## compile.toml -*- mode: toml -*-
+doot-version = "0.13"
 
 [[locations]]
-tex_template  = {path="~/github/_templates/tex-config/tex/export_template_py.tex", file=true}
+tex_template  = "file::~/github/_templates/tex-config/tex/export_template_py.tex"
 tex_export    = "{export}/tex"
 tex_fail      = "{export}/tex/failed"
 pdf_export    = "{export}/pdfs"
@@ -12,7 +13,7 @@ cal_export    = "{export}/calendar"
 name             = "_.to.pdf"
 ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc="", positional=false  }]
+cli              = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
@@ -22,7 +23,7 @@ depends_on       = [
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath", roots=["{bib!p}"]},
     # skip if the exported bib exists and is recent
-    { do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
+    { do="dootle.utils:skip_if_stale", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
 ]
 setup            = [
     {do="copy", from="{bib_export!p}/{fstem}.bib", to="{tex_export!p}/{fstem}.bib"},

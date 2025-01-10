@@ -29,38 +29,42 @@ from bibtexparser import middlewares as ms
 import doot
 import doot.errors
 from doot.structs import DKey, TaskSpec, DKeyed
-import bib_middleware as BM
-from taskcode.rst import Bib2RstEntryTransformer
+import bibble as BM
 
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
 @DKeyed.paths("lib-root")
-@DKeyed.types("total_subs")
-@DKeyed.redirects("update_")
-def build_general_stack(spec, state, _libroot, _totalsubs, _update):
+@DKeyed.types("tag_subs", "people_subs", "other_subs", fallback=None)
+def build_format_stack(spec, state, _libroot, _tagsubs, _namesubs, _othersubs):
     """ Doesn't encode into latex,'
     Expects split author names.
     joins authors, formats isbns, checks files, joins tags,
     encloses with braces
     """
-    write_mids = [
+    sort_firsts = ["title", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
+    sort_lasts  = ["isbn", "doi", "url", "file", "crossref"]
+    sub_fields  = ["publisher", "journal", "series", "institution"]
+
+    write_mids  = [
         BM.people.NameWriter(),
+        BM.people.NameSubstitutor(_namesubs),
         ms.MergeCoAuthors(allow_inplace_modification=False),
         BM.metadata.IsbnWriter(),
-        BM.fields.FieldSubstitutor("tags", subs=_totalsubs),
+        BM.fields.FieldSubstitutor("tags",           subs=_tagsubs),
+        BM.fields.FieldSubstitutor(sub_fields,       subs=_othersubs, force_single_value=True),
         BM.metadata.TagsWriter(),
         BM.metadata.FileCheck(),
         BM.files.PathWriter(lib_root=_libroot),
+        BM.fields.FieldSorter(sort_firsts, sort_lasts),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
-    return { _update : write_mids }
+    return write_mids
 
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_export_latex_stack(spec,state, _libroot, _update):
+def build_export_latex_stack(spec,state, _libroot):
     """ encodes into latex for compilation """
     write_mids = [
         BM.people.NameWriter(),
@@ -71,28 +75,25 @@ def build_export_latex_stack(spec,state, _libroot, _update):
         BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
-    return { _update : write_mids }
+    return write_mids
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_export_rst_stack(spec,state, _libroot, _update):
+def build_export_rst_stack(spec,state, _libroot):
     """ encodes into rst for compilation by sphinx """
     write_mids = [
         BM.people.NameWriter(),
         ms.MergeCoAuthors(),
         BM.metadata.IsbnWriter(),
         BM.metadata.TagsWriter(),
-        Bib2RstEntryTransformer()
     ]
-    return { _update : write_mids }
+    return write_mids
 
 
 @DKeyed.paths("lib-root")
-@DKeyed.redirects("update_")
-def build_online_download_stack(spec, state, _libroot, _update):
+def build_online_download_stack(spec, state, _libroot):
     """ just writes paths appropriately, does no other processing """
     write_mids = [
         BM.files.PathWriter(lib_root=_libroot),
         ms.AddEnclosingMiddleware(allow_inplace_modification=False, default_enclosing="{", reuse_previous_enclosing=False, enclose_integers=True),
     ]
-    return { _update : write_mids}
+    return write_mids
