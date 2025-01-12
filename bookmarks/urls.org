@@ -1205,6 +1205,7 @@ https://womensartblog.wordpress.com
 https://alexanderobenauer.com/labnotes/000/
 * Resources / Assets
 ** APIs
+https://blueskyproject.io/bluesky/main/tutorial.html
 https://search.worldcat.org/
 https://droughtmonitor.unl.edu/CurrentMap.aspx
 https://12ft.io/  : website cleaner
@@ -1456,6 +1457,7 @@ https://www.vam.ac.uk/articles/explore-entartete-kunst-the-nazis-inventory-of-de
 
 https://yorsearch.york.ac.uk/primo-explore/collectionDiscovery?vid=44YORK-NUI&collectionId=81351305970001381 : uni of york dissertations
 ** People
+https://www.baldurbjarnason.com/
 https://franknielsen.github.io/ - distance measures
 http://acg.media.mit.edu/people/fry/index.html
 http://ai.eecs.umich.edu/people/laird/
