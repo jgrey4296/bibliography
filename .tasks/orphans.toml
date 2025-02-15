@@ -54,7 +54,7 @@ name         = "_.report"
 doc          = ["reports a diff of bib referenced files against the filesystem"]
 ctor         = "task"
 priority     = 1
-# depends_on = ["file:>{orphans}/bib.files", "file:>{orphans}/fs.files"]
+# depends_on = ["file::>{orphans}/bib.files", "file::>{orphans}/fs.files"]
 actions      = [
         # read file lists
         {do="read", from="{orphans!p}/bib.files", type="lines",  update_="bib"},
