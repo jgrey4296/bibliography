@@ -1277,6 +1277,7 @@ https://petitions.whitehouse.gov/developers
 https://propublica.github.io/congress-api-docs/#congress-api-documentation
 https://tweepy.readthedocs.io/en/v3.5.0/index.html
 https://www.awsgeek.com/
+https://www.bforartists.de/
 https://www.blender.org/api/248PythonDoc/
 https://www.blender.org/api/blender_python_api_current/
 https://www.charitynavigator.org/products-and-services/graphql-api/
