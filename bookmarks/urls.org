@@ -408,6 +408,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/ChevyRay
 https://github.com/rust-lang/polonius
 https://github.com/s4ptacle/Sims4Tools
 https://github.com/SciresM/hactool - switch modding
@@ -1381,8 +1382,6 @@ https://www.federalregister.gov/                                                
 https://www.loc.gov/collections/                                                                               :  Library of Congress Digital Collections 2
 https://www.loc.gov/free-to-use/cats                                                                           :  Library of Congress: Cats
 ** Image
-https://colordesigner.io/
-https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
 https://simonschreibt.de/gat/windows-ac-row-ininite/#update8
 https://johnnygizmo.gumroad.com/l/zttus
 http://arabimagefoundation.com/                                                                                :  Arab Image Foundation
@@ -1392,7 +1391,6 @@ http://www.lostfoundart.com/                                                    
 http://www.robophot.com/                                                                                       :  Robophot
 https://advertisingpics.tumblr.com/                                                                            :  Advertising Pics Tumblr
 https://atlasofplaces.com/                                                                                     :  Atlas of Places
-https://control--panel.com/                                                                                    :  Control Panel Appreciation
 https://danismm.tumblr.com/                                                                                    :  Vintage Art and Architecture Tumblr
 https://disk.yandex.com/a/jwGK2j3W3Y9Tap                                                                       :  Soviet Book paper
 https://diversityavatars.com/                                                                                  :  Diversity Avatars
@@ -1405,12 +1403,10 @@ https://imgur.com/meSMig7                                                       
 https://imgur.com/r/TheWayWeWere/J3BiD                                                                         :  Womens Fashion
 https://led.itch.io/tilemancer                                                                                 :  Tilemancer
 https://led.itch.io/tilesetter                                                                                 :  Tilesetter
-https://lospec.com/palette-list
 https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b                                            :  Stock Photos
 https://opengameart.org/                                                                                       :  Open Game Art
 https://reference.pictures/                                                                                    :  Reference Photos
 https://s4m-ur4i.itch.io/huge-pixelart-asset-pack                                                              :  S4m Ur4i pixelart
-https://seaborn.pydata.org/tutorial/color_palettes.html
 https://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1  :  Getty Open Content
 https://ufdc.ufl.edu/baldwin/all/thumbs                                                                        :  University of Florida Historical Children's Literature
 https://www.davidrumsey.com/                                                                                   :  David Rumsey Map Collection
@@ -1419,10 +1415,16 @@ https://www.gmakkas.com/portfolio/C00005CBWq5gxTjk/G00005nk8B9pj9n4             
 https://www.instagram.com/sovietinnerness/                                                                     :  Soviet Innerness instagram
 https://www.kenney.nl/                                                                                         :  Kenny NL
 https://www.openculture.com/2017/04/download-200-modern-art-books-from-the-guggenheim-museum.html              :  Open Culture: Modern Art Books
-https://www.palettelist.com
 https://www.projectlinework.org/                                                                               :  Project Linework
 https://www.watercolourworld.org/                                                                              :  Pre-1900 Documentary Watercolours
 https://www.wikiart.org/en/eyvind-earle                                                                        :  Wiki Art: Eyvind Earle
+** Colour Palette
+https://seaborn.pydata.org/tutorial/color_palettes.html
+https://www.palettelist.com
+https://lospec.com/palette-list
+https://mushroomcoloratlas.com/
+https://colordesigner.io/
+https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
 ** Journals
 https://onlinelibrary.wiley.com/toc/14680491/2025/38/1?campaign=woletoc
 ** Law
