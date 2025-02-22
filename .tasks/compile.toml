@@ -32,15 +32,15 @@ setup            = [
 actions =[
     {do="log", msg="Compiling to pdf: {fname}"},
     # compile tex
-    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
+    {do="shell!", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
     {do="exists?", args=["{tex_export!p}/{fstem}.pdf"], fail=true },
     # compile bib
     {do="log", msg="Compiling Bib"},
-    {do="shell", args=["bibtex", "--terse", "./{fstem}"], cwd="{tex_export!p}"},
+    {do="shell!", args=["bibtex", "--terse", "./{fstem}"], cwd="{tex_export!p}"},
     # link crossrefs
     {do="log", msg="Crossreferencing"},
-    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
-    {do="shell", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
+    {do="shell!", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
+    {do="shell!", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
 ]
 cleanup = [
     {do="exists?", args=["{tex_export!p}/{fstem}.pdf"]},

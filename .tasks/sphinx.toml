@@ -30,7 +30,7 @@ setup       = [
     { do="exists?", args=["{doc_src!p}/conf.py"] },
 ]
 actions = [
-    { do="shell", env_="env", args=["sphinx-build",
+    { do="shell!", env_="env", args=["sphinx-build",
     "-D", "keep_warnings=True",
     "--fresh-env",
     # "--verbose", "--verbose", "--nitpicky",
@@ -42,7 +42,7 @@ actions = [
     ]},
 
     # {do="taskcode.refresher:refresh_firefox"},
-    {do="shell", args=["notify-send",
+    {do="shell!", args=["notify-send",
                         "--expire-time=1000",
                         "--transient",
                        "Finished Building Docs"]},
@@ -64,7 +64,7 @@ setup       = [
 actions = [
     {do="log", msg="Building for: {fpath}"},
     {do="log", msg="sphinx-build --builder {doc_builder} --warning-file {logs!p}/sphinx.log --keep-going --show-traceback {doc_src!p} {doc_out!p} {fpath}"},
-    { do="shell", env_="env", args=["sphinx-build",
+    { do="shell!", env_="env", args=["sphinx-build",
      "--builder", "{doc_builder}",
     "--warning-file", "{logs!p}/sphinx.log",
     "--keep-going", "--show-traceback",

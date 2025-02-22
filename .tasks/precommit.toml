@@ -28,7 +28,7 @@ actions       = [
 ]
 cleanup       = [
    {do="log", msg="Finished Pre-Commit Formatting"},
-   {do="shell", args=["notify-send",
+   {do="shell!", args=["notify-send",
                      "--expire-time=1000",
                      "--transient",
                      "Finished Pre-Commit Formatting"]},
@@ -59,7 +59,7 @@ cleanup = [
    "bookmark::update",
    # TODO cache head commit hash
    {do="log", msg="Finished Post Commit Process"},
-   {do="shell", args=["notify-send",
+   {do="shell!", args=["notify-send",
                      "--expire-time=1000",
                      "--transient",
                      "Finished Bib Cleanup"]},

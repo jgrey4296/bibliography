@@ -83,7 +83,7 @@ actions                 = [
     {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
     # ---
     {do="log", msg="... TODO: Clamscan files"},
-    # {do="shell", args=["clamscan", "--stdout", "{file!p}"]},
+    # {do="shell!", args=["clamscan", "--stdout", "{file!p}"]},
     {do="log", msg="... Updating Metadata of entry files"},
     {do="taskcode.bibtex:get_entry_file", update_="entry_file"}, # extract filenames
     {do="path.elements", from_="entry_file"},
