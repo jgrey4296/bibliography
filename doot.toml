@@ -5,7 +5,7 @@ doot_version     = "0.13"
 loaders          = { commands="default", task="default", parser="default"}
 location_check   = { make_missing=true }
 max_steps        = 100_000
-sources          = {tasks=[".tasks", "/media/john/data/github/_templates/doot/android_tasks"], code=[]}
+sources          = {tasks=[".tasks"], code=[]}
 sleep            = { task=0.2, subtask=1, batch=1 }
 
 [shutdown]
@@ -21,10 +21,10 @@ command        = { tasks = "doot.cmds.list_cmd:ListCmd" }
 [logging]
 
 [logging.stream]
-level = "user"
+level  = "user"
 filter = []
 target = "stdout"
-format="{levelname:<8} : {message}"
+format ="{levelname:<8} : {message}"
 
 [logging.file]
 level        = "trace"
@@ -54,6 +54,7 @@ temp          = ".temp"
 logs          = "{temp}/logs"
 export        = "{temp}/export"
 bib           = "main"
-bookmarks     = "file::bookmarks/total.bookmarks"
+bookmarks     = "file::>bookmarks/total.bookmarks"
 substitutions = "tags/substitutions"
 lib-root      = "/media/john/data/library/pdfs/"
+home_repo     = "~/github/jgrey4296.github.io"

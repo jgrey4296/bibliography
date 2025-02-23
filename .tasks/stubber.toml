@@ -2,20 +2,20 @@
 doot-version = "0.13"
 
 [[locations]]
-todo_bib   = "file::~/github/bibliography/in_progress/todo.bib"
+todo_bib   = "file::>{home_repo}/submodules_/bibliography/in_progress/todo.bib"
 dropbox    = "~/Dropbox/docs"
 downloads  = "~/Downloads"
 todo_pdfs  = "/media/john/data/todo/pdfs"
 
 [[tasks.stub]]
 name                     = "files"
-version                  = "0.1"                                 # <str>
+version                  = "0.1" 
 doc                      = ["Move pdfs and epubs into working directory, create stub entry for each one"]
-ctor                     = "job"                                # <str>
-queue_behaviour          = "default"                             # <str>                default | auto | reactive
-exts                     = [".pdf", ".epub"]                     # <list[str]>
-roots                    = ["{dropbox!p}", "{downloads!p}"]                         # <list[str|pl.Path]>  Places the Walker will start
-recursive                = false                                 # <bool>
+ctor                     = "job" 
+queue_behaviour          = "default"                             
+exts                     = [".pdf", ".epub"]                     
+roots                    = ["{dropbox!p}", "{downloads!p}"]      
+recursive                = false                                 
 out_target               = "{todo_pdfs!p}/stubbed/{fname}"
 accept_fn                = "fn::taskcode.stubber:not_copied"
 actions                  = [
@@ -27,9 +27,9 @@ actions                  = [
 sub_actions = [
         {do="log", msg="Stubbing: {fpath} to {out_target}"},
         {do="exists?", args=["{out_target!p}"], not=true},
-        {do="copy", from_="fpath", to_="out_target"},
         {do="fn::taskcode.stubber:gen_stub", update_="stubtext", to_="out_target"},
         {do="post.put", "stub::files..-"=["{stubtext}"]},
+        {do="copy", from_="fpath", to_="out_target"},
         {do="delete!", args=["{fpath!p}"]},
 ]
 cleanup = [

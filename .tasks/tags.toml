@@ -2,10 +2,10 @@
 doot-version = "0.13"
 
 [[locations]]
-known_tag_file   = "file::{temp}/tags/known.tags"
-canon_tag_file   = "file::{temp}/tags/canon.tags"
-bkmk_tag_file    = "file::{temp}/tags/bkmks.tags"
-total_subs_file  = "file::{temp}/tags/total.subs"
+known_tag_file   = "file::>{temp}/tags/known.tags"
+canon_tag_file   = "file::>{temp}/tags/canon.tags"
+bkmk_tag_file    = "file::>{temp}/tags/bkmks.tags"
+total_subs_file  = "file::>{temp}/tags/total.subs"
 
 
 [[tasks.tags]]

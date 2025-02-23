@@ -2,7 +2,7 @@
 doot-version = "0.13"
 
 [[locations]]
-people_subs_file = "file::{substitutions}/people.sub"
+people_subs_file = "file::>{substitutions}/people.sub"
 subloc          = "{substitutions}"
 
 

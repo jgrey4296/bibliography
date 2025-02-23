@@ -2,9 +2,9 @@
 doot-version = "0.13"
 
 [[locations]]
-meta_backup = "file::{logs}/meta_backup.jsonl"
-fail_log    = "file::{logs}/meta_failures.txt"
-meta_cache  = "file::{temp}/metadata.commit_cache"
+meta_backup = "file::>{logs}/meta_backup.jsonl"
+fail_log    = "file::>{logs}/meta_failures.txt"
+meta_cache  = "file::>{temp}/metadata.commit_cache"
 
 [[tasks.meta]]
 name             = "_.single.file"

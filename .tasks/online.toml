@@ -2,7 +2,7 @@
 doot-version = "0.13"
 
 [[locations]]
-online_todo   = "file::~/github/bibliography/in_progress/online.bib"
+online_todo   = "file::>{home_repo}/submodules_/bibliography/in_progress/online.bib"
 online_saves  = "/media/john/data/todo/pdfs/online"
 
 [[tasks.online]]

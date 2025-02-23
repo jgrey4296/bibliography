@@ -2,7 +2,7 @@
 doot-version = "0.13"
 
 [[locations]]
-tex_template  = "file::~/github/_templates/tex-config/tex/export_template_py.tex"
+tex_template  = "file::>~/github/_templates/tex-config/tex/export_template_py.tex"
 tex_export    = "{export}/tex"
 tex_fail      = "{export}/tex/failed"
 pdf_export    = "{export}/pdfs"
