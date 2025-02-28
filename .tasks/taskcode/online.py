@@ -73,5 +73,5 @@ def link_check(spec, state, entry, box):
             ## check
             check_result = True
             if not check_result:
-                box = TaskName.build(box)
+                box = TaskName(box)
                 _DootPostBox.put(box, x.value)

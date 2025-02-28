@@ -86,5 +86,5 @@ def get_orphans(spec, state, entry, box):
             pass
         case x:
             printer.info("Orphan Reference found: %s", x.key)
-            box = TaskName.build(box)
+            box = TaskName(box)
             _DootPostBox.put(box, x.key)
