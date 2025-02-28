@@ -69,9 +69,9 @@ def join_stubs(spec, state, _from, _update):
     return { _update : "\n\n".join(stubs) }
 
 def select_refiled(target:pl.Path):
-    logging.warning("Testing: %s", target)
+    logging.debug("Testing: %s", target)
     return target.stem.startswith("_refiled_") and not target.is_dir()
 
 def not_copied(target:pl.Path):
-    printer.info("Testing: %s", target)
+    printer.debug("Testing: %s", target)
     return target.is_file() and not target.name.startswith("_copied_")
