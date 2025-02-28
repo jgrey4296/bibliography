@@ -56,6 +56,6 @@ version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
 depends_on           = ["file::>{bookmarks}"]                   # <list[DootTaskArtifact]>
 actions              = [
-   { do="dootle.bookmarks:Load", from="{bookmarks!p}", update_="total_bkmks" },
+   { do="dootle.bookmarks:DoLoad", from="{bookmarks!p}", update_="total_bkmks" },
    { do="post.put", args=["{total_bkmks}"] },
 ]
