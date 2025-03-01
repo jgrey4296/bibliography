@@ -1,5 +1,6 @@
 ## export.toml -*- mode: toml -*-
-doot-version = "0.13"
+doot-version = "1.0"
+
 
 [[locations]]
 bib_export    = "{export}/bib"
@@ -8,7 +9,7 @@ rst_export    = "{export}/rst"
 [[tasks.export]]
 name             = "_.latex.encoded.bib"
 doc              = ["export a bibtex, with latex encoding"]
-cli              = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
+cli              = [{ name="<1>fpath", type="str", default="", desc=""}]
 export_bases     = ["{bib!p}"]
 depends_on       = [
         { do="relative?", args=["{fpath!p}"], bases_="export_bases" },
@@ -34,7 +35,7 @@ cleanup = [
 
 [[tasks.export]]
 name       = "_.to.rst"
-cli        = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
+cli        = [{ name="-fpath", type="str", default="", desc=""}]
 depends_on = [
         {do="relative?",  args=["{fpath!p}"], bases=["{bib!p}"]},
         {do="path.elements", from_="fpath", roots=["{bib!p}"]},
@@ -69,7 +70,7 @@ cleanup = []
 [[tasks.export]]
 name             = "_.to.tex"
 ctor             = "task"
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
+cli              = [{ name="-fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 author           = "jg"
 depends_on       = [

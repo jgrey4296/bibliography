@@ -1,5 +1,5 @@
 ## bookmark.toml -*- mode: toml -*-
-doot-version = "0.13"
+doot-version = "1.0"
 
 [[locations]]
 firefox       = "~/snap/firefox/common/.mozilla/firefox"
@@ -9,7 +9,7 @@ name                 = "update"
 doc                  = ["Merge firefox bookmarks into bibliography repo"]
 version              = "0.1"                # <str>
 ctor                 = "task"               # <type>
-cli                  = [{ name="files", prefix=1,  type="list", default=[]}]
+cli                  = [{ name="<1>files", type="list", default=[]}]
 db_name              = "places.sqlite"
 log_file             = "{temp!p}/logs/bookmark_update.log"
 depends-on           = [

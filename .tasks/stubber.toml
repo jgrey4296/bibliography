@@ -1,5 +1,5 @@
 ## stubber.toml -*- mode: toml -*-
-doot-version = "0.13"
+doot-version = "1.0"
 
 [[locations]]
 todo_bib   = "file::>{home_repo}/submodules_/bibliography/in_progress/todo.bib"

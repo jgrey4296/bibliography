@@ -1,5 +1,5 @@
 ## util.toml -*- mode: toml -*-
-doot-version = "0.13"
+doot-version = "1.0"
 
 [[locations]]
 chunked      = "{temp}/chunked"
@@ -35,7 +35,7 @@ disabled         = true
 name             = "chunk.dir"
 doc              = ["Split a directory of bibtex into chunks of a limited number of entries"]
 ctor             = "job"
-cli              = [{ name="fpath", type="str", prefix="-", default="", desc=""}]
+cli              = [{ name="-fpath", type="str", default="", desc=""}]
 roots            = ["{fpath!p}"]
 exts             = [".bib"]
 recursive        = false

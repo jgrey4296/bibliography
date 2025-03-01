@@ -1,5 +1,6 @@
 ## online.toml -*- mode: toml -*-
-doot-version = "0.13"
+doot-version = "1.0"
+
 
 [[locations]]
 online_todo   = "file::>{home_repo}/submodules_/bibliography/in_progress/online.bib"

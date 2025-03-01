@@ -1,5 +1,5 @@
 ## compile.toml -*- mode: toml -*-
-doot-version = "0.13"
+doot-version = "1.0"
 
 [[locations]]
 tex_template  = "file::>~/github/_templates/tex-config/tex/export_template_py.tex"
@@ -13,7 +13,7 @@ cal_export    = "{export}/calendar"
 name             = "_.to.pdf"
 ctor             = "task"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
-cli              = [{ name="fpath", prefix=1, type="str", default="", desc=""}]
+cli              = [{ name="<1>fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
