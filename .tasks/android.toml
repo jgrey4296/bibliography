@@ -2,18 +2,17 @@
 doot-version = "0.13"
 
 [[locations]]
-pdf_source                 = "{data_drive}/library/pdfs"
-push_pdfs                  = "{pdf_source}"
-data_drive                 = "/media/john/data"
-android_root               = "remote::>/storage/6331-3162"
+pdf_source = "{data_drive}/library/pdfs"
+push_pdfs  = "{pdf_source}"
+data_drive = "/media/john/data"
+android_root= "remote::>/storage/6331-3162"
 
 [[tasks.android]]
-name                 = "device.find"
-version              = "0.1"                # <str>
-ctor                 = "task"               # <type>
-doc                  = ["Run Find On the Device, write the results locally"] # <list[str]>
-android_root         = "/storage/6331-3162"
-setup = [
+name         = "device.find"
+version      = "0.1"                # <str>
+doc          = ["Run Find On the Device, write the results locally"] # <list[str]>
+android_root = "/storage/6331-3162"
+setup        = [
     { do="dootle.android.actions:AndroidRunning"} ,
 ]
 actions = [
@@ -23,12 +22,12 @@ actions = [
 
 
 [[tasks.android]]
-name                       = "push.pdfs"
-version                    = "0.1"
-ctor                       = "job"
-doc                        = ["Push pdfs to device"]
-accept_fn                  = "taskscode.android:select_dirs"
-roots                      = ["{push_pdfs!p}"]
+name        = "push.pdfs"
+version     = "0.1"
+ctor        = "job"
+doc         = ["Push pdfs to device"]
+accept_fn   = "taskscode.android:select_dirs"
+roots       = ["{push_pdfs!p}"]
 actions     = [
     {do="job.walk",   update_="files"},
     {do="job.expand", from_="files", update_="tasks", inject={insert=['fpath'], now=["android_root!p"]}, template_="sub_actions"},
