@@ -7,7 +7,6 @@ chunk_failed = "{chunked}/failed"
 
 [[tasks.util]]
 name                 = "_.missing.pdfs"
-version              = "0.1"                                    # <str>
 doc                  = ["list any bibs that don't have an exported bib, or a built pdf"]
 ctor                 = "job"                                   # <str>
 queue_behaviour      = "default"                                # <str>                default | auto | reactive
@@ -107,7 +106,6 @@ actions    = [
 
 [[tasks.util]]
 name          = "_.report.broken.urls"
-version       = "0.1"
 must_inject   = ["postbox"]
 actions       = [
         # Get reported broken urls

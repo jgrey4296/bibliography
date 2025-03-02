@@ -35,8 +35,6 @@ name               = "_.filesystem"
 doc                = ["walk the library filesystem, summarising all existing files"]
 cli                = [{ name="-fpath", type="str", default="{lib-root}", desc=""}]
 fpath              = "{lib-root!p}"
-ctor               = "task"
-version            = "0.1"
 # required_for       = ["file::{orphans}/{fstem}.fs.files"]
 roots              = ["{lib-root!p}/{fstem}"]
 exts               = [".pdf", ".epub"]
@@ -52,7 +50,6 @@ actions            = [
 [[tasks.orphans]]
 name         = "_.report"
 doc          = ["reports a diff of bib referenced files against the filesystem"]
-ctor         = "task"
 priority     = 1
 # depends_on = ["file::>{orphans}/bib.files", "file::>{orphans}/fs.files"]
 actions      = [

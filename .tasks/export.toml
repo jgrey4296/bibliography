@@ -69,7 +69,6 @@ cleanup = []
 
 [[tasks.export]]
 name             = "_.to.tex"
-ctor             = "task"
 cli              = [{ name="-fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 author           = "jg"

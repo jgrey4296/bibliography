@@ -44,7 +44,6 @@ actions          = [
 name        = "_.single.entry"
 doc         = ["Targets: pre20th, 20th_a, 20th_b, 21st_a, 21st_b"]
 must_inject = ["entry"]
-ctor        = "task"
 roots       = ["{pdf_source!p}"]
 actions     = [
     {do="taskcode.bibtex:log_entry_name"},

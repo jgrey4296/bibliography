@@ -1,10 +1,8 @@
 ## changed.toml -*- mode: toml -*-
+## Collected tasks for processing changed files after they have been committed
 doot-version = "1.0"
 
 
-## Collected tasks for processing changed files after they have been committed
-##
-##
 [[locations]]
 processed    = "{temp}/processed"
 data_drive   = "/media/john/data"
@@ -72,7 +70,6 @@ cleanup = []
 name                    = "_.single.entry.update"
 doc                     = ["Entry tasks that do not modify the entry itself"]
 must_inject             = ["entry"]
-ctor                    = "task"
 roots                   = ["{pdf_source!p}"]
 shadow_roots            = ["{backup_1!p}/library/pdfs", "{backup_2!p}/library/pdfs"]
 setup                   = []

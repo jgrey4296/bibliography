@@ -7,8 +7,6 @@ firefox       = "~/snap/firefox/common/.mozilla/firefox"
 [[tasks.bookmark]]
 name                 = "update"
 doc                  = ["Merge firefox bookmarks into bibliography repo"]
-version              = "0.1"                # <str>
-ctor                 = "task"               # <type>
 cli                  = [{ name="<1>files", type="list", default=[]}]
 db_name              = "places.sqlite"
 log_file             = "{temp!p}/logs/bookmark_update.log"
@@ -29,13 +27,12 @@ actions              = [
    { do="append!", args=["* {_date}", "{bkmks_str}"], to="{log_file!p}" },
    { do="write!", from_="bkmks_str", to="{temp!p}/merged.bookmarks" },
    { do="write!", from_="bkmks_str", to="{bookmarks!p}" },
-]                                                                                                        # <list[Any]>
+]                                                                                                        
 
 [[tasks.bookmark]]
 name                 = "_.firefox"
 doc                  = ["Copy and extract firefox bookmarks"]
 version              = "0.1"                
-ctor                 = "task"               
 db_name              = "places.sqlite"
 cleanup = [
    { do="delete!", args=["{temp!p}/{db_name}", "{temp!p}/{db_name}-shm", "{temp!p}/{db_name}-wal"], lax=true },
@@ -53,9 +50,8 @@ actions              = [
 [[tasks.bookmark]]
 name                 = "_.archived"
 doc                  = ["Read existing bookmarks ready to merge new firefox bookmarks"]
-version              = "0.1"                # <str>
-ctor                 = "task"               # <type>
-depends_on           = ["file::>{bookmarks}"]                   # <list[DootTaskArtifact]>
+version              = "0.1"
+depends_on           = ["file::>{bookmarks}"] 
 actions              = [
    { do="dootle.bookmarks:DoLoad", from="{bookmarks!p}", update_="total_bkmks" },
    { do="post.put", args=["total_bkmks"] },

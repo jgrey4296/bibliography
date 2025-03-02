@@ -20,7 +20,6 @@ name        = "build"
 doc         = ["build sphinx"]
 cli         = [{name="warn", type="bool", default=true},]
 must_inject = ["warn"]
-ctor        = "task"
 doc_builder = "html"
 env_name    = "default"
 depends_on  = []
@@ -53,7 +52,6 @@ cleanup = []
 name        = "build.file"
 doc         = ["build sphinx project documentation"]
 cli         = [{name="fpath", type="str", default=""}]
-ctor        = "task"
 doc_builder = "html"
 env_name    = "default"
 setup       = [

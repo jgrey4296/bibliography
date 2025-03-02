@@ -8,8 +8,6 @@ online_saves  = "/media/john/data/todo/pdfs/online"
 
 [[tasks.online]]
 name             = "download.entries"
-version          = "0.1"
-ctor             = "task"
 doc              = ["save todo online entries as pdfs"]
 fpath            = "{online_todo}"
 depends_on       = [

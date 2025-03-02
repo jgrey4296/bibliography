@@ -1,7 +1,6 @@
 ## metadata.toml -*- mode: toml -*-
 doot-version = "1.0"
 
-
 [[locations]]
 meta_backup = "file::>{logs}/meta_backup.jsonl"
 fail_log    = "file::>{logs}/meta_failures.txt"
@@ -10,8 +9,6 @@ meta_cache  = "file::>{temp}/metadata.commit_cache"
 [[tasks.meta]]
 name             = "_.single.file"
 doc              = ["update the file metadata for all entries in a single bib file"]
-version          = "0.1"
-ctor             = "task"
 cli              = [{ name="-fpath", type="str", default="", desc=""}]
 roots            = ["{pdf_source!p}", "{bib!p}"]
 depends_on       = [
