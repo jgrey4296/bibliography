@@ -4,7 +4,8 @@ doot-version = "1.0"
 [[locations]]
 firefox       = "~/snap/firefox/common/.mozilla/firefox"
 
-[[tasks.bookmark]]
+[[tasks.bookmarks]]
+disabled = true
 name                 = "update"
 doc                  = ["Merge firefox bookmarks into bibliography repo"]
 cli                  = [{ name="<1>files", type="list", default=[]}]
@@ -12,14 +13,14 @@ db_name              = "places.sqlite"
 log_file             = "{temp!p}/logs/bookmark_update.log"
 depends-on           = [
    { do="dootle.utils:skip_if_recent", target="{bookmarks!p}"},
-   "bookmark::_.firefox",
-   "bookmark::_.archived"
+   "bookmarks::_.firefox",
+   "bookmarks::_.archived"
 ]
 setup = [
    { do="doot.actions.state:AddNow", format="%Y-%m-%d : %H:%M", update_="_date"},
 ]
 actions              = [
-   { do="post.get", head_firefox_bkmks="bookmark::_.firefox..-", head_archived_bkmks="bookmark::_.archived..-" },
+   { do="post.get", head_firefox_bkmks="bookmarks::_.firefox..-", head_archived_bkmks="bookmarks::_.archived..-" },
    { do="dootle.bookmarks:Merge", from=["head_archived_bkmks", "head_firefox_bkmks"], update_="total_bkmks" },
    { do="dootle.bookmarks:RemoveDuplicates", from_="total_bkmks" },
    # TODO Clean Tags
@@ -29,7 +30,7 @@ actions              = [
    { do="write!", from_="bkmks_str", to="{bookmarks!p}" },
 ]                                                                                                        
 
-[[tasks.bookmark]]
+[[tasks.bookmarks]]
 name                 = "_.firefox"
 doc                  = ["Copy and extract firefox bookmarks"]
 version              = "0.1"                
@@ -47,7 +48,7 @@ actions              = [
    { do="post.put", args=["firefox_bkmks"] },
 ]
 
-[[tasks.bookmark]]
+[[tasks.bookmarks]]
 name                 = "_.archived"
 doc                  = ["Read existing bookmarks ready to merge new firefox bookmarks"]
 version              = "0.1"

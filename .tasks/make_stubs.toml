@@ -7,8 +7,12 @@ dropbox    = "~/Dropbox/docs"
 downloads  = "~/Downloads"
 todo_pdfs  = "/media/john/data/todo/pdfs"
 
-[[tasks.stub]]
-name             = "+.files"
+[[tasks.make]]
+name = "bibtex.stubs"
+depends-on = ["make::+._.stubs.grep"]
+
+[[tasks.make]]
+name             = "+._.stubs.grep"
 doc              = ["Move pdfs and epubs into working directory, create stub entry for each one"]
 queue_behaviour  = "default"                             
 exts             = [".pdf", ".epub"]                     
@@ -36,18 +40,3 @@ cleanup = [
         {do="doot.actions.io:AppendAction", args=["{text}"], sep="\n", to="{todo_bib!p}"},
 ]
 
-[[tasks.stub]]
-name        = "+.cleanup"
-doc         = ["Cleanup refiled pdfs and epubs"]
-accept_fn   = "taskcode.stubber:select_refiled"
-roots       = ["{todo_pdfs!p}", "{todo_pdfs!p}/stubbed/", "{todo_pdfs!p}/online"]
-recursive   = false
-actions     = [
-            {do="log", msg="Queuing Cleanup of old files"},
-            {do="job.walk",   update_="files", fn_="accept_fn"}, # walk,
-            {do="job.expand", from_="files", update_="tasks", inject={insert=["fpath"]}, template_="sub_actions"},
-            {do="job.queue",  from_="tasks"}, # queue
-]
-sub_actions = [
-    {do="delete!", args=["{fpath!p}"]}
-]

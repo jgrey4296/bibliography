@@ -1,5 +1,8 @@
-## compile.toml -*- mode: toml -*-
-## 
+## pdfs.toml -*- mode: toml-mode -*-
+# Summary:
+#
+# Tags:
+#
 doot-version = "1.0"
 
 [[locations]]
@@ -10,15 +13,16 @@ pdf_export    = "{export}/pdfs"
 html_export   = "{export}/html"
 cal_export    = "{export}/calendar"
 
-[[tasks.compile]]
-name             = "_.to.pdf"
+[[tasks.make]]
+disabled = true
+name             = "pdf.from.bibtex"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
 cli              = [{ name="<1>fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
-    {task="export::_.latex.encoded.bib", inject={now=["fpath"]}},
-    {task="export::_.to.tex", inject={now=["fpath"]}},
+    {task="bibtex::export.to.latex",   inject={now=["fpath"]}},
+    {task="make::_.generate.tex", inject={now=["fpath"]}},
     {do="installed?", args=["pdftex", "bibtex"] },
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath", roots=["{bib!p}"]},
@@ -52,4 +56,29 @@ cleanup = [
     {do="exists?", args=["{out!p}/{fstem}.pdf"], not=true},
     # put the final pdf in the pdf export loc place
     {do="move", from="{tex_export!p}/{fstem}.pdf", to="{pdf_export!p}/{fstem}.pdf", force=true},
+]
+
+[[tasks.make]]
+name             = "_.generate.tex"
+cli              = [{ name="-fpath", type="str", default="", desc=""}]
+must_inject      = ["fpath"]
+author           = "jg"
+depends_on       = [
+    {task="bibtex::export.to.latex", inject={now=["fpath"]}},
+    {task="compile::_.gen.template", inject={now=["fpath"]}},
+    {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
+    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+    # skip if the exported bib exists and is recent
+    {do="dootle.utils:skip_if_stale", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
+]
+setup            = [
+    # Load template
+    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+    {do="read",          from="{tex_template!p}", update_="template"},
+]
+actions =[
+    # expand the template
+    {do="dootle.utils:ExpandTemplate", template_="template", title="{fstem}", target="./{fstem}.bib", update_="tex"},
+    # Write it to a temp file
+    {do="write!", from_="tex", to="{tex_export!p}/{fstem}.tex"},
 ]

@@ -1,26 +1,30 @@
-## refile.toml -*- mode: toml -*-
+## _lib_files.toml -*- mode: toml -*-
+# Summary:
+#
+# Tags:
+#
 doot-version = "1.0"
 
 [[locations]]
+orphans   = "{temp}/orphans"
 structlib = "{data_drive}/library/pdfs_structured"
 
-[[tasks.refile]]
-name    = "_.one.file"
+[[tasks.lib-files]]
+disabled = true
+name    = "+.refile"
 doc     = [
     "refile each file in each bibtex entry",
     "retargets files into groups based on century"
 ]
-version = "0.1"
-ctor    = "job"
-cli     = [{ name="-fpath", type="str", default="", desc=""}]
-must_inject = ["fpath"]
+cli              = [{ name="-fpath", type="str", default="", desc=""}]
+must_inject      = ["fpath"]
 roots            = ["{bib!p}"]
 depends_on       = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"],   fail=true},
-    { task="format::_.single.file",       inject={now=["fpath"]} },
+    { task="bibtex::format", inject={now=["fpath"]} },
 ]
 setup            = [
     # build the parse and export stacks, and the db
@@ -36,11 +40,11 @@ actions          = [
     # TODO transform entries
     { do="dootle.bibtex:ToStr",  from_="bib_db",    update_="bib_text", writer_="bib_writer", to="{fpath!p}" },
     # Queue Entry Subtasks:
-    { do="taskcode.metadata:GenBibEntryTask", template="refile::_.single.entry", from_="bib_db", update_="entry_tasks"},
+    { do="taskcode.metadata:GenBibEntryTask", template="lib-files::_.single.entry", from_="bib_db", update_="entry_tasks"},
     { do="job.queue", from_="entry_tasks" },
 ]
 
-[[tasks.refile]]
+[[tasks.lib-files]]
 name        = "_.single.entry"
 doc         = ["Targets: pre20th, 20th_a, 20th_b, 21st_a, 21st_b"]
 must_inject = ["entry"]
@@ -53,3 +57,7 @@ actions     = [
     # build dirs
     # hardlink
 ]
+
+[[tasks.lib-files]]
+disabled = true 
+name     = "orphans"

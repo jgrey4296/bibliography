@@ -8,6 +8,7 @@ data_drive = "/media/john/data"
 android_root= "remote::>/storage/6331-3162"
 
 [[tasks.android]]
+disabled     = true
 name         = "device.find"
 doc          = ["Run Find On the Device, write the results locally"] 
 setup        = [
@@ -20,6 +21,7 @@ actions = [
 
 
 [[tasks.android]]
+disabled = true
 name        = "+.push.pdfs"
 doc         = ["Push pdfs to device"]
 accept_fn   = "taskscode.android:select_dirs"

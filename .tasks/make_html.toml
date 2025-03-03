@@ -1,0 +1,41 @@
+## make_html.toml -*- mode: toml-mode -*-
+# Summary:
+#
+# Tags:
+#
+doot-version = "1.0"
+
+[[locations]]
+doc_src = "."
+doc_out = ".site"
+
+[[tasks.make]]
+disabled = true
+name        = "html.site"
+doc         = ["build sphinx"]
+cli         = [{name="warn", type="bool", default=true},]
+must_inject = ["warn"]
+doc_builder = "html"
+env_name    = "default"
+depends_on  = []
+setup       = [
+    { do="dootle.python:MambaEnv", env_="env_name", update_="env"},
+    { do="installed?", args=["sphinx-build"], env_="env"},
+    { do="exists?", args=["{doc_src!p}/conf.py"] },
+]
+actions = [
+    { do="shell!", env_="env", args=["sphinx-build",
+    "-D", "keep_warnings=True",
+    "--fresh-env",
+    # "--verbose", "--verbose", "--nitpicky",
+    "--write-all",
+    "--keep-going", "--show-traceback",
+    "--warning-file", "{logs!p}/sphinx.log",
+    "--builder", "{doc_builder}",
+    "{doc_src!p}", "{doc_out!p}",
+    ]},
+
+    # {do="taskcode.refresher:refresh_firefox"},
+    {do="shell!", args=["notify-send", "--expire-time=1000", "--transient", "Finished Building Docs"]},
+    ]
+cleanup = []

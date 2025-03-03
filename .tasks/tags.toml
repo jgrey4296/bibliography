@@ -1,4 +1,8 @@
-## tags.toml -*- mode: toml -*-
+## tags.toml -*- mode: toml-mode -*-
+# Summary:
+#
+# Tags:
+#
 doot-version = "1.0"
 
 [[locations]]
@@ -7,9 +11,9 @@ canon_tag_file   = "file::>{temp}/tags/canon.tags"
 bkmk_tag_file    = "file::>{temp}/tags/bkmks.tags"
 total_subs_file  = "file::>{temp}/tags/total.subs"
 
-
 [[tasks.tags]]
-name         = "_.build.total"
+disabled = true
+name         = "summary"
 doc          = ["build the totals.tags file from individual tag substitution files"]
 roots        = ["{substitutions!p}/general"]
 exts         = [".sub"]
@@ -23,11 +27,11 @@ depends_on   = [
 ]
 actions   = [
     { do="taskcode.subs:read_subs", from_all_="files", update_="subs" },
-    { do="post.put", "tags::read..allsubs"=["{subs}"] },
+    { do="post.put", "tags::summary..allsubs"=["{subs}"] },
 ]
 head_actions = [
     { do="log", msg="Building Canon Tags"},
-    { do="post.get", sub_objs="tags::read..allsubs" },
+    { do="post.get", sub_objs="tags::summary..allsubs" },
     { do="taskcode.tags:read_tags", from="{bkmk_tag_file!p}", update_="bkmk_tags" },
     { do="taskcode.subs:aggregate_subs", args=["sub_objs", "bkmk_tags"] },
     # Write out to temp files
@@ -72,10 +76,9 @@ actions        = [
     { do="write!",        from_="new_tags", to="{temp!p}/tags/{fstem}_new.tags"},
 ]
 
-
-
 [[tasks.tags]]
-name         = "_.update.subs"
+disabled = true
+name         = "substitutions"
 docs         = ["Get kv sets from the bib library, diff to known sub files, write the results"]
 must_inject  = ["postbox"]
 required_for = []

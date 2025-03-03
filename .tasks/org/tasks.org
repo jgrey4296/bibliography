@@ -1,0 +1,46 @@
+#+TITLE: Tasks
+
+* Main
+
+** DONE make::+.stubs
+- State "DONE"       from              [2025-03-03 Mon 12:42]
+
+copy files -> create bibtex stubs -> write to todos.bib
+
+** DONE util::+.cleanup.refiled
+- State "DONE"       from              [2025-03-03 Mon 12:43]
+
+delete all refiled files
+
+** [∅] bookmark::update
+merges bookmarks with firefox bookmarks
+
+- needs pony/alchemy code updated
+
+** [∅] precommit::validate
+checks commit message format.
+
+- activate
+- test
+
+
+** [∅] precommit::post
+after commit, format changed files ready to extend the commit
+
+
+- activate
+- test
+** [∅] android::+.push.pdfs
+push library to device
+
+- test
+** [∅] summary::*
+** [∅] docs::build
+build exported bibs to html
+** [∅] online::download.entries
+
+* other
+
+** add 'notify-send' to dootle
+
+* Links

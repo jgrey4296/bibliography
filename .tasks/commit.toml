@@ -1,0 +1,15 @@
+## commit.toml -*- mode: toml-mode -*-
+# Summary:
+#
+# Tags:
+#
+doot-version = "1.0"
+
+[[tasks.commit]]
+name     = "validate"
+doc      = ["Validate a commit message"]
+cli      = [{ name="msgfile",   default="", type="str"}]
+actions  = [
+         {do="read", from_="msgfile", update_="text"},
+         {do="taskcode.precommit:validate", from_="text"}
+]

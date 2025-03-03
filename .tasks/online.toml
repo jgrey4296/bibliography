@@ -9,7 +9,7 @@ online_saves  = "/media/john/data/todo/pdfs/online"
 [[tasks.online]]
 name             = "download.entries"
 doc              = ["save todo online entries as pdfs"]
-fpath            = "{online_todo}"
+fpath            = "{online_todo!p}"
 depends_on       = [
     { do="dir!", args=["{online_saves!p}"]},
     { do="ext?", args=["{fpath!p}"], exts=[".bib"] },
@@ -30,6 +30,10 @@ actions          = [
     { do="write!", from_="bib_text", to="{temp!p}/{fstem}_saved.bib"},
 ]
 cleanup          = [
-    { do="taskcode.online:shutdown_firefox" },
+    { do="fn::taskcode.online:shutdown_firefox" },
     # TODO write failed blocks
 ]
+
+[[tasks.online]]
+disabled = true 
+name     = "broken.urls"

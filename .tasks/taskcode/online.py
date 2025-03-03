@@ -33,39 +33,38 @@ import bibble as BM
 import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 
+from jgdv.structs.dkey import DKeyed
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
+from doot.structs import TaskName
 from doot.enums import ActionResponse_e
-from doot.actions.postbox import _DootPostBox
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
+import bibble as BM
 
 ##-- logging
 logging = logmod.getLogger(__name__)
-##-- end logging
 printer = logmod.getLogger("doot._printer")
+##-- end logging
 
 FF_DRIVER          = "__$ff_driver"
 READER_PREFIX      = "about:reader?url="
 LOAD_TIMEOUT       = 2
 WAYBACK_USER_AGENT = "Mozilla/5.0 (Windows NT 5.1; rv:40.0) Gecko/20100101 Firefox/40.0"
 
-import bibble as BM
-
 def shutdown_firefox(spec, state):
     BM.files.OnlineDownloader.close_firefox()
 
-@DKeyed.types("entry")
-@DKeyed.formats("box")
-def link_check(spec, state, entry, box):
-    match entry.fields_dict.get("url", None):
-        case None:
-            return
-        case x:
-            printer.info("Checking Url: %s", x.value)
-            ## check
-            check_result = True
-            if not check_result:
-                box = TaskName(box)
-                _DootPostBox.put(box, x.value)
+# @DKeyed.types("entry")
+# @DKeyed.formats("box")
+# def link_check(spec, state, entry, box):
+#     match entry.fields_dict.get("url", None):
+#         case None:
+#             return
+#         case x:
+#             printer.info("Checking Url: %s", x.value)
+#             ## check
+#             check_result = True
+#             if not check_result:
+#                 box = TaskName(box)
+#                 _DootPostBox.put(box, x.value)
