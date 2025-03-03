@@ -28,21 +28,17 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-import more_itertools as mitz
-##-- end lib imports
-
-##-- logging
-logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
-##-- end logging
-
 import doot
 import doot.errors
 from doot.structs import DKey, DKeyed, TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
 from bibble.metadata import TagsReader
 from doot.actions.postbox import _DootPostBox
+
+##-- logging
+logging = logmod.getLogger(__name__)
+printer = logmod.getLogger("doot._printer")
+##-- end logging
 
 @DKeyed.paths("from")
 @DKeyed.redirects("update_")

@@ -28,15 +28,12 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-import more_itertools as mitz
-##-- end lib imports
+import doot
+import doot.errors
+from doot.structs import DKey
 
 ##-- logging
 logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
-import doot
-import doot.errors
-from doot.structs import DKey

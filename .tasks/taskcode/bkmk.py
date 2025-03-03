@@ -19,8 +19,6 @@ import re
 import time
 import types
 import weakref
-# from copy import deepcopy
-# from dataclasses import InitVar, dataclass, field
 from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generic,
                     Iterable, Iterator, Mapping, Match, MutableMapping,
                     Protocol, Sequence, Tuple, TypeAlias, TypeGuard, TypeVar,
@@ -29,9 +27,6 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-import more_itertools as mitz
-##-- end lib imports
 
 ##-- logging
 logging = logmod.getLogger(__name__)

@@ -28,21 +28,16 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-import more_itertools as mitz
-##-- end lib imports
+import doot
+import doot.errors
+from doot.structs import DKey, DKeyed
 
 ##-- logging
 logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
-import doot
-import doot.errors
-from doot.structs import DKey, DKeyed
-
 HEAD_TAG_RE = re.compile(r"^\[\w+\]")
-
 
 @DKeyed.formats("text")
 def validate(spec, state, text):

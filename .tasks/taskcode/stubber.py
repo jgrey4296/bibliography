@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 See EOF for license/metadata/notes as applicable
 """
 
@@ -29,10 +28,6 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-import more_itertools as mitz
-##-- end lib imports
-
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
@@ -41,7 +36,6 @@ printer = logmod.getLogger("doot._printer")
 import doot
 import doot.errors
 from doot.structs import DKey, DKeyed
-
 
 @DKeyed.paths("to")
 @DKeyed.redirects("update_")
@@ -56,7 +50,6 @@ def gen_stub(spec, state, _fpath, _update):
     stub.append(f"  file = {{{_fpath}}},")
     stub.append("}")
     return { _update : "\n".join(stub) }
-
 
 @DKeyed.types("from", check=list|None)
 @DKeyed.redirects("update_")

@@ -28,20 +28,17 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-import more_itertools as mitz
-##-- end lib imports
-
-##-- logging
-logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
-##-- end logging
 
 import bibtexparser as BTP
 import doot
 import doot.errors
 from doot.structs import DKey, DKeyed
 from doot.enums import ActionResponse_e as ActE
+
+##-- logging
+logging = logmod.getLogger(__name__)
+printer = logmod.getLogger("doot._printer")
+##-- end logging
 
 @DKeyed.types("count")
 def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], count:int|str) -> list:

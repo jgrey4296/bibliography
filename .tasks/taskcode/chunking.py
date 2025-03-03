@@ -27,7 +27,6 @@ import bibble as BM
 import bibtexparser as BTP
 import doot
 import doot.errors
-import more_itertools as mitz
 from bibtexparser import middlewares as ms
 from doot.structs import DKeyed
 

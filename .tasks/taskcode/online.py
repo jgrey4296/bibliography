@@ -28,17 +28,6 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-# import more_itertools as mitz
-# from boltons import
-##-- end lib imports
-
-##-- logging
-logging = logmod.getLogger(__name__)
-##-- end logging
-
-printer = logmod.getLogger("doot._printer")
-
 from waybackpy import WaybackMachineSaveAPI
 import bibble as BM
 import bibtexparser as BTP
@@ -51,6 +40,11 @@ from doot.enums import ActionResponse_e
 from doot.actions.postbox import _DootPostBox
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
+
+##-- logging
+logging = logmod.getLogger(__name__)
+##-- end logging
+printer = logmod.getLogger("doot._printer")
 
 FF_DRIVER          = "__$ff_driver"
 READER_PREFIX      = "about:reader?url="

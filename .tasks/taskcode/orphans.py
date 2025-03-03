@@ -28,20 +28,15 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-##-- lib imports
-# import more_itertools as mitz
-# from boltons import
-##-- end lib imports
+import doot
+import doot.errors
+from doot.structs import DKey, DKeyed, TaskName
+from doot.actions.postbox import _DootPostBox
 
 ##-- logging
 logging = logmod.getLogger(__name__)
 printer = logmod.getLogger("doot._printer")
 ##-- end logging
-
-import doot
-import doot.errors
-from doot.structs import DKey, DKeyed, TaskName
-from doot.actions.postbox import _DootPostBox
 
 @DKeyed.types("bib_db")
 @DKeyed.redirects("update_")
@@ -53,7 +48,6 @@ def get_db_files(spec, state, _db, _update):
         filelist.update({v.value for k,v in fields.items() if "file" in k})
 
     return { _update : filelist }
-
 
 @DKeyed.types("bib")
 @DKeyed.types("fs")
@@ -72,7 +66,6 @@ def diff_filelists(spec, state, _bib, _fs):
 def format_filelist(spec, state, _files, _update):
     result = "\n".join(sorted(str(x) for x in _files))
     return { _update : result }
-
 
 @DKeyed.types("entry")
 @DKeyed.formats("box")
