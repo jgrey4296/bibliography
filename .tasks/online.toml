@@ -17,8 +17,9 @@ depends_on       = [
 setup            = [
       { do="path.elements",             from_="fpath" },
       { do="dootle.bibtex:InitDb",      update_="bib_db"},
-      { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_online_download_stack"},
-      { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_online_download_stack" },
+      { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="download_stack"},
+      { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="download_stack"},
+      { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="download_stack" },
 ]
 actions          = [
     { do="log", msg="Downloading Entries" },

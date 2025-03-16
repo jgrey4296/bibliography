@@ -38,7 +38,8 @@ setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:InitDb",   update_="bib_db"},
-    { do="dootle.bibtex:BuildReader", stack="taskcode.parse_stacks:build_meta_stack",  update_="bib_reader"},
+    { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="validate_stack"},
+    { do="dootle.bibtex:BuildReader", stack_="validate_stack",  update_="bib_reader"},
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
@@ -126,8 +127,9 @@ setup = [
         { do="taskcode.subs:read_subs",  from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" ", sub_sep="::"},
         { do="taskcode.subs:read_subs",  from_all_="general_subs",    update_="other_subs",  sub_norm_replace=" ", sup_sep="::"},
 
-        { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_general_stack"},
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_format_stack"},
+        { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="format_stack"},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="format_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="format_stack"},
 ]
 actions          = [
         {do="log", msg="Formatting: {fpath!p}"},
@@ -137,7 +139,6 @@ actions          = [
         # Write formatted out
         { do="dootle.bibtex:ToStr",  from_="bib_db", update_="bib_text", writer_="bib_writer"},
         { do="write!", from_="bib_text", to="{fpath!p}"},
-        # TODO write failed blocks
 ]
 
 [[tasks.bibtex]]
@@ -154,8 +155,9 @@ depends_on       = [
 ]
 setup           = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
-        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack="taskcode.parse_stacks:build_general_stack" },
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer",   stack="taskcode.write_stacks:build_export_latex_stack" },
+        { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="latex_stack"},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack_="latex_stack" },
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",   stack_="latex_stack" },
 ]
 actions = [
         { do="log", msg="Exporting: {fname}" },
@@ -179,12 +181,13 @@ depends_on = [
         {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{rst_export!p}/{fstem}.rst" },
 
 ]
-setup           = [
+setup   = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
-        { do="dootle.bibtex:BuildReader", update_="bib_reader",  stack="taskcode.parse_stacks:build_general_stack"},
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  class="bibble.io.RstWriter", stack="taskcode.write_stacks:build_export_rst_stack"},
+        { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="rst_stack"},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",  stack_="rst_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  stack_="rst_stack", class="bibble.io.RstWriter"},
 ]
-actions              = [
+actions = [
         {do="log", msg="Exporting {fname} to rst"},
         { do="dootle.bibtex:DoLoad",  from_="fpath",  update_="bib_db",   reader-="bib_reader"},
         { do="dootle.bibtex:ToStr",   from_="bib_db", update_="bib_text", writer_="bib_writer", to="{rst_export!p}/{fstem}.rst"},

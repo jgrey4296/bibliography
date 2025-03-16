@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
-
 """
 
 from __future__ import annotations
@@ -34,7 +32,6 @@ from doot.actions.postbox import _DootPostBox
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
-
 
 @DKeyed.paths("from", fallback=None)
 @DKeyed.types("from_all", fallback=[])

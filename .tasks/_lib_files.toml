@@ -30,8 +30,9 @@ setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:InitDb",      update_="bib_db"},
-    { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_meta_stack"},
-    { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_format_stack"},
+    { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="refile_stack"},
+    { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="refile_stack"},
+    { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="refile_stack"},
 ]
 actions          = [
     { do="log", msg="Refiling Entries in: {fpath}", level="WARN"},
