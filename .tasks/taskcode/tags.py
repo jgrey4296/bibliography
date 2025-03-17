@@ -33,7 +33,7 @@ import doot.errors
 from doot.structs import DKey, DKeyed, TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
 from bibble.metadata import TagsReader
-from doot.actions.postbox import _DootPostBox
+from dootle.actions.postbox import _DootPostBox
 
 ##-- logging
 logging = logmod.getLogger(__name__)

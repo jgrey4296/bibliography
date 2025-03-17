@@ -17,14 +17,14 @@ depends_on       = [
 setup            = [
       { do="path.elements",             from_="fpath" },
       { do="dootle.bibtex:InitDb",      update_="bib_db"},
-      { do="taskcode.io_stack.build_new_stack", stack_meta=[] update_="download_stack"},
+      { do="taskcode.io_stack:build_new_stack", update_="download_stack", all=true},
       { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="download_stack"},
       { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="download_stack" },
 ]
 actions          = [
     { do="log", msg="Downloading Entries" },
     # Load
-    { do="dootle.bibtex:DoLoad", from_="fpath", update_="bib_db", reader_="bib_reader"},
+    { do="dootle.bibtex:DoRead", from_="fpath", update_="bib_db", reader_="bib_reader"},
     # Write
     # TODO: add a transform action here instead of middleware transform?
     { do="dootle.bibtex:ToStr", from_="bib_db",  update_="bib_text", writer_="bib_writer"},

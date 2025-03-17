@@ -31,6 +31,7 @@ actions              = [
 ]                                                                                                        
 
 [[tasks.bookmarks]]
+disabled = true
 name                 = "_.firefox"
 doc                  = ["Copy and extract firefox bookmarks"]
 version              = "0.1"                
@@ -49,11 +50,12 @@ actions              = [
 ]
 
 [[tasks.bookmarks]]
+disabled = true
 name                 = "_.archived"
 doc                  = ["Read existing bookmarks ready to merge new firefox bookmarks"]
 version              = "0.1"
 depends_on           = ["file::>{bookmarks}"] 
 actions              = [
-   { do="dootle.bookmarks:DoLoad", from="{bookmarks!p}", update_="total_bkmks" },
+   { do="dootle.bookmarks:DoRead", from="{bookmarks!p}", update_="total_bkmks" },
    { do="post.put", args=["total_bkmks"] },
 ]

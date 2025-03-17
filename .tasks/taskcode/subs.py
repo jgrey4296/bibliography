@@ -27,7 +27,7 @@ import doot.errors
 from doot.structs import DKey, DKeyed, TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
 from bibble.metadata import TagsReader
-from doot.actions.postbox import _DootPostBox
+from dootle.actions.postbox import _DootPostBox
 
 ##-- logging
 logging = logmod.getLogger(__name__)
@@ -45,7 +45,7 @@ def read_subs(spec, state, _target, _target_list, _norm_replace, _sep, _update):
         case _:
             target_subs = SubstitutionFile(norm_replace=_norm_replace, sep=_sep)
 
-    for key in [DKey(x, mark=DKey.mark.PATH) for x in _target_list]:
+    for key in [DKey(x, mark=DKey.Mark.PATH) for x in _target_list]:
         subfile = SubstitutionFile.read(key(), norm_replace=_norm_replace, sep=_sep)
         target_subs.update(subfile)
 
@@ -56,7 +56,7 @@ def aggregate_subs(spec, state, args):
     """ merge keys from args together,
       handling tagfiles, and lists of tag files
     """
-    keys = [DKey(x, mark=DKey.mark.FREE, implicit=True) for x in args]
+    keys = [DKey(x, mark=DKey.Mark.FREE, implicit=True) for x in args]
     merged = SubstitutionFile()
     for key in keys:
         match key.expand(spec, state):
