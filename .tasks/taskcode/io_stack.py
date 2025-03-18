@@ -88,13 +88,18 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _namesubs:M_SubF
         raise ValueError(msg, extra)
 
     ALL   = "all" in _meta
+    # Files
     APPLY = ALL or "apply" in _meta
+    CHECK = ALL or "check" in _meta
+    # Export
     LATEX = ALL or "latex" in _meta
+    # General formatting
     FSORT = ALL or "fsort" in _meta
     ESORT = ALL or "esort" in _meta
+    # Meta
     COUNT = ALL or "count" in _meta
+    # Correction
     SUBS  = ALL or "subs" in _meta
-    CHECK = ALL or "check" in _meta
     NAMES = ALL or "names" in _meta
 
     stack = PairStack()

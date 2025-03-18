@@ -49,17 +49,3 @@ printer = logmod.getLogger("doot._printer")
 
 def shutdown_firefox(spec, state):
     BM.files.OnlineDownloader.close_firefox()
-
-# @DKeyed.types("entry")
-# @DKeyed.formats("box")
-# def link_check(spec, state, entry, box):
-#     match entry.fields_dict.get("url", None):
-#         case None:
-#             return
-#         case x:
-#             printer.info("Checking Url: %s", x.value)
-#             ## check
-#             check_result = True
-#             if not check_result:
-#                 box = TaskName(box)
-#                 _DootPostBox.put(box, x.value)
