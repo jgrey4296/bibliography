@@ -147,7 +147,12 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _namesubs:M_SubF
         ])
 
     if CHECK:
-        stack.add(write=[BM.metadata.FileCheck()])
+        stack.add(write=[
+            BM.metadata.FileCheck(),
+            # BM.files.UrlCheck(),
+            # BM.files.Waybacker(),
+        ])
+
 
     stack.add(read=[BM.failure.FailureHandler()])
     return { _update : stack }

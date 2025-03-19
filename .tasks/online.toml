@@ -17,7 +17,7 @@ depends_on       = [
 setup            = [
       { do="path.elements",             from_="fpath" },
       { do="dootle.bibtex:InitDb",      update_="bib_db"},
-      { do="taskcode.io_stack:build_new_stack", update_="download_stack", all=true},
+      { do="taskcode.io_stack:build_new_stack", update_="download_stack"},
       { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="download_stack"},
       { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="download_stack" },
 ]
@@ -35,6 +35,3 @@ cleanup          = [
     # TODO write failed blocks
 ]
 
-[[tasks.online]]
-disabled = true 
-name     = "broken.urls"

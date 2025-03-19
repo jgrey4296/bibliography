@@ -116,7 +116,7 @@ general_subs     = [
 depends_on       = [
         {do="exists?", args=["{fpath!p}"], fail=true },
         {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
-        {path="{total_subs_file}"}
+        "file::>{total_subs_file}",
 ]
 setup = [
         { do="path.elements", from_="fpath", roots=["."]},
