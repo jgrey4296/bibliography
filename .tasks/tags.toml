@@ -12,7 +12,7 @@ bkmks_tags_file    = "file::>{temp}/tags/bkmks.tags"
 total_subs_file    = "file::>{temp}/tags/total.subs"
 
 [[tasks.tags]] # compile
-name         = "+.compile"
+name         = "compile"
 doc          = ["build the totals.tags file from individual tag substitution files"]
 roots        = ["{substitutions!p}/general"]
 exts         = [".sub"]
@@ -26,16 +26,17 @@ depends_on   = [
 ]
 actions   = [
     # walk and read all sub files
-    {do="job.walk",   update_="files"}, # collect sub files
-    {do="taskcode.subs:read_subs", from_all_="files", update_="subs" },
-    {do="post.put", "tags::summary..allsubs"=["{subs}"] },
-    {do="log", msg="Collected Sub files"},
-]
-head_actions = [
-    { do="log", msg="Building Canon Tags"},
-    { do="post.get", sub_objs="tags::summary..allsubs" },
+    { do="log", msg="Reading Substitutions"},
+    { do="job.walk",   update_="files"}, # collect sub files
+    { do="taskcode.subs:read_subs", from_all_="files", update_="subs" },
+    # -- 
+    { do="log", msg="Reading Bookmarks"},
     { do="taskcode.tags:read_tags", from="{bkmks_tags_file!p}", update_="bkmk_tags" },
-    { do="taskcode.subs:aggregate_subs", args=["sub_objs", "bkmk_tags"] },
+    # -- 
+    { do="log", msg="Aggregating"},
+    { do="taskcode.subs:aggregate_subs", args=["subs", "bkmk_tags"] },
+    # -- 
+    { do="log", msg="Writing Totals/Canon/Known"},
     # Write out to temp files
     { do="write!",  from_="total_subs", to="{total_subs_file!p}" },
     # all known, non-canon, tags
@@ -60,47 +61,4 @@ actions = [
         { do="taskcode.bkmk:collect_tags", from_="total_bkmks", update_="tags" },
         # write
         {do="write!", from_="tags", to="{bkmks_tags_file!p}"}
-]
-
-[[tasks.tags]] # calc update
-disabled = true
-name           = "_.calculate.update"
-doc            = ["Calculate the difference between known tags and new tags"]
-must_inject    = ["fpath"]
-roots          = ["{substitutions!p}/general"]
-exts           = [".sub"]
-recursive      = false
-depends_on     = ["tags::_.build.total"]
-actions        = [
-    { do="log", msg="Calculating Tags Update" },
-    # Get existing totals
-    { do="taskcode.tags:read_tags",      from="{known_tag_file!p}", update_="total_tags" },
-    # Calc update
-    { do="taskcode.tags:TagCalculator",  raw_="file_tags", totals_="total_tags"},
-    # Then write them
-    { do="path.elements", from_="fpath", roots=["{bib!p}"] },
-    { do="write!",        from_="new_tags", to="{temp!p}/tags/{fstem}_new.tags"},
-]
-
-[[tasks.tags]] # substitutions
-disabled = true
-name         = "substitutions"
-docs         = ["Get kv sets from the bib library, diff to known sub files, write the results"]
-must_inject  = ["postbox"]
-required_for = []
-sub_mapping  = {publishers="{temp!p}/tags/new_publishers.sub"}
-general_subs = ["{subloc!p}/publisher.sub", "{subloc!p}/series.sub", "{subloc!p}/journals.sub", "{subloc!p}/institution.sub"]
-setup = [
-    { do="post.get", bib_db="{postbox}" },
-    { do="taskcode.subs:read_subs", from_all_="general_subs",      update_="subs",       sub_norm_replace=" "},
-    { do="taskcode.bibtex:get_kv_from_libary", key="all-tags",     update_="all-tags"},
-    { do="taskcode.bibtex:get_kv_from_libary", key="all-pubs",     update_="all-pubs"},
-    { do="taskcode.bibtex:get_kv_from_libary", key="all-series",   update_="all-series"},
-    { do="taskcode.bibtex:get_kv_from_libary", key="all-journals", update_="all-journals"},
-    { do="taskcode.bibtex:get_kv_from_libary", key="all-people",   update_="all-people"},
-]
-actions      = [
-    {do="break!"},
-    # Diff: newvals = [x for x in kvSet if x not in subs]
-    # Write each mapping to temp/tags/new_{}.tags
 ]

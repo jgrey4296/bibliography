@@ -63,22 +63,3 @@ def merge_tagfiles(spec, state, _tagfiles, _update):
     return { _update : merged }
 
 
-class TagCalculator:
-    """
-      Given a raw set of tags, a collection of subfiles,
-      and a tag file of total tags,
-      calculate updates
-    """
-
-    @DKeyed.types("raw", check=set)
-    @DKeyed.types("totals", check=TagFile)
-    def __call__(self, spec, state, raw, totals):
-        new_tags  = self._calc_new_tags(totals, raw)
-
-        return { "new_tags" : new_tags }
-
-    def _calc_new_tags(self, _total:TagFile, _raw:set[str]):
-        _raw             = _raw or set()
-        total_set : set = _total.to_set()
-        new_tags        = TagFile(counts={x:1 for x in (_raw - total_set)})
-        return new_tags
