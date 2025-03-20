@@ -136,6 +136,8 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _namesubs:M_SubF
             BM.fields.FieldAccumulator(name="all-series",   fields=["series"]),
             BM.fields.FieldAccumulator(name="all-journals", fields=["journal"]),
             BM.fields.FieldAccumulator(name="all-people",   fields=["author", "editor"]),
+
+            # BM.fields.FieldDifference(known=_tagsubs, accumulated="all-tags")
         ])
 
     if SUBS:
@@ -149,8 +151,8 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _namesubs:M_SubF
     if CHECK:
         stack.add(write=[
             BM.metadata.FileCheck(),
-            # BM.files.UrlCheck(),
-            # BM.files.Waybacker(),
+            # BM.fields.UrlCheck(),
+            # BM.fields.Waybacker(),
         ])
 
 

@@ -20,7 +20,7 @@ rst_export       = "{export}/rst"
 [[tasks.bibtex]] # validate
 disabled = true
 name         = "+.validate"
-doc          = ["validate a single file"]
+doc          = ["validate a single bibtex"]
 cli          = [{ name="<1>fpath", type="str", default="", desc=""}]
 must_inject  = ["fpath"]
 roots        = ["{bib!p}"]
@@ -29,14 +29,14 @@ depends_on   = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
-    { do="exists?", args=["{fpath!p}"], fail=true},
+    { do="exists?",   args=["{fpath!p}"], fail=true},
     { task="bibtex::format", inject={now=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:InitDb",   update_="bib_db"},
-    { do="taskcode.io_stack:build_new_stack", update_="validate_stack" },
+    { do="taskcode.io_stack:build_new_stack", update_="validate_stack"},
     { do="dootle.bibtex:BuildReader", stack_="validate_stack",  update_="bib_reader"},
 ]
 actions          = [
@@ -71,7 +71,7 @@ head_actions = [
 ]
 cleanup = []
 
-[[tasks.bibtex]] 
+[[tasks.bibtex]]
 name                    = "_.entry.update"
 doc                     = ["Entry tasks that do not modify the entry itself"]
 must_inject             = ["entry"]
@@ -150,7 +150,7 @@ depends_on       = [
         # skip if the exported bib exists and is recent
         { do="dootle.utils:skip_if_stale", source="{fpath!p}", dest="{bib_export!p}/{fname}" },
 ]
-setup           = [
+setup            = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
         { do="taskcode.io_stack:build_new_stack", update_="latex_stack", latex=true},
         { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack_="latex_stack" },
