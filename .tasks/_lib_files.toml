@@ -30,7 +30,7 @@ setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:InitDb",      update_="bib_db"},
-    { do="taskcode.io_stack:build_new_stack", update_="refile_stack"},
+    { do="taskcode.io_stack:build_new_stack", update_="refile_stack", refile=true},
     { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="refile_stack"},
     { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="refile_stack"},
 ]

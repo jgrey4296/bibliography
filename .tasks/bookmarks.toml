@@ -30,7 +30,7 @@ actions              = [
    { do="write!", from_="bkmks_str", to="{bookmarks!p}" },
 ]                                                                                                        
 
-[[tasks.bookmarks]]
+[[tasks.bookmarks]] # pony is broken
 disabled = true
 name                 = "_.firefox"
 doc                  = ["Copy and extract firefox bookmarks"]
@@ -50,7 +50,7 @@ actions              = [
 ]
 
 [[tasks.bookmarks]]
-disabled = true
+disabled = false
 name                 = "_.archived"
 doc                  = ["Read existing bookmarks ready to merge new firefox bookmarks"]
 version              = "0.1"

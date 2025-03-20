@@ -32,8 +32,8 @@ depends_on       = [
 setup            = [
     {do="copy", from="{bib_export!p}/{fstem}.bib", to="{tex_export!p}/{fstem}.bib"},
     {do="exists?"  , args=["{tex_export!p}/{fstem}.bib", "{tex_export!p}/{fstem}.tex"], fail=true },
-]
-actions =[
+] 
+actions = [
     {do="log", msg="Compiling to pdf: {fname}"},
     # compile tex
     {do="shell!", args=["{tex_prog}", "--output-directory=.", "-interaction=nonstopmode", "./{fstem}"], cwd="{tex_export!p}"},
@@ -59,15 +59,15 @@ cleanup = [
 ]
 
 [[tasks.make]]
+disabled = true
 name             = "_.generate.tex"
 cli              = [{ name="-fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 author           = "jg"
 depends_on       = [
     {task="bibtex::export.to.latex", inject={now=["fpath"]}},
-    {task="compile::_.gen.template", inject={now=["fpath"]}},
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
-    {do="path.elements", from_="fpath", roots=["{bib!p}"]},
+    {do="path.elements", from_="fpath",  roots=["{bib!p}"]},
     # skip if the exported bib exists and is recent
     {do="dootle.utils:skip_if_stale", source_="fpath", dest="{pdf_export!p}/{fstem}.pdf" },
 ]

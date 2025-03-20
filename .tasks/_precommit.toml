@@ -7,8 +7,7 @@ doot-version = "1.0"
 
 [[tasks.precommit]]
 disabled = true
-name       = "post"
-ctor       = "job"
+name       = "+.post"
 cli        = [{name="-files", type="list", default=[]}, {name="-choose", type="int", default=1},]
 roots      = ["{bib!p}"]
 exts       = [".bib"]
