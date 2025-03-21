@@ -558,6 +558,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Agents
+https://www.cs.man.ac.uk/~schmidt/tools/
 https://microsoft.github.io/autogen/stable/
 https://microsoft.github.io/TaskWeaver/docs/overview
 https://github.com/microsoft/agents
