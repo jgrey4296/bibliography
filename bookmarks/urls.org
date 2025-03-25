@@ -1423,12 +1423,14 @@ https://www.projectlinework.org/                                                
 https://www.watercolourworld.org/                                                                              :  Pre-1900 Documentary Watercolours
 https://www.wikiart.org/en/eyvind-earle                                                                        :  Wiki Art: Eyvind Earle
 ** Colour Palette
+https://www.dayroselane.com/hydrants
 https://seaborn.pydata.org/tutorial/color_palettes.html
 https://www.palettelist.com
 https://lospec.com/palette-list
 https://mushroomcoloratlas.com/
 https://colordesigner.io/
 https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
+
 ** Journals
 https://onlinelibrary.wiley.com/toc/14680491/2025/38/1?campaign=woletoc
 ** Law
@@ -1458,6 +1460,7 @@ https://www.davidrumsey.com/                                                    
 https://franknielsen.github.io/Divergence/
 
 ** Museums and Libraries
+https://geheugen.delpher.nl/nl
 https://pdimagearchive.org/
 https://www.khm.at/en/objectdb/
 https://openlibrary.org/lists
@@ -2539,6 +2542,11 @@ https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
 * Digital Collections
+http://www.tapedeck.org/index.php
+https://www.iso.org/obp/ui#iso:pub:PUB400008:en : iso 7000 graphical symbols
+https://images.wur.nl/digital/collection/coll13/search  : tree roots
+https://geheugen.delpher.nl/nl/geheugen/results?query=&facets%5BcollectionStringNL%5D%5B%5D=Archief+Gerd+Arntz&page=33&maxperpage=36&coll=ngvn : logos
+https://geheugen.delpher.nl/nl
 https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/
 https://www.gov.uk/government/publications/pace-code-b-2023
 https://www.cms.gov/data-research
