@@ -57,6 +57,7 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://www.gbstudio.dev/
 https://jettelly.com/bundles/the-godot-shaders-bundle
 https://github.com/s4ptacle/Sims4Tools
 https:://www.mobygames.com
@@ -1054,6 +1055,7 @@ https://www.gamasutra.com/blogs/TynanSylvester
 https://www.gamasutra.com/blogs/VictoriaTran
 https://www.gamasutra.com/blogs/XanderMarkham
 ** Games
+https://www.filfre.net/
 https://www.joewintergreen.com/
 https://www.gamesradar.com/
 https://www.rockpapershotgun.com
