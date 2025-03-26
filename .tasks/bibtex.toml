@@ -6,16 +6,18 @@
 doot-version = "1.0"
 
 [[locations]]
-backup_1         = "/media/john/big_ex"
-backup_2         = "/media/john/BackupSD"
-backup_cache     = "file::>{temp}/backup.commit_cache"
+backup_1         = "/media/john/BackupSD"
+backup_2         = "/media/john/solid_ext4"
+backup_3         = "/media/john/micro_docs"
 data_drive       = "/media/john/data"
 pdf_source       = "{data_drive}/library/pdfs"
-people_subs_file = "file::>{substitutions}/people.sub"
 processed        = "{temp}/processed"
 subloc           = "{substitutions}"
 bib_export       = "{export}/bib"
 rst_export       = "{export}/rst"
+
+backup_cache     = "file::>{temp}/backup.commit_cache"
+people_subs_file = "file::>{substitutions}/people.sub"
 
 [[tasks.bibtex]] # validate
 disabled = true
@@ -48,7 +50,7 @@ actions          = [
     # Queue Entry Subtasks:
     { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
     { do="job.queue", from_="entry_tasks" },
-    { do="post.put",  }
+    # { do="post.put"  },
 ]
 head_actions = [
     # { task="bibtex::export.to.latex",   inject={now=["fpath"]} }, # Export

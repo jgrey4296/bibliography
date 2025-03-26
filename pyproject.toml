@@ -1,0 +1,18 @@
+[project]
+name            = "bibliography"
+version         = "0.1.0"
+description     = "Bibtex files"
+readme          = "readme.md"
+requires-python = ">=3.12"
+dependencies    = [
+    "bibble",
+    "doot>=1.0.4",
+    "dootle>=0.2.1",
+    "jgdv",
+]
+
+[tool.uv.sources]
+doot = { path = "../../../../../../../home/john/github/python/doot", editable = true }
+bibble = { path = "../../../../../../../home/john/github/python/doot/related_/bibble", editable = true }
+dootle = { path = "../../../../../../../home/john/github/python/doot/related_/dootle", editable = true }
+jgdv = { path = "../../../../../../../home/john/github/python/jgdv", editable = true }
