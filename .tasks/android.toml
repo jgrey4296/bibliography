@@ -21,7 +21,7 @@ actions = [
 
 
 [[tasks.android]]
-disabled = true
+disabled = false
 name        = "+.push.pdfs"
 doc         = ["Push pdfs to device"]
 accept_fn   = "taskscode.android:select_dirs"

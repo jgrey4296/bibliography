@@ -14,6 +14,7 @@ notify = { speak=false }
 [settings.commands]
 [settings.commands.run]
 tracker     = "doot.control.split_tracker:SplitTracker"
+# tracker     = "default"
 runner      = "default"
 reporter    = "default"
 report-line = []
@@ -32,7 +33,8 @@ format ="{levelname:<7} : {message}"
 [logging.file]
 level          = "detail"
 filter         = ["jgdv"]
-allow          = ["doot.control"] # ["bibble", "doot"]
+# allow          = ["doot.control"]
+allow          = ["bibble"]
 target         = ["rotate"]
 format         = "{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})"
 filename_fmt   = "doot.log"

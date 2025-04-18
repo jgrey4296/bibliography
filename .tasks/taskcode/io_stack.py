@@ -78,7 +78,7 @@ meta_keys   = {
     "count"  : "field counting",
     "online" : "online downloading",
     "format" : "general formatting",
-    "validate" : "in depth validation / metadata application"
+    "validate" : "in depth validation / metadata application",
     "report"  : "generate a report on the loaded bibtex",
 }
 
@@ -99,16 +99,22 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _online:pl.Path,
         msg = "Unrecognised meta keys provided"
         raise ValueError(msg, extra)
 
-    ALL    = "all" in _meta
-    CHECK  = ALL or "check" in _meta
-    LATEX  = ALL or "latex" in _meta
-    RST    = ALL or "rst"   in _meta
-    COUNT  = ALL or "count" in _meta
-    ONLINE = ALL or "online" in _meta
-    FORMAT = ALL or "format" in _meta
-    REPORT = ALL or "reprot" in _meta
+    ALL      = "all"             in _meta
+    CHECK    = ALL or "check"    in _meta
+    VALIDATE = ALL or "validate" in _meta
+    LATEX    = ALL or "latex"    in _meta
+    RST      = ALL or "rst"      in _meta
+    COUNT    = ALL or "count"    in _meta
+    ONLINE   = ALL or "online"   in _meta
+    FORMAT   = ALL or "format"   in _meta
+    REPORT   = ALL or "reprot"   in _meta
 
-    stack  = PairStack()
+    # Extra data is added at the start of both stack directions
+    extra_data = BM.metadata.DataInsertMW()
+
+    stack    = PairStack()
+
+    stack.add(read=[extra_data])
     # Very first/last middlewares:
     stack.add(read=[BM.failure.DuplicateKeyHandler()],
               write=[
@@ -131,7 +137,7 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _online:pl.Path,
             read=[
                 BM.metadata.KeyLocker(),
                 BM.fields.TitleSplitter()
-            ]
+            ],
             write=[
                 BM.fields.FieldSorter(first=sort_firsts, last=sort_lasts),
                 BM.metadata.EntrySorter(),
@@ -168,6 +174,8 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _online:pl.Path,
 
 
     if ONLINE:   # online saving
+        # Ignore path relative errors:
+        extra_data.update({BM.files.PathWriter.SuppressKey:[_online]})
         stack.add(read=[
             BM.files.OnlineDownloader(target=_online),
         ])
@@ -177,5 +185,6 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _online:pl.Path,
             # BM.reporters.SummaryGenerator(),
         ])
 
-    stack.add(read=[BM.failure.FailureHandler()])
+    stack.add(read=[BM.failure.FailureHandler(file=doot.locs['bibfails'])])
+    stack.add(write=[extra_data])
     return { _update : stack }

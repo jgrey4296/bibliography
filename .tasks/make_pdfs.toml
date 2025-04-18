@@ -14,7 +14,7 @@ html_export   = "{export}/html"
 cal_export    = "{export}/calendar"
 
 [[tasks.make]]
-disabled = true
+disabled = false
 name             = "pdf.from.bibtex"
 doc              = ["given fpath in {bib}, get its exported version, and compile it"]
 cli              = [{ name="<1>fpath", type="str", default="", desc=""}]

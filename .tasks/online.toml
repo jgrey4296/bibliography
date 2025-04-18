@@ -28,7 +28,6 @@ actions          = [
     { do="write!", from_="bib_text", to="{temp!p}/{fstem}_saved.bib"},
 ]
 cleanup          = [
-    { do="fn::taskcode.online:shutdown_firefox" },
     # TODO write failed blocks
 ]
 
