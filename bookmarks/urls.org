@@ -57,6 +57,7 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://gdcvault.com/play/1034944/What-s-New-in-Game
 https://www.gbstudio.dev/
 https://jettelly.com/bundles/the-godot-shaders-bundle
 https://github.com/s4ptacle/Sims4Tools
@@ -1462,6 +1463,7 @@ https://www.davidrumsey.com/                                                    
 https://franknielsen.github.io/Divergence/
 
 ** Museums and Libraries
+https://repository.si.edu/
 https://geheugen.delpher.nl/nl
 https://pdimagearchive.org/
 https://www.khm.at/en/objectdb/
@@ -2687,6 +2689,7 @@ http://mizar.org/project/
 https://openlibrary.org/developers/dumps
 https://data.rijksmuseum.nl/object-metadata/download/
 ** Misc
+https://www.horg.com/horg/
 http://rs.io/100-interesting-data-sets-for-statistics/
 https://dasl.datadescription.com/datafiles/
 http://www.openculture.com/2018/01/10000-classic-movie-posters-getting-digitized-put-online-by-the-harry-ransom-center.html
@@ -2708,6 +2711,7 @@ https://snap.stanford.edu/data/web-Amazon.html
 
 http://deim.urv.cat/~alexandre.arenas/data/welcome.htm
 ** Organisation
+https://ttd.wto.org/en
 https://www.gov.uk/government/publications/department-for-transport-and-ndpb-structure-charts-organisational-and-salary-disclosure-data
 ** Palestine
 https://data.techforpalestine.org/
