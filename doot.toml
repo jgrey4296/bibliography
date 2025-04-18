@@ -1,4 +1,4 @@
-# -*- mode:conf-toml; -*-
+# doot.toml -*- mode: toml -*-
 
 [startup]
 doot_version     = "1.0"
