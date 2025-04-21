@@ -410,6 +410,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/mcclure
 https://github.com/ChevyRay
 https://github.com/rust-lang/polonius
 https://github.com/s4ptacle/Sims4Tools
