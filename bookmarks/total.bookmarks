@@ -5803,7 +5803,7 @@ https://arxiv.org/pdf/1706.10199.pdf : ai : machine_learning : rule_learning : r
 https://arxiv.org/pdf/1802.05219.pdf : game_design : julian_togelius
 https://asawicki.info/news : adam_sawicki : blog : cpp : graphics : programing
 https://asdf-vm.com/ : asdf : command_line : elixir : erlang : version_control
-https://asdf-vm.com/manage/configuration.html : 
+https://asdf-vm.com/manage/configuration.html : reference : asdf : cli
 https://asdl.sourceforge.net/ : asdl : ast : parser
 https://ask.slashdot.org/story/12/09/22/170240/ask-slashdot-gaming-with-only-one-hand : HCI : UX : disability : games : slashdot
 https://askubuntu.com/questions/1034030/how-to-get-access-to-usb-storage-from-an-application-installed-as-snap : linux : permissions : snap
@@ -8658,7 +8658,7 @@ https://gizmodo.com/these-gifs-of-video-game-backgrounds-are-mesmerizing-wo-5094
 https://gizmodo.com/this-hyperactive-acid-trip-is-actually-birdsong-visuali-1622497188 : birdsong : graphics : visualisation
 https://gizmodo.com/u-s-military-will-stop-using-floppy-discs-to-operate-i-1839166219 : US_military : floppy_disks : gizmodo : nuclear_weapons : safety_critical_systems : technology
 https://gjs-docs.gnome.org/ : cli : documentation : gjs : gnome : javascript : reference
-https://gjs.guide/ : 
+https://gjs.guide/ : gnome : javascript
 https://gjs.guide/guides/ : cli : documentation : gjs : gnome
 https://glasshouse.games/post/reflections-death-stranding : death_stranding : exposition : game_criticism : glass_house_games
 https://glimpse-editor.org/ : gimp : glimpse : open_source : photo_editor : photoshop
@@ -15151,7 +15151,6 @@ https://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-lea
 https://yiwenl.github.io/Sketches/exps/30/ : 3D : art : beauty : github
 https://yoo2080.wordpress.com/2013/09/11/emacs-lisp-lexical-binding-gotchas-and-related-best-practices/ : emacs : lexical_scope : lisp
 https://yoric.github.io/ : blog : david_teller : rust : yoric
-https://yoric.github.io/about/ : 
 https://yougov.co.uk/news/2018/07/12/plurality-britons-support-trump-visiting-they-dont/ : UK : polling : trump : you_gov
 https://yougov.co.uk/news/2018/10/02/how-good-good/ : data_visualisation : measurement : statistics : you_gov
 https://youtube.googleblog.com/2019/01/continuing-our-work-to-improve.html : 2019 : alphabet : child : clickbait : fascism : google : recommendation : youtube

@@ -3,26 +3,26 @@
 #
 # Tags:
 #
-doot-version = "1.0"
+doot-version = "1.1"
 
 [[locations]]
-backup_1         = "/media/john/big_ex"
-backup_2         = "/media/john/BackupSD"
-backup_cache     = "file::>{temp}/backup.commit_cache"
+backup_1         = "/media/john/BackupSD"
+backup_2         = "/media/john/solid_ext4"
+backup_3         = "/media/john/micro_docs"
 data_drive       = "/media/john/data"
 pdf_source       = "{data_drive}/library/pdfs"
-people_subs_file = "file::>{substitutions}/people.sub"
 processed        = "{temp}/processed"
 subloc           = "{substitutions}"
 bib_export       = "{export}/bib"
 rst_export       = "{export}/rst"
 
-[[tasks.bibtex]]
+backup_cache     = "file::>{temp}/backup.commit_cache"
+people_subs_file = "file::>{substitutions}/people.sub"
+
+[[tasks.bibtex]] # validate
 disabled = true
-name         = "validate"
-doc          = ["validate a single file"]
-version      = "0.1"
-ctor         = "job"
+name         = "+.validate"
+doc          = ["validate a single bibtex"]
 cli          = [{ name="<1>fpath", type="str", default="", desc=""}]
 must_inject  = ["fpath"]
 roots        = ["{bib!p}"]
@@ -31,25 +31,26 @@ depends_on   = [
     # Check the fpath is a bibtex and in the library
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
-    { do="exists?", args=["{fpath!p}"], fail=true},
+    { do="exists?",   args=["{fpath!p}"], fail=true},
     { task="bibtex::format", inject={now=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
     { do="path.elements", from_="fpath" },
     { do="dootle.bibtex:InitDb",   update_="bib_db"},
-    { do="dootle.bibtex:BuildReader", stack="taskcode.parse_stacks:build_meta_stack",  update_="bib_reader"},
+    { do="taskcode.io_stack:build_new_stack", update_="validate_stack"},
+    { do="dootle.bibtex:BuildReader", stack_="validate_stack",  update_="bib_reader"},
 ]
 actions          = [
     { do="log", msg="Reacting to changed bibtex: {fpath}", level="WARN"},
 
     # Read the file
-    { do="dootle.bibtex:DoLoad",   from_="fpath",     update_="bib_db",   reader_="bib_reader"},
+    { do="dootle.bibtex:DoRead",   from_="fpath",     update_="bib_db",   reader_="bib_reader"},
 
     # Queue Entry Subtasks:
-    # { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
-    # { do="job.queue", from_="entry_tasks" },
-    # { do="post.put",  }
+    { do="taskcode.metadata:GenBibEntryTask", template_="sub_task", from_="bib_db", update_="entry_tasks"},
+    { do="job.queue", from_="entry_tasks" },
+    # { do="post.put"  },
 ]
 head_actions = [
     # { task="bibtex::export.to.latex",   inject={now=["fpath"]} }, # Export
@@ -60,14 +61,14 @@ head_actions = [
     # TODO can't inject bib_db at network build time
     { task="tags::substitutions", inject={now=["postbox"]} },
     # Report broken urls:
-    { task="util::_.report.broken.urls", inject={now={postbox="bibtex::entries..urls"}}},
+    # { task="util::_.report.broken.urls", inject={now={postbox="bibtex::entries..urls"}}},
     # Report orphan files
-    { task="orphans::_.report.missing", inject={now=["fpath"]}},
+    # { task="orphans::_.report.missing", inject={now=["fpath"]}},
     # TODO Summarise
-    { task="bibtex::_.summarise", inject={now=["fpath"]} },
+    # { task="bibtex::_.summarise", inject={now=["fpath"]} },
 
     {do="path.elements", from_="fpath" },
-    {do="say", args=["Finished handling changes for: {fstem}"]},
+    {do="say",   args=["Finished handling changes for: {fstem}"]},
     {do="touch", args=["{processed!p}/{fstem}"]}
 ]
 cleanup = []
@@ -86,16 +87,10 @@ actions                 = [
     # ---
     {do="pred?", pred="taskcode.selector:skip_if_no_file_in_entry"},
     # ---
-    {do="log", msg="... TODO: Clamscan files"},
-    # {do="shell!", args=["clamscan", "--stdout", "{file!p}"]},
     {do="log", msg="... Updating Metadata of entry files"},
     {do="taskcode.bibtex:get_entry_file", update_="entry_file"}, # extract filenames
     {do="path.elements", from_="entry_file"},
-    {do="taskcode.metadata:FileMetadataUpdate"}, # Update Metadata
     {do="taskcode.orphans:get_orphans", box="bibtex::entries..orphans"}, # get orphans
-    # ---
-    {do="log", msg="... TODO Checking Entry Links"},
-    # {do="taskcode.online:link_check", box="bibtex::entries..urls"}, # TODO Link check
     # ---
     # Backup Files
     {do="log", msg="... Backing up Files"},
@@ -107,41 +102,44 @@ cleanup = [
 
 ]
 
-[[tasks.bibtex]]
-disabled = true
+[[tasks.bibtex]] # format
 name             = "format"
 doc              = ["Format a single bib file"]
 cli              = [{ name="-fpath", type="str", default="", desc=""}]
 export_bases     = ["{bib!p}"]
-general_subs     = ["{subloc!p}/publisher.sub", "{subloc!p}/series.sub", "{subloc!p}/journals.sub", "{subloc!p}/institution.sub"]
+general_subs     = [
+    "{subloc!p}/publisher.sub",
+    "{subloc!p}/series.sub",
+    "{subloc!p}/journals.sub",
+    "{subloc!p}/institution.sub"
+    ]
 depends_on       = [
         {do="exists?", args=["{fpath!p}"], fail=true },
         {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
-        {path="{total_subs_file}"}
+        "file::>{total_subs_file}",
 ]
-setup = [
+setup            = [
         { do="path.elements", from_="fpath", roots=["."]},
         { do="dootle.bibtex:InitDb",     update_="bib_db"},
         { do="taskcode.subs:read_subs",  from="{total_subs_file!p}",  update_="tag_subs"},
         { do="taskcode.subs:read_subs",  from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" ", sub_sep="::"},
         { do="taskcode.subs:read_subs",  from_all_="general_subs",    update_="other_subs",  sub_norm_replace=" ", sup_sep="::"},
 
-        { do="dootle.bibtex:BuildReader", update_="bib_reader", stack="taskcode.parse_stacks:build_general_stack"},
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack="taskcode.write_stacks:build_format_stack"},
+        { do="taskcode.io_stack:build_new_stack", update_="format_stack", names=true, fsort=true, esort=true, subs=true},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="format_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="format_stack"},
 ]
 actions          = [
         {do="log", msg="Formatting: {fpath!p}"},
         # Load
-        { do="dootle.bibtex:DoLoad", from_="fpath",  update_="bib_db",   reader_="bib_reader"},
+        { do="dootle.bibtex:DoRead", from_="fpath",  update_="bib_db",   reader_="bib_reader"},
         # --
         # Write formatted out
         { do="dootle.bibtex:ToStr",  from_="bib_db", update_="bib_text", writer_="bib_writer"},
         { do="write!", from_="bib_text", to="{fpath!p}"},
-        # TODO write failed blocks
 ]
 
-[[tasks.bibtex]]
-disabled = true
+[[tasks.bibtex]] # latex
 name             = "export.to.latex"
 doc              = ["export a bibtex, with latex encoding"]
 cli              = [{ name="<1>fpath", type="str", default="", desc=""}]
@@ -152,26 +150,26 @@ depends_on       = [
         # skip if the exported bib exists and is recent
         { do="dootle.utils:skip_if_stale", source="{fpath!p}", dest="{bib_export!p}/{fname}" },
 ]
-setup           = [
+setup            = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
-        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack="taskcode.parse_stacks:build_general_stack" },
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer",   stack="taskcode.write_stacks:build_export_latex_stack" },
+        { do="taskcode.io_stack:build_new_stack", update_="latex_stack", latex=true},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",   stack_="latex_stack" },
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",   stack_="latex_stack" },
 ]
-actions = [
+actions          = [
         { do="log", msg="Exporting: {fname}" },
-        { do="dootle.bibtex:DoLoad", from_="fpath",  update_="bib_db",   reader_="bib_reader"},
+        { do="dootle.bibtex:DoRead", from_="fpath",  update_="bib_db",   reader_="bib_reader"},
         { do="dootle.bibtex:ToStr",  from_="bib_db", update_="bib_text", writer_="bib_writer"},
         { do="write!", from_="bib_text", to="{bib_export!p}/{fname}"},
 ]
-cleanup = [
+cleanup          = [
         { do="touch", args=["{fpath!p}"], soft=true},
         { do="log", msg="Exported {fname} to {bib_export!p}"},
 ]
 
-[[tasks.bibtex]]
-disabled = true
+[[tasks.bibtex]] # rst
 name       = "export.to.rst"
-cli        = [{ name="-fpath", type="str", default="", desc=""}]
+cli        = [{ name="<1>fpath", type="str", default="", desc=""}]
 depends_on = [
         {do="relative?",  args=["{fpath!p}"], bases=["{bib!p}"]},
         {do="path.elements", from_="fpath", roots=["{bib!p}"]},
@@ -179,17 +177,18 @@ depends_on = [
         {do="dootle.utils.recency_test:stale_test", source_="fpath", dest="{rst_export!p}/{fstem}.rst" },
 
 ]
-setup           = [
+setup   = [
         { do="dootle.bibtex:InitDb",      update_="bib_db"},
-        { do="dootle.bibtex:BuildReader", update_="bib_reader",  stack="taskcode.parse_stacks:build_general_stack"},
-        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  class="bibble.io.RstWriter", stack="taskcode.write_stacks:build_export_rst_stack"},
+        { do="taskcode.io_stack:build_new_stack", update_="rst_stack"},
+        { do="dootle.bibtex:BuildReader", update_="bib_reader",  stack_="rst_stack"},
+        { do="dootle.bibtex:BuildWriter", update_="bib_writer",  stack_="rst_stack", class="bibble.io:RstWriter"},
 ]
-actions              = [
+actions = [
         {do="log", msg="Exporting {fname} to rst"},
-        { do="dootle.bibtex:DoLoad",  from_="fpath",  update_="bib_db",   reader-="bib_reader"},
+        { do="dootle.bibtex:DoRead",  from_="fpath",  update_="bib_db",   reader_="bib_reader"},
         { do="dootle.bibtex:ToStr",   from_="bib_db", update_="bib_text", writer_="bib_writer", to="{rst_export!p}/{fstem}.rst"},
 ]
 cleanup = [
-        {do="exists?", args=["{rst_export!p}/{fstem}.rst"], fail=true},
-        {do="log",   msg="Compiled {fname} to {rst_export}"},
+        # {do="exists?", args=["{rst_export!p}/{fstem}.rst"], fail=true},
+        {do="log", msg="Compiled {fname} to {rst_export!p}"},
 ]

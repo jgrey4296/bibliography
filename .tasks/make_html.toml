@@ -3,9 +3,10 @@
 #
 # Tags:
 #
-doot-version = "1.0"
+doot-version = "1.1"
 
 [[locations]]
+doc_conf = "."
 doc_src = "."
 doc_out = ".site"
 
@@ -24,18 +25,24 @@ setup       = [
     { do="exists?", args=["{doc_src!p}/conf.py"] },
 ]
 actions = [
-    { do="shell!", env_="env", args=["sphinx-build",
+    # --conf-dir {!p} : directory for conf.py
+    { do="dootle.actions.shell:ShellAction", args=[
+    "sphinx-build",
     "-D", "keep_warnings=True",
-    "--fresh-env",
-    # "--verbose", "--verbose", "--nitpicky",
-    "--write-all",
+    # "--verbose",
+    "--quiet",
+    # "--silent",
+    "--conf-dir", "{doc_conf!p}",
+    # "--write-all",
+    # "--fresh-env",
+    # "--nitpicky",
     "--keep-going", "--show-traceback",
     "--warning-file", "{logs!p}/sphinx.log",
     "--builder", "{doc_builder}",
-    "{doc_src!p}", "{doc_out!p}",
-    ]},
-
+    "{doc_src!p}",
+    "{doc_out!p}"], errlimit=0},
+    
     # {do="taskcode.refresher:refresh_firefox"},
     {do="shell!", args=["notify-send", "--expire-time=1000", "--transient", "Finished Building Docs"]},
-    ]
+]
 cleanup = []

@@ -31,7 +31,7 @@ from uuid import UUID, uuid1
 import doot
 import doot.errors
 from doot.structs import DKey, DKeyed, TaskName
-from doot.actions.postbox import _DootPostBox
+from dootle.actions.postbox import _DootPostBox
 
 ##-- logging
 logging = logmod.getLogger(__name__)

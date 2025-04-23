@@ -1,42 +1,42 @@
-%% use :: for sep
-ACM Computing Surveys                                     :: 1 ::  ACM Computing Surveys (CSUR)
-ACM Transactions on Computer-Human Interaction (TOCHI'03)                       ::  ACM Transactions on Computer-Human Interaction (TOCHI)
-AI Magazine                                                                     :: 1
-AI magazine                                                                     :: 1 :: AI Magazine
-Ai Communications                                                               :: 1 :: AI Communications
-American Anthropologist,                                                        :: 1 :: American Anthropologist
-American behavioral scientist                                                   :: 1 :: American Behavioral Scientist
-Annual review of entomology                                                     :: 1 :: Annual Review Of Entomology
-Annual review of sociology                                                      :: 1 :: Annual Review Of Sociology
-Artif. Life                                                                     :: 1 :: Artificial Life
-Artificial life                                                                 :: 1 :: Artificial Life
-BMJ paediatrics open                                                            :: 1 :: BMJ Paediatrics Open
-Bmj                                                                             :: 1 :: BMJ
-International Journal Of Advanced Computer Science & Applications (IJACSA)      :: 1 ::
+%% use : for sep
+ACM Computing Surveys                                                           : 1 :  ACM Computing Surveys (CSUR)
+ACM Transactions on Computer-Human Interaction (TOCHI'03)                       :: ACM Transactions on Computer-Human Interaction (TOCHI)
+AI Magazine                                                                     : 1
+AI magazine                                                                     : 1 : AI Magazine
+Ai Communications                                                               : 1 : AI Communications
+American Anthropologist,                                                        : 1 : American Anthropologist
+American behavioral scientist                                                   : 1 : American Behavioral Scientist
+Annual review of entomology                                                     : 1 : Annual Review Of Entomology
+Annual review of sociology                                                      : 1 : Annual Review Of Sociology
+Artif. Life                                                                     : 1 : Artificial Life
+Artificial life                                                                 : 1 : Artificial Life
+BMJ paediatrics open                                                            : 1 : BMJ Paediatrics Open
+Bmj                                                                             : 1 : BMJ
+International Journal Of Advanced Computer Science & Applications (IJACSA)      : 1 
 
-Academy Of Management                                                           :: 1
-Academy Of Management Annals                                                    :: 1
-Academy Of Management Journal                                                   :: 1
-Academy Of Management Review                                                    :: 1
-ACM                                                                             :: 1
-ACM Computers In Entertainment                                                  :: 1
-ACM Computing Surveys (CSUR)                                                    :: 1
-ACM Queue                                                                       :: 1
-ACM Sigaccess Accessibility & Computing                                         :: 1
-ACM Sigact News                                                                 :: 1
-ACM SIGecom Exchanges                                                           :: 1
-ACM SIGGROUP Bulletin                                                           :: 1
-ACM SIGMOD Record                                                               :: 1
-ACM SIGOIS Bulletin                                                             :: 1
-Cig                                                                             :: 1 :: CIG
-ACM Transactions Of Modeling and Computer Simulation                            :: 1
-ACM Transactions On Autonomous & Adaptive Systems                               :: 1
-ACM Transactions On Computational Logic                                         :: 1
-ACM Transactions On Computer-Human Interaction (TOCHI)                          :: 1
-ACM Transactions On Graphics                                                    :: 1
-ACM Transactions On Information Systems (TOIS)                                  :: 1
-ACM Transactions On Internet Technology (TOIT)                                  :: 1
-ACM Transactions On Multimedia Computing, Communications, & Applications (TOMM) :: 1
-ACM Transactions On Office Information Systems                                  :: 1
-ACM Transactions On Programming                                                 :: 1
-ACM Transactions On Programming Languages & Systems                             :: 1
+Academy Of Management                                                           : 1
+Academy Of Management Annals                                                    : 1
+Academy Of Management Journal                                                   : 1
+Academy Of Management Review                                                    : 1
+ACM                                                                             : 1
+ACM Computers In Entertainment                                                  : 1
+ACM Computing Surveys (CSUR)                                                    : 1
+ACM Queue                                                                       : 1
+ACM Sigaccess Accessibility & Computing                                         : 1
+ACM Sigact News                                                                 : 1
+ACM SIGecom Exchanges                                                           : 1
+ACM SIGGROUP Bulletin                                                           : 1
+ACM SIGMOD Record                                                               : 1
+ACM SIGOIS Bulletin                                                             : 1
+Cig                                                                             : 1 : CIG
+ACM Transactions Of Modeling and Computer Simulation                            : 1
+ACM Transactions On Autonomous & Adaptive Systems                               : 1
+ACM Transactions On Computational Logic                                         : 1
+ACM Transactions On Computer-Human Interaction (TOCHI)                          : 1
+ACM Transactions On Graphics                                                    : 1
+ACM Transactions On Information Systems (TOIS)                                  : 1
+ACM Transactions On Internet Technology (TOIT)                                  : 1
+ACM Transactions On Multimedia Computing, Communications, & Applications (TOMM) : 1
+ACM Transactions On Office Information Systems                                  : 1
+ACM Transactions On Programming                                                 : 1
+ACM Transactions On Programming Languages & Systems                             : 1

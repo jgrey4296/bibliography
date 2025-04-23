@@ -1,7 +1,7 @@
-# -*- mode:conf-toml; -*-
+# doot.toml -*- mode: toml -*-
 
 [startup]
-doot_version     = "1.0"
+doot_version     = "1.1"
 loaders          = { commands="default", task="default", parser="default"}
 location_check   = { make_missing=true }
 max_steps        = 100_000
@@ -12,7 +12,12 @@ sleep            = { task=0.2, subtask=1, batch=1 }
 notify = { speak=false }
 
 [settings.commands]
-run = { tracker = "default", runner = "default", reporter= "default", report-line = []}
+[settings.commands.run]
+tracker     = "doot.control.split_tracker:SplitTracker"
+# tracker     = "default"
+runner      = "default"
+reporter    = "default"
+report-line = []
 
 [plugins]
 # Allows for defining shorthands
@@ -22,22 +27,24 @@ command        = { tasks = "doot.cmds.list_cmd:ListCmd" }
 
 [logging.stream]
 level  = "user"
-filter = []
-target = "stdout"
-format ="{levelname:<8} : {message}"
+target = ["stdout"]
+format ="{levelname:<7} : {message}"
 
 [logging.file]
-level        = "trace"
-filter       = ["jgdv"]
-target       = "rotate"
-format       = "{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})"
-filename_fmt = "doot.log"
+level          = "detail"
+filter         = ["jgdv"]
+# allow          = ["doot.control"]
+allow          = ["bibble"]
+target         = ["rotate"]
+format         = "{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})"
+filename_fmt   = "doot.log"
 
 [logging.printer]
-level  = "NOTSET"
-colour = true
-target = ["stdout", "rotate"]
-format = "{message}"
+level        = "NOTSET"
+colour       = true
+allow        = ["_printer_"]
+target       = ["stdout", "rotate"]
+format       = "{message}"
 filename_fmt = "doot_printed.log"
 
 [logging.subprinters]

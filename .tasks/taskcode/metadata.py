@@ -89,12 +89,3 @@ class GenBibEntryTask:
 
         return { _update : subtasks }
 
-class FileMetadataUpdate(BM.metadata.MetadataApplicator):
-    """
-    A Single Entry metadata update wrapper around metadata applicator
-    """
-
-    @DKeyed.types("entry")
-    def __call__(self, spec, state, entry):
-        printer.info("Applying Metadata to file")
-        self.transform_entry(entry, None)

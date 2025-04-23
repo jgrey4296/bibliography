@@ -1,0 +1,14 @@
+[project]
+name            = "bibliography"
+version         = "0.1.0"
+description     = "Bibtex files"
+readme          = "readme.md"
+requires-python = ">=3.12"
+dependencies    = [
+    "bibble",
+    "doot>=1.0.4",
+    "dootle>=0.2.1",
+    "jgdv",
+]
+
+[tool.uv.sources]

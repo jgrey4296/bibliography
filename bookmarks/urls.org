@@ -57,6 +57,8 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://gdcvault.com/play/1034944/What-s-New-in-Game
+https://www.gbstudio.dev/
 https://jettelly.com/bundles/the-godot-shaders-bundle
 https://github.com/s4ptacle/Sims4Tools
 https:://www.mobygames.com
@@ -408,6 +410,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/mcclure
 https://github.com/ChevyRay
 https://github.com/rust-lang/polonius
 https://github.com/s4ptacle/Sims4Tools
@@ -558,6 +561,7 @@ https://applyingml.com/resources/personalization/
 [[https://parl.ai/projects/light/][Parl.ai: NLP and dialogue]]
 
 ** Agents
+https://www.cs.man.ac.uk/~schmidt/tools/
 https://microsoft.github.io/autogen/stable/
 https://microsoft.github.io/TaskWeaver/docs/overview
 https://github.com/microsoft/agents
@@ -639,6 +643,7 @@ https://wa.aws.amazon.com/wat.concept.coe.en.html
 https://web.mit.edu/jemorris/humor/500-miles
 https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal
 ** Software Engineering
+https://natkr.com/
 https://acse-2020.github.io/ACSE-1/README.html
 https://www.pyopensci.org/python-package-guide/index.html
 https://rp.wtf/articles/
@@ -1053,6 +1058,7 @@ https://www.gamasutra.com/blogs/TynanSylvester
 https://www.gamasutra.com/blogs/VictoriaTran
 https://www.gamasutra.com/blogs/XanderMarkham
 ** Games
+https://www.filfre.net/
 https://www.joewintergreen.com/
 https://www.gamesradar.com/
 https://www.rockpapershotgun.com
@@ -1164,6 +1170,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://www.hillelwayne.com/post/
 https://www.stuartellis.name/
 https://andrewwegner.com/
 https://www.marginalia.nu/
@@ -1421,12 +1428,14 @@ https://www.projectlinework.org/                                                
 https://www.watercolourworld.org/                                                                              :  Pre-1900 Documentary Watercolours
 https://www.wikiart.org/en/eyvind-earle                                                                        :  Wiki Art: Eyvind Earle
 ** Colour Palette
+https://www.dayroselane.com/hydrants
 https://seaborn.pydata.org/tutorial/color_palettes.html
 https://www.palettelist.com
 https://lospec.com/palette-list
 https://mushroomcoloratlas.com/
 https://colordesigner.io/
 https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
+
 ** Journals
 https://onlinelibrary.wiley.com/toc/14680491/2025/38/1?campaign=woletoc
 ** Law
@@ -1456,6 +1465,8 @@ https://www.davidrumsey.com/                                                    
 https://franknielsen.github.io/Divergence/
 
 ** Museums and Libraries
+https://repository.si.edu/
+https://geheugen.delpher.nl/nl
 https://pdimagearchive.org/
 https://www.khm.at/en/objectdb/
 https://openlibrary.org/lists
@@ -2537,6 +2548,11 @@ https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
 * Digital Collections
+http://www.tapedeck.org/index.php
+https://www.iso.org/obp/ui#iso:pub:PUB400008:en : iso 7000 graphical symbols
+https://images.wur.nl/digital/collection/coll13/search  : tree roots
+https://geheugen.delpher.nl/nl/geheugen/results?query=&facets%5BcollectionStringNL%5D%5B%5D=Archief+Gerd+Arntz&page=33&maxperpage=36&coll=ngvn : logos
+https://geheugen.delpher.nl/nl
 https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/
 https://www.gov.uk/government/publications/pace-code-b-2023
 https://www.cms.gov/data-research
@@ -2675,6 +2691,7 @@ http://mizar.org/project/
 https://openlibrary.org/developers/dumps
 https://data.rijksmuseum.nl/object-metadata/download/
 ** Misc
+https://www.horg.com/horg/
 http://rs.io/100-interesting-data-sets-for-statistics/
 https://dasl.datadescription.com/datafiles/
 http://www.openculture.com/2018/01/10000-classic-movie-posters-getting-digitized-put-online-by-the-harry-ransom-center.html
@@ -2696,6 +2713,7 @@ https://snap.stanford.edu/data/web-Amazon.html
 
 http://deim.urv.cat/~alexandre.arenas/data/welcome.htm
 ** Organisation
+https://ttd.wto.org/en
 https://www.gov.uk/government/publications/department-for-transport-and-ndpb-structure-charts-organisational-and-salary-disclosure-data
 ** Palestine
 https://data.techforpalestine.org/

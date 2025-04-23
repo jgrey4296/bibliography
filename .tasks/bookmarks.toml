@@ -1,5 +1,5 @@
 ## bookmark.toml -*- mode: toml -*-
-doot-version = "1.0"
+doot-version = "1.1"
 
 [[locations]]
 firefox       = "~/snap/firefox/common/.mozilla/firefox"
@@ -30,7 +30,8 @@ actions              = [
    { do="write!", from_="bkmks_str", to="{bookmarks!p}" },
 ]                                                                                                        
 
-[[tasks.bookmarks]]
+[[tasks.bookmarks]] # pony is broken
+disabled = true
 name                 = "_.firefox"
 doc                  = ["Copy and extract firefox bookmarks"]
 version              = "0.1"                
@@ -49,11 +50,12 @@ actions              = [
 ]
 
 [[tasks.bookmarks]]
+disabled = false
 name                 = "_.archived"
 doc                  = ["Read existing bookmarks ready to merge new firefox bookmarks"]
 version              = "0.1"
 depends_on           = ["file::>{bookmarks}"] 
 actions              = [
-   { do="dootle.bookmarks:DoLoad", from="{bookmarks!p}", update_="total_bkmks" },
+   { do="dootle.bookmarks:DoRead", from="{bookmarks!p}", update_="total_bkmks" },
    { do="post.put", args=["total_bkmks"] },
 ]
