@@ -3,7 +3,7 @@
 #
 # Tags:
 #
-doot-version = "1.0"
+doot-version = "1.1"
 
 [[locations]]
 backup_1         = "/media/john/BackupSD"

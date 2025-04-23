@@ -12,7 +12,3 @@ dependencies    = [
 ]
 
 [tool.uv.sources]
-doot   = { path = "../../../python/doot", editable = true }
-bibble = { path = "../../../python/doot/related_/bibble", editable = true }
-dootle = { path = "../../../python/doot/related_/dootle", editable = true }
-jgdv   = { path = "../../../python/jgdv", editable = true }

@@ -3,7 +3,7 @@
 #
 # Tags:
 #
-doot-version = "1.0"
+doot-version = "1.1"
 
 [[locations]]
 known_tag_file     = "file::>{temp}/tags/known.tags"
