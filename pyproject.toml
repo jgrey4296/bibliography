@@ -5,10 +5,12 @@ description     = "Bibtex files"
 readme          = "readme.md"
 requires-python = ">=3.12"
 dependencies    = [
-    "bibble",
-    "doot>=1.0.4",
-    "dootle>=0.2.1",
-    "jgdv",
+    "doot",
+    "dootle",
+    "bibtex-bibble",
 ]
+
+[tool.uv]
+prerelease="allow"
 
 [tool.uv.sources]
