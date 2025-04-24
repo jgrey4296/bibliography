@@ -125,7 +125,7 @@ setup            = [
         { do="taskcode.subs:read_subs",  from="{people_subs_file!p}", update_="people_subs", sub_norm_replace=" ", sub_sep="::"},
         { do="taskcode.subs:read_subs",  from_all_="general_subs",    update_="other_subs",  sub_norm_replace=" ", sup_sep="::"},
 
-        { do="taskcode.io_stack:build_new_stack", update_="format_stack", names=true, fsort=true, esort=true, subs=true},
+        { do="taskcode.io_stack:build_new_stack", update_="format_stack", format=true},
         { do="dootle.bibtex:BuildReader", update_="bib_reader", stack_="format_stack"},
         { do="dootle.bibtex:BuildWriter", update_="bib_writer", stack_="format_stack"},
 ]
