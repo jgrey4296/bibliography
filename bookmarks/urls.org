@@ -1,6 +1,7 @@
 #+TITLE: Urls
 
 https://calculatingempires.net/
+https://nutritionsource.hsph.harvard.edu/
 * Main
 ** Audio Visual
 https://www.kyivtypefoundry.com/projects/kyiv-metro-fonts?id=0
@@ -57,6 +58,8 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://rimworldwiki.com/wiki/Ideoligion
+https://rimworldwiki.com/wiki/Rituals
 https://gdcvault.com/play/1034944/What-s-New-in-Game
 https://www.gbstudio.dev/
 https://jettelly.com/bundles/the-godot-shaders-bundle
@@ -715,6 +718,7 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.wikipedia.org/wiki/History_of_economic_thought
 https://en.m.wikipedia.org/wiki/Encarta
 https://en.m.wikipedia.org/wiki/The_Troubles
 https://en.m.wikipedia.org/wiki/Pasteurization
@@ -978,6 +982,7 @@ https://vgvisualvault.blogspot.com
 https://web.archive.org/web/20130115064519/https://sexyvideogameland.blogspot.com
 https://zelo-street.blogspot.com
 ** Comics
+https://www.boredpanda.com/comics-women-contemporary-life-social-issues-lainey-molnar-part-7/
 https://redpenblackpen.jasonya.com
 ** Dev Blogs
 https://towardsdatascience.com/on-optimally-squishing-large-datasets-9276776cf0cb
