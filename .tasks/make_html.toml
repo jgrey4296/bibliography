@@ -7,11 +7,11 @@ doot-version = "1.1"
 
 [[locations]]
 doc_conf = "."
-doc_src = "."
-doc_out = ".site"
+doc_src  = "."
+doc_out  = ".site"
 
 [[tasks.make]]
-disabled = true
+disabled = false
 name        = "html.site"
 doc         = ["build sphinx"]
 cli         = [{name="warn", type="bool", default=true},]
@@ -20,15 +20,14 @@ doc_builder = "html"
 env_name    = "default"
 depends_on  = []
 setup       = [
-    { do="dootle.python:MambaEnv", env_="env_name", update_="env"},
-    { do="installed?", args=["sphinx-build"], env_="env"},
+    { do="installed?", args=["sphinx-build"]},
     { do="exists?", args=["{doc_src!p}/conf.py"] },
 ]
 actions = [
     # --conf-dir {!p} : directory for conf.py
     { do="dootle.actions.shell:ShellAction", args=[
     "sphinx-build",
-    "-D", "keep_warnings=True",
+    # "--define", "keep_warnings=1",
     # "--verbose",
     "--quiet",
     # "--silent",

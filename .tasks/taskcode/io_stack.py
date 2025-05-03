@@ -121,12 +121,19 @@ def build_new_stack(spec, state, kwargs:dict, _libroot:pl.Path, _online:pl.Path,
                   BM.failure.FailureHandler(),
                   BM.metadata.ApplyMetadata() if VALIDATE else None,
               ])
-    # Add standard bidirectional transforms
-    stack.add(BM.bidi.BraceWrapper(),
-              BM.bidi.BidiLatex() if LATEX else None,
-              BM.bidi.BidiPaths(lib_root=_libroot),
-              None,
-              )
+
+    if RST:
+        # Add standard bidirectional transforms
+        stack.add(read=[BM.bidi.BraceWrapper(),
+                        BM.bidi.BidiPaths(lib_root=_libroot),
+                        ])
+    else:
+        # Add standard bidirectional transforms
+        stack.add(BM.bidi.BraceWrapper(),
+                  BM.bidi.BidiLatex() if LATEX else None,
+                  BM.bidi.BidiPaths(lib_root=_libroot),
+                  None,
+                )
 
     if FORMAT:   # Cleaning up entries
         stack.add(
