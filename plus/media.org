@@ -552,7 +552,7 @@
 *** Babel
 *** Batman Begins
 *** Beetlejuice
-*** [∅] Being John Malcovich
+*** Being John Malcovich
 *** Be Kind Rewind
 *** [∅] Big Fish
 *** Bill Bailey Bewilderness
@@ -610,7 +610,7 @@
 *** Good Morning Vietnam
 *** Good Night and Good Luck
 *** [∅] Gosford Park
-*** [∅] Groundhog Day
+*** Groundhog Day
 *** Hamlet
 *** Hancock
 *** Hannibal Rising
@@ -678,7 +678,7 @@
 *** Shrek 1, 2, 3, Forever After
 *** Shutter Island
 *** Sin City
-*** [∅] Snatch
+*** Snatch
 *** [∅] Solaris
 *** Sphere
 *** Spiderman 1, 2 , 3
@@ -701,7 +701,7 @@
 *** The Day the Earth Stood Still
 *** The Devil’s Backbone
 *** The Fountain
-*** [∅] The Full Monty
+*** The Full Monty
 *** The Girl with the Dragon Tattoo
 *** The Golden Compass
 *** The Hitch Hiker’s Guide to the Galaxy
@@ -732,7 +732,7 @@
 *** THX1138
 *** Tube Tales
 *** Two Tower
-*** [∅] V for Vendetta
+*** V for Vendetta
 *** Walk the Line
 *** Wallace and Gromit
 *** Wall-E
