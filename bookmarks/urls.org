@@ -4,6 +4,7 @@ https://calculatingempires.net/
 https://nutritionsource.hsph.harvard.edu/
 * Main
 ** Audio Visual
+https://vimeo.com/1079775335
 https://www.kyivtypefoundry.com/projects/kyiv-metro-fonts?id=0
 https://www.whocanuse.com/
 http://plantuml.com/sequence-diagram
@@ -1448,10 +1449,15 @@ https://colordesigner.io/
 https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
 
 ** Journals
+https://www.tandfonline.com/journals/tsep20
 https://onlinelibrary.wiley.com/toc/14680491/2025/38/1?campaign=woletoc
 ** Law
 https://opencasebook.org/featured/
 ** Maps
+https://www.marinetraffic.com/en/ais/home/centerx:-127.4/centery:14.4/zoom:3
+https://www.londonunderground.live/
+https://www.flightradar24.com/51.50,-0.12/6
+https://geoxc-apps.bd.esri.com/space/satellite-explorer/
 http://gizmodo.com/5809197/a-new-way-to-look-at-the-brain-using-google-maps
 http://judgmentalmaps.com/
 http://makezine.com/2013/11/05/beautiful-dd-maps-recount-days-of-adventure/
