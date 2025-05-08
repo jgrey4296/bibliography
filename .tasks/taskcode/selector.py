@@ -32,8 +32,8 @@ from uuid import UUID, uuid1
 import bibtexparser as BTP
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
-from doot.enums import ActionResponse_e as ActE
+from doot.util.dkey import DKey, DKeyed
+from doot.workflow._interface import ActionResponse_e as ActE
 
 ##-- logging
 logging = logmod.getLogger(__name__)

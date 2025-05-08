@@ -36,7 +36,7 @@ from bibtexparser import middlewares as ms
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
+from doot.util.dkey import DKey, DKeyed
 import bibble as BM
 
 @DKeyed.types("from", check=BTP.Library)

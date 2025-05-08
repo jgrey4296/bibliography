@@ -13,8 +13,7 @@ notify = { speak=false }
 
 [settings.commands]
 [settings.commands.run]
-tracker     = "doot.control.split_tracker:SplitTracker"
-# tracker     = "default"
+tracker     = "default"
 runner      = "default"
 reporter    = "dootle.reporters:FancyReporter"
 
@@ -45,13 +44,6 @@ allow        = ["_printer_"]
 target       = ["stdout", "rotate"]
 format       = "{message}"
 filename_fmt = "doot_printed.log"
-
-[logging.subprinters]
-default       = {level="user"}
-cmd           = {level="user",  colour="cyan"}
-task_header   = {level="user",  colour="magenta"}
-task          = {level="user",  colour="white"}
-action_exec   = {level="user",  colour="cyan"}
 
 [logging.extra]
 

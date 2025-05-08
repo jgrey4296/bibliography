@@ -209,7 +209,6 @@ cleanup = [
 name        = "_.count"
 must_inject = ["fpath", "lib"]
 depends_on  = [
-    {do="break!"},
     {do="exists?", args=["{fpath!p}"], fail=true },
     {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
 ]

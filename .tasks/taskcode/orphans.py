@@ -30,7 +30,8 @@ from uuid import UUID, uuid1
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed, TaskName
+from doot.util.dkey import DKey, DKeyed
+from doot.workflow import TaskName
 from dootle.actions.postbox import _DootPostBox
 
 ##-- logging

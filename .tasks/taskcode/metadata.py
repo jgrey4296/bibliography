@@ -40,7 +40,8 @@ import bibtexparser as BTP
 from bibtexparser import middlewares as ms
 import doot
 import doot.errors
-from doot.structs import DKey, TaskSpec, DKeyed
+from doot.util.dkey import DKey, DKeyed
+from doot.workflow import TaskSpec
 import bibble as BM
 
 @DKeyed.types("tasks")

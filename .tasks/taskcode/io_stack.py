@@ -32,7 +32,8 @@ import bibtexparser as BTP
 import doot
 import doot.errors
 from bibtexparser import middlewares as ms
-from doot.structs import DKey, DKeyed, TaskSpec
+from doot.util.dkey import DKey, DKeyed
+from doot.workflow import TaskSpec
 from bibble import PairStack
 from jgdv.files.tags import SubstitutionFile
 
