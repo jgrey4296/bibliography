@@ -141,9 +141,9 @@ actions          = [
         { do="dootle.bibtex:ToStr",  from_="bib_db", update_="bib_text", writer_="bib_writer"},
 ]
 cleanup = [
-    { task="bibtex::_.count", inject={from_state={lib="{bib_db}", fpath="{fpath!p}"}}, constraints=["fpath"] },
-    { do="log", msg="Writing to: {fpath}"},
-    { do="write!", from_="bib_text", to="{fpath!p}"},
+    {task="bibtex::_.count", inject={from_state={lib="{bib_db}", fpath="{fpath!p}"}}, constraints=["fpath"] },
+    {do="log", msg="Writing to: {fpath}"},
+    {do="write!", from_="bib_text", to="{fpath!p}"},
 ]
 
 # --------------------------------------------------
@@ -212,9 +212,8 @@ depends_on  = [
     {do="exists?", args=["{fpath!p}"], fail=true },
     {do="ext?",    args=["{fpath!p}"], exts=[".bib"] },
 ]
-
 setup = [
-        { do="path.elements", from_="fpath", roots=["."]},
+      {do="path.elements", from_="fpath", roots=["."]},
 ]
 actions = [
     # Get size
