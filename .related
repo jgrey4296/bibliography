@@ -26,3 +26,4 @@
 :aisb        : plus/conferences_primary/aisb_
 :site        : .site
 :sphinx      : conf.py
+:counts      : .temp/bib.counts
