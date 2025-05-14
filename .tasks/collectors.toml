@@ -17,10 +17,10 @@ cli     = [
         {name="-target", type="str", default="bibtex::format"},
 ]
 roots   = ["{bib}"]
-files = ["main/1924.bib", "main/1320.bib"]
+# files = ["main/1924.bib", "main/1320.bib"]
 actions = [
-        # {do="job.walk", update_="files"},
-        # {do="job.limit", from_="files"}, 
+        {do="job.walk", update_="files"},
+        {do="job.limit", from_="files"}, 
         {do="log", msg="{files}", prefix="Selected"},
         {do="job.expand", from_="files", update_="tasks", inject={literal=["fpath"]}, template_="target"},
         {do="job.queue", from_="tasks"},       

@@ -16,7 +16,7 @@ notify = { speak=false }
 tracker     = "default"
 runner      = "default"
 reporter    = "dootle.reporters:FancyReporter"
-show        = true
+show        = false
 
 [plugins]
 # Allows for defining shorthands

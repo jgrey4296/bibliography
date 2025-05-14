@@ -68,7 +68,7 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
-sort_firsts = ["title", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
+sort_firsts = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
 sort_lasts  = ["isbn", "doi", "url", "file", "crossref"]
 sub_fields  = ["publisher", "journal", "series", "institution"]
 meta_keys   = {
