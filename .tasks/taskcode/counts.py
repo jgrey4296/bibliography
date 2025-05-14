@@ -87,7 +87,10 @@ def get_lib_history(spec, state, _path:pl.Path, _db_file:pl.Path, _update):
     Get any recorded lib sizes for a given file
     returns the history as a dict of {date : count}
     """
-    matches = {}
+    matches : dict = {}
+    if not _db_file.exists():
+        return { _update : matches  }
+
     test_str = str(_path)
     for line in _db_file.read_text().splitlines():
         if test_str not in line:
