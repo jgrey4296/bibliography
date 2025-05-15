@@ -34,8 +34,8 @@ logging = logmod.getLogger(__name__)
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
-from doot.enums import ActionResponse_e
+from doot.util.dkey import DKey, DKeyed
+from doot.workflow._interface import ActionResponse_e
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
 

@@ -28,7 +28,7 @@ import bibtexparser as BTP
 import doot
 import doot.errors
 from bibtexparser import middlewares as ms
-from doot.structs import DKeyed
+from doot.util.dkey import DKeyed
 
 ##-- logging
 logging = logmod.getLogger(__name__)

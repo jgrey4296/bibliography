@@ -27,14 +27,14 @@ from uuid import UUID, uuid1
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed, TaskName
+from doot.util.dkey import DKey, DKeyed
+from doot.workflow import TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
 from bibble.metadata import TagsReader
 from dootle.actions.postbox import _DootPostBox
 
 ##-- logging
 logging = logmod.getLogger(__name__)
-fail_l = doot.subprinter("fail")
 ##-- end logging
 
 @DKeyed.paths("from", fallback=None)
@@ -55,7 +55,7 @@ def read_subs(spec, state, _target, _target_list, _norm_replace, _sep, _update):
             case pl.Path() as x if x.exists():
                 subfile = SubstitutionFile.read(x, norm_replace=_norm_replace, sep=_sep)
             case x:
-                fail_l.user("Unsuitable key expansion for reading sub file: %s", x)
+                doot.report.fail("Unsuitable key expansion for reading sub file: %s", x)
 
         target_subs.update(subfile)
     else:
@@ -78,7 +78,7 @@ def aggregate_subs(spec, state, args):
                 for tf in lst:
                     merged += tf
             case x:
-                fail_l.user("Unknown value attempted to be aggregated: %s", type(x))
+                doot.report.fail("Unknown value attempted to be aggregated: %s", type(x))
 
     else:
         canon_tags = merged.canonical()

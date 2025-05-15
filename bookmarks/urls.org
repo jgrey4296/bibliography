@@ -1,8 +1,10 @@
 #+TITLE: Urls
 
 https://calculatingempires.net/
+https://nutritionsource.hsph.harvard.edu/
 * Main
 ** Audio Visual
+https://vimeo.com/1079775335
 https://www.kyivtypefoundry.com/projects/kyiv-metro-fonts?id=0
 https://www.whocanuse.com/
 http://plantuml.com/sequence-diagram
@@ -57,6 +59,13 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://web.archive.org/web/20180511082242/http://www.enterprise-gamification.com/mediawiki/index.php?title=Gamification_Design_Elements
+https://mechanicsbg.com/
+https://boardgamegeek.com/browse/boardgamemechanic
+https://gamemechanicexplorer.com/#
+https://techcrunch.com/2010/08/25/scvngr-game-mechanics/
+https://rimworldwiki.com/wiki/Ideoligion
+https://rimworldwiki.com/wiki/Rituals
 https://gdcvault.com/play/1034944/What-s-New-in-Game
 https://www.gbstudio.dev/
 https://jettelly.com/bundles/the-godot-shaders-bundle
@@ -715,6 +724,7 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.wikipedia.org/wiki/History_of_economic_thought
 https://en.m.wikipedia.org/wiki/Encarta
 https://en.m.wikipedia.org/wiki/The_Troubles
 https://en.m.wikipedia.org/wiki/Pasteurization
@@ -978,6 +988,7 @@ https://vgvisualvault.blogspot.com
 https://web.archive.org/web/20130115064519/https://sexyvideogameland.blogspot.com
 https://zelo-street.blogspot.com
 ** Comics
+https://www.boredpanda.com/comics-women-contemporary-life-social-issues-lainey-molnar-part-7/
 https://redpenblackpen.jasonya.com
 ** Dev Blogs
 https://towardsdatascience.com/on-optimally-squishing-large-datasets-9276776cf0cb
@@ -1058,6 +1069,7 @@ https://www.gamasutra.com/blogs/TynanSylvester
 https://www.gamasutra.com/blogs/VictoriaTran
 https://www.gamasutra.com/blogs/XanderMarkham
 ** Games
+https://blog.aulddragon.com/
 https://www.filfre.net/
 https://www.joewintergreen.com/
 https://www.gamesradar.com/
@@ -1170,6 +1182,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://corrode.dev/blog/
 https://www.hillelwayne.com/post/
 https://www.stuartellis.name/
 https://andrewwegner.com/
@@ -1437,10 +1450,15 @@ https://colordesigner.io/
 https://coolors.co/c5e6a6-bdd2a6-b9bea5-a7aaa4-9899a6
 
 ** Journals
+https://www.tandfonline.com/journals/tsep20
 https://onlinelibrary.wiley.com/toc/14680491/2025/38/1?campaign=woletoc
 ** Law
 https://opencasebook.org/featured/
 ** Maps
+https://www.marinetraffic.com/en/ais/home/centerx:-127.4/centery:14.4/zoom:3
+https://www.londonunderground.live/
+https://www.flightradar24.com/51.50,-0.12/6
+https://geoxc-apps.bd.esri.com/space/satellite-explorer/
 http://gizmodo.com/5809197/a-new-way-to-look-at-the-brain-using-google-maps
 http://judgmentalmaps.com/
 http://makezine.com/2013/11/05/beautiful-dd-maps-recount-days-of-adventure/
@@ -1465,6 +1483,7 @@ https://www.davidrumsey.com/                                                    
 https://franknielsen.github.io/Divergence/
 
 ** Museums and Libraries
+https://asiacollectionsnetwork.com/?p=938
 https://repository.si.edu/
 https://geheugen.delpher.nl/nl
 https://pdimagearchive.org/

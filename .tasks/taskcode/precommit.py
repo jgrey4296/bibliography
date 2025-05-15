@@ -30,7 +30,7 @@ from uuid import UUID, uuid1
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
+from doot.util.dkey import DKey, DKeyed
 
 ##-- logging
 logging = logmod.getLogger(__name__)

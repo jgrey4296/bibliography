@@ -13,11 +13,10 @@ notify = { speak=false }
 
 [settings.commands]
 [settings.commands.run]
-tracker     = "doot.control.split_tracker:SplitTracker"
-# tracker     = "default"
+tracker     = "default"
 runner      = "default"
-reporter    = "default"
-report-line = []
+reporter    = "dootle.reporters:FancyReporter"
+show        = false
 
 [plugins]
 # Allows for defining shorthands
@@ -33,26 +32,19 @@ format ="{levelname:<7} : {message}"
 [logging.file]
 level          = "detail"
 filter         = ["jgdv"]
-# allow          = ["doot.control"]
-allow          = ["bibble"]
+allow          = ["doot.control.tracker"]
+# allow          = ["bibble"]
 target         = ["rotate"]
-format         = "{levelname:<8} : {message:<20} :|: ({module}.{lineno}.{funcName})"
+format         = "[{levelname}] [{module}.{funcName}.{lineno}] : {message:<20}"
 filename_fmt   = "doot.log"
 
 [logging.printer]
-level        = "NOTSET"
+level        = "INFO"
 colour       = true
 allow        = ["_printer_"]
 target       = ["stdout", "rotate"]
 format       = "{message}"
 filename_fmt = "doot_printed.log"
-
-[logging.subprinters]
-default       = {level="user"}
-cmd           = {level="user",  colour="cyan"}
-task_header   = {level="user",  colour="magenta"}
-task          = {level="user",  colour="white"}
-action_exec   = {level="user",  colour="cyan"}
 
 [logging.extra]
 

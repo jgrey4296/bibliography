@@ -34,21 +34,22 @@ from bibtexparser import middlewares as ms
 
 import doot
 import doot.errors
-from doot.structs import DKey, DKeyed
+from doot.util.dkey import DKey, DKeyed
 import bibble as BM
 
 ##-- logging
 logging = logmod.getLogger(__name__)
-printer = doot.subprinter("action_exec")
 ##-- end logging
 
 @DKeyed.types("entry")
 def log_entry_name(spec, state, entry):
     match entry.fields_dict.get("title", None):
         case None:
-            printer.info("> %s", entry.key)
+            value = entry.key
         case x:
-            printer.info("> %s", x.value)
+            value = x.value
+
+    doot.report.act("> %s", value)
 
 @DKeyed.types("entry")
 @DKeyed.redirects("update_")

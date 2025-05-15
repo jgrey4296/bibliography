@@ -8,9 +8,23 @@ dependencies    = [
     "doot",
     "dootle",
     "bibtex-bibble",
+    "sphinx>=8.2.3",
+    "sphinx-rtd-theme>=3.0.2",
+    "myst-parser>=4.0.1",
+    "sphinx-sitemap>=2.6.0",
+    "sphinx-bib-domain>=0.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipython>=9.2.0",
 ]
 
 [tool.uv]
 prerelease="allow"
 
 [tool.uv.sources]
+bibtex-bibble = { path = "../../../../../../../home/john/github/python/doot/related_/bibble", editable = true }
+dootle = { path = "../../../../../../../home/john/github/python/doot/related_/dootle", editable = true }
+sphinx-bib-domain = { path = "../../../../../../../home/john/github/python/sphinx_bib_domain", editable = true }
+doot = { path = "../../../../../../../home/john/github/python/doot", editable = true }

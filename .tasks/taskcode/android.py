@@ -31,11 +31,11 @@ from uuid import UUID, uuid1
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
-from doot.mixins.job.expander import _WalkControl
+from jgdv.enums import LoopControl_e
 
-def select_dirs(target) -> bool | _WalkControl:
+def select_dirs(target) -> bool | LoopControl_e:
     if target.stem == "pdfs":
-        return _WalkControl.noBut
+        return LoopControl_e.noBut
     if target.is_dir():
-        return _WalkControl.yesAnd
+        return LoopControl_e.yesAnd
     return False

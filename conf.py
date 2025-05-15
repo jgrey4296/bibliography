@@ -14,8 +14,6 @@ import datetime
 #
 sys.path.insert(0, str(pl.Path('.tasks/sphinxcode').resolve()))
 
-
-
 # -- Project information -----------------------------------------------------
 
 project        = 'Bibliography'
@@ -24,25 +22,19 @@ copyright      = '{}, {}'.format(datetime.datetime.now().strftime("%Y"), author)
 primary_domain = "bibtex"
 html_baseurl   = "https://bibliography.github.io"
 extensions     = [
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
     'sphinx.ext.napoleon',
     'sphinx.ext.extlinks',
     'sphinx_rtd_theme',
     'myst_parser',
-    # "autoapi.extension",
-    "sphinx.ext.coverage",
     "sphinx.ext.imgconverter",
     "sphinx.ext.intersphinx",
     "sphinx.ext.viewcode",
-    "sphinx_sitemap",
+    # "sphinx_sitemap",
 ]
 
 source_suffix = {
     ".rst" : "restructuredtext",
     ".md"  : "markdown",
-
 
 }
 # List of patterns, relative to source directory, that match files and
@@ -52,6 +44,7 @@ exclude_patterns = [
     "**/.git",
     "**/.github",
     "**/__tests/*",
+    ".venv/*",
     ".site/*",
     "bookmarks/*",
     "completions/*",
@@ -66,16 +59,6 @@ exclude_patterns = [
 
 include_patterns = ["**"]
 # suppress_warnings = ["autoapi", "docutils"]
-
-# -- Sphinx and Jina configuration -------------------------------------------
-import sphinx_bib_domain
-
-def setup(app):
-    app.events.connect("builder-inited", add_jinja_ext, 0)
-    sphinx_bib_domain.setup(app)
-
-def add_jinja_ext(app):
-    app.builder.templates.environment.add_extension('jinja2.ext.debug')
 
 # -- Path setup --------------------------------------------------------------
 
@@ -92,7 +75,6 @@ html_js_files  = ["js/base.js"]
 toc_object_entries            = True
 master_doc                    = "index"
 
-
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -107,7 +89,7 @@ html_theme_options  = {}
 html_sidebars       = {}
 html_domain_indices = True
 html_use_index      = True
-
+html_split_index    = True
 
 html_theme_options.update({
     'logo_only'                   : False,
@@ -125,4 +107,12 @@ html_theme_options.update({
 
 })
 
-# -- Extension Options -------------------------------------------------
+# -- Sphinx and Jina configuration -------------------------------------------
+import sphinx_bib_domain
+
+def setup(app):
+    app.events.connect("builder-inited", add_jinja_ext, 0)
+    sphinx_bib_domain.setup(app)
+
+def add_jinja_ext(app):
+    app.builder.templates.environment.add_extension('jinja2.ext.debug')
