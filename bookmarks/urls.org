@@ -2568,6 +2568,8 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp
 https://www.youtube.com/watch?v=zOR3snVKW0E
+** Publishers
+https://www.brepolsonline.net/action/showPublications?pubType=bookOnly
 * Digital Collections
 http://www.tapedeck.org/index.php
 https://www.iso.org/obp/ui#iso:pub:PUB400008:en : iso 7000 graphical symbols
