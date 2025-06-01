@@ -60,6 +60,8 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://www.designer-notes.com/ - soren johnson blog
+https://gameprogrammingpatterns.com/contents.html
 https://web.archive.org/web/20180511082242/http://www.enterprise-gamification.com/mediawiki/index.php?title=Gamification_Design_Elements
 https://mechanicsbg.com/
 https://boardgamegeek.com/browse/boardgamemechanic
@@ -420,6 +422,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/Mixtape-Sessions
 https://github.com/mcclure
 https://github.com/ChevyRay
 https://github.com/rust-lang/polonius
