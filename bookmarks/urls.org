@@ -728,6 +728,14 @@ https://thefishsociety.co.uk
 https://finefoodspecialist.co.yk
 https://britbuyer.co.uk
 ** Wiki
+https://en.m.wikipedia.org/wiki/Category:Obsolete_occupations
+https://en.wikipedia.org/wiki/List_of_river_name_etymologies
+https://en.m.wikipedia.org/wiki/List_of_mythological_objects#Swords
+https://en.m.wikipedia.org/wiki/List_of_mottos_and_halls_of_the_livery_companies
+https://en.m.wikipedia.org/wiki/List_of_breads
+https://en.m.wikipedia.org/wiki/List_of_fish_common_names
+https://en.m.wikipedia.org/wiki/List_of_generic_forms_in_place_names_in_the_British_Isles
+https://en.wikipedia.org/wiki/List_of_lists_of_lists
 https://en.wikipedia.org/wiki/History_of_economic_thought
 https://en.m.wikipedia.org/wiki/Encarta
 https://en.m.wikipedia.org/wiki/The_Troubles
@@ -1187,6 +1195,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://www.philipzucker.com/
 https://corrode.dev/blog/
 https://www.hillelwayne.com/post/
 https://www.stuartellis.name/
