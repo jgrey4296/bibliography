@@ -36,7 +36,7 @@ depends_on   = [
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?",   args=["{fpath!p}"], fail=true},
-    { task="bibtex::format", inject={now=["fpath"]}},
+    { task="bibtex::format", inject={from_spec=["fpath"]}},
 ]
 setup            = [
     # build the parse and export stacks, and the db
@@ -57,19 +57,19 @@ actions          = [
     # { do="post.put"  },
 ]
 head_actions = [
-    # { task="bibtex::export.to.latex",   inject={now=["fpath"]} }, # Export
-    # { task="bibtex::export.to.rst",     inject={now=["fpath"]} }, # rst for html generation
-    # { task="compile::_.to.pdf",         inject={now=["fpath"]} }, # Compile pdf
+    # { task="bibtex::export.to.latex",   inject={from_spec=["fpath"]} }, # Export
+    # { task="bibtex::export.to.rst",     inject={from_spec=["fpath"]} }, # rst for html generation
+    # { task="compile::_.to.pdf",         inject={from_spec=["fpath"]} }, # Compile pdf
 
     # Extract sets from lib
     # TODO can't inject bib_db at network build time
-    { task="tags::substitutions", inject={now=["postbox"]} },
+    { task="tags::substitutions", inject={from_spec=["postbox"]} },
     # Report broken urls:
-    # { task="util::_.report.broken.urls", inject={now={postbox="bibtex::entries..urls"}}},
+    # { task="util::_.report.broken.urls", inject={from_spec={postbox="bibtex::entries..urls"}}},
     # Report orphan files
-    # { task="orphans::_.report.missing", inject={now=["fpath"]}},
+    # { task="orphans::_.report.missing", inject={from_spec=["fpath"]}},
     # TODO Summarise
-    # { task="bibtex::_.summarise", inject={now=["fpath"]} },
+    # { task="bibtex::_.summarise", inject={from_spec=["fpath"]} },
 
     {do="path.elements", from_="fpath" },
     {do="say",   args=["Finished handling changes for: {fstem}"]},

@@ -14,7 +14,6 @@ depends-on = ["make::+._.stubs.grep"]
 [[tasks.make]]
 name             = "+._.stubs.grep"
 doc              = ["Move pdfs and epubs into working directory, create stub entry for each one"]
-queue_behaviour  = "default"                             
 exts             = [".pdf", ".epub"]                     
 roots            = ["{dropbox!p}", "{downloads!p}"]      
 recursive        = false                                 
@@ -22,7 +21,7 @@ out_target       = "{todo_pdfs!p}/stubbed/{fname}"
 accept_fn        = "fn::taskcode.stubber:not_copied"
 actions          = [
         {do="job.walk",   update_="files", fn_="accept_fn"}, # walk,
-        {do="job.expand", from_="files", update_="tasks", inject={insert=["fpath"], delay=["out_target"]}, template_="sub_actions"},
+        {do="job.expand", from_="files", update_="tasks", inject={literal=["fpath"], from_target=["out_target"]}, template_="sub_actions"},
         {do="job.inject.path.elements", onto_="tasks", key_="fpath"},
         {do="job.queue", from_="tasks"}, # queue
 ]

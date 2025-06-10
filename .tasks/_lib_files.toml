@@ -24,7 +24,7 @@ depends_on       = [
     { do="ext?",      args=["{fpath!p}"], exts=[".bib"] },
     { do="relative?", args=["{fpath!p}"], bases_="roots"},
     { do="exists?", args=["{fpath!p}"],   fail=true},
-    { task="bibtex::format", inject={now=["fpath"]} },
+    { task="bibtex::format", inject={from_spec=["fpath"]} },
 ]
 setup            = [
     # build the parse and export stacks, and the db

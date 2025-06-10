@@ -19,7 +19,7 @@ actions    = [
    {do="log", msg="Available changed files: {changed}"},
    {do="job.limit", count_="choose", from_="changed"},
    # Queue metadata update
-   {do="job.expand", from_="changed", inject={insert=["fpath"]}, template_="sub_target", update_="bib_files", prefix="git.cached"},
+   {do="job.expand", from_="changed", inject={literal=["fpath"]}, template_="sub_target", update_="bib_files", prefix="git.cached"},
    {do="job.queue", from_=["bib_files"]},
 ]
 cleanup = [

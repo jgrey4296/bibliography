@@ -21,8 +21,8 @@ cli              = [{ name="<1>fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 tex_prog         = "pdflatex"
 depends_on       = [
-    {task="bibtex::export.to.latex",   inject={now=["fpath"]}},
-    {task="make::_.generate.tex", inject={now=["fpath"]}},
+    {task="bibtex::export.to.latex",   inject={from_spec=["fpath"]}},
+    {task="make::_.generate.tex", inject={from_spec=["fpath"]}},
     {do="installed?", args=["pdftex", "bibtex"] },
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath", roots=["{bib!p}"]},
@@ -65,7 +65,7 @@ cli              = [{ name="-fpath", type="str", default="", desc=""}]
 must_inject      = ["fpath"]
 author           = "jg"
 depends_on       = [
-    {task="bibtex::export.to.latex", inject={now=["fpath"]}},
+    {task="bibtex::export.to.latex", inject={from_spec=["fpath"]}},
     {do="relative?", args=["{fpath!p}"], bases=["{bib!p}"]},
     {do="path.elements", from_="fpath",  roots=["{bib!p}"]},
     # skip if the exported bib exists and is recent
