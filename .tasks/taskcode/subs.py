@@ -5,6 +5,7 @@
 # ruff: noqa: TC002, ARG001
 from __future__ import annotations
 
+from typing import Any
 import logging as logmod
 import pathlib as pl
 import doot
@@ -29,7 +30,6 @@ def read_subs(spec:ActionSpec, state:dict, _target:pl.Path, _target_list:list, _
     key          : DKey
     target_subs  : SubstitutionFile
     subfile      : SubstitutionFile
-
     match _target:
         case pl.Path() if _target.exists():
             target_subs = SubstitutionFile.read(_target, norm_replace=_norm_replace, sep=_sep)
@@ -37,7 +37,7 @@ def read_subs(spec:ActionSpec, state:dict, _target:pl.Path, _target_list:list, _
             target_subs = SubstitutionFile(norm_replace=_norm_replace, sep=_sep)
 
     for val in _target_list:
-        key     = DKey(val, mark=DKey.Mark.PATH)
+        key     = DKey[pl.Path](val)
         match key():
             case pl.Path() as x if x.exists():
                 subfile = SubstitutionFile.read(x, norm_replace=_norm_replace, sep=_sep)
@@ -55,7 +55,7 @@ def aggregate_subs(spec:ActionSpec, state:dict, args:list) -> dict:
     """
     merged = SubstitutionFile()
     for x in args:
-        key = DKey(x, mark=DKey.Mark.FREE, implicit=True)
+        key = DKey[Any](x, implicit=True)
         match key.expand(spec, state):
             case None:
                 pass

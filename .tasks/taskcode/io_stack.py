@@ -130,6 +130,12 @@ def build_new_stack(spec, state, kwargs:dict,
         add_rst(stack, root=_libroot)
     elif LATEX:
         add_latex(stack, root=_libroot)
+    else:
+        stack.add(BM.bidi.BraceWrapper(),
+                  BM.bidi.BidiPaths(lib_root=_libroot),
+                  None,
+              )
+
 
     if FORMAT:   # Cleaning up entries
         add_format(stack, _othersubs=_othersubs, _tagsubs=_tagsubs)
