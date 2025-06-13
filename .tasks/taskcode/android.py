@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 """
 
 ##-- builtin imports
@@ -25,7 +24,6 @@ from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generic,
 from uuid import UUID, uuid1
 
 ##-- end builtin imports
-
 
 ##-- logging
 logging = logmod.getLogger(__name__)

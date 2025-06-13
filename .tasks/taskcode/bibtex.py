@@ -26,7 +26,6 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-
 from random import choice, choices
 
 import bibtexparser as BTP

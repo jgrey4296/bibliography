@@ -3,35 +3,19 @@
 
 See EOF for license/metadata/notes as applicable
 """
-
-##-- builtin imports
+# ruff: noqa: F401
+# imports
 from __future__ import annotations
 
-# import abc
-import datetime
-import enum
-import functools as ftz
-import itertools as itz
 import logging as logmod
 import pathlib as pl
 import re
-import time
-import types
-import weakref
-# from copy import deepcopy
-# from dataclasses import InitVar, dataclass, field
-from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generic,
-                    Iterable, Iterator, Mapping, Match, MutableMapping,
-                    Protocol, Sequence, Tuple, TypeAlias, TypeGuard, TypeVar,
-                    cast, final, overload, runtime_checkable, Generator)
-from uuid import UUID, uuid1
-
-##-- end builtin imports
-
+from random import choice
 
 import bibtexparser as BTP
 import doot
 import doot.errors
+from doot.workflow import ActionSpec, TaskSpec
 from doot.util.dkey import DKey, DKeyed
 from doot.workflow._interface import ActionResponse_e as ActE
 
@@ -50,7 +34,7 @@ def sort_oldest(spec:ActionSpec, state:dict, sub_specs:list[pl.Path|TaskSpec], c
 @DKeyed.types("from", check=BTP.Library)
 @DKeyed.redirects("update_")
 def select_one_entry(spec, state, _bib_db, _update):
-    entries    = bib_db.entries
+    entries    = _bib_db.entries
     entry      = choice(entries)
     # TODO have white/black list
 

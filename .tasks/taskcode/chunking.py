@@ -5,7 +5,6 @@ See EOF for license/metadata/notes as applicable
 """
 from __future__ import annotations
 
-# import abc
 import datetime
 import enum
 import functools as ftz
@@ -32,7 +31,6 @@ from doot.util.dkey import DKeyed
 
 ##-- logging
 logging = logmod.getLogger(__name__)
-printer = logmod.getLogger("doot._printer")
 ##-- end logging
 
 @DKeyed.types("bib_size", check=int, fallback=250)
@@ -55,13 +53,13 @@ def split_library(spec, state, bib_size, _base_lib, _update):
         curr.add(entry)
     else:
         libs.append(curr)
-    printer.info("Split Into %s Sub Libraries", len(libs))
+    doot.report.act(info="Split", msg=f"{len(libs)} Sub Libraries")
     return { _update : libs }
 
 @DKeyed.types("from", check=BTP.Library)
 @DKeyed.redirects("update_")
 def generate_stem(spec, state, _base_lib, _update):
-    source = list(_base_lib.source_files)[0]
-    count  = _base_lib.split_count
-    fstem  = f"{source.stem}_{count}"
+    source  = list(_base_lib.source_files)[0]
+    count   = _base_lib.split_count
+    fstem   = f"{source.stem}_{count}"
     return { _update : fstem }

@@ -2,55 +2,42 @@
 """
 
 """
-
+# ruff: noqa: TC002, ARG001
 from __future__ import annotations
 
-##-- stdlib
-import datetime
-import enum
-import functools as ftz
-import itertools as itz
 import logging as logmod
 import pathlib as pl
-import re
-import time
-import types
-import weakref
-from typing import (TYPE_CHECKING, Any, Callable, ClassVar, Final, Generator,
-                    Generic, Iterable, Iterator, Mapping, Match,
-                    MutableMapping, Protocol, Sequence, Tuple, TypeAlias,
-                    TypeGuard, TypeVar, cast, final, overload,
-                    runtime_checkable)
-from uuid import UUID, uuid1
-
-##-- end stdlib
-
 import doot
 import doot.errors
-from doot.util.dkey import DKey, DKeyed
+from jgdv.structs.dkey import DKeyed
+from doot.workflow import ActionSpec
+from doot.util.dkey import DKey
 from doot.workflow import TaskName
 from jgdv.files.tags import TagFile, SubstitutionFile
 from bibble.metadata import TagsReader
 from dootle.actions.postbox import _DootPostBox
 
-##-- logging
+# logging
 logging = logmod.getLogger(__name__)
-##-- end logging
 
 @DKeyed.paths("from", fallback=None)
 @DKeyed.types("from_all", fallback=[], named="_target_list")
 @DKeyed.formats("sub_norm_replace", fallback="_")
 @DKeyed.formats("sub_sep", fallback=" : ")
 @DKeyed.redirects("update_")
-def read_subs(spec, state, _target, _target_list, _norm_replace, _sep, _update):
+def read_subs(spec:ActionSpec, state:dict, _target:pl.Path, _target_list:list, _norm_replace:str, _sep:str, _update:DKey) -> dict:
+    key          : DKey
+    target_subs  : SubstitutionFile
+    subfile      : SubstitutionFile
+
     match _target:
         case pl.Path() if _target.exists():
             target_subs = SubstitutionFile.read(_target, norm_replace=_norm_replace, sep=_sep)
         case _:
             target_subs = SubstitutionFile(norm_replace=_norm_replace, sep=_sep)
 
-    for key in _target_list:
-        key     = DKey(key, mark=DKey.Mark.PATH)
+    for val in _target_list:
+        key     = DKey(val, mark=DKey.Mark.PATH)
         match key():
             case pl.Path() as x if x.exists():
                 subfile = SubstitutionFile.read(x, norm_replace=_norm_replace, sep=_sep)
@@ -62,7 +49,7 @@ def read_subs(spec, state, _target, _target_list, _norm_replace, _sep, _update):
         return { _update : target_subs }
 
 @DKeyed.args
-def aggregate_subs(spec, state, args):
+def aggregate_subs(spec:ActionSpec, state:dict, args:list) -> dict:
     """ merge keys from args together,
       handling tagfiles, and lists of tag files
     """

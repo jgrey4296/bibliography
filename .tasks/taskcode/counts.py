@@ -72,10 +72,10 @@ def fmt_lib_size(spec, state, _path, lib, _update):
     """ Get the size of the library,
     returns both the size, and a formatted str of it
     """
-    today     = datetime.datetime.today().strftime(DATE_FORMAT)
-    count     = len(lib.entries)
-    f_str     = str(_path)
-    formatted = f"{f_str} : {today} : {count}"
+    today      = datetime.datetime.today().strftime(DATE_FORMAT)
+    count      = len(lib.entries)
+    f_str      = str(_path)
+    formatted  = f"{f_str}  : {today} : {count}"
     doot.report.act(info="Lib Size", msg=formatted, level=10)
     return { _update : formatted, "lib.size" : count }
 
@@ -138,7 +138,6 @@ def error_on_entry_decrease(spec, state, _path, lib, history, override):
             return False
         case _:
             return False
-
 
 @DKeyed.types("rpath")
 @DKeyed.types("lib")

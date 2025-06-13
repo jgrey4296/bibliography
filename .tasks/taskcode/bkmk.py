@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 See EOF for license/metadata/notes as applicable
 """
 
@@ -27,7 +26,6 @@ from uuid import UUID, uuid1
 
 ##-- end builtin imports
 
-
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
@@ -39,7 +37,8 @@ from doot.workflow._interface import ActionResponse_e
 from jgdv.files.tags import TagFile
 from jgdv.files.bookmarks import BookmarkCollection
 
-TODAY                       = datetime.datetime.now().date()
+def today() -> datetime.datetime:
+    return datetime.datetime.now().date()
 
 @DKeyed.types("from", check=BookmarkCollection)
 @DKeyed.redirects("update_")

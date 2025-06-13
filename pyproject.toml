@@ -28,3 +28,20 @@ bibtex-bibble = { path = "../../../../../../../home/john/github/python/doot/rela
 dootle = { path = "../../../../../../../home/john/github/python/doot/related_/dootle", editable = true }
 sphinx-bib-domain = { path = "../../../../../../../home/john/github/python/sphinx_bib_domain", editable = true }
 doot = { path = "../../../../../../../home/john/github/python/doot", editable = true }
+
+##-- mypy
+# https://mypy.readthedocs.io/en/stable/config_file.html#config-file
+[tool.mypy]
+python_version          = "3.12"
+follow_imports          = "silent"
+cache_dir               = ".temp/mypy_cache"
+exclude                = [] 
+warn_return_any         = false
+ignore_missing_imports  = true
+# warn_unused_configs     = true
+# warn_redundant_casts    = true
+# warn_unused_ignores     = true
+# warn_return_any         = true
+# warn_unreachable        = true
+
+##-- end mypy
