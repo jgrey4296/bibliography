@@ -4,7 +4,7 @@ doot-version = "1.1"
 
 [[locations]]
 online_todo   = "file::>{home_repo}/submodules_/bibliography/in_progress/online.bib"
-online_saves  = "/media/john/data/todo/pdfs/online"
+online_saves  = "dir::>/media/john/data/todo/pdfs/online"
 
 [[tasks.online]]
 name             = "download.entries"
