@@ -1195,6 +1195,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://danielilett.com/tutorials/
 https://www.philipzucker.com/
 https://corrode.dev/blog/
 https://www.hillelwayne.com/post/
@@ -1845,6 +1846,7 @@ https://www.soundsurvey.org.uk/                                                 
 https://www.xeno-canto.org/                                                                                    :  Bird Sounds Database
 
 ** Standards
+https://psx-spx.consoledev.net/
 https://datatracker.ietf.org/doc/html/rfc9562
 https://www.w3.org/TR/?status%5B0%5D=standard
 
