@@ -3,6 +3,8 @@
 https://calculatingempires.net/
 https://nutritionsource.hsph.harvard.edu/
 https://www.tollfromcoal.org
+https://archive.ph/
+https://www.tunefind.com/
 * Main
 ** Audio Visual
 https://vimeo.com/1079775335
@@ -1386,6 +1388,7 @@ https://aspietests.org/
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
 
 ** Fonts
+https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/
 https://fontmeme.com/
 https://consolidatedpower.co/~donald/zero/Fonts
 http://boingboing.net/2014/01/30/creatingafont.html
@@ -2587,6 +2590,7 @@ https://www.youtube.com/watch?v=zOR3snVKW0E
 https://open.uapress.arizona.edu/
 https://www.brepolsonline.net/action/showPublications?pubType=bookOnly
 * Digital Collections
+https://thegoldendemoncompendium.com/
 https://vgmusic.com/music/console/nintendo/snes/
 https://pars.lasd.org/Viewer/Menu
 https://www.andrevicentegoncalves.com/photography-project/windows-of-the-world-collections
