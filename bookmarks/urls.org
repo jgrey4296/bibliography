@@ -424,6 +424,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/inconvergent
 https://github.com/Mixtape-Sessions
 https://github.com/mcclure
 https://github.com/ChevyRay
@@ -604,6 +605,7 @@ https://github.com/open-policy-agent/opa
 https://simassocc.org/
 https://www.openpolicyagent.org/
 ** Programming
+https://docs.datomic.com/datomic-overview.html
 https://xapian.org/
 https://xapian.org/docs/
 https://launchpad.net/
@@ -1199,6 +1201,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://blog.stalkr.net
 https://danielilett.com/tutorials/
 https://www.philipzucker.com/
 https://corrode.dev/blog/
@@ -1388,6 +1391,9 @@ https://aspietests.org/
 
 ** Cities
 https://opendata.cityofnewyork.us/data/                                                                        :  NYC Open Data
+
+** Disability
+https://www.disabilityrightsca.org
 
 ** Fonts
 https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/
