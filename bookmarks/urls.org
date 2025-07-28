@@ -424,6 +424,8 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://github.com/RobertSundling/ADVGEN 
+https://github.com/hotheadhacker/no-as-a-service
 https://github.com/inconvergent
 https://github.com/Mixtape-Sessions
 https://github.com/mcclure
@@ -1201,6 +1203,9 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://www.ericholscher.com/blog/
+https://about.readthedocs.com/blog/
+https://enikofox.com/
 https://blog.stalkr.net
 https://danielilett.com/tutorials/
 https://www.philipzucker.com/
@@ -1415,9 +1420,12 @@ https://web.archive.org/web/20180721043841/https://www.cl.cam.ac.uk/~rf10/pstex/
 https://www.1001freefonts.com/                                                                                 :  Free Fonts
 https://chevyray.itch.io/pixel-font-megapack
 ** Food
+https://spicebox.co.uk/
 https://www.foodtimeline.org
 https://www.tasteatlas.com/
 ** Government
+https://smartpolitics.lib.umn.edu/2024/11/25/number-of-single-party-state-congressional-delegations-reaches-70-year-high/
+https://redistricting.capitol.texas.gov/2020s_timeline
 https://disclosures-clerk.house.gov/FinancialDisclosure
 https://www.missingkids.org/ourwork/publications
 https://ecode360.com/JE3328#37741532
@@ -2600,6 +2608,10 @@ https://www.youtube.com/watch?v=zOR3snVKW0E
 https://open.uapress.arizona.edu/
 https://www.brepolsonline.net/action/showPublications?pubType=bookOnly
 * Digital Collections
+https://gerrymander.princeton.edu/redistricting-report-card/
+https://www.schemastore.org/
+https://opentermsarchive.org/en/
+https://www.webdesignmuseum.org/gallery
 https://www.texasobituaryproject.org/
 https://apod.nasa.gov/apod/
 https://www.constituteproject.org/constitutions
