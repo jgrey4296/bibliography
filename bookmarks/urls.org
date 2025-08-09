@@ -1203,6 +1203,7 @@ https://lizengland.com
 https://rossignol.cream.org
 https://saxxie.dev
 ** Programming
+https://blog.ionelmc.ro/about/
 https://www.ericholscher.com/blog/
 https://about.readthedocs.com/blog/
 https://enikofox.com/
