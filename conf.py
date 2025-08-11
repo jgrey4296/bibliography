@@ -55,6 +55,9 @@ exclude_patterns = [
     "timelines/*",
     '**flycheck_*.py',
     "readme.md",
+    ".temp/tox",
+    ".temp/mypy*",
+    ".temp/site"
 ]
 
 include_patterns = ["**"]
