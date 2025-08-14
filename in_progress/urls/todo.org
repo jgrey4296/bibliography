@@ -242,7 +242,7 @@ https://yro.slashdot.org/story/13/03/12/137239/what-if-manning-had-leaked-to-the
 http://m.uk.ign.com/lists/top-100-rpgs/1 -- not loading
 https://m.imgur.com/a/6jUOL -- over capacity, check back later
 [[https://www.barnesandnoble.com/blog/sci-fi-fantasy/vanguard-jack-campbell-review/][jack campbell review]] - blocked on tor
-[[https://www.theatlantic.com/magazine/archive/2017/06/make-time-for-boredom/524514/?utm_source=atltw][boredom]]
+[[https://www.theatlantic.com/magazine/archive/2017/06/make-time-for-boredom/524514/][boredom]]
 [[https://www.theverge.com/2017/5/16/15643638/chelsea-manning-trans-woman-community][tutorial on generative systems]]
 [[https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf][purely functional data structures]]
 [[https://scholar.google.com/scholar?cites=3306143469979875467&as_sdt=5,39&sciodt=0,39&hl=en][scholar search to come back to]]
@@ -893,7 +893,7 @@ https://www.vox.com/latest-news/2019/3/22/18275913/statistical-significance-p-va
 https://www.vox.com/the-goods/2018/10/26/18025000/walkable-city-walk-score-economy
 https://www.w3.org/TR/vocab-org/
 https://www.washingtonpost.com/graphics/2019/national/western-cities-changing-skylines/
-https://www.washingtonpost.com/graphics/2019/opinions/spains-far-right-vox-party-shot-from-social-media-into-parliament-overnight-how/?utm_term=.45e56e8bb55f&tid=sm_tw
+https://www.washingtonpost.com/graphics/2019/opinions/spains-far-right-vox-party-shot-from-social-media-into-parliament-overnight-how/
 https://www.washingtonpost.com/technology/2021/08/12/philip-agre-ai-disappeared/
 https://www.watercolourworld.org/
 https://www.wired.com/story/woman-bringing-civility-to-open-source-projects/
