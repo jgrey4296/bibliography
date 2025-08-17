@@ -2612,6 +2612,7 @@ https://www.youtube.com/watch?v=zOR3snVKW0E
 https://open.uapress.arizona.edu/
 https://www.brepolsonline.net/action/showPublications?pubType=bookOnly
 * Digital Collections
+https://davesredistricting.org/maps#home
 https://dumps.wikimedia.org/
 https://developer.wikimedia.org/
 https://www.trumpactiontracker.info/
