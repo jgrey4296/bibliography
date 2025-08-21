@@ -21,6 +21,7 @@ labour                          : 84
 labour_arbitrage                : 1
 labour_identification_card      : 1
 labour_laws                     : 1
+labour_paty                     : 1 : labour_party
 labour_party                    : 3
 labour_power                    : 1
 labour_protections              : 1
