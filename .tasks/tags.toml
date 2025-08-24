@@ -17,7 +17,7 @@ doc          = ["build the totals.tags file from individual tag substitution fil
 roots        = ["{substitutions!p}/general"]
 exts         = [".sub"]
 recursive    = false
-# required_for = ["file::>{known_tag_file!p}", "file::>{canon_tag_file!p}", "file::>{total_subs_file!p}"]
+required_for = ["file::>{known_tag_file!p}", "file::>{canon_tag_file!p}", "file::>{total_subs_file!p}"]
 depends_on   = [
     "file::>.temp/tags/*.tags",
     # Skip if totals.tags was modified today

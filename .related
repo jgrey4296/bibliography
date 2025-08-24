@@ -4,26 +4,26 @@
 ;; Others are :{name} : {path} pairs
 ;; paths are relative
 
-:related     : .related
-:doot        : doot.toml
-:bookmarks   : bookmarks
-:main        : main
-:data        : data
-:docs        : docs
 :github      : .github/workflows
 :git         : .git
 :hooks       : .git/hooks
-:plus        : plus
-:tasks       : .tasks
 :temp        : .temp
 :export      : .temp/export
 :logs        : .temp/logs
-:timelines   : timelines_
-:todo        : in_progress
-:wiki        : wiki_
+:counts      : .temp/bib.counts
+:site        : ..temp/site
+
+:tasks       : .tasks
+:related     : .related
+:doot        : doot.toml
+:sphinx      : conf.py
+
+:bookmarks   : bookmarks
+:main        : main
+:plus        : plus
 :tags        : tags/substitutions/general
 :subs        : tags/substitutions
 :aisb        : plus/conferences_primary/aisb_
-:site        : .site
-:sphinx      : conf.py
-:counts      : .temp/bib.counts
+:timelines   : timelines_
+:todo        : in_progress
+:wiki        : wiki_

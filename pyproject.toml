@@ -15,6 +15,7 @@ dependencies    = [
     "sphinx-bib-domain>=0.1.0",
     "tox>=4.28.4",
     "tox-uv>=1.27.0",
+    "pydot>=4.0.1",
 ]
 
 [project.optional-dependencies]
