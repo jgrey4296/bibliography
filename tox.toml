@@ -18,7 +18,6 @@ set_env              = {}
 description        = "build documentation"
 uv_sync_locked     = false
 uv_sync_flags      = ["--no-editable", "--no-sources"]
-dependency_groups  = ["docs"]
 skip_install       = true
 set_env            = [
     {replace="ref", of=["env_run_base", "set_env"]},
@@ -36,7 +35,7 @@ commands      = [
     "--conf-dir", "{env:CONFDIR}",
     "--doctree-dir", "{env:DOCTREE}",
     "--warning-file", "./.temp/logs/sphinx.log",
-    "--builder", "html",
+    "--builder", "bibhtml",
      "./{env:PKGNAME}",
      "{env:OUTDIR}",
     {replace="posargs", default=[], extend=true}

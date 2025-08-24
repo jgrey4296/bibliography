@@ -53,7 +53,7 @@ root_doc                       = "index"
 primary_domain                 = "bibtex"
 default_role                   = None
 
-suppress_warnings              = ["autoapi", "docutils"]
+suppress_warnings              = ["docutils"]
 maximum_signature_line_length  = 50
 toc_object_entries             = True
 add_function_parentheses       = True
@@ -69,7 +69,10 @@ directories to incldue/ignore when looking for source files.
 These also affects html_static_path and html_extra_path.
 """
 include_patterns = [
-    "**",
+    "index.rst",
+    "pages_/*",
+    ".temp/export/rst/*",
+    
 ]
 exclude_patterns = [
     "**/.git",
@@ -99,6 +102,7 @@ source_suffix = {
 
 # ##-- b: Extensions -----------------------------
 extensions      = [
+"sphinx_bib_domain",
 "myst_parser",
 "sphinx_rtd_theme",
 # Shorten external links: https://www.sphinx-doc.org/en/master/usage/extensions/extlinks.html
@@ -111,8 +115,6 @@ extensions      = [
 "sphinx.ext.imgconverter",
 # Graph diagrams: https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html
 "sphinx.ext.graphviz",
-# Generates API by parsing, not importing: https://sphinx-autoapi.readthedocs.io/en/latest/
-"autoapi.extension",
 # For autapi's show-inheritance-diagram: https://www.sphinx-doc.org/en/master/usage/extensions/inheritance.html#module-sphinx.ext.inheritance_diagram
 "sphinx.ext.inheritance_diagram",
 # Link to other projects: https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html
@@ -150,7 +152,7 @@ templates_path    = ["static_/templates"]
 """By default, the read the docs theme.
 https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 """
-html_use_index                = True
+html_use_index                = False
 html_split_index              = True
 html_permalinks               = True
 html_copy_source              = True
@@ -178,7 +180,7 @@ html_domain_indices  = True
 #
 html_additional_pages.update({})
 html_context.update({
-    "collapse_index_py": True,
+    "collapse_index_jg": True,
 })
 
 # ##-- HTML Theme: ReadTheDocs -------------------
@@ -213,7 +215,7 @@ python_trailing_comma_in_multi_line_signatures  = True
 python_user_unqualified_type_names              = False
 trim_doctest_flags                              = True
 # Remove prefixes for indexiing
-modindex_common_prefix                = ["jgdv."]
+modindex_common_prefix                = ["The", "the"]
 python_maximum_signature_line_length  = None
 
 # ##-- c: Extension Options ----------------------
@@ -229,50 +231,6 @@ python_maximum_signature_line_length  = None
 autodoc_typehints           = "both"
 autodoc_typehints_format    = "short"
 autodoc_inherit_docstrings  = False
-
-# ##-- Autoapi -----------------------------------
-autoapi_prepare_jinja_env : Callable[[jinja2.Environment], None] | None
-#-- Events
-# 'autoapi-skip-member' : Callable[[app, what, name, obj, skip, options], bool|None]
-#--
-# https://sphinx-autoapi.readthedocs.io/en/latest/reference/config.html
-# For keeping generated files:
-autoapi_keep_files                       = True
-autoapi_generate_api_docs                = True
-autoapi_python_user_implicit_namespaces  = False
-# If false, manual toctree entry (eg: _docs/autoapi/jgdv/index) needs to be added:
-autoapi_add_toctree_entry     = False
-autoapi_type                  = "python"
-# Whether to use class docstring ro __init__ docstring.
-autoapi_python_class_content  = "class" # 'both' | 'init'
-autoapi_own_page_level        = "module" # class | function | method | attribute
-# Relative to source dir:
-autoapi_template_dir          = "_docs/_templates/autoapi"
-# Directory to generate to. relative to source directory.
-autoapi_root              = "_docs/_autoapi"
-autoapi_dirs              = ["."]
-autoapi_file_patterns     = ["*.py", "*.pyi"]
-autoapi_ignore            = [*exclude_patterns, "*_docs/conf.py"]
-autoapi_member_order      = "bysource" # 'alphabetical' | 'bysource' | 'groupwise'
-autoapi_options           = [
-    # "imported-members",
-    # "inherited-members",
-    # "show-inheritance-diagram",
-    "members",
-    "undoc-members",
-    "private-members",
-    "special_members",
-    "show-inheritance",
-    "show-module-summary",
-]
-# Warnings
-suppress_warnings += [
-    # "autoapi",
-    # "autoapi.python_import_resolution",
-    # "autoapi.not_readable",
-    # "autoapi.toc_reference",
-    # "autoapi.nothing_rendered",
-]
 
 # ##-- Extlinks ----------------------------------
 extlinks : dict[str, tuple[str, str]]

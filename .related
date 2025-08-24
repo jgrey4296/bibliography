@@ -11,7 +11,7 @@
 :export      : .temp/export
 :logs        : .temp/logs
 :counts      : .temp/bib.counts
-:site        : ..temp/site
+:site        : .temp/site
 
 :tasks       : .tasks
 :related     : .related
