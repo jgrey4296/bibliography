@@ -14,4 +14,4 @@ Individual bibtex files, converted to html.
 .. toctree::
    :glob:
 
-   ../.temp/export/rst/*
+   ../main/*

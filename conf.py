@@ -41,6 +41,9 @@ templates_path         : list
 napoleon_type_aliases  : dict
 # ##--|
 
+bib_domain_entries_to_context = False
+# bib_domain_templates = pl.Path("static_/templates/bib_domain")
+
 # ##-- a: Project information --------------------
 project    = "Bibliography"
 author     = "John Grey"
@@ -72,9 +75,11 @@ include_patterns = [
     "index.rst",
     "pages_/*",
     ".temp/export/rst/*",
-    
+    "main/*",
 ]
 exclude_patterns = [
+    "main/19*",
+    "main/20*",
     "**/.git",
     "**/.github",
     "**/__tests/*",
@@ -87,7 +92,7 @@ exclude_patterns = [
     "bookmarks/*",
     "completions/*",
     "in_progress/*",
-    "main/*",
+    # "main/*",
     "plus/*",
     "readme.md",
     "timelines/*",
@@ -97,7 +102,7 @@ exclude_patterns = [
 source_suffix = {
     ".rst"  : "restructuredtext",
     ".md"   : "markdown",
-    # ".bib" : "bibtex"
+    ".bib"  : "bibtex",
 }
 
 # ##-- b: Extensions -----------------------------
@@ -146,9 +151,9 @@ needs_extensions  = {
 # Fully qualified class of TemplateBridge
 # template_bridge = ""
 # Relative to this file:
-templates_path    = ["static_/templates"]
+templates_path        = ["templates_"]
 
-# ##-- HTML --------------------------------------
+#  ##-- HTML --------------------------------------
 """By default, the read the docs theme.
 https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 """
