@@ -41,9 +41,6 @@ templates_path         : list
 napoleon_type_aliases  : dict
 # ##--|
 
-bib_domain_entries_to_context = False
-# bib_domain_templates = pl.Path("static_/templates/bib_domain")
-
 # ##-- a: Project information --------------------
 project    = "Bibliography"
 author     = "John Grey"
@@ -78,8 +75,6 @@ include_patterns = [
     "main/*",
 ]
 exclude_patterns = [
-    "main/19*",
-    "main/20*",
     "**/.git",
     "**/.github",
     "**/__tests/*",
