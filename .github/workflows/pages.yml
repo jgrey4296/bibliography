@@ -53,8 +53,9 @@ jobs:
           uv venv
           uv sync --frozen
       - name: build site 
-        run: tox -e docs
+        run: uv run tox -e docs
       - name: store site artifact
+        uses: actions/upload-artifact@v4
         with:
           name: gh-pages-artifact
           path: .temp/site
@@ -67,7 +68,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    step:
+    steps:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: get-artifact
