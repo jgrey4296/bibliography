@@ -71,10 +71,20 @@ These also affects html_static_path and html_extra_path.
 include_patterns = [
     "index.rst",
     "pages_/*",
-    ".temp/export/rst/*",
-    "main/*",
+    # ".temp/export/rst/*",
+    "*main/*",
+    # "*plus/*",
+    # "*plus/conferences_primary/aisb_/bibtex/*",
+    # "*plus/individuals/*",
 ]
 exclude_patterns = [
+    # "main/*",
+    "plus/*",
+    "bookmarks/*",
+    "completions/*",
+    "in_progress/*",
+    "readme.md",
+    "timelines/*",
     "**/.git",
     "**/.github",
     "**/__tests/*",
@@ -84,13 +94,6 @@ exclude_patterns = [
     ".temp/tox",
     ".venv/*",
     "static_/",
-    "bookmarks/*",
-    "completions/*",
-    "in_progress/*",
-    # "main/*",
-    "plus/*",
-    "readme.md",
-    "timelines/*",
     # "tags/*",
     '**flycheck_*.py',
 ]
@@ -137,6 +140,11 @@ needs_extensions  = {
     # ExtName : Version
 }
 
+# -- Bib Domain ----------------------------------
+
+bib_domain_split_index = True
+
+
 # -- Path setup ----------------------------------
 # local_mod = str(pl.Path.cwd().parent)
 # local_mod = str(pl.Path("../../").resolve())
@@ -169,12 +177,12 @@ html_search_options           = {}
 # html_theme_path   = []
 html_static_path  = ["static_"]
 html_extra_path   = []  # for things like robots.txt
-# html_style        = []
+# html_style      = []
 # html_logo       = ""
-# html_favicon    = ""
+html_favicon      = "static_/favicon.ico"
 # Relative to static dir, or fully qualified urls
-html_css_files       = ["css/custom.css"]
-html_js_files        = ["js/custom.js"]
+html_css_files    = ["css/custom.css"]
+html_js_files     = ["js/custom.js"]
 # Generate additional domain specific indices
 html_domain_indices  = True
 #

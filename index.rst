@@ -16,7 +16,7 @@ Exported bibtex files and related documents.
    :maxdepth: 1
    :glob:
 
-   pages_/*
+   pages_/years
    tagindex
    authorindex
    pubindex

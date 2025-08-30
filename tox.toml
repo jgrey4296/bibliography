@@ -21,6 +21,7 @@ uv_sync_flags      = ["--no-editable", "--no-sources"]
 skip_install       = true
 set_env            = [
     {replace="ref", of=["env_run_base", "set_env"]},
+    {BUILDER  = {replace="env", name="BUILDER",  default="bibhtml"}},  
     {CONFDIR  = {replace="env", name="CONFDIR",  default="./"}},
     {OUTDIR   = {replace="env", name="OUTDIR",   default="./.temp/site/"}},
     {DOCTREE  = {replace="env", name="DOCTREE",  default="./.temp/docs/.doctrees/"}},
@@ -35,7 +36,7 @@ commands      = [
     "--conf-dir", "{env:CONFDIR}",
     "--doctree-dir", "{env:DOCTREE}",
     "--warning-file", "./.temp/logs/sphinx.log",
-    "--builder", "bibhtml",
+    "--builder", "{env:BUILDER}",
      "./{env:PKGNAME}",
      "{env:OUTDIR}",
     {replace="posargs", default=[], extend=true}
