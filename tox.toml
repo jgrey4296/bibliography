@@ -55,3 +55,12 @@ description = "format bibtex files"
 commands = [
   ["uv", "run", "--script", ".tasks/bib_format.py"],
 ]
+
+[env.backup]
+description = "Backup pdfs"
+set_env = [
+  {TARGET = {replace="env", name="TARGET",  default="/media/john/solid_ext4/library/pdfs"}},  
+]
+commands = [
+  ["rsync", "--archive", "--progress", "/media/john/data/library/pdfs", "{env:TARGET}"],
+]
