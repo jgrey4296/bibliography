@@ -47,13 +47,13 @@ commands      = [
 [env.bookmarks]
 description = "update bookmarks"
 commands = [
-  ["uv", "run", "--script", ".tasks/bookmarks.py"]
+  ["uv", "run", "--script", ".tasks/scripts/bookmarks.py"]
 ]
 
 [env.format]
 description = "format bibtex files"
 commands = [
-  ["uv", "run", "--script", ".tasks/bib_format.py"],
+  ["uv", "run", "--script", ".tasks/scripts/bib_format.py"],
 ]
 
 [env.backup]
