@@ -47,5 +47,5 @@ commands      = [
 [env.bookmarks]
 description = "update bookmarks"
 commands = [
-  ["uv", "run", ".tasks/bookmarks.py"]
+  ["uv", "run", "--script", ".tasks/bookmarks.py"]
 ]

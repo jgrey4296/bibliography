@@ -173,7 +173,7 @@ def extract_bookmarks(loc:pl.Path) -> BookmarkCollection:
     assert(loc.resolve().exists())
     fresh          = BookmarkCollection()
     meta           = alc.MetaData()
-    engine         = alc.create_engine(f"sqlite:///{loc}", echo=ECHO)
+    engine         = alc.create_engine(f"sqlite:///{loc!s}", echo=ECHO)
     bkmks          = alc.Table("moz_bookmarks", meta, autoload_with=engine)
     urls           = alc.Table("moz_places", meta, autoload_with=engine)
 
