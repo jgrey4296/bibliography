@@ -26,10 +26,13 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
+import sys
 import tqdm
 import bibble as BM
 import bibble._interface as API
-from bibble.io import JinjaWriter, Reader
+from bibble.io import Reader
+from bibble.io import Writer
+from jgdv.files.tags import SubstitutionFile
 
 # ##-- types
 # isort: off
@@ -64,27 +67,83 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
-
+sort_firsts  : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
+sort_lasts   : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
+sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
+GLOB_STR     : Final[str]        = "*.bib"
+LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
+TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
+FAIL_TARGET  : Final[pl.Path]    = pl.Path(".temp/failed.bib")
 ##--| Body
 
-def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
-    stack = BM.PairStack()
+def load_tags() -> SubstitutionFile:
+    subs = SubstitutionFile.read(TAGS_SOURCE)
+    assert(bool(subs))
+    return subs
 
+def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
+    tag_subs  = load_tags()
+    stack     = BM.PairStack()
+    extra     = BM.metadata.DataInsertMW()
+    stack.add(read=[extra,
+                    BM.failure.DuplicateKeyHandler(),
+                    ],
+              write=[
+                  BM.failure.FailureHandler(),
+                  BM.metadata.ApplyMetadata(),
+              ])
+    stack.add(BM.bidi.BraceWrapper(),
+              BM.bidi.BidiPaths(lib_root=LIB_ROOT))
 
+    stack.add(
+        BM.bidi.BidiNames(parts=True, authors=True),
+        BM.bidi.BidiIsbn(),
+        BM.bidi.BidiTags(),
+        None,
+        read=[
+            BM.metadata.KeyLocker(),
+            BM.fields.TitleSplitter()
+        ],
+        write=[
+            BM.fields.FieldSorter(first=sort_firsts, last=sort_lasts),
+            BM.metadata.EntrySorter(),
+            BM.fields.FieldSubstitutor(fields=["tags"], subs=tag_subs),
+            # BM.fields.FieldSubstitutor(fields=sub_fields, subs=_othersubs, force_single_value=True),
+        ])
+    stack.add(write=[
+        BM.metadata.FileCheck(),
+        # BM.fields.Waybacker(),
+        # BM.files.HashFiles(),
+    ])
+    stack.add(write=[
+        # BM.files.VirusScan(),
+        # BM.fields.UrlCheck(),
+        # BM.metadata.DoiValidator(),
+        # BM.metadata.CrossrefValidator(),
+    ])
 
+    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
+              write=[extra])
     reader = Reader(stack)
-    writer = JinjaWriter(stack)
+    writer = Writer(stack)
     return reader, writer
 
-def collect() -> list[pl.Path]:
-    results = []
-    return results
+def collect(source:pl.Path) -> list[pl.Path]:
+    results = source.glob(GLOB_STR)
+    return sorted(list(results))
 
 def main():
+    match sys.argv:
+        case [_, str() as target]:
+            print(f"Source: {target}")
+            targets = collect(pl.Path(target))
+        case x:
+            raise TypeError(type(x))
+
     reader, writer = build_reader_and_writer()
-    targets = collect()
     # TODO use tqdm here:
-    for bib in targets:
+    for bib in targets[:2]:
+        print(f"Target : {bib}")
         lib = reader.read(bib)
         writer.write(lib, file=bib)
     else:
