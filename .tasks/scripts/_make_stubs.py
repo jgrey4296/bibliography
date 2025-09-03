@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 """
 # ruff: noqa:
 from __future__ import annotations
@@ -25,6 +24,13 @@ from weakref import ref
 import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
+
+import sys
+import tqdm
+import bibble as BM
+import bibble._interface as API
+from bibble.io import JinjaWriter, Reader
+from jgdv.files.tags import SubstitutionFile
 
 # ##-- types
 # isort: off
@@ -59,5 +65,35 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
+STUB_FILE : Final[pl.Path] = pl.Path()
 
-# Body:
+##--| Body
+
+def build_stub(target:pl.Path) -> str:
+    result = []
+    return "\n".join(result)
+
+def collect(source:pl.Path) -> list[pl.Path]:
+    results = source.glob(GLOB_STR)
+
+    return results
+
+def main():
+    match sys.argv:
+        case [_, str() as target]:
+            print(f"Source: {target}")
+            targets = collect(pl.Path(target))
+        case x:
+            raise TypeError(type(x))
+
+    reader, writer = build_reader_and_writer()
+    stubs = [build_stub(x) for x in targets]
+    # Append to stub file:
+    with STUB_FILE.open("a") as f:
+        f.write("\n".join(stubs))
+
+
+##-- ifmain
+if __name__ == "__main__":
+    main()
+##-- end ifmain

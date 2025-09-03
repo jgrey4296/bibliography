@@ -64,20 +64,41 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
-REPORT_FILE : Final[pl.Path] = pl.Path("report.html")
+REPORT_FILE  : Final[pl.Path]  = pl.Path("report.html")
 
+FAIL_TARGET  : Final[pl.Path]  = pl.Path()
 ##--| Body
 
 def build_reader() -> Reader:
     stack = BM.PairStack()
+    extra = BM.metadata.DataInsertMW()
+    stack.add(read=[extra,
+                    BM.failure.DuplicateKeyHandler(),
+                    ],
+              write=[
+                  BM.failure.FailureHandler(),
 
+    stack.add(write=[
+        BM.fields.FieldAccumulator(name="all-tags",     fields=["tags"]),
+        BM.fields.FieldAccumulator(name="all-pubs",     fields=["publisher"]),
+        BM.fields.FieldAccumulator(name="all-series",   fields=["series"]),
+        BM.fields.FieldAccumulator(name="all-journals", fields=["journal"]),
+        BM.fields.FieldAccumulator(name="all-people",   fields=["author", "editor"]),
 
+        # BM.fields.FieldDifference(known=_tagsubs, accumulated="all-tags")
+    ])
 
+    stack.add(write=[
+        # BM.reporters.SummaryGenerator(),
+    ])
+    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
+              write=[extra])
     reader = Reader(stack)
     return reader
 
-def collect() -> list[pl.Path]:
-    results = []
+def collect(source:pl.Path) -> list[pl.Path]:
+    results = source.glob(GLOB_STR)
+
     return results
 
 def update_stats(stats:dict, lib:BM.Library) -> None:

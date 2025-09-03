@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 
-
 """
 # ruff: noqa:
 from __future__ import annotations
@@ -67,11 +66,66 @@ TAGS_FRESH  : Final[pl.Path]  = ".temp/tags/fresh.tags"
 
 ##--| Body
 
+def load_tags() -> SubstitutionFile:
+    pass
 
+def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
+    stack = BM.PairStack()
+    extra = BM.metadata.DataInsertMW()
+    stack.add(read=[extra,
+                    BM.failure.DuplicateKeyHandler(),
+                    ],
+              write=[
+                  BM.failure.FailureHandler(),
+              ])
+    stack.add(BM.bidi.BraceWrapper()
+              BM.bidi.BidiPaths(lib_root=LIB_ROOT))
 
+    stack.add(
+        BM.bidi.BidiNames(parts=True, authors=True),
+        BM.bidi.BidiIsbn(),
+        BM.bidi.BidiTags(),
+        None,
+        read=[
+            BM.metadata.KeyLocker(),
+            BM.fields.TitleSplitter()
+        ])
+    stack.add(write=[
+        BM.fields.FieldAccumulator(name="all-tags",     fields=["tags"]),
+        BM.fields.FieldAccumulator(name="all-pubs",     fields=["publisher"]),
+        BM.fields.FieldAccumulator(name="all-series",   fields=["series"]),
+        BM.fields.FieldAccumulator(name="all-journals", fields=["journal"]),
+        BM.fields.FieldAccumulator(name="all-people",   fields=["author", "editor"]),
+        # BM.fields.FieldDifference(known=_tagsubs, accumulated="all-tags")
+        ])
+
+    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
+              write=[extra])
+    reader = Reader(stack)
+    writer = JinjaWriter(stack)
+    return reader, writer
+
+def collect(source:pl.Path) -> list[pl.Path]:
+    results = source.glob(GLOB_STR)
+
+    return results
 
 def main():
-    pass
+    match sys.argv:
+        case [_, str() as target]:
+            print(f"Source: {target}")
+            targets = collect(pl.Path(target))
+        case x:
+            raise TypeError(type(x))
+
+    reader, writer = build_reader_and_writer()
+    # TODO use tqdm here:
+    for bib in targets:
+        print(f"Target : {bib}")
+        # lib = reader.read(bib)
+        # writer.write(lib, file=bib)
+    else:
+        print("Finished")
 
 ##-- ifmain
 if __name__ == "__main__":

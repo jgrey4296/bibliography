@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Utility script to download urls mentioned in bibtex files
+Utility script to restructure library pdfs to group by decade
 
 """
 # ruff: noqa:
@@ -64,47 +64,28 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
-ONLINE_SOURCE    : Final[pl.Path]  = pl.Path("in_progress/online.bib")
-DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path()
-ONLINE_TARGET    : Final[pl.Path]  = pl.Path(".temp/online_saved.bib")
-SAVE_TARGET      : Final[pl.Path]  = pl.Path()
-FAIL_TARGET      : Final[pl.Path]  = pl.Path()
+CHUNK_SIZE   : Final[int]      = 100
 
+FAIL_TARGET  : Final[pl.Path]  = pl.Path()
 ##--| Body
-
-def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
-    stack = BM.PairStack()
-    extra = BM.metadata.DataInsertMW()
-    stack.add(read=[extra,
-                    BM.failure.DuplicateKeyHandler(),
-                    ],
-              write=[
-                  BM.failure.FailureHandler(),
-              ])
-
-    extra_data.update({BM.files.PathWriter.SuppressKey:[DOWNLOAD_TARGET]})
-    stack.add(read=[
-        BM.files.OnlineDownloader(target=DOWNLOAD_TARGET),
-    ])
-
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)
-              write=[extra])
-    reader = Reader(stack)
-    writer = JinjaWriter(stack)
-    return reader, writer
 
 def collect(source:pl.Path) -> list[pl.Path]:
     results = source.glob(GLOB_STR)
 
     return results
 
+def generate_decades() -> None:
+    pass
+
+def move_to_decade(target:pl.Path) -> None:
+    pass
+
 def main():
-    reader, writer = build_reader_and_writer()
     targets = collect()
+    generate_decades()
     # TODO use tqdm here:
-    for bib in targets:
-        lib = reader.read(bib)
-        writer.write(lib, file=bib)
+    for dir in targets:
+
     else:
         print("Finished")
 

@@ -48,6 +48,9 @@ def main():
         case x:
             raise TypeError(type(x))
 
+    # read the commit file
+    # validate it
+
 ##-- ifmain
 if __name__ == "__main__":
     main()

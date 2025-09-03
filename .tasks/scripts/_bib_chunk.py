@@ -64,21 +64,29 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
-CHUNK_SIZE : Final[int] = 100
+CHUNK_SIZE   : Final[int]      = 100
 
+FAIL_TARGET  : Final[pl.Path]  = pl.Path()
 ##--| Body
 
 def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
     stack = BM.PairStack()
+    stack.add(read=[BM.metadata.DataInsertWM(),
+                    BM.failure.DuplicateKeyHandler(),
+                    ],
+              write=[BM.failure.FailureHandler()]
+              )
 
-
-
+    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
+              write=[extra_data])
     reader = Reader(stack)
     writer = JinjaWriter(stack)
     return reader, writer
 
-def collect() -> list[pl.Path]:
-    results = []
+
+def collect(source:pl.Path) -> list[pl.Path]:
+    results = source.glob(GLOB_STR)
+
     return results
 
 def chunk_library(lib:BM.Library) -> list[BM.Library]:

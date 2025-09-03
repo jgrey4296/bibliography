@@ -52,8 +52,11 @@ commands = [
 
 [env.format]
 description = "format bibtex files"
+set_env = [
+  {TARGET = {replace="env", name="TARGET",  default="./main"}},
+]
 commands = [
-  ["uv", "run", "--script", ".tasks/scripts/bib_format.py"],
+  ["uv", "run", "--script", ".tasks/scripts/bib_format.py", "{env:TARGET}"],
 ]
 
 [env.backup]
