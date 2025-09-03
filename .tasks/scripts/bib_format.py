@@ -132,6 +132,9 @@ def collect(source:pl.Path) -> list[pl.Path]:
 
 def main():
     match sys.argv:
+        case [_, str(), str() as target]:
+            targets = [pl.Path.cwd() / target]
+            print(f"Source: {targets}")
         case [_, str() as target]:
             print(f"Source: {target}")
             targets = collect(pl.Path(target))
