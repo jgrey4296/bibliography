@@ -76,13 +76,8 @@ TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
 FAIL_TARGET  : Final[pl.Path]    = pl.Path(".temp/failed.bib")
 ##--| Body
 
-def load_tags() -> SubstitutionFile:
-    subs = SubstitutionFile.read(TAGS_SOURCE)
-    assert(bool(subs))
-    return subs
 
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
-    tag_subs  = load_tags()
     stack     = BM.PairStack()
     extra     = BM.metadata.DataInsertMW()
     stack.add(read=[extra,
@@ -93,6 +88,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
               ])
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
+              write=[BM.metadata.ApplyMetadata(force=True)],
               )
 
     stack.add(
@@ -100,25 +96,10 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
         BM.bidi.BidiIsbn(),
         BM.bidi.BidiTags(),
         read=[
-            BM.metadata.KeyLocker(),
-            BM.fields.TitleSplitter()
-        ],
-        write=[
-            BM.fields.FieldSorter(first=sort_firsts, last=sort_lasts),
-            BM.metadata.EntrySorter(),
-            BM.fields.FieldSubstitutor(fields=["tags"], subs=tag_subs),
-            # BM.fields.FieldSubstitutor(fields=sub_fields, subs=_othersubs, force_single_value=True),
-        ])
+            BM.fields.TitleSplitter(),
+            ],
+        )
 
-    stack.add(write=[
-        BM.metadata.FileCheck(),
-        # BM.fields.Waybacker(),
-        # BM.files.HashFiles(),
-        # BM.files.VirusScan(),
-        # BM.fields.UrlCheck(),
-        # BM.metadata.DoiValidator(),
-        # BM.metadata.CrossrefValidator(),
-    ])
 
     stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
               write=[extra])
@@ -143,7 +124,7 @@ def main():
     for bib in targets:
         print(f"Target : {bib}")
         lib = reader.read(bib)
-        writer.write(lib, file=bib)
+        writer.write(lib)
     else:
         print("Finished")
 

@@ -67,3 +67,12 @@ set_env = [
 commands = [
   ["rsync", "--archive", "--progress", "/media/john/data/library/pdfs", "{env:TARGET}"],
 ]
+
+[env.apply]
+description = "apply entry metadata to files"
+set_env = [
+  {TARGET = {replace="env", name="TARGET",  default="./main"}},
+]
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/apply_metadata.py", "{env:TARGET}"],
+]
