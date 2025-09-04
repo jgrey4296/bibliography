@@ -91,3 +91,9 @@ description = "chunk files into smaller files"
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/bib_online.py", {replace="posargs", default=[], extend=true}],
 ]
+
+[env.report]
+description = "generate an html report on the repo"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/bib_report.py", {replace="posargs", default=[], extend=true}],
+]
