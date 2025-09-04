@@ -26,10 +26,11 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
+import sys
 import tqdm
 import bibble as BM
 import bibble._interface as API
-from bibble.io import JinjaWriter, Reader
+from bibble.io import Writer, Reader
 
 # ##-- types
 # isort: off
@@ -65,48 +66,45 @@ logging = logmod.getLogger(__name__)
 
 # Vars:
 ONLINE_SOURCE    : Final[pl.Path]  = pl.Path("in_progress/online.bib")
-DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path()
-ONLINE_TARGET    : Final[pl.Path]  = pl.Path(".temp/online_saved.bib")
-SAVE_TARGET      : Final[pl.Path]  = pl.Path()
-FAIL_TARGET      : Final[pl.Path]  = pl.Path()
+DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs/online")
+LIB_ROOT         : Final[pl.Path]  = pl.Path("/media/john/data/library/pdfs")
+SAVE_TARGET      : Final[pl.Path]  = pl.Path(".temp/online_saved.bib")
+FAIL_TARGET      : Final[pl.Path]  = pl.Path(".temp/failed.bib")
 
 ##--| Body
 
-def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
+def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack = BM.PairStack()
     extra = BM.metadata.DataInsertMW()
     stack.add(read=[extra,
                     BM.failure.DuplicateKeyHandler(),
                     ],
-              write=[
-                  BM.failure.FailureHandler(),
-              ])
+              write=[BM.failure.FailureHandler()])
+    stack.add(BM.bidi.BraceWrapper(),
+              BM.bidi.BidiPaths(lib_root=LIB_ROOT),
+              )
 
-    extra_data.update({BM.files.PathWriter.SuppressKey:[DOWNLOAD_TARGET]})
-    stack.add(read=[
-        BM.files.OnlineDownloader(target=DOWNLOAD_TARGET),
-    ])
+    extra.update({BM.files.PathWriter.SuppressKey:[DOWNLOAD_TARGET]})
+    stack.add(read=[BM.files.OnlineDownloader(target=DOWNLOAD_TARGET)])
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)
-              write=[extra])
+    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)], write=[extra])
     reader = Reader(stack)
-    writer = JinjaWriter(stack)
+    writer = Writer(stack)
     return reader, writer
 
-def collect(source:pl.Path) -> list[pl.Path]:
-    results = source.glob(GLOB_STR)
-
-    return results
-
 def main():
+    match sys.argv:
+        case [_]:
+            target = ONLINE_SOURCE
+        case [_, str() as target]:
+            target = pl.Path(target)
+        case x:
+            raise TypeError(type(x))
+    print("Starting online downloader")
     reader, writer = build_reader_and_writer()
-    targets = collect()
-    # TODO use tqdm here:
-    for bib in targets:
-        lib = reader.read(bib)
-        writer.write(lib, file=bib)
-    else:
-        print("Finished")
+    lib = reader.read(target)
+    writer.write(lib, file=SAVE_TARGET)
+    print("Finished")
 
 ##-- ifmain
 if __name__ == "__main__":

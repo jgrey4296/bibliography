@@ -76,3 +76,12 @@ set_env = [
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/apply_metadata.py", "{env:TARGET}"],
 ]
+
+[env.online]
+description = "download online urls"
+set_env = [
+  {TARGET = {replace="env", name="TARGET", default="in_progress/online.bib"}},
+]
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/bib_online.py", "{env:TARGET}"],
+]
