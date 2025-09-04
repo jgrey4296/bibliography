@@ -36,6 +36,7 @@ import bibble._interface as API
 from bibble.io import Reader
 from bibble.fields._interface import AccumulationBlock
 from bibtexparser.model import Entry
+import _util
 
 # ##-- types
 # isort: off
@@ -126,20 +127,6 @@ def build_reader() -> Reader:
     reader = Reader(stack)
     return reader
 
-def init_jinja() -> jinja2.Environment:
-    env = jinja2.Environment(
-        loader=jinja2.FileSystemLoader(TEMPLATE_DIR),
-        autoescape=jinja2.select_autoescape(),
-        trim_blocks=True,
-        lstrip_blocks=True,
-        )
-
-def collect(source:pl.Path) -> list[pl.Path]:
-    if source.is_file():
-        return [source]
-    results = source.glob(GLOB_STR)
-    return list(results)
-
 def update_stats(stats:dict, lib:API.Library_p) -> None:
     x     : Any
     year  : int
@@ -180,7 +167,7 @@ def write_report(stats:dict) -> None:
     # write raw data
     REPORT_DATA.write_text(json.dumps(stats, indent=4, cls=SetEncoder))
     # Write the report
-    env          = init_jinja()
+    env          = _util.init_jinja()
     template     = env.get_template(REPORT_TEMPLATE_K)
     report_text  = template.render()
     REPORT_FILE.write_text(report_text)
@@ -188,12 +175,12 @@ def write_report(stats:dict) -> None:
 def main():
     match sys.argv:
         case [_, str() as target]:
-            targets = collect(pl.Path(target))
+            targets = _util.collect(pl.Path(target))
         case [_, *xs]:
             targets = [pl.Path(x) for x in xs]
             assert(bool(targets))
         case [_]:
-            targets = collect(MAIN_DIR)
+            targets = _util.collect(MAIN_DIR)
         case x:
             raise TypeError(type(x))
 

@@ -25,6 +25,7 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
+import _util
 # ##-- types
 # isort: off
 # General
@@ -66,9 +67,6 @@ TAGS_FRESH  : Final[pl.Path]  = ".temp/tags/fresh.tags"
 
 ##--| Body
 
-def load_tags() -> SubstitutionFile:
-    pass
-
 def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
     stack = BM.PairStack()
     extra = BM.metadata.DataInsertMW()
@@ -105,16 +103,12 @@ def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
     writer = JinjaWriter(stack)
     return reader, writer
 
-def collect(source:pl.Path) -> list[pl.Path]:
-    results = source.glob(GLOB_STR)
-
-    return results
 
 def main():
     match sys.argv:
         case [_, str() as target]:
             print(f"Source: {target}")
-            targets = collect(pl.Path(target))
+            targets = _util.collect(pl.Path(target))
         case x:
             raise TypeError(type(x))
 

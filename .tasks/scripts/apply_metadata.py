@@ -33,6 +33,7 @@ import bibble._interface as API
 from bibble.io import Reader
 from bibble.io import Writer
 from jgdv.files.tags import SubstitutionFile
+import _util
 
 # ##-- types
 # isort: off
@@ -107,15 +108,11 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     writer = Writer(stack)
     return reader, writer
 
-def collect(source:pl.Path) -> list[pl.Path]:
-    results = source.glob(GLOB_STR)
-    return sorted(list(results))
-
 def main():
     match sys.argv:
         case [_, str() as target]:
             print(f"Source: {target}")
-            targets = collect(pl.Path(target))
+            targets = _util.collect(pl.Path(target), glob=GLOB_STR)
         case x:
             raise TypeError(type(x))
 

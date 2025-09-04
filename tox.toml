@@ -103,3 +103,10 @@ description = "restructure library files"
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/lib_restructure.py", {replace="posargs", default=[], extend=true}],
 ]
+
+[env.stub]
+description = "collect and stub pdfs in dropbox and downloads"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/make_stubs.py", {replace="posargs", default=[], extend=true}],
+]
+

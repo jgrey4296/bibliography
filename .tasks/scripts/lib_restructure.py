@@ -33,6 +33,7 @@ import tqdm
 import bibble as BM
 import bibble._interface as API
 from bibble.io import Writer, Reader
+import _util
 
 # ##-- types
 # isort: off
@@ -79,16 +80,7 @@ ZERO_ZERO_ONE  : Final[float]            = 0.01
 ZERO_ONE       : Final[float]            = 0.1
 HUNDRED        : Final[int]              = 100
 TEN            : Final[int]              = 10
-WINDOW_SIZE    : Final[int]              = 10
 ##--| Body
-
-def window_collection(i:int, coll:list) -> list[pl.Path]:
-    if i == -1:
-        return coll
-
-    start   = WINDOW_SIZE * i
-    window  = coll[start:(start + WINDOW_SIZE)]
-    return window
 
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack     = BM.PairStack()
@@ -108,12 +100,6 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
-
-def collect(source:pl.Path) -> list[pl.Path]:
-    if source.is_file():
-        return [source]
-    results = source.glob(GLOB_STR)
-    return list(sorted(results))
 
 def generate_year_structures() -> None:
     print("Generating Century/Decade Directories")
@@ -144,11 +130,10 @@ def retarget_entries(lib, base:pl.Path, decade:pl.Path) -> None:
             target     = decade / file
             val.value  = target
 
-
 def retarget_files(i:int) -> None:
     print("Retargeting Directories")
     dirs = list(sorted(LIB_ROOT.glob("*")))
-    for dir in tqdm.tqdm(window_collection(i, dirs)):
+    for dir in tqdm.tqdm(_util.window_collection(i, dirs)):
         if dir.is_file():
             continue
         rel_path  = dir.relative_to(LIB_ROOT)
@@ -161,17 +146,17 @@ def main():
     match sys.argv:
         case [_, "--window", str() as wind]:
             window   = int(wind)
-            targets  = collect(MAIN_DIR)
+            targets  = _util.collect(MAIN_DIR, glob=GLOB_STR)
         case [_, str() as target]:
             print(f"Source: {target}")
-            targets = collect(pl.Path(target))
+            targets = _util.collect(pl.Path(target), glob=GLOB_STR)
         case [_]:
-            targets = collect(MAIN_DIR)
+            targets = _util.collect(MAIN_DIR, glob=GLOB_STR)
         case x:
             raise TypeError(type(x))
     reader, writer  = build_reader_and_writer()
     generate_year_structures()
-    for bib in window_collection(window, targets):
+    for bib in _util.window_collection(window, targets):
         lib         = reader.read(bib)
         new_prefix  = year_to_pair(int(bib.stem))
         retarget_entries(lib, bib, new_prefix)

@@ -25,12 +25,15 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
+import shutil
+import jinja2
 import sys
 import tqdm
 import bibble as BM
 import bibble._interface as API
 from bibble.io import JinjaWriter, Reader
 from jgdv.files.tags import SubstitutionFile
+import _util
 
 # ##-- types
 # isort: off
@@ -65,33 +68,48 @@ logging = logmod.getLogger(__name__)
 ##-- end logging
 
 # Vars:
-STUB_FILE : Final[pl.Path] = pl.Path()
-
+STUB_FILE          : Final[pl.Path]  = pl.Path("in_progress/stubbed.bib")
+TODO_DIR           : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs/stubbed")
+DROPBOX            : Final[pl.Path]  = pl.Path("/media/john/micro_128/Dropbox/docs")
+DOWNLOADS          : Final[pl.Path]  = pl.Path("/home/john/Downloads")
+GLOB_STR           : Final[str]      = "*.pdf"
+STUB_TEMPLATE_KEY  : Final[str]      = "stub.bib.jinja"
 ##--| Body
 
-def build_stub(target:pl.Path) -> str:
-    result = []
-    return "\n".join(result)
-
-def collect(source:pl.Path) -> list[pl.Path]:
-    results = source.glob(GLOB_STR)
-
-    return results
+def build_stub(target:pl.Path, *, template:jinja2.Template) -> str:
+    print("Stubbing: ", target)
+    result = template.render(file=str(target))
+    return result
 
 def main():
+    stubs : list[str]
+    ##--|
+    window = -1
     match sys.argv:
-        case [_, str() as target]:
-            print(f"Source: {target}")
-            targets = collect(pl.Path(target))
+        case [_, str() as wind]:
+            window = int(wind)
+        case [_]:
+            pass
         case x:
             raise TypeError(type(x))
 
-    reader, writer = build_reader_and_writer()
-    stubs = [build_stub(x) for x in targets]
-    # Append to stub file:
-    with STUB_FILE.open("a") as f:
-        f.write("\n".join(stubs))
-
+    env       = _util.init_jinja()
+    template  = env.get_template(STUB_TEMPLATE_KEY)
+    targets   = _util.collect(DROPBOX,   glob=GLOB_STR)
+    targets  += _util.collect(DOWNLOADS, glob=GLOB_STR)
+    stubs     = []
+    for x in _util.window_collection(window, targets):
+        # move file to todo folder
+        in_todos = TODO_DIR / x.name
+        assert(not in_todos.exists()), in_todos
+        shutil.copy(x, in_todos)
+        assert(in_todos.exists()), in_todos
+        stubs.append(build_stub(in_todos, template=template))
+        x.unlink()
+    else:
+        # Append to stub file:
+        with STUB_FILE.open("a") as f:
+            f.write("\n\n".join(stubs))
 
 ##-- ifmain
 if __name__ == "__main__":
