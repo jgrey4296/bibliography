@@ -85,3 +85,9 @@ set_env = [
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/bib_online.py", "{env:TARGET}"],
 ]
+
+[env.chunk]
+description = "chunk files into smaller files"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/bib_online.py", {replace="posargs", default=[], extend=true}],
+]

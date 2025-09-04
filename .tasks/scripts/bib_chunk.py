@@ -26,10 +26,11 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
+import sys
 import tqdm
 import bibble as BM
 import bibble._interface as API
-from bibble.io import JinjaWriter, Reader
+from bibble.io import Writer, Reader
 
 # ##-- types
 # isort: off
@@ -65,11 +66,10 @@ logging = logmod.getLogger(__name__)
 
 # Vars:
 CHUNK_SIZE   : Final[int]      = 100
-
 FAIL_TARGET  : Final[pl.Path]  = pl.Path()
 ##--| Body
 
-def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
+def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack = BM.PairStack()
     stack.add(read=[BM.metadata.DataInsertWM(),
                     BM.failure.DuplicateKeyHandler(),
@@ -80,31 +80,38 @@ def build_reader_and_writer() -> tuple[Reader, JinjaWriter]:
     stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
               write=[extra_data])
     reader = Reader(stack)
-    writer = JinjaWriter(stack)
+    writer = Writer(stack)
     return reader, writer
 
 
-def collect(source:pl.Path) -> list[pl.Path]:
-    results = source.glob(GLOB_STR)
-
-    return results
-
-def chunk_library(lib:BM.Library) -> list[BM.Library]:
-    results = []
-
-
-    return results
+def chunk_library(lib:API.Library_p, size:int=CHUNK_SIZE) -> list[BM.BibbleLib]:
+    results  : list[BM.BibbleLib]  = []
+    entries  : list                = list(lib.entries)
+    while bool(entries):
+        chunk = entries[:size]
+        chunk_lib = BM.BibbleLib(chunk)
+        results.append(chunk_lib)
+    else:
+        return results
 
 def main():
+    match sys.argv:
+        case [_, str() as size, *targets]:
+            size = int(size)
+            assert(bool(targets))
+            assert(bool(size))
+        case x:
+            raise TypeError(type(x))
     reader, writer = build_reader_and_writer()
-    targets = collect()
-    # TODO use tqdm here:
     for bib in targets:
+        print("Chunking: %s", bib)
         lib = reader.read(bib)
-        for i,chunk in enumerate(chunk_library(lib)):
+        for i,chunk in enumerate(chunk_library(lib, size=size)):
             chunk_stem = f"{bib.stem}-{i}"
             chunk_path = lib.with_stem(chunk_stem)
             writer.write(chunk, file=chunk_path)
+        else:
+            print("Chunked into %s subfiles", i)
     else:
         print("Finished")
 
