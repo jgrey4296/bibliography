@@ -97,3 +97,9 @@ description = "generate an html report on the repo"
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/bib_report.py", {replace="posargs", default=[], extend=true}],
 ]
+
+[env.restruct]
+description = "restructure library files"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/lib_restructure.py", {replace="posargs", default=[], extend=true}],
+]
