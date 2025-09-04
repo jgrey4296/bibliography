@@ -109,7 +109,12 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     return reader, writer
 
 def main():
+    window = -1
     match sys.argv:
+        case [_, str() as target, "--window", str() as wind]:
+            print(f"Source: {target}")
+            targets  = _util.collect(pl.Path(target), glob=GLOB_STR)
+            window   = int(wind)
         case [_, str() as target]:
             print(f"Source: {target}")
             targets = _util.collect(pl.Path(target), glob=GLOB_STR)
@@ -117,8 +122,7 @@ def main():
             raise TypeError(type(x))
 
     reader, writer = build_reader_and_writer()
-    # TODO use tqdm here:
-    for bib in targets:
+    for bib in _util.window_collection(window, targets):
         print(f"Target : {bib}")
         lib = reader.read(bib)
         writer.write(lib)

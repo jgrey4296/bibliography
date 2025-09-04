@@ -74,7 +74,7 @@ set_env = [
   {TARGET = {replace="env", name="TARGET",  default="./main"}},
 ]
 commands = [
-  ["uv", "run", "--script", ".tasks/scripts/apply_metadata.py", "{env:TARGET}"],
+  ["uv", "run", "--script", ".tasks/scripts/apply_metadata.py", "{env:TARGET}", {replace="posargs", default=[], extend=true}],
 ]
 
 [env.online]
