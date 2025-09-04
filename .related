@@ -18,6 +18,7 @@
 :related     : .related
 :doot        : doot.toml
 :sphinx      : conf.py
+:tox         : tox.toml
 
 :bookmarks   : bookmarks
 :main        : main

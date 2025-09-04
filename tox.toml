@@ -110,3 +110,8 @@ commands = [
   ["uv", "run", "--script", ".tasks/scripts/make_stubs.py", {replace="posargs", default=[], extend=true}],
 ]
 
+[env.clean]
+description = "Clean away refiled pdfs"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/clean_todos.py"],
+]
