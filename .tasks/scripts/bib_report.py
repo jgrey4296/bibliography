@@ -74,10 +74,10 @@ logging = logmod.getLogger(__name__)
 MAIN_DIR           : Final[pl.Path]  = pl.Path("main")
 GLOB_STR           : Final[pl.Path]  = "*.bib"
 REPORT_DATA        : Final[pl.Path]  = pl.Path(".temp/report.json")
-REPORT_FILE        : Final[pl.Path]  = pl.Path("report.html")
+REPORT_FILE        : Final[pl.Path]  = pl.Path("report.rst")
 FAIL_TARGET        : Final[pl.Path]  = pl.Path(".temp/failed.bib")
 TEMPLATE_DIR       : Final[pl.Path]  = pl.Path("templates_")
-REPORT_TEMPLATE_K  : Final[str]      = "report.html.jinja"
+REPORT_TEMPLATE_K  : Final[str]      = "report.rst.jinja"
 STATS_BASE         : Final[dict]     = {
     "authors"      : collections.defaultdict(lambda: 0),
     "editors"      : collections.defaultdict(lambda: 0),
@@ -89,7 +89,7 @@ STATS_BASE         : Final[dict]     = {
     "file_count"   : 0,
     "url_count"    : 0,
 }
-
+REPORT_TITLE  : Final[str]  = "Statistics"
 ##--|
 
 class SetEncoder(json.JSONEncoder):
@@ -169,14 +169,17 @@ def write_report(stats:dict) -> None:
     # Write the report
     env          = _util.init_jinja()
     template     = env.get_template(REPORT_TEMPLATE_K)
-    report_text  = template.render()
+
+    report_text  = template.render(title=REPORT_TITLE,
+                                   data=stats,
+                                   )
     REPORT_FILE.write_text(report_text)
 
 def main():
     match sys.argv:
         case [_, str() as target]:
             targets = _util.collect(pl.Path(target))
-        case [_, *xs]:
+        case [_, *xs] if bool(xs):
             targets = [pl.Path(x) for x in xs]
             assert(bool(targets))
         case [_]:
@@ -188,7 +191,7 @@ def main():
     stats   = deepcopy(STATS_BASE)
     for bib in targets:
         lib = reader.read(bib)
-        print("Updating Stats from: %s", bib)
+        print("Updating Stats from: ", bib)
         update_stats(stats, lib)
     else:
         write_report(stats)

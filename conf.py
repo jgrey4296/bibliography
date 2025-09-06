@@ -70,6 +70,7 @@ These also affects html_static_path and html_extra_path.
 """
 include_patterns = [
     "index.rst",
+    "report.rst",
     "pages_/*",
     # ".temp/export/rst/*",
     "*main/*",
