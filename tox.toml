@@ -115,3 +115,9 @@ description = "Clean away refiled pdfs"
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/clean_todos.py"],
 ]
+
+[env.tags]
+description = "Update the lists of tags"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/update_tags.py", "{env:TARGET}", {replace="posargs", default=[], extend=true}],
+]

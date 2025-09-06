@@ -27,6 +27,7 @@ import faulthandler
 # ##-- end stdlib imports
 
 import jinja2
+from jgdv.files.tags import SubstitutionFile
 
 # ##-- types
 # isort: off
@@ -63,12 +64,19 @@ logging = logmod.getLogger(__name__)
 # Vars:
 TEMPLATE_DIR  : Final[pl.Path]  = pl.Path("templates_")
 WINDOW_SIZE   : Final[int]      = 10
+SUB_GLOB_1      : Final[str]      = "*/*.sub"
+SUB_GLOB_2      : Final[str]      = "*.sub"
 # Body:
 
 def load_tags(source:pl.Path) -> SubstitutionFile:
-    subs = SubstitutionFile.read(source)
-    assert(bool(subs))
-    return subs
+    targets  = collect(source, glob=SUB_GLOB_1)
+    targets  += collect(source, glob=SUB_GLOB_2)
+    subs     = SubstitutionFile()
+    for x in targets:
+        subs.update(SubstitutionFile.read(x))
+    else:
+        assert(bool(subs))
+        return subs
 
 def collect(source:pl.Path, *, glob:str="*.bib") -> list[pl.Path]:
     if source.is_file():
