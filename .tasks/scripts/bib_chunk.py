@@ -28,9 +28,13 @@ import faulthandler
 
 import sys
 import tqdm
-import bibble as BM
-import bibble._interface as API
-from bibble.io import Writer, Reader
+import warnings
+import _util
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore", SyntaxWarning)
+    import bibble as BM
+    import bibble._interface as API
+    from bibble.io import Writer, Reader
 
 # ##-- types
 # isort: off
@@ -67,18 +71,18 @@ logging = logmod.getLogger(__name__)
 # Vars:
 CHUNK_SIZE   : Final[int]      = 100
 FAIL_TARGET  : Final[pl.Path]  = pl.Path()
+GLOB_STR     : Final[str]      = "*.bib"
 ##--| Body
 
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack = BM.PairStack()
-    stack.add(read=[BM.metadata.DataInsertWM(),
+    stack.add(read=[BM.metadata.DataInsertMW(),
                     BM.failure.DuplicateKeyHandler(),
                     ],
               write=[BM.failure.FailureHandler()]
               )
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
-              write=[extra_data])
+    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
@@ -88,30 +92,41 @@ def chunk_library(lib:API.Library_p, size:int=CHUNK_SIZE) -> list[BM.BibbleLib]:
     results  : list[BM.BibbleLib]  = []
     entries  : list                = list(lib.entries)
     while bool(entries):
-        chunk = entries[:size]
-        chunk_lib = BM.BibbleLib(chunk)
+        chunk      = entries[:size]
+        entries    = entries[size:]
+        chunk_lib  = BM.BibbleLib(chunk)
         results.append(chunk_lib)
     else:
         return results
 
 def main():
     match sys.argv:
+        case [_, size, "--collect", *collects]:
+            target_size = int(size)
+            targets = []
+            for x in collects:
+                targets += _util.collect(pl.Path(x), glob=GLOB_STR)
         case [_, str() as size, *targets]:
-            size = int(size)
-            assert(bool(targets))
-            assert(bool(size))
+            target_size = int(size)
+            targets = [pl.Path(x) for x in targets]
         case x:
             raise TypeError(type(x))
+
+    target_size = target_size if target_size > 0 else CHUNK_SIZE
+    assert(bool(targets))
+    assert(bool(target_size))
     reader, writer = build_reader_and_writer()
     for bib in targets:
-        print("Chunking: %s", bib)
+        print(f"Chunking: {bib}")
         lib = reader.read(bib)
-        for i,chunk in enumerate(chunk_library(lib, size=size)):
+        chunks = chunk_library(lib, size=target_size)
+        print(f"Chunked into {len(chunks)} subfiles")
+        for i,chunk in enumerate(chunks):
             chunk_stem = f"{bib.stem}-{i}"
-            chunk_path = lib.with_stem(chunk_stem)
+            chunk_path = bib.with_stem(chunk_stem)
             writer.write(chunk, file=chunk_path)
         else:
-            print("Chunked into %s subfiles", i)
+            pass
     else:
         print("Finished")
 

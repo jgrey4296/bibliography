@@ -11,7 +11,7 @@ skip_missing_interpreters  = false
 [env_run_base]
 description          = "base_env"
 runner               = "uv-venv-lock-runner"
-allowlist_externals  = ["echo"]
+allowlist_externals  = ["echo", "rsync"]
 set_env              = {}
 
 [env.docs]
@@ -43,7 +43,6 @@ commands      = [
     ]
 ]
 
-
 [env.bookmarks]
 description = "update bookmarks"
 commands = [
@@ -51,21 +50,12 @@ commands = [
 ]
 
 [env.format]
-description = "format bibtex files"
-set_env = [
+description  = "format bibtex files"
+set_env      = [
   {TARGET = {replace="env", name="TARGET",  default="./main"}},
 ]
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/bib_format.py", "{env:TARGET}", {replace="posargs", default=[], extend=true}],
-]
-
-[env.backup]
-description = "Backup pdfs"
-set_env = [
-  {TARGET = {replace="env", name="TARGET",  default="/media/john/solid_ext4/library/pdfs"}},  
-]
-commands = [
-  ["rsync", "--archive", "--progress", "/media/john/data/library/pdfs", "{env:TARGET}"],
 ]
 
 [env.apply]
@@ -86,24 +76,6 @@ commands = [
   ["uv", "run", "--script", ".tasks/scripts/bib_online.py", "{env:TARGET}"],
 ]
 
-[env.chunk]
-description = "chunk files into smaller files"
-commands = [
-  ["uv", "run", "--script", ".tasks/scripts/bib_online.py", {replace="posargs", default=[], extend=true}],
-]
-
-[env.report]
-description = "generate an html report on the repo"
-commands = [
-  ["uv", "run", "--script", ".tasks/scripts/bib_report.py", {replace="posargs", default=[], extend=true}],
-]
-
-[env.restruct]
-description = "restructure library files"
-commands = [
-  ["uv", "run", "--script", ".tasks/scripts/lib_restructure.py", {replace="posargs", default=[], extend=true}],
-]
-
 [env.stub]
 description = "collect and stub pdfs in dropbox and downloads"
 commands = [
@@ -121,3 +93,40 @@ description = "Update the lists of tags"
 commands = [
   ["uv", "run", "--script", ".tasks/scripts/update_tags.py", "{env:TARGET}", {replace="posargs", default=[], extend=true}],
 ]
+
+[env.chunk]
+description = "chunk files into smaller files"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/bib_chunk.py", {replace="posargs", default=[], extend=true}],
+]
+
+[env.backup] 
+description = "Backup pdfs"
+set_env = [
+  {SOURCE = {replace="env", name="SOURCE", default="/media/john/data/library/pdfs"}},
+  {TARGET = {replace="env", name="TARGET", default="/media/john/solid_ext4/library/pdfs"}},  
+]
+commands = [
+  ["rsync", "--archive", "--progress", "{env:SOURCE}", "{env:TARGET}"],
+]
+
+[env.report]
+description = "generate an rst report on the repo"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/bib_report.py", {replace="posargs", default=[], extend=true}],
+]
+
+## 
+# To Finish: --------------------------------------------------
+
+[env.restruct]
+description = "restructure library files"
+commands = [
+  ["uv", "run", "--script", ".tasks/scripts/lib_restructure.py", {replace="posargs", default=[], extend=true}],
+]
+
+[env.android] # TODO
+description = "Pushes pdflib to android"
+
+[env.latex] # TODO
+description = "Compiles all bibtex into a pdf file"

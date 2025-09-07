@@ -112,13 +112,13 @@ def generate_year_structures() -> None:
             decade = century / str(dec)
             decade.mkdir(parents=True, exist_ok=True)
 
-def year_to_pair(year:int) -> pl.Path:
+def year_to_prefix(year:int) -> pl.Path:
     century  = int(year * ZERO_ZERO_ONE) * HUNDRED
     decade   = int(year * ZERO_ONE) * TEN
     return pl.Path(f"{century}/{decade}")
 
 def retarget_entries(lib, base:pl.Path, decade:pl.Path) -> None:
-    print("Retargeting Entries for: %s", base)
+    print(f"Retargeting Entries for: {base}")
     for entry in tqdm.tqdm(lib.entries):
         for key,val in entry.fields_dict.items():
             if "file" not in key:
@@ -137,7 +137,7 @@ def retarget_files(i:int) -> None:
         if dir.is_file():
             continue
         rel_path  = dir.relative_to(LIB_ROOT)
-        target    = NEW_ROOT / year_to_pair(int(dir.stem)) / dir.stem
+        target    = NEW_ROOT / year_to_prefix(int(dir.stem)) / dir.stem
         assert(not target.exists())
         dir.rename(target)
 
@@ -157,8 +157,8 @@ def main():
     reader, writer  = build_reader_and_writer()
     generate_year_structures()
     for bib in _util.window_collection(window, targets):
+        new_prefix  = year_to_prefix(int(bib.stem))
         lib         = reader.read(bib)
-        new_prefix  = year_to_pair(int(bib.stem))
         retarget_entries(lib, bib, new_prefix)
         writer.write(lib, file=bib)
     else:
