@@ -104,7 +104,7 @@ commands = [
 description = "Backup pdfs"
 set_env = [
   {SOURCE = {replace="env", name="SOURCE", default="/media/john/data/library/pdfs"}},
-  {TARGET = {replace="env", name="TARGET", default="/media/john/solid_ext4/library/pdfs"}},  
+  {TARGET = {replace="env", name="TARGET", default="/media/john/solid_ext4/library"}},  
 ]
 commands = [
   ["rsync", "--archive", "--progress", "{env:SOURCE}", "{env:TARGET}"],
