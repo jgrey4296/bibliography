@@ -21,26 +21,9 @@ uv_sync_flags      = ["--no-editable", "--no-sources"]
 skip_install       = true
 set_env            = [
     {replace="ref", of=["env_run_base", "set_env"]},
-    {BUILDER  = {replace="env", name="BUILDER",  default="bibhtml"}},  
-    {CONFDIR  = {replace="env", name="CONFDIR",  default="./"}},
-    {OUTDIR   = {replace="env", name="OUTDIR",   default="./.temp/site/"}},
-    {DOCTREE  = {replace="env", name="DOCTREE",  default="./.temp/docs/.doctrees/"}},
 ]
-commands      = [
-    ["echo", "Building Documentation to:", "{env:OUTDIR}"],
-    ["echo", "Doctrees to:", "{env:DOCTREE}"],
-    ["echo", "Config in:", "{env:CONFDIR}"],
-    ["uv", "run", "--frozen", "sphinx-build",
-    # "-q",
-    # "--fresh-env",
-    "--conf-dir", "{env:CONFDIR}",
-    "--doctree-dir", "{env:DOCTREE}",
-    "--warning-file", "./.temp/logs/sphinx.log",
-    "--builder", "{env:BUILDER}",
-     "./{env:PKGNAME}",
-     "{env:OUTDIR}",
-    {replace="posargs", default=[], extend=true}
-    ]
+commands = [
+  ["uv", "run", ".temp/cargo-alldocs"]
 ]
 
 [env.bookmarks]

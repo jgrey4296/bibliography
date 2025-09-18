@@ -7,7 +7,3 @@
 [submodule "timelines_"]
 	path = timelines_
 	url = git@github.com:jgrey4296/timelines.git
-[submodule "gh_pages"]
-	path = .site
-	url = git@github.com:jgrey4296/bibliography.git
-	branch = gh_pages
