@@ -77,19 +77,15 @@ log_file     : Final[pl.Path]  = pl.Path(".temp/logs/sphinx.log")
 cargo_file   : Final[pl.Path]  = pl.Path("Cargo.toml")
 book_file    : Final[pl.Path]  = pl.Path("book.toml")
 
-try:
-    sphinx     = sh.sphinx_build
-    cargo_doc  = sh.cargo.doc
-    mdbook     = sh.mdbook
-except sh.CommandNotFound as err:
-    print(err)
-    sys.exit(1)
-
-
 # Body:
 
 def run_sphinx():
     if not (conf_dir / "conf.py").exists():
+        return
+    try:
+        sphinx     = sh.sphinx_build
+    except sh.CommandNotFound as err:
+        print("Sphinx not found")
         return
 
     print("Running Sphinx")
@@ -98,7 +94,7 @@ def run_sphinx():
         "--conf-dir", conf_dir,
         "--doctree-dir", doctree_dir,
         "--warning-file", log_file,
-        "--builder", "html",
+        "--builder", "bibhtml",
         source_dir,
         sphinx_out,
         )
@@ -106,12 +102,22 @@ def run_sphinx():
 def run_mdbook():
     if not book_file.exists():
         return
+    try:
+        mdbook     = sh.mdbook
+    except sh.CommandNotFound as err:
+        print("MdBook not found")
+        return
 
     print("Running MdBook")
     mdbook("build")
 
 def run_rustdoc():
     if not cargo_file.exists():
+        return
+    try:
+        cargo_doc  = sh.cargo.doc
+    except sh.CommandNotFound as err:
+        print("Cargo doc not found")
         return
 
     print("Running Rustdoc")

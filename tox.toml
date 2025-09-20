@@ -23,7 +23,7 @@ set_env            = [
     {replace="ref", of=["env_run_base", "set_env"]},
 ]
 commands = [
-  ["uv", "run", ".temp/cargo-alldocs"]
+  ["uv", "run", "--script", ".tasks/cargo-alldocs"]
 ]
 
 [env.bookmarks]
