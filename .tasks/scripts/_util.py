@@ -69,7 +69,8 @@ SUB_GLOB_2      : Final[str]      = "*.sub"
 # Body:
 
 def load_tags(source:pl.Path) -> SubstitutionFile:
-    targets  = collect(source, glob=SUB_GLOB_1)
+    targets   = []
+    targets  += collect(source, glob=SUB_GLOB_1)
     targets  += collect(source, glob=SUB_GLOB_2)
     subs     = SubstitutionFile()
     for x in targets:
@@ -80,10 +81,10 @@ def load_tags(source:pl.Path) -> SubstitutionFile:
 
 def collect(source:pl.Path, *, glob:str="*.bib") -> list[pl.Path]:
     if source.is_file():
-        return list[source]
+        return [source]
 
     results = source.glob(glob)
-    return sorted(list(results))
+    return list(sorted(results))
 
 def init_jinja(dir:Maybe[pl.Path]=None) -> jinja2.Environment:
     env = jinja2.Environment(
