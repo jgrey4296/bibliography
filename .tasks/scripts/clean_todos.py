@@ -67,7 +67,14 @@ GLOB_STR_EPUB  : Final[str]      = "**/_refiled_*.epub"
 # Body:
 
 def main():
-    print("Cleaning: ", TODO_DIR)
+    match sys.argv:
+        case [*_, "--help"]:
+            print("clean_todos.py")
+            sys.exit()
+        case [_]:
+            print("Cleaning: ", TODO_DIR)
+        case x:
+            raise TypeError(type(x))
     targets  = _util.collect(TODO_DIR, glob=GLOB_STR_PDF)
     targets += _util.collect(TODO_DIR, glob=GLOB_STR_EPUB)
     for x in targets:

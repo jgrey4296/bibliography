@@ -43,6 +43,9 @@ def print_changed(spec, state, changed):
 
 def main():
     match sys.argv:
+        case [*_, "--help"]:
+            print("validate_commit.py")
+            sys.exit()
         case [_, str() as commit_file]:
             pass
         case x:

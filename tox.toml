@@ -23,13 +23,13 @@ set_env            = [
     {replace="ref", of=["env_run_base", "set_env"]},
 ]
 commands = [
-  ["uv", "run", "--script", ".tasks/cargo-alldocs"]
+  ["uv", "run", "--script", ".tasks/cargo-alldocs", { replace="posargs", default=[], extend=true }]
 ]
 
 [env.bookmarks]
 description = "update bookmarks"
 commands = [
-  ["uv", "run", "--script", ".tasks/scripts/bookmarks.py"]
+  ["uv", "run", "--script", ".tasks/scripts/bookmarks.py", { replace="posargs", default=[], extend=true }]
 ]
 
 [env.format]
@@ -56,7 +56,7 @@ set_env = [
   {TARGET = {replace="env", name="TARGET", default="in_progress/online.bib"}},
 ]
 commands = [
-  ["uv", "run", "--script", ".tasks/scripts/bib_online.py", "{env:TARGET}"],
+  ["uv", "run", "--script", ".tasks/scripts/bib_online.py", "{env:TARGET}", { replace="posargs", default=[], extend=true }],
 ]
 
 [env.stub]
@@ -68,7 +68,7 @@ commands = [
 [env.clean]
 description = "Clean away refiled pdfs"
 commands = [
-  ["uv", "run", "--script", ".tasks/scripts/clean_todos.py"],
+  ["uv", "run", "--script", ".tasks/scripts/clean_todos.py", { replace="posargs", default=[], extend=true }],
 ]
 
 [env.tags]

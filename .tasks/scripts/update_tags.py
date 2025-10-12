@@ -131,6 +131,9 @@ def collate_tags(subs:SubstitutionFile, raw:TagFile, bkmks:TagFile) -> tuple[Tag
 
 def main():
     match sys.argv:
+        case [*_, "--help"]:
+            print("update_tags.py target:str*")
+            sys.exit()
         case [_, str() as target] if bool(target):
             print(f"Source: {target}")
             targets = _util.collect(pl.Path(target))

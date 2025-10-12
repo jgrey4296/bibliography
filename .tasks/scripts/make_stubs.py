@@ -86,6 +86,9 @@ def main():
     ##--|
     window = -1
     match sys.argv:
+        case [*_, "--help"]:
+            print("make_stubs.py window:int")
+            sys.exit()
         case [_, str() as wind]:
             window = int(wind)
         case [_]:

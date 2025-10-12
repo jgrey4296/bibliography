@@ -144,6 +144,10 @@ def retarget_files(i:int) -> None:
 def main():
     window = -1
     match sys.argv:
+        case [*_, "--help"]:
+            print("lib_restructure.py [--window int]")
+            print("lib_restructure.py target:str")
+            sys.exit()
         case [_, "--window", str() as wind]:
             window   = int(wind)
             targets  = _util.collect(MAIN_DIR, glob=GLOB_STR)

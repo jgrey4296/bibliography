@@ -177,6 +177,9 @@ def write_report(stats:dict) -> None:
 
 def main():
     match sys.argv:
+        case [*_, "--help"]:
+            print("bib_report.py target:str*")
+            sys.exit()
         case [_, str() as target]:
             targets = _util.collect(pl.Path(target))
         case [_, *xs] if bool(xs):

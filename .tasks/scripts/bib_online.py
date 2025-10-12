@@ -94,6 +94,9 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
 
 def main():
     match sys.argv:
+        case [*_, "--help"]:
+            print("bib_online.py target:str")
+            sys.exit()
         case [_]:
             target = ONLINE_SOURCE
         case [_, str() as target]:

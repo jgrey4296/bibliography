@@ -12,6 +12,7 @@ from __future__ import annotations
 # Imports:
 # ##-- stdlib imports
 import datetime
+import sys
 import enum
 import functools as ftz
 import itertools as itz
@@ -203,7 +204,14 @@ def extract_bookmarks(loc:pl.Path) -> BookmarkCollection:
     return fresh
 
 def main():
-    print("Updating Bookmarks")
+    match sys.argv:
+        case [*_, "--help"]:
+            print("bookmarks.py")
+            sys.exit()
+        case [_]:
+            print("Updating Bookmarks")
+        case x:
+            raise TypeError(type(x))
     # copy from firefox
     match find_db():
         case None:

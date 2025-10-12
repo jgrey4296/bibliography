@@ -101,6 +101,9 @@ def chunk_library(lib:API.Library_p, size:int=CHUNK_SIZE) -> list[BM.BibbleLib]:
 
 def main():
     match sys.argv:
+        case [*_, "--help"]:
+            print("bib_chunk.py size:int [--collect] *targets")
+            sys.exit()
         case [_, size, "--collect", *collects]:
             target_size = int(size)
             targets = []

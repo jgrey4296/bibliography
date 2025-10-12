@@ -111,6 +111,9 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
 def main():
     window = -1
     match sys.argv:
+        case [*_, "--help"]:
+            print("apply_metadata.py target:str [--window int]")
+            sys.exit()
         case [_, str() as target, "--window", str() as wind]:
             print(f"Source: {target}")
             targets  = _util.collect(pl.Path(target), glob=GLOB_STR)
