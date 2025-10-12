@@ -108,11 +108,13 @@ def main():
         shutil.copy(x, in_todos)
         assert(in_todos.exists()), in_todos
         stubs.append(build_stub(in_todos, template=template))
-        x.unlink()
+        if in_todos.exists():
+            x.unlink()
     else:
         # Append to stub file:
         with STUB_FILE.open("a") as f:
             f.write("\n\n".join(stubs))
+
 
 ##-- ifmain
 if __name__ == "__main__":
