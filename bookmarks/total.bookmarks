@@ -5570,6 +5570,7 @@ https://1804books.com/products/the-trinity-of-fundamentals : book : palestine
 https://200wordrpg.github.io/2016/rpg/finalist/2016/04/15/DrinkTeaForget.html : 200_word_rpg : RPG : game_design : github
 https://2016.splashcon.org/event/meta2016-a-model-for-reflection-in-rule-based-languages : RETE : reflection : rule
 https://2020pb.com/ : 2020 : george_floyd : police_violence : protest
+https://6th-divisions-den.com/ms_tutorial.html : art : game_development : metal_slug : pixel_art : tutorial
 https://70sscifiart.tumblr.com/post/184695051497/uncredited-cover-art-1970 : art : sci_fi : science_fiction : tumblr
 https://80.lv/articles/cascadeur-physics-based-character-animation/ : 80_level : animation : art : cascadeur : game_development : physics : programming
 https://8values.github.io/ : political_compass : politics
@@ -7086,6 +7087,7 @@ https://docs.unity3d.com/Manual/gui-Basics.html : GUI : c_sharp : documentation 
 https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Framework/ : game_develeopment : programming : unreal_engine
 https://docs.unrealengine.com/5.3/en-US/fluid-simulation-in-unreal-engine---overview/ : __come_back_to : fluid_simulation : pipeline : unreal : workflow
 https://docseuss.medium.com/ : __come_back_to : blog : doc_burford : game_analysis : game_design : medium
+https://documentation.ubuntu.com/snapcraft/stable/how-to/ : package_management : snapcraft : ubuntu
 https://documents.un.org/prod/ods.nsf/home.xsp : open_access : report : reports : united_nations
 https://docutils.sourceforge.io/docs/index.html : docutils : python : rst : sourceforge : sphinx
 https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html : language_spec : python : rst : sourceforge : sphinx
@@ -8018,6 +8020,7 @@ https://github.com/MattVitelli/GRUV : algorithmic_music : audio : github : music
 https://github.com/MattWindsor91/roslyn/blob/master/concepts/docs/csconcepts.md : c_sharp : github : haskell : type_classes : type_system : types
 https://github.com/MaxHalford/sorobn : bayesian_network : github : library : python
 https://github.com/MaximAbramchuck/awesome-interview-questions : curated : github : interview
+https://github.com/MiKTeX/miktex : github : latex : miktex
 https://github.com/Microsoft/malmo : github
 https://github.com/Microsoft/pyright : github : libraries : library : pyright : python : type_checking : type_inference : type_systems
 https://github.com/MissPixels/prospect-bot : __come_back_to : bot : github : image : pillow : python
@@ -8060,6 +8063,7 @@ https://github.com/Shopify/liquid/wiki/liquid-for-designers : github : jekyll : 
 https://github.com/SimHacker/micropolis : github : micropolis : sim_city
 https://github.com/Smithsonian/OpenAccess : datasets : github : smithsonian
 https://github.com/SoarGroup/Soar : SOAR : ai : github : library
+https://github.com/Stratus3D/asdf-lua/tree/master : asdf : lua
 https://github.com/Svalorzen/AI-Toolbox : ai : c_plus_plus : github : python : toolbox
 https://github.com/SylphAI-Inc/LLM-engineer-handbook : LLM : github : reference
 https://github.com/TES5Edit/TES5Edit : bethesda : github : modding
@@ -8108,7 +8112,9 @@ https://github.com/aosabook/500lines : book : github : software_engineering
 https://github.com/aparrish/phonetic-similarity-vectors : NLP : allison_parrish : github : phonemes
 https://github.com/aquova/aseprite-scripts : aseprite : github : lua
 https://github.com/arscan/encom-boardroom : design : github : html5 : tron
+https://github.com/artificial-institutions/sai/tree/master?tab=readme-ov-file : ai : institutions : jacamo
 https://github.com/asaini/Apriori : a_priori : github : machine_learning : python
+https://github.com/asdf-vm/asdf-plugin-template?tab=readme-ov-file : asdf : github : template
 https://github.com/astral-sh/ruff : github : linting : python : ruff : rust
 https://github.com/astral-sh/uv : build_tool : github : python : uv
 https://github.com/attwad/python-osc/blob/master/pythonosc/osc_message.py : github : libraries : osc : python
@@ -8118,6 +8124,7 @@ https://github.com/auto-complete/auto-complete/blob/master/doc/manual.md#source 
 https://github.com/awesomedata/awesome-public-datasets : dataset : datasets : github
 https://github.com/babb517/f2lp : ASP : clingo : github : sat_solving
 https://github.com/backspaces/agentscript : agent_based_modeling : github
+https://github.com/bahamas10 : dave_eddy : github : yasp
 https://github.com/bahamas10/bash-style-guide : bash : cli : github : style_guide : tiktok
 https://github.com/balena-io/etcher : balena : github : iso : software : usb
 https://github.com/basveeling/wavenet : deep_learning : keras : wavenet
@@ -8180,6 +8187,7 @@ https://github.com/coq-community/awesome-coq : coq : github : libraries
 https://github.com/coq-community/graph-theory : coq : graph_theory
 https://github.com/corkami/pics : github : infographic : poster
 https://github.com/cprogrammer1994/GLWindow : github : open_gl : python
+https://github.com/cruft/cruft/ : cookiecutter : github
 https://github.com/csurfer/pyheatmagic : github : heatmap : ipython : python
 https://github.com/ctgk/PRML : book : github : jupyter : machine_learning : python
 https://github.com/cu-clear/verbnet : github : python : verbnet
@@ -8266,6 +8274,7 @@ https://github.com/glyph/automat/ : FSM : automat : github : python
 https://github.com/godot-rust/godot-rust : github : godot : rust
 https://github.com/godotengine/awesome-godot : github : godot
 https://github.com/godotengine/emacs-gdscript-mode : emacs : github : godot
+https://github.com/godotengine/godot : game_development : github : godot
 https://github.com/godotengine/godot-proposals : github : godot
 https://github.com/golanlevin/p5-single-line-font-resources : douglas_hofstadter : fonts : github : javascript
 https://github.com/golubitsky/algorithms-javascript : github
@@ -8275,6 +8284,7 @@ https://github.com/google/xi-editor/tree/master/doc/rope_science : data_structur
 https://github.com/google/yapf : emacs : formatting : github : libraries : lint : pep_8 : python
 https://github.com/gorhill/uBlock/wiki : __come_back_to : advertisement : github : privacy : surveillance : ublock
 https://github.com/gothinkster/realworld : backend : frontend : full_stack : github
+https://github.com/gradle/actions : github : github_actions : gradle
 https://github.com/grafana/grafana : github : grafana : visualisation
 https://github.com/graknlabs/grakn : ai : github : grakn : hypergraph
 https://github.com/grappa-py/grappa : assert : github : grappa : python : unit_testing
@@ -9188,6 +9198,7 @@ https://jezebel.com/private-messages-reveal-the-cis-journalist-groupthink-b-1827
 https://jezebel.com/the-team-of-men-behind-rachel-brewson-the-fake-woman-w-1787270300 : ad_tech : anna_merlan : bot : fraud : impersonation : jezebel : marketing : rachel_brewson : viral
 https://jg-rp.github.io/liquid/introduction/getting-started : liquid : python : template
 https://jgrasp.org/tutorials187/05_CSD.pdf : control_structure : diagram : jgrasp : tutorial
+https://jgrey4296.github.io/bibliography/index.html : bibliography : bibtex : reference
 https://jhupbooks.press.jhu.edu/title/nudging-health : book : nudge : public_policy
 https://jinja.palletsprojects.com/en/3.1.x/ : jinja : reference
 https://jme.bmj.com/content/39/8/487 : choice : ethics : nudge
@@ -9429,6 +9440,7 @@ https://learningmusic.ableton.com/index.html : ableton : learning : music
 https://learnopengl.com/ : c_plus_plus : graphics : modern : modern_opengl : open_gl : programming : tutorial
 https://learnopengl.com/Introduction : graphics : math : open_gl : shaders
 https://learntemail.sam.today/blog/blender-for-hackers-3d-modeling-is-just-like-using-vim/ : HCI : UI : UX : blender : graphics : modal : tutorial : vim
+https://learnubuntu.com/install-emacs/ : emacs : package_management : ubuntu
 https://learnxinyminutes.com/ : language : learning : programming : reference : tutorial
 https://learnxinyminutes.com/docs/css/ : CSS : learnXinY : reference : web_design
 https://learnxinyminutes.com/docs/yaml/ : learnXinY : reference : yaml
@@ -9827,6 +9839,7 @@ https://melmagazine.com/en-us/story/how-the-parkland-teens-give-us-a-glimpse-of-
 https://meltingasphalt.com/interactive/going-critical/ : __important : complex_systems : complexity : explorable
 https://members.loria.fr/SMerz/papers/mc-tutorial.pdf : model_checking : tutorial
 https://merl.reading.ac.uk/news-and-views/2016/02/155-year-old-mouse-trap-claims-its-latest-victim/ : adam_koszary : history : merl : mouse : mouse_trap : rural
+https://mesonbuild.com/SimpleStart.html : build_system : meson
 https://messense.me/cargo-test-valgrind : cargo : memory_management : software_engineering : valgrind
 https://meta.slashdot.org/story/12/10/04/0958250/15-years-of-stuff-that-matters : history : politics : slashdot
 https://meta.stackexchange.com/questions/334551/an-apology-to-our-community-and-next-steps : __come_back_to : institution : policy : stack_overflow
@@ -10009,8 +10022,12 @@ https://nim-lang.org/ : __come_back_to : nim
 https://ninite.com/ : ninite : software_installation : windows
 https://niskanencenter.org/blog/black-liberty-matters/ : black_lives_matter : history : politics : racism
 https://niskanencenter.org/blog/libertarian-democracy-skepticism-infected-american-right/ : conservative : libertarian : politics : skepticism
+https://nix.dev/manual/nix/2.32/introduction.html : nix
+https://nixos-and-flakes.thiscute.world/preface : nix
 https://nixos.org/manual/nix/stable/ : __come_back_to : nix : package_management
 https://nixos.org/manual/nix/stable/introduction.html : nix
+https://nixos.org/manual/nixpkgs/stable/#sec-pkgs-mkShell : nix : nix_pkgs : reference
+https://nixos.wiki/wiki/Main_Page : nix
 https://nlp.stanford.edu/projects/glove/ : NLP : deep_learning : glove : stanford
 https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/ : composers : feminism : list : recommendation : women
 https://nnethercote.github.io/perf-book/title-page.html : ebook : performance : rust
@@ -10059,6 +10076,7 @@ https://observablehq.com/@tmcw/diffusion-limited-aggregation : diffusion : dlaf 
 https://observablehq.com/@tmcw/enigma-machine : cryptography : enigma_machine : explorable : observation : playable
 https://observablehq.com/@tophtucker/inferring-chart-type-from-autocorrelation-and-other-evils : chart : explorable : inference : machine_learning : math : toph_tucker
 https://observer.com/2015/06/de-blasio-and-city-council-reach-deal-to-hire-1300-new-police-officers/ : de_blasio : new_york : observation : police
+https://ocaml.org/ : ocaml : programming
 https://ocharles.org.uk/blog/guest-posts/2014-12-22-template-haskell.html : haskell : template_haskell
 https://ogldev.org/ : open_gl
 https://ohmyz.sh/ : cli : command_line : oh_my_zsh : zsh
@@ -10085,6 +10103,7 @@ https://onlinelibrary.wiley.com/journal/10982337?journalRedirectCheck=true : agg
 https://onlinelibrary.wiley.com/journal/19393806 : autism : journal
 https://onlyfans.com/ : :
 https://onsen.io/blog/mocha-chaijs-unit-test-coverage-es6/ : babel : chai : istanbul : mocha : test : web_development
+https://opam.ocaml.org/ : ocaml : opam : package_management
 https://open-platform.theguardian.com/documentation/ : api : guardian : journalism : programming
 https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0079748 : dissertation : open_university : tetris
 https://open_nsfw.gitlab.io/ : deep_learning : gitlab : image_synthesis : neural_network : open_nsfw : yahoo
@@ -10108,6 +10127,7 @@ https://opensyllabus.org/result/field?id=Computer+Science : open_syllabus : refe
 https://opentermsarchive.org/en/ : archive : internet_history : open_terms_archive : terms_and_conditions
 https://openxcom.org/ : xcom
 https://ora.ox.ac.uk/objects/uuid:5635e8b7-994f-458e-b453-4666b46c1910 : T_M_O_framework : mark_ventresca : oxford
+https://oras.land/docs/ : artifact_stores : oras
 https://orbis.library.yale.edu/vwebv/holdingsInfo?bibId=12779400 : archive : cartography : catalog : harlem : library : maps : yale
 https://ordinary-times.com/2018/04/16/ben-shapiro-is-how-we-got-trump/ : GOP : adotsad : ben_shapiro : birtherism : kevin_williamson : ordinary_times : politics : trump
 https://oremacs.com/2014/12/24/light-it-up/ : emacs : lisp : pygments
@@ -10200,6 +10220,7 @@ https://philosophicaldisquisitions.blogspot.co.uk/2017/05/cognitive-scarcity-and
 https://philosophybites.com/2008/03/anthony-appiah.html : cosmopolitan : philosophy : philosophy_bites : podcast
 https://philosophynow.org/issues/130/Being-With-Significant-Others : being_with_significant_others : martin_heidegger : philosophy : philosophy_now : relationship : relationship_counseling
 https://philpapers.org/archive/PROWIF.pdf : concept : gottlob_frege : philosophy
+https://philpapers.org/browse/philosophy-of-cognitive-science : philosophy
 https://philpapers.org/rec/YANHDW-2 : chinese : philosophy : thesis
 https://phocks.tumblr.com/post/2976413342/bow-nigger : blog : game_criticism : racism : tumblr
 https://phoenixnap.com/kb/ping-specific-port : ping
@@ -10913,6 +10934,7 @@ https://streamlineicons.com/ : design : icons : libraries : paid : streamline
 https://strudel.cc/workshop/getting-started/ : haskell : javascript : music : strudel : tidal
 https://studioaaa.com/product/dither-boy/ : art : dither : dither_boy
 https://study.com/learn/lesson/two-point-perspective-drawing-examples.html : art : drawing : two_point_perspective
+https://style.ysap.sh/ : bash : style_guide
 https://sub-q.com/making-interactive-fiction-branching-choices/ : bruno_dias : choice : design : interactive_fiction : twine
 https://sub-q.com/play-sleepless/ : interactive_fiction : sleep
 https://sublime-and-sphinx-guide.readthedocs.io/en/latest/code_blocks.html#json : highlighting : rst : sphinx
@@ -11344,6 +11366,7 @@ https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/ 
 https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters : economics : paul_niehaus : randomised_controlled_trials : scale : voxdev
 https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters?utm_source=dlvr.it&utm_medium=twitter : economics : paul_niehaus : randomised_controlled_trials : scale : scaling : voxdev
 https://vr.ebay.com.au/ : ebay : store : virtual_reality
+https://vtimofeenko.com/posts/practical-nix-flake-anatomy-a-guided-tour-of-flake.nix/ : nix : nix_flake
 https://vuejs.org/v2/guide/ : javascript : libraries : vue_js : web_design : web_development
 https://vusd.github.io/spacesheet/ : font : fonts : github : image : latent_space : space_sheet : spreadsheet : transform : transformation
 https://wa.aws.amazon.com/wat.concept.coe.en.html : AWS : correction_of_error : software_engineering
@@ -15394,6 +15417,7 @@ https://xkcd.com/1338/ : XKCD : comic : mammals
 https://xkcd.com/2044/ : XKCD : __important
 https://xmlschema.readthedocs.io/en/latest/intro.html : XML : library : python : technical : xmlschema
 https://xsdata.readthedocs.io/en/latest/ : XML : orm : python : xsdata
+https://xunit.net/?tabs=cs : dotnet : unit_test : xunit
 https://yadi.sk/a/jwGK2j3W3Y9Tap : assets : fabric : russia
 https://yaffa.co.uk/ : food : palestine : sumac : yaffa
 https://yaml.org/spec/1.2.2/ : specification : yaml
@@ -15431,6 +15455,8 @@ https://zefsguides.com/ : machine_learning : visualisation
 https://zelo-street.blogspot.com/2020/02/question-time-ranter-identified.html : BBC : journalism : national_front : question_time : sherri_bothwell : sherri_peach : zelo_street
 https://zenodo.org/ : __important : academia : bibliography : dataset : doi : zenodo
 https://zenodo.org/records/8173267 : DSL : academia : ai : behaviour_tree : bibliography : dataset : zenodo
+https://zero-to-nix.com/ : nix
+https://zero-to-nix.com/start/install/ : determinate_nix : nix : tutorial
 https://ziglang.org/ : programming_langauge : zig
 https://zillowgonewild.beehiiv.com/ : architecture : photography : zillow : zillow_gone_wild
 https://zinke.house.gov/media/press-releases/zinke-introduces-bill-expel-palestinians-united-states : fascism : israel : palestine : racism : ryan_zinke
