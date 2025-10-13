@@ -7037,8 +7037,8 @@ https://docs.ponyorm.org/firststeps.html : documentation : pony : python
 https://docs.prefect.io/2.10.13/ : data_science : prefect : workflow
 https://docs.projectile.mx/projectile/index.html : documentation : emacs : lisp : projectile : reference
 https://docs.pypi.org/ : documentation : pypi : python
-https://docs.pytest.org/en/6.2.x/customize.html : pytest : python : unit_testing
-https://docs.pytest.org/en/7.1.x/index.html : pytest : python : reference : testing
+https://docs.pytest.org/en/stable/customize.html : pytest : python : unit_testing
+https://docs.pytest.org/en/stable/index.html : pytest : python : reference : testing
 https://docs.python.org/3.5/howto/curses.html : cli : curse : programming : python
 https://docs.python.org/3.5/library/enum.html : enum : python
 https://docs.python.org/3.5/library/functools.html : func_tools : functional_programming : libraries : python : reference
