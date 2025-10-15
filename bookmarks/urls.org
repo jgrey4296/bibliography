@@ -62,6 +62,7 @@ https://www.emacswiki.org/emacs/download/thesaurus.el
 
 
 ** Game Dev
+https://danielilett.com/
 https://www.designer-notes.com/ - soren johnson blog
 https://gameprogrammingpatterns.com/contents.html
 https://web.archive.org/web/20180511082242/http://www.enterprise-gamification.com/mediawiki/index.php?title=Gamification_Design_Elements
