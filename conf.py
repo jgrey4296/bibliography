@@ -205,7 +205,7 @@ html_domain_indices  = True
 # html_logo            = ""
 html_favicon      = "static_/favicon.ico"
 # Generate additional domain specific indices
-html_domain_indices.append("py-modindex")
+# html_domain_indices.append("py-modindex")
 html_additional_pages.update({})
 html_context.update({
     "collapse_index_py": True,

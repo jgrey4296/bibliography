@@ -12,6 +12,7 @@
 :logs        : .temp/logs
 :counts      : .temp/bib.counts
 :site        : .temp/site
+:docs-build  : .temp/docs
 
 :tasks       : .tasks
 :scripts     : .tasks/scripts
