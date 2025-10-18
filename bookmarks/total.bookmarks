@@ -5874,6 +5874,7 @@ https://bevyengine.org/ : __come_back_to : bevy : game_engine : rust
 https://beyondgrep.com/ : ack : grep : search
 https://bford.info/packrat/ : PEG : packrat_parsing : parser
 https://bibipins.com/en-gb : autism : lgbtq : pins : shop
+https://bibliothekai.ktema.org/ : comparision : translation
 https://bibtexparser.readthedocs.io/en/main/ : bibtex : parser : python
 https://big-breakfast-collective.itch.io/waldoio/devlog/94465/its-ok-to-lie-about-your-game : game_jam : itch_io : lies : multi_player : waldo
 https://bigbrotherwatch.org.uk/ : UK : big_brother : politics : security : surveillance
@@ -6755,6 +6756,7 @@ https://dagster.io/blog/adding-python-types : programming : python : type_system
 https://daily.jstor.org/the-devastation-of-black-wall-street/ : black_wall_street : history : oklahoma : race_riot : racism : wall_street
 https://dan-q.github.io/twee2/documentation.html : twin
 https://dangillmor.com/2016/03/18/my-media-use/ : __important : blog : consumption : dan_gilmor : exercise : journalism : media_diary
+https://danielilett.com/ : blog : daniel_ilett : godot : programming
 https://danielskatzblog.wordpress.com/2018/09/26/fundamentals-of-software-sustainability/ : __important : daniel_katz : software_development : software_sustainability
 https://danielvelkov.blogspot.de/2014/08/easy-haskell-profiling.html : haskell : profiling
 https://danismm.tumblr.com/post/184656462654/no-8-barton-street-london-1910-arch-h-field : architecture : art : assets
@@ -6862,7 +6864,9 @@ https://devdocs.io/ : api : devdocs : documentation : javascript : library : pyt
 https://developer.android.com/ : android : software_development
 https://developer.android.com/games/engines/godot/godot-configure : android : godot
 https://developer.android.com/studio/command-line/adb : adb : android
+https://developer.android.com/studio/publish/app-signing : android : jvm : keytool
 https://developer.android.com/studio/workflow : android : software_engineering : workflow
+https://developer.android.com/tools/sdkmanager : android : jvm : sdkmanager
 https://developer.android.com/training/basics/firstapp/creating-project.html : android
 https://developer.android.com/training/index.html : android
 https://developer.apple.com/fonts/TrueType-Reference-Manual/ : apple : fonts : truetype
@@ -8536,6 +8540,7 @@ https://github.com/rohinikar/Expert-Systems-Programs : CLIPS : github : producti
 https://github.com/rouseguy/intro2stats : github : python : statistics : tutorial
 https://github.com/roxxploxx/RimWorldModGuide : games : github : modding : rimworld
 https://github.com/rudyrucker/chaos : chaos : github : james_gleick
+https://github.com/rust-lang/mdBook/wiki/Third-party-plugins : extensions : github : markdown : mdbook : preprocessor
 https://github.com/rust-lang/polonius : borrow_checker : github : rust
 https://github.com/rust-lang/polonius?tab=readme-ov-file : borrow_checker : github : rust
 https://github.com/rust-lang/rust/issues/33062 : debugging : lldb : rust
@@ -8551,6 +8556,7 @@ https://github.com/samidhtalsania/Cplus2ASP : ASP : ccalc : github
 https://github.com/samidhtalsania/Cplus2ASP/tree/master : ASP : ccalc : github
 https://github.com/santinic/pampy : github : lib : pattern_matching : python
 https://github.com/santiontanon/SHRDLU : SHRDLU : __important : ai : github
+https://github.com/sarl/sarl : ai : github : java : sarl
 https://github.com/scholrly/dblp-python : bibtex : dblp : python : xml
 https://github.com/sciunto-org/python-bibtexparser : bibtex : bibtexparser : github : python
 https://github.com/sdmg15/Best-websites-a-programmer-should-visit : curated : github : programmer : programming : reading_list : recommendation : website
@@ -8588,6 +8594,7 @@ https://github.com/stella3d/OscCore : c_sharp : github : osc : unity
 https://github.com/stevecooperorg/Canto34 : github
 https://github.com/struct/mms/blob/master/Modern_Memory_Safety_In_C_CPP.pdf : c_lang : c_plus_plus : github : memory_safety : pdf
 https://github.com/supercollider/sc3-plugins : supercollider
+https://github.com/supercollider/scbookcode/ : github : sclang : supercollider
 https://github.com/syl20bnr/spacemacs/pull/7564/files : bug : emacs : fringe_mode : lisp : spacemacs
 https://github.com/sylefeb/VoxModSynth : 3D : design : github : wave_function_collapse
 https://github.com/synekdok/SurveillanceMusic : github : music : python : supercollider : surveillance
@@ -8887,6 +8894,7 @@ https://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/ : int
 https://heinonline.org/HOL/LandingPage?handle=hein.journals%2Fgeojlap14&div=38 : behavioural_economics : ethics : georgetown : journal : law : nudge : paternalism : public_policy
 https://helios.hud.ac.uk/scommv/IPC-14/software.html : ai : archive : grammar : grammars : pddl : research
 https://help.github.com/articles/markdown-basics/ : github : markdown : reference : tutorial
+https://help.imgur.com/hc/en-us/articles/41592665292443-Imgur-access-in-the-United-Kingdom : UK : censorship : imgur
 https://help.shopify.com/en/themes/liquid : jekyll : liquid : reference : web_design
 https://help.ubuntu.com/community/SSH/OpenSSH/Configuring : security : ssh : ubuntu
 https://hermanradtke.com/2016/08/08/introduction-to-nom-rust-parsing-combinator-framework.html/ : nom : parser : parsing : rust
@@ -9162,6 +9170,7 @@ https://iuliu-cosmin-oniscu.medium.com/open-world-encounter-design-b0bc2123996d 
 https://jacamo-lang.github.io/documentation/maop-book/readme.html : boissier : book : jacamo
 https://jacamo.sourceforge.net/doc/api/index.html?overview-summary.html : api : jacamo : reference : sourceforge
 https://jacamo.sourceforge.net/doc/jcm.html : file_format : jacamo : jcm_file
+https://jackaudio.org/faq/linux_rt_config.html : JACK : audio : linux : permissions
 https://jacksondunstan.com/ : c_sharp : game_development : jackson_dunstan : math : programming : tutorial : unity
 https://jacobinmag.com/2018/10/medicaid-eligibility-requirements-austerity-paperwork-work-requirements : arkansas : austerity : bureaucracy : jacobin : medicaid
 https://jade.tilab.com/ : MAS : jade
@@ -10383,6 +10392,7 @@ https://pypi.python.org/pypi/python-osc : libraries : osc : python : reference
 https://pypi.python.org/pypi/scikit-neuralnetwork/0.3 : libraries : machine_learning : neural_network : python : scikit
 https://pysathq.github.io/todo.html : ASP : SAT : __come_back_to : logic : pysat : python
 https://pysmt.readthedocs.io/en/latest/tutorials.html : FSMs : boolean_logic : bounded_model_checking : pystm
+https://pytest-cov.readthedocs.io/en/latest/ : coverage : pytest : unit_testing
 https://python-3-patterns-idioms-test.readthedocs.io/en/latest/PythonDecorators.html : decorator : meta : programming : python : tutorial
 https://python-gtk-3-tutorial.readthedocs.io/en/latest/unicode.html : gtk : libraries : python : reference
 https://python-jsonschema.readthedocs.io/en/stable/ : json : jsonschema : library : programming : python
@@ -12044,6 +12054,7 @@ https://www.chronicle.com/article/How-To-Finish-Your/45619 : dissertation : educ
 https://www.chronicle.com/article/The-New-PhD/248038?key=6GN5vbBTWeO_wOewtnTLTmKvXfo1ZpHf-VVb-k2VskjnnsOcK-H2uGwfsj2xgFaCbFJqRkxoR3lLOE1CRFFxSXpRczhsa2FSVVBCeFhwb3hfNjhxTlVjNE5Xdw : chronicle_of_higher_education : education : marc_parry : phd : research
 https://www.chronicle.com/article/the-scholarly-skill-almost-no-one-is-teaching : education : peer_review : scholarship
 https://www.chronicle.com/interactives/20190418-black-academic?key=mi0Bff1vaLHL09_no2Emg0jXycbW_etPyHW1K9c397pNOaagmYH7750bivyYCU2mNFJyUkNsTXlZc1NKN21Gd0hYN0hHcDhkUkN4bmlrVVVpLWZmc2ZDOWhlUQ&fbclid=IwAR1bwaBC3LXBxy4XDVPLNIAd8KQt_nPe6y_araYLt0CnDcaGwzGD8IoI1ko : academia : black : chronicle_higher_ed : racism
+https://www.ciad-lab.fr/nicolas_gaud/ : MAS : nicolas_gaud : person : sarl
 https://www.cigionline.org/platforms?utm_source=twitter&utm_medium=social&utm_campaign=platforms : governance_innovation : platform_governance : research : social_media
 https://www.cisa.gov/resources-tools/resources/types-software-bill-materials-sbom : CISA : SBOM : software_engineering
 https://www.citylab.com/design/2019/08/zoning-ordinance-definition-history-explained-city-laws/594913/?utm_content=edit-promo&utm_term=2019-08-06T13%3A29%3A45&utm_medium=social&utm_source=twitter&utm_campaign=citylab : city_lab : taxonomy : urban_design : zoning
@@ -12478,6 +12489,7 @@ https://www.gov.uk/government/publications/frontier-ai-taskforce-first-progress-
 https://www.gov.uk/government/publications/the-nhs-choice-framework/the-nhs-choice-framework-what-choices-are-available-to-me-in-the-nhs#choosing-where-to-go-for-your-first-appointment-as-an-outpatient : choice : nhs
 https://www.governing.com/gov-institute/voices/col-parks-community-centers-public-spaces-critical-social-infrastructure.html : akron : dan_horrigan : governance : infrastructure : ohio : public_space
 https://www.govinfo.gov/ : USA : freedom_of_information : government : information
+https://www.govinfo.gov/app/collection/sman/110-2007-2008 : lawmaking : manual : senate
 https://www.govinfo.gov/app/collection/uscourts/appellate/ca6/%7B%22pageSize%22%3A%22100%22%2C%22offset%22%3A%220%22%7D : judiciary : law : opinions
 https://www.govinfo.gov/app/details/PLAW-111publ148/PLAW-111publ148 : ACA : gov_info : law
 https://www.govinfo.gov/collection/impeachment-related-publications : USA : impeachment : record : trump
@@ -12716,7 +12728,7 @@ https://www.justice.gov/sco : DOJ : USA : report : robert_mueller : russia : spe
 https://www.justice.gov/usam/usam-9-13000-obtaining-evidence#9-13.420 : attorneys : evidence : guidelines : justice_department : law : popehat : search_warrant
 https://www.justice.gov/usao-dc/capitol-breach-cases : DC : DOJ : USA : district_attorney : january_6th_insurrection : law
 https://www.justice.gov/usao-edva/pr/former-fbi-linguist-arrested-and-indicted-obstruction-charges : DOJ : USA : government : law : obstruction
-https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/ : law : litigation_tracker : trump
+https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/ : data : law : litigation : litigation_tracker : trump
 https://www.justsecurity.org/46334/happy-patriot-act-day/ : blog : bush : history : just_security : patriot_act : surveillance : terrorism
 https://www.justsecurity.org/46663/public-lesson-russian-strategic-deception-its-hear/ : deception : intelligence_community : just_security : russia : security
 https://www.justsecurity.org/51630/five-questions-nunes-memo-answer/ : FBI : asha_ragappa : devin_nunes : politics
@@ -14766,6 +14778,7 @@ https://www.thenation.com/article/undocumented-immigrants-contribute-over-11-bil
 https://www.thenation.com/article/what-kind-of-justice-can-there-be-when-judges-have-to-find-defendants-guilty-to-keep-their-court-open// : law : politics : poverty
 https://www.thenation.com/article/work-requirements-failed-once-and-theyll-fail-again/ : health_care : medicaid : republicans : the_nation : work_requirements
 https://www.thenation.com/article/world/mark-dimondstein-gaza-israel-cease-fire/ : gaze : israel : union
+https://www.thenegation.com/posts/mdbook-preprocessing/ : markdown : mdbook
 https://www.thenewatlantis.com/publications/why-data-is-never-raw : bias : data : data_processing : data_science : ethics : new_atlantis : politics
 https://www.theneweuropean.co.uk/ : UK : europe : journalism : new_european : politics
 https://www.theneweuropean.co.uk/top-stories/matt-kelly-says-theresa-may-is-a-disgrace-to-the-office-of-prime-minister-1-5853727 : 2019 : UK : brexit : matt_kelly : new_european : politics : teresa_may
