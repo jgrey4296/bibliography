@@ -136,12 +136,14 @@ def main():
     targets  = [pl.Path(x) for x in args.targets]
     for x in args.collect:
         targets += _util.collect(pl.Path(x), glob=GLOB_STR)
+
     match args.failures:
         case None:
             failures = None
         case str() as x:
             failures = pl.Path(x)
 
+    assert(bool(targets)), "Specify a --collect, or a target"
     reader, writer = build_reader_and_writer()
     for bib in _util.window_collection(args.window, targets):
         print(f"Target : {bib}")
