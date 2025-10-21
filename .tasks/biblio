@@ -136,9 +136,14 @@ function print_help () {
 }
 
 function parse_biblio_args () {
+    if [[ "$#" -eq 0 ]]; then
+        print_help
+        exit 0
+    fi
     if [[ "$1" = "biblio" ]]; then
         shift
     fi
+
     local cmd="$1"
     shift
 

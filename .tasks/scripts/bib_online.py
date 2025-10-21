@@ -77,7 +77,7 @@ parser = argparse.ArgumentParser(
     description="Process and download referenced URLs in online entries",
 )
 parser.add_argument("--window", default=-1, type=int)
-parser.add_argument("target", default=ONLINE_SOURCE)
+parser.add_argument("target", nargs="*", default=ONLINE_SOURCE)
 
 ##--| Body
 
@@ -102,7 +102,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
 
 def main():
     args    = parser.parse_args()
-    target  = pl.Path(args.targets)
+    target  = pl.Path(args.target)
 
     print("Starting online downloader")
     reader, writer = build_reader_and_writer()
