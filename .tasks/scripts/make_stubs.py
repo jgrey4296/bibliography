@@ -74,6 +74,16 @@ DROPBOX            : Final[pl.Path]  = pl.Path("/media/john/micro_128/Dropbox/do
 DOWNLOADS          : Final[pl.Path]  = pl.Path("/home/john/Downloads")
 GLOB_STR           : Final[str]      = "*.pdf"
 STUB_TEMPLATE_KEY  : Final[str]      = "stub.bib.jinja"
+##--| argparse
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio stub",
+    description="Create Stub entries from unprocessed pdfs and epubs in watch directories",
+)
+parser.add_argument("--window", default=-1, type=int)
+parser.add_argument("--collect", action="append", default=[])
+
+
 ##--| Body
 
 def build_stub(target:pl.Path, *, template:jinja2.Template) -> str:
@@ -84,31 +94,22 @@ def build_stub(target:pl.Path, *, template:jinja2.Template) -> str:
 def main():
     stubs : list[str]
     ##--|
-    window = -1
-    match sys.argv:
-        case [*_, "--help"]:
-            print("make_stubs.py window:int")
-            sys.exit()
-        case [_, str() as wind]:
-            window = int(wind)
-        case [_]:
-            pass
-        case x:
-            raise TypeError(type(x))
+    args = parser.parse_args()
+
 
     env       = _util.init_jinja()
     template  = env.get_template(STUB_TEMPLATE_KEY)
     targets   = _util.collect(DROPBOX,   glob=GLOB_STR)
     targets  += _util.collect(DOWNLOADS, glob=GLOB_STR)
     stubs     = []
-    for x in _util.window_collection(window, targets):
+    for x in _util.window_collection(args.window, targets):
         # move file to todo folder
         in_todos = TODO_DIR / x.name
         assert(not in_todos.exists()), in_todos
         shutil.copy(x, in_todos)
         assert(in_todos.exists()), in_todos
         stubs.append(build_stub(in_todos, template=template))
-        if in_todos.exists():
+        if in_todos.exists() and not args.keep:
             x.unlink()
     else:
         # Append to stub file:

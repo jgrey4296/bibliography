@@ -74,6 +74,18 @@ FAIL_TARGET  : Final[pl.Path]  = pl.Path()
 GLOB_STR     : Final[str]      = "*.bib"
 ##--| Body
 
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio chunk",
+    description="Chunk Large Bibtex Files into a collection of files with only N entries",
+)
+parser.add_argument("--size", default=CHUNK_SIZE, type=int)
+parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("targets", nargs='*')
+
+##--|
+
+
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack = BM.PairStack()
     stack.add(read=[BM.metadata.DataInsertMW(),
@@ -100,29 +112,18 @@ def chunk_library(lib:API.Library_p, size:int=CHUNK_SIZE) -> list[BM.BibbleLib]:
         return results
 
 def main():
-    match sys.argv:
-        case [*_, "--help"]:
-            print("bib_chunk.py size:int [--collect] *targets")
-            sys.exit()
-        case [_, size, "--collect", *collects]:
-            target_size = int(size)
-            targets = []
-            for x in collects:
-                targets += _util.collect(pl.Path(x), glob=GLOB_STR)
-        case [_, str() as size, *targets]:
-            target_size = int(size)
-            targets = [pl.Path(x) for x in targets]
-        case x:
-            raise TypeError(type(x))
+    args     = parser.parse_args()
+    assert(0 < args.size)
+    targets  = [pl.Path(x) for x in arg.targets]
+    for x in args.collect:
+        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
 
-    target_size = target_size if target_size > 0 else CHUNK_SIZE
     assert(bool(targets))
-    assert(bool(target_size))
     reader, writer = build_reader_and_writer()
     for bib in targets:
         print(f"Chunking: {bib}")
-        lib = reader.read(bib)
-        chunks = chunk_library(lib, size=target_size)
+        lib     = reader.read(bib)
+        chunks  = chunk_library(lib, size=args.size)
         print(f"Chunked into {len(chunks)} subfiles")
         for i,chunk in enumerate(chunks):
             chunk_stem = f"{bib.stem}-{i}"

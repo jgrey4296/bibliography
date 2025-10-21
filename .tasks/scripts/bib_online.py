@@ -70,6 +70,14 @@ DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs/online"
 LIB_ROOT         : Final[pl.Path]  = pl.Path("/media/john/data/library/pdfs")
 SAVE_TARGET      : Final[pl.Path]  = pl.Path(".temp/online_saved.bib")
 FAIL_TARGET      : Final[pl.Path]  = pl.Path(".temp/failed.bib")
+##--| argparse
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio online",
+    description="Process and download referenced URLs in online entries",
+)
+parser.add_argument("--window", default=-1, type=int)
+parser.add_argument("target", default=ONLINE_SOURCE)
 
 ##--| Body
 
@@ -93,16 +101,9 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     return reader, writer
 
 def main():
-    match sys.argv:
-        case [*_, "--help"]:
-            print("bib_online.py target:str")
-            sys.exit()
-        case [_]:
-            target = ONLINE_SOURCE
-        case [_, str() as target]:
-            target = pl.Path(target)
-        case x:
-            raise TypeError(type(x))
+    args    = parser.parse_args()
+    target  = pl.Path(args.targets)
+
     print("Starting online downloader")
     reader, writer = build_reader_and_writer()
     lib = reader.read(target)

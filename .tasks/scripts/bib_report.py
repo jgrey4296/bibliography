@@ -91,7 +91,15 @@ STATS_BASE         : Final[dict]     = {
 }
 REPORT_TITLE  : Final[str]  = "Statistics"
 ##--|
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio report",
+    description="Generate a report on given bibtex files"
+)
+parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("targets", nargs='*')
 
+##--|
 class SetEncoder(json.JSONEncoder):
     """ JSON encoder able to handle sets """
 
@@ -176,20 +184,12 @@ def write_report(stats:dict) -> None:
     REPORT_FILE.write_text(report_text)
 
 def main():
-    match sys.argv:
-        case [*_, "--help"]:
-            print("bib_report.py target:str*")
-            sys.exit()
-        case [_, str() as target]:
-            targets = _util.collect(pl.Path(target))
-        case [_, *xs] if bool(xs):
-            targets = [pl.Path(x) for x in xs]
-            assert(bool(targets))
-        case [_]:
-            targets = _util.collect(MAIN_DIR)
-        case x:
-            raise TypeError(type(x))
+    args     = parser.parse_args()
+    targets  = [pl.Path(x) for x in arg.targets]
+    for x in args.collect:
+        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
 
+    assert(bool(targets))
     reader  = build_reader()
     stats   = deepcopy(STATS_BASE)
     for bib in targets:

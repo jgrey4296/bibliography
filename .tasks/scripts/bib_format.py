@@ -75,8 +75,17 @@ GLOB_STR     : Final[str]        = "*.bib"
 LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
 TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
 FAIL_TARGET  : Final[pl.Path]    = pl.Path(".temp/failed.bib")
-##--| Body
+##--| Argparse
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio format",
+    description="Parse and format bibtex files, in place",
+)
+parser.add_argument("--window", default=-1, type=int)
+parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("targets", nargs='*')
 
+##--| Body
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     tag_subs  = _util.load_tags(TAGS_SOURCE)
     stack     = BM.PairStack()
@@ -124,23 +133,13 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
 
 
 def main():
-    window = -1
-    match sys.argv:
-        case [*_, "--help"]:
-            print("bib_format.py target [--window int] [--help]")
-            sys.exit()
-        case [_, str() as target, "--window", str() as wind]:
-            print(f"Source: {target}")
-            targets  = _util.collect(pl.Path(target), glob=GLOB_STR)
-            window   = int(wind)
-        case [_, str() as target]:
-            print(f"Source: {target}")
-            targets = _util.collect(pl.Path(target), glob=GLOB_STR)
-        case x:
-            raise TypeError(type(x))
+    args     = parser.parse_args()
+    targets  = [pl.Path(x) for x in args.targets]
+    for x in args.collect:
+        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
 
     reader, writer = build_reader_and_writer()
-    for bib in _util.window_collection(window, targets):
+    for bib in _util.window_collection(args.window, targets):
         print(f"Target : {bib}")
         lib = reader.read(bib)
         writer.write(lib, file=bib)

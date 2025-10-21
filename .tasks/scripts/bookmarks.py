@@ -75,6 +75,14 @@ FIREFOX         : Final[pl.Path]  = pl.Path("/home/john/snap/firefox/common/.moz
 DB_FILE         : Final[str]      = "places.sqlite"
 TEMP_DB         : Final[pl.Path]  = pl.Path(".temp/temp.sqlite")
 
+##--| argparse
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio bookmarks",
+    description="Extract firefox bookmarks and add to repo",
+)
+
+
 ##--| ORM
 class Base(orm.DeclarativeBase):
     pass
@@ -204,14 +212,7 @@ def extract_bookmarks(loc:pl.Path) -> BookmarkCollection:
     return fresh
 
 def main():
-    match sys.argv:
-        case [*_, "--help"]:
-            print("bookmarks.py")
-            sys.exit()
-        case [_]:
-            print("Updating Bookmarks")
-        case x:
-            raise TypeError(type(x))
+    args = parser.parse_args()
     # copy from firefox
     match find_db():
         case None:

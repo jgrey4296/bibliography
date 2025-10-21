@@ -75,18 +75,30 @@ logging = logmod.getLogger(__name__)
 # Vars:
 MAIN_BIB     : Final[pl.Path]  = pl.Path("main")
 TAGS_BASE    : Final[pl.Path]  = pl.Path("tags/substitutions")
-TAGS_TOTAL   : Final[pl.Path]  = pl.Path(".temp/tags/total.sub")
-TAGS_CANON   : Final[pl.Path]  = pl.Path(".temp/tags/canon.tags")
-TAGS_KNOWN   : Final[pl.Path]  = pl.Path(".temp/tags/known.tags")
-TAGS_FRESH   : Final[pl.Path]  = pl.Path(".temp/tags/fresh.tags")
 LIB_ROOT     : Final[pl.Path]  = pl.Path("/media/john/data/library/pdfs")
 FAIL_TARGET  : Final[pl.Path]  = pl.Path(".temp/failed.bib")
 BOOKMARKS    : Final[pl.Path]  = pl.Path("bookmarks/total.bookmarks")
 
+OUT_BASE     : Final[pl.Path]  = pl.Path(".temp/tags")
+TAGS_TOTAL   : Final[pl.Path]  = pl.Path("total.sub")
+TAGS_CANON   : Final[pl.Path]  = pl.Path("canon.tags")
+TAGS_KNOWN   : Final[pl.Path]  = pl.Path("known.tags")
+TAGS_FRESH   : Final[pl.Path]  = pl.Path("fresh.tags")
+##--| argparse
+import argparse
+parser = argparse.ArgumentParser(
+    prog="biblio tags",
+    description="Update tag files",
+)
+parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("--known",                    default=TAGS_BASE)
+parser.add_argument("--bookmarks",                default=BOOKMARKS)
+parser.add_argument("--output",                   default=OUT_BASE)
+parser.add_argument("targets", nargs='*')
 ##--| Body
 
-def get_tags_from_bookmarks() -> TagFile:
-    bookmarks = BookmarkCollection.read(BOOKMARKS)
+def get_tags_from_bookmarks(target) -> TagFile:
+    bookmarks = BookmarkCollection.read(target)
     bkmk_tags = TagFile()
     for bkmk in bookmarks:
         bkmk_tags.update(bkmk.tags)
@@ -130,21 +142,18 @@ def collate_tags(subs:SubstitutionFile, raw:TagFile, bkmks:TagFile) -> tuple[Tag
     return (canon, fresh, total)
 
 def main():
-    match sys.argv:
-        case [*_, "--help"]:
-            print("update_tags.py target:str*")
-            sys.exit()
-        case [_, str() as target] if bool(target):
-            print(f"Source: {target}")
-            targets = _util.collect(pl.Path(target))
-        case [_, *_]:
-            targets = _util.collect(MAIN_BIB)
-        case x:
-            raise TypeError(type(x))
+    args         = parser.parse_args()
+    targets      = [pl.Path(x) for x in args.targets]
+    output_base  = pl.Path(args.output)
+    for x in args.collect:
+        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
+
+    if not bool(targets):
+        targets = _util.collect(MAIN_BIB)
 
     # Load known:
-    subs   = _util.load_tags(TAGS_BASE)
-    bkmks  = get_tags_from_bookmarks()
+    subs   = _util.load_tags(pl.Path(args.known))
+    bkmks  = get_tags_from_bookmarks(pl.Path(args.bookmarks))
 
     # Load Tags from bib files
     reader, writer  = build_reader_and_writer()
@@ -158,10 +167,10 @@ def main():
                 pass
     else:
         canon, fresh, total = collate_tags(subs, raw, bkmks)
-        TAGS_TOTAL.write_text(str(total))
-        TAGS_CANON.write_text(str(canon))
-        TAGS_KNOWN.write_text(str(raw))
-        TAGS_FRESH.write_text(str(fresh))
+        (output_base / TAGS_TOTAL).write_text(str(total))
+        (output_base / TAGS_CANON).write_text(str(canon))
+        (output_base / TAGS_KNOWN).write_text(str(raw))
+        (output_base / TAGS_FRESH).write_text(str(fresh))
         print("Finished")
 
 ##-- ifmain

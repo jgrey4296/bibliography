@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 
+
 """
-# ruff: noqa:
+# ruff.ignore.in.file
 from __future__ import annotations
 
 # Imports:
 # ##-- stdlib imports
-import sys
 import datetime
 import enum
 import functools as ftz
@@ -25,8 +25,6 @@ from weakref import ref
 import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
-
-import _util
 
 # ##-- types
 # isort: off
@@ -60,27 +58,48 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
+import _util
 # Vars:
-TODO_DIR       : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs")
-GLOB_STR_PDF   : Final[str]      = "**/_refiled_*.pdf"
-GLOB_STR_EPUB  : Final[str]      = "**/_refiled_*.epub"
-##--| argparse
+DEFAULT_OUT  : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT']) / ".temp/tex"
+GLOB_STR     : Final[str]      = "*.bib"
+TEMPLATE     : Final[str]      = "export_template.tex.jinja"
+
+##--| Argparse
 import argparse
 parser = argparse.ArgumentParser(
-    prog="biblio cleanup",
-    description="Cleanup refiled files",
+    prog="biblio tex",
+    description="Compile bibtex files into a pdf file of the library",
 )
-# Body:
+parser.add_argument("--window", default=-1, type=int)
+parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("--template-dir")
+parser.add_argument("--output", default=DEFAULT_OUT)
+parser.add_argument("--style", default="jg_custom_name_first")
+
+parser.add_argument("targets", nargs='*')
+
+##--|
 
 def main():
     args = parser.parse_args()
-    targets  = _util.collect(TODO_DIR, glob=GLOB_STR_PDF)
-    targets += _util.collect(TODO_DIR, glob=GLOB_STR_EPUB)
-    for x in targets:
-        x.unlink()
-    else:
-        print(f"Removed {len(targets)} files")
-        print("Finished")
+    targets  = [pl.Path(x) for x in args.targets]
+    for x in args.collect:
+        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
+
+    env = _util.init_jinja(pl.Path(args.template_dir))
+    template = env.get_template(TEMPLATE)
+
+    for bib in _util.window_collection(args.window, targets):
+        # read and export the bibtex with latex encoding
+
+
+        # render the template
+        text = template.render(
+            target=bib.name,
+            style=args.style,
+        )
+
 
 ##-- ifmain
 if __name__ == "__main__":

@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Utility script to format bibtex files
 
 """
-# ruff: noqa:
+# ruff.ignore.in.file
 from __future__ import annotations
 
 # Imports:
@@ -26,15 +25,12 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
-import sys
-import tqdm
 import bibble as BM
 import bibble._interface as API
 from bibble.io import Reader
 from bibble.io import Writer
-from jgdv.files.tags import SubstitutionFile
 import _util
-
+j
 # ##-- types
 # isort: off
 # General
@@ -67,26 +63,27 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
+import _util
 # Vars:
-sort_firsts  : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
-sort_lasts   : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
-sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
-GLOB_STR     : Final[str]        = "*.bib"
-LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
-TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
-FAIL_TARGET  : Final[pl.Path]    = pl.Path(".temp/failed.bib")
-##--| argparse
+GLOB_STR     : Final[str]      = "*.bib"
+TEMPLATE     : Final[str]      = "media_post.jinja"
+
+##--| Argparse
 import argparse
 parser = argparse.ArgumentParser(
-    prog="biblio metadata",
-    description="Apply bibtex metadata to entry's files",
+    prog="biblio post",
+    description="Select a bibtex entry, format it, post it to social media",
 )
 parser.add_argument("--window", default=-1, type=int)
 parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("--template-dir")
+parser.add_argument("--output", default=DEFAULT_OUT)
+parser.add_argument("--style", default="jg_custom_name_first")
+
 parser.add_argument("targets", nargs='*')
 
 ##--| Body
-
 
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack     = BM.PairStack()
@@ -99,7 +96,6 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
               ])
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
-              write=[BM.metadata.ApplyMetadata(force=True)],
               )
 
     stack.add(
@@ -107,10 +103,14 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
         BM.bidi.BidiIsbn(),
         BM.bidi.BidiTags(),
         read=[
-            BM.fields.TitleSplitter(),
-            ],
-        )
-
+            BM.metadata.KeyLocker(),
+            BM.fields.TitleSplitter()
+        ],
+        write=[
+            BM.fields.FieldSorter(first=sort_firsts, last=sort_lasts),
+            BM.metadata.EntrySorter(),
+            # BM.fields.FieldSubstitutor(fields=sub_fields, subs=_othersubs, force_single_value=True),
+        ])
 
     stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
               write=[extra])
@@ -118,19 +118,34 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     writer = Writer(stack)
     return reader, writer
 
+def select_entry(bibs:list[pl.Path]) -> dict:
+    reader, writer = build_reader_and_writer()
+
+    return {}
+
+def post_to_mastodon(text:str):
+    pass
+
 def main():
-    args     = parser.parse_args()
+    args = parser.parse_args()
     targets  = [pl.Path(x) for x in args.targets]
     for x in args.collect:
         targets += _util.collect(pl.Path(x), glob=GLOB_STR)
 
-    reader, writer = build_reader_and_writer()
-    for bib in _util.window_collection(args.window, targets):
-        print(f"Target : {bib}")
-        lib = reader.read(bib)
-        writer.write(lib)
-    else:
-        print("Finished")
+    # select an entry
+    entry     = select_entry(targets)
+    env       = _util.init_jinja(pl.Path(args.template_dir))
+    template  = env.get_template(TEMPLATE)
+    text      = template.render(
+        title=entry['title'],
+        year=entry['year'],
+        author=entry['author'],
+        url=entry['url'],
+        tags=entry['tags'],
+    )
+
+    # post it
+    post_to_mastodon(text)
 
 ##-- ifmain
 if __name__ == "__main__":
