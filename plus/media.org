@@ -1768,8 +1768,8 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 - [ ] s5.e5
 - [ ] s6.e6
 - [X] s7.e7
-- [ ] s8.e1
-- [ ] s9.e4
+- [X] s8.e1
+- [X] s9.e4
 - [X] s10.e4
 - [ ] s11.e4
 - [X] s12.e1

@@ -139,7 +139,7 @@ def update_stats(stats:dict, lib:API.Library_p) -> None:
     x     : Any
     year  : int
     meta = BM.model.MetaBlock.find_in(lib)
-    for entry in tqdm.tqdm(lib.entries):
+    for entry in tqdm.tqdm(lib.entries, disable=True):
         fields = entry.fields_dict
         year = int(fields['year'].value)
 
@@ -185,7 +185,7 @@ def write_report(stats:dict) -> None:
 
 def main():
     args     = parser.parse_args()
-    targets  = [pl.Path(x) for x in arg.targets]
+    targets  = [pl.Path(x) for x in args.targets]
     for x in args.collect:
         targets += _util.collect(pl.Path(x), glob=GLOB_STR)
 

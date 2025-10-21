@@ -23,12 +23,12 @@ function do_docs () {
 
 function do_chunk () {
     header "biblio chunk"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/bib_chunk.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/bib_chunk.py" "$@"
 }
 
 function do_report () {
     header "biblio report"
-    uv run --script "$BIBLIO_ROOT/.tasks.scripts/bib_report.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/bib_report.py" "$@"
 }
 
 function do_android_push () {
@@ -70,37 +70,37 @@ function do_media_post () {
 
 function do_bookmarks () {
     header "biblio bookmarks"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/bookmarks.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/bookmarks.py" "$@"
 }
 
 function do_format () {
     header "biblio format"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/bib_format.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/bib_format.py" "$@"
 }
 
 function do_metadata () {
     header "biblio metadata"
-    uv run --script "$BIBLIO_ROOT/.tasks.scripts/apply_metadata.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/apply_metadata.py" "$@"
 }
 
 function do_online () {
     header "biblio online"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/bib_online.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/bib_online.py" "$@"
 }
 
 function do_stub () {
     header "biblio stubs"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/make_stubs.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/make_stubs.py" "$@"
 }
 
 function do_cleanup () {
     echo "cleanup"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/clean_todos.py"
+    uv run --script "$BIBLIO_SRC/scripts/clean_todos.py"
 }
 
 function do_tags () {
     header "biblio tags"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/update_tags.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/update_tags.py" "$@"
 }
 
 function do_backup () {
@@ -112,7 +112,7 @@ function do_backup () {
 
 function do_restructure () {
     header "biblio restruct"
-    uv run --script "$BIBLIO_ROOT/.tasks/scripts/lib_restructure.py" "$@"
+    uv run --script "$BIBLIO_SRC/scripts/lib_restructure.py" "$@"
 }
 
 #   --------------------------------------------------
@@ -120,6 +120,19 @@ function do_restructure () {
 function print_help () {
     header "biblio scripts"
 
+    echo "-h | --help"
+    echo "--docs"
+    echo "--bookmarks"
+    echo "--post"
+    echo "--format"
+    echo "--metadata"
+    echo "--online"
+    echo "--stub"
+    echo "--cleanup"
+    echo "--chunk"
+    echo "--backup"
+    echo "--report"
+    echo "--restructure"
 }
 
 function parse_biblio_args () {
