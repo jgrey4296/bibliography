@@ -70,7 +70,6 @@ logging = logmod.getLogger(__name__)
 
 # Vars:
 CHUNK_SIZE   : Final[int]      = 100
-FAIL_TARGET  : Final[pl.Path]  = pl.Path()
 GLOB_STR     : Final[str]      = "*.bib"
 ##--| Body
 
@@ -81,6 +80,7 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument("--size", default=CHUNK_SIZE, type=int)
 parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("--failures", default=None)
 parser.add_argument("targets", nargs='*')
 
 ##--|
@@ -94,7 +94,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
               write=[BM.failure.FailureHandler()]
               )
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)])
+    stack.add(read=[])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
@@ -117,6 +117,11 @@ def main():
     targets  = [pl.Path(x) for x in arg.targets]
     for x in args.collect:
         targets += _util.collect(pl.Path(x), glob=GLOB_STR)
+    match args.failures:
+        case None:
+            failures = None
+        case str() as x:
+            failures = pl.Path(x)
 
     assert(bool(targets))
     reader, writer = build_reader_and_writer()
@@ -129,6 +134,8 @@ def main():
             chunk_stem = f"{bib.stem}-{i}"
             chunk_path = bib.with_stem(chunk_stem)
             writer.write(chunk, file=chunk_path)
+            if failures:
+                writer.write_failures(chunk, file=failures)
         else:
             pass
     else:

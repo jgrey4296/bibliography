@@ -69,16 +69,14 @@ logging = logmod.getLogger(__name__)
 
 from os import environ
 
-
 # Vars:
-CHUNK_SIZE     : Final[int]              = 100
-FAIL_TARGET    : Final[pl.Path]          = pl.Path()
 BIBLIO_ROOT    : Final[pl.Path]          = pl.Path(environ['BIBLIO_ROOT'])
 MAIN_DIR       : Final[pl.Path]          = BIBLIO_ROOT / "main"
-GLOB_STR       : Final[str]              = "*.bib"
 LIB_ROOT       : Final[pl.Path]          = pl.Path(environ['BIBLIO_LIB'])
 NEW_ROOT       : Final[pl.Path]          = pl.Path(LIB_ROOT.parent / "pdfs_structured")
 
+GLOB_STR       : Final[str]              = "*.bib"
+CHUNK_SIZE     : Final[int]              = 100
 CENTURY_RANGE  : Final[tuple[int, int]]  = (1200, 2100)
 ZERO_ZERO_ONE  : Final[float]            = 0.01
 ZERO_ONE       : Final[float]            = 0.1
@@ -101,18 +99,13 @@ parser.add_argument("targets", nargs='*')
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack     = BM.PairStack()
     extra     = BM.metadata.DataInsertMW()
-    stack.add(read=[extra,
-                    BM.failure.DuplicateKeyHandler(),
-                    ],
-              write=[
-                  BM.failure.FailureHandler(),
-              ])
+    stack.add(read=[extra],
+              write=[BM.failure.FailureHandler()])
     stack.add(BM.bidi.BraceWrapper(),
               # BM.bidi.BidiPaths(lib_root=LIB_ROOT),
               )
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
-              write=[extra])
+    stack.add(write=[extra])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer

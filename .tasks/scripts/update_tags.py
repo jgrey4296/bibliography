@@ -2,7 +2,7 @@
 """
 
 """
-# ruff: noqa:
+# ruff: noqa: N812
 from __future__ import annotations
 
 # Imports:
@@ -72,18 +72,22 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
-MAIN_BIB     : Final[pl.Path]  = pl.Path("main")
-TAGS_BASE    : Final[pl.Path]  = pl.Path("tags/substitutions")
-LIB_ROOT     : Final[pl.Path]  = pl.Path("/media/john/data/library/pdfs")
-FAIL_TARGET  : Final[pl.Path]  = pl.Path(".temp/failed.bib")
-BOOKMARKS    : Final[pl.Path]  = pl.Path("bookmarks/total.bookmarks")
+BIBLIO_ROOT  : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT'])
+MAIN_BIB     : Final[pl.Path]  = BIBLIO_ROOT / "main"
+TAGS_BASE    : Final[pl.Path]  = BIBLIO_ROOT / "tags/substitutions"
+FAIL_TARGET  : Final[pl.Path]  = BIBLIO_ROOT / ".temp/failed.bib"
+BOOKMARKS    : Final[pl.Path]  = BIBLIO_ROOT / "bookmarks/total.bookmarks"
+LIB_ROOT     : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
 
-OUT_BASE     : Final[pl.Path]  = pl.Path(".temp/tags")
+OUT_BASE     : Final[pl.Path]  = BIBLIO_ROOT / ".temp/tags"
 TAGS_TOTAL   : Final[pl.Path]  = pl.Path("total.sub")
 TAGS_CANON   : Final[pl.Path]  = pl.Path("canon.tags")
 TAGS_KNOWN   : Final[pl.Path]  = pl.Path("known.tags")
 TAGS_FRESH   : Final[pl.Path]  = pl.Path("fresh.tags")
+
+GLOB_STR     : Final[str]      = "*.bib"
 ##--| argparse
 import argparse
 parser = argparse.ArgumentParser(
@@ -97,7 +101,7 @@ parser.add_argument("--output",                   default=OUT_BASE)
 parser.add_argument("targets", nargs='*')
 ##--| Body
 
-def get_tags_from_bookmarks(target) -> TagFile:
+def get_tags_from_bookmarks(target:pl.Path) -> TagFile:
     bookmarks = BookmarkCollection.read(target)
     bkmk_tags = TagFile()
     for bkmk in bookmarks:
@@ -110,14 +114,14 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     extra = BM.metadata.DataInsertMW()
     stack.add(read=[extra,
                     BM.failure.DuplicateKeyHandler(),
-                    ]
+                    ],
+              write=[BM.failure.FailureHandler()],
               )
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
               BM.bidi.BidiTags(),
               read=[
                   BM.fields.FieldAccumulator(name="all-tags", fields=["tags"]),
-                  BM.failure.FailureHandler(file=FAIL_TARGET)
               ])
     reader = Reader(stack)
     writer = Writer(stack)
@@ -141,7 +145,7 @@ def collate_tags(subs:SubstitutionFile, raw:TagFile, bkmks:TagFile) -> tuple[Tag
 
     return (canon, fresh, total)
 
-def main():
+def main() -> None:
     args         = parser.parse_args()
     targets      = [pl.Path(x) for x in args.targets]
     output_base  = pl.Path(args.output)

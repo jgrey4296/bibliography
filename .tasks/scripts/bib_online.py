@@ -64,12 +64,11 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
-ONLINE_SOURCE    : Final[pl.Path]  = pl.Path("in_progress/online.bib")
-DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs/online")
-LIB_ROOT         : Final[pl.Path]  = pl.Path("/media/john/data/library/pdfs")
-SAVE_TARGET      : Final[pl.Path]  = pl.Path(".temp/online_saved.bib")
-FAIL_TARGET      : Final[pl.Path]  = pl.Path(".temp/failed.bib")
+ONLINE_SOURCE    : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT']) / "in_progress/online.bib"
+DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path(environ['BIBLIO_DOWNLOAD_TO'])
+LIB_ROOT         : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
 ##--| argparse
 import argparse
 parser = argparse.ArgumentParser(
@@ -77,6 +76,7 @@ parser = argparse.ArgumentParser(
     description="Process and download referenced URLs in online entries",
 )
 parser.add_argument("--window", default=-1, type=int)
+parser.add_argument("--failures", default=None)
 parser.add_argument("target", nargs="*", default=ONLINE_SOURCE)
 
 ##--| Body
@@ -95,7 +95,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     extra.update({BM.files.PathWriter.SuppressKey:[DOWNLOAD_TARGET]})
     stack.add(read=[BM.files.OnlineDownloader(target=DOWNLOAD_TARGET)])
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)], write=[extra])
+    stack.add(write=[extra])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
@@ -103,11 +103,18 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
 def main():
     args    = parser.parse_args()
     target  = pl.Path(args.target)
+    match args.failures:
+        case None:
+            failures = None
+        case str() as x:
+            failures = pl.Path(x)
 
     print("Starting online downloader")
     reader, writer = build_reader_and_writer()
     lib = reader.read(target)
-    writer.write(lib, file=SAVE_TARGET)
+    writer.write(lib, file=target)
+    if failures:
+        writer.write_failures(lib, file=failures)
     print("Finished")
 
 ##-- ifmain

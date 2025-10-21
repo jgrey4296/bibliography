@@ -70,13 +70,15 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
-MAIN_DIR           : Final[pl.Path]  = pl.Path("main")
+BIBLIO_ROOT        : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT'])
+MAIN_DIR           : Final[pl.Path]  = BIBLIO_ROOT / "main"
+REPORT_DATA        : Final[pl.Path]  = BIBLIO_ROOT / ".temp/report.json"
+REPORT_FILE        : Final[pl.Path]  = BIBLIO_ROOT / "report.rst"
+FAIL_TARGET        : Final[pl.Path]  = BIBLIO_ROOT / ".temp/failed.bib"
+TEMPLATE_DIR       : Final[pl.Path]  = BIBLIO_ROOT / "templates_"
 GLOB_STR           : Final[pl.Path]  = "*.bib"
-REPORT_DATA        : Final[pl.Path]  = pl.Path(".temp/report.json")
-REPORT_FILE        : Final[pl.Path]  = pl.Path("report.rst")
-FAIL_TARGET        : Final[pl.Path]  = pl.Path(".temp/failed.bib")
-TEMPLATE_DIR       : Final[pl.Path]  = pl.Path("templates_")
 REPORT_TEMPLATE_K  : Final[str]      = "report.rst.jinja"
 STATS_BASE         : Final[dict]     = {
     "authors"      : collections.defaultdict(lambda: 0),
@@ -89,7 +91,7 @@ STATS_BASE         : Final[dict]     = {
     "file_count"   : 0,
     "url_count"    : 0,
 }
-REPORT_TITLE  : Final[str]  = "Statistics"
+REPORT_TITLE       : Final[str]  = "Statistics"
 ##--|
 import argparse
 parser = argparse.ArgumentParser(

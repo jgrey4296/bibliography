@@ -112,8 +112,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
             # BM.fields.FieldSubstitutor(fields=sub_fields, subs=_othersubs, force_single_value=True),
         ])
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
-              write=[extra])
+    stack.add(write=[extra])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer

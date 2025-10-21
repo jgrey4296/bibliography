@@ -67,14 +67,14 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
 sort_firsts  : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
 sort_lasts   : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
 sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
 GLOB_STR     : Final[str]        = "*.bib"
-LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
-TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
-FAIL_TARGET  : Final[pl.Path]    = pl.Path(".temp/failed.bib")
+LIB_ROOT     : Final[pl.Path]    = pl.Path(environ['BIBLIO_LIB'])
+TAGS_SOURCE  : Final[pl.Path]    = pl.Path(environ['BIBLIO_ROOT']) / ".temp/tags/canon.tags"
 ##--| Argparse
 import argparse
 parser = argparse.ArgumentParser(
@@ -83,6 +83,7 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument("--window", default=-1, type=int)
 parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("--failures", default=None)
 parser.add_argument("targets", nargs='*')
 
 ##--| Body
@@ -90,12 +91,11 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     tag_subs  = _util.load_tags(TAGS_SOURCE)
     stack     = BM.PairStack()
     extra     = BM.metadata.DataInsertMW()
-    stack.add(read=[extra,
-                    BM.failure.DuplicateKeyHandler(),
-                    ],
-              write=[
-                  BM.failure.FailureHandler(),
-              ])
+    fail_handler = BM.failure.FailureHandler()
+
+    stack.add(read=[extra, BM.failure.DuplicateKeyHandler()],
+              write=[fail_handler],
+              )
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
               )
@@ -125,8 +125,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
         # BM.metadata.CrossrefValidator(),
     ])
 
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
-              write=[extra])
+    stack.add(write=[extra])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
@@ -137,12 +136,19 @@ def main():
     targets  = [pl.Path(x) for x in args.targets]
     for x in args.collect:
         targets += _util.collect(pl.Path(x), glob=GLOB_STR)
+    match args.failures:
+        case None:
+            failures = None
+        case str() as x:
+            failures = pl.Path(x)
 
     reader, writer = build_reader_and_writer()
     for bib in _util.window_collection(args.window, targets):
         print(f"Target : {bib}")
         lib = reader.read(bib)
         writer.write(lib, file=bib)
+        if failures:
+            writer.write_failures(lib, file=failures)
     else:
         print("Finished")
 

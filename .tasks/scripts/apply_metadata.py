@@ -3,7 +3,7 @@
 Utility script to format bibtex files
 
 """
-# ruff: noqa:
+# ruff: noqa: N812
 from __future__ import annotations
 
 # Imports:
@@ -74,7 +74,6 @@ sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "instituti
 GLOB_STR     : Final[str]        = "*.bib"
 LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
 TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
-FAIL_TARGET  : Final[pl.Path]    = pl.Path(".temp/failed.bib")
 ##--| argparse
 import argparse
 parser = argparse.ArgumentParser(
@@ -87,16 +86,12 @@ parser.add_argument("targets", nargs='*')
 
 ##--| Body
 
-
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     stack     = BM.PairStack()
     extra     = BM.metadata.DataInsertMW()
-    stack.add(read=[extra,
-                    BM.failure.DuplicateKeyHandler(),
-                    ],
-              write=[
-                  BM.failure.FailureHandler(),
-              ])
+    stack.add(read=[extra],
+              write=[BM.failure.FailureHandler()])
+
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
               write=[BM.metadata.ApplyMetadata(force=True)],
@@ -106,19 +101,15 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
         BM.bidi.BidiNames(parts=True, authors=True),
         BM.bidi.BidiIsbn(),
         BM.bidi.BidiTags(),
-        read=[
-            BM.fields.TitleSplitter(),
-            ],
+        read=[BM.fields.TitleSplitter()],
         )
 
-
-    stack.add(read=[BM.failure.FailureHandler(file=FAIL_TARGET)],
-              write=[extra])
+    stack.add(write=[extra])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
 
-def main():
+def main() -> None:
     args     = parser.parse_args()
     targets  = [pl.Path(x) for x in args.targets]
     for x in args.collect:
