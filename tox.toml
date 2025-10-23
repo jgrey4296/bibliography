@@ -14,18 +14,6 @@ runner               = "uv-venv-lock-runner"
 allowlist_externals  = ["echo", "rsync"]
 set_env              = {}
 
-[env.docs]
-description        = "build documentation"
-uv_sync_locked     = false
-uv_sync_flags      = ["--no-editable", "--no-sources"]
-skip_install       = true
-set_env            = [
-    {replace="ref", of=["env_run_base", "set_env"]},
-]
-commands = [
-  ["uv", "run", "--script", ".tasks/cargo-alldocs", { replace="posargs", default=[], extend=true }]
-]
-
 [env.bookmarks]
 description = "update bookmarks"
 commands = [

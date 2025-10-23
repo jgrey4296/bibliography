@@ -12,11 +12,12 @@ source "$BIBLIO_SRC/lib-util.bash"
 
 function do_docs () {
     header "biblio docs {target:main} {out:.temp/site}"
-    local src="${1:-$BIBLIO_SRC/main}"
-    local out="${2:-$BIBLIO_SRC/.temp/site}"
+    local conf="${1:-$BIBLIO_ROOT}"
+    local src="$conf/${2:-}"
+    local out="$conf/${3:-.temp/site}"
     sphinx-build \
-        --conf-dir "$BIBLIO_SRC" \
-        --warning-file "$BIBLIO_SRC/.temp/logs/sphinx.log" \
+        --conf-dir "$conf" \
+        --warning-file "$conf/.temp/logs/sphinx.log" \
         --builder "bibhtml" \
         "$src" "$out"
 }

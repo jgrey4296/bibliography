@@ -77,7 +77,7 @@ language                       = "en"
 release                        = pyproject['project']['version']
 
 root_doc                       = "index"
-primary_domain                 = "py"
+primary_domain                 = "bibtex"
 default_role                   = None
 
 root_doc                       = "index"
