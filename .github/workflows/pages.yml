@@ -44,7 +44,7 @@ jobs:
       - uses: asdf-vm/actions/setup@v4
       - name: setup polyglot
         run: |
-          asdf plugin add uv
+          asdf plugin add direnv
           asdf install
           direnv allow
           direnv export gha >> "$GITHUB_ENV"

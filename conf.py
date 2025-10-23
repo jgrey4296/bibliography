@@ -181,6 +181,7 @@ exclude_patterns += [
 
 ##-- bibtex domain
 extensions.append("sphinx_bib_domain")
+bib_domain_templates = pl.Path.cwd() / "templates_"
 bib_domain_split_index = True
 
 ##-- end bibtex domain

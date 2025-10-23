@@ -15,7 +15,10 @@ function do_docs () {
     local conf="${1:-$BIBLIO_ROOT}"
     local src="$conf/${2:-}"
     local out="$conf/${3:-.temp/site}"
-    sphinx-build \
+    if [[ -d "${out}" ]]; then
+        rm -r "${out}"
+    fi
+    uv run sphinx-build \
         --conf-dir "$conf" \
         --warning-file "$conf/.temp/logs/sphinx.log" \
         --builder "bibhtml" \
