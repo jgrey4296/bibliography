@@ -35,3 +35,10 @@ function get_activated () {
     fdfind --base-directory "${POLYGLOT_ROOT}" --hidden "\.active" "./src" --exec dirname
 
 }
+
+function help_flag () {
+    case "${1:-}" in
+        -h|--help) return 0 ;;
+        *) return 1 ;;
+    esac
+}

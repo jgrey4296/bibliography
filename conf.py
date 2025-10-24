@@ -133,26 +133,25 @@ source_suffix = {
 
 ##-- exclusion
 # List of patterns, relative to *source directory*, that match files and
-# directories to incldue/ignore when looking for source files.
+# directories to include/ignore when looking for source files.
 # These also affect html_static_path and html_extra_path.
 include_patterns = [
     # "**",
     "index.rst",
     "report.rst",
     "pages_/*",
-    # ".temp/export/rst/*",
-    "*main/*",
-    # "*plus/*",
-    # "*plus/conferences_primary/aisb_/bibtex/*",
-    # "*plus/individuals/*",
+    "main/*",
+    # "plus/individuals/*",
+    # "plus/favourites/*",
+    # "plus/journals/**",
+    # "plus/conferences_primary/**",
+    # "plus/conferences_secondary/**",
     ]
 exclude_patterns = []
 
 # ignore doc directories
 # and polyglot util directories
 exclude_patterns += [
-    # "main/*",
-    "plus/*",
     "bookmarks/*",
     "completions/*",
     "in_progress/*",
@@ -167,7 +166,6 @@ exclude_patterns += [
     ".temp/tox",
     ".venv/*",
     "static_/",
-    # "tags/*",
     '**flycheck_*.py',
 ]
 

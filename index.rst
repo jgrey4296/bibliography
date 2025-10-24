@@ -13,7 +13,7 @@ Exported bibtex files and related documents.
 
 .. toctree::
    :titlesonly:
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
    pages_/years

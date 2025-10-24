@@ -11,10 +11,40 @@ source "$BIBLIO_SRC/lib-util.bash"
 #  output --------------------------------------------------
 
 function do_docs () {
-    header "biblio docs {target:main} {out:.temp/site}"
-    local conf="${1:-$BIBLIO_ROOT}"
-    local src="$conf/${2:-}"
-    local out="$conf/${3:-.temp/site}"
+    header "biblio docs --conf {target:main} --out {out:.temp/site} {src}"
+    if help_flag "$@"; then
+        echo -e "Build Sphinx from bibtex files
+    Uses \$BIBLIO_ROOT
+    Args:
+    --conf {conf dir}
+    --out  {out dir}
+    {src dir}
+"
+        exit 0
+    fi
+    local conf="$BIBLIO_ROOT"
+    local src="$conf/"
+    local out="$BIBLIO_ROOT/.temp/site"
+    while [[ $# -gt 0 ]]; do
+        case $1 in
+            --conf)
+                shift
+                echo "Conf: $1"
+                conf=$(realpath "$1")
+                ;;
+            --out)
+                shift
+                echo "Out: $1"
+                out=$(realpath "$out/$1")
+                ;;
+            *) # Positional
+                echo "Src: $1"
+                src=$(realpath "$1")
+                ;;
+        esac
+        shift
+    done
+    echo -e "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$out)"
     if [[ -d "${out}" ]]; then
         rm -r "${out}"
     fi
@@ -37,12 +67,21 @@ function do_report () {
 
 function do_android_push () {
     header "TODO: biblio android"
+    if help_flag "$@"; then
+        echo "help"
+        exit 0
+    fi
     # setup adb and push biblio_lib
     exit 1
 }
 
 function do_tex_compile () {
     header "TODO biblio tex"
+    if help_flag "$@"; then
+        echo "help"
+        exit 0
+    fi
+
     local output="$BIBLIO_ROOT/.temp/tex"
     local template_dir="$BIBLIO_ROOT/templates_"
     # collect tex files, generate separate chapters for each,
@@ -99,7 +138,7 @@ function do_stub () {
 
 function do_cleanup () {
     echo "cleanup"
-    uv run --script "$BIBLIO_SRC/scripts/clean_todos.py"
+    uv run --script "$BIBLIO_SRC/scripts/clean_todos.py" "$@"
 }
 
 function do_tags () {
@@ -108,6 +147,16 @@ function do_tags () {
 }
 
 function do_backup () {
+    # todo: have a file of backup targets?
+    header "biblio --backup"
+    if help_flag "$@"; then
+        echo "
+    Backup arg 1 to arg 2 using rsync
+    Uses BIBLIO_LIB
+"
+        exit 0
+    fi
+
     local source="${1:-$BIBLIO_LIB}"
     local target="${2:-/media/john/solid_ext4/library}"
     header "Biblio Library Backup: $source -> $target"
@@ -140,21 +189,18 @@ function print_help () {
 }
 
 function parse_biblio_args () {
-    if [[ "$#" -eq 0 ]]; then
+    if [[ "${1:-}" = "biblio" ]]; then
+        shift
+    fi
+    if help_flag "$@"; then
         print_help
         exit 0
-    fi
-    if [[ "$1" = "biblio" ]]; then
-        shift
     fi
 
     local cmd="$1"
     shift
 
     case "$cmd" in
-        -h|--help)
-            print_help
-            ;;
         --docs)
             do_docs "$@"
             ;;
@@ -192,7 +238,7 @@ function parse_biblio_args () {
             do_restructure "$@"
             ;;
         *) # Positional
-            echo "Unknown arg: $1"
+            echo "Unknown arg: $cmd"
             exit 1
             ;;
     esac
