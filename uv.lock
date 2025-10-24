@@ -89,7 +89,7 @@ provides-extras = ["dev"]
 [[package]]
 name = "bibtex-bibble"
 version = "0.3.3"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "https://github.com/jgrey4296/bibble#2c889a22c406793afa7de134749cb59b686e4f91" }
 dependencies = [
     { name = "bibtexparser" },
     { name = "internetarchive" },
@@ -101,10 +101,6 @@ dependencies = [
     { name = "selenium" },
     { name = "tqdm" },
     { name = "waybackpy" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/27/7c/d5315fff4bf66fd02023e2db04534634fb959938457ebc40978764670649/bibtex_bibble-0.3.3.tar.gz", hash = "sha256:e29647f0231794e6d720e26dc6c02d08a2399738e628a595889d54701d58d586", size = 43531, upload-time = "2025-10-22T20:29:06.269Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/13/ac/0be7fa419cf2777bf82a6a4bd3ec011b14adab57d77de6943c86e2853db5/bibtex_bibble-0.3.3-py3-none-any.whl", hash = "sha256:fd94f5921d9724c6dab197f1fee35214beb91780357a14e1c9b1e2578448578d", size = 91894, upload-time = "2025-10-22T20:29:05.184Z" },
 ]
 
 [[package]]
@@ -559,14 +555,14 @@ wheels = [
 
 [[package]]
 name = "matplotlib-inline"
-version = "0.1.7"
+version = "0.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/99/5b/a36a337438a14116b16480db471ad061c36c3694df7c2084a0da7ba538b7/matplotlib_inline-0.1.7.tar.gz", hash = "sha256:8423b23ec666be3d16e16b60bdd8ac4e86e840ebd1dd11a30b9f117f2fa0ab90", size = 8159, upload-time = "2024-04-15T13:44:44.803Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c7/74/97e72a36efd4ae2bccb3463284300f8953f199b5ffbc04cbbb0ec78f74b1/matplotlib_inline-0.2.1.tar.gz", hash = "sha256:e1ee949c340d771fc39e241ea75683deb94762c8fa5f2927ec57c83c4dffa9fe", size = 8110, upload-time = "2025-10-23T09:00:22.126Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8f/8e/9ad090d3553c280a8060fbf6e24dc1c0c29704ee7d1c372f0c174aa59285/matplotlib_inline-0.1.7-py3-none-any.whl", hash = "sha256:df192d39a4ff8f21b1895d72e6a13f5fcc5099f00fa84384e0ea28c2cc0653ca", size = 9899, upload-time = "2024-04-15T13:44:43.265Z" },
+    { url = "https://files.pythonhosted.org/packages/af/33/ee4519fa02ed11a94aef9559552f3b17bb863f2ecfe1a35dc7f548cde231/matplotlib_inline-0.2.1-py3-none-any.whl", hash = "sha256:d56ce5156ba6085e00a9d54fead6ed29a9c47e215cd1bba2e976ef39f5710a76", size = 9516, upload-time = "2025-10-23T09:00:20.675Z" },
 ]
 
 [[package]]
@@ -1029,7 +1025,7 @@ wheels = [
 [[package]]
 name = "sphinx-bib-domain"
 version = "0.2.0"
-source = { git = "https://github.com/jgrey4296/sphinx_bib_domain#7f69be9aa2866bd880b129b5307625c7dffd5fef" }
+source = { git = "https://github.com/jgrey4296/sphinx_bib_domain#c256364e0b9a99fc634c01fd8f6ee45b69e96bec" }
 dependencies = [
     { name = "bibtex-bibble" },
     { name = "docutils" },
@@ -1204,7 +1200,7 @@ wheels = [
 
 [[package]]
 name = "tox"
-version = "4.31.0"
+version = "4.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachetools" },
@@ -1217,9 +1213,9 @@ dependencies = [
     { name = "pyproject-api" },
     { name = "virtualenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/be/b9/1750ebb6e8e2d198a17822b7b851dea33e61dcc9c25f55a3e3636f67389a/tox-4.31.0.tar.gz", hash = "sha256:266381ffef35615ec0d40ae4969a9e43b506017597c0413d6545a603cc8c7561", size = 203294, upload-time = "2025-10-09T18:53:53.619Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/59/bf/0e4dbd42724cbae25959f0e34c95d0c730df03ab03f54d52accd9abfc614/tox-4.32.0.tar.gz", hash = "sha256:1ad476b5f4d3679455b89a992849ffc3367560bbc7e9495ee8a3963542e7c8ff", size = 203330, upload-time = "2025-10-24T18:03:38.132Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3e/84/1691aae773dccff72c866ad19af7adb12d4fb8b439c8bfb36ffc429c8c27/tox-4.31.0-py3-none-any.whl", hash = "sha256:328f392e6567e46cb0f9b625679456744dde940287dd1b39117627dc4b21d5da", size = 175917, upload-time = "2025-10-09T18:53:51.494Z" },
+    { url = "https://files.pythonhosted.org/packages/fc/cc/e09c0d663a004945f82beecd4f147053567910479314e8d01ba71e5d5dea/tox-4.32.0-py3-none-any.whl", hash = "sha256:451e81dc02ba8d1ed20efd52ee409641ae4b5d5830e008af10fe8823ef1bd551", size = 175905, upload-time = "2025-10-24T18:03:36.337Z" },
 ]
 
 [[package]]
