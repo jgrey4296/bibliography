@@ -68,13 +68,17 @@ SUB_GLOB_1      : Final[str]      = "*/*.sub"
 SUB_GLOB_2      : Final[str]      = "*.sub"
 # Body:
 
-def load_tags(source:pl.Path) -> SubstitutionFile:
-    targets   = []
-    targets  += collect(source, glob=SUB_GLOB_1)
-    targets  += collect(source, glob=SUB_GLOB_2)
-    subs     = SubstitutionFile()
+def load_tags(source:pl.Path, *, norm:bool=True) -> SubstitutionFile:
+    targets  = set()
+    targets.update(collect(source, glob=SUB_GLOB_1))
+    targets.update(collect(source, glob=SUB_GLOB_1))
+    if norm:
+        subs = SubstitutionFile()
+    else:
+        subs = SubstitutionFile(norm_regex=re.compile("^"), norm_replace="")
+
     for x in targets:
-        subs.update(SubstitutionFile.read(x))
+        subs.update(SubstitutionFile.read(x, norm_regex=subs.norm_regex, norm_replace=subs.norm_replace))
     else:
         assert(bool(subs))
         return subs

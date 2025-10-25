@@ -69,12 +69,20 @@ logging = logmod.getLogger(__name__)
 
 from os import environ
 # Vars:
-sort_firsts  : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
-sort_lasts   : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
-sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
-GLOB_STR     : Final[str]        = "*.bib"
-LIB_ROOT     : Final[pl.Path]    = pl.Path(environ['BIBLIO_LIB'])
-TAGS_SOURCE  : Final[pl.Path]    = pl.Path(environ['BIBLIO_ROOT']) / ".temp/tags/canon.tags"
+sort_firsts     : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
+sort_lasts      : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
+sub_fields      : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
+GLOB_STR        : Final[str]        = "*.bib"
+BIBLIO_ROOT     : Final[pl.Path]    = pl.Path(environ['BIBLIO_ROOT'])
+LIB_ROOT        : Final[pl.Path]    = pl.Path(environ['BIBLIO_LIB'])
+SUB_ROOT        : Final[pl.Path]    = BIBLIO_ROOT / "tags/substitutions"
+TAGS_SOURCE     : Final[pl.Path]    = BIBLIO_ROOT / ".temp/tags/canon.tags"
+JOURNAL_SOURCE  : Final[pl.Path]    = SUB_ROOT / "journals.sub"
+CONF_SOURCE     : Final[pl.Path]    = SUB_ROOT / "conferences.sub"
+INST_SOURCE     : Final[pl.Path]    = SUB_ROOT / "institution.sub"
+PUB_SOURCE      : Final[pl.Path]    = SUB_ROOT / "publisher.sub"
+SERIES_SOURCE   : Final[pl.Path]    = SUB_ROOT / "series.sub"
+
 ##--| Argparse
 import argparse
 parser = argparse.ArgumentParser(
@@ -88,16 +96,20 @@ parser.add_argument("targets", nargs='*')
 
 ##--| Body
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
-    tag_subs  = _util.load_tags(TAGS_SOURCE)
-    stack     = BM.PairStack()
-    extra     = BM.metadata.DataInsertMW()
-    fail_handler = BM.failure.FailureHandler()
+    tag_subs      = _util.load_tags(TAGS_SOURCE)
+    journal_subs  = _util.load_tags(JOURNAL_SOURCE, norm=False)
+
+    stack         = BM.PairStack()
+    extra         = BM.metadata.DataInsertMW()
+    fail_handler  = BM.failure.FailureHandler()
 
     stack.add(read=[extra, BM.failure.DuplicateKeyHandler()],
               write=[fail_handler],
               )
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
+              # BM.bidi.BidiLatex(),
+              read=[BM.latex.LatexReader()],
               )
 
     stack.add(
@@ -112,7 +124,7 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
             BM.fields.FieldSorter(first=sort_firsts, last=sort_lasts),
             BM.metadata.EntrySorter(),
             BM.fields.FieldSubstitutor(fields=["tags"], subs=tag_subs),
-            # BM.fields.FieldSubstitutor(fields=sub_fields, subs=_othersubs, force_single_value=True),
+            BM.fields.FieldSubstitutor(fields=["journal"], subs=journal_subs, force_single_value=True),
         ])
 
     stack.add(write=[
