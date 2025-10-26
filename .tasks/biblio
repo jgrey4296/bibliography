@@ -10,8 +10,8 @@ source "$BIBLIO_SRC/lib-util.bash"
 
 #  output --------------------------------------------------
 
-function do_docs () {
-    header "biblio docs --conf {target:main} --out {out:.temp/site} {src}"
+function do_build() {
+    header "biblio build --conf {target:main} --out {out:.temp/site} {src}"
     if help_flag "$@"; then
         echo -e "Build Sphinx from bibtex files
     Uses \$BIBLIO_ROOT
@@ -164,7 +164,7 @@ function do_backup () {
 }
 
 function do_restructure () {
-    header "biblio restruct"
+    header "biblio move"
     uv run --script "$BIBLIO_SRC/scripts/lib_restructure.py" "$@"
 }
 
@@ -173,26 +173,28 @@ function do_restructure () {
 function print_help () {
     header "biblio scripts"
 
-    echo "-h | --help"
-    echo "--docs"
-    echo "--bookmarks"
-    echo "--post"
-    echo "--format"
-    echo "--metadata"
-    echo "--online"
-    echo "--stub"
-    echo "--cleanup"
-    echo "--chunk"
-    echo "--backup"
-    echo "--report"
-    echo "--restructure"
+    echo "
+    -h | --help
+    backup
+    bookmarks
+    build
+    chunk
+    cleanup
+    format
+    metadata
+    move
+    online
+    post
+    report
+    stub
+"
 }
 
 function parse_biblio_args () {
     if [[ "${1:-}" = "biblio" ]]; then
         shift
     fi
-    if help_flag "$@"; then
+    if [[ "$#" -eq 0 ]] || help_flag "$@"; then
         print_help
         exit 0
     fi
@@ -201,41 +203,41 @@ function parse_biblio_args () {
     shift
 
     case "$cmd" in
-        --docs)
-            do_docs "$@"
+        build)
+            do_build "$@"
             ;;
-        --bookmarks)
+        bookmarks)
             do_bookmarks "$@"
             ;;
-        --post)
+        post)
             do_media_post "$@"
             ;;
-        --format)
+        format)
             do_format "$@"
             ;;
-        --metadata)
+        metadata)
             do_metadata "$@"
             ;;
-        --online)
+        online)
             do_online "$@"
             ;;
-        --stub)
+        stub)
             do_stub "$@"
             ;;
-        --cleanup)
+        cleanup)
             do_cleanup "$@"
             ;;
-        --chunk)
+        chunk)
             do_chunk "$@"
             ;;
-        --backup)
+        backup)
             do_backup "$@"
             ;;
-        --report)
+        report)
             do_report "$@"
             ;;
-        --restructure)
-            do_restructure "$@"
+        move)
+            do_move "$@"
             ;;
         *) # Positional
             echo "Unknown arg: $cmd"

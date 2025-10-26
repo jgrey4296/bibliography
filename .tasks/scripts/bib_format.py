@@ -92,10 +92,12 @@ parser = argparse.ArgumentParser(
 parser.add_argument("--window", default=-1, type=int)
 parser.add_argument("--collect", action="append", default=[])
 parser.add_argument("--failures", default=None)
+parser.add_argument("--latex-in", action="store_true", default=False)
+parser.add_argument("--latex-out", action="store_true", default=False)
 parser.add_argument("targets", nargs='*')
 
 ##--| Body
-def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
+def build_reader_and_writer(args) -> tuple[Reader, API.Writer_p]:
     tag_subs      = _util.load_tags(TAGS_SOURCE)
     journal_subs  = _util.load_tags(JOURNAL_SOURCE, norm=False)
 
@@ -103,14 +105,20 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     extra         = BM.metadata.DataInsertMW()
     fail_handler  = BM.failure.FailureHandler()
 
-    stack.add(read=[extra, BM.failure.DuplicateKeyHandler()],
+    stack.add(read=[
+        extra,
+        BM.failure.DuplicateKeyHandler(),
+    ],
               write=[fail_handler],
               )
     stack.add(BM.bidi.BraceWrapper(),
-              BM.bidi.BidiPaths(lib_root=LIB_ROOT),
-              # BM.bidi.BidiLatex(),
-              read=[BM.latex.LatexReader()],
+              BM.bidi.BidiPaths(lib_root=LIB_ROOT)
               )
+    if args.latex_in:
+        stack.add(read=[BM.latex.LatexReader()])
+
+    if args.latex_out:
+        stack.add(write=[BM.latex.LatexWriter()])
 
     stack.add(
         BM.bidi.BidiNames(parts=True, authors=True),
@@ -156,7 +164,7 @@ def main():
             failures = pl.Path(x)
 
     assert(bool(targets)), "Specify a --collect, or a target"
-    reader, writer = build_reader_and_writer()
+    reader, writer = build_reader_and_writer(args)
     for bib in _util.window_collection(args.window, targets):
         print(f"Target : {bib}")
         lib = reader.read(bib)
