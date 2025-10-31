@@ -547,7 +547,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 **** Saboteur
 *** Alien
 *** Aliens
-*** [∅] Amelie
+*** Amelie
 *** American Beauty
 *** American History X
 *** American Psycho
@@ -559,12 +559,12 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Beetlejuice
 *** Being John Malcovich
 *** Be Kind Rewind
-*** [∅] Big Fish
+*** Big Fish
 *** Bill Bailey Bewilderness
 *** Bill Bailey Cosmic Jam
 *** Black Snake Moan
 *** Bladerunner
-*** [∅] Brazil
+*** Brazil
 *** Burn After Reading
 *** Capote
 *** Casanova
@@ -589,7 +589,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Der Ring Des Nibelungen Das Rheingold
 *** Der Ring Des Nibelungen Die Walkure
 *** Despicable Me
-*** [∅] District 9
+*** District 9
 *** Donny Darko
 *** Downfall
 *** Dracula
@@ -601,7 +601,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Enchanted
 *** Eraserhead
 *** Eternal Sunshine of the Spotless Mind
-*** [∅] Event Horizon
+*** Event Horizon
 *** Existenz
 *** Fantasia
 *** Fight Club
@@ -614,7 +614,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Gladiator
 *** Good Morning Vietnam
 *** Good Night and Good Luck
-*** [∅] Gosford Park
+*** Gosford Park
 *** Groundhog Day
 *** Hamlet
 *** Hancock
@@ -650,7 +650,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Michael Clayton
 *** Midnight Cowboy
 *** Midsummer Night’s Dream
-*** [∅] Monty Python And Now for Something Completely Different
+*** Monty Python And Now for Something Completely Different
 *** Moon
 *** Mrs. Henderson Presents
 *** Much Ado About Nothing
@@ -661,7 +661,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** One Flew Over the CooCoo’s Nest
 *** Pan’s Labyrinth
 *** Paul
-*** [∅] Persepolis
+*** Persepolis
 *** PI
 *** Planet Earth
 *** Pulp Fiction
@@ -684,7 +684,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Shutter Island
 *** Sin City
 *** Snatch
-*** [∅] Solaris
+*** Solaris
 *** Sphere
 *** Spiderman 1, 2 , 3
 *** Star Wars Revenge of the Sith
@@ -698,7 +698,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** The Bicentennial Man
 *** The Boat that Rocked
 *** The Brothers Grimm
-*** [∅] The Cat’s Meow
+*** The Cat’s Meow
 *** The Color of Magic
 *** The Conversation
 *** The Darjeeling Limited
@@ -712,14 +712,14 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** The Hitch Hiker’s Guide to the Galaxy
 *** The Hurt Locker
 *** The imaginarium of Doctor Parnassus
-*** [∅] The Iron Giant
+*** The Iron Giant
 *** The Jacket
 *** The Langoliers
 *** The Life Aquatic
-*** [∅] The Little Shop of Horrors
+*** The Little Shop of Horrors
 *** The Man Who Fell to Earth
 *** The Matrix
-*** [∅] The Meaning of Life
+*** The Meaning of Life
 *** The Men Who Stare at Goats
 *** The Merchant of Venice
 *** The Passion of Ayn Rana
@@ -733,7 +733,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** The Trial
 *** The Weatherman
 *** The Witches of Eastwick
-*** [∅] Thirst
+*** Thirst
 *** THX1138
 *** Tube Tales
 *** Two Tower
@@ -741,7 +741,7 @@ https://en.wikipedia.org/wiki/Aniara_(film)
 *** Walk the Line
 *** Wallace and Gromit
 *** Wall-E
-*** [∅] Watchmen
+*** Watchmen
 *** Who Framed Roger Rabbit?
 *** Wild Hogs
 *** Zodiac
