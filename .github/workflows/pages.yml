@@ -57,12 +57,12 @@ jobs:
         run: biblio report --collect main
       - name: build main site 
         run: biblio build
-      # - name: build aisb subsite # TODO
-      #   run: >
-      #     biblio build
-      #     --conf ./plus/conferences_primary/aisb_
-      #     --out ./.temp/site/aisb_
-      #     ./plus/conferences_primary/aisb_
+      - name: build aisb subsite 
+        run: >
+          biblio build
+          --conf ./plus/conferences_primary/aisb_
+          --out aisb_
+          ./plus/conferences_primary/aisb_
       - name: store site artifact
         uses: actions/upload-artifact@v4
         with:
