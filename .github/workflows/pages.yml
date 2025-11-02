@@ -31,16 +31,17 @@ concurrency:
 
 # --------------------------------------------------
 jobs:
-  build:
+  build-main:
+    name: Build Main bibtex
     runs-on: ubuntu-latest
     environment:
       name: github-pages
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout Main Bib
+        uses: actions/checkout@v5
         with:
           persist-credentials: false
-      - uses: actions/checkout@v4
+          submodules: 'true'
       - uses: asdf-vm/actions/setup@v4
       - name: setup polyglot
         run: |
@@ -48,22 +49,30 @@ jobs:
           asdf install
           direnv allow
           direnv export gha >> "$GITHUB_ENV"
-      - name: setup
+      - name: setup python
         run: |
           uv venv
           uv sync
-      - name: build site 
-        run: biblio --docs
+      - name: Generate main report
+        run: biblio report --collect main
+      - name: build main site 
+        run: biblio build
+      # - name: build aisb subsite # TODO
+      #   run: >
+      #     biblio build
+      #     --conf ./plus/conferences_primary/aisb_
+      #     --out ./.temp/site/aisb_
+      #     ./plus/conferences_primary/aisb_
       - name: store site artifact
         uses: actions/upload-artifact@v4
         with:
           name: gh-pages-artifact
           path: .temp/site
-          
+
   deploy:
     name: Deploy to GH Pages
     needs:
-      - build
+      - build-main
     runs-on: ubuntu-latest
     environment:
       name: github-pages
