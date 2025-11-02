@@ -75,9 +75,9 @@ from os import environ
 BIBLIO_ROOT        : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT'])
 MAIN_DIR           : Final[pl.Path]  = BIBLIO_ROOT / "main"
 REPORT_DATA        : Final[pl.Path]  = BIBLIO_ROOT / ".temp/report.json"
-REPORT_FILE        : Final[pl.Path]  = BIBLIO_ROOT / "report.rst"
 FAIL_TARGET        : Final[pl.Path]  = BIBLIO_ROOT / ".temp/failed.bib"
 TEMPLATE_DIR       : Final[pl.Path]  = BIBLIO_ROOT / "templates_"
+REPORT_FILE        : Final[pl.Path]  = BIBLIO_ROOT / "report.rst"
 GLOB_STR           : Final[pl.Path]  = "*.bib"
 REPORT_TEMPLATE_K  : Final[str]      = "report.rst.jinja"
 STATS_BASE         : Final[dict]     = {
@@ -99,6 +99,7 @@ parser = argparse.ArgumentParser(
     description="Generate a report on given bibtex files"
 )
 parser.add_argument("--collect", action="append", default=[])
+parser.add_argument("--out", default=REPORT_FILE)
 parser.add_argument("targets", nargs='*')
 
 ##--|
@@ -173,7 +174,8 @@ def update_stats(stats:dict, lib:API.Library_p) -> None:
     else:
         pass
 
-def write_report(stats:dict) -> None:
+def write_report(stats:dict, target:pl.Path) -> None:
+    assert(isinstance(target, pl.Path))
     # write raw data
     REPORT_DATA.write_text(json.dumps(stats, indent=4, cls=SetEncoder))
     # Write the report
@@ -183,7 +185,7 @@ def write_report(stats:dict) -> None:
     report_text  = template.render(title=REPORT_TITLE,
                                    data=stats,
                                    )
-    REPORT_FILE.write_text(report_text)
+    target.write_text(report_text)
 
 def main():
     args     = parser.parse_args()
@@ -199,7 +201,7 @@ def main():
         print("Updating Stats from: ", bib)
         update_stats(stats, lib)
     else:
-        write_report(stats)
+        write_report(stats, pl.Path(args.out))
         print("Finished")
 
 ##-- ifmain

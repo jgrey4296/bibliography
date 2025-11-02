@@ -8,9 +8,6 @@
 Statistics
 ==========
   
-
-
-
 .. contents:: Table of Contents
 
 

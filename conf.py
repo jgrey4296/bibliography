@@ -69,6 +69,9 @@ _target = pl.Path.cwd() / "pyproject.toml"
 assert(_target.exists())
 pyproject  = tomllib.loads(_target.read_text())
 
+def pg_out(val):
+    print(f"[polyglot]: {val}")
+
 ##-- project settings
 project                        = pyproject['project']['name']
 author                         = "John Grey"
@@ -140,8 +143,12 @@ include_patterns = [
     "index.rst",
     "report.rst",
     "pages_/*",
+
+    # "main/12*",
     "main/*",
-    "plus/individuals/*",
+    #
+    # "plus/individuals/*",
+    # "plus/conferences_primary/aisb_/**",
     "*",
     # "plus/favourites/*",
     # "plus/journals/**",
@@ -168,6 +175,7 @@ exclude_patterns += [
     ".venv/*",
     "static_/",
     '**flycheck_*.py',
+    "checklist.md",
 ]
 
 # ignore tests and util files
@@ -318,8 +326,6 @@ def setup(app):
     pass
 
 # -- Debug output --------------------------------------------------
-def pg_out(val):
-    print(f"[polyglot]: {val}")
 
 pg_out("Exclusion Patterns:")
 for x in sorted(exclude_patterns):
