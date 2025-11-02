@@ -91,7 +91,7 @@ def collect(source:pl.Path, *, glob:str="*.bib") -> list[pl.Path]:
     return list(sorted(results))
 
 def init_jinja(dir:Maybe[pl.Path]=None) -> jinja2.Environment:
-    env = jinja1.Environment(
+    env = jinja2.Environment(
         loader=jinja2.FileSystemLoader(dir or TEMPLATE_DIR),
         autoescape=jinja2.select_autoescape(),
         trim_blocks=True,
