@@ -8,24 +8,27 @@
 Statistics
 ==========
   
+
+
+
 .. contents:: Table of Contents
 
 
 .. csv-table::
    :header: "Stat", "Value"    
             
-   authors,    22817              
-   editors,    1723              
-   entries,    15208                   
-   tags,       18454                 
+   authors,    22883              
+   editors,    1722              
+   entries,    15327                   
+   tags,       18538                 
    year range, 1215 - 2025 
-   files,      14746                    
-   urls,       8763                     
+   files,      14820                    
+   urls,       8884                     
 
 .. csv-table::
    :header: "Entry Type", "Count"
 
-   article, 3291
+   article, 3276
    blog, 88
    book, 3644
    booklet, 86
@@ -34,13 +37,13 @@ Statistics
    game, 3
    inbook, 360
    incollection, 125
-   inproceedings, 2085
+   inproceedings, 2098
    judicial, 197
    law, 7
    manual, 122
-   misc, 1201
+   misc, 1200
    musicscore, 1
-   online, 2752
+   online, 2832
    proceedings, 148
    report, 685
    review, 10
@@ -49,4 +52,4 @@ Statistics
    techreport, 36
    thesis, 272
    unpublished, 32
-   video, 1
+   video, 43
