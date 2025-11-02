@@ -15,8 +15,5 @@ Individual bibtex files, converted to html.
    :glob:
 
    ../main/1[2-8]*
-
-   
-..
    ../main/19*
    ../main/20*
