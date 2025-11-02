@@ -11,22 +11,29 @@ source "$BIBLIO_SRC/lib-util.bash"
 #  output --------------------------------------------------
 
 function do_build() {
-    header "biblio build --conf {target:main} --out {out:.temp/site} {src}"
+    header "biblio build [-no-clean] --conf {target:main} --out {out:.temp/site} {src}"
     if help_flag "$@"; then
         echo -e "Build Sphinx from bibtex files
     Uses \$BIBLIO_ROOT
     Args:
-    --conf {conf dir}
-    --out  {out dir}
-    {src dir}
+    -no-clean         : don't delete existing site files
+    --conf {conf dir} : the dir for the conf.py
+    --out  {out dir}  : the subdir of .temp/site to build into
+    {src dir}         : the dir of source .rst and .bib files
+
 "
         exit 0
     fi
+    local do_clean=1
     local conf="$BIBLIO_ROOT"
     local src="$conf/"
-    local out="$BIBLIO_ROOT/.temp/site"
+    local out="$BIBLIO_ROOT/.temp"
+    local site_out="$out/site"
     while [[ $# -gt 0 ]]; do
         case $1 in
+            -no-clean|--no-clean)
+                do_clean=0
+                ;;
             --conf)
                 shift
                 echo "Conf: $1"
@@ -35,7 +42,7 @@ function do_build() {
             --out)
                 shift
                 echo "Out: $1"
-                out=$(realpath "$out/$1")
+                site_out=$(realpath "$site_out/$1")
                 ;;
             *) # Positional
                 echo "Src: $1"
@@ -44,15 +51,16 @@ function do_build() {
         esac
         shift
     done
-    echo -e "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$out)"
-    if [[ -d "${out}" ]]; then
-        rm -r "${out}"
+    echo -e "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$site_out)"
+    if [[ "$do_clean" -gt 0 ]] && [[ -d "${site_out}" ]]; then
+        rm -r "${site_out}"
     fi
     uv run sphinx-build \
         --conf-dir "$conf" \
+        --doctree-dir "$out/doctrees" \
         --warning-file "$conf/.temp/logs/sphinx.log" \
         --builder "bibhtml" \
-        "$src" "$out"
+        "$src" "$site_out"
 }
 
 function do_chunk () {
