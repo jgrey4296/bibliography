@@ -2792,7 +2792,7 @@ http://thechangelog.com/t-powerful-command-line-interface-for-twitter/ : cli : l
 http://thecodelesscode.com/case/113?topic=IDEs : codelesscode : koan : programming : software_development
 http://thecodelesscode.com/contents : codelesscode : koan : programming : software_development
 http://theconversation.com/robocalls-are-unstoppable-3-questions-answered-about-why-your-phone-wont-quit-ringing-108554 : phone_calls : robo_calls : spam : the_conversation
-http://theconversation.com/robocalls-are-unstoppable-3-questions-answered-about-why-your-phone-wont-quit-ringing-108554?utm_source=dlvr.it&utm_medium=twitter : phone_calls : robo_calls : spam : the_conversation
+http://theconversation.com/robocalls-are-unstoppable-3-questions-answered-about-why-your-phone-wont-quit-ringing-108554 : phone_calls : robo_calls : spam : the_conversation
 http://theetheringtonbrothers.blogspot.com/2018/10/the-full-set-of-175-one-hundred-and.html : drawing : etherington_brothers : tutorial
 http://thegovlab.org/what-is-mechanistic-evidence-and-why-do-we-need-it-for-evidence-based-policy/ : evidence_based_policy : govlab : science
 http://thehill.com/blogs/blog-briefing-room/news/394152-us-makes-the-list-of-top-10-most-dangerous-countries-for-women#click=https://t.co/Wr8GHAjizP : america : the_hill : violence_against_women
@@ -5694,11 +5694,11 @@ https://antifainternational.tumblr.com/post/169231820619/2017-a-partial-timeline
 https://anvaka.github.io/ngraph.path.demo/ : github : path_finding : programming
 https://anykeytostart.wordpress.com/ : blog : game : game_criticism
 https://apihtawikosisan.com/2014/07/a-present-for-canada-day/ : RPG : __important : canada : game : indigenous_cultures : pixel_art : rpg_maker
-https://apnews.com/767291ca52f2423992590dbae0e62a8a?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP : associated_press : cedar_attanasio : mexico : refugees : tim_sullivan
+https://apnews.com/767291ca52f2423992590dbae0e62a8a : associated_press : cedar_attanasio : mexico : refugees : tim_sullivan
 https://apnews.com/article/florida-race-and-ethnicity-racial-injustice-veterans-ku-klux-klan-fa0ec4120b1457f56c527108074795b5 : FBI : KKK : florida : jason_dearen : joesph_moore : journalism : police : racism
 https://apnews.com/article/henrietta-lacks-hela-cells-thermo-fisher-scientific-bfba4a6c10396efa34c9b79a544f0729 : biotech : henrietta_lacks : journalism : medicine : racism
 https://apnews.com/article/mexico-abortion-decriminalize-d87f6edbdf68c2e6c8f5700b3afd15de?taid=64f8de160336bb000175f417 : abortion : mexico
-https://apnews.com/f14104d682c609e496e8372a20b457ca?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP : UPS : associated_press : brynn_anderson : florida : police_violence : tim_reynolds
+https://apnews.com/f14104d682c609e496e8372a20b457ca : UPS : associated_press : brynn_anderson : florida : police_violence : tim_reynolds
 https://apnews.com/f5f09a300d394900a1a88362238dbf77 : apnews : architecture : dams : david_lieb : infrastructure : michael_casey : michelle_minkoff : regulation
 https://apparmor.pujol.io/development/ : apparmor : linux : permissions
 https://apple.slashdot.org/story/12/06/29/2133211/new-mac-virus-discovered-making-the-rounds : mac : security : slashdot : virus
@@ -6972,6 +6972,7 @@ https://doc.samsungmobile.com/SM-T860/BTU/doc.html : samsung_galaxy : updates
 https://docs.angularjs.org/tutorial : angular : javascript : programming : technical
 https://docs.ansible.com/ansible/latest/index.html : ansible : documentation
 https://docs.astral.sh/ruff/ : linting : python : ruff : rust
+https://docs.astral.sh/uv/reference/cli/ : astral : python : softare_engineering : uv
 https://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechanicalTurkGettingStartedGuide/Welcome.html : amazon : mechanical_turk
 https://docs.blender.org/api/blender_python_api_current//info_quickstart.html : blender : graphics : python
 https://docs.blender.org/api/blender_python_api_current/contents.html : blender : graphics : python
@@ -7176,6 +7177,7 @@ https://elixir-lang.org/ : DSL : __important : concurrency : elixir : erlang : p
 https://elizabethsampat.itch.io/loudmouth : elizabeth_sampat : game_design : talk
 https://elizabethwarren.com/plans/disability-rights-and-equality?source=soc-WB-ew-tw-rollout-20200102 : disability : elizabeth_warren : politics
 https://elpa.nongnu.org/nongnu/ws-butler.html : elpa : emacs : lisp : ws_butler
+https://emacs-eask.github.io/ : eask : emacs : lisp
 https://emacs-eask.github.io/Getting-Started/Introduction/#-why-eask : eask : emacs : programming : software_engineering
 https://emacs-eldev.github.io/eldev/ : eldev : emacs : lisp : software_engineering
 https://emacs-lsp.github.io/lsp-mode/ : LSP : emacs : language_server_protocol : lisp
@@ -7371,7 +7373,7 @@ https://en.m.wikipedia.org/wiki/Wine_tasting_descriptors#A%E2%80%93C : language 
 https://en.m.wikipedia.org/wiki/Woodcut : wiki
 https://en.m.wikipedia.org/wiki/Yaron_Ezrahi : israel : political_science : wiki : yaron_ezrahi
 https://en.m.wikipedia.org/wiki/Yes_Minister : comedy : tv : wiki : yes_minister
-https://en.m.wikisource.org/wiki/UK_cable_on_Tiananmen_Square_Massacre?utm_source=share&utm_medium=ios_app&utm_name=ios_share_flow_optimization&utm_term=control_1 : 1989 : tiananmen_square : uk_cable : wiki_source
+https://en.m.wikisource.org/wiki/UK_cable_on_Tiananmen_Square_Massacre : 1989 : tiananmen_square : uk_cable : wiki_source
 https://en.uesp.net/wiki/Main_Page : elder_scrolls : games : wiki
 https://en.uesp.net/wiki/Morrowind_Mod:BSA_File_Format : file_format : modding : morrowing
 https://en.uesp.net/wiki/Oblivion_Mod:BSA_File_Format : file_format : modding : oblivion
@@ -7614,6 +7616,7 @@ https://en.wikipedia.org/wiki/Temporal_logic : logic : time : wiki
 https://en.wikipedia.org/wiki/Tennessee_in_the_Civil_War : USA : civil_war : history : tennessee : wiki
 https://en.wikipedia.org/wiki/The_Abyss : 1989 : ed_harris : film : james_cameron : science_fiction : wiki
 https://en.wikipedia.org/wiki/The_Burning_Wheel : RPG : game_mechanics : wiki
+https://en.wikipedia.org/wiki/The_Donut_King : documentary : donut_king : ted_ngoy
 https://en.wikipedia.org/wiki/The_Grand_Inquisitor : book : wiki
 https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy#Manuscript_culture : criticism : marshall_mcluhan : wiki
 https://en.wikipedia.org/wiki/The_Inquisitor_(Red_Dwarf) : character : red_dwarf : wiki
@@ -8273,6 +8276,7 @@ https://github.com/getpelican/pelican/tree/master/pelican/themes/simple/template
 https://github.com/ggreer/the_silver_searcher : ag : github : grep : search
 https://github.com/ghostinthewires/Azure-Readiness-Checklist/blob/master/README.md : azure : checklist : github : production : software_engineering
 https://github.com/gibbed : __important : gibbed : github : modding
+https://github.com/git-lfs/git-lfs/tree/main/docs : git : git_lfs : version_control
 https://github.com/gitonga123/CLIPS : CLIPS : github : production_system : rule_engine
 https://github.com/glyph/automat/ : FSM : automat : github : python
 https://github.com/godot-rust/godot-rust : github : godot : rust
@@ -8371,6 +8375,7 @@ https://github.com/jwasham/google-interview-university : github : interview : so
 https://github.com/jwiegley/use-package : emacs : github : libraries : lisp : package_manager
 https://github.com/kamranahmedse/developer-roadmap : github : learning : resource : tutorial : web_development
 https://github.com/karan/Projects : github : practice : project
+https://github.com/karimbahgat/Pyqtree : github : pyqtree : python : quadtree
 https://github.com/karlicoss/orgparse : github : library : org_mode : python
 https://github.com/katef/kgt : bnf_grammar : github : railroad_diagram : visualisation
 https://github.com/keendreams/keen : assembly : c_lang : commander_keen : dos : game : game_design : github : source
@@ -8522,6 +8527,7 @@ https://github.com/raghavgautam/helm-wordnet : emacs : github : helm : word_net
 https://github.com/rbarrois/python-semanticversion : github : python : semantic_version
 https://github.com/rdallasgray/graphene : emacs : github : lisp
 https://github.com/reactjs/redux : javascript : react : redux : web_development
+https://github.com/readthedocs/sphinx-autoapi : autoapi : github : python : readthedocs : sphinx
 https://github.com/readthedocs/sphinx_rtd_theme : documentation : github : python : sphinx
 https://github.com/redhat-developer/yaml-language-server : github : language_server : lsp : yaml
 https://github.com/redorav/public_source_engines : game_development : game_engine : github : source_code
@@ -8803,7 +8809,7 @@ https://google.github.io/styleguide/pyguide.html : google : python : style_guide
 https://googlebooks.byu.edu/x.asp : BYU : corpora : data_sets : google : mark_davies : ngram : search
 https://gorillasun.de/blog/an-algorithm-for-polygon-intersections : algorithm : axis_alignment : game_programming : graphics : intersection : polygon
 https://gothamist.com/news/armored-ice-vehicle-sparks-panic-queens-during-firearms-bust : ICE : gothamist : immigration : militarisation : new_york : queens : racism
-https://gothamist.com/news/red-hook-boys-spent-halloween-night-handcuffed-carroll-gardens-police-precinct?utm_medium=social&utm_source=twitter&utm_campaign=shared_twitter : NYPD : gothamist : halloween : racism : yasmeen_khan
+https://gothamist.com/news/red-hook-boys-spent-halloween-night-handcuffed-carroll-gardens-police-precinct : NYPD : gothamist : halloween : racism : yasmeen_khan
 https://gothicpunk.tumblr.com/archive?source=blog_view_login_wall : 40k : art : john_blanche : tumblr
 https://goto.ucsd.edu/~nvazou/presentations/cufp16/05-refinement-reflection.html : SMT : liquidhaskell : refinement_types : smt : type_inference
 https://gpawley.itch.io/star-dynasties : crusader_kings : itch_io : science_fiction : star_dynasties
@@ -8838,6 +8844,7 @@ https://gss.norc.org/ : dataset : general_social_survey : research : university_
 https://guides.lib.umich.edu/c.php?g=538509&p=3686046 : metadata
 https://guides.nyu.edu/ScienceFictionUniverse/Journals : academia : journal : science_fiction
 https://gumroad.com/l/tPWN : RPG : __important : avery_alder : dream_apart : dream_askew : gumroad : jewish : queer
+https://gut.readthedocs.io/en/v9.5.0/index.html : godot : gut : unit_testing
 https://guyintheblackhat.wordpress.com/ : game_studies
 https://guypradel.fr/produit/the-longest-cat/ : art : cat
 https://gwern.net/tank#alternative-examples : ai : blog : folklore
@@ -8988,6 +8995,7 @@ https://inews.co.uk/explainers/iq/tbt-abortion-wasnt-legal-britain/amp/ : UK : a
 https://inews.co.uk/news/long-reads/tbt-abortion-wasnt-legal-britain/amp/ : UK : __important : abortion : history : inews : kate_lister : law : legal
 https://inews.co.uk/opinion/comment/victorian-doctors-were-not-using-vibrators-on-female-patients-it-was-even-stranger-than-that/ : UK : health_care : inews : kate_lister : vibrators : victorian
 https://infamousquests.itch.io/ : infamous_quests : itch_io
+https://infinitejs.com/posts/overcoming-git-lfs-issues-guide/ : git : git_lfs : version_control
 https://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time : humour : programming : time
 https://info2html.sourceforge.net/cgi-bin/info2html-demo/info2html?%28bash.info.gz%29Programmable%2520Completion : bash : completion
 https://infoweb-newsbank-com.oca.ucsc.edu/iw-search/we/Digital : database : politics
@@ -9437,6 +9445,7 @@ https://leanprover.github.io/theorem_proving_in_lean4/title_page.html : __come_b
 https://leanpub.com/D3-Tips-and-Tricks/ : book : d3 : javascript : tutorial
 https://leanpub.com/progalgs/read : algorithm : book : lisp : programming
 https://learn.adafruit.com/hacking-the-kinect/determine-the-descriptors : kinect : reverse_engineering
+https://learn.microsoft.com/en-us/nuget/create-packages/overview-and-workflow : dotnet : nuget
 https://learnbyexample.gitbooks.io/command-line-text-processing/content/ : awk : bash : grep : reference : sed
 https://learnbyexample.gitbooks.io/command-line-text-processing/content/gnu_sed.html : cli : sed
 https://learnbyexample.github.io/cli_text_processing_coreutils/ : cli : coreutils : gnu : text
@@ -10024,6 +10033,7 @@ https://newsroom.fb.com/news/2018/04/comprehensive-community-standards/amp/ : co
 https://nfu.org/2019/11/12/trade-assistance-payments-disproportionately-benefitted-large-scale-and-southeastern-operations/ : farming : national_farmers_union : policy : trump : welfare
 https://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/ : c_plus_plus : libraries : static_dynamic
 https://nickeldoodle.bigcartel.com/product/major-cat-arcana-deck : cats : nickeldoodle : tarot
+https://nickm.com/memslam/the_house_of_dust.html : alison_knowles : james_tenney : nick_montfort : procedural_poetry : the_house_of_dust
 https://nickporcino.com/posts/last_mile_interchange.html : 3D : file_formats : last_mile : technical
 https://nicoleorchard.com/blog/compilers : clang : compiler : language : llvm
 https://nightblade9.github.io/godot-gamedev/2019/getting-started-with-unit-and-integration-testing-in-godot.html : blog : godot : testing
@@ -10051,6 +10061,7 @@ https://notes.variable.io/case-study-ibm-technology-garden-3a4f0b274de5?gi=c0dd9
 https://notes.variable.io/data-is-not-a-number-a6eb7110d943 : data : data_science : information : visualisation
 https://notimetoplay.org/cgi-bin/wiki/Gamebooks_and_grammars : dungeon_generation : procedural_content
 https://notthetreasuryview.blogspot.fr/2017/04/spreadsheets-are-people-too-statistics.html : economics : statistics
+https://noyaml.com/ : yaml
 https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15283 : CO2 : biology : climate_change : new_phytologist : photosynthesis : plant
 https://nplusonemag.com/issue-30/essays/on-liking-women/ : book : transgender
 https://nplusonemag.com/online-only/book-review/not-every-kid-bond-matures/ : analysis : child : demographics : millenial
@@ -10071,7 +10082,7 @@ https://nyamcenterforhistory.org/2019/03/28/womens-work-in-behind-the-scenes-in-
 https://nymag.com/intelligencer/2023/08/fani-willis-rico-case-trump-implications.html : indictment : politics : trump
 https://nypost.com/2014/06/16/brooklyn-gentrification-is-changing-juries-who-decide-cases/ : brooklyn : crime : gentrification : jury : new_york_post : racism : williamsburg
 https://nypost.com/2018/01/20/complaining-about-low-pay-in-an-open-letter-online-destroyed-my-life/ : bay_area : complaints : eat24 : millenial : new_york_post : open_letter : retribution : san_francisco : talia_jane : yelp
-https://nypost.com/2019/05/06/kentucky-proposes-ban-on-using-tattoos-to-cover-up-scars/?utm_source=twitter_sitebuttons&utm_medium=site%20buttons&utm_campaign=site%20buttons : kentucky : new_york_post : scars : tattoo
+https://nypost.com/2019/05/06/kentucky-proposes-ban-on-using-tattoos-to-cover-up-scars/ : kentucky : new_york_post : scars : tattoo
 https://nypost.com/2019/11/02/stanford-professor-who-changed-america-with-just-one-study-was-also-a-liar/ : david_rosenhan : new_york_post : psychology : replication_crisis : sasannah_cahalan
 https://nypost.com/2023/07/15/rfk-jr-says-covid-was-ethnically-targeted-to-spare-jews/ : antisemitism : covid : nypost : robert_kennedy
 https://nyupress.org/books/9781479837243/ : algorithm : book : google : oppression : policy : politics : racism : recommendation
@@ -10479,6 +10490,7 @@ https://relaxng.org/jclark/ : XML : schema : trang : xml : xsd
 https://relaxng.org/jclark/trang-manual.html : XML : manual : trang : xml
 https://renegadeinc.com/he-died-for-our-debts-not-our-sins/ : bible : christianity : debt : economics : jesus : michael_hudson : renagade_inc : sin
 https://repo.maven.apache.org/maven2/ : jvm : kotlin : maven
+https://repology.org/ : linux : repository : version_control
 https://repository.usfca.edu/be/ : __important : academia : education : race
 https://reproducible-builds.org/ : best_practices : reproducible_builds : software_engineering : standards
 https://requester.mturk.com/pricing : __important : amazon : categories : mechanical_turk
@@ -10735,7 +10747,7 @@ https://sor.nebraska.gov/Registry/Offender/200109PKR : dave_mark : nebraska
 https://soulwire.co.uk/math-for-motion/ : animation : math : motion : visualisation
 https://sound-effects.bbcrewind.co.uk/ : BBC : UK : assets : sound : soundscape
 https://soundcloud.com/this-american-life/522-tarred-and-feathered-act-two-help-wanted : podcast : soundcloud
-https://soundcloud.com/user-375923363?utm_source=soundcloud&utm_campaign=share&utm_medium=twitter : gilles_deleuze : lecture : philosophy : recording : soundcloud
+https://soundcloud.com/user-375923363 : gilles_deleuze : lecture : philosophy : recording : soundcloud
 https://sourceware.org/gdb/wiki/Internals : gdb : reference
 https://sourceware.org/gdb/wiki/PermissionsDarwin : apple : code_signing : gdb
 https://sowcow.github.io/fallout-dialogs/ : dialogue_tree : fallout : falout
@@ -10954,6 +10966,7 @@ https://suffolk.myphr.online/ : healthcare : suffolk
 https://supercollider.github.io/ : audio : programming : sound : supercollider
 https://supercollider.github.io/community/sc140.html : supercollider
 https://superuser.com/questions/231384/how-to-get-code-completion-in-emacs : emacs
+https://superuser.com/questions/31917/is-there-a-way-to-show-notification-from-bash-script-in-ubuntu : bash : notification : notify-send : ubuntu
 https://superuser.com/questions/42124/how-can-i-put-the-computer-to-sleep-from-command-prompt-run-menu : cmd : sleep : windows
 https://superuser.com/questions/592154/how-to-turn-off-emacss-auto-line-wrapping-for-the-current-session : emacs
 https://superuser.com/questions/860735/killing-a-launchctl-process-cassandra : launchctl
@@ -11071,12 +11084,12 @@ https://thebulwark.com/actually-virtue-signaling-is-good/ : the_bulwark : tim_mi
 https://thebulwark.com/its-time-to-stop-talking-about-a-national-divorce/ : christian_vanderbrouk : civil_war : history : reenactment : the_bulwark
 https://thebulwark.com/what-changed-my-mind-about-climate-change/ : __important : bulwark : climate_change : jerry_taylor : risk_management
 https://thecoatlessprofessor.com/statistics/multiple-linear-regression-proofs/ : __come_back_to : linear_regression : math : proof : statistics
-https://theconversation.com/black-troops-were-welcome-in-britain-but-jim-crow-wasnt-the-race-riot-of-one-night-in-june-1943-98120?utm_source=facebook&utm_medium=facebookbutton : 1943 : history : race : race_riot : the_conversation
+https://theconversation.com/black-troops-were-welcome-in-britain-but-jim-crow-wasnt-the-race-riot-of-one-night-in-june-1943-98120 : 1943 : history : race : race_riot : the_conversation
 https://theconversation.com/britains-dark-history-of-criminalising-homeless-people-in-public-spaces-74097 : UK : criminalisation : government : homelessness : poverty : power : urban_design
 https://theconversation.com/have-we-just-stumbled-on-the-biggest-productivity-increase-of-the-century-145104 : covid_19 : productivity
 https://theconversation.com/how-a-job-acquires-a-gender-and-less-authority-if-its-female-79164 : authority : employment : gender : gender_stereotyping : jobs : research : the_conversation
 https://theconversation.com/how-geological-maps-made-the-apollo-moon-landings-worthwhile-117539 : geology : map : maps : moon : science : the_conversation
-https://theconversation.com/justin-trudeaus-political-setback-a-surprise-to-the-world-but-not-to-canada-125422?utm_source=dlvr.it&utm_medium=twitter : canada : justin_trudeau : politics : the_conversation
+https://theconversation.com/justin-trudeaus-political-setback-a-surprise-to-the-world-but-not-to-canada-125422 : canada : justin_trudeau : politics : the_conversation
 https://theconversation.com/study-racism-shortens-lives-and-hurts-health-of-blacks-by-promoting-genes-that-lead-to-inflammation-and-illness-122027 : health_care : illness : micro_aggressions : racism : the_conversation
 https://theconversation.com/the-past-stinks-a-brief-history-of-smells-and-social-spaces-121383 : disease : history : perfume : stink : the_conversation
 https://theconversation.com/using-maps-as-a-weapon-to-resist-extractive-industries-on-indigenous-territories-111472 : __important : colonialism : indigenous_territories : map : maps : the_conversation
@@ -11163,7 +11176,7 @@ https://theoutline.com/post/349/a-story-about-discovery : LGBTQ_
 https://theoutline.com/post/3625/the-false-hope-of-parole : corruption : crime : parole : politics : prison : racism
 https://theoutline.com/post/7145/ask-a-fuck-up-ghosted : brandy_jensen : ghosting : the_outline
 https://theoutline.com/post/7267/living-with-passive-suicidal-ideation : depression : suicide : the_outline
-https://theoutline.com/post/7556/lgbtq-media-disaster?utm_source=contributor_pages : LGBTQ : journalism : katelyn_burns : lgbtq_media : the_outline
+https://theoutline.com/post/7556/lgbtq-media-disaster : LGBTQ : journalism : katelyn_burns : lgbtq_media : the_outline
 https://theoutline.com/post/7557/ask-a-fuck-up-slept-with-my-friends-boyfriend : brandy_jensen : forgiveness
 https://theoutline.com/post/8391/post-normcore-darcie-wilder-quip-allbirds?zd=1&zi=hmggoirh : branding : darci_wilder : politics : post_normcore : the_outline
 https://thepcspy.com/read/making-ssh-secure/ : security : ssh : ubuntu
@@ -11369,12 +11382,13 @@ https://vimeo.com/98653191 : video : vimeo
 https://virtuelle-belle.medium.com/pentiment-and-fantastic-16th-century-polyhedrons-ed4a89597e64 : geometry : history : medieval_history : pentiment
 https://visualgo.net/en : algorithm : visualisation
 https://visualizationcheatsheets.github.io/ : HCI : UI : cheat_sheet : design : github : visualisation
+https://visualrambling.space/dithering-part-1/ : dithering
 https://vitals.lifehacker.com/what-you-re-really-agreeing-to-when-you-sign-up-for-23a-1828034397 : 23_and_me : beth_skwarecki : data : ethics : life_hack : privacy : surveillance
 https://vitalzigns.itch.io/gdd : document : game_design : template
 https://vividness.live/2015/10/12/developing-ethical-social-and-cognitive-competence/ : __important : adult_development : ai : cognition : competence : david_chapman : robert_kegan
 https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/ : __important : ai : ai_gaming : game_ai : humour : master_list : research : reward_functions
 https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters : economics : paul_niehaus : randomised_controlled_trials : scale : voxdev
-https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters?utm_source=dlvr.it&utm_medium=twitter : economics : paul_niehaus : randomised_controlled_trials : scale : scaling : voxdev
+https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters : economics : paul_niehaus : randomised_controlled_trials : scale : scaling : voxdev
 https://vr.ebay.com.au/ : ebay : store : virtual_reality
 https://vtimofeenko.com/posts/practical-nix-flake-anatomy-a-guided-tour-of-flake.nix/ : nix : nix_flake
 https://vuejs.org/v2/guide/ : javascript : libraries : vue_js : web_design : web_development
@@ -11812,10 +11826,9 @@ https://www.artstation.com/timrazumovsky : art : artstation : israel : retro : s
 https://www.aspietests.org/index.php : aspie_tests : autism
 https://www.atariarchives.org/adventure/ : archive : atari : game_development : interactive_fiction : programming : tim_hartnell
 https://www.atlasobscura.com/articles/colonial-india-british-hedge-salt-tax : atlas_obscura : hedge : india : sarah_laskow : tax
-https://www.atlasobscura.com/articles/colonial-india-british-hedge-salt-tax?utm_medium=atlas-page&utm_source=twitter : atlas_obscura : hedge : history : india : salt : sarah_laskow : tax
 https://www.atlasobscura.com/articles/exploring-myst-25-years-later : atlas_obscura : evan_nicole_brown : games : myst : retrospective
-https://www.atlasobscura.com/places/sacred-cat-rug?utm_source=twitter&utm_medium=atlas-page : cat_hair : furniture : history : rug : sacred_objects : villa_zorayda_museum
-https://www.atlasobscura.com/places/the-american-museum-of-cutlery?utm_medium=atlas-page&utm_source=twitter : atlas_obscura : cutlery : history : museum
+https://www.atlasobscura.com/places/sacred-cat-rug : cat_hair : furniture : history : rug : sacred_objects : villa_zorayda_museum
+https://www.atlasobscura.com/places/the-american-museum-of-cutlery : atlas_obscura : cutlery : history : museum
 https://www.atlassian.com/git/tutorials/dotfiles : atlassian : best_practices : dotfiles : linux : tutorial
 https://www.attackmagazine.com/features/long-read/assessing-social-medias-impact-in-electronic-music/ : attack_magazine : electronic_music : electronica : music : social_media
 https://www.attrs.org/en/stable/index.html : __come_back_to : attrs : library : programming : python
@@ -11899,13 +11912,13 @@ https://www.blog.radiator.debacle.us/2019/11/practical-primer-to-using-unity.htm
 https://www.blogs.hss.ed.ac.uk/pubs-and-publications/2017/03/31/phdandadhd/ : ADHD : blog : phd : research
 https://www.bloomberg.com/amp/view/articles/2018-04-05/supply-and-demand-does-a-poor-job-of-explaining-depressed-wages : bloomberg : economics : economics_failures : job_market : supply_demand
 https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/ : bloomberg : coding : essay : paul_ford : programming : software_development
-https://www.bloomberg.com/graphics/2019-can-renewable-energy-power-the-world/?utm_source=twitter&utm_medium=social&utm_campaign=socialflow-organic&utm_content=business&cmpid=socialflow-twitter-business : bloomberg : capitalism : climate_change : visualisation
+https://www.bloomberg.com/graphics/2019-can-renewable-energy-power-the-world/ : bloomberg : capitalism : climate_change : visualisation
 https://www.bloomberg.com/news/articles/2016-10-25/insider-trading-stories-in-toon-town : animation : economics : finance : law : social_system
 https://www.bloomberg.com/news/articles/2017-04-11/sorry-america-your-taxes-aren-t-high : bloomberg : tax
 https://www.bloomberg.com/news/articles/2017-04-21/the-world-s-advanced-economies-should-think-twice-about-curbing-migration : bloomberg : migration
 https://www.bloomberg.com/news/articles/2017-11-25/all-about-the-cfpb-washington-s-new-flashpoint-quicktake-q-a : CFPB : bloomberg : finance
 https://www.bloomberg.com/news/articles/2019-05-23/kushner-cos-gets-800-million-federally-backed-apartment-loan : berkadia : bloomberg : caleb_melby : corruption : david_kocieniewski : jared_kushner : maryland : virginia
-https://www.bloomberg.com/news/articles/2019-10-08/behind-the-puppet-secrets-to-the-killer-plants-of-little-shop-of-horrors?utm_medium=social&utm_source=twitter&utm_campaign=socialflow-organic&cmpid=socialflow-twitter-business&utm_content=business : bloomberg : little_shop_of_horrors : puppets
+https://www.bloomberg.com/news/articles/2019-10-08/behind-the-puppet-secrets-to-the-killer-plants-of-little-shop-of-horrors : bloomberg : little_shop_of_horrors : puppets
 https://www.bloomberg.com/news/articles/2019-11-18/professor-wrote-laundering-book-then-washed-millions-u-s-says : bloomberg : bob_van_voris : bruce_bagley : financial_crime : miami : money_laundering : venezuela
 https://www.bloomberg.com/news/articles/2020-01-29/health-records-company-pushed-opioids-to-doctors-in-secret-deal : bloomberg : emma_court : health_care : opioid : opioid_epidemic
 https://www.bloomberg.com/news/articles/2023-07-08/texas-heat-dome-shows-prisons-aren-t-ready-for-climate-change-extreme-weather : air_conditioning : climate_change : human_rights : prison : texas
@@ -11922,7 +11935,7 @@ https://www.bls.gov/tus/ : ATUS : census : statistics : time_use
 https://www.blueprincegame.com/ : blue_prince : game : puzzle
 https://www.boredpanda.com/clams-measure-water-quality-poland-fat-kathy/ : bored_panda : clams : judita_k : poland : water_quality
 https://www.boredpanda.com/environmental-pollution-overdevelopment-overpopulation-overshoot-global-population-speakout/ : boredpanda : climate_change : environment : overpopulation
-https://www.boredpanda.com/environmental-pollution-overdevelopment-overpopulation-overshoot-global-population-speakout/?utm_source=bing&utm_medium=organic&utm_campaign=organic : boredpanda : climate_change : environment : overpopulation
+https://www.boredpanda.com/environmental-pollution-overdevelopment-overpopulation-overshoot-global-population-speakout/ : boredpanda : climate_change : environment : overpopulation
 https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/ : dungeon_generation : enter_the_gungeon : procedural_content
 https://www.bostonfed.org/publications/one-time-pubs/color-of-wealth.aspx : boston : duke_university : economics : race : racism : the_color_of_wealth
 https://www.bostonglobe.com/metro/2019/03/06/boston-truly-looking-out-for-immigrants-not-this-case/YgAvgeue6fYZxC7h3wJJ9J/story.html : ICE : boston : immigration : racism
@@ -12055,17 +12068,17 @@ https://www.chronicle.com/article/The-New-PhD/248038?key=6GN5vbBTWeO_wOewtnTLTmK
 https://www.chronicle.com/article/the-scholarly-skill-almost-no-one-is-teaching : education : peer_review : scholarship
 https://www.chronicle.com/interactives/20190418-black-academic?key=mi0Bff1vaLHL09_no2Emg0jXycbW_etPyHW1K9c397pNOaagmYH7750bivyYCU2mNFJyUkNsTXlZc1NKN21Gd0hYN0hHcDhkUkN4bmlrVVVpLWZmc2ZDOWhlUQ&fbclid=IwAR1bwaBC3LXBxy4XDVPLNIAd8KQt_nPe6y_araYLt0CnDcaGwzGD8IoI1ko : academia : black : chronicle_higher_ed : racism
 https://www.ciad-lab.fr/nicolas_gaud/ : MAS : nicolas_gaud : person : sarl
-https://www.cigionline.org/platforms?utm_source=twitter&utm_medium=social&utm_campaign=platforms : governance_innovation : platform_governance : research : social_media
+https://www.cigionline.org/platforms : governance_innovation : platform_governance : research : social_media
 https://www.cisa.gov/resources-tools/resources/types-software-bill-materials-sbom : CISA : SBOM : software_engineering
-https://www.citylab.com/design/2019/08/zoning-ordinance-definition-history-explained-city-laws/594913/?utm_content=edit-promo&utm_term=2019-08-06T13%3A29%3A45&utm_medium=social&utm_source=twitter&utm_campaign=citylab : city_lab : taxonomy : urban_design : zoning
-https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/?utm_term=2019-09-06T21%3A38%3A14&utm_content=edit-promo&utm_source=twitter&utm_campaign=citylab&utm_medium=social : cartography : darran_anderson : maps : northern_ireland
+https://www.citylab.com/design/2019/08/zoning-ordinance-definition-history-explained-city-laws/594913/ : city_lab : taxonomy : urban_design : zoning
+https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/ : cartography : darran_anderson : maps : northern_ireland
 https://www.citylab.com/environment/2019/01/detroit-tree-planting-programs-white-environmentalism-research/579937/ : brentin_mock : city_lab : detroit : shade : tree : trees : urban_design
 https://www.citylab.com/equity/2019/03/housing-rent-landlords-poverty-desmond-inequality-research/585265/ : city_lab : exploitation : housing : inequality : landlord : poverty : rent
-https://www.citylab.com/equity/2019/03/housing-rent-landlords-poverty-desmond-inequality-research/585265/?utm_medium=social&utm_content=edit-promo&utm_campaign=citylab&utm_term=2019-03-29T21%3A02%3A08&utm_source=twitter : city_lab : exploitation : housing : inequality : landlord : poverty : rent
-https://www.citylab.com/equity/2019/09/the-trouble-with-americas-water/597898/?utm_campaign=citylab&utm_medium=social&utm_term=2019-09-16T12%3A19%3A05&utm_source=twitter&utm_content=edit-promo : city_lab : flint : lead : lead_pipes : olga_khazan : urban_design : water
+https://www.citylab.com/equity/2019/03/housing-rent-landlords-poverty-desmond-inequality-research/585265/ : city_lab : exploitation : housing : inequality : landlord : poverty : rent
+https://www.citylab.com/equity/2019/09/the-trouble-with-americas-water/597898/ : city_lab : flint : lead : lead_pipes : olga_khazan : urban_design : water
 https://www.citylab.com/life/2018/11/black-panther-wakanda-golden-city-hannah-beachler-interview/574420/ : __important : black_panthers : city : city_lab : fruitvale_station : hannah_beacher : nicole_flatow : technology : urban_design : wakanda
 https://www.citylab.com/transportation/2018/08/how-america-killed-transit/568825/ : __important : america : city : city_lab : jonathan_english : mass_transit : public_transport : urban_design
-https://www.citylab.com/transportation/2019/08/commute-time-city-size-transportation-urban-planning-history/597055/?utm_term=2019-09-03T13%3A45%3A32&utm_content=edit-promo&utm_campaign=citylab&utm_medium=social&utm_source=twitter : city_lab : commuting : history : industrial_revolution : public_transport : urban_design
+https://www.citylab.com/transportation/2019/08/commute-time-city-size-transportation-urban-planning-history/597055/ : city_lab : commuting : history : industrial_revolution : public_transport : urban_design
 https://www.citymetric.com/fabric/do-british-cities-have-grid-systems-we-used-science-find-out-4084 : UK : america : city_metric : data_visualisation : grid_systems : map : metrics : orientations
 https://www.citymetric.com/politics/i-ranked-every-uk-constituency-deprivation-and-then-coloured-them-party-affiliation-fun : UK : city_metric : deprivation : metrics : poverty : visualisation
 https://www.citymetric.com/politics/these-maps-show-how-hard-it-measure-inequality-english-council-areas-4529?fbclid=IwAR3GwgJQoGJOScFqk7ZEnJrapSbQHgDSGk_4cr_aFGMlnEcvqbHRzviqNTE : UK : __important : city_metric : economics : inequality : map : maps : politics
@@ -12170,7 +12183,7 @@ https://www.dailyprogress.com/news/politics/virginians-split-on-governor-s-fate-
 https://www.dailytelegraph.com.au/news/altright-activist-lauren-southerns-visa-rejected-on-eve-of-australian-tour/news-story/3a6a2cc36a0fcec59da5b1bebfcfed6a : australia : dailytelegraph : lauren_southern : visa : white_supremacy
 https://www.dair-institute.org/ : ai : ai_ethics : dair : distributed_ai : timnit_gebru
 https://www.dallasnews.com/news/crime/2017/11/06/they-re-all-shot-one-sutherland-springs-family-loses-three-members-in-church-shooting/ : gun_violence : journalism : lauren_mcgaughy : mass_shooting : sutherland_springs
-https://www.dallasnews.com/news/politics/2019/10/23/cornyn-not-a-bad-idea-to-get-us-troops-out-of-the-way-if-turkey-planned-to-ethnically-cleanse-the-kurds/?utm_content=buffer5b18b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer : dallas_morning_news : ethnic_cleansing : john_cornyn : kurds : republicans : syria : trump : turkey
+https://www.dallasnews.com/news/politics/2019/10/23/cornyn-not-a-bad-idea-to-get-us-troops-out-of-the-way-if-turkey-planned-to-ethnically-cleanse-the-kurds/ : dallas_morning_news : ethnic_cleansing : john_cornyn : kurds : republicans : syria : trump : turkey
 https://www.dallasnews.com/news/politics/2022/03/10/foster-girls-whod-been-victims-of-sex-trafficking-endured-fresh-abuse-at-state-shelter-report-says/ : child_abuse : dallas : foster_care : journalism : texas
 https://www.dan-mumford.com/theres-nothing-to-fear/ : art : dan_mumford
 https://www.danielsays.com/ssg-win9xme-cd6.html : archive : history : software
@@ -12237,7 +12250,7 @@ https://www.duchas.ie/en/aath : database : duchas : folk_tale : ireland
 https://www.duolingo.com/ : language
 https://www.dw.com/en/german-neo-nazi-doomsday-prepper-network-ordered-body-bags-made-kill-lists/a-49410494 : body_bags : dw : germany : neo_nazi : racism
 https://www.eater.com/2020/4/16/21224012/quarantine-trend-growing-scallions-vegetables-jars-water-kitchen-scraps : agriculture : covid_19 : eater : food : jenny_zhang : quarantine : scallions : vegetables
-https://www.ebony.com/news/community-outraged-after-police-shoot-3-children-in-the-head/?utm_medium=social&utm_source=facebook.com&utm_content=still&fbclid=IwAR39ucBFakwIp74EP-XqgBjcSVHezyKlGuwRPIIc41uKpNza5hleEZrBE88&fbclid=IwAR2rTFtgWGsLQj_Llc6r84Rs9llqIsRZ-hZXqcV_bXXo4Fv-ZLkPU-Z_ehE : child : children : ebony : hugo : oklahoma : police_violence : racism
+https://www.ebony.com/news/community-outraged-after-police-shoot-3-children-in-the-head/ : child : children : ebony : hugo : oklahoma : police_violence : racism
 https://www.economist.com/blogs/graphicdetail/2017/11/daily-chart-20 : child_care : data : economist
 https://www.economist.com/books-and-arts/2018/12/08/lessons-from-the-fall-of-a-great-republic : book_review : economist : history : rome : wealth_inequality
 https://www.economist.com/books-and-arts/2019/06/22/chinas-grand-gloomy-sci-fi-is-going-global : china : economist : sci_fi : science_fiction : three_body_problem
@@ -12287,9 +12300,9 @@ https://www.esquire.com/news-politics/a23471864/devin-nunes-family-farm-iowa-cal
 https://www.esquire.com/news-politics/politics/a25224334/sherrod-brown-stolen-election-georgia-brian-kemp-chuck-todd/ : election_stealing : esquire
 https://www.esquire.com/news-politics/politics/a29830552/racial-discrimination-real-estate-long-island-newsday/ : charles_pierce : discrimination : esquire : housing : race
 https://www.essence.com/news/federal-judge-blocks-mississippi-fetal-heartbeat-bill/ : abortion : carlton_reeves : essence : forced_birth : kirsten_west_savali : law : mississippi
-https://www.etsy.com/listing/703004121/river-otter-necklace-handcrafted?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=otter&ref=sr_gallery-4-44&organic_search_click=1&frs=1&col=1&source=aw&awc=6091_1573785407_19f26c37c8b0bd65385c704318588165&utm_source=affiliate_window&utm_medium=affiliate&utm_campaign=uk_location_buyer&utm_content=510667&utm_term=137027 : etsy : otters
+https://www.etsy.com/listing/703004121/river-otter-necklace-handcrafted : etsy : otters
 https://www.etsy.com/uk/listing/1476470190/my-other-bag-is-a-primordial-pouch : cat : etsy
-https://www.etsy.com/uk/listing/501082832/otter-ring-holder-significant-otter?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&source=aw&awc=6091_1568302193_46a205cd5038a4c1d4b5aafc34d3ff85&utm_source=affiliate_window&utm_medium=affiliate&utm_campaign=uk_location_buyer&utm_content=510667&utm_term=137027 : etsy : otters
+https://www.etsy.com/uk/listing/501082832/otter-ring-holder-significant-otter : etsy : otters
 https://www.eurogamer.net/articles/2014-02-23-down-the-replay-rabbit-hole : eurogamer : game_design : replayable_narrative : richard_cobbett
 https://www.eurogamer.net/articles/2018-06-18-horror-shooter-overwhelm-earns-its-capital-letters : __come_back_to : christian_donlan : eurogamer : game : games : review
 https://www.eurogamer.net/articles/2019-02-12-the-impossible-architecture-of-video-games#comments : city_17 : eurogamer : ewan_wilson : games : impossible_architecture : valve
@@ -12316,7 +12329,7 @@ https://www.fastcompany.com/3066008/these-apocalyptic-maps-show-the-holes-income
 https://www.fastcompany.com/3066290/how-ai-can-help-keep-ocean-fisheries-sustainable : discrimination : finance : pornography : sex : stoya
 https://www.fastcompany.com/90202172/why-bad-technology-dominates-our-lives-according-to-don-norman : don_norman : fast_company : people : technology
 https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival : ciara_bryne : fast_company : fastcompany : poverty : privacy : surveillance : wealth_inequality
-https://www.fastcompany.com/90373954/done-with-facebook-and-twitter-heres-how-to-start-your-own-private-social-network?partner=rss&utm_source=twitter.com&utm_medium=social&utm_campaign=rss+fastcompany&utm_content=rss : darius_kazemi : facebook : fast_company : private_alternatives : technology : twitter
+https://www.fastcompany.com/90373954/done-with-facebook-and-twitter-heres-how-to-start-your-own-private-social-network : darius_kazemi : facebook : fast_company : private_alternatives : technology : twitter
 https://www.fastcompany.com/90422553/the-first-map-of-americas-food-supply-chain-is-mind-boggling : USA : agriculture : cartography : fast_company : food_chain : food_supply_chain : map : megan_konar : university_of_illinois
 https://www.fastcompany.com/90605031/the-toll-of-codeswitching-and-the-tyranny-of-culture-fit?partner=rss : code_switching : culture_fit : fastcompany : kathleen_davis
 https://www.fathommag.com/stories/when-the-church-listens-to-the-hard-of-hearing : church : deaf : disability : fathon
@@ -12353,7 +12366,7 @@ https://www.forbes.com/sites/davidanderson/2019/04/30/the-lore-of-lost-cities-im
 https://www.forbes.com/sites/francescoppola/2019/06/30/the-real-threat-from-facebooks-libra-coin/#446a9a861dc5 : cryptocurrency : digital_identity : facebook : forbes : frances_coppola : libra_coin : surveillance
 https://www.forbes.com/sites/kalevleetaru/2019/07/26/the-encryption-debate-is-over-dead-at-the-hands-of-facebook/ : encryption : facebook : forbes : kalev_leetaru : whatsapp
 https://www.forbes.com/sites/kenrapoza/2016/01/28/immigrants-fleeing-increasingly-violent-latin-america-study-suggests/ : forbes : latin_america : migration : violence
-https://www.forbes.com/sites/meganbruneau/2016/08/31/4-strategies-for-lowering-anxiety-in-any-situation-and-performing-like-a-boss/?utm_source=TWITTER&utm_medium=social&utm_term=Malorie/#6d616c6f7269 : anxiety : forbes
+https://www.forbes.com/sites/meganbruneau/2016/08/31/4-strategies-for-lowering-anxiety-in-any-situation-and-performing-like-a-boss/ : anxiety : forbes
 https://www.forbes.com/sites/melissabrinks/2018/10/02/a-year-of-playing-the-world-showcases-game-developments-diversity-and-culture/ : culture : forbes : game : games : johanna_pirker : melissa_brinks : playing_the_world
 https://www.forbes.com/sites/sarahjeong/2014/10/28/surveillance-begins-at-home/#611572c07f41 : forbes : privacy : sarah_jeong : surveillance
 https://www.forbes.com/sites/startswithabang/2018/09/21/the-physics-of-why-timekeeping-first-failed-in-the-americas/ : forbes : history : physics : time
@@ -12367,6 +12380,7 @@ https://www.foxnews.com/us/florida-man-ends-standoff-after-police-offer-him-pizz
 https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village : fox_news : israel : palestine : propaganda
 https://www.franckbohbot.com/ : art : franckbohbot : photography
 https://www.frauncestavernmuseum.org/events-calendar/2019/11/23/evacuation-day-walking-tour : evacuation_day : fraunces_tavern_museum : history
+https://www.freecodecamp.org/news/set-semantic-versioning-for-net/ : dotnet : semantic_version : version
 https://www.friend.com/index.html : LLM : absurd : llm : tech
 https://www.frontiersin.org/journals/psychology : academia : journal : psychology
 https://www.fstar-lang.org/ : dependent_types : f_star : functional_programming : programming : proof_search : type_system
@@ -12415,7 +12429,7 @@ https://www.gamedeveloper.com/production/how-darkest-dungeon-ii-s-developers-evo
 https://www.gamedeveloper.com/programming : game_development : programming
 https://www.gamedeveloperstudio.com/graphics/ : assets : graphics : image
 https://www.gamefaqs.com/pc/699808-the-witcher-3-wild-hunt/faqs/73353 : game : script : transcript : witcher
-https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx?utm_content=bufferbe277&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer : a_place_for_the_unwilling : cody_mello_klein : game_development : game_informer : games : h_p_lovecraft
+https://www.gameinformer.com/games/a_place_for_the_unwilling/b/pc/archive/2017/11/29/lovecraft-majoras-mask-and-dickens-combine-in-this-indie-narrative-adventure.aspx : a_place_for_the_unwilling : cody_mello_klein : game_development : game_informer : games : h_p_lovecraft
 https://www.gamesradar.com/games/rpg/darkwebstreamer-is-a-narrative-roguelike-that-interrogates-the-voyeuristic-horror-fan-in-us-all/ : adventure_game : darkwebSTREAMER : game_development : roguelike
 https://www.gao.gov/ : GAO : resource
 https://www.gaslampgames.com/2015/04/15/smart-objects-or-everything-i-know-about-ai-i-stole-from-the-sims/ : __come_back_to : ai : clockwork_empires : gaslamp_games : programming : smart_objects : the_sims
@@ -12497,7 +12511,7 @@ https://www.govtrack.us/congress/bills/115/hr4174 : gov_track : h_r_4174 : law :
 https://www.govtrack.us/congress/votes/88-1964/s409 : USA : civil_rights : government : history
 https://www.govtrack.us/sousveillance : congress : data_analysis : government : privacy : surveillance
 https://www.gpo.gov/ : document : government : government_publishing_office : resource
-https://www.gq.com/story/anti-semitism-political-shield?utm_brand=gq&mbid=social_twitter&utm_medium=social&utm_social-type=owned&utm_source=twitter : anti_semitism : gq : jewish : politics : talia_lavin : trump
+https://www.gq.com/story/anti-semitism-political-shield : anti_semitism : gq : jewish : politics : talia_lavin : trump
 https://www.gq.com/story/what-ever-happened-to-brendan-fraser : brendan_fraser : gq : sexual_assault
 https://www.greenfoot.org/frames/ : GUI : UI : __important : design : frame : greenfoot : programming
 https://www.gridsagegames.com/blog/ : blog : game_development : grid_sage_games : gridsagegames : rogue_like
@@ -12540,10 +12554,10 @@ https://www.historytoday.com/catherine-baker/monstrous-regiment : gender : histo
 https://www.hmalegal.com/blawg/comelegally : DACA : franz_kafka : hma_law : immigration : law : legality : undocumented_immigration
 https://www.hollywoodreporter.com/news/everybody-is-freaking-freelance-writers-scramble-make-sense-new-california-law-1248195 : USA : california : freelance : hollywood_reporter : law : policy : regulation
 https://www.hollywoodreporter.com/news/wildfires-rising-crime-fuel-las-gated-community-craze-1163999 : LA : dystopia : firefighting : gated_community : hollywood_reporter : privatisation : wealth_inequality : wild_fire
-https://www.hollywoodreporter.com/race/austrias-oscars-2020-entry-joy-disqualified-international-feature-competition-1253759?utm_source=twitter&utm_medium=social : awards : film : hollywood_reporter : oscars
+https://www.hollywoodreporter.com/race/austrias-oscars-2020-entry-joy-disqualified-international-feature-competition-1253759 : awards : film : hollywood_reporter : oscars
 https://www.homeless.org.uk/facts/homelessness-in-numbers/rough-sleeping/rough-sleeping-our-analysis : UK : austerity : charity : homelessness : poverty : resource
 https://www.horg.com/horg/ : holotypic_occlupanid : taxonomy
-https://www.houstonchronicle.com/news/houston-texas/houston/article/Galveston-police-apologize-for-photo-of-14282778.php?utm_campaign=CMS%20Sharing%20Tools%20(Premium)&utm_source=t.co&utm_medium=referral : USA : galveston : houston : houston_chronicle : julian_gill : nick_powell : police_violence : racism
+https://www.houstonchronicle.com/news/houston-texas/houston/article/Galveston-police-apologize-for-photo-of-14282778.php : USA : galveston : houston : houston_chronicle : julian_gill : nick_powell : police_violence : racism
 https://www.houstonchronicle.com/news/houston-texas/houston/article/HISD-principal-sets-dress-code-for-parents-13786830.php : dress_code : education : houston : houston_chronicle : parents : school : texas
 https://www.houstonchronicle.com/news/investigations/article/Southern-Baptist-sexual-abuse-spreads-as-leaders-13588038.php : christianity : houston_chronicle : john_tedesco : lise_olsen : religion : robert_downen : sexual_abuse : southern_baptist
 https://www.houstonchronicle.com/opinion/editorials/article/Mounting-evidence-shows-Texas-made-a-mistake-by-13064679.php : ACA : houston_chronicle : medicaid : politics : texas
@@ -12625,7 +12639,7 @@ https://www.independent.co.uk/news/uk/home-news/benefit-sanctions-universal-cred
 https://www.independent.co.uk/news/uk/home-news/facial-recognition-london-inaccurate-met-police-trials-a8898946.html : UK : facial_recognition : independent : lizzie_dearden : london : privacy : surveillance : technology
 https://www.independent.co.uk/news/uk/home-news/home-office-migrants-locked-room-human-right-day-exercise-detention-centres-refugees-brook-house-a8058486.html : UK : home_office : human_rights : independent : migration
 https://www.independent.co.uk/news/uk/home-news/new-variant-covid-mask-rules-b2395154.html : covid
-https://www.independent.co.uk/news/uk/home-news/shana-grice-murder-stalking-police-sussex-a8862611.html?utm_medium=Social&utm_source=Twitter#Echobox=1554875451 : UK : abuse : domestic_violence : flora_thompson : independent : police : shana_grice
+https://www.independent.co.uk/news/uk/home-news/shana-grice-murder-stalking-police-sussex-a8862611.html : UK : abuse : domestic_violence : flora_thompson : independent : police : shana_grice
 https://www.independent.co.uk/news/uk/politics/brexit-mps-vote-against-including-european-fundamental-rights-charter-in-uk-law-a8162981.html : UK : brexit : eu_human_rights : independent : politics : tory
 https://www.independent.co.uk/news/world/americas/alabama-abortion-ban-rape-victims-rapists-parental-rights-a8951751.html : abortion : alabama : alice_crites : emily_wax_thibodeaux : forced_birth : independent : julie_tate : parental_rights : rape : sexual_abuse
 https://www.independent.co.uk/news/world/americas/black-man-prison-serve-five-years-ramad-chatman-georgia-prison-not-guilty-probation-broke-terms-jail-a7744326.html : law : prison : racism
@@ -12985,7 +12999,7 @@ https://www.nber.org/papers/w23698 : citation : economics : paper
 https://www.nber.org/papers/w24003 : standard_errors : statistics
 https://www.nber.org/papers/w24303 : cash_transfer : economics : generational_wealth : mexico
 https://www.nber.org/papers/w24819 : black_youth : drug_war : economics
-https://www.nber.org/papers/w25863?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg6 : abortion : economics : research
+https://www.nber.org/papers/w25863 : abortion : economics : research
 https://www.ncameron.org/blog/how-the-rls-works/ : __come_back_to : blog : language_server_protocol : lsp : rust
 https://www.ncbi.nlm.nih.gov/m/pubmed/11639423/ : anthropology : research : social_theory : topology
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963310/ : dentistry : extraction : molars : public_health : research : wisdom_teeth
@@ -13012,7 +13026,7 @@ https://www.neh.gov/article/forgotten-suffragists : USA : history : humanities :
 https://www.news5cleveland.com/news/local-news/investigations/county-jail/video-shows-2-cuyahoga-co-jail-officers-beat-inmate-in-restraint-chair : cleveland : cuyahoga : ian_cross : jail : nicholas_evans : police_violence : timothy_dugan : video
 https://www.news5cleveland.com/news/local-news/we-follow-through/abortion-access-is-protected-in-ohio-now-what : GOP : abortion : fascism : ohio
 https://www.newschannel5.com/news/nypd-officer-accused-of-breaking-in-nashville-familys-home-using-racial-slur : NYPD : abuse : michael_reynolds : nashville : police_violence : racism
-https://www.newscientist.com/article/2206211-ais-seem-to-be-much-worse-at-recognising-objects-from-poorer-countries/?utm_term=Autofeed&utm_medium=SOC&utm_source=Twitter#Echobox=1560371892 : ai : bias : data : luc_forsyth : new_scientist
+https://www.newscientist.com/article/2206211-ais-seem-to-be-much-worse-at-recognising-objects-from-poorer-countries/ : ai : bias : data : luc_forsyth : new_scientist
 https://www.newspapers.com/clip/27019989/rapid_city_journal/ : 1935 : archive : clippings : green_new_deal : history : journal : newspaper : rapid_city : resource
 https://www.newstatesman.com/2017/11/how-can-liberalism-be-blame-everything-when-we-cant-even-agree-what-it : definition : john_elledge : liberalism : new_statesman
 https://www.newstatesman.com/culture/tv-radio/2019/03/line-duty-about-systems-and-structures-doesn-t-make-it-realistic : __come_back_to : james_cooray_smith : line_of_duty : new_statesman : newstatesman : structure : systems : tv
@@ -13026,16 +13040,16 @@ https://www.newsweek.com/florida-authorities-seize-rocket-launcher-and-pipe-bomb
 https://www.newsweek.com/france-protests-police-strike-gilets-jaunes-yellow-vests-pay-overtime-1264961 : 2018 : france : newsweek : police : protest : yellow_jackets
 https://www.newsweek.com/martin-luther-king-jr-was-not-always-popular-back-day-780387 : approval : history : martin_luther_king : newsweek : polling : racism
 https://www.newsweek.com/richard-pickett-periods-prison-menstrual-maine-law-representative-1367450 : GOP : katherine_highnett : misogyny : newsweek : prison : women
-https://www.newsweek.com/richard-pickett-periods-prison-menstrual-maine-law-representative-1367450?utm_source=Twitter&utm_medium=Social&utm_campaign=NewsweekTwitter : GOP : katherine_highnett : misogyny : newsweek : prison : women
+https://www.newsweek.com/richard-pickett-periods-prison-menstrual-maine-law-representative-1367450 : GOP : katherine_highnett : misogyny : newsweek : prison : women
 https://www.newsweek.com/russia-american-bill-browder-poisoning-lawyer-putin-1221857 : newsweek : politics : russia
 https://www.newsweek.com/texas-muslim-republicans-tarrant-county-shahid-shafi-1285867 : dorrie_o_brien : islamophobia : newsweek : nicole_goodkind : racism : republicans : texas
 https://www.newtimesslo.com/sanluisobispo/cambria-landowners-file-petition-and-complaint-against-slo-county-ccsd/Content?oid=6121449 : SLO_county : california : cambria : new_times_slo : resource : water
 https://www.newyorker.com/books/second-read/hamlet-on-the-holodeck-twenty-years-later/amp : hamlet_on_the_holodeck : janet_murray : new_yorker : retrospective
 https://www.newyorker.com/culture/annals-of-inquiry/the-coronavirus-and-our-future : covid_19 : imagination : kim_stanley_robinson : new_yorker : sci_fi
 https://www.newyorker.com/culture/culture-desk/what-we-learn-from-one-of-the-worlds-oldest-board-games : board_game : new_yorker : samanth_subramanian
-https://www.newyorker.com/culture/essay/clarence-thomass-radical-vision-of-race?source=EDT_NYR_EDIT_NEWSLETTER_0_imagenewsletter_Daily_ZZ&utm_campaign=aud-dev&utm_source=nl&utm_brand=tny&utm_mailing=TNY_Daily_091019&utm_medium=email&bxid=5bd676433f92a41245ddf151&cndid=37894005&esrc=&mbid=CRMNYR062419&utm_term=TNY_Daily : SCOTUS : clarence_thomas : new_yorker
+https://www.newyorker.com/culture/essay/clarence-thomass-radical-vision-of-race : SCOTUS : clarence_thomas : new_yorker
 https://www.newyorker.com/culture/persons-of-interest/an-anthropologist-investigates-how-we-think-about-how-we-think : anthropology : ceridwen_dovey : emily_martin : meta_cognition : new_yorker
-https://www.newyorker.com/culture/photo-booth/karl-ove-knausgaard-on-stephen-gills-bird-images-in-the-pillar?utm_source=twitter&utm_medium=social&mbid=social_twitter&utm_brand=tny&utm_social-type=owned : birds : karl_ove_knausgaard : new_yorker : photographs
+https://www.newyorker.com/culture/photo-booth/karl-ove-knausgaard-on-stephen-gills-bird-images-in-the-pillar : birds : karl_ove_knausgaard : new_yorker : photographs
 https://www.newyorker.com/humor/daily-shouts/i-am-the-algorithm/amp : algorithm : fiction : new_yorker : society
 https://www.newyorker.com/humor/daily-shouts/l-p-d-libertarian-police-department : fiction : libertarian : new_yorker : police : tom_odonnell
 https://www.newyorker.com/magazine/2011/02/07/crush-point : crowd : crush : new_yorker
@@ -13084,9 +13098,9 @@ https://www.npr.org/2018/12/30/680994535/nancy-grace-roman-mother-of-hubble-spac
 https://www.npr.org/2019/06/09/731115388/not-too-little-too-late-unfinished-gaud-basilica-gets-permit-137-years-later : 137_years : NPR : architecture : barcelona : basilica : building : construction : gabriela_saldiva : spain
 https://www.npr.org/2019/06/21/734467280/a-noir-stalwart-builds-a-new-old-world-in-the-grand-dark : NPR : book : grand_dark : recommendation : richard_kadrey
 https://www.npr.org/2019/07/02/738131948/after-6-year-battle-florida-couple-wins-the-right-to-plant-veggies-in-front-yard : NPR : florida : gardening : gardens : hermine_ricketts : homeowners_association : laurel_wamsley : tom_carroll
-https://www.npr.org/2019/09/12/752341188/when-school-safety-becomes-school-surveillance?utm_source=twitter.com&utm_term=nprnews&utm_campaign=npr&utm_medium=social : NPR : anya_kamenetz : education : privacy : school_shootings : surveillance
+https://www.npr.org/2019/09/12/752341188/when-school-safety-becomes-school-surveillance : NPR : anya_kamenetz : education : privacy : school_shootings : surveillance
 https://www.npr.org/2019/09/23/762028606/chanel-miller-says-know-my-name-as-she-reflects-on-her-assault-by-brock-turner : NPR : brock_turner : chanel_miller : rape : sexual_assault : stanford
-https://www.npr.org/2019/10/07/767850332/a-pioneering-columbus-courtroom-helps-trafficking-victims-find-hope?utm_source=twitter.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=202907 : NPR : drug_war : judiciary : ohio : paige_pfleger : prohibition
+https://www.npr.org/2019/10/07/767850332/a-pioneering-columbus-courtroom-helps-trafficking-victims-find-hope : NPR : drug_war : judiciary : ohio : paige_pfleger : prohibition
 https://www.npr.org/2020/12/23/949679837/shock-and-dismay-after-trump-pardons-blackwater-guards-who-killed-14-iraqi-civil : NPR : blackwater : dustin_heard : evan_liberty : journalism : laurel_wamsley : nicholas_slatten : paul_slough : trump : war_crimes
 https://www.npr.org/2021/02/15/967783477/immigration-hard-liner-files-reveal-40-year-bid-behind-trumps-census-obsession?t=1615146790051 : NPR : census : hansi_lo_wang : immigration : racism : trump
 https://www.npr.org/2022/04/01/1090206447/dc-police-find-5-fetuses-lauren-handy : abortion : anti_abortion : lauren_handy : washington_dc
@@ -13096,12 +13110,12 @@ https://www.npr.org/sections/ed/2018/04/04/590887226/persistent-disparities-in-s
 https://www.npr.org/sections/goatsandsoda/2018/02/03/579283921/chinas-toilet-revolution-is-flush-with-lavish-loos : NPR : china : sanitation : toilets
 https://www.npr.org/sections/goatsandsoda/2018/10/03/631892291/why-infanticide-is-a-problem-in-senegal?t=1539818181165 : NPR : abortion : infanticide : pro_choice : senegal
 https://www.npr.org/sections/goatsandsoda/2018/11/09/666209430/deaths-from-gun-violence-how-the-u-s-compares-with-the-rest-of-the-world : NPR : USA : comparison : country : gun_violence
-https://www.npr.org/sections/goatsandsoda/2019/09/20/762764826/how-to-design-a-female-friendly-toilet?utm_term=nprnews&utm_medium=social&utm_source=twitter.com&utm_campaign=npr : NPR : toilets : urban_design
+https://www.npr.org/sections/goatsandsoda/2019/09/20/762764826/how-to-design-a-female-friendly-toilet : NPR : toilets : urban_design
 https://www.npr.org/sections/health-shots/2016/11/03/500549503/male-birth-control-study-killed-after-men-complain-about-side-effects : NPR : birth_control : sexism
-https://www.npr.org/sections/health-shots/2018/02/26/587735283/lost-art-of-bending-over-how-other-cultures-spare-their-spines?utm_medium=social&utm_campaign=npr&utm_source=twitter.com&utm_term=nprnews : NPR : health_care : michaeleen_doucleff : posture
+https://www.npr.org/sections/health-shots/2018/02/26/587735283/lost-art-of-bending-over-how-other-cultures-spare-their-spines : NPR : health_care : michaeleen_doucleff : posture
 https://www.npr.org/sections/health-shots/2018/07/04/625784687/the-other-victims-first-responders-to-violent-disasters-often-suffer-alone?t=1534969470138 : america : first_responders : psychology : trauma
 https://www.npr.org/sections/health-shots/2019/03/11/702348935/study-finds-racial-gap-between-who-causes-air-pollution-and-who-breathes-it : NPR : jonathan_lambert : pollution : public_health : race : racism : study
-https://www.npr.org/sections/health-shots/2019/07/10/739925186/years-after-sexual-assault-survivors-hounded-to-pay-bills-for-the-rape-kit-exam?utm_campaign=storyshare&utm_source=twitter.com&utm_medium=social : NPR : debt_collection : michelle_andrews : sexual_assault
+https://www.npr.org/sections/health-shots/2019/07/10/739925186/years-after-sexual-assault-survivors-hounded-to-pay-bills-for-the-rape-kit-exam : NPR : debt_collection : michelle_andrews : sexual_assault
 https://www.npr.org/sections/itsallpolitics/2013/03/08/173747689/senate-mostly-blamed-for-agency-and-court-vacancies-but-obama-isnt-helping : GOP : judiciary : obstruction : politics : vacancies
 https://www.npr.org/sections/thesalt/2019/11/16/779930201/eat-like-the-ancient-babylonians-researchers-cook-up-nearly-4-000-year-old-recip : NPR : anthropology : archaeology : babylon : maria_godoy : peter_breslow : scott_simon
 https://www.npr.org/sections/thetwo-way/2011/08/11/139536686/pa-judge-sentenced-to-28-years-in-massive-juvenile-justice-bribery-scandal : NPR : bribery : corruption : judiciary : pennsylvania : prison : racism : slavery
@@ -13290,6 +13304,7 @@ https://www.nytimes.com/interactive/2022/11/18/world/middleeast/extreme-heat.htm
 https://www.nytimes.com/interactive/2023/07/13/opinion/politics/student-loan-payments-resume.html?referringSource=articleShare : nyt : student_loans
 https://www.nytimes.com/spotlight/financial-crisis-10-year-anniversary : 2008 : financial_crisis : mortgage_crisis : new_york_times
 https://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=12178217 : new_zealand : nzherald : police : prostitutes_collective
+https://www.octave.org/ : gnu : matlab : octave
 https://www.oculusvr.com/order/ : oculus : shopping
 https://www.offlineimap.org/documentation.html : emacs : email : offlineimap
 https://www.oge.gov/web/oge.nsf/All%20Documents/42B6D9A20F98978285258434006EA875?opendocument : ethics : executive_branch : government_ethics : questionnaire : report : trump
@@ -13318,7 +13333,7 @@ https://www.opengl-tutorial.org/miscellaneous/math-cheatsheet/ : math : open_gl
 https://www.opengl.org/sdk/docs/man2/ : c_plus_plus : graphics : open_gl : programming
 https://www.openphilanthropy.org/blog/reasonable-doubt-new-look-whether-prison-growth-cuts-crime : crime : politics : prison : study
 https://www.openpolicyagent.org/ : kubernetes : open_policy_agent : policy : programming_langauge : programming_language : protocol
-https://www.opensecrets.org/news/2019/06/trump-foreign-business-interests/#utm_source=twitter&utm_medium=social&utm_campaign=twitt_trump-foreign-business-interests-060419 : anna_massoglia : business : corruption : karl_evers_hillstrom : open_secrets : trump
+https://www.opensecrets.org/news/2019/06/trump-foreign-business-interests/ : anna_massoglia : business : corruption : karl_evers_hillstrom : open_secrets : trump
 https://www.opensocietyfoundations.org/ : george_soros : open_society_foundations
 https://www.openstarts.units.it/dspace/bitstream/10077/5211/1/Evans_E%26P_XI_2009_1.pdf : logic : pdf : richard_evans
 https://www.openthegovernment.org/node/5713 : DHS : child : kirstjen_nielsen : migration : open_the_government : trump
@@ -13450,6 +13465,7 @@ https://www.practicedrawingthis.com/cgi-bin/index.cgi : drawing : tutorial
 https://www.preceden.com/ : gantt_charts : timeline : timelines
 https://www.presentandcorrect.com/ : art : design : present_and_correct
 https://www.presentandcorrect.com/blogs/blog/czechoslovakian-folk-toys-1951 : czechoslovakia : history : toys
+https://www.presentandcorrect.com/blogs/blog/fenton-label-co-inc-1940 : history : labels : present_and_correct
 https://www.presentandcorrect.com/blogs/blog/the-function-of-colour-in-schools-hospitals-1930 : interior_design : present_and_correct
 https://www.prettygooddesign.org/blog/Blog%20Post%20Title%20One-5new4?fbclid=IwAR1MfNmMK0FQnhWKQzzQfBAD2XXfvo2fNvqrnNaNuJ33_-5lOahvX2wrJ6E : children : discussion : education : pretty_good_design : racism : resource
 https://www.pri.org/stories/2017-08-14/three-ways-trump-administration-has-downplayed-white-supremacy : pri : trump : white_supremacy
@@ -13457,7 +13473,7 @@ https://www.pri.org/stories/2017-10-03/why-oklahomas-female-incarceration-rate-s
 https://www.prisonpolicy.org/global/2018.html : USA : incarceration
 https://www.probabilitycourse.com/preface.php : math : probability : statistics
 https://www.programmableweb.com/category/News%20Services/apis?category=20250 : api
-https://www.programming-idioms.org/ : idiom : programming
+https://www.programming-idioms.org/ : idiom : idioms : programming
 https://www.proofwiki.org/wiki/Main_Page : math : proof : reference : wiki
 https://www.propublica.org/article/6-year-old-separated-from-his-father-tells-judge-he-wants-to-go-home : 6_year_old : ICE : eva_moravec : fabrizio_salvador : immigration_court : law : propublica
 https://www.propublica.org/article/alabama-sheriffs-undermine-successors-after-losing-reelection : alabama : corruption : election : elections : law_enforcement : propublica
@@ -13493,7 +13509,7 @@ https://www.propublica.org/article/why-manafort-and-cohen-thought-theyd-get-away
 https://www.propublica.org/nerds/item/authenticating-email-using-dkim-and-arc-how-we-analyzed-the-kasowitz-email : authentication : email : propublica
 https://www.prospectmagazine.co.uk/philosophy/dialect-quiz-shibboleths-northern-ireland-language-darran-anderson : dialect : prospect : shibboleth : speech
 https://www.publicapis.com/ : api : programming : technical
-https://www.publicbooks.org/invisible-algorithms-invisible-politics/?utm_content=buffer42bed&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer : algorithm : laura_forlano : politics : public_books : technology
+https://www.publicbooks.org/invisible-algorithms-invisible-politics/ : algorithm : laura_forlano : politics : public_books : technology
 https://www.publicmedievalist.com/race-fantasy-genre/ : analysis : criticism : fantasy : paul_sturtevant : public_medievalist : questionable : race : racism
 https://www.pureref.com/ : image : pureref : workspace
 https://www.pyinvoke.org/ : invoke : python : shell : task_runner
@@ -13555,7 +13571,7 @@ https://www.reddit.com/r/IAmA/comments/433mgv/im_erka_koivunen_a_finnish_cyberse
 https://www.reddit.com/r/LateStageCapitalism/comments/69vz1b/what_have_unions_ever_done_for_you/ : comic : unions
 https://www.reddit.com/r/LateStageCapitalism/comments/74r0jj/today_in_lsc_paytosit_antihomeless_benches_wspikes/ : anti_patterns : art : homelessness : reddit
 https://www.reddit.com/r/LifeProTips/comments/5qgxgk/lpt_how_to_fact_check_and_avoid_fake_news/ : reasoning
-https://www.reddit.com/r/MapPorn/comments/c3kokt/british_lighthouse_chart_1874/?utm_source=dlvr.it&utm_medium=twitter : lighthouses : map : maps : reddit
+https://www.reddit.com/r/MapPorn/comments/c3kokt/british_lighthouse_chart_1874/ : lighthouses : map : maps : reddit
 https://www.reddit.com/r/Python/comments/1bbbwk/whats_your_opinion_on_what_to_include_in_init_py/ : best_practices : init_py : programming : python : reddit : software_engineering
 https://www.reddit.com/r/REGames/comments/fgv1ag/help_with_viva_pinata_files/?rdt=41438 : reddit : viva_pinata
 https://www.reddit.com/r/Showerthoughts/comments/3uabld/browsing_netflix_has_become_like_opening_the/ : reddit : shower_thoughts
@@ -13828,7 +13844,7 @@ https://www.rstreet.org/2021/02/15/the-case-against-restricting-voting-access/ :
 https://www.rust-lang.org/en-US/ : programming_language : reference : rust
 https://www.ryojiikeda.com/ : abstract : art : minimalism
 https://www.saaspegasus.com/guides/modern-javascript-for-django-developers/javascript-tooling/ : best_practices : guide : javascript : software_engineering : tooling : web_development
-https://www.sacbee.com/opinion/editorials/article229681409.html?utm_content=buffer8ab06&utm_medium=social&utm_source=twitter&utm_campaign=buffer : california : death_penalty : editorial : fresno : gavin_newsom : police_violence : prison : prison_reform : sacramento_bee
+https://www.sacbee.com/opinion/editorials/article229681409.html : california : death_penalty : editorial : fresno : gavin_newsom : police_violence : prison : prison_reform : sacramento_bee
 https://www.sacred-texts.com/index.htm : archive : database : religion : sacred_texts
 https://www.safaribooksonline.com/library/view/c-cookbook/0596007612/ch04s07.html : book : c_plus_plus : cookbook
 https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch04s21.html : book : cookbook : python
@@ -14435,24 +14451,24 @@ https://www.technologyreview.com/s/609131/fiction-that-gets-ai-right/amp/ : ai :
 https://www.technologyreview.com/s/611806/how-social-media-took-us-from-tahrir-square-to-donald-trump/ : arab_spring : cultural_analysis : social_media : tahrir_square : technology : trump : zeynep_tufekci
 https://www.technologyreview.com/s/613508/ai-fairer-than-judge-criminal-risk-assessment-algorithm/ : __important : ai : bias : explorable : mit_tech_review
 https://www.technologyreview.com/s/613578/ai-algorithms-liability-human-blame/ : ai_ethics : algorithm : history : karen_hao : safety
-https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/?utm_campaign=the_download.unpaid.engagement&utm_source=hs_email&utm_medium=email&utm_content=73419330&_hsenc=p2ANqtz-_bEFSwiNCaX2ewrkLJMvV6uqgEPuDv9EaDkl2ulug1XcyiDfE6ni0TOY6OWvbNpExPMpxFIHKWB8UZ8zA-hi55UyLMLQ&_hsmi=73419330 : carbon_footprint : deep_learning : environment : karen_hao : machine_learning : technology_review
-https://www.technologyreview.com/s/614487/meet-americas-newest-military-giant-amazon/?utm_campaign=site_visitor.unpaid.engagement&utm_medium=tr_social&utm_source=Twitter#Echobox=1571417258 : amazon : military : mit_tech_review
-https://www.technologyreview.com/s/614572/political-war-memes-disinformation/?utm_campaign=site_visitor.unpaid.engagement&utm_source=twitter&utm_medium=social_share&utm_content=2019-11-04 : history : joan_donovan : meme : mit_tech_review : propaganda
+https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/ : carbon_footprint : deep_learning : environment : karen_hao : machine_learning : technology_review
+https://www.technologyreview.com/s/614487/meet-americas-newest-military-giant-amazon/ : amazon : military : mit_tech_review
+https://www.technologyreview.com/s/614572/political-war-memes-disinformation/ : history : joan_donovan : meme : mit_tech_review : propaganda
 https://www.techofnote.com/witness-part-1 : SMT : __come_back_to : logic : puzzle : smt : solving : the_witness : z3
 https://www.techrepublic.com/article/how-sephora-is-leveraging-ar-and-ai-to-transform-retail-and-help-customers-buy-cosmetics/ : ai : cosmetics : diversity : engineering : makeup : retail : sephora : tech_republic : women
 https://www.techtimes.com/articles/240280/20190326/new-study-proves-trees-are-crucial-in-keeping-cities-cool.htm : cities : city : climate_change : tech_times : tree : trees : urban_design
 https://www.teenvogue.com/story/bert-and-ernie-sesame-street-gay : LGBTQ : bert_and_ernie : sesame_street : teen_vogue : tv_show
 https://www.teenvogue.com/story/eighth-grade-elsie-fisher-on-anxiety : anxiety : elsie_fisher : internet : teen_vogue
-https://www.teenvogue.com/story/electoral-college-slavery-three-fifths-compromise-history?utm_social-type=owned&mbid=social_twitter&utm_source=twitter&utm_medium=social&utm_brand=tv : USA : electoral_college : history : maya_francis : racism : teen_vogue : three_fifths_compromise
-https://www.teenvogue.com/story/fred-hampton-black-panthers-rainbow-coalition-poor-americans?utm_source=twitter&utm_medium=social&mbid=social_twitter&utm_social-type=owned&utm_brand=tv : black_panthers : fred_hampton : history : poverty : tana_ganeva : teen_vogue
+https://www.teenvogue.com/story/electoral-college-slavery-three-fifths-compromise-history : USA : electoral_college : history : maya_francis : racism : teen_vogue : three_fifths_compromise
+https://www.teenvogue.com/story/fred-hampton-black-panthers-rainbow-coalition-poor-americans : black_panthers : fred_hampton : history : poverty : tana_ganeva : teen_vogue
 https://www.teenvogue.com/story/how-i-survived-9-11-attacks-nyc : 9_11 : history : new_york : teen_vogue
-https://www.teenvogue.com/story/i-was-21-the-first-time-i-asked-to-have-my-tubes-tied?utm_medium=social&utm_source=twitter&utm_brand=tv&mbid=social_twitter&utm_social-type=owned : doctors : liv_mcconnell : reproductive_health : teen_vogue
+https://www.teenvogue.com/story/i-was-21-the-first-time-i-asked-to-have-my-tubes-tied : doctors : liv_mcconnell : reproductive_health : teen_vogue
 https://www.teenvogue.com/story/lgbtq-institute-in-germany-was-burned-down-by-nazis : 1933 : LGBTQ : book_burning : germany : nazis : teen_vogue : transgender
 https://www.teenvogue.com/story/sonia-sotomayor-supreme-court-justice-inspires-latinx-law-students : SCOTUS : hispanic : latinx : law : sonia_sotomayor : teen_vogue
 https://www.teenvogue.com/story/teen-essay-microaggressions-viral/amp : micro_aggressions : racism : teen_vogue
-https://www.teenvogue.com/story/what-capitalism-is?utm_source=twitter&utm_social-type=owned&utm_brand=tv&mbid=social_twitter&utm_medium=social : capitalism : kim_kelly : teen_vogue
+https://www.teenvogue.com/story/what-capitalism-is : capitalism : kim_kelly : teen_vogue
 https://www.teenvogue.com/story/who-is-karl-marx : history : karl_marx : teen_vogue
-https://www.teenvogue.com/story/who-is-karl-marx?utm_brand=tv&mbid=social_twitter&utm_social-type=owned&utm_source=twitter&utm_medium=social : history : karl_marx : teen_vogue
+https://www.teenvogue.com/story/who-is-karl-marx : history : karl_marx : teen_vogue
 https://www.telegraph.co.uk/technology/2019/06/19/amazon-drones-could-used-spy-home-spot-intruders-patent-reveals/ : drone : james_cook : privacy : surveillance : telegraph
 https://www.telegraph.co.uk/women/life/gender-neutral-bathrooms-womens-prisons-time-trans-people-carried/ : ID_cards : UK : david_thomas : politics : telegraph : trans_phobia
 https://www.tensorflow.org/tutorials/mnist/beginners/ : deep_learning : machine_learning : mnist : programming : python : tensorflow : tutorial
@@ -14491,11 +14507,11 @@ https://www.theatlantic.com/amp/article/563396/ : detransition : the_atlantic : 
 https://www.theatlantic.com/business/archive/2014/05/which-states-are-givers-and-which-are-takers/361668/ : red_vs_blue : states : tax : the_atlantic
 https://www.theatlantic.com/education/archive/2019/04/adjunct-professors-higher-education-thea-hunter/586168/ : academia : adam_harris : adjunct : atlantic : manhattan : thea_hunter : work
 https://www.theatlantic.com/education/archive/2019/07/colleges-are-shutting-down-and-yankton-was-precursor/593809/ : alia_wong : education : missouri : prison : south_dakota : the_atlantic : yankton_college
-https://www.theatlantic.com/entertainment/archive/2019/04/surveillance-science-fiction-colonializing-force/587863/?utm_content=edit-promo&utm_term=2019-04-30T11%3A00%3A12&utm_medium=social&utm_campaign=the-atlantic&utm_source=twitter : dark_constellations : lily_meyer : namwali_serpell : old_drift : pola_oloixarac : privacy : sci_fi : science_fiction : surveillance : the_atlantic
+https://www.theatlantic.com/entertainment/archive/2019/04/surveillance-science-fiction-colonializing-force/587863/ : dark_constellations : lily_meyer : namwali_serpell : old_drift : pola_oloixarac : privacy : sci_fi : science_fiction : surveillance : the_atlantic
 https://www.theatlantic.com/entertainment/archive/2019/06/jazzercise-50-years-women-fitness-culture-judi-sheppard-missett/591349/ : 1979 : fitness : history : jazzercise : natalia_mehlman_petrzela : the_atlantic : women
 https://www.theatlantic.com/family/archive/2018/12/smart-home-devices-data-privacy/578425/ : atlantic : commodification : internet_of_things : monetization
 https://www.theatlantic.com/family/archive/2019/03/the-secret-jehovahs-witness-database-of-child-molesters/584311/ : abuse : atlantic : child : child_abuse : children : hypocrisy : jehovahs_witnesses : religion
-https://www.theatlantic.com/family/archive/2019/10/my-miscarriages-shouldnt-be-taboo/600307/?utm_source=twitter&utm_medium=social&utm_campaign=share : amy_webb : miscarriage : pregnancy : the_atlantic
+https://www.theatlantic.com/family/archive/2019/10/my-miscarriages-shouldnt-be-taboo/600307/ : amy_webb : miscarriage : pregnancy : the_atlantic
 https://www.theatlantic.com/health/archive/2015/10/emergency-room-wait-times-sexism/410515/ : atlantic : health_care : joe_fassler : pain : sexism : women
 https://www.theatlantic.com/health/archive/2018/08/acupuncture-heroin-addiction/566393/ : 1970s : acupuncture : black_panthers : new_york : racism
 https://www.theatlantic.com/health/archive/2019/07/microwaves-eternal-promise/593767/ : amanda_mull : food : microwave : technology : the_atlantic
@@ -14521,7 +14537,7 @@ https://www.theatlantic.com/international/archive/2018/01/trump-and-el-salvador/
 https://www.theatlantic.com/international/archive/2018/07/artificial-intelligence-religion-atheism/565076/ : ai : atheism : research : social_science : the_atlantic
 https://www.theatlantic.com/international/archive/2018/12/donald-trump-deport-vietnam-war-refugees/577993/ : ethnic_cleansing : immigration : law : refugees : trump : vietnam
 https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/ : __important : atlantic : ayla_jean_yackley : economy : groceries : istanbul : recep_erdogan : turkey
-https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/?utm_term=2019-03-25T15%3A39%3A08&utm_content=edit-promo&utm_campaign=the-atlantic&utm_medium=social&utm_source=twitter : __important : atlantic : ayla_jean_yackley : economy : groceries : istanbul : recep_erdogan : turkey
+https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/ : __important : atlantic : ayla_jean_yackley : economy : groceries : istanbul : recep_erdogan : turkey
 https://www.theatlantic.com/international/archive/2019/05/hindu-nationalism-narendra-modi-india-election/590053/ : hinduism : india : narendra_modi : politics : the_atlantic
 https://www.theatlantic.com/magazine/archive/2017/03/how-to-build-an-autocracy/513872/ : politics : social_system : the_atlantic : trump
 https://www.theatlantic.com/magazine/archive/2017/04/making-athens-great-again/517791/ : greece : history : politics : the_atlantic
@@ -14530,7 +14546,7 @@ https://www.theatlantic.com/magazine/archive/2018/07/when-the-next-plague-hits/5
 https://www.theatlantic.com/magazine/archive/2018/10/yuval-noah-harari-technology-tyranny/568330/ : politics : technology : the_atlantic : tyranny
 https://www.theatlantic.com/magazine/archive/2019/03/active-shooter-drills-erika-christakis/580426/ : 2019 : USA : active_shooter_drills : erika_christakis : gun_control : mental_health : school_shootings : the_atlantic
 https://www.theatlantic.com/magazine/archive/2019/04/adam-serwer-madison-grant-white-nationalism/583258/ : USA : america : history : politics : racism : white_nationalism : white_supremacy
-https://www.theatlantic.com/magazine/archive/2019/05/the-trouble-with-dentistry/586039/?utm_source=facebook&utm_medium=social&utm_campaign=wired&utm_content=edit-swap&mbid=social_fb&utm_brand=wired&utm_social-type=owned&fbclid=IwAR28fYXPwWAT0U08SRHMwdax6yj5Kjf-jqC4fYjIPwYtYuWZTdGxgfsXJu8 : dentistry : the_atlantic
+https://www.theatlantic.com/magazine/archive/2019/05/the-trouble-with-dentistry/586039/ : dentistry : the_atlantic
 https://www.theatlantic.com/magazine/archive/2019/08/the-radical-case-for-teaching-kids-stuff/592765/ : USA : education : natalie_wexler : the_atlantic
 https://www.theatlantic.com/magazine/archive/2019/12/the-things-we-cant-face/600769/ : abortion : caitlin_flanagan : dishonesty : the_atlantic
 https://www.theatlantic.com/magazine/archive/2020/06/underlying-conditions/610261/ : USA : atlantic : covid_19 : failed_state : george_packer : politics : trump
@@ -14554,7 +14570,7 @@ https://www.theatlantic.com/science/archive/2017/01/cepi-vaccines/513335/ : dise
 https://www.theatlantic.com/science/archive/2017/05/that-time-the-tsa-found-a-scientists-3d-printed-mouse-penis/527673/ : TSA : humour : science : the_atlantic
 https://www.theatlantic.com/science/archive/2018/10/horsepox-smallpox-virus-science-ethics-debate/572200/ : ethical_tech : ethics : research : safety : science : the_atlantic : virus
 https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/ : science : the_atlantic
-https://www.theatlantic.com/science/archive/2019/05/medieval-people-were-already-ruining-fish/589837/?utm_medium=social&utm_content=edit-promo&utm_term=2019-05-21T12%3A05%3A11&utm_source=twitter&utm_campaign=the-atlantic : ecosystem : fish : history : lorraine_boissoneault : medieval : ordinance : regulation : the_atlantic
+https://www.theatlantic.com/science/archive/2019/05/medieval-people-were-already-ruining-fish/589837/ : ecosystem : fish : history : lorraine_boissoneault : medieval : ordinance : regulation : the_atlantic
 https://www.theatlantic.com/sexes/archive/2012/12/the-real-complex-connection-between-single-parent-families-and-crime/265860/ : atlantic : crime : single_parent
 https://www.theatlantic.com/technology/archive/2011/08/how-governments-deal-with-social-media/243288/ : atlantic : government : regulation : social_media
 https://www.theatlantic.com/technology/archive/2012/03/how-do-you-cite-a-tweet-in-an-academic-paper/253932/ : citation : the_atlantic : twitter
@@ -14637,7 +14653,7 @@ https://www.theguardian.com/commentisfree/2018/may/08/how-white-women-use-strate
 https://www.theguardian.com/commentisfree/2018/nov/02/guardian-editorial-response-transgender-rights-uk : UK : guardian : trans_phobia
 https://www.theguardian.com/commentisfree/2018/sep/15/welfare-was-meant-to-help-the-poor-not-subsidise-exploitative-employers : guardian : labour : politics : subsidies : welfare
 https://www.theguardian.com/commentisfree/2019/apr/28/regulating-facebook-will-be-one-of-the-greatest-challenges-in-human-history?CMP=share_btn_tw : facebook : guardian : opinion : regulation : siva_vaidhyanathan : social_media
-https://www.theguardian.com/commentisfree/2019/jun/14/homophobic-attack-bus-outrage-media-white?CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1560527533 : LGBTQ : guardian : homophobia : london : violence
+https://www.theguardian.com/commentisfree/2019/jun/14/homophobic-attack-bus-outrage-media-white : LGBTQ : guardian : homophobia : london : violence
 https://www.theguardian.com/commentisfree/2019/mar/31/trans-day-of-visibility-swimming-pool : guardian : owl_fisher : swimming : transgender
 https://www.theguardian.com/commentisfree/2019/mar/31/trans-day-of-visibility-swimming-pool?CMP=twt_gu : guardian : owl_fisher : swimming : trans : transgender
 https://www.theguardian.com/commentisfree/2019/nov/07/firehosing-the-systemic-strategy-that-anti-vaxxers-are-using-to-spread-misinformation : RAND : anti_vax : christopher_paul : guardian : health_care : lucky_tran : miriam_matthews : policy : propaganda
@@ -14674,7 +14690,7 @@ https://www.theguardian.com/news/audio/2019/may/30/historical-war-crimes-an-amne
 https://www.theguardian.com/news/datablog/2009/nov/24/dna-database-national-police-forces : DNA : data : database : guardian : police : privacy : surveillance
 https://www.theguardian.com/news/datablog/2012/jul/22/gun-homicides-ownership-world-list : guardian : gun_ownership : gun_violence : statistics
 https://www.theguardian.com/politics/2019/jul/14/journalist-stuart-collier-boris-johnson-phone-call-darius-guppy-demands-apology : UK : boris_johnson : guardian : politics : simon_murphy : stuart_collier
-https://www.theguardian.com/politics/2019/oct/23/decriminalise-drug-possession-to-stop-rising-deaths-say-mps?CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1571824153 : UK : decriminalisation : drug_war : guardian : jamie_grierson : member_of_parliament : politics
+https://www.theguardian.com/politics/2019/oct/23/decriminalise-drug-possession-to-stop-rising-deaths-say-mps : UK : decriminalisation : drug_war : guardian : jamie_grierson : member_of_parliament : politics
 https://www.theguardian.com/science/brain-flapping/2013/mar/19/myers-briggs-test-unscientific : blog : dean_burnett : debunking : guardian : myers_briggs : psychology : science
 https://www.theguardian.com/society/2016/jan/12/tories-reject-move-to-ensure-rented-homes-fit-for-human-habitation : guardian : policy : rent
 https://www.theguardian.com/society/2016/oct/28/arrogance-poverty-social-housing-benefits-ken-loach-i-daniel-blake-unrealistic : criticism : film : guardian : politics : poverty : social_system
@@ -14686,7 +14702,7 @@ https://www.theguardian.com/society/2018/dec/01/everything-must-go-what-next-for
 https://www.theguardian.com/society/2018/jul/22/universal-credit-it-system-broken-service-centre-whistleblowers-say : guardian : universal_credit
 https://www.theguardian.com/society/2018/mar/25/universal-credit-self-employed-benefit-slash : guardian : universal_credit
 https://www.theguardian.com/society/2018/nov/06/universal-credit-surge-in-food-bank-use-trussell-trust : guardian : universal_credit
-https://www.theguardian.com/society/2019/dec/28/domestic-violence-kills-15-times-as-many-as-terrorism-in-britain?utm_term=Autofeed&CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1577540060 : UK : domestic_violence : guardian : jamie_doward : murder : observation
+https://www.theguardian.com/society/2019/dec/28/domestic-violence-kills-15-times-as-many-as-terrorism-in-britain : UK : domestic_violence : guardian : jamie_doward : murder : observation
 https://www.theguardian.com/society/2019/jan/01/foundling-museum-london-bedrooms-exhibition-highlights-child-poverty : UK : bedrooms : child : guardian : poverty
 https://www.theguardian.com/society/2020/feb/07/dwp-benefit-related-suicide-numbers-not-true-figure-says-watchdog-nao?CMP=share_btn_tw : DWP : UK : disability : guardian : patrick_butler : politics : suicide : welfare
 https://www.theguardian.com/society/shortcuts/2018/jan/29/one-in-50-of-us-is-face-blind-and-many-dont-even-realise : face_blind : guardian : prosopagnosia : psychology
@@ -14701,10 +14717,10 @@ https://www.theguardian.com/uk-news/2016/jul/06/chilcot-offered-chance-for-polit
 https://www.theguardian.com/uk-news/2017/mar/16/what-happens-when-queen-elizabeth-dies-london-bridge : UK : royalty : social_system : the_queen : tradition
 https://www.theguardian.com/uk-news/2018/dec/07/police-to-stop-passing-on-immigration-status-of-victims : UK : crime : guardian : immigration : police : xenophobia
 https://www.theguardian.com/uk-news/2018/may/05/trump-team-hired-spy-firm-dirty-ops-iran-nuclear-deal : guardian : iran : israel : julian_borger : mark_townsend : news : spying : trump
-https://www.theguardian.com/uk-news/2019/may/18/figures-reveal-true-extent-of-police-misconduct-foi?utm_term=Autofeed&CMP=twt_b-gdnnews&utm_medium=Social&utm_source=Twitter#Echobox=1558220992 : UK : chaminda_jayanetti : england : guardian : observation : police : police_violence : sexual_assault : statistics : wales
-https://www.theguardian.com/uk-news/2019/nov/01/dizzying-maze-uk-immigration-system-hostile-environment?CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1572608722 : UK : guardian : hostile_environment : immigration : maya_goodfellow
+https://www.theguardian.com/uk-news/2019/may/18/figures-reveal-true-extent-of-police-misconduct-foi : UK : chaminda_jayanetti : england : guardian : observation : police : police_violence : sexual_assault : statistics : wales
+https://www.theguardian.com/uk-news/2019/nov/01/dizzying-maze-uk-immigration-system-hostile-environment : UK : guardian : hostile_environment : immigration : maya_goodfellow
 https://www.theguardian.com/uk-news/2019/nov/23/windrush-bin-shed-britain-jamaica-deportation?CMP=Share_AndroidApp_Tweet : UK : diane_taylor : guardian : hostile_environment : immigration : roy_harrison : tory : windrush
-https://www.theguardian.com/uk-news/2020/feb/05/home-office-told-to-act-as-detainees-unable-to-contact-lawyers?utm_term=Autofeed&CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1580934264 : amelia_gentleman : damien_gayle : guardian : home_office : hostile_environment : immigration : politics
+https://www.theguardian.com/uk-news/2020/feb/05/home-office-told-to-act-as-detainees-unable-to-contact-lawyers : amelia_gentleman : damien_gayle : guardian : home_office : hostile_environment : immigration : politics
 https://www.theguardian.com/uk-news/2020/feb/12/home-office-tells-man-101-his-parents-must-confirm-id?CMP=Share_iOSApp_Other : UK : angela_giuffrida : giovanni_palmiero : guardian : home_office : hostile_environment : immigration : lisa_o_carroll : politics
 https://www.theguardian.com/uk-news/2020/mar/01/i-thought-i-might-die-man-left-in-cell-for-four-days-with-broken-ankle : UK : diane_taylor : guardian : home_office : hostile_environment : human_rights : immigration : lionel_shaw : torture
 https://www.theguardian.com/uk/2013/may/20/police-retain-dna-thousands-children : DNA : child : genetics : guardian : police : privacy : surveillance : vikram_dodd
@@ -14717,7 +14733,7 @@ https://www.theguardian.com/us-news/2018/feb/09/christians-only-town-bay-view-mi
 https://www.theguardian.com/us-news/2018/jul/20/muslim-terror-attacks-press-coverage-study : alabama : guardian : headlines : media : muslim : news : terrorism
 https://www.theguardian.com/us-news/2018/sep/07/imprisoned-by-algorithms-the-dark-side-of-california-ending-cash-bail : algorithm : america : bail : california : guardian : law : legal_system : racism
 https://www.theguardian.com/us-news/2019/may/01/republican-matt-shea-rightwing-rally-guns?CMP=Share_iOSApp_Other : GOP : civil_war : guardian : jason_wilson : matt_shea : violence : washington_state
-https://www.theguardian.com/us-news/2019/oct/24/summer-zervos-trump-sexual-assault-claims-documents-evidence?utm_term=Autofeed&CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1571957070 : guardian : politics : sexual_assault : summer_zervos : trump
+https://www.theguardian.com/us-news/2019/oct/24/summer-zervos-trump-sexual-assault-claims-documents-evidence : guardian : politics : sexual_assault : summer_zervos : trump
 https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump?CMP=share_btn_tw : USA : detention : emily_kassie : guardian : immigration : politics : racism
 https://www.theguardian.com/us-news/2020/feb/07/chuck-sims-africa-move-9-freed-philadelphia?CMP=share_btn_tw : MOVE9 : chuck_sims_africa : ed_pilkington : guardian : history : pennsylvania : racism
 https://www.theguardian.com/us-news/2020/jan/26/ice-us-immigration-child-longest-held-in-us?CMP=share_btn_tw : ICE : USA : alexandra_villarreal : child_abuse : detention : guardian : immigration : politics : trump
@@ -14738,10 +14754,10 @@ https://www.theguardian.com/world/2018/oct/23/bong-arm-of-the-law-south-korea-sa
 https://www.theguardian.com/world/2019/apr/20/matt-shea-rightwing-messages-chat-records : far_right : guardian : jason_wilson : matt_shea : violence
 https://www.theguardian.com/world/2019/feb/25/un-court-rejects-uk-claim-to-sovereignty-over-chagos-islands : chagos : guardian : law : owen_bowcott : politics
 https://www.theguardian.com/world/2019/jan/14/german-train-delay-scarf-ebay-commute : delay : ebay : germany : guardian : knitting : scarf : trains
-https://www.theguardian.com/world/2019/jul/29/ethiopia-plants-250m-trees-in-a-day-to-help-tackle-climate-crisis?utm_source=dlvr.it&utm_medium=twitter : climate_change : ethiopia : guardian
-https://www.theguardian.com/world/2019/nov/07/quebec-law-banning-religious-symbols-derails-womens-careers?utm_term=Autofeed&CMP=twt_gu&utm_medium=&utm_source=Twitter#Echobox=1573125697 : bill_21 : canada : guardian : islamophobia : quebec : religion : tracey_lindeman
+https://www.theguardian.com/world/2019/jul/29/ethiopia-plants-250m-trees-in-a-day-to-help-tackle-climate-crisis : climate_change : ethiopia : guardian
+https://www.theguardian.com/world/2019/nov/07/quebec-law-banning-religious-symbols-derails-womens-careers : bill_21 : canada : guardian : islamophobia : quebec : religion : tracey_lindeman
 https://www.theguardian.com/world/2019/nov/08/matt-shea-republican-far-right-leaked-chats-washington-state?CMP=share_btn_tw : GOP : bigotry : guardian : james_allsup : jason_wilson : matt_shea : signal : washington_state : white_supremacy
-https://www.theguardian.com/world/2020/jan/15/mobile-phones-cause-tumours-italian-court-rules-defiance-evidence?utm_term=Autofeed&CMP=twt_b-gdnnews&utm_medium=Social&utm_source=Twitter#Echobox=1579113493 : angele_giuffrida : health : italy : judiciary : law : mobile_phones : rome : science
+https://www.theguardian.com/world/2020/jan/15/mobile-phones-cause-tumours-italian-court-rules-defiance-evidence : angele_giuffrida : health : italy : judiciary : law : mobile_phones : rome : science
 https://www.theguardian.com/world/2020/mar/11/disease-dodging-worried-wealthy-jet-off-to-disaster-bunkers : USA : bunkers : covid_19 : guardian : pandemic : rubert_neate : wealth_inequality
 https://www.theguardian.com/world/2023/dec/09/civilian-toll-israeli-airstrikes-gaza-unprecedented-killing-study : gaza : israel : terrorism : zionism
 https://www.thehastingscenter.org/our-system-for-reporting-child-abuse-is-unethical/ : USA : bio_ethics : child_abuse : ethics : mandated_reporting
@@ -14783,7 +14799,7 @@ https://www.thenewatlantis.com/publications/why-data-is-never-raw : bias : data 
 https://www.theneweuropean.co.uk/ : UK : europe : journalism : new_european : politics
 https://www.theneweuropean.co.uk/top-stories/matt-kelly-says-theresa-may-is-a-disgrace-to-the-office-of-prime-minister-1-5853727 : 2019 : UK : brexit : matt_kelly : new_european : politics : teresa_may
 https://www.theonion.com/mcdonalds-unveils-new-senior-citizen-playplace-1819572886 : humour : mcdonalds : onion : seniors
-https://www.theonion.com/mcdonalds-unveils-new-senior-citizen-playplace-1819572886?utm_medium=SocialMarketing&utm_source=Twitter&utm_campaign=SF&utm_content=Main : humour : mcdonalds : onion : seniors
+https://www.theonion.com/mcdonalds-unveils-new-senior-citizen-playplace-1819572886 : humour : mcdonalds : onion : seniors
 https://www.theparisreview.org/blog/2017/02/15/rhythmical-lines/ : art : geometric_patterns : line : paris_review : patterns : rhythm : sarah_cowan
 https://www.theparisreview.org/blog/2017/11/20/art-monstrous-men/ : abuse : art : paris_review : philosophy : sexual_abuse
 https://www.theparisreview.org/blog/2019/07/16/the-crane-wife/ : cj_hauser : crane_wife : paris_review : relationship
@@ -14893,7 +14909,7 @@ https://www.uu.nl/en/research/game-research/research/publications : academia : g
 https://www.vam.ac.uk/blog/digital/visualising-the-royal-photographic-society-collection : __important : olivia_vane : photography : research : visualisation
 https://www.vanityfair.com/news/2008/04/gaza200804?verso=true : 2008 : david_rose : gaza : israel : palestine : vanityfair
 https://www.vanityfair.com/news/2018/09/trump-has-the-iq-of-an-inbred-tanning-bed-says-gary-cohn : IQ : america : bess_levin : gary_cohn : politics : trump : vanityfair
-https://www.vanityfair.com/news/2019/10/the-mystery-of-the-trump-chaos-trades?utm_source=twitter&utm_medium=social&utm_campaign=onsite-share&utm_brand=vanity-fair&utm_social-type=earned : corruption : stock_market : trump : vanityfair : wall_street
+https://www.vanityfair.com/news/2019/10/the-mystery-of-the-trump-chaos-trades : corruption : stock_market : trump : vanityfair : wall_street
 https://www.vanityfair.com/news/2022/10/don-bolduc-calls-embryo-disposal-disgusting-practice : GOP : IVF : abortion : don_boulduc : fascism
 https://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html : canon_law : law : religion : vatican
 https://www.vatican.va/content/vatican/en.html : religion : rome : vatican
@@ -14925,10 +14941,10 @@ https://www.vice.com/en_us/article/evj3w4/his-trans-sister-was-murdered-then-his
 https://www.vice.com/en_us/article/k7epv3/dwarf-fortress-guilds-dwarves-unionizing : dwarf_fortress : game_development : guilds : labour : simulation : unions : vice
 https://www.vice.com/en_us/article/kzmz9x/after-avengers-endgame-the-mcu-has-a-chance-to-get-riskier : MCU : avengers : cameron_kunzelman : iron_man : marvel : vice : waypoint
 https://www.vice.com/en_us/article/neknmx/what-i-learned-by-watching-24-hour-surveillance-footage-for-a-week : daisy_jones : insecure_cameras : internet_of_things : privacy : security : surveillance_footage : vice : video : web
-https://www.vice.com/en_us/article/pajjz9/if-you-hate-capitalism-you-will-love-this-map?utm_source=vicetwitterus : black_socialists_of_america : edward_ongeweso : map : vice
+https://www.vice.com/en_us/article/pajjz9/if-you-hate-capitalism-you-will-love-this-map : black_socialists_of_america : edward_ongeweso : map : vice
 https://www.vice.com/en_us/article/pkekvb/cost-cutting-algorithms-are-making-your-job-search-a-living-hell?utm_campaign=sharebutton : dystopia : employment : job_market : job_search : nick_keppler : search_algorithms : vice
 https://www.vice.com/en_us/article/wjvxk5/project-hospital-is-a-great-way-to-understand-our-broken-healthcare-system : USA : __important : america : health_care : lets_play : project_hostpital : vice
-https://www.vice.com/en_us/article/ywaj4w/world-of-warcraft-changed-video-games-and-wrecked-lives?utm_source=vicetwitterus : games : oral_history : patrick_klepek : vice : world_of_warcraft
+https://www.vice.com/en_us/article/ywaj4w/world-of-warcraft-changed-video-games-and-wrecked-lives : games : oral_history : patrick_klepek : vice : world_of_warcraft
 https://www.vice.com/en_us/article/z45g5e/nyc-cabaret-law-racism-discrimination-history : dance : history : new_york : racism : vice
 https://www.vice.com/en_us/topic/dancing-vs-the-state : dance : government : law : vice
 https://www.videlibri.de/xidel.html : XML : command_line : xidel
@@ -14939,7 +14955,7 @@ https://www.visualcapitalist.com/visualizing-the-accumulation-of-human-made-mass
 https://www.vogons.org/viewtopic.php?t=16900 : discworld : dosbox : tutorial
 https://www.voterstudygroup.org/publication/opposing-forces : elections : lee_drutman : politics : trump : visualisation : voter_study_group
 https://www.vox.com/2014/10/27/7062921/immigration-1900-race-racism-quotas-eugenics-map-settled-united-states : __important : immigration : infographic : map : vox
-https://www.vox.com/2015/1/13/7531833/road-salt-environment-alternatives?utm_source=twitter&utm_content=voxdotcom&utm_medium=social&utm_campaign=vox.social : brad_plumer : environment : road_salt : vox
+https://www.vox.com/2015/1/13/7531833/road-salt-environment-alternatives : brad_plumer : environment : road_salt : vox
 https://www.vox.com/2018/1/18/16897358/racism-donald-trump-immigration : family_separation : fascism : immigration : policy : right_wing : trump : vox : xenophobia
 https://www.vox.com/2018/11/13/17658028/massachusetts-gun-control-laws-licenses : german_lopez : gun_control : gun_violence : massachusetts : vox
 https://www.vox.com/2018/7/24/17602564/kansas-free-speech-american-flag-art-patriotism-gop-josephine-meckseper-jeff-colyer : art : flag : jane_coaston : kansas : politics : vox
@@ -14950,7 +14966,7 @@ https://www.vox.com/23816484/trump-january-6-capitol-indictment-election-2020-po
 https://www.vox.com/culture/2020/4/9/21214076/board-games-online-arena-internet-play : board_game : covid_19 : emily_van_der_werff : vox
 https://www.vox.com/first-person/2017/8/16/16156540/confederate-statues-charlottesville-virginia : racism : samuel_sinyangwe : statue : vox
 https://www.vox.com/first-person/2019/10/10/20906610/supreme-court-transgender-discrimination : SCOTUS : USA : katelyn_burns : law : trans_phobia : transgender : vox
-https://www.vox.com/future-perfect/2019/11/14/20963824/drug-resistance-antibiotics-cdc-report?utm_campaign=vox&utm_content=entry&utm_medium=social&utm_source=twitter : CDC : antibiotics : health_care : sigal_samuel : vox
+https://www.vox.com/future-perfect/2019/11/14/20963824/drug-resistance-antibiotics-cdc-report : CDC : antibiotics : health_care : sigal_samuel : vox
 https://www.vox.com/identities/2019/11/11/20955059/luna-younger-transgender-child-custody : LGBTQ : bigotry : katelyn_burns : luna_younger : texas : trans : trans_phobia : transition : vox
 https://www.vox.com/identities/2019/9/5/20840101/terfs-radical-feminists-gender-critical : TERF : anti_trans : feminism : katelyn_burns : vox
 https://www.vox.com/latest-news/2019/3/22/18275913/statistical-significance-p-values-explained : __important : brian_resnick : p_values : science : statistics : vox
@@ -15145,14 +15161,14 @@ https://www.washingtonpost.com/video-games/2022/07/08/game-exchange-program-game
 https://www.washingtonpost.com/world/africa/a-us-funded-nuclear-project-to-zap-a-killer-fly-into-extinction-is-saving-west-africas-cows/2019/05/31/12f92626-7713-11e9-a7bf-c8a43b84ee31_story.html : africa : cow : farming : livestock : senegal : tsetse_fly : washington_post
 https://www.washingtonpost.com/world/asia_pacific/chinese-app-on-xis-ideology-allows-data-access-to-100-million-users-phones-report-says/2019/10/11/2d53bbae-eb4d-11e9-bafb-da248f8d5734_story.html : china : mobile_phones : privacy : propaganda : surveillance
 https://www.washingtonpost.com/world/national-security/trump-is-preparing-to-remove-kirstjen-nielsen-as-homeland-security-secretary-aides-say/2018/11/12/77111496-e6b0-11e8-bbdb-72fdbf9d4fed_story.html : kirstjen_nielsen : politics : trump : washington_post
-https://www.washingtonpost.com/world/the_americas/rights-group-138-salvadorans-deported-by-the-us-were-killed-back-home/2020/02/04/bdf134ee-46d2-11ea-91ab-ce439aa5c7c1_story.html?utm_campaign=wp_main&utm_medium=social&utm_source=twitter : el_salvador : immigration : murder : politics : trump : washington_post
+https://www.washingtonpost.com/world/the_americas/rights-group-138-salvadorans-deported-by-the-us-were-killed-back-home/2020/02/04/bdf134ee-46d2-11ea-91ab-ce439aa5c7c1_story.html : el_salvador : immigration : murder : politics : trump : washington_post
 https://www.washingtonpost.com/world/top-us-officials-tell-the-world-to-ignore-trumps-tweets/2018/02/18/bc605236-14a2-11e8-942d-16a950029788_story.html : GOP : foreign_policy : government : griff_witte : insane : international_security : michael_birnbaum : munich : trump : washington_post
 https://www.watercolourworld.org/ : __important : art : assets : database : painting : resource : water_colour : water_colour_world
 https://www.waterstones.com/book/100-best-video-games-that-never-existed/nate-crawley/9781781086148 : book : recommendation : video_games
 https://www.wbez.org/shows/wbez-news/contract-buying-robbed-black-families-in-chicago-of-billions/d643ea19-2977-43d7-81c7-1d7a568c5c81 : black : chicago : natalie_moore : racism : theft : wbez
-https://www.wbez.org/shows/wbez-news/contract-buying-robbed-black-families-in-chicago-of-billions/d643ea19-2977-43d7-81c7-1d7a568c5c81?utm_source=twitter.com&utm_term=nprnews&utm_medium=social&utm_campaign=npr : chicago : wbez
+https://www.wbez.org/shows/wbez-news/contract-buying-robbed-black-families-in-chicago-of-billions/d643ea19-2977-43d7-81c7-1d7a568c5c81 : chicago : wbez
 https://www.wbez.org/shows/wbez-news/federal-judge-finds-illinois-rules-on-sex-offenders-unconstitutional/fdea1372-1b00-44b1-b0e6-2501bc082378 : chicago : constitutional_rights : federal : illinois : law : max_green : sex_offender
-https://www.wbur.org/hereandnow/2019/11/14/recorder-the-marion-stokes-project?utm_campaign=npr&utm_medium=social&utm_term=nprnews&utm_source=twitter.com : allison_hagan : history : internet_archive : marion_stokes : tonya_mosley : tv_news
+https://www.wbur.org/hereandnow/2019/11/14/recorder-the-marion-stokes-project : allison_hagan : history : internet_archive : marion_stokes : tonya_mosley : tv_news
 https://www.wcd.fyi/features/senate-generations/ : USA : generations : politics : representation : senators : wcd_fyi
 https://www.wcpo.com/news/state/state-ohio/abortion-arguments-at-play-in-limiting-veterans-ivf-benefit : IVF : abortion : cincinnati : julie_carr_smyth : ohio : veterans
 https://www.webdesignmuseum.org/ : design : history : retrospective : web : web_design
@@ -15200,13 +15216,13 @@ https://www.wired.com/2013/12/best-scientific-figures-2013/ : science : visualis
 https://www.wired.com/2014/05/psychopaths-dayz-rust/ : design : game : multi_player : online : psychopath : social_system : violence : wired
 https://www.wired.com/2016/10/how-to-design-better-cities/ : architecture : social_system : urban_design : wired
 https://www.wired.com/2016/12/star-trek-discovery-casts-black-female-lead/ : racism : sexism : social_system : star_trek
-https://www.wired.com/2017/01/craig-burrows-fluorescence-plants-glow/?mbid=social_twitter&utm_campaign=wired&utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&mbid=social_twitter&utm_campaign=wired&utm_source=twitter&utm_brand=wired&utm_medium=social&utm_social-type=owned : beauty : photography : plant : wired
+https://www.wired.com/2017/01/craig-burrows-fluorescence-plants-glow/ : beauty : photography : plant : wired
 https://www.wired.com/2017/03/tv-opening-titles-got-damn-good/ : criticism : design : history : titles : tv : wired
 https://www.wired.com/2017/04/cory-doctorow-walkaway/ : commentary : disaster : dystopia : politics : technology : wired
 https://www.wired.com/2017/05/unsplash-api/ : assets : photographs
 https://www.wired.com/beyond-the-beyond/2016/12/pond-black-swans/ : __come_back_to : wired
 https://www.wired.com/story/2018-worst-hacks-so-far/ : cybersecurity : failure : lily_newman : privacy : security : surveillance : wired
-https://www.wired.com/story/brief-history-porn-internet/?mbid=social_twitter&utm_brand=wired&utm_campaign=wired&utm_medium=social&utm_social-type=owned&utm_source=twitter : alyssa_foote : censorship : danni_ashe : david_kushner : history : internet : pornography : technology : wired
+https://www.wired.com/story/brief-history-porn-internet/ : alyssa_foote : censorship : danni_ashe : david_kushner : history : internet : pornography : technology : wired
 https://www.wired.com/story/everything-is-going-to-be-ok-game/amp : everything_is_going_to_be_ok : game : wired
 https://www.wired.com/story/how-recommendation-algorithms-run-the-world/ : recommendation_algorithms : technology : wired : zeynep_tufekci
 https://www.wired.com/story/information-terrorists-trying-to-reshape-america/ : GOP : bot : brett_kavanaugh : information_terrorism : information_warfare : wired
@@ -15216,8 +15232,8 @@ https://www.wired.com/story/meta-twitter-threads-bluesky-spill-hive-mastodon-pri
 https://www.wired.com/story/sobering-message-future-ai-party/ : ai : deep_learning : machine_learning : research : sustainability : tom_simonite : wired
 https://www.wired.com/story/the-complexity-of-simply-searching-for-medical-advice/amp : health_care : medicine : search : wired
 https://www.wired.com/story/the-science-is-clear-dirty-farm-water-is-making-us-sick/ : contamination : dirty_water : farming : health : illness : water : wired
-https://www.wired.com/story/the-world-might-actually-run-out-of-people/?utm_source=twitter&utm_campaign=wired&utm_medium=social&utm_social-type=owned&utm_brand=wired&mbid=social_twitter : birth : demographics : population : reproduction : wired
-https://www.wired.com/story/videogame-grinding-depression/?mbid=social_twitter&utm_brand=wired&utm_campaign=wired&utm_medium=social&utm_social-type=owned&utm_source=twitter : depression : destiny : game : games : grinding
+https://www.wired.com/story/the-world-might-actually-run-out-of-people/ : birth : demographics : population : reproduction : wired
+https://www.wired.com/story/videogame-grinding-depression/ : depression : destiny : game : games : grinding
 https://www.wired.com/story/when-algorithms-think-you-want-to-die/ : algorithm : suicide : wired
 https://www.wired.com/story/why-hard-escape-amazons-long-reach/ : amazon : history : monopoly : reach : wired
 https://www.wired.com/story/woman-bringing-civility-to-open-source-projects/ : __important : code_of_conduct : coraline_ada_ehmke : interview : ruby : wired
@@ -15409,7 +15425,7 @@ https://www.youtube.com/watch?v=y079iJ36H4U&list=PLAbMhAYRuCUhC85vZRvBBdYPJk-9pL
 https://www.youtube.com/watch?v=yYgNEyoJGK8 : video
 https://www.youtube.com/watch?v=y_G9BkAm6B8&NR=1&feature=fvwp : algorithm : quicksort : youtube
 https://www.youtube.com/watch?v=zOR3snVKW0E : video
-https://www.yoyogames.com/blog/63/best-practices-when-coding-in-gamemaker-studio-2?utm_source=social&utm_campaign=blog : best_practices : gamemaker : programming
+https://www.yoyogames.com/blog/63/best-practices-when-coding-in-gamemaker-studio-2 : best_practices : gamemaker : programming
 https://www.zachtronics.com/ : game_development : puzzle_games
 https://www.zephoria.org/thoughts/archives/2013/12/08/coining-context-collapse.html : blog : context_collapse : danah_boyd : social_media
 https://www.zerotier.com/blog/2017-05-05-theleak.shtml : c_plus_plus : debugging : leaks : libraries : memory_management : memory_safety : standard_library
