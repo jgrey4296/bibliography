@@ -2792,7 +2792,6 @@ http://thechangelog.com/t-powerful-command-line-interface-for-twitter/ : cli : l
 http://thecodelesscode.com/case/113?topic=IDEs : codelesscode : koan : programming : software_development
 http://thecodelesscode.com/contents : codelesscode : koan : programming : software_development
 http://theconversation.com/robocalls-are-unstoppable-3-questions-answered-about-why-your-phone-wont-quit-ringing-108554 : phone_calls : robo_calls : spam : the_conversation
-http://theconversation.com/robocalls-are-unstoppable-3-questions-answered-about-why-your-phone-wont-quit-ringing-108554 : phone_calls : robo_calls : spam : the_conversation
 http://theetheringtonbrothers.blogspot.com/2018/10/the-full-set-of-175-one-hundred-and.html : drawing : etherington_brothers : tutorial
 http://thegovlab.org/what-is-mechanistic-evidence-and-why-do-we-need-it-for-evidence-based-policy/ : evidence_based_policy : govlab : science
 http://thehill.com/blogs/blog-briefing-room/news/394152-us-makes-the-list-of-top-10-most-dangerous-countries-for-women#click=https://t.co/Wr8GHAjizP : america : the_hill : violence_against_women
@@ -7800,6 +7799,7 @@ https://flit.pypa.io/en/stable/ : build_tool : flit : python
 https://floooh.github.io/2018/06/17/handles-vs-pointers.html : best_practices : blog : c_lang : github : handle : memory_management : pointers
 https://floppy.foone.org/w/Main_Page : __interesting : blog : foone : wiki
 https://floppy.foone.org/w/Twitter_Info_Threads#My_Government_Job : foone : threads
+https://flossmanual.csound.com/introduction/preface : csound : floss : manual
 https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/ : __important : america : daily_patterns : data_visualisation : nathan_yau : simulation : time_use : visualisation
 https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/ : critical_thinking : lies : visualisation
 https://flowtype.org/ : flow_type : javascript : type_system
@@ -8141,6 +8141,7 @@ https://github.com/bear/python-twitter : api : github : python : twitter
 https://github.com/benhutchison/GettingWorkDoneWithExtensibleEffects : extensible_effects : functional_programming : github
 https://github.com/berkmancenter/tagteam/ : github : java : tagging : tagteam
 https://github.com/bgolus/Normal-Mapping-for-a-Triplanar-Shader : ben_golus : geometry : github : libraries : math : procedural_content : programming : shader : unity
+https://github.com/bgreenwell/xleak : excel : github : rust : spreadsheet : xleak
 https://github.com/bitwes/Gut : github : godot : testing
 https://github.com/bloom-lang/bud/blob/v0.0.3/docs/getstarted.md : ai : bud : programming
 https://github.com/bndr/pycycle : github : import : programming : pycycle : python : software_engineering
@@ -8277,6 +8278,7 @@ https://github.com/ggreer/the_silver_searcher : ag : github : grep : search
 https://github.com/ghostinthewires/Azure-Readiness-Checklist/blob/master/README.md : azure : checklist : github : production : software_engineering
 https://github.com/gibbed : __important : gibbed : github : modding
 https://github.com/git-lfs/git-lfs/tree/main/docs : git : git_lfs : version_control
+https://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs : git : git_lfs : version_control
 https://github.com/gitonga123/CLIPS : CLIPS : github : production_system : rule_engine
 https://github.com/glyph/automat/ : FSM : automat : github : python
 https://github.com/godot-rust/godot-rust : github : godot : rust
@@ -11387,7 +11389,6 @@ https://vitals.lifehacker.com/what-you-re-really-agreeing-to-when-you-sign-up-fo
 https://vitalzigns.itch.io/gdd : document : game_design : template
 https://vividness.live/2015/10/12/developing-ethical-social-and-cognitive-competence/ : __important : adult_development : ai : cognition : competence : david_chapman : robert_kegan
 https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/ : __important : ai : ai_gaming : game_ai : humour : master_list : research : reward_functions
-https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters : economics : paul_niehaus : randomised_controlled_trials : scale : voxdev
 https://voxdev.org/topic/methods-measurement/rcts-why-scale-matters : economics : paul_niehaus : randomised_controlled_trials : scale : scaling : voxdev
 https://vr.ebay.com.au/ : ebay : store : virtual_reality
 https://vtimofeenko.com/posts/practical-nix-flake-anatomy-a-guided-tour-of-flake.nix/ : nix : nix_flake
@@ -11935,7 +11936,6 @@ https://www.bls.gov/tus/ : ATUS : census : statistics : time_use
 https://www.blueprincegame.com/ : blue_prince : game : puzzle
 https://www.boredpanda.com/clams-measure-water-quality-poland-fat-kathy/ : bored_panda : clams : judita_k : poland : water_quality
 https://www.boredpanda.com/environmental-pollution-overdevelopment-overpopulation-overshoot-global-population-speakout/ : boredpanda : climate_change : environment : overpopulation
-https://www.boredpanda.com/environmental-pollution-overdevelopment-overpopulation-overshoot-global-population-speakout/ : boredpanda : climate_change : environment : overpopulation
 https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/ : dungeon_generation : enter_the_gungeon : procedural_content
 https://www.bostonfed.org/publications/one-time-pubs/color-of-wealth.aspx : boston : duke_university : economics : race : racism : the_color_of_wealth
 https://www.bostonglobe.com/metro/2019/03/06/boston-truly-looking-out-for-immigrants-not-this-case/YgAvgeue6fYZxC7h3wJJ9J/story.html : ICE : boston : immigration : racism
@@ -12073,7 +12073,6 @@ https://www.cisa.gov/resources-tools/resources/types-software-bill-materials-sbo
 https://www.citylab.com/design/2019/08/zoning-ordinance-definition-history-explained-city-laws/594913/ : city_lab : taxonomy : urban_design : zoning
 https://www.citylab.com/design/2019/09/old-maps-ireland-carta-marina-olaus-magnus-personal-essay/597430/ : cartography : darran_anderson : maps : northern_ireland
 https://www.citylab.com/environment/2019/01/detroit-tree-planting-programs-white-environmentalism-research/579937/ : brentin_mock : city_lab : detroit : shade : tree : trees : urban_design
-https://www.citylab.com/equity/2019/03/housing-rent-landlords-poverty-desmond-inequality-research/585265/ : city_lab : exploitation : housing : inequality : landlord : poverty : rent
 https://www.citylab.com/equity/2019/03/housing-rent-landlords-poverty-desmond-inequality-research/585265/ : city_lab : exploitation : housing : inequality : landlord : poverty : rent
 https://www.citylab.com/equity/2019/09/the-trouble-with-americas-water/597898/ : city_lab : flint : lead : lead_pipes : olga_khazan : urban_design : water
 https://www.citylab.com/life/2018/11/black-panther-wakanda-golden-city-hannah-beachler-interview/574420/ : __important : black_panthers : city : city_lab : fruitvale_station : hannah_beacher : nicole_flatow : technology : urban_design : wakanda
@@ -13039,7 +13038,6 @@ https://www.newsweek.com/customs-and-border-control-beat-kicked-and-threatened-m
 https://www.newsweek.com/florida-authorities-seize-rocket-launcher-and-pipe-bombs-raids-white-1220555?amp=1 : firearms : florida : gun : newsweek : rocket_launcher : terrorism : white_supremacy
 https://www.newsweek.com/france-protests-police-strike-gilets-jaunes-yellow-vests-pay-overtime-1264961 : 2018 : france : newsweek : police : protest : yellow_jackets
 https://www.newsweek.com/martin-luther-king-jr-was-not-always-popular-back-day-780387 : approval : history : martin_luther_king : newsweek : polling : racism
-https://www.newsweek.com/richard-pickett-periods-prison-menstrual-maine-law-representative-1367450 : GOP : katherine_highnett : misogyny : newsweek : prison : women
 https://www.newsweek.com/richard-pickett-periods-prison-menstrual-maine-law-representative-1367450 : GOP : katherine_highnett : misogyny : newsweek : prison : women
 https://www.newsweek.com/russia-american-bill-browder-poisoning-lawyer-putin-1221857 : newsweek : politics : russia
 https://www.newsweek.com/texas-muslim-republicans-tarrant-county-shahid-shafi-1285867 : dorrie_o_brien : islamophobia : newsweek : nicole_goodkind : racism : republicans : texas
@@ -14468,7 +14466,6 @@ https://www.teenvogue.com/story/sonia-sotomayor-supreme-court-justice-inspires-l
 https://www.teenvogue.com/story/teen-essay-microaggressions-viral/amp : micro_aggressions : racism : teen_vogue
 https://www.teenvogue.com/story/what-capitalism-is : capitalism : kim_kelly : teen_vogue
 https://www.teenvogue.com/story/who-is-karl-marx : history : karl_marx : teen_vogue
-https://www.teenvogue.com/story/who-is-karl-marx : history : karl_marx : teen_vogue
 https://www.telegraph.co.uk/technology/2019/06/19/amazon-drones-could-used-spy-home-spot-intruders-patent-reveals/ : drone : james_cook : privacy : surveillance : telegraph
 https://www.telegraph.co.uk/women/life/gender-neutral-bathrooms-womens-prisons-time-trans-people-carried/ : ID_cards : UK : david_thomas : politics : telegraph : trans_phobia
 https://www.tensorflow.org/tutorials/mnist/beginners/ : deep_learning : machine_learning : mnist : programming : python : tensorflow : tutorial
@@ -14536,7 +14533,6 @@ https://www.theatlantic.com/international/archive/2017/05/handmaids-tale-religio
 https://www.theatlantic.com/international/archive/2018/01/trump-and-el-salvador/550955/ : USA : el_salvador : foreign_policy : history : immigration : racism : the_atlantic : trump
 https://www.theatlantic.com/international/archive/2018/07/artificial-intelligence-religion-atheism/565076/ : ai : atheism : research : social_science : the_atlantic
 https://www.theatlantic.com/international/archive/2018/12/donald-trump-deport-vietnam-war-refugees/577993/ : ethnic_cleansing : immigration : law : refugees : trump : vietnam
-https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/ : __important : atlantic : ayla_jean_yackley : economy : groceries : istanbul : recep_erdogan : turkey
 https://www.theatlantic.com/international/archive/2019/03/erdogan-grocery-prices-turkey-economy-lira/585646/ : __important : atlantic : ayla_jean_yackley : economy : groceries : istanbul : recep_erdogan : turkey
 https://www.theatlantic.com/international/archive/2019/05/hindu-nationalism-narendra-modi-india-election/590053/ : hinduism : india : narendra_modi : politics : the_atlantic
 https://www.theatlantic.com/magazine/archive/2017/03/how-to-build-an-autocracy/513872/ : politics : social_system : the_atlantic : trump
@@ -14799,7 +14795,6 @@ https://www.thenewatlantis.com/publications/why-data-is-never-raw : bias : data 
 https://www.theneweuropean.co.uk/ : UK : europe : journalism : new_european : politics
 https://www.theneweuropean.co.uk/top-stories/matt-kelly-says-theresa-may-is-a-disgrace-to-the-office-of-prime-minister-1-5853727 : 2019 : UK : brexit : matt_kelly : new_european : politics : teresa_may
 https://www.theonion.com/mcdonalds-unveils-new-senior-citizen-playplace-1819572886 : humour : mcdonalds : onion : seniors
-https://www.theonion.com/mcdonalds-unveils-new-senior-citizen-playplace-1819572886 : humour : mcdonalds : onion : seniors
 https://www.theparisreview.org/blog/2017/02/15/rhythmical-lines/ : art : geometric_patterns : line : paris_review : patterns : rhythm : sarah_cowan
 https://www.theparisreview.org/blog/2017/11/20/art-monstrous-men/ : abuse : art : paris_review : philosophy : sexual_abuse
 https://www.theparisreview.org/blog/2019/07/16/the-crane-wife/ : cj_hauser : crane_wife : paris_review : relationship
@@ -14874,7 +14869,7 @@ https://www.trunkclub.com/ : clothing : shopping
 https://www.truthorfiction.com/how-to-fight-disinformation-part-i-firehosing/ : brooke_binkowski : disinformation : education : pedagogy
 https://www.tuesdayknightgames.com/pages/mothership-rpg : __come_back_to : mothership : rpg
 https://www.tug.org/texlive/doc/tlmgr.html : command_line : documentation : latex : reference : texlive : tlmgr
-https://www.tunefind.com/ : music : tunefind : tv
+https://www.tunefind.com/ : music : tunefind : tv : tv_show
 https://www.tunnelbear.com/pricing : vpn
 https://www.tutorialspoint.com/cprogramming/index.htm : c_lang : programming
 https://www.tvguide.com/news/angel-anniversary-cordelia-chase/ : buffy : feminism : joss_whedon : tv_guide
@@ -15166,7 +15161,6 @@ https://www.washingtonpost.com/world/top-us-officials-tell-the-world-to-ignore-t
 https://www.watercolourworld.org/ : __important : art : assets : database : painting : resource : water_colour : water_colour_world
 https://www.waterstones.com/book/100-best-video-games-that-never-existed/nate-crawley/9781781086148 : book : recommendation : video_games
 https://www.wbez.org/shows/wbez-news/contract-buying-robbed-black-families-in-chicago-of-billions/d643ea19-2977-43d7-81c7-1d7a568c5c81 : black : chicago : natalie_moore : racism : theft : wbez
-https://www.wbez.org/shows/wbez-news/contract-buying-robbed-black-families-in-chicago-of-billions/d643ea19-2977-43d7-81c7-1d7a568c5c81 : chicago : wbez
 https://www.wbez.org/shows/wbez-news/federal-judge-finds-illinois-rules-on-sex-offenders-unconstitutional/fdea1372-1b00-44b1-b0e6-2501bc082378 : chicago : constitutional_rights : federal : illinois : law : max_green : sex_offender
 https://www.wbur.org/hereandnow/2019/11/14/recorder-the-marion-stokes-project : allison_hagan : history : internet_archive : marion_stokes : tonya_mosley : tv_news
 https://www.wcd.fyi/features/senate-generations/ : USA : generations : politics : representation : senators : wcd_fyi
