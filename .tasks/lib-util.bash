@@ -42,3 +42,15 @@ function help_flag () {
         *) return 1 ;;
     esac
 }
+
+function build_biblio_env () {
+    echo "TODO"
+}
+
+function run_task_hooks () {
+    echo "TODO"
+}
+
+function list_available_tasks () {
+    echo "TODO"
+}
