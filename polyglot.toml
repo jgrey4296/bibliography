@@ -1,0 +1,11 @@
+#  polyglot.toml -*- mode: toml-ts-mode -*- 
+#  Summary: 
+#  
+#  Tags: 
+#  
+
+[polyglot]
+
+[polyglot.aliases]
+"lt" = "list tasks"
+"v"  = "--version"

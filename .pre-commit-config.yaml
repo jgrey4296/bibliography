@@ -1,35 +1,74 @@
-# See https://pre-commit.com for more information
-# See https://pre-commit.com/hooks.html for more hooks
+# #  .pre-commit-config.yaml -*- mode: yaml-ts -*-
+# https://pre-commit.com
+# https://pre-commit.com/hooks.html
+
+# available stages: commit-msg, post-[checkout, commit, merge, rewrite], pre-[commit, merge-commit, push, rebase], prepare-commit-msg
+# available types: file, symlink, directory, executable, text, binary
+
+minimum_pre_commit_version: '4.3.0'
+files: ''
+exclude: '^$'
+fail_fast: false
+default_stages: [pre-commit, pre-push, commit-msg]
+default_install_hook_types: [pre-commit, pre-push, commit-msg, post-commit]
+default_language_version: {}
+
 repos:
--  repo: https://github.com/pre-commit/pre-commit-hooks
-   rev: v4.6.0
-   hooks:
-   -   id: trailing-whitespace
-   -   id: check-yaml
-   -   id: end-of-file-fixer
-       exclude: ".+?.bookmarks$"
 - repo: local
   hooks:
-    - id: dootPre
-      name: dootPre
-      description: Format changed bib files using doot
-      language: system
-      entry: doot "precommit::pre"
-      verbose: true
-      require_serial: true
-      stages: [pre-commit]
-    - id: validateMsg
-      name: validate
-      description: checks the commit msg has a tag at the start
-      language: system
-      entry: doot "precommit::validate"
-      stages: [commit-msg]
-    - id: dootPost
-      name: dootPost
-      description: Deletes refiled_* files from the todo dir
-      language: system
-      entry: doot "precommit::post"
-      verbose: true
-      require_serial: true
-      always_run: true
-      stages: [post-commit]
+      - id: conventional-commit-msg
+        name: conventional-commit-msg
+        language: python
+        entry: python .tasks/conventional-commit-msg.py
+        stages: [commit-msg]
+      - id : local.pre.hook.sh
+        name: basic.local.sh
+        language: system
+        entry: .tasks/local.pre.hook.sh
+        stages: [post-commit]
+        # files: ''
+      - id: local.pre.hook.py
+        name: local.pre.hook.py
+        language: python
+        entry: python .tasks/local.pre.hook.py
+        stages: [pre-commit]
+        # files: ''
+    # --------------------------------------------------
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    # With pre-configured stages
+    rev: v6.0.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-added-large-files
+    #  --------------------------------------------------
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    # WithOUT pre-configured stages
+    rev: v6.0.0
+    hooks:
+    -   id: mixed-line-ending
+        args: ["--fix", "auto"]
+    # -   id: check-toml
+    #     stages: [pre-commit]
+    #     (has strange failures)
+    -   id: check-xml
+        stages: [pre-commit]
+    -   id: check-yaml
+        stages: [pre-commit]
+    -   id: check-json
+        stages: [pre-commit]
+    -   id: pretty-format-json
+        stages: [pre-commit]
+        args: ["--autofix"]
+    -   id: check-symlinks
+        stages: [pre-commit]
+    -   id: detect-private-key
+        stages: [pre-commit]
+    #  LFS integration -----------------------------------
+# -   repo: https://github.com/KAUTH/git-lfs-hooks
+#     rev: ''  # Use the SHA or tag that you want to point to
+#     hooks:
+#     -   id: post-checkout
+#     -   id: post-commit
+#     -   id: post-merge
+#     -   id: pre-push
