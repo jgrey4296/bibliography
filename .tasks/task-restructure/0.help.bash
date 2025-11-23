@@ -11,7 +11,7 @@ case "$?" in
 
 Restructure the  library
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

@@ -11,7 +11,7 @@ case "$?" in
 
 Push to android tablet using adb
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

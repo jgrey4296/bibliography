@@ -11,7 +11,7 @@ case "$?" in
 
 Apply bibtex metadata to library files.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

@@ -11,7 +11,7 @@ case "$?" in
 
 Extract bookmarks from firefox into the total.bookmarks file.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

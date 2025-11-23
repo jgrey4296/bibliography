@@ -11,7 +11,7 @@ case "$?" in
 
 Use rsync to backup the library
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

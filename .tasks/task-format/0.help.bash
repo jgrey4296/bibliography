@@ -11,7 +11,7 @@ case "$?" in
 
 Format bibtex files.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

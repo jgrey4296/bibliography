@@ -11,7 +11,7 @@ case "$?" in
 
 Make stubs for new pdfs and epubs.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

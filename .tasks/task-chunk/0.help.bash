@@ -11,7 +11,7 @@ case "$?" in
 
 Split large bibtex files into smaller ones.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

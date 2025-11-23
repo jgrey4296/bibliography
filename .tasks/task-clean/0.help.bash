@@ -11,7 +11,7 @@ case "$?" in
 
 Cleanup related temp files.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

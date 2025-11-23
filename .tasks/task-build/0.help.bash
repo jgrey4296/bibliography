@@ -16,7 +16,7 @@ Args:
 {src dir}         : the dir of source .rst and .bib files
 
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

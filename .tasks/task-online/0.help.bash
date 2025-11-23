@@ -12,7 +12,7 @@ TODO
 
 Download new online urls as pdfs.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

@@ -11,7 +11,7 @@ case "$?" in
 
 Post a bibtex entry to social media.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

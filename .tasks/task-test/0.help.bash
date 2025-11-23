@@ -11,7 +11,7 @@ case "$?" in
 
 A Simple test task with some hooks
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac

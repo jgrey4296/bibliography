@@ -11,7 +11,7 @@ case "$?" in
 
 Read and normalize tags.
 "
-        exit 2
+        exit "$PRINTED_HELP"
     ;;
     *) ;;
 esac
