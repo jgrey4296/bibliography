@@ -6592,7 +6592,9 @@ https://cavesofqud.fandom.com/wiki/Caves_of_Qud_Wiki : XML : __important : caves
 https://cbc.house.gov/news/documentsingle.aspx?DocumentID=891 : USA : congressional_black_caucus : law : politics
 https://ccbc.education.wisc.edu/books/pcstats.asp : ccdc : diversity : fiction : publishing : statistics : wisconsin
 https://ccrma.stanford.edu/courses/tu/cm2008/topics/supercollider_tutorials/tutorial01.sc : audio : ccrma : digital_signal_processing : edu : music : supercollider
+https://ccrma.stanford.edu/software/stk/ : ccrma : math : signal_processing : stk
 https://ccrma.stanford.edu/wiki/SuperCollider_Quick_Reference : audio : ccrma : digital_signal_processing : edu : music : supercollider
+https://ccrma.stanford.edu/~jos/filters/filters.html : ccrma : filter_design : jos : math
 https://ccrma.stanford.edu/~jos/pasp/pasp.html : DSP : audio : ccrma : digital_signal_processing : edu : julian_orion_smith : music : physical_modeling : stanford
 https://ccsmfa.wordpress.com/2016/06/13/frameworks-for-interaction-and-conversation/amp/ : conversation : framework : interaction
 https://cdprojektred.atlassian.net/wiki/spaces/W3REDkit/overview?homepageId=2850903 : game_development : modding : redkit : the_witcher
@@ -6723,6 +6725,8 @@ https://cseweb.ucsd.edu/classes/wi13/cse230-a/lectures/lec-transformers.html : h
 https://cseweb.ucsd.edu/~goguen/projs/inst.html : __important : institution : joseph_goguen : logic
 https://cseweb.ucsd.edu/~lerner/pg.html : UI : natural_deduction : polymorphic_blocks : programming : proof_games
 https://csl.name/post/lambda-macros-continuations/ : lisp : macros : racket : scheme : tutorial
+https://csound-plugins.github.io/csound-plugins/index.html : csound
+https://csound.com/docs/manual/index.html : csound
 https://csound.com/get-started.html : csound : github : music : tutorial
 https://csound.github.io/docs/manual/index.html : github
 https://css-center.stanford.edu/research-0 : edu
@@ -6877,6 +6881,7 @@ https://developer.chrome.com/apps/api_index : api : chrome : javascript
 https://developer.chrome.com/extensions/bookmarks : api : bookmarks : chrome
 https://developer.chrome.com/extensions/webNavigation : api : chrome
 https://developer.chrome.com/extensions/webRequest : api : chrome
+https://developer.gimp.org/ : api : gimp : image_processing : script_fu
 https://developer.ibm.com/tutorials/ba-metaprogramming-python/ : IBM : meta_class : meta_programming : programming : python
 https://developer.mozilla.org/en-US/Add-ons/WebExtensions : extension : firefox : software_development : tor : tutorial
 https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/bookmarks : api : bookmarks : extension : firefox : software_development
@@ -10100,6 +10105,7 @@ https://observablehq.com/@tophtucker/inferring-chart-type-from-autocorrelation-a
 https://observer.com/2015/06/de-blasio-and-city-council-reach-deal-to-hire-1300-new-police-officers/ : de_blasio : new_york : observation : police
 https://ocaml.org/ : ocaml : programming
 https://ocharles.org.uk/blog/guest-posts/2014-12-22-template-haskell.html : haskell : template_haskell
+https://officialelectric.itch.io/ruin : fictional_games : itchio : ruin
 https://ogldev.org/ : open_gl
 https://ohmyz.sh/ : cli : command_line : oh_my_zsh : zsh
 https://okmij.org/ftp/Haskell/dependent-types.html#introduction : dependent_types : haskell : type_systems
@@ -13472,6 +13478,7 @@ https://www.prisonpolicy.org/global/2018.html : USA : incarceration
 https://www.probabilitycourse.com/preface.php : math : probability : statistics
 https://www.programmableweb.com/category/News%20Services/apis?category=20250 : api
 https://www.programming-idioms.org/ : idiom : idioms : programming
+https://www.project562.com/about : indigenous_people : matika_wilbur : photography : project_562
 https://www.proofwiki.org/wiki/Main_Page : math : proof : reference : wiki
 https://www.propublica.org/article/6-year-old-separated-from-his-father-tells-judge-he-wants-to-go-home : 6_year_old : ICE : eva_moravec : fabrizio_salvador : immigration_court : law : propublica
 https://www.propublica.org/article/alabama-sheriffs-undermine-successors-after-losing-reelection : alabama : corruption : election : elections : law_enforcement : propublica
