@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 
 
@@ -61,19 +61,21 @@ logging = logmod.getLogger(__name__)
 from os import environ
 import task_utils as _util
 # Vars:
-DEFAULT_OUT  : Final[pl.Path]  = pl.Path(environ['POLYGLOT_ROOT']) / ".temp/tex"
-GLOB_STR     : Final[str]      = "*.bib"
-TEMPLATE     : Final[str]      = "export_template.tex.jinja"
+BIBLIO_TEMP : Final[pl.Path] = pl.Path(environ['POLYGLOT_TEMP'])
+DEFAULT_OUT           : Final[pl.Path]  = BIBLIO_TEMP / "tex"
+DEFAULT_TEMPLATE_DIR  : Final[pl.Path]  = pl.Path(environ['BIBLIO_TEMPLATE_DIR'])
+GLOB_STR              : Final[str]      = "*.bib"
+TEMPLATE              : Final[str]      = "export_template.tex.jinja"
 
 ##--| Argparse
 import argparse
 parser = argparse.ArgumentParser(
     prog="biblio tex",
-    description="Compile bibtex files into a pdf file of the library",
+    description="Prepare tex files of bibtex files for exporting the library",
 )
 parser.add_argument("--window", default=-1, type=int)
 parser.add_argument("--collect", action="append", default=[])
-parser.add_argument("--template-dir")
+parser.add_argument("--template-dir", default=DEFAULT_TEMPLATE_DIR)
 parser.add_argument("--output", default=DEFAULT_OUT)
 parser.add_argument("--style", default="jg_custom_name_first")
 
@@ -91,8 +93,7 @@ def main():
     template = env.get_template(TEMPLATE)
 
     for bib in _util.window_collection(args.window, targets):
-        # read and export the bibtex with latex encoding
-
+        # TODO read and export the bibtex with latex encoding
 
         # render the template
         text = template.render(

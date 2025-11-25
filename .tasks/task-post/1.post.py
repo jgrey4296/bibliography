@@ -68,6 +68,7 @@ import _util
 # Vars:
 GLOB_STR     : Final[str]      = "*.bib"
 TEMPLATE     : Final[str]      = "media_post.jinja"
+DEFAULT_OUT  : Final[pl.Path]  = pl.Path(environ['BIBLIO_TEMP']) / "post"
 
 ##--| Argparse
 import argparse

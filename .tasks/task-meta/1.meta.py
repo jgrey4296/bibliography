@@ -67,13 +67,15 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
 sort_firsts  : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
 sort_lasts   : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
 sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
 GLOB_STR     : Final[str]        = "*.bib"
-LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
-TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
+LIB_ROOT     : Final[pl.Path]    = pl.Path(environ['BIBLIO_LIB'])
+TAGS_SOURCE  : Final[pl.Path]    = pl.Path(environ['POLYGLOT_TEMP']) / "tags/canon.tags"
+
 ##--| argparse
 import argparse
 parser = argparse.ArgumentParser(

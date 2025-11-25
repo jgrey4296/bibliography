@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# shellcheck disable=SC1091
 source "$POLY_SRC/lib/lib-util.bash"
-do_clean=1
 
+do_clean=1
 while [[ $# -gt 0 ]]; do
     case $1 in
         -nc|--no-clean)

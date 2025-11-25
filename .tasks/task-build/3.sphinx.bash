@@ -3,11 +3,13 @@
 set -o nounset
 set -o pipefail
 
+# shellcheck disable=SC1091
 source "$POLY_SRC/lib/lib-util.bash"
 
-conf="$POLYGLOT_ROOT"
-src="$conf/"
-out="$POLYGLOT_ROOT/.temp"
+builder="${POLYGLOT_SPHINX_BUILDER:-bibhtml}"
+conf="${POLYGLOT_SPHINX_CONF_DIR:-$POLYGLOT_ROOT}"
+src="${POLYGLOT_SRC:-$POLYGLOT_ROOT}"
+out="${POLYGLOT_TEMP}"
 site_out="$out/site"
 
 while [[ $# -gt 0 ]]; do
@@ -35,5 +37,5 @@ uv run sphinx-build \
     --conf-dir "$conf" \
     --doctree-dir "$out/doctrees" \
     --warning-file "$conf/.temp/logs/sphinx.log" \
-    --builder "bibhtml" \
+    --builder "$builder" \
     "$src" "$site_out"

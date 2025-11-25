@@ -68,12 +68,14 @@ if typing.TYPE_CHECKING:
 ##-- logging
 logging = logmod.getLogger(__name__)
 ##-- end logging
+
+from os import environ
 # Vars:
 ECHO            : Final[bool]     = False
-BOOKMARKS_FILE  : Final[pl.Path]  = pl.Path("bookmarks/total.bookmarks")
-FIREFOX         : Final[pl.Path]  = pl.Path("/home/john/snap/firefox/common/.mozilla/firefox")
+BOOKMARKS_FILE  : Final[pl.Path]  = pl.Path(envirion['BIBLIO_TOTAL_BOOKMARKS'])
+FIREFOX         : Final[pl.Path]  = pl.Path(environ['BIBLIO_FIREFOX_LOX'])
 DB_FILE         : Final[str]      = "places.sqlite"
-TEMP_DB         : Final[pl.Path]  = pl.Path(".temp/temp.sqlite")
+TEMP_DB         : Final[pl.Path]  = pl.Path(environ['POLYGLOT_TEMP']) / "temp.sqlite"
 
 ##--| argparse
 import argparse
