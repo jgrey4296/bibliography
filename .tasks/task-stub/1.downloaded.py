@@ -69,7 +69,7 @@ logging = logmod.getLogger(__name__)
 
 from os import environ
 # Vars:
-STUB_FILE          : Final[pl.Path]  = pl.Path(envirion['BIBLIO_STUB_FILE'])
+STUB_FILE          : Final[pl.Path]  = pl.Path(environ['BIBLIO_STUB_FILE'])
 TODO_DIR           : Final[pl.Path]  = pl.Path(environ['BIBLIO_TODO']) / "stubbed"
 DROPBOX            : Final[pl.Path]  = pl.Path(environ['BIBLIO_DROPBOX'])
 DOWNLOADS          : Final[pl.Path]  = pl.Path("~/Downloads").expanduser()
