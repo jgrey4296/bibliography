@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
-set -euo pipefail
+#set -o errexit
+set -o nounset
+set -o pipefail
 
 # shellcheck disable=SC1091
 source "$POLY_SRC/lib/lib-util.bash"
 
+out="${POLYGLOT_TEMP}"
+site_out="$out/site"
 do_clean=1
 while [[ $# -gt 0 ]]; do
     case $1 in
