@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 
 """
@@ -33,7 +33,7 @@ import bibble as BM
 import bibble._interface as API
 from bibble.io import JinjaWriter, Reader
 from jgdv.files.tags import SubstitutionFile
-import _util
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -67,11 +67,12 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
-STUB_FILE          : Final[pl.Path]  = pl.Path("in_progress/stubbed.bib")
-TODO_DIR           : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs/stubbed")
-DROPBOX            : Final[pl.Path]  = pl.Path("/media/john/micro_128/Dropbox/docs")
-DOWNLOADS          : Final[pl.Path]  = pl.Path("/home/john/Downloads")
+STUB_FILE          : Final[pl.Path]  = pl.Path(environ['BIBLIO_STUB_FILE'])
+TODO_DIR           : Final[pl.Path]  = pl.Path(environ['BIBLIO_TODO']) / "stubbed"
+DROPBOX            : Final[pl.Path]  = pl.Path(environ['BIBLIO_DROPBOX'])
+DOWNLOADS          : Final[pl.Path]  = pl.Path("~/Downloads").expanduser()
 GLOB_STR           : Final[str]      = "*.pdf"
 STUB_TEMPLATE_KEY  : Final[str]      = "stub.bib.jinja"
 ##--| argparse

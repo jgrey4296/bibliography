@@ -6811,6 +6811,7 @@ https://defold.com/manuals/introduction/ : defold : game_engine : game_programmi
 https://delftswa.gitbooks.io/desosa-2017/content/matplotlib/chapter.html : libraries : matplotlib : python : reference : visualisation
 https://deliciousmeta.tumblr.com/post/620460838937116672/redemption-arcs-and-christian-hegemony-in-fandom : christianity : redemption_arcs
 https://demoman.net/?a=trig-for-games : demoman : game_development : math : programming : trig : trigonometry
+https://deno.com/ : deno : javascript : runtime
 https://derek-epp.com/articles/ : __come_back_to : derek_epp : institution : policy
 https://designresearch.no/people/ragnhild-tronstad : academia : person : ragnhild_tronstad
 https://desotomo.com/contact-us/ : de_soto : missouri : police
@@ -6889,6 +6890,7 @@ https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Content_scripts : book
 https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext : building : extension : firefox : software_development
 https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension : bookmarks : extension : firefox : reference : tutorial
 https://developer.mozilla.org/en-US/Firefox/Headless_mode : firefox : javascript : selenium : test
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions : firefox : firefox_extension
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface : extension : firefox
 https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/The_about_protocol : firefox : protocol : web_browser
 https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Places_Developer_Guide : bookmarks : extension : firefox : reference
@@ -6986,6 +6988,7 @@ https://docs.citationstyles.org/en/stable/specification.html : __come_back_to : 
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html : conda : environment
 https://docs.dagger.io/ : __come_back_to : dagger : workflow
 https://docs.datomic.com/datomic-overview.html : datalog : datomic : programming
+https://docs.deno.com/runtime/ : deno : documentation : javascript
 https://docs.drools.org/7.73.0.Final/drools-docs/html_single/index.html : KIE : documentation : drools : java : rule_engine
 https://docs.drools.org/8.44.0.Final/drools-docs/drools/KIE/index.html : ai : documentation : drools : reference : rules
 https://docs.flatpak.org/en/latest/ : documentation : flatpak
@@ -7111,6 +7114,7 @@ https://dr-d-king.itch.io/tiny-islands : RPG : cards : drawing : games : itch_io
 https://drafts.interfluidity.com/2023/03/05/what-is-fascism/index.html : fascism : steve_waldman
 https://drafts.interfluidity.com/2023/08/14/fascism-as-triage/index.html : fascism : steve_waldman
 https://dragonage.fandom.com/wiki/Toolset : __important : bioware : dragon_age : modding : wiki
+https://dragonfoxing.itch.io/city-scape-game : cityscape : itchio : urban_design
 https://dragonman225.js.org/curved-arrows.html : bezier_curve : drawing : javascript : programming : react : rendering
 https://drawabox.com/ : art : drawabox
 https://drive.google.com/drive/folders/0Bz011IF2Pu9TUWIxVWxybGJ1Ync : __important : african_american : black_history : black_history_month : google_drive : paper : repo
@@ -7733,6 +7737,7 @@ https://experiments.withgoogle.com/voice/story-speaker : UI : design : experimen
 https://explorabl.es/jam/ : example : explorable : game_jam : nick_case : programming
 https://explosion.ai/blog/sense2vec-with-spacy : NLP : data_analysis : python : spacy
 https://explosion.ai/blog/spacy-transformers : BERT : GTP_2 : NLP : deep_learning : explosion_ai : text : word2vec
+https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/ : firefox : firefox_extension : web_ext
 https://extensionworkshop.com/documentation/develop/web-ext-command-reference/ : extension : firefox : web_ext
 https://extranewsfeed.com/tolerance-is-not-a-moral-precept-1af7007d6376 : __come_back_to : bigotry : liberal : moral : politics : social_contract : tolerance
 https://extranewsfeed.com/tolerance-is-not-a-moral-precept-1af7007d6376?gi=2e24a734a9bb#.o3zw3sjx0 : morality : policy : politics : racism : tolerance
@@ -8126,6 +8131,7 @@ https://github.com/aquova/aseprite-scripts : aseprite : github : lua
 https://github.com/arscan/encom-boardroom : design : github : html5 : tron
 https://github.com/artificial-institutions/sai/tree/master?tab=readme-ov-file : ai : institutions : jacamo
 https://github.com/asaini/Apriori : a_priori : github : machine_learning : python
+https://github.com/asdf-vm/asdf : asdf : github : golang
 https://github.com/asdf-vm/asdf-plugin-template?tab=readme-ov-file : asdf : github : template
 https://github.com/astral-sh/ruff : github : linting : python : ruff : rust
 https://github.com/astral-sh/uv : build_tool : github : python : uv
@@ -10428,6 +10434,7 @@ https://pythonexcel.com/ : excel : python : spreadsheet
 https://pythonhosted.org/py2app/index.html : distribution : libraries : python
 https://pythontesting.net/framework/nose/nose-introduction/ : nose : python : unit_testing
 https://q.uiver.app/ : __important : diagram : editor : latex : quiver : web_app
+https://qaqelol.itch.io/tweens : godot : itchio : qaqelol : tween
 https://qntm.org/write : blog : technical : writing
 https://qpdf.readthedocs.io/en/stable/ : pdf : qpdf
 https://quality-diversity.github.io/papers : algorithm : github : machine_learning : quality_diversity : search
@@ -11280,6 +11287,7 @@ https://traitzoo.gitlab.io/rust/ : rust : traits
 https://transequality.org/press/releases/trump-administration-erases-civil-rights-protections-for-lgbtq-health-programs : HHS : discrimination : policy : trans_equality : trans_phobia : trump
 https://transformharm.org/ : abolition : carceral_feminism : community_accountability : healing_justice : incarceration : policy : prison_reform : restorative_justice : transform_harm : transformative_justice : violence : violence_preventation
 https://transmediawatch.org/articles : LGBTQ : UK : media : trans_phobia
+https://transnewsinitiative.org/ : journalism : transgender
 https://transparency.fb.com/data/community-standards-enforcement/child-nudity-and-sexual-exploitation/facebook/ : CSA : abuse : facebook : statistics
 https://transparency.meta.com/reports/community-standards-enforcement/child-nudity-and-sexual-exploitation/facebook/ : child_abuse : csam : facebook
 https://transwrites.world/ : UK : journalism : politics : transgender : transwrites
@@ -11323,6 +11331,7 @@ https://umairhaque.com/the-age-of-disorder-9dda87afe5fb?gi=970d9e6de05d#.4zb4w0t
 https://unbound.com/books/virtual-cities/ : book : konstantinos_dimopoulos : unbound : urbanism : virtual_cities
 https://unbound.com/books/virtual-cities/updates/virtual-cities-the-contents-revealed : book : konstantinos_dimopoulos : urbanism : virtual_cities
 https://unbound.com/boundless/2019/05/28/my-many-years-of-reading-dangerously-whether-twitter-likes-it-or-not/ : andy_miller : blog : reading : unbound
+https://unbreaking.org/issues/immigration/#filter=chicago-headline-club-v-noem : immigration : krisi_noem : timeline : trump
 https://uncannymagazine.com/article/the-dead-in-their-uncontrollable-power/ : __come_back_to : generation_ship : sci_fi : science_fiction : uncanny_valley
 https://uncannymagazine.com/type/essays/ : fiction : magazine : sci_fi : science_fiction : uncanny_valley
 https://uncpress.org/book/9781469652894/food-fights/ : agriculture : book : food : history : unc_press
@@ -12475,6 +12484,7 @@ https://www.gnu.org/software/global/globaldoc_toc.html#Emacs-editor : emacs : gl
 https://www.gnu.org/software/libc/manual/html_node/Argument-Syntax.html : argp_parse : cli_arguments : get_opt : gnu : technical_standards
 https://www.gnu.org/software/make/manual/html_node/Pattern-Rules.html : gnu : make
 https://www.gnu.org/software/make/manual/html_node/Text-Functions.html : gnu : make
+https://www.gnu.org/software/make/manual/make.html : documentation : gnu : make : makefile
 https://www.gnu.org/software/sed/ : GNU : manual : regexp : sed : stream_processor : text_editor
 https://www.gnu.org/software/sed/manual/sed.html#sed-regular-expressions : gnu : sed
 https://www.gnu.org/software/smalltalk/manual-base/gst-base.html#Character : gnu : smalltalk
@@ -15183,6 +15193,7 @@ https://www.welivesecurity.com/en/cybersecurity/one-login-rule-them-all-should-s
 https://www.wfae.net/ : acoustic_ecology : soundscape
 https://www.whatismybrowser.com/guides/the-latest-user-agent/firefox : browser : user_agent
 https://www.whatmonkeysays.com/old-drugs-made-new-and-expensive/ : FDA : drugs : health_care : history : markets : pharma : pricing : what_monkey_says
+https://www.whitehouse.gov/articles/2025/11/abc-news-is-fake-news/ : abc : fascism : journalism : trump : white_house
 https://www.whitehouse.gov/omb/information-for-agencies/memoranda/ : history : memoranda : omb : white_house
 https://www.whitehouse.gov/presidential-actions/2025/07/ending-crime-and-disorder-on-americas-streets/ : fascism
 https://www.whitehouse.gov/priorities/covid-19/ : USA : biden : covid_19

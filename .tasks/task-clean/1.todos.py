@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 
 """
@@ -26,7 +26,7 @@ import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
 
-import _util
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -60,8 +60,9 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
-TODO_DIR       : Final[pl.Path]  = pl.Path("/media/john/data/todo/pdfs")
+TODO_DIR       : Final[pl.Path]  = pl.Path(environ['BIBLIO_TODO'])
 GLOB_STR_PDF   : Final[str]      = "**/_refiled_*.pdf"
 GLOB_STR_EPUB  : Final[str]      = "**/_refiled_*.epub"
 ##--| argparse

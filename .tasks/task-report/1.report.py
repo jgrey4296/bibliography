@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 Utility script to report on the repo bibtex files
 
@@ -36,7 +36,7 @@ import bibble._interface as API
 from bibble.io import Reader
 from bibble.fields._interface import AccumulationBlock
 from bibtexparser.model import Entry
-import _util
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -72,7 +72,7 @@ logging = logmod.getLogger(__name__)
 
 from os import environ
 # Vars:
-BIBLIO_ROOT        : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT'])
+BIBLIO_ROOT        : Final[pl.Path]  = pl.Path(environ['POLYGLOT_ROOT'])
 MAIN_DIR           : Final[pl.Path]  = BIBLIO_ROOT / "main"
 REPORT_DATA        : Final[pl.Path]  = BIBLIO_ROOT / ".temp/report.json"
 FAIL_TARGET        : Final[pl.Path]  = BIBLIO_ROOT / ".temp/failed.bib"

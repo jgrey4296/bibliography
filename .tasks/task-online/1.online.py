@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
-Utility script to format bibtex files
+Utility script to download urls mentioned in bibtex files
 
 """
-# ruff: noqa: N812
+# ruff: noqa:
 from __future__ import annotations
 
 # Imports:
@@ -30,10 +30,7 @@ import sys
 import tqdm
 import bibble as BM
 import bibble._interface as API
-from bibble.io import Reader
-from bibble.io import Writer
-from jgdv.files.tags import SubstitutionFile
-import _util
+from bibble.io import Writer, Reader
 
 # ##-- types
 # isort: off
@@ -67,61 +64,58 @@ if typing.TYPE_CHECKING:
 logging = logmod.getLogger(__name__)
 ##-- end logging
 
+from os import environ
 # Vars:
-sort_firsts  : Final[list[str]]  = ["title", "subtitle", "author", "editor", "year", "tags", "booktitle", "journal", "volume", "number", "edition", "edition_year", "publisher"]
-sort_lasts   : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
-sub_fields   : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
-GLOB_STR     : Final[str]        = "*.bib"
-LIB_ROOT     : Final[pl.Path]    = pl.Path("/media/john/data/library/pdfs")
-TAGS_SOURCE  : Final[pl.Path]    = pl.Path(".temp/tags/canon.tags")
+ONLINE_SOURCE    : Final[pl.Path]  = pl.Path(environ['POLYGLOT_ROOT']) / "in_progress/online.bib"
+DOWNLOAD_TARGET  : Final[pl.Path]  = pl.Path(environ['BIBLIO_DOWNLOAD_TO'])
+LIB_ROOT         : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
 ##--| argparse
 import argparse
 parser = argparse.ArgumentParser(
-    prog="biblio metadata",
-    description="Apply bibtex metadata to entry's files",
+    prog="biblio online",
+    description="Process and download referenced URLs in online entries",
 )
 parser.add_argument("--window", default=-1, type=int)
-parser.add_argument("--collect", action="append", default=[])
-parser.add_argument("targets", nargs='*')
+parser.add_argument("--failures", default=None)
+parser.add_argument("target", nargs="*", default=ONLINE_SOURCE)
 
 ##--| Body
 
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
-    stack     = BM.PairStack()
-    extra     = BM.metadata.DataInsertMW()
-    stack.add(read=[extra],
+    stack = BM.PairStack()
+    extra = BM.metadata.DataInsertMW()
+    stack.add(read=[extra,
+                    BM.failure.DuplicateKeyHandler(),
+                    ],
               write=[BM.failure.FailureHandler()])
-
     stack.add(BM.bidi.BraceWrapper(),
               BM.bidi.BidiPaths(lib_root=LIB_ROOT),
-              write=[BM.metadata.ApplyMetadata(force=True)],
               )
 
-    stack.add(
-        BM.bidi.BidiNames(parts=True, authors=True),
-        BM.bidi.BidiIsbn(),
-        BM.bidi.BidiTags(),
-        read=[BM.fields.TitleSplitter()],
-        )
+    extra.update({BM.files.PathWriter.SuppressKey:[DOWNLOAD_TARGET]})
+    stack.add(read=[BM.files.OnlineDownloader(target=DOWNLOAD_TARGET)])
 
     stack.add(write=[extra])
     reader = Reader(stack)
     writer = Writer(stack)
     return reader, writer
 
-def main() -> None:
-    args     = parser.parse_args()
-    targets  = [pl.Path(x) for x in args.targets]
-    for x in args.collect:
-        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
+def main():
+    args    = parser.parse_args()
+    target  = pl.Path(args.target)
+    match args.failures:
+        case None:
+            failures = None
+        case str() as x:
+            failures = pl.Path(x)
 
+    print("Starting online downloader")
     reader, writer = build_reader_and_writer()
-    for bib in _util.window_collection(args.window, targets):
-        print(f"Target : {bib}")
-        lib = reader.read(bib)
-        writer.write(lib)
-    else:
-        print("Finished")
+    lib = reader.read(target)
+    writer.write(lib, file=target)
+    if failures:
+        writer.write_failures(lib, file=failures)
+    print("Finished")
 
 ##-- ifmain
 if __name__ == "__main__":

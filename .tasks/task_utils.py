@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
 """
 
-
 """
-# ruff: noqa:
 from __future__ import annotations
 
 # Imports:
@@ -64,8 +61,8 @@ logging = logmod.getLogger(__name__)
 # Vars:
 TEMPLATE_DIR  : Final[pl.Path]  = pl.Path("templates_")
 WINDOW_SIZE   : Final[int]      = 10
-SUB_GLOB_1      : Final[str]      = "*/*.sub"
-SUB_GLOB_2      : Final[str]      = "*.sub"
+SUB_GLOB_1    : Final[str]      = "*/*.sub"
+SUB_GLOB_2    : Final[str]      = "*.sub"
 # Body:
 
 def load_tags(source:pl.Path, *, norm:bool=True) -> SubstitutionFile:

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 Utility script to chunk particularly large bibtex files
 
@@ -29,7 +29,7 @@ import faulthandler
 import sys
 import tqdm
 import warnings
-import _util
+import task_utils as _util
 with warnings.catch_warnings():
     warnings.simplefilter("ignore", SyntaxWarning)
     import bibble as BM

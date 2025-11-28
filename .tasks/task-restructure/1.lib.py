@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 Utility script to restructure library pdfs to group by decade
 
@@ -33,7 +33,7 @@ import tqdm
 import bibble as BM
 import bibble._interface as API
 from bibble.io import Writer, Reader
-import _util
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -70,7 +70,7 @@ logging = logmod.getLogger(__name__)
 from os import environ
 
 # Vars:
-BIBLIO_ROOT    : Final[pl.Path]          = pl.Path(environ['BIBLIO_ROOT'])
+BIBLIO_ROOT    : Final[pl.Path]          = pl.Path(environ['POLYGLOT_ROOT'])
 MAIN_DIR       : Final[pl.Path]          = BIBLIO_ROOT / "main"
 LIB_ROOT       : Final[pl.Path]          = pl.Path(environ['BIBLIO_LIB'])
 NEW_ROOT       : Final[pl.Path]          = pl.Path(LIB_ROOT.parent / "pdfs_structured")

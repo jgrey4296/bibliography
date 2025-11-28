@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
-
 
 """
 # ruff.ignore.in.file
@@ -25,6 +24,12 @@ from weakref import ref
 import atexit # for @atexit.register
 import faulthandler
 # ##-- end stdlib imports
+
+import bibble as BM
+import bibble._interface as API
+from bibble.io import Reader
+from bibble.io import Writer
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -61,15 +66,15 @@ logging = logmod.getLogger(__name__)
 from os import environ
 import _util
 # Vars:
-DEFAULT_OUT  : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT']) / ".temp/tex"
 GLOB_STR     : Final[str]      = "*.bib"
-TEMPLATE     : Final[str]      = "export_template.tex.jinja"
+TEMPLATE     : Final[str]      = "media_post.jinja"
+DEFAULT_OUT  : Final[pl.Path]  = pl.Path(environ['BIBLIO_TEMP']) / "post"
 
 ##--| Argparse
 import argparse
 parser = argparse.ArgumentParser(
-    prog="biblio tex",
-    description="Compile bibtex files into a pdf file of the library",
+    prog="biblio post",
+    description="Select a bibtex entry, format it, post it to social media",
 )
 parser.add_argument("--window", default=-1, type=int)
 parser.add_argument("--collect", action="append", default=[])
@@ -79,7 +84,47 @@ parser.add_argument("--style", default="jg_custom_name_first")
 
 parser.add_argument("targets", nargs='*')
 
-##--|
+##--| Body
+
+def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
+    stack     = BM.PairStack()
+    extra     = BM.metadata.DataInsertMW()
+    stack.add(read=[extra,
+                    BM.failure.DuplicateKeyHandler(),
+                    ],
+              write=[
+                  BM.failure.FailureHandler(),
+              ])
+    stack.add(BM.bidi.BraceWrapper(),
+              BM.bidi.BidiPaths(lib_root=LIB_ROOT),
+              )
+
+    stack.add(
+        BM.bidi.BidiNames(parts=True, authors=True),
+        BM.bidi.BidiIsbn(),
+        BM.bidi.BidiTags(),
+        read=[
+            BM.metadata.KeyLocker(),
+            BM.fields.TitleSplitter()
+        ],
+        write=[
+            BM.fields.FieldSorter(first=sort_firsts, last=sort_lasts),
+            BM.metadata.EntrySorter(),
+            # BM.fields.FieldSubstitutor(fields=sub_fields, subs=_othersubs, force_single_value=True),
+        ])
+
+    stack.add(write=[extra])
+    reader = Reader(stack)
+    writer = Writer(stack)
+    return reader, writer
+
+def select_entry(bibs:list[pl.Path]) -> dict:
+    reader, writer = build_reader_and_writer()
+
+    return {}
+
+def post_to_mastodon(text:str):
+    pass
 
 def main():
     args = parser.parse_args()
@@ -87,19 +132,20 @@ def main():
     for x in args.collect:
         targets += _util.collect(pl.Path(x), glob=GLOB_STR)
 
-    env = _util.init_jinja(pl.Path(args.template_dir))
-    template = env.get_template(TEMPLATE)
+    # select an entry
+    entry     = select_entry(targets)
+    env       = _util.init_jinja(pl.Path(args.template_dir))
+    template  = env.get_template(TEMPLATE)
+    text      = template.render(
+        title=entry['title'],
+        year=entry['year'],
+        author=entry['author'],
+        url=entry['url'],
+        tags=entry['tags'],
+    )
 
-    for bib in _util.window_collection(args.window, targets):
-        # read and export the bibtex with latex encoding
-
-
-        # render the template
-        text = template.render(
-            target=bib.name,
-            style=args.style,
-        )
-
+    # post it
+    post_to_mastodon(text)
 
 ##-- ifmain
 if __name__ == "__main__":

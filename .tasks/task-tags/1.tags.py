@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 
 """
@@ -38,7 +38,7 @@ with warnings.catch_warnings():
 
 from jgdv.files.tags import SubstitutionFile, TagFile
 from jgdv.files.bookmarks import BookmarkCollection
-import _util
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -74,14 +74,15 @@ logging = logmod.getLogger(__name__)
 
 from os import environ
 # Vars:
-BIBLIO_ROOT  : Final[pl.Path]  = pl.Path(environ['BIBLIO_ROOT'])
+BIBLIO_ROOT  : Final[pl.Path]  = pl.Path(environ['POLYGLOT_ROOT'])
+BIBLIO_TEMP  : Final[pl.Path]  = pl.Path(envirion['POLYGLOT_TEMP'])
+BOOKMARKS    : Final[pl.Path]  = pl.Path(environ['BIBLIO_TOTAL_BOOKMARKS'])
+LIB_ROOT     : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
 MAIN_BIB     : Final[pl.Path]  = BIBLIO_ROOT / "main"
 TAGS_BASE    : Final[pl.Path]  = BIBLIO_ROOT / "tags/substitutions"
-FAIL_TARGET  : Final[pl.Path]  = BIBLIO_ROOT / ".temp/failed.bib"
-BOOKMARKS    : Final[pl.Path]  = BIBLIO_ROOT / "bookmarks/total.bookmarks"
-LIB_ROOT     : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
+FAIL_TARGET  : Final[pl.Path]  = BIBLIO_TEMP / "failed.bib"
 
-OUT_BASE     : Final[pl.Path]  = BIBLIO_ROOT / ".temp/tags"
+OUT_BASE     : Final[pl.Path]  = BIBLIO_TEMP / "tags"
 TAGS_TOTAL   : Final[pl.Path]  = pl.Path("total.sub")
 TAGS_CANON   : Final[pl.Path]  = pl.Path("canon.tags")
 TAGS_KNOWN   : Final[pl.Path]  = pl.Path("known.tags")

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """
 Utility script to format bibtex files
 
@@ -33,7 +33,7 @@ import bibble._interface as API
 from bibble.io import Reader
 from bibble.io import Writer
 from jgdv.files.tags import SubstitutionFile
-import _util
+import task_utils as _util
 
 # ##-- types
 # isort: off
@@ -73,7 +73,7 @@ sort_firsts     : Final[list[str]]  = ["title", "subtitle", "author", "editor", 
 sort_lasts      : Final[list[str]]  = ["isbn", "doi", "url", "file", "crossref"]
 sub_fields      : Final[list[str]]  = ["publisher", "journal", "series", "institution"]
 GLOB_STR        : Final[str]        = "*.bib"
-BIBLIO_ROOT     : Final[pl.Path]    = pl.Path(environ['BIBLIO_ROOT'])
+BIBLIO_ROOT     : Final[pl.Path]    = pl.Path(environ['POLYGLOT_ROOT'])
 LIB_ROOT        : Final[pl.Path]    = pl.Path(environ['BIBLIO_LIB'])
 SUB_ROOT        : Final[pl.Path]    = BIBLIO_ROOT / "tags/substitutions"
 TAGS_SOURCE     : Final[pl.Path]    = BIBLIO_ROOT / ".temp/tags/canon.tags"

@@ -54,12 +54,12 @@ jobs:
           uv venv
           uv sync
       - name: Generate main report
-        run: biblio report --collect main
+        run: polyglot task report --collect main
       - name: build main site 
-        run: biblio build
+        run: polyglot task build
       - name: build aisb subsite 
         run: >
-          biblio build
+          polyglot task build
           --conf ./plus/conferences_primary/aisb_
           --out aisb_
           ./plus/conferences_primary/aisb_
