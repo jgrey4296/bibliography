@@ -35,8 +35,7 @@ options:
 --out
 
 "
-    return "${PRINTED_HELP:-2}"
-    # exit "${PRINTED_HELP:-2}"
+    exit "${PRINTED_HELP:-2}"
 }
 
 function check-environment () {

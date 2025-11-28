@@ -35,8 +35,7 @@ options:
 --out  {out dir}  : the subdir of .temp/site to build into
 
 "
-    return "${PRINTED_HELP:-2}"
-    # exit "${PRINTED_HELP:-2}"
+    exit "${PRINTED_HELP:-2}"
 }
 
 function check-environment () {
