@@ -75,7 +75,7 @@ logging = logmod.getLogger(__name__)
 from os import environ
 # Vars:
 BIBLIO_ROOT  : Final[pl.Path]  = pl.Path(environ['POLYGLOT_ROOT'])
-BIBLIO_TEMP  : Final[pl.Path]  = pl.Path(envirion['POLYGLOT_TEMP'])
+BIBLIO_TEMP  : Final[pl.Path]  = pl.Path(environ['POLYGLOT_TEMP'])
 BOOKMARKS    : Final[pl.Path]  = pl.Path(environ['BIBLIO_TOTAL_BOOKMARKS'])
 LIB_ROOT     : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
 MAIN_BIB     : Final[pl.Path]  = BIBLIO_ROOT / "main"
