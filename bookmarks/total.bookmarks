@@ -7764,6 +7764,7 @@ https://fatiherikli.github.io/language-evolution-simulation/ : github
 https://faultlore.com/blah/rust-layouts-and-abis/ : ABI : rust : typing
 https://faultlore.com/blah/swift-abi/ : ABI : programming : rust : stable_abi : swift
 https://faultlore.com/cargo-mommy/ : cargo : cargo_mommy : humour : rust
+https://faust.grame.fr/ : faust : programming : signal_processing
 https://faustdoc.grame.fr/manual/introduction/ : __come_back_to : documentation : dsp : faust
 https://features.propublica.org/black-land-loss/heirs-property-rights-why-black-families-lose-land-south/ : USA : land_ownership : lizzie_presser : melvin_davis : propublica : racism
 https://features.propublica.org/south-bend/wrongful-conviction-pardon-keith-cooper-christopher-parish-indiana-elkhart-police/ : corruption : law : propublica : prosecution : racism
@@ -7986,6 +7987,7 @@ https://github.com/Chalarangelo/30-seconds-of-code : github : javascript : libra
 https://github.com/ChaosForge/doomrl/tree/master/bin : doom : github : lua : rogue_like
 https://github.com/ChrisKnott/Algojammer : UI : __important : debugging : github : javascript : programming
 https://github.com/Clojure2D/clojure2d : clojure : github : graphics : processing
+https://github.com/CodeOne45/vex-tui : command_line : excel : github
 https://github.com/ContributorCovenant/hippocratic-license : coraline_ada_ehmke : github : hippocratic_license : license
 https://github.com/DFHack/dfhack : dwarf_fortress : github
 https://github.com/Dan-Q/twee2 : __come_back_to : cli : interactive_fiction : twee : twine
@@ -8022,6 +8024,7 @@ https://github.com/JeffLIrion/adb_shell : adb : android : python
 https://github.com/K0lb3/UnityPy : asset_unpacker : github : python : unity
 https://github.com/KenneyNL?tab=repositories : assets : github : kenny_nl
 https://github.com/KoBeWi/Godot-Tween-Suite : github : godot : tween
+https://github.com/Kotlin/dokka : documentation : dokka : github : kotlin
 https://github.com/Kristories/awesome-guidelines : coding_standards : github : style_conventions
 https://github.com/Kyubyong/wordvectors : NLP : python : word_vectors
 https://github.com/LeonBlade/xnbcli#readme : github : stardew_valley : xnb
@@ -8308,6 +8311,7 @@ https://github.com/gothinkster/realworld : backend : frontend : full_stack : git
 https://github.com/gradle/actions : github : github_actions : gradle
 https://github.com/grafana/grafana : github : grafana : visualisation
 https://github.com/graknlabs/grakn : ai : github : grakn : hypergraph
+https://github.com/grame-cncm/faust : faust : github : signal_processing
 https://github.com/grappa-py/grappa : assert : github : grappa : python : unit_testing
 https://github.com/gregmalcolm/python_koans : education : github : koan : learning : libraries : practice : python
 https://github.com/grei-ufc/pade : MAS : __come_back_to : pade : python
@@ -9533,6 +9537,7 @@ https://livvy.itch.io/dollhouse : dollhouse : game : itch_io : livvy : toy
 https://lizengland.com/blog/game-design-library/ : book_recommendation : book_recommendations : liz_england : person
 https://lldb.llvm.org/ : debugging : lldb : llvm
 https://lleksah.wordpress.com/2017/07/31/writing-my-first-web-browser-in-python-with-gtk/amp/ : UI : gtk : programming : python : tutorial
+https://llg.cubic.org/docs/junit/ : file_format : junit : standardisation : unit_test : xml
 https://llllllll.co/t/experimental-music-notation-resources/149 : __important : art : experimental_music : notation : patterns
 https://llllllll.co/t/experimental-music-notation-resources/149/73 : UI : __important : experimental_music : graphic_score : notation : resource : visualisation
 https://llvm.org/docs/ : compile : compiler : library : llvm : programming : reference : technical
@@ -10111,6 +10116,7 @@ https://observablehq.com/@tophtucker/inferring-chart-type-from-autocorrelation-a
 https://observer.com/2015/06/de-blasio-and-city-council-reach-deal-to-hire-1300-new-police-officers/ : de_blasio : new_york : observation : police
 https://ocaml.org/ : ocaml : programming
 https://ocharles.org.uk/blog/guest-posts/2014-12-22-template-haskell.html : haskell : template_haskell
+https://oddsandents.itch.io/art-nouveau-borders : art : art_nouveau : assets : itchio
 https://officialelectric.itch.io/ruin : fictional_games : itchio : ruin
 https://ogldev.org/ : open_gl
 https://ohmyz.sh/ : cli : command_line : oh_my_zsh : zsh
@@ -11379,6 +11385,7 @@ https://uxdesign.cc/rewilding-your-attention-d518ede18855 : clive_thompson : ima
 https://uxplanet.org/2019-ui-and-ux-design-trends-92dfa8323225?gi=3e57e937044a#---0-75 : 2019 : UI : UX : UX_planet : design : trends : user_research : web_design
 https://variety.com/2018/gaming/news/undertale-creator-releases-new-game-deltarune-1203015934/ : deltarune : toby_fox : undertale : variation
 https://variety.com/2020/film/spotlight/honey-boy-what-shia-labeouf-taught-me-about-empathy-and-forgiveness-1203455660/ : interview : jasmin_rosemberg : shia_labeouf : variation
+https://vcvrack.com/Rack : modular_synth : software : vcvrack
 https://vdl.sci.utah.edu/publications/2019_eurovis_implicit-discretization/ : analysis : data_visualisation : discretization : perception : rainbox_color_maps
 https://venturebeat.com/2013/03/31/the-walking-dead-season-one-plot-graph/ : choice : choices : game_design : telltale : venturebeat : walking_dead
 https://verbs.colorado.edu/~mpalmer/projects/ace.html : dataset : martha_palmer : propbank
@@ -12096,6 +12103,7 @@ https://www.citylab.com/transportation/2019/08/commute-time-city-size-transporta
 https://www.citymetric.com/fabric/do-british-cities-have-grid-systems-we-used-science-find-out-4084 : UK : america : city_metric : data_visualisation : grid_systems : map : metrics : orientations
 https://www.citymetric.com/politics/i-ranked-every-uk-constituency-deprivation-and-then-coloured-them-party-affiliation-fun : UK : city_metric : deprivation : metrics : poverty : visualisation
 https://www.citymetric.com/politics/these-maps-show-how-hard-it-measure-inequality-english-council-areas-4529?fbclid=IwAR3GwgJQoGJOScFqk7ZEnJrapSbQHgDSGk_4cr_aFGMlnEcvqbHRzviqNTE : UK : __important : city_metric : economics : inequality : map : maps : politics
+https://www.civicsoftechnology.org/research : STS : __come_back_to : civics_of_technology
 https://www.civilwar.org/learn/articles/reasons-secession : history : secession
 https://www.cjr.org/analysis/breitbart-media-trump-harvard-study.php : alt_right : breitbart
 https://www.cjr.org/the_profile/tucker-carlson.php : columbia_journalism_review : journalism : lyz_lenz : tucker_carlson : white_supremacy
@@ -12902,6 +12910,7 @@ https://www.marxists.org/archive/marx/works/1845/condition-working-class/ch07.ht
 https://www.marxists.org/archive/marx/works/1867-c1/ : book : capital : economics : karl_marx : marxism
 https://www.masteringemacs.org/article/how-to-get-started-tree-sitter : emacs : lisp : tree_sitter
 https://www.mat.unical.it/aspcomp2013/ASPStandardization : ASP_
+https://www.mat.unical.it/aspcomp2013/files/aspoutput.txt : answer_set_programming : asp : clingo : return_code : standardisation
 https://www.math.upenn.edu/~jhansen/2019/04/09/flow-coloring-duality/ : flow_coloring : graph : graph_theory : math : penn
 https://www.math3ma.com/blog/matrices-probability-graphs : graph : math : matrix : probability
 https://www.mathsisfun.com/ : math : reference
