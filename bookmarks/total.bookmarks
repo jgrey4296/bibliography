@@ -2246,6 +2246,7 @@ http://outlace.com/Simple-Genetic-Algorithm-in-15-lines-of-Python/ : genetic_pro
 http://overapi.com/ : cheat_sheet : reference
 http://overmind.cs.berkeley.edu/ : edu
 http://overtone.github.io/ : github
+http://owl.man.ac.uk/2003/concrete/latest/ : FaCT : description_logic : grammar
 http://owl.man.ac.uk/factplusplus/ : description_logic : fact_plus_plus : theorem_prover
 http://owlcave.net/sepulchre-game/ : game
 http://p2pfoundation.net/Main_Page : wiki
@@ -5621,6 +5622,7 @@ https://ai.stanford.edu/~kdtang/papers/cmj10-jazzgrammar.pdf : grammar : jazz : 
 https://aiforsocialgood.github.io/iclr2019/schedule.htm : ai_for_social_good
 https://ainowinstitute.org/litigatingalgorithms.pdf : algorithm : kate_crawford : law : paper : pdf
 https://airflow.apache.org/docs/apache-airflow/stable/index.html : apache_airflow : etl : task_management
+https://akhil.sh/tutorials/elixir/elixir/02_creating_a_simple_web_server/ : cowboy : elixir : web_server
 https://alamasnino.shinyapps.io/shotspotter_app/ : ShotSpotter : gun_violence : justice_tech_lab
 https://alarmingdevelopment.org/ : __come_back_to : blog : programming : research
 https://alarmingdevelopment.org/?p=1068 : UI : UX : blog : design : interface : programming
@@ -5881,6 +5883,7 @@ https://bilalakil.me/getting-started-and-productive-with-latex-basictex-on-os-x-
 https://billmoyers.com/story/charlottesville-confederate-legacy/#.XMWpjTy3lnc.twitter : bill_moyers : charlottesville : confederacy : keri_leigh_merrit : racism : violence
 https://bio.site/KatyMontgomerie : UK : katy_montgomerie : people : uk
 https://biorender.com/ : biorender : graphics
+https://bitbucket.org/dtsarkov/factplusplus/src/master/ : FaCT : bitbucket : description_logic
 https://bl.ocks.org/milkbread/11000965 : circle : intersection : line : math : voronoi
 https://blender.community/c/graphicall/gdbbbc/ : blender : extension : procedural_content
 https://blender.stackexchange.com/questions/57306/how-to-create-a-custom-ui : UI : blender : stack_overflow : ui
@@ -7106,6 +7109,7 @@ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html : language_sp
 https://docutils.sourceforge.io/docs/user/rst/quickstart.html : documentation : language : primer : python : restructured_text : rst : sphinx
 https://dorotac.eu/posts/input_method/ : blog : reference : wayland : wtype
 https://dotnet.github.io/docfx/spec/metadata_format_spec.html : documentation : dotnet
+https://dotnet.microsoft.com/en-us/ : docummentation : dotnet
 https://dotown.maeda-design-room.net/page/13/ : pixel_art
 https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/pragmas.html : haskell : pragmas
 https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html : haskell : profiling
@@ -8512,6 +8516,7 @@ https://github.com/prabhath6/theguardian-api-python : api : github : guardian : 
 https://github.com/pradyunsg/furo : documentation : furo : github : python : sphinx : theme
 https://github.com/prathyvsh/models-of-interaction : HCI : UI : __important : github : history : models_of_interaction
 https://github.com/praw-dev/praw : github : libraries : python : reddit
+https://github.com/protegeproject/protege : description_logic : github : ontology : protege
 https://github.com/psf/black : formatting : github : python
 https://github.com/puolival/multipy : __important : github : hypothesis_testing : libraries : python
 https://github.com/puppeteer/puppeteer/ : chrome : javascript : puppeteer
@@ -8921,6 +8926,7 @@ https://help.github.com/articles/markdown-basics/ : github : markdown : referenc
 https://help.imgur.com/hc/en-us/articles/41592665292443-Imgur-access-in-the-United-Kingdom : UK : censorship : imgur
 https://help.shopify.com/en/themes/liquid : jekyll : liquid : reference : web_design
 https://help.ubuntu.com/community/SSH/OpenSSH/Configuring : security : ssh : ubuntu
+https://help.ubuntu.com/community/UnityLaunchersAndDesktopFiles#Using_a_text_editor : application : desktop : linux : ubuntu
 https://hermanradtke.com/2016/08/08/introduction-to-nom-rust-parsing-combinator-framework.html/ : nom : parser : parsing : rust
 https://heterocephalusgabler.wordpress.com/2019/10/01/the-exploits-of-boris-johnson/ : UK : blog : boris_johnson : hetero_cephalus_gabler : politics
 https://heterogenoustasks.wordpress.com/2014/09/22/a-bestiary-of-player-agency/ : agency : choice : design : game_criticism : game_design : game_development : interactive_fiction : player : taxonomy
@@ -8931,6 +8937,7 @@ https://holapapi.substack.com/p/look-at-this-photograph : blog : john_paul_bramm
 https://hollywoodedge.com/all-collections.html : audio : libraries : sound_library : soundfx : soundscape
 https://home.mis.u-picardie.fr/~cli/EnglishPage.html : ccalc : sat_solving
 https://home.unicode.org/ : unicode
+https://homepages.inf.ed.ac.uk/da/Isamode/doc/Isamode_toc.html : emacs : isabelle : isamode : proof_assistant
 https://homes.cs.washington.edu/~msap/atomic/ : ATOMIC : atlas : commonsense_reasoning : machine_learning
 https://homes.cs.washington.edu/~nasmith/papers/eisner+smith.teachcl08.pdf : education : grammar : paper : parser : pdf : writing
 https://homes.cs.washington.edu/~yejin/Papers/emnlp16_sonnet.pdf : NLP : paper : pdf : poetry : procedural_content
@@ -9426,7 +9433,7 @@ https://krugman.blogs.nytimes.com/2017/10/14/lies-lies-lies-lies-lies-lies-lies-
 https://kylechayka.substack.com/p/essay-the-meme-economy : MMORPG : cryptocurrency : economics : kyle_chayka : meme_economy
 https://la.curbed.com/2019/4/25/18516026/homeless-sweeps-encampments-clean-streets : disruption : homelessness : la_curbed : nadra_nittle : police_violence : urban_design
 https://la.curbed.com/maps/roadside-architecture-programmatic-mimetic : LA : architecture : programmatic_architecture : weird
-https://lamport.azurewebsites.net/tla/tla.html : TLA+ : formal_specification
+https://lamport.azurewebsites.net/tla/tla.html : TLA+ : formal_specification : leslie_lamport : specification : tla+
 https://landersbenjamin.gitbooks.io/llvm-implementing-a-language/content/codegen.html : code_gen : language : llvm : parser : programming_language
 https://landersbenjamin.gitbooks.io/llvm-implementing-a-language/content/index.html : c_plus_plus : llvm : programming_language : reference : tutorial
 https://langui.sh/2015/07/24/osx-clang-include-lib-search-paths/ : OSX : clang : compiler : mac_os : osx
@@ -10326,6 +10333,7 @@ https://popular.info/p/meet-the-scholars-who-created-floridas : education : flor
 https://popular.info/p/right-wing-activists-seek-to-ban?r=1emko : GOP : blog : bruce_freidman : censorship : education : fascism : florida : gop : judd_legum : marc_brown
 https://popular.info/subscribe : blog : journalism : popular_information
 https://porkbellygames.itch.io/retro-mansion-assets : assets : itchio : low_poly
+https://portal.cs.umbc.edu/clips/usersguide/clipsusr.html : clips : rules : tutorial
 https://posix.opengroup.org/prodstandards.html : posix : technical_standards
 https://possiblebodies.constantvzw.org/inventory/ : __come_back_to : anthropology : culture : possible_bodies : space
 https://possiblebodies.constantvzw.org/somatopologies/ : anthropology : art : body : nick_seaver : somatopolgies : space
@@ -10371,6 +10379,7 @@ https://projects.propublica.org/trump-town/ : america : corruption : data_analys
 https://pron.github.io/posts/tlaplus_part1 : TLA : temporal_logic : tutorial
 https://propublica.github.io/congress-api-docs/#congress-api-documentation : api : propublica
 https://prospect.org/article/no-obamacare-wasnt-republican-proposal : ACA : health_care : politics : prospect : scott_lemieux
+https://protegeproject.github.io/protege/getting-started/ : description_logic : documentation : ontology : protege
 https://protonvpn.com/pricing : vpn
 https://psmag.com/.amp/education/nazis-love-taylor-swift-and-also-the-crusades : historian : nazis : pacific_standard : white_supremacy
 https://psmag.com/.amp/environment/fixing-americas-disability-disaster-response : climate_change : disability : disaster : politics
@@ -11287,6 +11296,7 @@ https://towncrier.readthedocs.io/en/stable/tutorial.html : changelog : python : 
 https://townhall.com/columnists/benshapiro/2011/04/13/the-magic-of-donald-trump-n1395003 : GOP : ben_shapiro : politics : racism : townhall : trump
 https://tox.wiki/en/latest/ : python : tox : virtual_environment : virtual_environments
 https://tox.wiki/en/stable/index.html : python : testing : tox
+https://trac.fact-project.org/wiki/InstallingFACT%2B%2B : FaCT : description_logic
 https://trac.macports.org/wiki/TeXLivePackages : latex : writing
 https://trac.v2.nl/wiki/pyOSC : osc : python
 https://tracker.orgmode.org/bugs : bugs : org_mode : programming : software_engineering
@@ -12183,6 +12193,7 @@ https://www.cs.rice.edu/~vardi/papers/cav07r2.pdf : ai : falsification : hybrid 
 https://www.cs.rochester.edu/research/speech/damsl/RevisedManual/ : DAMSL : speech_act : speech_acts
 https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_C_libraries.html : c_lang : libraries : programming : reference
 https://www.cs.tut.fi/~jkorpela/perl/regexp.html : computer_science : perl : regexp
+https://www.cs.umd.edu/class/fall2025/cmsc433/Logic_in_Rocq.html : rocq
 https://www.cs.umd.edu/hcil/treemap-history/ : treemap
 https://www.cs.uni-potsdam.de/wv/publications/#DBLP:phd/dnb/Ostrowski18 : ASP : __come_back_to : bibliography : clingo : potsdam
 https://www.cs.utah.edu/~elb/folklore/ : computer_science : folklore : hacking : history
@@ -12286,6 +12297,7 @@ https://www.economist.com/open-future/2018/11/26/ai-thinks-like-a-corporation-an
 https://www.economist.com/united-states/2018/11/24/donald-trump-is-attacking-the-rule-of-law-and-may-well-get-away-with-it : economist : rule_of_law : trump
 https://www.econstor.eu/handle/10419/191520 : econstor
 https://www.edge.org/response-detail/27199 : __come_back_to : education : science
+https://www.edgeonup.com/PT50-Series.html : knives : sharpening
 https://www.edmprod.com/drums-guide/ : EDM : drum_programming : drums : guide
 https://www.edrlab.org/open-standards/anatomy-of-an-epub-3-file/ : epub : technical_specification
 https://www.edwardburtynsky.com/projects/photographs/shipbreaking/ : art : edward_burtynsky : photography : shipbreaking
@@ -12498,6 +12510,7 @@ https://www.gnu.org/software/make/manual/html_node/Text-Functions.html : gnu : m
 https://www.gnu.org/software/make/manual/make.html : documentation : gnu : make : makefile
 https://www.gnu.org/software/sed/ : GNU : manual : regexp : sed : stream_processor : text_editor
 https://www.gnu.org/software/sed/manual/sed.html#sed-regular-expressions : gnu : sed
+https://www.gnu.org/software/sed/manual/sed.html#sed-script-overview : cli : gnu : sed : stream_editor
 https://www.gnu.org/software/smalltalk/manual-base/gst-base.html#Character : gnu : smalltalk
 https://www.gnupg.org/faq/gnupg-faq.html : gnupg : privacy : security
 https://www.gofundme.com/full-bodily-sovereignty-project : abortion : bodily_autonomy : feminism : gofundme : politics : women
@@ -12918,6 +12931,7 @@ https://www.math.upenn.edu/~jhansen/2019/04/09/flow-coloring-duality/ : flow_col
 https://www.math3ma.com/blog/matrices-probability-graphs : graph : math : matrix : probability
 https://www.mathsisfun.com/ : math : reference
 https://www.mathsisfun.com/algebra/exponents-logarithms.html : logarithm : math
+https://www.mattjquinn.com/2018/exfalso-coq/ : coq : exfalso : tactics
 https://www.maturin.rs/ : maturin : python : rust : setuptools
 https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/basics/healthy-pregnancy/hlv-20049471 : fetus : health_care : mayo_clinic : pregnancy
 https://www.mcclatchydc.com/news/politics-government/article216056560.html : georgia : voter_fraud : voting
@@ -13330,6 +13344,7 @@ https://www.nytimes.com/interactive/2022/11/18/world/middleeast/extreme-heat.htm
 https://www.nytimes.com/interactive/2023/07/13/opinion/politics/student-loan-payments-resume.html?referringSource=articleShare : nyt : student_loans
 https://www.nytimes.com/spotlight/financial-crisis-10-year-anniversary : 2008 : financial_crisis : mortgage_crisis : new_york_times
 https://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=12178217 : new_zealand : nzherald : police : prostitutes_collective
+https://www.obitko.com/tutorials/ontologies-semantic-web/ : FaCT : description_logic : ontology : semantic_web
 https://www.octave.org/ : gnu : matlab : octave
 https://www.oculusvr.com/order/ : oculus : shopping
 https://www.offlineimap.org/documentation.html : emacs : email : offlineimap
@@ -13555,6 +13570,7 @@ https://www.racialequitytools.org/fundamentals/core-concepts/structural-racism :
 https://www.rainn.org/ : RAINN : sexual_abuse : statistics
 https://www.rainn.org/statistics/perpetrators-sexual-violence : RAINN : immigration : sexual_assault : statistics
 https://www.rainn.org/statistics/scope-problem : RAINN : sexual_violence : statistics
+https://www.rammsteinworld.com/en/lyrics : lyics : rammstein
 https://www.rand.org/content/dam/rand/pubs/research_reports/RR1400/RR1478/RAND_RR1478.pdf : USA : ai : autonomous_vehicles : probability : safety : statistics
 https://www.raphkoster.com/2017/06/27/the-internet-as-existential-threat/ : criticism : internet : raph_koster
 https://www.raphkoster.com/2017/08/27/consent-systems/ : __come_back_to : consent_systems : raph_koster
@@ -13888,6 +13904,8 @@ https://www.sandiegouniontribune.com/news/courts/story/2019-12-08/religious-righ
 https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction : abstraction : software_design : software_development
 https://www.savorysuitcase.com/how-to-use-shrimp-paste-in-cooking/ : cooking : shrimp_paste
 https://www.saxonica.com/documentation12/index.html : reference : saxon : xml
+https://www.sbcl.org/getting.html : lisp : sbcl
+https://www.sbcl.org/manual/index.html : documentation : lisp : sbcl
 https://www.sbnation.com/2020/4/20/21227661/caster-semenya-world-athletics-regulation-body-racism : athletics : caster_semenya : elizabeth_adetiba : race : sbnation : sex
 https://www.sbnation.com/a/17776-football/chapter-1 : 1776_football : football : new_media : sbnation
 https://www.sbs.ox.ac.uk/oxford-answers/seven-conceptions-systems-change-starting-point-intervention : __come_back_to : marc_ventresca : systems_thinking
@@ -14975,6 +14993,7 @@ https://www.videlibri.de/xidel.html : XML : command_line : xidel
 https://www.villagevoice.com/2018/06/22/james-baldwin-on-being-gay-in-america/ : 1984 : LGBTQ : james_baldwin : village_voice
 https://www.vincit.fi/en/blog/software-development-450-words-per-minute/ : blind : screen_reader : software_development
 https://www.virtualbox.org/ : virtual_box : virtual_machine
+https://www.virtualbox.org/manual/ : documentation : virtual_machine : virtualbox
 https://www.visualcapitalist.com/visualizing-the-accumulation-of-human-made-mass-on-earth/ : anthropogenic_mass : biomass : bruno_venditti : pollution : visual_capitalist : visualisation
 https://www.vogons.org/viewtopic.php?t=16900 : discworld : dosbox : tutorial
 https://www.voterstudygroup.org/publication/opposing-forces : elections : lee_drutman : politics : trump : visualisation : voter_study_group
