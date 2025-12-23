@@ -4,9 +4,9 @@ set -euo pipefail
 source "$POLY_SRC/lib/lib-util.bash"
 
 # TODO: have a file of backup targets?
-header "biblio --backup"
+tdot "biblio --backup [aisb]"
 
-source="${1:-$BIBLIO_LIB}"
+source="${1:-$BIBLIO_LIB}/../aisb"
 target="${2:-$BIBLIO_BKUP}"
 
 subhead "Source: $source"
