@@ -45,8 +45,8 @@ undertale                             : 3
 underwater                            : 1 : under_water
 underwear                             : 1
 undo_algorithm                        : 1
-undocumented_immigration              : 10
-undocumnted_immigration               : 1   : undocumented_immigration
+undocumented_immigration              : 10  : immigration
+undocumnted_immigration               : 1   : immigration
 unemployment                          : 6
 unequal_exchange                      : 1
 unexpected_consequences               : 1

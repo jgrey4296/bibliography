@@ -425,6 +425,7 @@ https://www.uesp.net/wiki
 https://www.wowwiki.com
 
 ** Github
+https://trenchbroom.github.io
 https://github.com/chad-loder/efta-analysis
 https://github.com/pvolok/mprocs
 https://github.com/bahamas10
@@ -865,6 +866,7 @@ www.pdfdrive.com
 www.base-search.net 
 
 * Blogs
+https://shelfies.beehiiv.com
 ** ACLU
 https://www.aclu.org/cases
 https://www.aclu.org/blog/lgbt-rights
