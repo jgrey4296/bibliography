@@ -6,6 +6,8 @@ https://www.tollfromcoal.org
 https://archive.ph/
 https://www.tunefind.com/
 https://bellingcat.gitbook.io/toolkit
+https://appdb.winehq.org
+https://www.dosbox.com
 
 * Main
 ** Audio Visual
