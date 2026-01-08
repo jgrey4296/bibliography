@@ -17,6 +17,7 @@
 :tasks       : .tasks
 :scripts     : .tasks/scripts
 :related     : .related
+:env         : .envrc
 :doot        : doot.toml
 :sphinx      : conf.py
 :tox         : tox.toml
