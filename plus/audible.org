@@ -1,0 +1,150 @@
+#  audible.txt -*- mode: Org -*- 
+
+* UK Titles: 
+B004DS0YXS: Kurt Vonnegut: Player Piano
+B004EEC2FO: Doug Naylor, Rob Grant: Red Dwarf: Red Dwarf
+B004EK4WLK: Lemony Snicket: A Series of Unfortunate Events: The Hostile Hospital
+B004EK4WR4: Lemony Snicket: A Series of Unfortunate Events: The Austere Academy
+B004EKC636: Lemony Snicket: A Series of Unfortunate Events: The Carnivorous Carnival
+B004EKC67W: Lemony Snicket: A Series of Unfortunate Events: The Ersatz Elevator
+B004EQUC4U: Iain M. Banks: Culture: Consider Phlebas
+B004EUUMC8: Frederik Pohl: The Heechee Saga: Gateway
+B004EUUMLO: Frederik Pohl: Man Plus
+B004EVMD9M: Douglas Adams: Hitchhiker's Guide (radio plays): The Hitchhiker's Guide To The Galaxy: Primary Phase
+B004EVNUMQ: Douglas Adams: Hitchhiker's Guide (radio plays): The Hitchhiker's Guide To The Galaxy: Secondary Phase
+B004EVNUYY: John Wyndham: The Chrysalids
+B004EVSI6O: Philip K. Dick: The Three Stigmata of Palmer Eldritch
+B004EVTQKG: Aldous Huxley: Crome Yellow
+B004EVTW8W: Philip K. Dick: Dr. Bloodmoney
+B004EVVVHW: Philip K. Dick: The Man in the High Castle
+B004EW5KKU: J. R. R. Tolkien: The Lord of the Rings: The Hobbit
+B004EW7KMG: Lemony Snicket: A Series of Unfortunate Events: The Vile Village
+B004EW7QIO: G.K. Chesterton: Man Who was Thursday
+B004EWA14A: Terry Pratchett: Strata
+B004EWBA5E: Kurt Vonnegut: Cat's Cradle
+B004EXCNHW: Isaac Asimov: Foundation: Foundation (Apple Series Tie-in Edition)
+B004EXEKVY: Terry Pratchett: Discworld (abridged), Discworld: Ankh-Morpork City Watch (abridged): The Fifth Elephant
+B004EXLLNE: Ursula K. Le Guin: The Earthsea Quartet: A Wizard of Earthsea
+B004FT6TLQ: Kurt Vonnegut: The Sirens of Titan
+B004FT8NE2: Neal Stephenson: The Diamond Age
+B004FTAO12: Paolo Bacigalupi: The Windup Girl
+B004FTBFSI: Frank Herbert: Dune, The Dune Sequence: Dune
+B004FTF00W: Neal Stephenson: Cryptonomicon
+B004FTFUFW: Robert A. Heinlein: The Moon Is a Harsh Mistress
+B004FTIYAU: Mervyn Peake: Gormenghast: Titus Groan
+B004FTJGZM: Alexandre Dumas: The Count of Monte Cristo
+B004FTOL0C: Stephen King: Under the Dome
+B004FTSDJC: Robert A. Heinlein: Starship Troopers
+B004FTSU3Q: Salman Rushdie: The Satanic Verses
+B004FTU4JY: Michael Crichton: State of Fear
+B004FU0OZ2: Charlaine Harris: Sookie Stackhouse: Dead Until Dark
+B004FU2P0O: Eoin Colfer: Hitchhiker's Guide to the Galaxy: And Another Thing ...
+B004FU45YS: Peter F. Hamilton: Void Trilogy: The Dreaming Void
+B004FU5Q50: Terry Pratchett: Discworld, Discworld: Rincewind: The Last Continent
+B004FU7X3S: Kim Stanley Robinson: Mars Trilogy: Blue Mars
+B004FU7YD2: Isaac Asimov: Foundation: Foundation and Empire
+B004FU9BWY: Kim Stanley Robinson: Mars Trilogy: Green Mars
+B004FU9CYG: Kim Stanley Robinson: Mars Trilogy: Red Mars
+B004FUB186: Isaac Asimov: Foundation: Second Foundation
+B004FUB2QW: Joe Haldeman: The Forever War: The Forever War
+B004FUB4DI: Stephen Fry: Moab Is My Washpot
+B004FUET8K: David Brin: Uplift Saga: Sundiver
+B004I8KQ5O: James Gleick: Chaos
+B004L126AG: James Gleick: The Information
+B00546H54O: Bill Johnston - translator, Stanislaw Lem: Solaris
+B0056ABAM6: Adam Mansbach: Go the F--k to Sleep
+
+
+* US Titles:
+
+B002UUFNY6: Terry Pratchett: Discworld: Small Gods
+B002UUKWCY: Neal Stephenson: Snow Crash
+B002UZHP1U: Philip Pullman: His Dark Materials: His Dark Materials: The Subtle Knife (Book 2)
+B002UZLEFS: Ron Chernow: Alexander Hamilton
+B002V014PW: Alain de Botton: The Architecture of Happiness
+B002V0A5LQ: Connie Willis: Oxford Time Travel: To Say Nothing of the Dog
+B002V0A75U: Charles Dickens: Bleak House
+B002V0K548: Douglas Adams: Dirk Gently: The Long Dark Tea-Time of the Soul
+B002V0KFPW: Bill Bryson: A Short History of Nearly Everything
+B002V0PQ4C: Octavia E. Butler: Earthseed: Parable of the Sower
+B002V19RO6: George Orwell: 1984
+B002V1NG16: Philip Pullman: His Dark Materials: The Golden Compass
+B002V1O2OG: China Miéville: New Crobuzon: Perdido Street Station
+B002V5A2WS: Jostein Gaarder: Sophie's World
+B002V5B2HM: Terry Pratchett: Discworld, Discworld: Ankh-Morpork City Watch: Night Watch
+B002V5B41Q: Terry Pratchett: Discworld, Discworld: Industrial Revolution: The Truth
+B002V5B7PO: Niall Ferguson: The Ascent of Money
+B002V5BA06: Philip Pullman: His Dark Materials, His Dark Materialsik: The Amber Spyglass
+B002V5BQG4: Terry Pratchett: Discworld, Discworld: Ankh-Morpork City Watch: Men at Arms
+B002V5IYBO: Richard K. Morgan: A Land Fit for Heroes: The Steel Remains
+B002V8HA4S: Richard K. Morgan: Thirteen
+B002V8HAR0: Richard K. Morgan: Market Forces
+B002V8KY4Q: Neal Stephenson: Anathem
+B002V8N37Q: test: Your First Listen
+B002VA8IXS: Robert Greene: The 48 Laws of Power
+B002VA8SWO: Stephen King: The Langoliers
+B0036GPQ5O: Bill Bryson: Shakespeare
+B0036IN942: Stephen King: The Dark Tower: The Gunslinger
+B0036KVZ8M: Terry Pratchett: Discworld: Thief of Time
+B0036KZN76: Terry Pratchett: Carpe Jugulum
+B0036N9OCS: Mervyn Peake: Gormenghast: Gormenghast
+B003TPS0ZU: China Miéville: Kraken
+B0041PD25K: Ursula K. Le Guin: The Hainish Cycle: The Dispossessed
+B0042FWTTE: Bill Bryson: At Home
+B004CZ2JXK: Haruki Murakami: Hard-Boiled Wonderland and the End of the World
+B004Y0K5V6: Franz Kafka: The Metamorphosis
+B00500HQNE: China Miéville: Embassytown
+B0055240CC: William Boyd: Any Human Heart
+B0057HR4E6: William Gibson: Sprawl Trilogy Series: Neuromancer
+B005F5Y6GO: Bruce Sterling - introduction, John Brunner: Stand on Zanzibar
+B005F5ZBRC: Walter M. Miller Jr.: A Canticle for Leibowitz
+B005FRGT44: Ernest Cline: Ready Player One: Ready Player One
+B005QDO084: Terry Pratchett: Discworld, Discworld: Ankh-Morpork City Watch: Snuff
+B005WWSZQ2: Niall Ferguson: Civilization
+B006P482NC: Francis Fukuyama: Political Order: The Origins of Political Order: From Prehuman Times to the French Revolution
+B006WRE30S: Benjamin Hoff: The Tao of Pooh
+B0072GK528: David Graeber: Debt
+B007QW236E: Michelle Alexander: The New Jim Crow
+B007SP2LPM: John Scalzi: Redshirts
+B0082D73U2: Kim Stanley Robinson: 2312
+B008FR70AI: Jacqueline Simpson, Terry Pratchett: Discworld: The Folklore of Discworld
+B008NB9GIU: Margaret Atwood: The Handmaid's Tale: The Handmaid's Tale
+B008YM1H9O: Stanislaw Lem: The Cyberiad
+B0091ZB5C2: Stanislaw Lem: Mortal Engines
+B0096U97Z4: Olaf Stapledon: Last and First Men
+B009CEYDXK: Philip K. Dick: Solar Lottery
+B00B5HZGUG: Andy Weir: The Martian
+B00C2UQQ5Y: Philip K. Dick: A Maze of Death
+B00CICRX0I: Douglas Hofstadter, Emmanuel Sander: Surfaces and Essences
+B00CRNNYCE: Jon Mooallem: Wild Ones
+B00CS395BM: Niall Ferguson: The Great Degeneration
+B00CTPEKYG: Italo Calvino: Invisible Cities
+B00D8EMBVQ: Ken Albala, The Great Courses: The Great Courses: Better Living: Food: A Cultural Culinary History
+B00D8K5EFA: Kenneth P. Vickery, The Great Courses: The Great Courses: Civilization & Culture: The African Experience: From 'Lucy' to Mandela
+B00D99S8MQ: Patrick N. Allitt, The Great Courses: The Great Courses: Modern Philosophy: The Conservative Tradition
+B00DB6KIKC: Kenneth J. Hammond, The Great Courses: The Great Courses: Civilization & Culture: From Yao to Mao: 5000 Years of Chinese History
+B00DDVPXJG: Robert Garland, The Great Courses: The Great Courses: Ancient History: The Other Side of History: Daily Life in the Ancient World
+B00E1OW9WI: Kurt Vonnegut: If This Isn't Nice, What Is
+B00EF8DG68: Gabriel García Márquez, Gregory Rabassa - translator: One Hundred Years of Solitude
+B00EHOSG1A: David Livermore, The Great Courses: The Great Courses: Better Living: Customs of the World: Using Cultural Intelligence to Adapt, Wherever You Are
+B00EV5209Y: Haruki Murakami: The Wind-Up Bird Chronicle
+B00F8KIVVC: Michel Foucault: Discipline & Punish
+B00GLZPZHQ: Dmitry Glukhovsky: Metro: Metro 2033
+B00GM47LLO: Ann Leckie: Imperial Radch: Ancillary Justice
+B00GS1YYNY: L. Frank Baum: The Wonderful Wizard of Oz
+B00IAYHWG8: Terry Pratchett: Discworld, Discworld: Industrial Revolution, Discworld: Moist von Lipwig: Raising Steam
+B00J55GD0W: Lewis Dartnell: The Knowledge
+B00K33KA7M: Arthur Goldhammer - translator, Thomas Piketty: Capital in the Twenty-First Century
+B00K58X53Q: Lawrence Cahoone, The Great Courses: The Great Courses: Modern Philosophy: The Modern Political Tradition: Hobbes to Habermas
+B00MU2VLLI: J. G. Ballard: The Complete Short Stories
+B00OYRN3TU: China Miéville: New Crobuzon: The Scar
+B00Y1R6RSM: Kim Stanley Robinson: Aurora
+B010HEGGO2: Nnedi Okorafor: Binti: Binti
+B017V4NMX4: J.K. Rowling: Harry Potter, Wizarding World Collection: Harry Potter and the Order of the Phoenix, Book 5
+B017V4NUPO: J.K. Rowling: Harry Potter, Wizarding World Collection: Harry Potter and the Goblet of Fire, Book 4
+B01EGDJV6A: Lionel Shriver: The Mandibles
+B01L2PE1XI: John Scalzi: The Interdependency: The Collapsing Empire
+B01M3YQ17W: Ursula K. Le Guin: The Found and the Lost
+B01NAM6ESU: Kim Stanley Robinson: New York 2140
+B072R1CY4P: Andy Weir: Artemis
+B075QLD2C2: Dan Abnett: Eisenhorn: Xenos
