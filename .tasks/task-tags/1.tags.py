@@ -1,6 +1,6 @@
 #!/usr/bin/env -S uv run --script
 """
-
+Read bibtex files, save tags into .temp
 """
 # ruff: noqa: N812
 from __future__ import annotations
@@ -76,17 +76,15 @@ from os import environ
 # Vars:
 BIBLIO_ROOT  : Final[pl.Path]  = pl.Path(environ['POLYGLOT_ROOT'])
 BIBLIO_TEMP  : Final[pl.Path]  = pl.Path(environ['POLYGLOT_TEMP'])
-BOOKMARKS    : Final[pl.Path]  = pl.Path(environ['BIBLIO_TOTAL_BOOKMARKS'])
+BIBLIO_TAGS  : Final[pl.Path]  = pl.Path(environ['BIBLIO_TAGS_LOC'])
 LIB_ROOT     : Final[pl.Path]  = pl.Path(environ['BIBLIO_LIB'])
+
 MAIN_BIB     : Final[pl.Path]  = BIBLIO_ROOT / "main"
 TAGS_BASE    : Final[pl.Path]  = BIBLIO_ROOT / "tags/substitutions"
 FAIL_TARGET  : Final[pl.Path]  = BIBLIO_TEMP / "failed.bib"
-
 OUT_BASE     : Final[pl.Path]  = BIBLIO_TEMP / "tags"
-TAGS_TOTAL   : Final[pl.Path]  = pl.Path("total.sub")
-TAGS_CANON   : Final[pl.Path]  = pl.Path("canon.tags")
+
 TAGS_KNOWN   : Final[pl.Path]  = pl.Path("known.tags")
-TAGS_FRESH   : Final[pl.Path]  = pl.Path("fresh.tags")
 
 GLOB_STR     : Final[str]      = "*.bib"
 ##--| argparse
@@ -95,21 +93,8 @@ parser = argparse.ArgumentParser(
     prog="biblio tags",
     description="Update tag files",
 )
-parser.add_argument("--collect", action="append", default=[])
-parser.add_argument("--known",                    default=TAGS_BASE)
-parser.add_argument("--bookmarks",                default=BOOKMARKS)
 parser.add_argument("--output",                   default=OUT_BASE)
-parser.add_argument("targets", nargs='*')
 ##--| Body
-
-def get_tags_from_bookmarks(target:pl.Path) -> TagFile:
-    print("Collecting Tags from bookmarks...")
-    bookmarks = BookmarkCollection.read(target)
-    bkmk_tags = TagFile()
-    for bkmk in bookmarks:
-        bkmk_tags.update(bkmk.tags)
-    else:
-        return bkmk_tags
 
 def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     print("Building Bibtex Reader/Writer...")
@@ -130,40 +115,14 @@ def build_reader_and_writer() -> tuple[Reader, API.Writer_p]:
     writer = Writer(stack)
     return reader, writer
 
-def collate_tags(subs:SubstitutionFile, raw:TagFile, bkmks:TagFile) -> tuple[TagFile, TagFile]:
-    """  """
-    print("Collating Tags...")
-    canon = subs.canonical()
-    total = TagFile()
-    fresh = TagFile()
-
-    total.update(canon)
-    total.update(subs.to_set())
-    total.update(raw.to_set())
-    total.update(bkmks)
-
-    raw_set = total.to_set()
-    raw_set -= subs.to_set()
-    raw_set -= canon.to_set()
-    fresh.update(raw_set)
-
-    return (canon, fresh, total)
 
 def main() -> None:
     args         = parser.parse_args()
-    targets      = [pl.Path(x) for x in args.targets]
     output_base  = pl.Path(args.output)
-    for x in args.collect:
-        targets += _util.collect(pl.Path(x), glob=GLOB_STR)
-
-    if not bool(targets):
-        targets = _util.collect(MAIN_BIB)
-
-    # Load known:
-    subs   = _util.load_tags(pl.Path(args.known))
-    bkmks  = get_tags_from_bookmarks(pl.Path(args.bookmarks))
+    output_base.mkdir(exist_ok=True)
 
     # Load Tags from bib files
+    targets = _util.collect(MAIN_BIB)
     reader, writer  = build_reader_and_writer()
     raw             = TagFile()
     print("Reading Bibtex files...")
@@ -175,12 +134,9 @@ def main() -> None:
             case _:
                 pass
     else:
-        canon, fresh, total = collate_tags(subs, raw, bkmks)
-        (output_base / TAGS_TOTAL).write_text(str(total))
-        (output_base / TAGS_CANON).write_text(str(canon))
         (output_base / TAGS_KNOWN).write_text(str(raw))
-        (output_base / TAGS_FRESH).write_text(str(fresh))
         print(f"Tag files writen in: {output_base}")
+
 
 ##-- ifmain
 if __name__ == "__main__":

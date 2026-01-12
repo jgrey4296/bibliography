@@ -52,15 +52,6 @@ function check-environment () {
         has_failed=1
         echo -e "!-- No POLYGLOT_TEMP has been defined"
     fi
-    if [[ -z "${BIBLIO_TOTAL_BOOKMARKS:-}" ]]; then
-        has_failed=1
-        echo -e "!-- No BIBLIO_TOTAL_BOOKMARKS has been defined"
-    fi
-    if [[ -z "${BIBLIO_LIB:-}" ]]; then
-        has_failed=1
-        echo -e "!-- No BIBLIO_LIB has been defined"
-    fi
-
     if [[ "$has_failed" -gt 0 ]]; then
         fail "Missing EnvVars"
     fi
