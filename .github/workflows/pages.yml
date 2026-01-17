@@ -47,8 +47,7 @@ jobs:
         run: |
           asdf plugin add direnv
           asdf install
-          direnv allow
-          direnv export gha >> "$GITHUB_ENV"
+          ./.tasks/github-init.bash
       - name: setup python
         run: |
           uv venv
