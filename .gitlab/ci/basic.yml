@@ -1,0 +1,7 @@
+#  basic.yml -*- mode: yaml -*- 
+# 
+
+example-job:
+  stage: build
+  script:
+    - echo "blah"
