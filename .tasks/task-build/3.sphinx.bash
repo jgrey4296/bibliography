@@ -33,9 +33,11 @@ while [[ $# -gt 0 ]]; do
 done
 
 subhead "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$site_out)"
-uv run sphinx-build \
+(uv run sphinx-build \
+    --fresh-env \
     --conf-dir "$conf" \
     --doctree-dir "$out/doctrees" \
     --warning-file "$conf/.temp/logs/sphinx.log" \
     --builder "$builder" \
     "$src" "$site_out"
+ )
