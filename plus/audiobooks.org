@@ -1,12 +1,75 @@
-#  audible.txt -*- mode: Org -*- 
+#  audible.txt -*- mode: Org -*-
 
-* UK Titles: 
+* On Disc
+- [[https://en.wikipedia.org/wiki/Paradise_Lost_in_Cyberspace][cyberspace lost]]
+- dave eggers : a heartbreaking work of staggering genius
+- baudolino
+- cormac mccarthy : blood meridian
+- susanne collins : catching fire
+- susanne collins : the hunger games
+- susanne collins : mockingjay
+- cory doctorow: down and out in the magic kingdom
+- cory doctorow: homeland
+- margaret peterson haddix : found
+- david byrne : how music works
+- william s. burroughs : junky
+- piers anthony : on a pale horse
+- star wars: tales of the jedi
+- star wars: return of the jedi
+- star wars: the empire strikes back
+- star wars: the original radio drama
+
+** alfred bester
+- the demolished man
+- the stars my destination
+
+** andy weir
+- the martian
+- artemis
+
+** Big Finish
+*** [[https://www.bigfinish.com/ranges/v/dalek-empire][dalek empire]]  1.1 - 3.6
+*** something inside
+** Black Library
+- horus rising
+- false gods
+- galaxy in flames
+- fulgrim
+- a thousand sons
+- prospero burns
+- xenos
+- garro: legion of one
+- garro: oath of moment
+** Discworld
+- [[https://www.bbc.co.uk/programmes/b010ns42/episodes/guide][night watch dramatization]]
+** edward said
+- the reith lectures
+
+** great courses
+- the conservative tradition
+- the modern political tradition
+- the other side of history
+- food a cultural culinary history
+- the african experience
+** john wyndham
+- the day of the triffids
+- the kraken wakes
+
+** stephen fry
+- the ode less travelled
+** ursula le guin
+- the dispossessed
+- the found and the lost
+- a wizard of earthsea
+- the tombs of atuan
+
+* Audible UK Titles:
 - [X] B004DS0YXS: Kurt Vonnegut: Player Piano
 - [X] B004EEC2FO: Doug Naylor, Rob Grant: Red Dwarf: Red Dwarf
 - [X] B004EK4WLK: Lemony Snicket: A Series of Unfortunate Events: The Hostile Hospital
 - [X] B004EK4WR4: Lemony Snicket: A Series of Unfortunate Events: The Austere Academy
-- [ ] B004EKC636: Lemony Snicket: A Series of Unfortunate Events: The Carnivorous Carnival
-- [ ] B004EKC67W: Lemony Snicket: A Series of Unfortunate Events: The Ersatz Elevator
+- [X] B004EKC636: Lemony Snicket: A Series of Unfortunate Events: The Carnivorous Carnival
+- [X] B004EKC67W: Lemony Snicket: A Series of Unfortunate Events: The Ersatz Elevator
 - [X] B004EQUC4U: Iain M. Banks: Culture: Consider Phlebas
 - [X] B004EUUMC8: Frederik Pohl: The Heechee Saga: Gateway
 - [X] B004EUUMLO: Frederik Pohl: Man Plus
@@ -54,8 +117,7 @@
 - [ ] B00546H54O: Bill Johnston - translator, Stanislaw Lem: Solaris
 - [X] B0056ABAM6: Adam Mansbach: Go the F--k to Sleep
 
-
-* US Titles:
+* Audible US Titles:
 
 - [ ] B002UUFNY6: Terry Pratchett: Discworld: Small Gods
 - [ ] B002UUKWCY: Neal Stephenson: Snow Crash
