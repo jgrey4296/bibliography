@@ -9,7 +9,7 @@ dependencies    = [
     "sphinx-rtd-theme>=3.0.2",
     "myst-parser>=4.0.1",
     "sphinx-sitemap>=2.6.0",
-    "sphinx-bib-domain>=0.2.0",
+    "sphinx-bib-domain>=0.3.0",
     "pydot>=4.0.1",
     "sqlalchemy>=2.0.43",
 ]
@@ -23,7 +23,7 @@ dev = [
 prerelease="allow"
 
 [tool.uv.sources]
-sphinx-bib-domain = { git = "https://github.com/jgrey4296/sphinx_bib_domain" }
+# sphinx-bib-domain = { git = "https://github.com/jgrey4296/sphinx_bib_domain" }
 
 ##-- mypy
 # https://mypy.readthedocs.io/en/stable/config_file.html#config-file

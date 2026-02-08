@@ -144,8 +144,11 @@ include_patterns = [
     "report.rst",
     "pages_/*",
 
-    # "main/12*",
     "main/*",
+    # "main/11*",
+    # "main/12*",
+    # "main/13*",
+    # "main/195*",
     #
     # "plus/individuals/*",
     # "plus/conferences_primary/aisb_/**",
@@ -189,6 +192,9 @@ exclude_patterns += [
 ##-- bibtex domain
 extensions.append("sphinx_bib_domain")
 bib_domain_split_index = True
+bib_domain_active_blocks = []
+bib_domain_template_prefix = "bib_domain"
+bib_domain_tempate_suffix  = ".rst.jinja"
 
 ##-- end bibtex domain
 
