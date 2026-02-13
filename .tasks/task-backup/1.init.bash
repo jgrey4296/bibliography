@@ -18,5 +18,3 @@ if [[ -z "$source" ]] || [[ -z "$target" ]]; then
 fi
 
 rsync --archive --progress "$source" "$target"
-
-# TODO sync to media
