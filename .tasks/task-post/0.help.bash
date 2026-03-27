@@ -10,18 +10,7 @@ if [[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]]; then
     source "$POLYGLOT_ROOT/.tasks/task-util.bash"
 fi
 
-function print-help () {
-    # test args, if the last one is -h or --help
-    # print help and exit
-    case "${@: -1}" in
-        -h|--help) ;;
-    #     *) if [[ "$#" -gt 0 ]]; then
-    #            return
-    #        fi
-    #        ;;
-        *) return ;;
-    esac
-    echo -e "
+HELP_TEXT="
 usage: polyglot task post [args ...] [-h]
 
 positional arguments:
@@ -36,22 +25,5 @@ options:
 --style         :
 
 "
-    exit "${PRINTED_HELP:-2}"
-}
 
-function check-environment () {
-    subhead "Checking Environment"
-    has_failed=0
-
-    if [[ -z "${BIBLIO_TEMP:-}" ]]; then
-        has_failed=1
-        echo -e "!-- No BIBLIO_TEMP has been defined"
-    fi
-
-    if [[ "$has_failed" -gt 0 ]]; then
-        fail "Missing EnvVars"
-    fi
-}
-
-print-help "$@"
-check-environment
+maybe-print-help "leaf" 0 "$HELP_TEXT" "$@"

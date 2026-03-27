@@ -4,9 +4,9 @@ set -euo pipefail
 source "$POLY_SRC/lib/lib-util.bash"
 
 # TODO: have a file of backup targets?
-tdot "biblio --backup [aisb]"
+header "biblio --backup"
 
-source="${1:-$BIBLIO_LIB}/../aisb"
+source="${1:-$BIBLIO_LIB}"
 target="${2:-$BIBLIO_BKUP}"
 
 subhead "Source: $source"
@@ -18,5 +18,3 @@ if [[ -z "$source" ]] || [[ -z "$target" ]]; then
 fi
 
 rsync --archive --progress "$source" "$target"
-
-# TODO sync to media

@@ -10,18 +10,7 @@ if [[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]]; then
     source "$POLYGLOT_ROOT/.tasks/task-util.bash"
 fi
 
-function print-help () {
-    # test args, if the last one is -h or --help
-    # print help and exit
-    case "${@: -1}" in
-        -h|--help) ;;
-    #     *) if [[ "$#" -gt 0 ]]; then
-    #            return
-    #        fi
-    #        ;;
-        *) return ;;
-    esac
-    echo -e "
+HELP_TEXT="
 usage: polyglot task chunk [args ...] [-h]
 
 Chunk larger bibtex files into smaller ones.
@@ -36,17 +25,6 @@ options:
 --failures    :
 
 "
-    exit "${PRINTED_HELP:-2}"
-}
 
-function check-environment () {
-    subhead "Checking Environment"
-    has_failed=0
 
-    if [[ "$has_failed" -gt 0 ]]; then
-        fail "Missing EnvVars"
-    fi
-}
-
-print-help "$@"
-check-environment
+maybe-print-help "leaf" 0 "$HELP_TEXT" "$@"
