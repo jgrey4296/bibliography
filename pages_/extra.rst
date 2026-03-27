@@ -10,7 +10,8 @@ Extra
    :local:
 
 
-- See `aisb <../aisb_/index.html>`_ for AISB bibtex.
-- See :doc:`../report` for a report on repo statistics.
+- See `here <../aisb_/index.html>`_ for the AISB bibtex.
+- See :doc:`here <../report>` for a report on repo statistics.
+- See :doc:`here <../pages_/of_interest>` for the reading list.
 
       
