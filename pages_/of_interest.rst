@@ -55,7 +55,7 @@ Of Interest
   
 ⁃ 1980: :ref:`aikins80_repres_contr_knowl_exper_system_` :ref:`aikins80__protot_produc_rules_` :ref:`carper80_natur_types_organ_taxon_5_` :ref:`davis80_meta_15_` :ref:`reiter80_logic_defaul_reason_13_` :ref:`smith80_contr_net_protoc_`
 ⁃ 1981: :ref:`carroll81__rules_game_ephem_instit_6_` :ref:`crenshaw81_causes_terror_13_` :ref:`grusky81_sociol_organ_` :ref:`ki-zerbo81_gener_histor_of_afric_i_` :ref:`lenhert81_plot_units_narrat_summar_4_` :ref:`plotkin81_` :ref:`stallman81__emacs_` :ref:`sutton81_dance_writin_short_moder_jazz_dance_`
-⁃ 1982: 
+⁃ 1982: :cite:`kristeva82_power_horror_` :cite:`belnap82_displ_logic_11_` :cite:`cohen82_handb_artif_intel_` :cite:`hartley82_under_news_` :cite:`oldenburg82_5_` :cite:`smith82:_proced_reflec_progr_languag_` :cite:`trachtenberg82__incor_of_americ_`
 ⁃ 1983: :ref:`bainbridge83__ironies_of_autom_19_` :ref:`builder83_towar_` :ref:`carlson83__dialog_games_` :ref:`chandrasekaran83_towar_taxon_probl_solvin_types_4_` :ref:`clark83_under_old_words_with_new_meanin_22_` :ref:`ellul83__ellul_and_techn_` :ref:`mintzberg83__struc_fives_` :ref:`ostrom83__overv_rule_config_`
 ⁃ 1984: :ref:`giddens84_const_societ_` :ref:`hewitt84_open_system_` :ref:`lefebvre84_produc_space_` :ref:`lem84__microw_` :ref:`march84_new_instit_` :ref:`rivieres84_implem_proced_reflec_languag_`
 ⁃ 1985: :ref:`ellerman85_mathem_doubl_entry_bookk_58_` :ref:`francik85_how_to_make_reques_that_24_` :ref:`hoare85_commun_sequen_proces_` :ref:`masuch85_vicious_circl_organ_30_` :ref:`pattison85_instan_descr_organ_struc_` :ref:`scott85_weapon_weak_` :ref:`strauss85_work_divis_labor_26_`
