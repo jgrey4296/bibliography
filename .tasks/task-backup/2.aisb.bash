@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# shellcheck disable=SC1091
 source "$POLY_SRC/lib/lib-util.bash"
+[[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]] && source "$POLYGLOT_ROOT/.tasks/task-util.bash"
 
 # TODO: have a file of backup targets?
 header "biblio --backup"

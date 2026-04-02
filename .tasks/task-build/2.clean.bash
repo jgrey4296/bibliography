@@ -5,6 +5,7 @@ set -o pipefail
 
 # shellcheck disable=SC1091
 source "$POLY_SRC/lib/lib-util.bash"
+[[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]] && source "$POLYGLOT_ROOT/.tasks/task-util.bash"
 
 out="${POLYGLOT_TEMP}"
 site_out="$out/site"

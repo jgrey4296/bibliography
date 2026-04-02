@@ -5,6 +5,8 @@ set -o pipefail
 
 # shellcheck disable=SC1091
 source "$POLY_SRC/lib/lib-util.bash"
+[[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]] && source "$POLYGLOT_ROOT/.tasks/task-util.bash"
+
 
 builder="${POLYGLOT_SPHINX_BUILDER:-bibhtml}"
 conf="${POLYGLOT_SPHINX_CONF_DIR:-$POLYGLOT_ROOT}"
