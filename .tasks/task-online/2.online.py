@@ -109,13 +109,13 @@ def main():
         case str() as x:
             failures = pl.Path(x)
 
-    print("Starting online downloader")
+    print("- Starting online downloader")
     reader, writer = build_reader_and_writer()
     lib = reader.read(target)
     writer.write(lib, file=target)
     if failures:
         writer.write_failures(lib, file=failures)
-    print("Finished")
+    print("- Finished")
 
 ##-- ifmain
 if __name__ == "__main__":
