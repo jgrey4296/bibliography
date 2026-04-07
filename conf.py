@@ -113,6 +113,7 @@ html_extra_path   = []  # for things like robots.txt
 # Relative to html_static_path , or fully qualified urls:
 html_css_files       = [
     "css/custom.css",
+    "css/bib_domain.css".
 ]
 html_js_files        = [
     "js/custom.js",
