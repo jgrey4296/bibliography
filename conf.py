@@ -113,7 +113,7 @@ html_extra_path   = []  # for things like robots.txt
 # Relative to html_static_path , or fully qualified urls:
 html_css_files       = [
     "css/custom.css",
-    "css/bib_domain.css".
+    "css/bib_domain.css",
 ]
 html_js_files        = [
     "js/custom.js",
@@ -128,7 +128,6 @@ html_js_files        = [
 ##-- file types
 source_suffix = {
     ".rst"  : "restructuredtext",
-    # ".txt"  : "restructuredtext",
     ".md"   : "markdown",
     ".bib"  : "bibtex"
 }
@@ -164,28 +163,23 @@ exclude_patterns = []
 # ignore doc directories
 # and polyglot util directories
 exclude_patterns += [
-    "bookmarks/*",
-    "completions/*",
-    "in_progress/*",
     "readme.md",
-    "timelines/*",
+    "checklist.md",
+    "conf.py",
+    "README.md",
+    "dynamic_/**",
+    "in_progress/*",
+    "plus/*",
+    "static_/",
+    "templates_/",
+    ]
+# ignore version control and non-relevant stuff
+exclude_patterns += [
     "**/.git",
     "**/.github",
     "**/__tests/*",
     "**/flycheck_*.py",
-    ".temp/mypy*",
-    ".temp/site"
-    ".temp/tox",
-    ".venv/*",
-    "static_/",
-    '**flycheck_*.py',
-    "checklist.md",
-]
-
-# ignore tests and util files
-exclude_patterns += [
-    "conf.py",
-    "README.md",
+    ".temp/**",
 ]
 
 ##-- end exclusion
@@ -193,9 +187,9 @@ exclude_patterns += [
 ##-- bibtex domain
 extensions.append("sphinx_bib_domain")
 bib_domain_split_index = True
-bib_domain_active_blocks = []
-bib_domain_template_prefix = "bib_domain"
-bib_domain_tempate_suffix  = ".rst.jinja"
+# bib_domain_active_blocks = []
+bib_domain_template_prefix = "bib_domain/rst"
+bib_domain_tempate_suffix  = ".jinja"
 
 ##-- end bibtex domain
 

@@ -1,0 +1,15 @@
+{# Jina Template for a Bibtex Library File Export #}
+.. _{{ title }}:
+
+{{ title|length * "=" }}
+{{ title }}
+{{ title|length * "=" }}
+
+{# .. contents:: Entries: #}
+{#    :class: bib_entries #}
+{#    :local: #}
+
+There are {{ library.entries|count }} entries.
+'View Page Source' in the top right hand corner of the page
+for the raw bibtex.
+Entries are coloured according to their type.
