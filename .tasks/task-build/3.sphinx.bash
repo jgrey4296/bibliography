@@ -37,12 +37,12 @@ done
 
 subhead "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$site_out)"
     # --verbose \
-    # --write-all \
-    # --fresh-env \
 (uv run sphinx-build \
+    --fresh-env \
+    --write-all \
     --conf-dir "$conf" \
     --doctree-dir "$out/doctrees" \
     --warning-file "$conf/.temp/logs/sphinx.log" \
     --builder "$builder" \
     "$src" "$site_out"
- )
+ ) || fail "Sphinx Build Failed"
