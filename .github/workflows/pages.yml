@@ -47,7 +47,7 @@ jobs:
         run: |
           asdf plugin add direnv
           asdf install
-          ./.tasks/github-init.bash
+          ./.polyglot/github-init.bash
       - name: setup python
         run: |
           uv venv
