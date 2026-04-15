@@ -14,7 +14,7 @@
 :site        : .temp/site
 :docs-build  : .temp/docs
 
-:tasks       : .tasks
+:tasks       : .polyglot
 :scripts     : .tasks/scripts
 :related     : .related
 :env         : .envrc
