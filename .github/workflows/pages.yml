@@ -63,7 +63,7 @@ jobs:
           --out aisb_
           ./plus/conferences_primary/aisb_
       - name: store site artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gh-pages-artifact
           path: .temp/site
