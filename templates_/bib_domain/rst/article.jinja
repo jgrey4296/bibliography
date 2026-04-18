@@ -2,6 +2,7 @@
 {% extends "bib_domain/rst/entry.jinja" %}
 
 {% block body %}
+{{ super() }}
 {% if "note" in entry %}
   *Note*: {{ entry.note.value }}
 {% endif %}
