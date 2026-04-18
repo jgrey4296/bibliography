@@ -989,7 +989,7 @@ wheels = [
 [[package]]
 name = "sphinx-bib-domain"
 version = "0.3.0"
-source = { git = "https://github.com/jgrey4296/sphinx_bib_domain#1a2cecc4b21bde47c628a8dcbab642128525f5db" }
+source = { git = "https://github.com/jgrey4296/sphinx_bib_domain#8025e13bd0be2ae8868ef7f65c8765267b93edf1" }
 dependencies = [
     { name = "bibtex-bibble" },
     { name = "docutils" },
