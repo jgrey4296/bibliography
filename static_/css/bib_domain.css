@@ -1,36 +1,43 @@
 /* custom.css -*- mode: CSS -*- */
 
-dl.bibtex { background-color: #bab2b2 !important; }
-
-dl.bibtext > dt.sig {
-    display: block !important;
-
+.bibtex  {
+    .entry& { background-color: #bab2b2; }
+    .sig {
+        display: block !important;
+        border-top: none !important;
+    }
+    .example {
+        display: inline;
+        padding: 2px;
+}
 }
 
-dl.bibtex.entry.article> dt       { background-color: #2e8b57 !important; }
-dl.bibtex.entry.book> dt          { background-color: #6495e1 !important; }
-dl.bibtex.entry.inbook> dt        { background-color: #6495ef !important; }
-dl.bibtex.entry.proceedings> dt   { background-color: #Ee7610 important; }
-dl.bibtex.entry.inproceedings> dt { background-color: #Ee764f !important; }
-dl.bibtex.entry.report> dt        { background-color: #D02070 !important; }
-dl.bibtex.entry.techreport> dt    { background-color: #D02073 !important; }
-dl.bibtex.entry.thesis> dt        { background-color: #D0207f !important; }
-dl.bibtex.entry.standard> dt      { background-color: #64a1c2 !important; }
-dl.bibtex.entry.manual> dt        { background-color: #64a1cf !important; }
-dl.bibtex.entry.misc> dt          { background-color: #Ffe4c4 !important; }
-dl.bibtex.entry.online> dt        { background-color: #Ffe4cf !important; }
+.bibtex {
+    .book   { background: linear-gradient(90deg, #6495e1, #bab2b2) !important; }
+    .inbook { background: linear-gradient(90deg, #6495ef, #bab2b2) !important; }
+    .proceedings     { background: linear-gradient(90deg, #Ee7610, #bab2b2) !important; }
+    .inproceedings   { background: linear-gradient(90deg, #Ee764f, #bab2b2) !important; }
+    .article         { background: linear-gradient(90deg, #2e8b57, #bab2b2) !important; }
+    .report          { background: linear-gradient(90deg, #D02070, #bab2b2) !important; }
+    .techreport      { background: linear-gradient(90deg, #D02073, #bab2b2) !important; }
+    .thesis          { background: linear-gradient(90deg, #D0207f, #bab2b2) !important; }
+    .standard        { background: linear-gradient(90deg, #64a1c2, #bab2b2) !important; }
+    .manual          { background: linear-gradient(90deg, #64a1cf, #bab2b2) !important; }
+    .online          { background: linear-gradient(90deg, #Ffe4cf, #bab2b2) !important; }
+    .blog            { background: linear-gradient(90deg, #Ffb5c5, #bab2b2) !important; }
+    .thread          { background: linear-gradient(90deg, #bab7b2, #bab2b2) !important; }
+    .video           { background: linear-gradient(90deg, #Cd5c5c, #bab2b2) !important; }
+    .mimsc           { background: linear-gradient(90deg, #Ffe4c4, #bab2b2) !important; }
+    .unpublished     { background: linear-gradient(90deg, #c87d40, #bab2b2) !important; }
+    .booklet         { background: linear-gradient(90deg, #a2663c, #bab2b2) !important; }
+    .musicScore      { background: linear-gradient(90deg, #f5a95b, #bab2b2) !important; }
+    .review          { background: linear-gradient(90deg, #6b8b8c, #bab2b2) !important; }
+    .case            { background: linear-gradient(90deg, #466480, #bab2b2) !important; }
+    .judicial        { background: linear-gradient(90deg, #22625c, #bab2b2) !important; }
+    .law             { background: linear-gradient(90deg, #Ffdab9, #bab2b2) !important; }
+    .collectino      { background: linear-gradient(90deg, #c75533, #bab2b2) !important; }
+    .dataset         { background: linear-gradient(90deg, #228b22, #bab2b2) !important; }
+    .software        { background: linear-gradient(90deg, #aac39e, #bab2b2) !important; }
+    .game            { background: linear-gradient(90deg, #ffffff, #bab2b2) !important; }
+ }
 
-dl.bibtex.entry.blog> dt          { background-color: #Ffb5c5 !important; }
-dl.bibtex.entry.booklet> dt       { background-color: #a2663c !important; }
-dl.bibtex.entry.case> dt          { background-color: #466480 !important; }
-dl.bibtex.entry.collection> dt    { background-color: #c75533 !important; }
-dl.bibtex.entry.dataset> dt       { background-color: #55f242 !important; }
-dl.bibtex.entry.game> dt          { background-color: #ffffff !important; }
-dl.bibtex.entry.judicial> dt      { background-color: #22625c !important; }
-dl.bibtex.entry.law > dt          { background-color: #Ffdab9 # !important; }
-dl.bibtex.entry.musicScore> dt    { background-color: #f5a95b !important; }
-dl.bibtex.entry.review> dt        { background-color: #6b8b8c !important; }
-dl.bibtex.entry.software> dt      { background-color: #aac39e !important; }
-dl.bibtex.entry.thread> dt        { background-color: #bab7b2 !important; }
-dl.bibtex.entry.unpublished> dt   { background-color: #c87d40 !important; }
-dl.bibtex.entry.video> dt         { background-color: #d1d0ce !important; }

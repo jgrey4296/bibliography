@@ -9,7 +9,63 @@
 {#    :class: bib_entries #}
 {#    :local: #}
 
-There are {{ library.entries|count }} entries.
-'View Page Source' in the top right hand corner of the page
+There are {{ library.entries|count }} entries in this file.
+Use 'View Page Source' in the top right hand corner of the page
 for the raw bibtex.
-Entries are coloured according to their type.
+Entries are coloured according to their type:
+
+.. raw:: html
+
+    <ul class="bibtex two-column">
+      <li><span class="example article">Journal Articles</span></li>
+      <li>
+        <span class="example book">Books</span>
+        &gt;
+        <span class="example inbook">Chapters</span>
+      </li>
+      <li>
+        <span class="example proceedings">Proceedings</span>
+        &gt;
+        <span class="example inproceedings">Proceeding Papers</span>
+      </li>
+      <li>
+        <span class="example report">Reports</span>
+        &gt;
+        <span class="example techreport">Tech Reports</span>
+      </li>
+      <li><span class="example thesis">Theses</span></li>
+      <li>
+        <span class="example standard">Standards</span>
+        &amp;
+        <span class="example manual">Technical Manuals</span>
+      </li>
+      <li>
+        <span class="example online">Online</span>
+        &gt;
+        <span class="example blog">Blog Posts</span>
+        &amp;
+        <span class="example thread">Social Media Threads</span>
+      </li>
+      <li>
+        <span class="example video">Videos</span>
+      </li>
+      <li>
+        <span class="example collection">Collections</span>
+        &gt;
+        <span class="example dataset">Datasets</span>
+      </li>
+      <li>
+        <span class="example software">Software</span>
+        &gt;
+        <span class="example game">Games</span>
+      </li>
+      <li>
+        <span class="example case">Legal Cases</span>
+        &gt;
+        <span class="example judicial">Judicial Opinions</span>
+      </li>
+      <li><span class="example law">Laws</span></li>
+    </ul>
+
+    
+---- 
