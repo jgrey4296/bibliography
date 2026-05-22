@@ -1,87 +1,730 @@
 #+TITLE: Music
-
 * Main
-
-** ali farka toure
-
-** audioslave
-
-** Beck
-
-** bloodhound gang
-
-** boards of canada
-
-** bob dylan
-
-** david bowie
-
-** depeche mode
-
-** genesis
-
-** gnarls barkley
-
-** incubus
-
-** jamiroquai
-
-** jungle
-
+** 40k
 ** KMFDM
-
+*** [1992] Money
+*** [1993] Angst
+*** [1993] Don't Blow Your Top
+*** [1997] [symbols]
+*** [2002] Attak
+*** [2002] Opium 1984
+*** [2003] WWIII
+*** [2005] Hau Ruck
+*** [2006] Naive
+*** [2006] What Do You Know, Deutschland_
+*** [2007] Adios
+*** [2007] Nihil
+*** [2007] UAIOE
+*** [2007] Xtort
+*** [2008] Tohuvabohu
+*** [2009] Blitz
+*** [2011] WTF_!
+*** [2013] Kunst
+*** [2014] Our Time Will Come
+** abbey_road
+** ali_farka_toure
+** audioslave
+*** [2002] Audioslave
+*** [2005] Out of Exile
+*** [2005] Sessions@AOL Music
+*** [2006] Audioslave Live [EP]
+*** [2006] Revelations
+** beach_boys
+*** (1962) Surfin' Safari + (1963) Surfin' USA (CDP 7 93691 2)
+*** (1963) Little Deuce Coupe + (1964) All Summer Long (CDP 7 96393 2)
+*** (1963) Surfer Girl (CP21-6003)
+*** (1964) Beach Boys Concert + (1970) Live In London (CDP 7 93695 2)
+*** (1964) Shut Down, Volume 2 (CP21-6005)
+*** (1964) The Beach Boys' Christmas Album (CDP 7 95084 2)
+*** (1965) Beach Boys' Party! + (1968) Stack-O-Tracks (CDP 7 93698 2)
+*** (1965) The Beach Boys Today! + (1965) Summer Days (And Summer Nights!!) (CDP 7 93694 2)
+*** (1966) Pet Sounds (CDP 7 48421 2)
+*** (1967) Smiley Smile + (1967) Wild Honey (CDP 7 93696 2)
+*** (1968) Friends + (1969) 20-20 (CDP 7 93697 2)
+*** (1970) Sunflower + (1971) Surf's Up (72435-25692-2-9)
+*** (1972) Carl And The Passions - 'So Tough' (ZK 46953)
+*** (1973) Holland (ZK 46952)
+*** (1974) Endless Summer (GZS1076)
+*** (1976) 15 Big Ones + (1977) Love You (72435-27945-2-2)
+*** (1978) M.I.U Album (ZK 46957)
+*** (1979) L.A. (Light Album) (ZK 35752)
+*** (1980) Keepin' The Summer Alive (ZK 36283)
+*** (1985) The Beach Boys (ZK 39946)
+*** (1989) Still Cruisin' (CDP 7 92639 2)
+*** (1990) Landlocked  (PH 1303)
+*** (1992) Summer In Paradise (BBR 727-2)
+*** (1996) Stars And Stripes, Volume 1 (51416 1205 2)
+*** (1997) The Pet Sounds Sessions (C2 7243 8 37662 2 2)
+*** (1997) The Pet Sounds Sessions (C2 7243 8 37662 2 2)/1 - Stereo Mix & Sessions
+*** (1997) The Pet Sounds Sessions (C2 7243 8 37662 2 2)/2 - Sessions
+*** (1997) The Pet Sounds Sessions (C2 7243 8 37662 2 2)/3 - Stack-O-Vocals & Alternate Versions
+*** (1997) The Pet Sounds Sessions (C2 7243 8 37662 2 2)/4 - Original Mono Mix Remastered
+*** (2004) Christmas With The Beach Boys (72435-79765-2-7)
+*** (2011) The Smile Sessions (Deluxe Edition) (509990 27663 24)
+*** (2011) The Smile Sessions (Deluxe Edition) (509990 27663 24)/CD1
+*** (2011) The Smile Sessions (Deluxe Edition) (509990 27663 24)/CD2
+*** (2012) Fifty Big Ones, Greatest Hits (50999 97374 4 28)
+*** (2012) Fifty Big Ones, Greatest Hits (50999 97374 4 28)/CD1
+*** (2012) Fifty Big Ones, Greatest Hits (50999 97374 4 28)/CD2
+*** (2012) That's Why God Made The Radio (509996 02824 2 2)
+*** (2018) With The Royal Philharmonic Orchestra (00602567540960)
+** beck
+*** (1993) Golden Feelings [EAC FLAC]
+*** (1993) Golden Feelings [EAC FLAC]/Covers
+*** (1994) Mellow Gold [EAC FLAC]
+*** (1994) One Foot In The Grave [EAC FLAC]
+*** (1994) Stereopathetic Soulmanure [EAC FLAC]
+*** (1996) Odelay [EAC FLAC]
+*** (1998) Mutations [EAC FLAC]
+*** (1999) Midnite Vultures [EAC FLAC] [Japan]
+*** (2000) A Collection Of B Sides Stray Blues [EAC FLAC]
+*** (2002) Sea Change (2009 24k MFSL Ultradisc)  [EAC FLAC]
+*** (2002) Sea Change (2009 24k MFSL Ultradisc)  [EAC FLAC]/Covers
+*** (2005) Guero [EAC FLAC]
+*** (2005) Guerolito [EAC FLAC]
+*** (2006) The Information [EAC FLAC]
+*** (2008) Modern Guilt [EAC FLAC]
+*** (2014) Morning Phase [FLAC]
+** bloodhound_gang
+*** [1994] Dingleberry Haze [EP] (192 kbsp)
+*** [1994] The Original Motion Picture Soundtrack To Hitler's Handicapped Helpers (Demos) [192 kbps)
+*** [1995] Use Your Fingers
+*** [1996] One Fierce Beer Coaster
+*** [2001] Hooray For Boobies
+*** [2005] Hefty Fine
+*** [2008] Greatest Hits [2 CD]
+*** [2008] Greatest Hits [2 CD]/CD 1
+*** [2008] Greatest Hits [2 CD]/CD 2
+*** [2010] Show Us Your Hits
+*** [2015] Clean Up in Aisle Sexy [EP]
+*** [2015] Hard-Off
+** boards_of_canada
+*** Music_Has_the_Right_to_Children
+** bob_dylan
+*** John Wesley Harding
+** calvin_harris
+*** Bounce - Single
+** clint_mansell
+*** moon
+*** requiem_for_a_dream
+*** the_fountain
+** cowboy_bebop
+** david_bowie
+*** 1967 - David Bowie (Deram Japan SHM Remaster)
+*** 1969 - Space Oddity (EMI Japan SHM Remaster)
+*** 1970 - Ragazzo Solo, Ragazza Sola (Versione Italiana Di Space Oddity) (2016 Reissue)
+*** 1970 - The Man Who Sold The World (Ryko Au20 Gold Remaster)
+*** 1971 - Hunky Dory (Ryko Au20 Gold Remaster)
+*** 1972 - For The Collector Early David Bowie (7 Inch Mono) (UK)
+*** 1972 - The Rise And Fall Of Ziggy Stardust (Ryko Au20 Gold Remaster)
+*** 1973 - Aladdin Sane (30th Anniversary Remaster)
+*** 1973 - Pin Ups (EMI Japan SHM Remaster)
+*** 1974 - Diamond Dogs (30th Anniversary Remaster)
+*** 1975 - Young Americans (Ryko Au20 Gold Remaster)
+*** 1976 - Station To Station (Ryko Au20 Gold Remaster)
+*** 1977 - Heroes (Ryko Au20 Gold Remaster)
+*** 1977 - Low (Ryko Au20 Gold Remaster)
+*** 1979 - Lodger (EMI Japan SHM Remaster)
+*** 1980 - Scary Monsters (Ryko Remaster)
+*** 1983 - Let's Dance (EMI Japan SHM Remaster)
+*** 1984 - Tonight (EMI Japan SHM Remaster)
+*** 1987 - Never Let Me Down (EMI Japan SHM Remaster)
+*** 1990 - ChangesBowie (Remaster)
+*** 1993 - Black Tie White Noise (Arista)
+*** 1993 - The Buddha Of Suburbia (Arista)
+*** 1993 - The Singles Collection (EMI)
+*** 1995 - Outside (Virgin)
+*** 1997 - Earthling (Virgin)
+*** 1999 - Hours... (Virgin)
+*** 2002 - Heathen (Columbia)
+*** 2003 - Reality (Columbia)
+*** 2013 - The Next Day (Columbia)
+*** 2016 - Blackstar (Columbia)
+** depeche_mode
+*** [1981] Speak & Spell
+*** [1982] A Broken Frame
+*** [1983] Construction Time Again
+*** [1984] Some Great Reward
+*** [1986] Black Celebration
+*** [1987] Music For The Masses
+*** [1990] Violator
+*** [1993] Songs Of Faith And Devotion
+*** [1997] Ultra
+*** [2001] Exciter
+*** [2005] Playing The Angel
+*** [2009] Sounds Of The Universe
+*** [2013] Delta Machine [Deluxe Edition]
+*** [2013] Delta Machine [Deluxe Edition]/CD 1
+*** [2013] Delta Machine [Deluxe Edition]/CD 2
+** echo_and_the_bunnymen
+*** 1980 - Crocodiles (Remastered & Expanded 2003)
+*** 1981 - Heaven Up Here (Remastered & Expanded 2003)
+*** 1983 - Porcupine (Remastered & Expanded 2003)
+*** 1984 - Ocean Rain (Remastered & Expanded 2003)
+*** 1984 - The Savoy NYC (Live)
+*** 1987 - Echo & The Bunnymen (Remastered & Expanded 2003)
+*** 1990 - Reverberation
+*** 1997 - Evergreen (Limited Edition)
+*** 1997 - Evergreen (Limited Edition)/CD1
+*** 1997 - Evergreen (Limited Edition)/CD2
+*** 1999 - What Are You Going To Do With Your Life
+*** 2001 - Flowers
+*** 2005 - Siberia
+*** 2009 - The Fountain
+** genesis
+*** (1969) From Genesis to Revelation [16Bit-44.1kHz]
+*** (1970) Trespass (Album Version)  [16Bit-44.1kHz]
+*** (1971) Nursery Cryme (New Stereo Mix)  [16Bit-44.1kHz]
+*** (1972) Foxtrot (New Stereo Mix)  [16Bit-44.1kHz]
+*** (1973) Selling England by the Pound [16Bit-44.1kHz]
+*** (1974) The Lamb Lies Down on Broadway  (2007 Stereo Mix)  [16Bit-44.1kHz]
+*** (1976) A Trick of the Tail  (2007 Remaster)  [16Bit-44.1kHz]
+*** (1976) And Then There Were Three  (2007 Remaster)  [16Bit-44.1kHz]
+*** (1980) Duke  (2007 Remaster)  [16Bit-44.1kHz]
+*** (1981) Abacab  (2007 Remaster)  [16Bit-44.1kHz]
+*** (1983) Genesis (2007 Remaster)  [16Bit-44.1kHz]
+*** (1986) Invisible Touch (2007 Remaster)  [16Bit-44.1kHz]
+*** (1991) We Can't Dance (2007 Remaster)  [16Bit-44.1kHz]
+*** (1997) Calling All Stations (2007 Remaster)  [16Bit-44.1kHz]
+*** (2005) Platinum Collection (Platinum Collection Version)  [16Bit-44.1kHz]
+*** (2007) Turn It on Again The Hits [16Bit-44.1kHz]
+*** (2007) Wind & Wuthering [16Bit-44.1kHz]
+*** (2009) Follow You Follow Me   Inside & Out (Single Version)  [16Bit-44.1kHz]
+*** (2009) In Too Deep  I'd Rather Be You (Single Version)  [16Bit-44.1kHz]
+*** (2009) Invisible Touch  The Last Domino [Digital 45] [16Bit-44.1kHz]
+*** (2009) That's All  Second Home by the Sea (Single Version)  [16Bit-44.1kHz]
+*** (2010) I Can't Dance  On the Shoreline [16Bit-44.1kHz]
+*** (2014) R-Kive [16Bit-44.1kHz]
+*** (2014) R-Kive [16Bit-44.1kHz]/Disc 1
+*** (2014) R-Kive [16Bit-44.1kHz]/Disc 2
+*** (2014) R-Kive [16Bit-44.1kHz]/Disc 3
+*** (2021) The Last Domino [16Bit-44.1kHz]
+** gnarls_barkley
+*** st_elsewhere
+** incubus
+*** morning_view
+** ixi
+** jamiroquai
+*** 1993_-_Emergency_On_Planet_Earth
+*** 1994_-_The_Return_of_the_Space_Cowboy
+*** 1996_-_Travelling_Without_Moving
+*** 1999_-_Synkronized
+*** 2001_-_A_Funk_Odyssey
+*** 2005_-_Dynamite
+*** 2010_-_Rock_Dust_Light_Star
+** jg
+** jungle
+*** for_ever
+*** ipod
+*** jungle
+*** loving_in_stereo
+*** volcano
 ** kraftwerk
-
-** kronos quartet
-
-** Marilyn Manson
-
+*** 0 Organisation - Tone Float (1969)
+*** 1 Kraftwerk (1970)
+*** 10 The Mix (1991)
+*** 11 Tour De France (2003)
+*** 12 Minimum-Maximum (2005)
+*** 12 Minimum-Maximum (2005)/CD 1
+*** 12 Minimum-Maximum (2005)/CD 2
+*** 2 Kraftwerk 2 (1972)
+*** 3 Ralf und Florian (1973)
+*** 4 Autobahn (1974)
+*** 5 Radioaktivität (1975)
+*** 6 Trans-Europa Express (1977)
+*** 7 Die Mensch-Maschine (1978)
+*** 8 Computerwelt (1981)
+*** 9 Electric Café aka Techno Pop (1986)
+** kronos_quartet
+*** kronos_quartet/Black_Angels
+*** kronos_quartet/Covers
+*** kronos_quartet/Disc 1
+*** kronos_quartet/Disc 10
+*** kronos_quartet/Disc 2
+*** kronos_quartet/Disc 3
+*** kronos_quartet/Disc 4
+*** kronos_quartet/Disc 5
+*** kronos_quartet/Disc 6
+*** kronos_quartet/Disc 7
+*** kronos_quartet/Disc 8
+*** kronos_quartet/Disc 9
+*** kronos_quartet/Lutoslawski__String_Quartet
+*** kronos_quartet/Monk_Suite__Kronos_Quartet_Plays_Music_of_Thelonious_Monk
+*** kronos_quartet/golijov__the_dreams_and_prayers_of_isaac_the_blind
+*** kronos_quartet/uniko
+** lady_gaga
+*** The Fame Monster
+** marilyn_manson
+*** Antichrist_Superstar
+*** Holy_Wood
+*** Last_Tour_On_Earth
+*** Lest_We_Forget
+*** Mechanical_Animals
+*** The_High_End_of_Low
+** massive_attack
+*** Heligoland
+*** Mezzanine
 ** metallica
-
-** miles davis
-
-** Nine Inch Nails
-
+*** 1983 - Kill ’Em All
+*** 1984 - Ride The Lightning
+*** 1986 - Master Of Puppets
+*** 1988 - …And Justice For All
+*** 1991 - Metallica (Black Album)
+*** 1991 - Open Graves
+*** 1993 - Heavy Best
+*** 1993 - Live Shit_Binge & Purge (3xCD)
+*** 1993 - Live Shit_Binge & Purge (3xCD)/CD 1
+*** 1993 - Live Shit_Binge & Purge (3xCD)/CD 2
+*** 1993 - Live Shit_Binge & Purge (3xCD)/CD 3
+*** 1996 - Apocalyptica_Plays Metallica By Four Cellos
+*** 1996 - Fan Can #1 (Stupid Shit 1996_Or Reasons Not To Be A Fan Anymore)
+*** 1996 - Load
+*** 1997 - Fan Can #2 (San Francisco Slim's Club_June 9th & 10th_1996)
+*** 1997 - Reload
+*** 1998 - Fan Can #3 (Overload_Mucho Demo_Load_ReLoad Demos)
+*** 1998 - Garage Inc (2xCD)
+*** 1998 - Garage Inc (2xCD)/CD 1
+*** 1998 - Garage Inc (2xCD)/CD 2
+*** 1999 - S&M (2xCD)
+*** 1999 - S&M (2xCD)/CD 1
+*** 1999 - S&M (2xCD)/CD 2
+*** 2001 - Fan Can #4 (Live At Reunion Arena_Dallas,TX_05 02_1989)
+*** 2003 - St. Anger
+*** 2005 - Fan Can #5 (Live Rehearsals At The Fillmore_May 2003)
+*** 2008 - Death Magnetic
+*** 2011 - Lulu (2xCD)
+*** 2011 - Lulu (2xCD)/CD 1
+*** 2011 - Lulu (2xCD)/CD 2
+*** 2011 - Various Artists_ A Tribute To The Black Album
+*** 2013 - Through The Never (Music From The Motion Picture)
+*** 2013 - Through The Never (Music From The Motion Picture)/CD 1
+*** 2013 - Through The Never (Music From The Motion Picture)/CD 2
+*** 2016 - Hardwired...To Self-Destruct (3xCD)
+*** 2016 - Hardwired...To Self-Destruct (3xCD)/CD 1
+*** 2016 - Hardwired...To Self-Destruct (3xCD)/CD 2
+*** 2016 - Hardwired...To Self-Destruct (3xCD)/CD 3
+*** 2022 - No Life 'Til Leather_Definitive Edition
+*** 2022 - No Life 'Til Leather_Definitive Edition/Covers
+*** 2023 - 72 Seasons
+** mika
+*** Life In Cartoon Motion
+** miles_davis
+*** Kind_of_Blue
+** misc
+** muse
+*** (1991) Showbiz (09 Version) [16Bit-44.1kHz]
+*** (2001) Origin of Symmetry (New 09 version) [16Bit-44.1kHz]
+*** (2003) Absolution (New 09 version) [16Bit-44.1kHz]
+*** (2006) Black Holes and Revelations (Updated 09 version) [16Bit-44.1kHz]
+*** (2009) The Resistance [24Bit-96kHz]
+*** (2012) The 2nd Law [24Bit-96kHz]
+*** (2015) Drones [16Bit-44.1kHz]
+*** (2018) Simulation Theory  (Super Deluxe) [24Bit-96kHz]
+*** (2022) Will Of The People [24Bit-96kHz]
+** nigel_kennedy_and_kroke
+** niggytardust
+** nine_inch_nails
+*** 1989-NIN-Down-In-It
+*** 1989-NIN-Pretty-Hate-Machine-Remastered
+*** 1989-NIN-Sin
+*** 1990-NIN-Head-Like-a-Hole
+*** 1992-NIN-Broken
+*** 1992-NIN-Fixed
+*** 1994-NIN-Closer-To-God
+*** 1994-NIN-Further-Down-The-Spiral
+*** 1994-NIN-March-Of-The-Pigs
+*** 1994-NIN-The-Downward-Spiral
+*** 1996-NIN-Quake
+*** 1997-NIN-The-Perfect-Drug-Versions
+*** 1999-NIN-The-Fragile
+*** 1999-NIN-The-Fragile/disc_1
+*** 1999-NIN-The-Fragile/disc_2
+*** 1999-NIN-were-in-this-together
+*** 2000-NIN-Things-Falling-Apart
+*** 2002-NIN-And-All-That-Could-Have-Been
+*** 2002-NIN-Still
+*** 2005-NIN-The-Hand-That-Feeds
+*** 2005-NIN-With-Teeth
+*** 2006-NIN-Every-Day-Is-Exactly-The-Same-Remixes
+*** 2007-NIN-Y34RZ3r0r3mix3d
+*** 2007-NIN-Year-Zero-Album-Version
+*** 2008-NIN-Ghosts-I-IV
+*** 2008-NIN-The-Slip
+*** 2013-NIN-Came-Back-Haunted
+*** 2017-NIN-Add-Violence
+*** 2017-NIN-Not-The-Actual-Events
+*** 2018-NIN-God-Break-Down-the-Door
+*** 2019-NIN-Watchmen-Vol-1
+*** 2020-NIN-Ghosts-V-Together
+*** 2020-NIN-Ghosts-VI-Locusts
+*** and_all_that_could_have_been
+*** videos
 ** nirvana
-
+*** 1989 - Bleach
+*** 1991 - Nevermind
+*** 1992 - Incesticide
+*** 1993 - In Utero
+*** 1994 - MTV Unplugged In New York (Live)
+*** 2008 - Greatest Hits (2 CD)
+**** 2008 - Greatest Hits (2 CD)/CD1
+**** 2008 - Greatest Hits (2 CD)/CD2
+*** 2009 - Live At Reading
+*** Live Concerts
+**** 1988-03-19 - Community World Theater, Tacoma
+**** 1988-12-28 - The Underground, Seattle
+**** 1989-10-08 - Lifticket Lounge, Omaha, NE
+**** 1989-11-18 - Kultur Basar, Hanau
+**** 1989-11-22 - U4, Vienna, Austria
+**** 1990-01-06 - Seattle
+**** 1990-02-11 - Cactus Club, San Jose
+**** 1990-04-10 - Blind Pig, Ann Arbor
+**** 1990-05-13 - Duffy's Tavern, Lincoln NE
+**** 1990-08-17 - Palladium, Hollywood
+**** 1990-11-25 - Off Ramp, Seattle (2 CD)
+**** 1990-11-25 - Off Ramp, Seattle (2 CD)/CD1
+**** 1990-11-25 - Off Ramp, Seattle (2 CD)/CD2
+**** 1991-08-27 - Aladin, Bremen
+**** 1991-10-30 - Vancouver
+**** 1991-10-31 - Paramount Theatre, Seattle
+**** 1991-11-25 - Paradiso, Amsterdam
+**** 1991-12-28 - Pat O'Brien Pavilion, Del Mar
+**** 1992-02-01 - The Palace, Melbourne
+**** 1992-02-19 - Nakano Sunplaza, Tokyo
+**** 1992-06-26 - Roskilde Festival
+**** 1992-08-30 - Reading Festival (2 CD)
+**** 1992-08-30 - Reading Festival (2 CD)/CD1
+**** 1992-08-30 - Reading Festival (2 CD)/CD2
+**** 1992-10-30 - Buenos Aries (2 CD)
+**** 1992-10-30 - Buenos Aries (2 CD)/CD1
+**** 1992-10-30 - Buenos Aries (2 CD)/CD2
+**** 1994-01-08 - Seattle Center Arena, Seattle (2 CD)
+**** 1994-01-08 - Seattle Center Arena, Seattle (2 CD)/CD1
+**** 1994-01-08 - Seattle Center Arena, Seattle (2 CD)/CD2
+**** 1994-02-22 - Palaghiaccio, Rome
+**** 1994-02-25 - Milan
+**** 1994-02-25 - Milan/CD1
+**** 1994-02-25 - Milan/CD2
+*** Outcesticide (6 CD Box Set) (1994-1998)
+**** CD1 In Memory of Kurt Cobain
+**** CD2 The Needle and the Damage Done
+**** CD3 The Final Solution
+**** CD4 Rape Of The Vaults
+**** CD5 Disintegration
+**** CD6 Mess of Blues
+** out_of_the_blue
 ** parliament
-
+*** Mothership_Connection
+** paul_simon
+*** Graceland
 ** pendulum
-
-** pink floyd
-
-** rage against the machine
-
+*** In Silico 
+** pink_floyd
+*** 1967 - The Piper At The Gates Of Dawn
+*** 1968 - A Saucerful Of Secrets
+*** 1969 - More (Soundtrack)
+*** 1969 - Ummagumma
+*** 1969 - Ummagumma/CD1 - Live
+*** 1969 - Ummagumma/CD2 - Studio
+*** 1970 - Atom Heart Mother
+*** 1971 - Meddle
+*** 1972 - Obscured By Clouds (Soundtrack)
+*** 1973 - The Dark Side Of The Moon
+*** 1975 - Wish You Were Here
+*** 1977 - Animals
+*** 1979 - The Wall
+*** 1979 - The Wall/CD1
+*** 1979 - The Wall/CD2
+*** 1983 - The Final Cut
+*** 1987 - A Momentary Lapse Of Reason
+*** 1994 - The Division Bell
+*** 1995 - p·u·l·s·e
+*** 1995 - p·u·l·s·e/CD1
+*** 1995 - p·u·l·s·e/CD2
+*** 1997 - Zabriskie Point (Soundtrack)
+*** 1997 - Zabriskie Point (Soundtrack)/CD1
+*** 1997 - Zabriskie Point (Soundtrack)/CD2
+*** 2000 - Is There Anybody Out There (The Wall Live 1980-1981)
+*** 2000 - Is There Anybody Out There (The Wall Live 1980-1981)/CD1
+*** 2000 - Is There Anybody Out There (The Wall Live 1980-1981)/CD2
+*** 2001 - Echoes (The Best Of Pink Floyd)
+*** 2001 - Echoes (The Best Of Pink Floyd)/CD1
+*** 2001 - Echoes (The Best Of Pink Floyd)/CD2
+*** 2014 - The Endless River
+** placebo
+*** [1998] Without You I'm Nothing (Japanese Edition)
+*** [2000] Black Market Music (Japanese Limited Edition)
+*** [2003] Sleeping With Ghosts (Special Limited Edition) [2CD]
+*** [2003] Sleeping With Ghosts (Special Limited Edition) [2CD]/CD 1
+*** [2003] Sleeping With Ghosts (Special Limited Edition) [2CD]/CD 2 Bonus Disc (Covers)
+*** [2003] This Picture [Australian Exclusive EP]
+*** [2004] Once More With Feeling (Singles 1996-2004) [Limited Edition]
+*** [2004] Once More With Feeling (Singles 1996-2004) [Limited Edition]/CD1
+*** [2004] Once More With Feeling (Singles 1996-2004) [Limited Edition]/CD2 Remix Bonus Disc
+*** [2004] Once More With Feeling (Singles 1996-2004) [Mexican Limited Edition Remix Bonus Disc]
+*** [2006] Live At La Cigale [CD EP] (Release 2011)
+*** [2006] Placebo (10th Anniversary Collectors Edition)
+*** [2007] Exclusive Session [Live EP]
+*** [2007] Extended Play '07 [EP]
+*** [2007] Meds (US Re-Release)
+*** [2009] The Never-Ending Why [EP Digital]
+*** [2010] Battle For The Sun (Redux Taiwan Exclusive Edition)
+*** [2010] Battle For The Sun (Redux Taiwan Exclusive Edition)/CD 1
+*** [2010] Battle For The Sun (Redux Taiwan Exclusive Edition)/CD 2 - Redux (Bonus Disc)
+*** [2010] Bright Lights [EP Digital]
+*** [2011] B Sides [1996-2006]
+*** [2011] B Sides [1996-2006]/CD 1
+*** [2011] B Sides [1996-2006]/CD 2
+*** [2012] B3 [Limited Edition CD EP]
+*** [2013] Loud Like Love
+** poets_of_the_fall
+** poor_mans_poison
+** portugal_the_man
+*** woodstock
+** rage_against_the_machine
+** rain_storm
 ** rammstein
-
-** REM
-
-** saul williams
-
-** scissor sisters
-
-** skinny puppy
-
+*** 1995 - Herzeleid
+*** 1998 - Sehnsucht
+*** 2001 - Mutter
+*** 2004 - Reise, Reise
+*** 2005 - Rosenrot
+*** 2009 - Liebe Ist Fur Alle Da
+*** 2015 - Raritaten 1994-2012
+*** 2019 - Untitled
+*** 2022 - Zeit
+** red_hot_chili_peppers
+*** By_the_Way
+*** Californication
+** rem
+*** Automatic for the People
+** russian_doll
+** scissor_sisters
+*** Night_Work
+*** Scissor_Sisters
+** seth_lakeman
+** skinny_puppy
+*** 1984-Remission
+*** 1984-Remission/Artwork
+*** 1985-Bites
+*** 1985-Bites/Artwork
+*** 1986-Bites And Remission
+*** 1986-Bites And Remission/Artwork
+*** 1986-Chainsaw
+*** 1986-Chainsaw/Artwork
+*** 1986-Dig It
+*** 1986-Dig It/Artwork
+*** 1986-Mind The Perpetual Intercourse
+*** 1986-Mind The Perpetual Intercourse/Artwork
+*** 1987-Addiction
+*** 1987-Addiction/Artwork
+*** 1987-Cleanse Fold And Manipulate
+*** 1987-Cleanse Fold And Manipulate/Artwork
+*** 1987-Remission & Bites
+*** 1987-Remission & Bites/Artwork
+*** 1988-Censor
+*** 1988-Censor/Artwork
+*** 1988-Testure [3'']
+*** 1988-Testure [3'']/Artwork
+*** 1988-Testure [5'']
+*** 1988-Testure [5'']/Artwork
+*** 1988-VIVIsectVI
+*** 1988-VIVIsectVI/Artwork
+*** 1989-Rabies
+*** 1989-Rabies/Artwork
+*** 1989-Rabies [Remaster]
+*** 1989-Rabies [Remaster]/Artwork
+*** 1989-Tin Omen
+*** 1989-Tin Omen/Artwork
+*** 1990-Too Dark Park
+*** 1990-Too Dark Park/Artwork
+*** 1990-Tormentor
+*** 1990-Tormentor/Artwork
+*** 1990-Worlock
+*** 1990-Worlock/Artwork
+*** 1991-12'' Anthology
+*** 1991-12'' Anthology/Artwork
+*** 1991-Ain't It Dead Yet
+*** 1991-Ain't It Dead Yet/Artwork
+*** 1991-Spasmolytic
+*** 1991-Spasmolytic/Artwork
+*** 1992-Back & Forth Series 2
+*** 1992-Back & Forth Series 2/Artwork
+*** 1992-Inquisition
+*** 1992-Inquisition/Artwork
+*** 1992-Last Rights
+*** 1992-Last Rights/Artwork
+*** 1995-Candle
+*** 1995-Candle/Artwork
+*** 1995-The Process
+*** 1995-The Process/Artwork
+*** 1996-Brap - Back & Forth Series 3 & 4 Enhanced
+*** 1996-Brap - Back & Forth Series 3 & 4 Enhanced/Artwork
+*** 1998-Remix Dystemper
+*** 1998-Remix Dystemper/Artwork
+*** 1999-B-Sides Collect
+*** 1999-B-Sides Collect/Artwork
+*** 1999-The Singles Collect
+*** 1999-The Singles Collect/Artwork
+*** 2000-Brap - Back & Forth Series 3 & 4
+*** 2000-Brap - Back & Forth Series 3 & 4/Artwork
+*** 2000-Track 10
+*** 2000-Track 10/Artwork
+*** 2001-Back & Forth Vol 5 Live In Dresden
+*** 2001-Back & Forth Vol 5 Live In Dresden/Artwork
+*** 2002-Puppy Gristle
+*** 2002-Puppy Gristle/Artwork
+*** 2003-Back And Forth Vol 06Six
+*** 2003-Back And Forth Vol 06Six/Artwork
+*** 2004-The Greater Wrong Of The Right
+*** 2004-The Greater Wrong Of The Right/Artwork
+*** 2007-Back & Forth Vol 7
+*** 2007-Back & Forth Vol 7/Artwork
+*** 2007-Mythmaker
+*** 2007-Mythmaker/Artwork
+*** 2011-HanDover
+*** 2011-HanDover/Artwork
+*** 2012-Bootlegged, Broke and In Solvent Seas
+*** 2012-Bootlegged, Broke and In Solvent Seas/Artwork
+*** 2013-Weapon
+*** 2013-Weapon/Artwork
 ** slipknot
-
-** squarepusher
-
+*** 1996 - Mate. Feed. Kill. Repeat
+*** 1999 - Slipknot
+*** 2001 - Iowa
+*** 2004 - Vol. 3 The Subliminal Verses
+*** 2005 - 9.0. Live
+*** 2005 - 9.0. Live/CD1
+*** 2005 - 9.0. Live/CD2
+*** 2008 - All Hope Is Gone
+*** 2012 - Antennas To Hell The Best Of Slipknot (Special Edition)
+*** 2014 -  .5 The Gray Chapter
+*** 2017 - Day Of The Gusano (Live In Mexico)
+*** 2019 - We Are Not Your Kind
+** spiritualized
+*** Ladies_and_Gentlemen_We_Are_Floating_In_Space
+*** Let_It_Come_Down
 ** stereophonics
-
-** sun araw
-
-** the beach boys
-
-** the heavy
-
-** the kinks
-
-** the national
-
+*** 1997 - Word Gets Around
+*** 1999 - Performance And Cocktails [Deluxe Edition] Reissue 2CD
+*** 2001 - Just Enough Education To Perform
+*** 2003 - You Gotta Go There To Come Back
+*** 2005 - Language. Sex. Violence. Other
+*** 2007 - Pull The Pin
+*** 2010 - Keep Calm And Carry On [Japanese Edition]
+*** 2013 - Graffiti On The Train [Deluxe Edition]
+*** 2015 - Keep The Village Alive (Japanese Limited Deluxe Edition) - (320 kbps)
+*** 2017 - Scream Above The Sounds (Deluxe Edition)/jk
+*** 2019 - Kind (Deluxe)
+** sun_araw
+** supergiant
+** system_of_a_down
+*** (1998) System Of A Down - System Of A Down [16Bit-44.1kHz]
+*** (2001) System Of A Down - Toxicity [16Bit-44.1kHz]
+*** (2002) System Of A Down - Steal This Album! [16Bit-44.1kHz]
+*** (2005) System Of A Down - B.Y.O.B. [16Bit-44.1kHz]
+*** (2005) System Of A Down - Hypnotize [16Bit-44.1kHz]
+*** (2005) System Of A Down - Mezmerize [16Bit-44.1kHz]
+*** (2020) System Of A Down - Protect The Land  Genocidal Humanoidz [24Bit-96kHz]
+** tame_impala
+*** Albums (CD)
+**** 2011 - InnerSpeaker (Deluxe Limited Edition) - (320 kbps)
+**** 2011 - InnerSpeaker (Deluxe Limited Edition) - (320 kbps)/CD 1 - InnerSpeaker
+**** 2011 - InnerSpeaker (Deluxe Limited Edition) - (320 kbps)/CD 2 - ExtraSpeaker
+**** 2011 - InnerSpeaker (Deluxe Limited Edition) - (320 kbps)/Scans
+**** 2012 - Lonerism (Deluxe Limited Edition) - (320 kbps)
+**** 2012 - Lonerism (Deluxe Limited Edition) - (320 kbps)/CD 1
+**** 2012 - Lonerism (Deluxe Limited Edition) - (320 kbps)/CD 2 - Rough Trade Bonus Disc
+**** 2012 - Lonerism (Deluxe Limited Edition) - (320 kbps)/Lonerism (Vinyl 7) (Single) - (320 kbps)
+**** 2012 - Lonerism (Deluxe Limited Edition) - (320 kbps)/Scans
+**** 2015 - Currents - (320 kbps)
+**** 2015 - Currents - (320 kbps)/Scans
+*** 2014 - Live Versions - (320 kbps)
+*** EPs
+**** 2008 - Tame Impala (Antares, Mira, Sun) (EP) - (320 kbps)
+**** 2008 - Tame Impala (EP) - (320 kbps)
+**** 2009 - Sundown Syndrome - Remember Me (EP) - (320 kbps)
+**** 2010 - Live At The Corner (EP) - (320 kbps)
+**** 2011 - Solitude Is Bliss (Remixes) (EP) - (320 kbps)
+**** 2011 - Why Won't You Make Up Your Mind (EP) - (320 kbps)
+**** 2012 - Elephant (EP) - (320 kbps)
+**** 2013 - Mind Mischief (EP) - (320 kbps)
+**** 2013 - Peace And Paranoia Tour 2013 (Vinyl EP) - (320 kbps)
+*** Singles
+**** 2009 - Sundown Syndrome (Vinyl 7)
+**** 2010 - Lucidity (CDS) - (320 kbps)
+**** 2011 - Lucidity (CDS Promo) - (320 kbps)
+**** 2011 - Lucidity (CDS Promo) - (320 kbps)/Scans
+**** 2012 - Apocalypse Dreams (Single) - (320 kbps)
+**** 2012 - Children Of The Moon (Feat. Tame Impala) (The Flaming Lips) - (320 kbps)
+**** 2013 - Feels Like We Only Go Backwards (Single) - (320 kbps)
+**** 2014 - Backwards (Feat. Kendrick Lamar) (Single) - (320 kbps)
+**** 2014 - Be Above It (Single) - (320 kbps)
+**** 2015 - 'Cause I'm A Man (Single) - (320 kbps)
+**** 2015 - Disciples (Single) - (320 kbps)
+**** 2015 - Eventually (Single) - (320 kbps)
+**** 2015 - It Is Not Meant To Be - (320 kbps)
+**** 2015 - It Is Not Meant To Be - (320 kbps)/Scans
+**** 2015 - Let It Happen (Single) - (320 kbps)
+** tears_for_fears
+** the_dead_south
+*** chains_and_stakes
+*** good_company
+*** illusion_and_doubt
+*** sugar_and_joy
+** the_gothic_archies
+*** The Tragic Treasury
+** the_heavy
+** the_kinks
+*** 1964 - Kinks
+*** 1965 - Kinda Kinks
+*** 1965 - The Kink Kontroversy
+*** 1966 - Face to face
+*** 1967 - Something else by the Kinks
+*** 1968 - Kinks are the village green preservation society
+*** 1969 - Arthur or the decline and fall of the british empire
+*** 1970 - Lola versus Powerman and the moneygoround
+*** 1971 - Muswell Hillbillies
+*** 1971 - Percy
+*** 1972 - Everybody's in show biz
+*** 1973 - Preservation Act 1
+*** 1974 - Preservation Act 2
+*** 1975 - Schoolboys in disgrace
+*** 1975 - Soap Opera
+*** 1977 - Sleepwalker
+*** 1978 - Misfits
+*** 1979 - Low budget
+*** 1981 - Give the people what they want
+*** 1983 - State of confusion
+*** 1984 - Word of mouth
+*** 1986 - Think visual
+*** 1989 - One for the road
+*** 1989 - Uk Jive
+*** 1992- You really got me - The very best of The Kinks
+*** 1992- You really got me - The very best of The Kinks/CD1
+*** 1992- You really got me - The very best of The Kinks/CD2
+*** 1993 - Phobia
+*** 1996 - To the bone
+*** 1996 - To the bone/CD1
+*** 1996 - To the bone/CD2
+*** 1997 - The great lost Kinks album
+*** 2001 - BBC Sessions 1964-1977
+*** 2001 - BBC Sessions 1964-1977/cd1
+*** 2001 - BBC Sessions 1964-1977/cd2
+** the_national
+*** High Violet
+** the_white_stripes
+*** Elephant
+*** Icky Thump
+** the_witcher
+** treme
+* Music Videos
 * Soundtracks
-
 ** albion
 
+** amanita
+*** Machinarium_Soundtrack_Preview
+*** machinarium_soundtrack_bonus_ep
+** Analogue A Hate Story 
 ** antichamber
 
 ** bastion
@@ -102,6 +745,8 @@
 
 ** dear esther
 
+** disasterpeace
+*** FEZ
 ** dusk
 
 ** environmental station alpha
@@ -123,11 +768,8 @@
 ** lisa
 
 ** little inferno
-
 ** machinarium
-
 ** machinarium preorder pack
-
 ** magicka
 
 ** metroid prime
@@ -160,24 +802,30 @@
 
 ** samarost 3
 
+** scanner_sombre
 ** secrets of raetikon
 
 ** shank
 
 ** sins of a solar empire
-
 ** sokobond
 
 ** space marine
 
+** space_marine
 ** splice
 
 ** stealth bastard
 
+** subnautica
+** supergiant
+** sword_and_sworcery_lp
 ** system shock 2
 
 ** teleglitch
 
+** the_daniel_pemberton_tv_orchestra
+*** Little_Big_Planet
 ** the gothic archies
 
 ** the sims 3
@@ -188,6 +836,8 @@
 
 ** tiny and big
 
+** toby_fox
+*** UNDERTALE_Soundtrack
 ** torchlight
 
 ** tower of guns
@@ -198,20 +848,51 @@
 
 ** typerider
 
-** undertale
-
 ** velocity
 
 ** waking mars
 
-** wizorb
+
+
+
+
+** widdly_2_diddly
+*** LISA_Soundtrack
 
 ** worms
+** xcom_2
+** x_rebirth
+** zeno_clash
+* Classical
+** arthur_grumiaux
+** arthur_grumiaux/Mozart_ Violin Concertos [Disc 1]
+** arthur_grumiaux/Mozart_ Violin Concertos [Disc 2]
+** bach
+** beethoven
+** brahms
+** brahms/Brahms_ Symphonies #2 & 3
+** brahms/Brahms_ Symphony #4 In E Minor, Op. 98
+** britten
+** britten/Britten_ Gloriana, 4 Sea Interludes, Sin
+** chopin_piano_concertos_nos._1_&_2
+** handel
+** johann_mertz_&_waltz_the_symphony
+** johann_mertz_&_waltz_the_symphony/Strauss_ Waltzes (Re-mastered)
+** juliam_bream
+** juliam_bream/The Ultimate Guitar Collection [Disc 1]
+** juliam_bream/The Ultimate Guitar Collection [Disc 2]
+** mendelssohn
+** mozart
+** mozart/Mozart_ Die Zauberflöte (Highlights)
+** mozart/Mozart_ Great Piano Concertos [Disc 1]
+** mozart/Mozart_ Great Piano Concertos [Disc 2]
+** mozart/Mozart_ The Piano Concertos
+** rachmaninov
+** rachmaninov/Rachmaninov_ Piano Concerto #2, Rhapsody
+** rodrigo
+** vivaldi
+** vivaldi/Vivaldi_ Guitar Concertos
+** vivaldi/magnificat_in_d
 
-** xcom 2
-
-** x rebirth
-
-** zeno clash
 
 * Links

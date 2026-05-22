@@ -2,14 +2,15 @@
 
 .. _root:
 
-============
-Bibliography
-============
+===========
+The Library
+===========
 
 .. contents:: Contents
    :local:
 
-Exported bibtex files and related documents.
+As the internet degrades, curation and pre-slop knowledge grows in importance.
+This is my collection.
 
 
 .. toctree::
