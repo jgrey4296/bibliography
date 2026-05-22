@@ -7,7 +7,7 @@ default:
     timeout: 10m
     
 include:
-    - local: .gitlab/ci/*.gitlab-ci.yml
+    - local: .gitlab/ci/*.yml
 
 stages:
     - .pre
