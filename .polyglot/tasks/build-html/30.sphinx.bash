@@ -8,11 +8,11 @@ source "$POLY_SRC/lib/lib.bash"
 [[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]] && source "$POLYGLOT_ROOT/.tasks/task-util.bash"
 
 
-builder="${POLYGLOT_SPHINX_BUILDER:-bibhtml}"
+builder="${POLYGLOT_SPINX_BUILDER:-html}"
 conf="${POLYGLOT_SPHINX_CONF_DIR:-$POLYGLOT_ROOT}"
 src="${POLYGLOT_SRC:-$POLYGLOT_ROOT}"
 out="${POLYGLOT_TEMP}"
-site_out="$out/site"
+site_out="$out/${builder}"
 
 while [[ $# -gt 0 ]]; do
     case $1 in
