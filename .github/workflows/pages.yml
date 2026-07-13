@@ -62,7 +62,7 @@ jobs:
         run: polyglot task build-html
       - name: build aisb subsite 
         run: >
-          polyglot task build
+          polyglot task build-html
           --conf ./plus/conferences_primary/aisb_
           --out aisb_
           ./plus/conferences_primary/aisb_
