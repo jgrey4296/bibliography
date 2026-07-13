@@ -52,6 +52,7 @@ jobs:
         run: |
           uv venv
           uv sync
+          direnv allow
       - name: Generate main report
         run: polyglot task report --collect main
       - name: build main site 

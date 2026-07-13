@@ -1,9 +1,10 @@
 # .gitignore -*- mode: Gitignore -*- 
-!/.polyglot/**
+~/.polyglot/**
+
 
 .DS_Store
 .idea
 *.log
 tmp/
-.temp/
+/.temp/
 __pycache__/
