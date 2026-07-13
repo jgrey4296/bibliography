@@ -52,7 +52,10 @@ jobs:
         run: |
           uv venv
           uv sync
+      - name: finalise env
+        run: |
           direnv allow
+          direnv export gha > "$GITHUB_ENV"
       - name: Generate main report
         run: polyglot task report --collect main
       - name: build main site 
