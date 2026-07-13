@@ -18,9 +18,9 @@ function check-environment () {
         echo -e "!-- No POLYGLOT_ROOT has been defined"
     fi
 
-    if [[ "$has_failed" -gt 0 ]]; then
-        fail "Missing EnvVars"
-    fi
+    [[ -n "$VIRTUAL_ENV" ]] || (( has_failed += 1 ))
+
+    [[ "$has_failed" -eq 0 ]] || fail "Missing EnvVars"
 }
 
 check-environment

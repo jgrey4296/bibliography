@@ -36,6 +36,7 @@ done
 
 
 subhead "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$site_out)"
+# todo: 'refresh' option
     # --verbose \
 (uv run sphinx-build \
     --fresh-env \
@@ -46,3 +47,4 @@ subhead "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$site_out)"
     --builder "$builder" \
     "$src" "$site_out"
  ) || fail "Sphinx Build Failed"
+

@@ -55,7 +55,7 @@ jobs:
       - name: Generate main report
         run: polyglot task report --collect main
       - name: build main site 
-        run: polyglot task build
+        run: polyglot task build-html
       - name: build aisb subsite 
         run: >
           polyglot task build
