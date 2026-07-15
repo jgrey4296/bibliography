@@ -8,11 +8,11 @@ source "$POLY_SRC/lib/lib.bash"
 [[ -e "$POLYGLOT_ROOT/.tasks/task-util.bash" ]] && source "$POLYGLOT_ROOT/.tasks/task-util.bash"
 
 
-builder="${POLYGLOT_SPINX_BUILDER:-html}"
+builder="${POLYGLOT_SPHINX_BUILDER:-html}"
 conf="${POLYGLOT_SPHINX_CONF_DIR:-$POLYGLOT_ROOT}"
 src="${POLYGLOT_SRC:-$POLYGLOT_ROOT}"
 out="${POLYGLOT_TEMP}"
-site_out="$out/${builder}"
+site_out="$out/html"
 
 while [[ $# -gt 0 ]]; do
     case $1 in
@@ -36,6 +36,7 @@ done
 
 
 subhead "Building:\n- (conf:$conf)\n- (src:$src)\n->(out:$site_out)"
+subhead "Builder: $builder"
 # todo: 'refresh' option
     # --verbose \
 (uv run sphinx-build \

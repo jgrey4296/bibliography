@@ -28,7 +28,7 @@ server = [
 prerelease="allow"
 
 [tool.uv.sources]
-# sphinx-bib-domain = { path = "/media/john/data/github/python/sphinx_bib_domain", editable = true }
+# sphinx-bib-domain = { path = "/media/data/github/python/sphinx_bib_domain", editable = true }
 sphinx-bib-domain = { git = "https://github.com/jgrey4296/sphinx_bib_domain" }
 
 ##-- mypy

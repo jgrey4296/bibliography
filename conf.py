@@ -83,7 +83,6 @@ root_doc                       = "index"
 primary_domain                 = "bibtex"
 default_role                   = None
 
-root_doc                       = "index"
 suppress_warnings               = [
     "docutils",
 ]
