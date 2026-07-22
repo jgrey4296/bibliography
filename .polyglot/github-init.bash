@@ -20,7 +20,3 @@ fi
 
 asdf install
 asdf reshim
-
-direnv allow
-echo "- Updating Github Environment"
-direnv export gha >> "$GITHUB_ENV"
