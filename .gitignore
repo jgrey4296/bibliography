@@ -1,5 +1,5 @@
 # .gitignore -*- mode: Gitignore -*- 
-~/.polyglot/**
+!/.polyglot/**
 
 
 .DS_Store
