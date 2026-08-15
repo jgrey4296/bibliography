@@ -13,7 +13,6 @@ source="${1:-$BIBLIO_LIB}"
 target="${2:-$BIBLIO_BKUP}"
 
 subhead "Source: $source"
-echo "->"
 subhead "Target: $target"
 
 if [[ -z "$source" ]] || [[ -z "$target" ]]; then

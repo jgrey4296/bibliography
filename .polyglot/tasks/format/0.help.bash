@@ -10,7 +10,7 @@ set -o pipefail
 [[ -e "$(poly-dir)/task-util.bash" ]] && source "$(poly-dir)/task-util.bash"
 
 HELP_TEXT="
-usage: polyglot task format [args ...] [-h]
+usage: polyglot task format [args] [targets...] [-h]
 
 Format bibtex files.
 

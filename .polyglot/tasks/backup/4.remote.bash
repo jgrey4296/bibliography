@@ -12,7 +12,7 @@ set -o pipefail
 subhead "Backup up to remote"
 
 source="${1:-$BIBLIO_LIB}"
-target="john@192.168.1.216:/media/users/documents_bkup/library"
+target="john@192.168.1.216:/media/documents_bkup/library"
 
 subhead "Source: $source"
 echo "->"
