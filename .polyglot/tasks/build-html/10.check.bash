@@ -9,18 +9,21 @@ set -o pipefail
 # shellcheck disable=SC1091
 [[ -e "$(poly-dir)/task-util.bash" ]] && source "$(poly-dir)/task-util.bash"
 
+
 function check-environment () {
     subhead "Checking Environment"
-    has_failed=0
+    has_failed=()
 
     if [[ -z "${POLYGLOT_ROOT:-}" ]]; then
-        has_failed=1
-        echo -e "!-- No POLYGLOT_ROOT has been defined"
+        has_failed+=("POLYGLOT_ROOT")
     fi
 
-    [[ -n "${VIRTUAL_ENV:-}" ]] || (( has_failed += 1 ))
+    if [[ -z "${VIRTUAL_ENV:-}" ]]; then
+        has_failed+=("VIRTUAL_ENV")
+    fi
 
-    [[ "$has_failed" -eq 0 ]] || fail "Missing EnvVars"
+    [[ -z "${has_failed[@]:-}" ]] || fail "Missing EnvVars: ${has_failed[*]}"
 }
+
 
 check-environment
