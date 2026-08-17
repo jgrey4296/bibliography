@@ -51,6 +51,8 @@ jobs:
           ./.polyglot/github-init.bash
       - name: setup python
         run: |
+          direnv allow
+          direnv export gha > "$GITHUB_ENV"
           uv venv
           uv sync
       - name: finalise env

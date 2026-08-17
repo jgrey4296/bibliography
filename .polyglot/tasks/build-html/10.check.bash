@@ -25,5 +25,4 @@ function check-environment () {
     [[ -z "${has_failed[@]:-}" ]] || fail "Missing EnvVars: ${has_failed[*]}"
 }
 
-
 check-environment
