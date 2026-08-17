@@ -11,16 +11,13 @@ set -o pipefail
 
 function check-environment () {
     subhead "Checking Environment"
-    has_failed=0
+    has_failed=()
 
     if [[ -z "${POLYGLOT_ROOT:-}" ]]; then
-        has_failed=1
-        echo -e "!-- No POLYGLOT_ROOT has been defined"
+        has_failed+=("POLYGLOT_ROOT")
     fi
 
-    if [[ "$has_failed" -gt 0 ]]; then
-        fail "Missing EnvVars"
-    fi
+    [[ -z "${has_failed[@]:-}" ]] || fail "Missing EnvVars: ${has_failed[*]}"
 }
 
 check-environment

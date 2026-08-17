@@ -18,10 +18,6 @@ function check-environment () {
         has_failed+=("POLYGLOT_ROOT")
     fi
 
-    if [[ -z "${VIRTUAL_ENV:-}" ]]; then
-        has_failed+=("VIRTUAL_ENV")
-    fi
-
     [[ -z "${has_failed[@]:-}" ]] || fail "Missing EnvVars: ${has_failed[*]}"
 }
 

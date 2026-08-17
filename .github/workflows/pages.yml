@@ -46,23 +46,15 @@ jobs:
       - uses: asdf-vm/actions/setup@v4
       - name: setup polyglot
         run: |
-          asdf plugin add direnv
-          asdf install
           ./.polyglot/github-init.bash
-      - name: setup python
-        run: |
-          direnv allow
-          direnv export gha > "$GITHUB_ENV"
-          uv venv
-          uv sync
-      - name: finalise env
-        run: |
           direnv allow
           direnv export gha > "$GITHUB_ENV"
       - name: Generate main report
-        run: polyglot task report --collect main
+        run: |
+          polyglot task report --collect main
       - name: build main site 
-        run: polyglot task build-html
+        run: |
+          polyglot task build-html
       - name: build aisb subsite 
         run: >
           polyglot task build-html
